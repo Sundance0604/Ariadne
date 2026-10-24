@@ -1,0 +1,21 @@
+Structural checks passed
+PDF mapping: 535 distinct bars, 0 missing
+{
+  "method": "independent STFT audio chroma versus symbolic pitch classes",
+  "not_ground_truth": true,
+  "sample_rate": 11025,
+  "fft_length": 4096,
+  "hop_length": 1102,
+  "valid_pitched_samples": 4134,
+  "excluded_unpitched_samples": 49,
+  "median_aligned_cosine": 0.7652239221029322,
+  "median_shifted_cosine": {
+    "-8": 0.43989447282980193,
+    "8": 0.46389787373627717,
+    "-16": 0.402851799844386,
+    "16": 0.4155081123994001
+  },
+  "fraction_beating_all_four_shifted_alternatives": 0.6473149492017417,
+  "limitations": "Chroma cannot distinguish identical harmonies or establish note-accurate ground truth."
+}
+Validation and local review artifacts saved

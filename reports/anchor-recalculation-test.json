@@ -1,0 +1,11 @@
+{
+  "synthetic_constraint_not_human_ground_truth": true,
+  "real_inputs_used": true,
+  "exact_anchor_preserved": true,
+  "history_preserved": true,
+  "monotone_path": true,
+  "overwrite_protection": true,
+  "relative_output_path_supported": true,
+  "output": "tmp/alignment-anchor-test-230744.json",
+  "runtime_seconds": 14.423373099998571
+}

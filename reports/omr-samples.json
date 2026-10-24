@@ -1,0 +1,38 @@
+[
+  {
+    "path": "output/omr/samples/modern-ending.mxl",
+    "parts": 21,
+    "measure_counts_per_part": [
+      5
+    ],
+    "note_elements": 574,
+    "pitched_elements": 293
+  },
+  {
+    "path": "output/omr/samples/modern-opening.mxl",
+    "parts": 23,
+    "measure_counts_per_part": [
+      3
+    ],
+    "note_elements": 127,
+    "pitched_elements": 60
+  },
+  {
+    "path": "output/omr/samples/scan-ending.mxl",
+    "parts": 21,
+    "measure_counts_per_part": [
+      5
+    ],
+    "note_elements": 393,
+    "pitched_elements": 345
+  },
+  {
+    "path": "output/omr/samples/scan-opening.mxl",
+    "parts": 25,
+    "measure_counts_per_part": [
+      3
+    ],
+    "note_elements": 196,
+    "pitched_elements": 138
+  }
+]

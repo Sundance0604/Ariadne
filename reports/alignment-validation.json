@@ -1,0 +1,61 @@
+{
+  "structural_checks_passed": true,
+  "measure_count": 535,
+  "pdf_distinct_measure_count": 535,
+  "pdf_missing": [],
+  "pdf_issues": [
+    {
+      "page": 10,
+      "system": 0,
+      "reason": "barline_count_does_not_match_next_printed_number",
+      "printed_start": 32,
+      "next_start": 37,
+      "bar_count": 2
+    }
+  ],
+  "independent_diagnostic": {
+    "method": "independent STFT audio chroma versus symbolic pitch classes",
+    "not_ground_truth": true,
+    "sample_rate": 11025,
+    "fft_length": 4096,
+    "hop_length": 1102,
+    "valid_pitched_samples": 4134,
+    "excluded_unpitched_samples": 49,
+    "median_aligned_cosine": 0.7652239221029322,
+    "median_shifted_cosine": {
+      "-8": 0.43989447282980193,
+      "8": 0.46389787373627717,
+      "-16": 0.402851799844386,
+      "16": 0.4155081123994001
+    },
+    "fraction_beating_all_four_shifted_alternatives": 0.6473149492017417,
+    "limitations": "Chroma cannot distinguish identical harmonies or establish note-accurate ground truth."
+  },
+  "review_clips": [
+    {
+      "path": "output/alignment/review-opening.wav",
+      "recording_start_seconds": 0,
+      "recording_end_seconds": 45,
+      "left": "recording (normalized)",
+      "right": "warped sine-note reference"
+    },
+    {
+      "path": "output/alignment/review-cadenza.wav",
+      "recording_start_seconds": 130,
+      "recording_end_seconds": 185,
+      "left": "recording (normalized)",
+      "right": "warped sine-note reference"
+    },
+    {
+      "path": "output/alignment/review-ending.wav",
+      "recording_start_seconds": 1080,
+      "recording_end_seconds": 1096,
+      "left": "recording (normalized)",
+      "right": "warped sine-note reference"
+    }
+  ],
+  "playback_midi_reopened": true,
+  "playback_midi_duration_seconds": 1088.8600000000001,
+  "human_ground_truth_available": false,
+  "elapsed_seconds": 9.106579200015403
+}

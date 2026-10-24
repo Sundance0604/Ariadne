@@ -1,0 +1,71 @@
+{
+  "structural_checks_passed": true,
+  "measure_count": 309,
+  "pdf_page_count": 35,
+  "pdf_system_count": 53,
+  "decoded_audio_frames": 43125096,
+  "decoded_audio_sample_rate": 44100,
+  "decoded_audio_duration_seconds": 977.8933333333333,
+  "independent_diagnostic": {
+    "method": "independent STFT chroma vs symbolic pitch classes",
+    "not_ground_truth": true,
+    "sample_rate": 11025,
+    "fft_length": 4096,
+    "hop_length": 1102,
+    "valid_pitched_samples": 3051,
+    "median_aligned_cosine": 0.8203146642534045,
+    "median_shifted_cosine": {
+      "-8": 0.4732189192096276,
+      "8": 0.4904700981335609,
+      "-16": 0.4659279518433302,
+      "16": 0.4369674924493302
+    },
+    "fraction_beating_all_four_shifted_alternatives": 0.6001311045558834,
+    "regions": {
+      "opening": {
+        "valid_samples": 531,
+        "aligned_cosine_median": 0.8521697185234637,
+        "fraction_beating_four_shifted_alternatives": 0.5969868173258004
+      },
+      "middle": {
+        "valid_samples": 1001,
+        "aligned_cosine_median": 0.7906012655379929,
+        "fraction_beating_four_shifted_alternatives": 0.5604395604395604
+      },
+      "ending": {
+        "valid_samples": 274,
+        "aligned_cosine_median": 0.86809183206285,
+        "fraction_beating_four_shifted_alternatives": 0.6277372262773723
+      }
+    },
+    "limitations": "Chroma similarity cannot resolve repeated notes, identical harmonies or note-accurate timing."
+  },
+  "review_clips": [
+    {
+      "path": "works/lark-ascending/output/review-opening.wav",
+      "recording_start_seconds": 0,
+      "recording_end_seconds": 55,
+      "left": "normalized recording",
+      "right": "warped sine-note reference"
+    },
+    {
+      "path": "works/lark-ascending/output/review-middle.wav",
+      "recording_start_seconds": 455,
+      "recording_end_seconds": 490,
+      "left": "normalized recording",
+      "right": "warped sine-note reference"
+    },
+    {
+      "path": "works/lark-ascending/output/review-ending.wav",
+      "recording_start_seconds": 930,
+      "recording_end_seconds": 977.893,
+      "left": "normalized recording",
+      "right": "warped sine-note reference"
+    }
+  ],
+  "human_ground_truth_available": false,
+  "review_counts": {
+    "needs_review": 98,
+    "unreviewed": 211
+  }
+}

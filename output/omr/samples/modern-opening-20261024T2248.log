@@ -1,0 +1,104 @@
+2026-10-24 22:48:23,582 INFO [modern-opening]                 Book.java:560  | 1 sheet in D:\mycodelife\workshop\AI\classicMusic\tmp\omr\modern-opening.png
+2026-10-24 22:48:23,648 INFO []                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:48:23,649 INFO []                 Book.java:2525 | Book stored as output\omr\samples\modern-opening.omr
+2026-10-24 22:48:23,651 INFO []                 Book.java:1929 | Book reaching PAGE on sheets:[#1]
+2026-10-24 22:48:23,652 INFO [modern-opening]       StepMonitoring.java:98   | LOAD
+2026-10-24 22:48:23,765 INFO [modern-opening]            SheetStub.java:1278 | Loaded image #1 3509x4963 from D:\mycodelife\workshop\AI\classicMusic\tmp\omr\modern-opening.png
+2026-10-24 22:48:23,783 INFO [modern-opening]            ImageUtil.java:152  | Converting max RGB to gray
+2026-10-24 22:48:24,002 INFO [modern-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:48:24,089 INFO [modern-opening]           DataHolder.java:348  | Stored /sheet#1/GRAY.png
+2026-10-24 22:48:24,183 INFO [modern-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:48:24,185 INFO [modern-opening]       StepMonitoring.java:98   | BINARY
+2026-10-24 22:48:24,682 INFO [modern-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:48:24,683 INFO [modern-opening]           DataHolder.java:256  | Removed /sheet#1/GRAY.png
+2026-10-24 22:48:24,754 INFO [modern-opening]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2026-10-24 22:48:24,755 INFO [modern-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:48:24,756 INFO [modern-opening]       StepMonitoring.java:98   | SCALE
+2026-10-24 22:48:24,772 INFO [modern-opening]         ScaleBuilder.java:254  | Beam  guessed height:  9 -- 0.25 of [7..14] range
+2026-10-24 22:48:24,773 INFO [modern-opening]         ScaleBuilder.java:271  | Beam measured height:  8 -- 0.14 of [7..14] range at 93% of needed quorum
+2026-10-24 22:48:24,773 INFO [modern-opening]         ScaleBuilder.java:401  | Normalized black jitter: 6.67 %
+2026-10-24 22:48:24,773 INFO [modern-opening]            ScaleStep.java:65   | Scale{ interline(15,15,16) line(1,2,2) beam(8)}
+2026-10-24 22:48:24,775 INFO [modern-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:48:24,776 INFO [modern-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:48:24,778 INFO [modern-opening]       StepMonitoring.java:98   | GRID
+2026-10-24 22:48:24,992 INFO [modern-opening]       LinesRetriever.java:1508 | Global slope: 0.00000
+2026-10-24 22:48:25,032 INFO [modern-opening]    ClustersRetriever.java:326  | Retrieved raw line clusters: 25 of sizes [5] with interline(15,15,16)
+2026-10-24 22:48:25,157 INFO [modern-opening]            PeakGraph.java:310  | Systems: #1[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
+2026-10-24 22:48:25,163 INFO [modern-opening]        BarsRetriever.java:1807 | too wide bracePeak Peak{405-470 T#5 [BRACE]}
+2026-10-24 22:48:25,195 INFO [modern-opening]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{437-471 F#1505 T#6 [BRACE]}
+2026-10-24 22:48:25,195 INFO [modern-opening]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{448-471 F#1506 T#7 [BRACE, BRACE_BOTTOM]}
+2026-10-24 22:48:25,196 INFO [modern-opening]        BarsRetriever.java:1305 | System#1
+2026-10-24 22:48:25,196 INFO [modern-opening]        BarsRetriever.java:1308 |    PartGroup{bracket number:1 barline:true staves:1-15}
+2026-10-24 22:48:25,196 INFO [modern-opening]        BarsRetriever.java:1308 |    PartGroup{bracket number:1 barline:true staves:20-25}
+2026-10-24 22:48:25,362 INFO [modern-opening]        SystemManager.java:800  | 23 parts along 1 system
+2026-10-24 22:48:25,362 INFO [modern-opening]                 Book.java:543  | Created scores: [{Score 1}]
+2026-10-24 22:48:25,366 INFO [modern-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:48:25,515 INFO [modern-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:48:25,517 INFO [modern-opening]       StepMonitoring.java:98   | HEADERS
+2026-10-24 22:48:25,961 INFO [modern-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:48:26,048 INFO [modern-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:48:26,052 INFO [modern-opening]       StepMonitoring.java:98   | STEM_SEEDS
+2026-10-24 22:48:26,108 INFO [modern-opening]        StemSeedsStep.java:86   | stem(2 max:4)
+2026-10-24 22:48:26,136 INFO [modern-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:48:26,218 INFO [modern-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:48:26,220 INFO [modern-opening]       StepMonitoring.java:98   | BEAMS
+2026-10-24 22:48:28,311 INFO [modern-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:48:28,377 INFO [modern-opening]           DataHolder.java:348  | Stored /sheet#1/HEAD_SPOTS.png
+2026-10-24 22:48:28,554 INFO [modern-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:48:28,556 INFO [modern-opening]       StepMonitoring.java:98   | LEDGERS
+2026-10-24 22:48:28,679 INFO [modern-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:48:28,857 INFO [modern-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:48:28,860 INFO [modern-opening]       StepMonitoring.java:98   | HEADS
+2026-10-24 22:48:32,188 INFO [modern-opening]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[R:0.5] NOTEHEAD_BLACK[R:0.3]}
+2026-10-24 22:48:32,191 INFO [modern-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:48:32,192 INFO [modern-opening]           DataHolder.java:256  | Removed /sheet#1/HEAD_SPOTS.png
+2026-10-24 22:48:32,323 INFO [modern-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:48:32,326 INFO [modern-opening]       StepMonitoring.java:98   | STEMS
+2026-10-24 22:48:32,816 INFO [modern-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:48:32,978 INFO [modern-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:48:32,980 INFO [modern-opening]       StepMonitoring.java:98   | REDUCTION
+2026-10-24 22:48:33,010 INFO [modern-opening]        ReductionStep.java:105  | Stems free length median value: 54 pixels, 3.6 interlines
+2026-10-24 22:48:33,013 INFO [modern-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:48:33,122 INFO [modern-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:48:33,124 INFO [modern-opening]       StepMonitoring.java:98   | CUE_BEAMS
+2026-10-24 22:48:33,124 INFO [modern-opening]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-10-24 22:48:33,127 INFO [modern-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:48:33,229 INFO [modern-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:48:33,231 INFO [modern-opening]       StepMonitoring.java:98   | TEXTS
+2026-10-24 22:48:33,911 INFO [modern-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:48:34,076 INFO [modern-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:48:34,078 INFO [modern-opening]       StepMonitoring.java:98   | MEASURES
+2026-10-24 22:48:34,082 INFO [modern-opening]                 Page.java:307  | 3 raw measures: [3 in system#1]
+2026-10-24 22:48:34,084 INFO [modern-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:48:34,249 INFO [modern-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:48:34,252 INFO [modern-opening]       StepMonitoring.java:98   | CHORDS
+2026-10-24 22:48:34,260 INFO [modern-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:48:34,424 INFO [modern-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:48:34,425 INFO [modern-opening]       StepMonitoring.java:98   | CURVES
+2026-10-24 22:48:35,023 INFO [modern-opening]         SlursBuilder.java:240  | Slurs: 20
+2026-10-24 22:48:35,038 INFO [modern-opening]      SegmentsBuilder.java:155  | Segments: 2
+2026-10-24 22:48:35,056 INFO [modern-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:48:35,334 INFO [modern-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:48:35,335 INFO [modern-opening]       StepMonitoring.java:98   | SYMBOLS
+2026-10-24 22:48:35,566 INFO [modern-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:48:35,904 INFO [modern-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:48:35,906 INFO [modern-opening]       StepMonitoring.java:98   | LINKS
+2026-10-24 22:48:35,937 INFO [modern-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:48:36,284 INFO [modern-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:48:36,286 INFO [modern-opening]       StepMonitoring.java:98   | RHYTHMS
+2026-10-24 22:48:36,312 INFO [modern-opening]        MeasureRhythm.java:1044 | Measure{#2P22} No timeOffset for HeadChordInter#3568{(0.956/0.956) staff:24 slot#13 dur:1/16}
+2026-10-24 22:48:36,313 INFO [modern-opening]          StackRhythm.java:224  | S1 MeasureStack#2 no correct rhythm
+2026-10-24 22:48:36,317 INFO [modern-opening]        MeasureRhythm.java:1044 | Measure{#3P22} No timeOffset for HeadChordInter#3586{(0.973/0.973) staff:24 slot#13 dur:1/16}
+2026-10-24 22:48:36,318 INFO [modern-opening]          StackRhythm.java:224  | S1 MeasureStack#3 no correct rhythm
+2026-10-24 22:48:36,321 INFO [modern-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:48:36,670 INFO [modern-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:48:36,673 INFO [modern-opening]       StepMonitoring.java:98   | PAGE
+2026-10-24 22:48:36,679 INFO [modern-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:48:37,031 INFO [modern-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:48:37,034 INFO [modern-opening]            SheetStub.java:1655 | Sheet disposed
+2026-10-24 22:48:37,054 INFO [modern-opening]                 Book.java:2050 | End of Stub#1
+2026-10-24 22:48:37,055 INFO [modern-opening]                 Book.java:2057 | End of Book{modern-opening}
+2026-10-24 22:48:37,312 INFO [modern-opening]            SheetStub.java:1000 | Loaded /sheet#1/sheet#1.xml
+2026-10-24 22:48:37,464 INFO [modern-opening]      PartwiseBuilder.java:2707 | Exporting sheet(s): [#1]
+2026-10-24 22:48:37,514 INFO [modern-opening]        ScoreExporter.java:164  | Score modern-opening exported to output\omr\samples\modern-opening.mxl
+2026-10-24 22:48:37,545 INFO [modern-opening]                Score.java:181  | Closing {Score 1}

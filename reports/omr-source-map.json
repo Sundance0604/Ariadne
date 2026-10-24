@@ -1,0 +1,42 @@
+[
+  {
+    "sample_id": "modern-opening",
+    "pdf_path": "resource/ravel left hand piano concerto/maurice-ravel-piano-concerto-for-the-left-hand.pdf",
+    "pdf_sha256": "67aa60cc89160ea7e475fd7fa45352ec6e0c45f6cd3557421d8caafc18531083",
+    "physical_page": 1,
+    "render_dpi": 300,
+    "omr_path": "output/omr/samples/modern-opening.omr",
+    "musicxml_path": "output/omr/samples/modern-opening.mxl",
+    "review_status": "unreviewed"
+  },
+  {
+    "sample_id": "modern-ending",
+    "pdf_path": "resource/ravel left hand piano concerto/maurice-ravel-piano-concerto-for-the-left-hand.pdf",
+    "pdf_sha256": "67aa60cc89160ea7e475fd7fa45352ec6e0c45f6cd3557421d8caafc18531083",
+    "physical_page": 100,
+    "render_dpi": 300,
+    "omr_path": "output/omr/samples/modern-ending.omr",
+    "musicxml_path": "output/omr/samples/modern-ending.mxl",
+    "review_status": "unreviewed"
+  },
+  {
+    "sample_id": "scan-opening",
+    "pdf_path": "resource/ravel left hand piano concerto/IMSLP01581-Ravel_-_Piano_Concerto_for_the_Left_Hand_(Orchestral_Score).pdf",
+    "pdf_sha256": "4ef405bb68ad16fbd8011af6a3e9f19de104b1631accfbd8661bd59fa3b4e149",
+    "physical_page": 3,
+    "render_dpi": 300,
+    "omr_path": "output/omr/samples/scan-opening.omr",
+    "musicxml_path": "output/omr/samples/scan-opening.mxl",
+    "review_status": "unreviewed"
+  },
+  {
+    "sample_id": "scan-ending",
+    "pdf_path": "resource/ravel left hand piano concerto/IMSLP01581-Ravel_-_Piano_Concerto_for_the_Left_Hand_(Orchestral_Score).pdf",
+    "pdf_sha256": "4ef405bb68ad16fbd8011af6a3e9f19de104b1631accfbd8661bd59fa3b4e149",
+    "physical_page": 99,
+    "render_dpi": 300,
+    "omr_path": "output/omr/samples/scan-ending.omr",
+    "musicxml_path": "output/omr/samples/scan-ending.mxl",
+    "review_status": "unreviewed"
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "format_version": "1.0.0",
+  "project_id": "lark-ascending-local-test",
+  "title": "沃恩·威廉斯《云雀高飞》",
+  "created_at": "2026-10-25T00:26:02.204683+08:00",
+  "inputs": [
+    {
+      "kind": "mp3",
+      "path": "resource/Lark Ascending/Hilary Hahn,London Symphony Orchestra,Sir Colin Davis - The Lark Ascending.mp3",
+      "bytes": 39119378,
+      "sha256": "f70ba2d70824e79682b8c3731b73b51a3c0f8872555a5a17213c8c9bbc223e42"
+    },
+    {
+      "kind": "midi",
+      "path": "resource/Lark Ascending/lark-ascending.mid",
+      "bytes": 71643,
+      "sha256": "3c74030d2a7f7121714557291b737a63d3e1d23a05e9a7d4e7c2a37c412b7cb1"
+    },
+    {
+      "kind": "pdf",
+      "path": "resource/Lark Ascending/lark-ascending.pdf",
+      "bytes": 428167,
+      "sha256": "0677cdce067fc3da380f6f7bf2d0ad5be54557b50abdf1c2eef6f61cc4ed6824"
+    },
+    {
+      "kind": "markdown",
+      "path": "resource/Lark Ascending/Lark_Ascending_Full_Analysis.md",
+      "bytes": 26016,
+      "sha256": "9e64b12e25ea667fb8a498d7d6830c8bf4ecfbc21aec294d9f4028ef734b5f14"
+    }
+  ],
+  "privacy": {
+    "processing": "local_only",
+    "media_uploaded": false
+  },
+  "files": {
+    "alignment": "works/lark-ascending/alignment.json",
+    "measure_map": "works/lark-ascending/measure-map.json",
+    "recording_metadata": "works/lark-ascending/metadata/recording.json",
+    "analysis_annotations": "works/lark-ascending/analysis/annotations.json"
+  },
+  "processing_status": {
+    "input_audit": "complete",
+    "midi_auxiliary_full_recording_alignment": "candidate_ready",
+    "pdf_geometry_mapping": "bar_and_shared_region_candidates",
+    "pdf_omr": "not_run",
+    "human_listening_review": "pending",
+    "musicological_analysis": "editorially_revised_by_separate_workflow",
+    "m4a": "suspended_by_user"
+  },
+  "review_counts": {
+    "needs_review": 98,
+    "unreviewed": 211
+  },
+  "pdf_resolution_counts": {
+    "bar": 216,
+    "cadenza_region": 63,
+    "system_candidate": 30
+  },
+  "limitations": [
+    "Only supplied MIDI-assisted route completed; no full PDF OMR-only result.",
+    "93 MIDI candidate intervals share cadenza/system rectangles; no invented barlines.",
+    "Pages 27–28 have a contour-derived candidate page boundary requiring human review.",
+    "Audio listening and browser playback not human-verified."
+  ]
+}

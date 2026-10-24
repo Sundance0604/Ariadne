@@ -1,0 +1,104 @@
+2026-10-24 22:57:41,394 INFO [scan-opening]                 Book.java:560  | 1 sheet in D:\mycodelife\workshop\AI\classicMusic\tmp\omr\scan-opening.png
+2026-10-24 22:57:41,466 INFO []                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:57:41,466 INFO []                 Book.java:2525 | Book stored as output\omr\samples\scan-opening.omr
+2026-10-24 22:57:41,469 INFO []                 Book.java:1929 | Book reaching PAGE on sheets:[#1]
+2026-10-24 22:57:41,470 INFO [scan-opening]       StepMonitoring.java:98   | LOAD
+2026-10-24 22:57:41,561 INFO [scan-opening]            SheetStub.java:1278 | Loaded image #1 2700x3600 from D:\mycodelife\workshop\AI\classicMusic\tmp\omr\scan-opening.png
+2026-10-24 22:57:41,563 INFO [scan-opening]            ImageUtil.java:152  | Converting max RGB to gray
+2026-10-24 22:57:41,697 INFO [scan-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:57:41,770 INFO [scan-opening]           DataHolder.java:348  | Stored /sheet#1/GRAY.png
+2026-10-24 22:57:41,889 INFO [scan-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:57:41,891 INFO [scan-opening]       StepMonitoring.java:98   | BINARY
+2026-10-24 22:57:42,194 INFO [scan-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:57:42,194 INFO [scan-opening]           DataHolder.java:256  | Removed /sheet#1/GRAY.png
+2026-10-24 22:57:42,241 INFO [scan-opening]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2026-10-24 22:57:42,242 INFO [scan-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:57:42,243 INFO [scan-opening]       StepMonitoring.java:98   | SCALE
+2026-10-24 22:57:42,259 INFO [scan-opening]         ScaleBuilder.java:254  | Beam  guessed height:  7 -- 0.25 of [5..11] range
+2026-10-24 22:57:42,260 INFO [scan-opening]         ScaleBuilder.java:271  | Beam measured height:  9 -- 0.67 of [5..11] range at 105% of needed quorum
+2026-10-24 22:57:42,260 INFO [scan-opening]         ScaleBuilder.java:401  | Normalized black jitter: 16.67 %
+2026-10-24 22:57:42,260 INFO [scan-opening]            ScaleStep.java:65   | Scale{ interline(11,12,13) line(3,4,5) beam(9)}
+2026-10-24 22:57:42,262 INFO [scan-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:57:42,263 INFO [scan-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:57:42,265 INFO [scan-opening]       StepMonitoring.java:98   | GRID
+2026-10-24 22:57:43,149 INFO [scan-opening]       LinesRetriever.java:1508 | Global slope: 0.00000
+2026-10-24 22:57:43,192 INFO [scan-opening]    ClustersRetriever.java:326  | Retrieved raw line clusters: 25 of sizes [5] with interline(11,12,13)
+2026-10-24 22:57:43,366 INFO [scan-opening]            PeakGraph.java:310  | Systems: #1[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
+2026-10-24 22:57:43,384 WARN [scan-opening]        BarsRetriever.java:374  | Staff#18 expected brace middle/bottom
+2026-10-24 22:57:43,398 INFO [scan-opening]        BarsRetriever.java:1595 | Staff#1 serif normalized weight too small 0.16 vs 0.2
+2026-10-24 22:57:43,434 INFO [scan-opening]        BarsRetriever.java:1305 | System#1
+2026-10-24 22:57:43,434 INFO [scan-opening]        BarsRetriever.java:1308 |    PartGroup{brace number:1 barline:true staves:16-17}
+2026-10-24 22:57:43,434 INFO [scan-opening]        BarsRetriever.java:1308 |    PartGroup{brace number:1 barline:true staves:18-19}
+2026-10-24 22:57:43,434 INFO [scan-opening]        BarsRetriever.java:1308 |    PartGroup{bracket number:1 barline:true staves:20-21}
+2026-10-24 22:57:43,434 INFO [scan-opening]        BarsRetriever.java:1308 |    PartGroup{bracket number:1 barline:true staves:24-25}
+2026-10-24 22:57:43,988 INFO [scan-opening]        SystemManager.java:800  | 25 parts along 1 system
+2026-10-24 22:57:43,989 INFO [scan-opening]                 Book.java:543  | Created scores: [{Score 1}]
+2026-10-24 22:57:43,995 INFO [scan-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:57:44,340 INFO [scan-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:57:44,344 INFO [scan-opening]       StepMonitoring.java:98   | HEADERS
+2026-10-24 22:57:45,083 INFO [scan-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:57:45,338 INFO [scan-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:57:45,348 INFO [scan-opening]       StepMonitoring.java:98   | STEM_SEEDS
+2026-10-24 22:57:45,433 INFO [scan-opening]        StemSeedsStep.java:86   | stem(5 max:6)
+2026-10-24 22:57:45,508 INFO [scan-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:57:45,670 INFO [scan-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:57:45,675 INFO [scan-opening]       StepMonitoring.java:98   | BEAMS
+2026-10-24 22:57:48,638 INFO [scan-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:57:48,707 INFO [scan-opening]           DataHolder.java:348  | Stored /sheet#1/HEAD_SPOTS.png
+2026-10-24 22:57:48,931 INFO [scan-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:57:48,935 INFO [scan-opening]       StepMonitoring.java:98   | LEDGERS
+2026-10-24 22:57:49,157 INFO [scan-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:57:49,389 INFO [scan-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:57:49,393 INFO [scan-opening]       StepMonitoring.java:98   | HEADS
+2026-10-24 22:57:52,828 INFO [scan-opening]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:-1.1,R:-1.6] NOTEHEAD_BLACK[L:0.0,R:-0.5]}
+2026-10-24 22:57:52,833 INFO [scan-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:57:52,834 INFO [scan-opening]           DataHolder.java:256  | Removed /sheet#1/HEAD_SPOTS.png
+2026-10-24 22:57:53,394 INFO [scan-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:57:53,399 INFO [scan-opening]       StepMonitoring.java:98   | STEMS
+2026-10-24 22:57:57,659 INFO [scan-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:57:58,406 INFO [scan-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:57:58,410 INFO [scan-opening]       StepMonitoring.java:98   | REDUCTION
+2026-10-24 22:57:58,620 INFO [scan-opening]        ReductionStep.java:105  | Stems free length median value: 27 pixels, 2.3 interlines
+2026-10-24 22:57:58,632 INFO [scan-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:57:58,793 INFO [scan-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:57:58,799 INFO [scan-opening]       StepMonitoring.java:98   | CUE_BEAMS
+2026-10-24 22:57:58,800 INFO [scan-opening]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-10-24 22:57:58,804 INFO [scan-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:57:58,959 INFO [scan-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:57:58,964 INFO [scan-opening]       StepMonitoring.java:98   | TEXTS
+2026-10-24 22:58:01,673 INFO [scan-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:58:01,956 INFO [scan-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:58:01,960 INFO [scan-opening]       StepMonitoring.java:98   | MEASURES
+2026-10-24 22:58:01,968 INFO [scan-opening]                 Page.java:307  | 3 raw measures: [3 in system#1]
+2026-10-24 22:58:01,971 INFO [scan-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:58:02,268 INFO [scan-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:58:02,272 INFO [scan-opening]       StepMonitoring.java:98   | CHORDS
+2026-10-24 22:58:02,287 INFO [scan-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:58:02,574 INFO [scan-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:58:02,578 INFO [scan-opening]       StepMonitoring.java:98   | CURVES
+2026-10-24 22:58:03,654 INFO [scan-opening]         SlursBuilder.java:240  | Slurs: 15
+2026-10-24 22:58:03,731 INFO [scan-opening]      SegmentsBuilder.java:155  | Segments: 11
+2026-10-24 22:58:03,752 INFO [scan-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:58:04,181 INFO [scan-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:58:04,185 INFO [scan-opening]       StepMonitoring.java:98   | SYMBOLS
+2026-10-24 22:58:06,563 INFO [scan-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:58:07,155 INFO [scan-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:58:07,183 INFO [scan-opening]       StepMonitoring.java:98   | LINKS
+2026-10-24 22:58:07,186 INFO [scan-opening]        SentenceInter.java:463  | No chord near SentenceInter#8597{(0.538) staff:1 mFont:BS-64 Direction} Lento dz“)
+2026-10-24 22:58:07,197 INFO [scan-opening]             KeyInter.java:1331 | Key built KeyInter#10301{(0.779) staff:4 KEY_SHARP_1 pitch:-4.5 fifths:1}
+2026-10-24 22:58:07,237 INFO [scan-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:58:07,823 INFO [scan-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:58:07,827 INFO [scan-opening]       StepMonitoring.java:98   | RHYTHMS
+2026-10-24 22:58:07,883 INFO [scan-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:58:08,473 INFO [scan-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:58:08,478 INFO [scan-opening]       StepMonitoring.java:98   | PAGE
+2026-10-24 22:58:08,481 WARN [scan-opening]         MeasureFixer.java:343  | System#1 No target duration for measures local IDs [1, 2, 3], please check time signatures
+2026-10-24 22:58:08,486 INFO [scan-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-24 22:58:08,884 INFO [scan-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-24 22:58:08,888 INFO [scan-opening]            SheetStub.java:1655 | Sheet disposed
+2026-10-24 22:58:08,921 INFO [scan-opening]                 Book.java:2050 | End of Stub#1
+2026-10-24 22:58:08,921 INFO [scan-opening]                 Book.java:2057 | End of Book{scan-opening}
+2026-10-24 22:58:09,438 INFO [scan-opening]            SheetStub.java:1000 | Loaded /sheet#1/sheet#1.xml
+2026-10-24 22:58:09,771 INFO [scan-opening]      PartwiseBuilder.java:2707 | Exporting sheet(s): [#1]
+2026-10-24 22:58:09,878 INFO [scan-opening]        ScoreExporter.java:164  | Score scan-opening exported to output\omr\samples\scan-opening.mxl
+2026-10-24 22:58:09,928 INFO [scan-opening]                Score.java:181  | Closing {Score 1}

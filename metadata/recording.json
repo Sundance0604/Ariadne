@@ -1,0 +1,53 @@
+{
+  "format_version": "1.0.0",
+  "work": {
+    "work_id": "ravel-left-hand-concerto",
+    "title": "左手钢琴协奏曲",
+    "original_title": "Concerto pour la main gauche",
+    "composer": {
+      "name": "莫里斯·拉威尔",
+      "original_name": "Maurice Ravel"
+    },
+    "instrumentation": "左手钢琴与管弦乐"
+  },
+  "recording": {
+    "recording_id": "ravel-left-hand-zimerman-boulez-lso",
+    "soloists": [
+      {
+        "name": "克里斯蒂安·齐默尔曼",
+        "original_name": "Krystian Zimerman",
+        "role": "钢琴独奏"
+      }
+    ],
+    "conductor": {
+      "name": "皮埃尔·布列兹",
+      "original_name": "Pierre Boulez"
+    },
+    "ensemble": {
+      "name": "伦敦交响乐团",
+      "original_name": "London Symphony Orchestra",
+      "abbreviation": "LSO"
+    },
+    "album": "Ravel: Piano Concertos; Valses nobles et sentimentales",
+    "audio_sha256": "a9078597fef47f6ac99cf4d3241984721d1992a28ced3a97182f18c7de3f56d4",
+    "artist_information_source": "user_confirmed_and_mp3_id3",
+    "album_information_source": "mp3_id3"
+  },
+  "analysis_document": {
+    "document_id": "ravel-listening-edition-20261024",
+    "path": "resource/ravel left hand piano concerto/analysis/Ravel_Left_Hand_Concerto_Full_Analysis.md",
+    "pdf_sha256": "67aa60cc89160ea7e475fd7fa45352ec6e0c45f6cd3557421d8caafc18531083",
+    "review_status": "editorially_revised",
+    "editorial_note": "已改为成稿叙述，并按当前 PDF 纠正关键段落页码；不等于逐音符与录音同步全部验收。",
+    "reference_reading_status": {
+      "analysis-ref-11-1": "relevant_sections_checked",
+      "analysis-ref-11-2": "relevant_sections_checked",
+      "analysis-ref-11-3": "search_summary_only",
+      "analysis-ref-11-4": "not_read",
+      "analysis-ref-11-5": "not_read",
+      "analysis-ref-11-6": "not_read",
+      "analysis-ref-11-7": "programme_note_checked_with_conflicts",
+      "analysis-ref-11-8": "comparison_not_used"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "python": "3.14.6 | packaged by Anaconda, Inc. | (main, Jul  9 2026, 14:29:05) [MSC v.1942 64 bit (AMD64)]",
+  "executable": "C:\\Users\\32599\\.conda\\envs\\synctoolbox\\python.exe",
+  "packages": {
+    "synctoolbox": "1.4.2",
+    "numpy": "2.4.6",
+    "scipy": "1.18.1",
+    "numba": "0.65.1",
+    "librosa": "0.11.0",
+    "mido": "1.3.3",
+    "soundfile": "0.14.0"
+  },
+  "elapsed_seconds": 54.952035600086674
+}

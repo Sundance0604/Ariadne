@@ -1,0 +1,1151 @@
+[
+  {
+    "page_number": 1,
+    "system_index": 0,
+    "top": 94.08516287999998,
+    "bottom": 560.077164085815,
+    "left": 83.60517528,
+    "right": 567.1375135743187,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 1,
+    "boundaries": [
+      83.9,
+      188.4,
+      241.5
+    ],
+    "label_candidates": [
+      "1"
+    ]
+  },
+  {
+    "page_number": 2,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 273.89248808581476,
+    "left": 65.0039256,
+    "right": 567.1375145334323,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 6,
+    "boundaries": [
+      65.3
+    ],
+    "label_candidates": [
+      "6"
+    ]
+  },
+  {
+    "page_number": 2,
+    "system_index": 1,
+    "top": 331.8948528,
+    "bottom": 550.3704216858148,
+    "left": 65.0039256,
+    "right": 567.1375131941423,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 9,
+    "boundaries": [
+      65.3
+    ],
+    "label_candidates": [
+      "9"
+    ]
+  },
+  {
+    "page_number": 3,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 273.89248808581476,
+    "left": 65.0039256,
+    "right": 567.1375145692466,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 12,
+    "boundaries": [
+      65.3
+    ],
+    "label_candidates": [
+      "12"
+    ]
+  },
+  {
+    "page_number": 3,
+    "system_index": 1,
+    "top": 331.8948528,
+    "bottom": 550.3704216858148,
+    "left": 65.0039256,
+    "right": 567.1375137777355,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 15,
+    "boundaries": [
+      65.3,
+      157.4
+    ],
+    "label_candidates": [
+      "15"
+    ]
+  },
+  {
+    "page_number": 3,
+    "system_index": 2,
+    "top": 608.3727839999999,
+    "bottom": 623.8400808858147,
+    "left": 30.73516704,
+    "right": 567.1375136185704,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 23,
+    "boundaries": [
+      31.0,
+      566.8
+    ],
+    "label_candidates": [
+      "23"
+    ]
+  },
+  {
+    "page_number": 4,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 273.89248808581476,
+    "left": 65.0039256,
+    "right": 567.1375150005091,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 30,
+    "boundaries": [
+      65.3,
+      155.6,
+      219.9,
+      286.0,
+      355.6,
+      440.0,
+      513.0,
+      566.8
+    ],
+    "label_candidates": [
+      "30"
+    ]
+  },
+  {
+    "page_number": 4,
+    "system_index": 1,
+    "top": 331.8948528,
+    "bottom": 631.5737304858147,
+    "left": 65.0039256,
+    "right": 567.1375129781727,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 37,
+    "boundaries": [
+      65.3,
+      184.0,
+      267.2,
+      338.2,
+      408.8,
+      484.7,
+      566.8
+    ],
+    "label_candidates": [
+      "37"
+    ]
+  },
+  {
+    "page_number": 5,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 408.6693312858148,
+    "left": 65.0039256,
+    "right": 567.1375140101645,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 43,
+    "boundaries": [
+      65.3,
+      211.6,
+      337.5,
+      411.7,
+      463.7,
+      566.8
+    ],
+    "label_candidates": [
+      "43"
+    ]
+  },
+  {
+    "page_number": 5,
+    "system_index": 1,
+    "top": 458.3294592,
+    "bottom": 758.0083368858147,
+    "left": 65.0039256,
+    "right": 567.1375135270126,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 48,
+    "boundaries": [
+      65.3,
+      164.9,
+      248.7,
+      394.5,
+      478.3,
+      566.8
+    ],
+    "label_candidates": [
+      "48"
+    ]
+  },
+  {
+    "page_number": 6,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 361.66551848581486,
+    "left": 61.20367032,
+    "right": 567.1375133714017,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 53,
+    "boundaries": [
+      61.5,
+      185.9,
+      255.6,
+      353.1,
+      469.2,
+      566.8
+    ],
+    "label_candidates": [
+      "53"
+    ]
+  },
+  {
+    "page_number": 6,
+    "system_index": 1,
+    "top": 402.3031632,
+    "bottom": 758.0083368858147,
+    "left": 61.20367032,
+    "right": 567.137513485597,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 58,
+    "boundaries": [
+      61.5,
+      178.7,
+      280.3,
+      385.2,
+      468.9,
+      566.8
+    ],
+    "label_candidates": [
+      "58"
+    ]
+  },
+  {
+    "page_number": 7,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 517.6464408858149,
+    "left": 65.0039256,
+    "right": 567.1375149636405,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 63,
+    "boundaries": [
+      65.3,
+      211.4,
+      347.4,
+      414.7,
+      490.5,
+      566.8
+    ],
+    "label_candidates": [
+      "63"
+    ]
+  },
+  {
+    "page_number": 8,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 518.6217288858148,
+    "left": 65.0039256,
+    "right": 567.1375146761732,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 68,
+    "boundaries": [
+      65.3,
+      163.5,
+      215.0,
+      282.7,
+      367.4,
+      448.3,
+      503.4,
+      566.8
+    ],
+    "label_candidates": [
+      "68"
+    ]
+  },
+  {
+    "page_number": 9,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 437.93472728581486,
+    "left": 61.20367032,
+    "right": 567.1375133401897,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 75,
+    "boundaries": [
+      61.5,
+      159.0,
+      223.5,
+      298.6,
+      370.6,
+      425.9,
+      494.0,
+      566.8
+    ],
+    "label_candidates": [
+      "75"
+    ]
+  },
+  {
+    "page_number": 10,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 399.08538008581485,
+    "left": 61.20367032,
+    "right": 567.1375132080883,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 82,
+    "boundaries": [
+      61.5,
+      165.4,
+      229.2,
+      262.9,
+      308.3,
+      367.3,
+      438.2,
+      491.0,
+      542.0,
+      566.8
+    ],
+    "label_candidates": [
+      "82"
+    ]
+  },
+  {
+    "page_number": 10,
+    "system_index": 1,
+    "top": 457.08774479999994,
+    "bottom": 634.9616592858148,
+    "left": 61.20367032,
+    "right": 567.1375133050989,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 91,
+    "boundaries": [
+      61.5,
+      156.7
+    ],
+    "label_candidates": [
+      "91"
+    ]
+  },
+  {
+    "page_number": 11,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 276.6466776858148,
+    "left": 61.20367032,
+    "right": 567.1375133160924,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 95,
+    "boundaries": [
+      61.5,
+      493.4,
+      557.8
+    ],
+    "label_candidates": [
+      "95"
+    ]
+  },
+  {
+    "page_number": 12,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 507.22047368581485,
+    "left": 65.0039256,
+    "right": 567.137515118642,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 100,
+    "boundaries": [
+      65.3,
+      147.4,
+      182.9,
+      224.6,
+      273.0,
+      312.3,
+      346.9,
+      396.3,
+      436.9,
+      483.2,
+      529.1,
+      566.8
+    ],
+    "label_candidates": [
+      "100"
+    ]
+  },
+  {
+    "page_number": 13,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 446.9598984858148,
+    "left": 65.0039256,
+    "right": 567.137514980013,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 111,
+    "boundaries": [
+      65.3,
+      170.8,
+      235.7,
+      318.5,
+      360.6,
+      444.6,
+      486.7,
+      566.8
+    ],
+    "label_candidates": [
+      "111"
+    ]
+  },
+  {
+    "page_number": 14,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 518.4836160858149,
+    "left": 65.0039256,
+    "right": 567.1375149962972,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 118,
+    "boundaries": [
+      65.3,
+      186.3,
+      265.9,
+      307.2,
+      380.0,
+      429.1,
+      468.2,
+      519.8,
+      566.8
+    ],
+    "label_candidates": [
+      "118"
+    ]
+  },
+  {
+    "page_number": 15,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 517.6423824858148,
+    "left": 65.0039256,
+    "right": 567.1375132735722,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 126,
+    "boundaries": [
+      65.3,
+      148.9,
+      255.2,
+      345.0,
+      464.4,
+      566.8
+    ],
+    "label_candidates": [
+      "126"
+    ]
+  },
+  {
+    "page_number": 16,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 503.3677200858148,
+    "left": 65.0039256,
+    "right": 567.1375139552231,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 131,
+    "boundaries": [
+      65.3,
+      213.7,
+      269.8,
+      337.2,
+      396.2,
+      460.5,
+      511.8,
+      566.8
+    ],
+    "label_candidates": [
+      "131"
+    ]
+  },
+  {
+    "page_number": 17,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 529.8768360858148,
+    "left": 65.0039256,
+    "right": 567.137513370014,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 138,
+    "boundaries": [
+      65.3,
+      143.4,
+      190.1,
+      261.4,
+      304.4,
+      339.1,
+      421.7,
+      497.7,
+      558.2
+    ],
+    "label_candidates": [
+      "138"
+    ]
+  },
+  {
+    "page_number": 17,
+    "system_index": 1,
+    "top": 587.8791984,
+    "bottom": 702.4011456858148,
+    "left": 47.80277016,
+    "right": 567.1375141780521,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 146,
+    "boundaries": [
+      48.1,
+      121.1,
+      225.5,
+      261.4,
+      365.9,
+      413.2,
+      520.7,
+      566.8
+    ],
+    "label_candidates": [
+      "146"
+    ]
+  },
+  {
+    "page_number": 18,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 233.29083512581474,
+    "left": 54.40321368,
+    "right": 567.1375129140661,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 153,
+    "boundaries": [
+      54.7,
+      217.5,
+      400.5,
+      566.8
+    ],
+    "label_candidates": [
+      "153"
+    ]
+  },
+  {
+    "page_number": 18,
+    "system_index": 1,
+    "top": 291.29319839999994,
+    "bottom": 509.7687672858149,
+    "left": 55.20326736,
+    "right": 567.1375134357395,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 156,
+    "boundaries": [
+      55.5,
+      228.8,
+      383.7,
+      446.3,
+      566.8
+    ],
+    "label_candidates": [
+      "156"
+    ]
+  },
+  {
+    "page_number": 19,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 460.46236568581486,
+    "left": 65.0039256,
+    "right": 567.1375139337,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 160,
+    "boundaries": [
+      65.3,
+      163.4,
+      301.5,
+      371.5,
+      482.5,
+      559.1
+    ],
+    "label_candidates": [
+      "160"
+    ]
+  },
+  {
+    "page_number": 20,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 438.82786328581483,
+    "left": 61.20367032,
+    "right": 567.1375129330568,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 165,
+    "boundaries": [
+      61.5,
+      284.8,
+      395.4,
+      481.1,
+      566.8
+    ],
+    "label_candidates": [
+      "165"
+    ]
+  },
+  {
+    "page_number": 21,
+    "system_index": 0,
+    "top": 59.368331760000046,
+    "bottom": 545.8187736858147,
+    "left": 65.0039256,
+    "right": 567.1375146491457,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 169,
+    "boundaries": [
+      65.3,
+      204.9,
+      260.0,
+      457.3,
+      566.8
+    ],
+    "label_candidates": [
+      "169"
+    ]
+  },
+  {
+    "page_number": 22,
+    "system_index": 0,
+    "top": 62.78789184000004,
+    "bottom": 591.4944024858148,
+    "left": 65.0039256,
+    "right": 567.1375145662148,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 173,
+    "boundaries": [
+      65.3,
+      231.4,
+      336.6,
+      446.1,
+      566.8
+    ],
+    "label_candidates": [
+      "173"
+    ]
+  },
+  {
+    "page_number": 23,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 467.4840216858148,
+    "left": 65.0039256,
+    "right": 567.1375140747718,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 177,
+    "boundaries": [
+      65.3,
+      177.5,
+      275.8,
+      408.5,
+      566.8
+    ],
+    "label_candidates": [
+      "177"
+    ]
+  },
+  {
+    "page_number": 24,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 396.41488088581485,
+    "left": 61.20367032,
+    "right": 567.1375150820782,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 181,
+    "boundaries": [
+      61.5,
+      246.9,
+      315.3,
+      428.1,
+      566.8
+    ],
+    "label_candidates": [
+      "181"
+    ]
+  },
+  {
+    "page_number": 25,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 395.69745128581485,
+    "left": 61.20367032,
+    "right": 567.1375139119223,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 185,
+    "boundaries": [
+      61.5,
+      229.5,
+      385.6,
+      566.8
+    ],
+    "label_candidates": [
+      "185"
+    ]
+  },
+  {
+    "page_number": 25,
+    "system_index": 1,
+    "top": 437.785152,
+    "bottom": 578.4950040858148,
+    "left": 55.20326736,
+    "right": 567.1375147993285,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 188,
+    "boundaries": [
+      55.5,
+      248.0,
+      426.1,
+      566.8
+    ],
+    "label_candidates": [
+      "188"
+    ]
+  },
+  {
+    "page_number": 25,
+    "system_index": 2,
+    "top": 620.5827048,
+    "bottom": 758.0083368858147,
+    "left": 55.20326736,
+    "right": 567.1375137803407,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 191,
+    "boundaries": [
+      55.5,
+      252.7,
+      416.7,
+      566.8
+    ],
+    "label_candidates": [
+      "191"
+    ]
+  },
+  {
+    "page_number": 26,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 152.0875263258148,
+    "left": 54.40321368,
+    "right": 567.13751416134,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 194,
+    "boundaries": [
+      54.7,
+      140.5,
+      243.6,
+      288.7,
+      391.8,
+      566.8
+    ],
+    "label_candidates": [
+      "194"
+    ]
+  },
+  {
+    "page_number": 26,
+    "system_index": 1,
+    "top": 210.08988983999996,
+    "bottom": 436.91476808581484,
+    "left": 61.20367032,
+    "right": 567.1375148250552,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 199,
+    "boundaries": [
+      61.5,
+      217.7,
+      278.2,
+      315.9,
+      356.2,
+      407.2,
+      447.5,
+      479.9,
+      530.0,
+      566.8
+    ],
+    "label_candidates": [
+      "199"
+    ]
+  },
+  {
+    "page_number": 27,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 507.31957208581485,
+    "left": 65.0039256,
+    "right": 567.1375142232511,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 208,
+    "boundaries": [
+      65.3,
+      135.8,
+      177.6,
+      204.7,
+      245.0,
+      270.9,
+      332.2,
+      403.0,
+      478.1,
+      504.1,
+      540.9,
+      566.8
+    ],
+    "label_candidates": [
+      "208"
+    ]
+  },
+  {
+    "page_number": 28,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 509.4549552858149,
+    "left": 65.0039256,
+    "right": 567.1375130679903,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 219,
+    "boundaries": [
+      65.3,
+      155.8,
+      228.0,
+      304.7,
+      332.1,
+      362.7,
+      390.1,
+      419.2,
+      447.5,
+      476.5,
+      566.8
+    ],
+    "label_candidates": [
+      "219"
+    ]
+  },
+  {
+    "page_number": 29,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 445.75552088581486,
+    "left": 65.0039256,
+    "right": 567.1375149149236,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 229,
+    "boundaries": [
+      65.3,
+      174.2,
+      253.5,
+      344.8,
+      419.3,
+      478.8,
+      566.8
+    ],
+    "label_candidates": [
+      "229"
+    ]
+  },
+  {
+    "page_number": 30,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 490.56323768581484,
+    "left": 65.0039256,
+    "right": 567.1375140027474,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 235,
+    "boundaries": [
+      65.3,
+      173.1,
+      230.5,
+      276.4,
+      360.6,
+      414.2,
+      481.6,
+      524.2,
+      566.8
+    ],
+    "label_candidates": [
+      "235"
+    ]
+  },
+  {
+    "page_number": 31,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 491.6347968858148,
+    "left": 65.0039256,
+    "right": 567.1375135355547,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 243,
+    "boundaries": [
+      65.3,
+      150.0,
+      200.9,
+      250.2,
+      330.5,
+      405.4,
+      491.0,
+      566.8
+    ],
+    "label_candidates": [
+      "243"
+    ]
+  },
+  {
+    "page_number": 32,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 493.6014912858148,
+    "left": 65.0039256,
+    "right": 567.1375131397808,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 250,
+    "boundaries": [
+      65.3,
+      170.0,
+      258.3,
+      338.1,
+      392.0,
+      454.3,
+      513.1,
+      566.8
+    ],
+    "label_candidates": [
+      "250"
+    ]
+  },
+  {
+    "page_number": 33,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 373.2698760858149,
+    "left": 65.0039256,
+    "right": 567.1375135104245,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 257,
+    "boundaries": [
+      65.3,
+      165.7,
+      238.3,
+      292.7,
+      338.7,
+      394.9,
+      443.4,
+      514.1,
+      566.8
+    ],
+    "label_candidates": [
+      "257"
+    ]
+  },
+  {
+    "page_number": 34,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 478.4455560858148,
+    "left": 65.0039256,
+    "right": 567.137514574947,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 265,
+    "boundaries": [
+      65.3,
+      143.0,
+      178.7,
+      238.5,
+      305.5,
+      363.0,
+      414.3,
+      479.8,
+      541.2,
+      566.8
+    ],
+    "label_candidates": [
+      "265"
+    ]
+  },
+  {
+    "page_number": 34,
+    "system_index": 1,
+    "top": 536.4479208,
+    "bottom": 754.9234896858147,
+    "left": 65.0039256,
+    "right": 567.1375134251973,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 274,
+    "boundaries": [
+      65.3,
+      149.6,
+      179.1,
+      232.8
+    ],
+    "label_candidates": [
+      "274"
+    ]
+  },
+  {
+    "page_number": 35,
+    "system_index": 0,
+    "top": 55.416920639999944,
+    "bottom": 233.29083512581474,
+    "left": 61.20367032,
+    "right": 567.1375148557153,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 279,
+    "boundaries": [
+      61.5,
+      304.2
+    ],
+    "label_candidates": [
+      "279"
+    ]
+  },
+  {
+    "page_number": 35,
+    "system_index": 1,
+    "top": 291.29319839999994,
+    "bottom": 306.7604952858147,
+    "left": 30.73516704,
+    "right": 567.1375141084499,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 282,
+    "boundaries": [
+      31.0
+    ],
+    "label_candidates": [
+      "282"
+    ]
+  },
+  {
+    "page_number": 35,
+    "system_index": 2,
+    "top": 364.7628576,
+    "bottom": 380.23015448581486,
+    "left": 30.73516704,
+    "right": 567.1375145200899,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 285,
+    "boundaries": [
+      31.0
+    ],
+    "label_candidates": [
+      "285"
+    ]
+  },
+  {
+    "page_number": 35,
+    "system_index": 3,
+    "top": 438.2325192,
+    "bottom": 453.69981608581486,
+    "left": 30.73516704,
+    "right": 567.1375124954636,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 287,
+    "boundaries": [
+      31.0
+    ],
+    "label_candidates": [
+      "287"
+    ]
+  },
+  {
+    "page_number": 35,
+    "system_index": 4,
+    "top": 511.70217840000004,
+    "bottom": 527.1694752858149,
+    "left": 30.73516704,
+    "right": 567.1375137546457,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 289,
+    "boundaries": [
+      31.0
+    ],
+    "label_candidates": [
+      "289"
+    ]
+  },
+  {
+    "page_number": 35,
+    "system_index": 5,
+    "top": 585.1718376,
+    "bottom": 600.6391344858148,
+    "left": 30.73516704,
+    "right": 567.1375146877263,
+    "page_width": 595,
+    "page_height": 842,
+    "printed_start_measure": 292,
+    "boundaries": [
+      31.0,
+      485.7,
+      564.95
+    ],
+    "label_candidates": [
+      "292"
+    ]
+  }
+]

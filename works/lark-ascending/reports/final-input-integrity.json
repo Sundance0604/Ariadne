@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-10-25T00:25:23.166634+08:00",
+  "checks": [
+    {
+      "path": "alignment.json",
+      "unchanged": true
+    },
+    {
+      "path": "measure-map.json",
+      "unchanged": true
+    },
+    {
+      "path": "metadata/recording.json",
+      "unchanged": true
+    },
+    {
+      "path": "resource\\Lark Ascending\\Hilary Hahn,London Symphony Orchestra,Sir Colin Davis - The Lark Ascending.mp3",
+      "unchanged": true
+    },
+    {
+      "path": "resource\\Lark Ascending\\lark-ascending.mid",
+      "unchanged": true
+    },
+    {
+      "path": "resource\\Lark Ascending\\lark-ascending.pdf",
+      "unchanged": true
+    },
+    {
+      "path": "resource\\Lark Ascending\\Lark_Ascending_Full_Analysis.original-20261025.md",
+      "exact_original_backup": true
+    }
+  ],
+  "browser_validation": "not performed; local browser operations disabled in application settings"
+}

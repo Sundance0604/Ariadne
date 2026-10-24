@@ -1,0 +1,14 @@
+{
+  "fixture_source": "Local transcode of the supplied MP3, not a separately supplied M4A recording",
+  "aac_full_duration_seconds": 1096.0050793650794,
+  "alac_short_duration_seconds": 12.0,
+  "aac_full_alignment_measure_count": 535,
+  "aac_full_alignment_monotone": true,
+  "aac_alignment_runtime_seconds": 71.84100320003927,
+  "aac_vs_mp3_start_difference_median_seconds": 0.0,
+  "aac_vs_mp3_start_difference_95_percentile_seconds": 0.05999999999995396,
+  "human_ground_truth": false,
+  "decoder_version": "ffmpeg version 7.1-essentials_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers",
+  "alac_playback_http_range_test": true,
+  "status": "suspended_by_user_not_integrated"
+}

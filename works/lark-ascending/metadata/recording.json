@@ -1,0 +1,89 @@
+{
+  "format_version": "1.0.0",
+  "work": {
+    "work_id": "lark-ascending",
+    "title": "云雀高飞",
+    "original_title": "The Lark Ascending",
+    "composer": {
+      "name": "拉尔夫·沃恩·威廉斯",
+      "original_name": "Ralph Vaughan Williams"
+    },
+    "instrumentation": "独奏小提琴与管弦乐"
+  },
+  "recording": {
+    "recording_id": "lark-ascending-hahn-davis-lso",
+    "soloists": [
+      {
+        "name": "希拉里·哈恩",
+        "original_name": "Hilary Hahn",
+        "role": "小提琴独奏"
+      }
+    ],
+    "conductor": {
+      "name": "科林·戴维斯爵士",
+      "original_name": "Sir Colin Davis"
+    },
+    "ensemble": {
+      "name": "伦敦交响乐团",
+      "original_name": "London Symphony Orchestra",
+      "abbreviation": "LSO"
+    },
+    "album": "Elgar: Violin Concerto – Vaughan Williams: The Lark Ascending",
+    "audio_sha256": "f70ba2d70824e79682b8c3731b73b51a3c0f8872555a5a17213c8c9bbc223e42",
+    "artist_information_source": "mp3_id3_and_filename",
+    "artist_information_note": "演奏阵容已与本地 MP3 的 TPE1 标签及文件名核对；未推断录音日期、场地或演奏处理。",
+    "album_information_source": "mp3_id3"
+  },
+  "analysis_document": {
+    "document_id": "lark-listening-edition-20261025",
+    "path": "resource/Lark Ascending/Lark_Ascending_Full_Analysis.md",
+    "pdf_sha256": "0677cdce067fc3da380f6f7bf2d0ad5be54557b50abdf1c2eef6f61cc4ed6824",
+    "review_status": "editorially_revised",
+    "editorial_note": "35页导聆已改为成稿；全部页面文字与缩略图已浏览，关键页面和部分文献已核对。未宣称全部音符或同步精度已由人工验收。",
+    "reference_note": "Vârlan 论文已读取全文文本并核对相关章节；Saylor、Ross、Barker 为官方摘要核查，Mark 已核对书目而未读正文。各项注明实际阅读范围。",
+    "reference_reading_status": {
+      "analysis-ref-11-1": "official_search_abstract_checked",
+      "analysis-ref-11-2": "publisher_abstract_checked",
+      "analysis-ref-11-3": "repository_abstract_checked",
+      "analysis-ref-11-4": "relevant_sections_checked",
+      "analysis-ref-11-5": "official_bibliography_search_checked_text_not_read",
+      "analysis-ref-11-6": "programme_note_checked",
+      "analysis-ref-11-7": "programme_note_checked",
+      "analysis-ref-11-8": "mixed_reading_status_see_entry"
+    },
+    "reference_metadata": {
+      "analysis-ref-11-1": {
+        "kind": "chapter",
+        "scope": "current_work"
+      },
+      "analysis-ref-11-2": {
+        "kind": "research_article",
+        "scope": "current_work"
+      },
+      "analysis-ref-11-3": {
+        "kind": "thesis",
+        "scope": "current_work"
+      },
+      "analysis-ref-11-4": {
+        "kind": "research_article",
+        "scope": "current_work"
+      },
+      "analysis-ref-11-5": {
+        "kind": "chapter",
+        "scope": "current_work"
+      },
+      "analysis-ref-11-6": {
+        "kind": "programme_note",
+        "scope": "current_work"
+      },
+      "analysis-ref-11-7": {
+        "kind": "programme_note",
+        "scope": "current_work"
+      },
+      "analysis-ref-11-8": {
+        "kind": "source_index",
+        "scope": "current_work"
+      }
+    }
+  }
+}

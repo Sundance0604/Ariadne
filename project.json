@@ -1,0 +1,60 @@
+{
+  "format_version": "1.0.0",
+  "project_id": "ravel-left-hand-local-test",
+  "title": "拉威尔《左手钢琴协奏曲》",
+  "created_at": "2026-10-24T23:08:16.695646+08:00",
+  "inputs": [
+    {
+      "kind": "mp3",
+      "path": "resource/ravel left hand piano concerto/Krystian Zimerman,London Symphony Orchestra,Pierre Boulez - Piano Concerto for the left hand in D.mp3",
+      "bytes": 43844440,
+      "sha256": "a9078597fef47f6ac99cf4d3241984721d1992a28ced3a97182f18c7de3f56d4"
+    },
+    {
+      "kind": "pdf",
+      "path": "resource/ravel left hand piano concerto/IMSLP01581-Ravel_-_Piano_Concerto_for_the_Left_Hand_(Orchestral_Score).pdf",
+      "bytes": 7892327,
+      "sha256": "4ef405bb68ad16fbd8011af6a3e9f19de104b1631accfbd8661bd59fa3b4e149"
+    },
+    {
+      "kind": "pdf",
+      "path": "resource/ravel left hand piano concerto/maurice-ravel-piano-concerto-for-the-left-hand.pdf",
+      "bytes": 1996742,
+      "sha256": "67aa60cc89160ea7e475fd7fa45352ec6e0c45f6cd3557421d8caafc18531083"
+    },
+    {
+      "kind": "midi",
+      "path": "resource/ravel left hand piano concerto/maurice-ravel-piano-concerto-for-the-left-hand.mid",
+      "bytes": 629776,
+      "sha256": "f9ba8d12d461fa9f869ae4e083d2f47f58f4d87a5ad85fbfc4b84f9d5649a8a3"
+    }
+  ],
+  "privacy": {
+    "processing": "local_only",
+    "media_uploaded": false
+  },
+  "files": {
+    "alignment": "alignment.json",
+    "measure_map": "measure-map.json",
+    "input_audit": "reports/input-audit.json",
+    "recording_metadata": "metadata/recording.json",
+    "analysis_annotations": "analysis/annotations.json"
+  },
+  "processing_status": {
+    "input_audit": "complete",
+    "pdf_omr": "four_sample_pages_only",
+    "midi_auxiliary_full_recording_alignment": "candidate_ready",
+    "pdf_geometry_mapping": "candidate_ready",
+    "pdf_omr_without_user_midi_full_recording_alignment": "not_completed",
+    "human_listening_review": "pending",
+    "musicological_analysis": "listener_prose_revised_key_pages_and_selected_sources_checked",
+    "final_react_player": "not_implemented",
+    "m4a": "suspended_by_user"
+  },
+  "review_counts": {
+    "needs_review": 33,
+    "unreviewed": 502,
+    "verified": 0,
+    "corrected": 0
+  }
+}

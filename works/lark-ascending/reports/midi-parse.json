@@ -1,0 +1,235 @@
+{
+  "ppq": 480,
+  "markers": [],
+  "duration": 770.3553982999997,
+  "tempo_events": 130,
+  "note_on_count": 6850,
+  "anomalies": [
+    {
+      "type": "zero_duration_note",
+      "track": 0,
+      "tick": 235800
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 0,
+      "tick": 235859
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 0,
+      "tick": 235919
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 0,
+      "tick": 235979
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 0,
+      "tick": 236039
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 0,
+      "tick": 236098
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 0,
+      "tick": 236158
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 0,
+      "tick": 236218
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 0,
+      "tick": 236278
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 0,
+      "tick": 236337
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 0,
+      "tick": 236397
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 0,
+      "tick": 236457
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 0,
+      "tick": 236517
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 0,
+      "tick": 236576
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 0,
+      "tick": 236636
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 0,
+      "tick": 236696
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 0,
+      "tick": 236756
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 0,
+      "tick": 236815
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 0,
+      "tick": 236875
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 0,
+      "tick": 236935
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 0,
+      "tick": 236995
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 0,
+      "tick": 237054
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 0,
+      "tick": 237114
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 0,
+      "tick": 237174
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 0,
+      "tick": 314040
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 1,
+      "tick": 314040
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 2,
+      "tick": 160440
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 2,
+      "tick": 168600
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 2,
+      "tick": 181560
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 4,
+      "tick": 92700
+    },
+    {
+      "type": "zero_duration_note",
+      "track": 4,
+      "tick": 335640
+    },
+    {
+      "type": "unmatched_note_off",
+      "track": 8,
+      "tick": 238019,
+      "pitch": 76,
+      "port": 0
+    },
+    {
+      "type": "unmatched_note_off",
+      "track": 8,
+      "tick": 238019,
+      "pitch": 76,
+      "port": 0
+    },
+    {
+      "type": "unmatched_note_off",
+      "track": 8,
+      "tick": 238027,
+      "pitch": 67,
+      "port": 0
+    },
+    {
+      "type": "unmatched_note_off",
+      "track": 8,
+      "tick": 238027,
+      "pitch": 67,
+      "port": 0
+    },
+    {
+      "type": "unmatched_note_off",
+      "track": 8,
+      "tick": 238378,
+      "pitch": 67,
+      "port": 0
+    },
+    {
+      "type": "unmatched_note_off",
+      "track": 8,
+      "tick": 238378,
+      "pitch": 67,
+      "port": 0
+    },
+    {
+      "type": "unmatched_note_off",
+      "track": 8,
+      "tick": 239459,
+      "pitch": 69,
+      "port": 0
+    },
+    {
+      "type": "unmatched_note_off",
+      "track": 8,
+      "tick": 239459,
+      "pitch": 69,
+      "port": 0
+    },
+    {
+      "type": "unmatched_note_off",
+      "track": 9,
+      "tick": 355080,
+      "pitch": 52,
+      "port": 1
+    },
+    {
+      "type": "unmatched_note_off",
+      "track": 9,
+      "tick": 355080,
+      "pitch": 52,
+      "port": 1
+    }
+  ],
+  "track_count": 12
+}

@@ -1,0 +1,79 @@
+WARN  []                WellKnowns 238  | Error creating C:\Users\32599\AppData\Roaming\AudiverisLtd\audiveris\log
+java.nio.file.AccessDeniedException: C:\Users\32599\AppData\Roaming\AudiverisLtd
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.createDirectory(Unknown Source)
+	at java.base/java.nio.file.Files.createDirectory(Unknown Source)
+	at java.base/java.nio.file.Files.createAndCheckIsDirectory(Unknown Source)
+	at java.base/java.nio.file.Files.createDirectories(Unknown Source)
+	at org.audiveris.omr.WellKnowns.createFolder(WellKnowns.java:235)
+	at org.audiveris.omr.WellKnowns.<clinit>(WellKnowns.java:190)
+	at org.audiveris.omr.Main.<clinit>(Main.java:70)
+	at Audiveris.main(Audiveris.java:50)
+WARN  []                WellKnowns 238  | Error creating C:\Users\32599\AppData\Roaming\AudiverisLtd\audiveris\log\temp
+java.nio.file.AccessDeniedException: C:\Users\32599\AppData\Roaming\AudiverisLtd
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.createDirectory(Unknown Source)
+	at java.base/java.nio.file.Files.createDirectory(Unknown Source)
+	at java.base/java.nio.file.Files.createAndCheckIsDirectory(Unknown Source)
+	at java.base/java.nio.file.Files.createDirectories(Unknown Source)
+	at org.audiveris.omr.WellKnowns.createFolder(WellKnowns.java:235)
+	at org.audiveris.omr.WellKnowns.<clinit>(WellKnowns.java:196)
+	at org.audiveris.omr.Main.<clinit>(Main.java:70)
+	at Audiveris.main(Audiveris.java:50)
+
+Syntax:
+    audiveris [OPTIONS] [--] [INPUT_FILES]
+
+@file:
+    Content of file to be extended in line
+
+Options:
+ -batch                      : Run with no graphic user interface
+ -constant key=value         : Define an application constant
+ -export                     : Export MusicXML
+ -force                      : Force step/transcribe re-processing
+ -help                       : Display general help then stop
+ -output <output-folder>     : Define base output folder
+ -playlist <file.xml>        : Build a compound book from playlist
+ -print                      : Print out book
+ -save                       : In batch, save book on every successful step
+ -sheets int[]               : Select sheet numbers and ranges (1 4-5)
+ -step <step>                : Define a specific target step
+ -swap                       : Swap out every sheet after its processing
+ -transcribe                 : Transcribe whole book
+ -upgrade                    : Upgrade whole book file
+ -version                    : Display version then stop
+ -run <qualified-class-name> : (advanced) Run provided class on valid sheets
+ -sample                     : (advanced) Sample all book symbols
+ -annotate                   : (advanced) Annotate all book symbols
+
+Input file extensions:
+    .omr        : book file  (input/output)
+    [any other] : image file (input)
+
+Sheet steps are in order:
+    LOAD       : Get the sheet gray picture
+    BINARY     : Binarize the sheet gray picture
+    SCALE      : Compute sheet line thickness, interline, beam thickness
+    GRID       : Retrieve staff lines, barlines, systems & parts
+    HEADERS    : Retrieve Clef-Key-Time systems headers
+    STEM_SEEDS : Retrieve stem thickness & seeds for stems
+    BEAMS      : Retrieve beams
+    LEDGERS    : Retrieve ledgers
+    HEADS      : Retrieve note heads
+    STEMS      : Retrieve stems connected to heads & beams
+    REDUCTION  : Reduce conflicts in heads, stems & beams
+    CUE_BEAMS  : Retrieve cue beams
+    TEXTS      : Call OCR on textual items
+    MEASURES   : Retrieve raw measures from groups of barlines
+    CHORDS     : Gather notes heads into chords
+    CURVES     : Retrieve slurs, wedges & endings
+    SYMBOLS    : Retrieve fixed-shape symbols
+    LINKS      : Link and reduce symbols
+    RHYTHMS    : Handle rhythms within measures
+    PAGE       : Connect systems within page
+

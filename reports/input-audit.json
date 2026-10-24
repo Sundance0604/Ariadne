@@ -1,0 +1,6858 @@
+{
+  "audit_format_version": "1.0.0",
+  "created_at": "2026-10-24T22:25:23.344579+08:00",
+  "local_only": true,
+  "midi_status": "provided",
+  "tools": {
+    "pypdf": "6.10.0",
+    "mutagen": "1.47.0",
+    "mido": "1.3.3"
+  },
+  "assets": [
+    {
+      "path": "resource/ravel left hand piano concerto/Krystian Zimerman,London Symphony Orchestra,Pierre Boulez - Piano Concerto for the left hand in D.mp3",
+      "bytes": 43844440,
+      "sha256": "a9078597fef47f6ac99cf4d3241984721d1992a28ced3a97182f18c7de3f56d4",
+      "kind": "mp3",
+      "duration_seconds": 1096.0457142857142,
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "bitrate_bps": 320000,
+      "bitrate_mode": "BitrateMode.CBR",
+      "mpeg_version": 1,
+      "layer": 3,
+      "header_sketchy": false,
+      "tags": {
+        "TSSE": "Lavf58.76.100",
+        "TALB": "Ravel: Piano Concertos; Valses nobles et sentimentales",
+        "TIT2": "Piano Concerto for the left hand in D",
+        "TPE1": "Krystian Zimerman/London Symphony Orchestra/Pierre Boulez",
+        "TPOS": "1",
+        "TRCK": "12"
+      },
+      "inspection_method": "mutagen metadata; not full audio decode or listening"
+    },
+    {
+      "path": "resource/ravel left hand piano concerto/IMSLP01581-Ravel_-_Piano_Concerto_for_the_Left_Hand_(Orchestral_Score).pdf",
+      "bytes": 7892327,
+      "sha256": "4ef405bb68ad16fbd8011af6a3e9f19de104b1631accfbd8661bd59fa3b4e149",
+      "kind": "pdf",
+      "page_count": 99,
+      "encrypted": false,
+      "metadata": {
+        "/CreationDate": "D:20230721141021-04'00'",
+        "/ModDate": "D:20230721141021-04'00'",
+        "/Producer": "GPL Ghostscript 10.01.2"
+      },
+      "pages_with_extractable_text": 0,
+      "first_page_text_excerpt": "",
+      "pages": [
+        {
+          "page_number": 1,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 2,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 3,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 4,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 5,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 6,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 7,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 8,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 9,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 10,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 11,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 12,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 13,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 14,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 15,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 16,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 17,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 18,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 19,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 20,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 21,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 22,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 23,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 24,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 25,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 26,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 27,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 28,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 29,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 30,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 31,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 32,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 33,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 34,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 35,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 36,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 37,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 38,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 39,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 40,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 41,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 42,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 43,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 44,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 45,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 46,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 47,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 48,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 49,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 50,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 51,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 52,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 53,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 54,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 55,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 56,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 57,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 58,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 59,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 60,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 61,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 62,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 63,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 64,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 65,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 66,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 67,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 68,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 69,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 70,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 71,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 72,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 73,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 74,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 75,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 76,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 77,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 78,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 79,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 80,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 81,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 82,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 83,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 84,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 85,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 86,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 87,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 88,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 89,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 90,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 91,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 92,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 93,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 94,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 95,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 96,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 97,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 98,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        },
+        {
+          "page_number": 99,
+          "width_pt": 648.0,
+          "height_pt": 864.0,
+          "rotation": 0,
+          "text_characters": 0
+        }
+      ],
+      "omr_status": "not_run"
+    },
+    {
+      "path": "resource/ravel left hand piano concerto/maurice-ravel-piano-concerto-for-the-left-hand.pdf",
+      "bytes": 1996742,
+      "sha256": "67aa60cc89160ea7e475fd7fa45352ec6e0c45f6cd3557421d8caafc18531083",
+      "kind": "pdf",
+      "page_count": 100,
+      "encrypted": false,
+      "metadata": {
+        "/Title": "Une Barque Sur l'Ocean",
+        "/Creator": "MuseScore Studio Version: 4.5.2",
+        "/Producer": "Qt 6.2.4",
+        "/CreationDate": "D:20250507145936Z"
+      },
+      "pages_with_extractable_text": 100,
+      "first_page_text_excerpt": "CONCERTO\n MAURICE\tRAVEL\n2\tFLAUTI\nOTTAVINO\n2\tOBOI\nCORNO\tINGLESE\nCLARINETTOin\tMI♭\t2\tCLARINETTIin\tLACLAR.\t\tBASSOin\tLA\n2\tFAGOTTI\nCONTRAFAGOTTO\n1°\t2°CORNI3°\t4°\n3\tTROMBE\n1°\t2°TROMBONI\n3°\te\tTUBA\nTIMPANI\nBATTERIA\nARPA\nPIANO\tSOLO\n1mi\tVIOLINI\n2di\tVIOLINI\nVIOLE\nVIOLONCELLI\nCONTRABASSIDiv.\n  \n                         \n\n  \n\n\n\n                                  \n\n\n6 6 6\nLento\t(  \t=\t44)\nSolo\nDiv.\nDiv.\n \n   \n \n à\tPaul\tWittgenstein\n pour\tla\tmain\tgauche\n\n",
+      "pages": [
+        {
+          "page_number": 1,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 727
+        },
+        {
+          "page_number": 2,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 669
+        },
+        {
+          "page_number": 3,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1078
+        },
+        {
+          "page_number": 4,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1881
+        },
+        {
+          "page_number": 5,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1017
+        },
+        {
+          "page_number": 6,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1023
+        },
+        {
+          "page_number": 7,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1037
+        },
+        {
+          "page_number": 8,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1031
+        },
+        {
+          "page_number": 9,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1688
+        },
+        {
+          "page_number": 10,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 898
+        },
+        {
+          "page_number": 11,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1076
+        },
+        {
+          "page_number": 12,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1154
+        },
+        {
+          "page_number": 13,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 579
+        },
+        {
+          "page_number": 14,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 663
+        },
+        {
+          "page_number": 15,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 999
+        },
+        {
+          "page_number": 16,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 978
+        },
+        {
+          "page_number": 17,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 917
+        },
+        {
+          "page_number": 18,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1102
+        },
+        {
+          "page_number": 19,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1916
+        },
+        {
+          "page_number": 20,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 2081
+        },
+        {
+          "page_number": 21,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1169
+        },
+        {
+          "page_number": 22,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 619
+        },
+        {
+          "page_number": 23,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 737
+        },
+        {
+          "page_number": 24,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 989
+        },
+        {
+          "page_number": 25,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1084
+        },
+        {
+          "page_number": 26,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 934
+        },
+        {
+          "page_number": 27,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1134
+        },
+        {
+          "page_number": 28,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 497
+        },
+        {
+          "page_number": 29,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 694
+        },
+        {
+          "page_number": 30,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 667
+        },
+        {
+          "page_number": 31,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1123
+        },
+        {
+          "page_number": 32,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 745
+        },
+        {
+          "page_number": 33,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1503
+        },
+        {
+          "page_number": 34,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 858
+        },
+        {
+          "page_number": 35,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1259
+        },
+        {
+          "page_number": 36,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1505
+        },
+        {
+          "page_number": 37,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1086
+        },
+        {
+          "page_number": 38,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1191
+        },
+        {
+          "page_number": 39,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1334
+        },
+        {
+          "page_number": 40,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 999
+        },
+        {
+          "page_number": 41,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 750
+        },
+        {
+          "page_number": 42,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1241
+        },
+        {
+          "page_number": 43,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 902
+        },
+        {
+          "page_number": 44,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1219
+        },
+        {
+          "page_number": 45,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1384
+        },
+        {
+          "page_number": 46,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1074
+        },
+        {
+          "page_number": 47,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 874
+        },
+        {
+          "page_number": 48,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 908
+        },
+        {
+          "page_number": 49,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1027
+        },
+        {
+          "page_number": 50,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1945
+        },
+        {
+          "page_number": 51,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1075
+        },
+        {
+          "page_number": 52,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1186
+        },
+        {
+          "page_number": 53,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 674
+        },
+        {
+          "page_number": 54,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 629
+        },
+        {
+          "page_number": 55,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 897
+        },
+        {
+          "page_number": 56,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 985
+        },
+        {
+          "page_number": 57,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 723
+        },
+        {
+          "page_number": 58,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 747
+        },
+        {
+          "page_number": 59,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 657
+        },
+        {
+          "page_number": 60,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 777
+        },
+        {
+          "page_number": 61,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 834
+        },
+        {
+          "page_number": 62,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 773
+        },
+        {
+          "page_number": 63,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 667
+        },
+        {
+          "page_number": 64,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 933
+        },
+        {
+          "page_number": 65,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1379
+        },
+        {
+          "page_number": 66,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1696
+        },
+        {
+          "page_number": 67,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1359
+        },
+        {
+          "page_number": 68,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 946
+        },
+        {
+          "page_number": 69,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 951
+        },
+        {
+          "page_number": 70,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1042
+        },
+        {
+          "page_number": 71,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1291
+        },
+        {
+          "page_number": 72,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1339
+        },
+        {
+          "page_number": 73,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1365
+        },
+        {
+          "page_number": 74,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1989
+        },
+        {
+          "page_number": 75,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 718
+        },
+        {
+          "page_number": 76,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 710
+        },
+        {
+          "page_number": 77,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 857
+        },
+        {
+          "page_number": 78,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1438
+        },
+        {
+          "page_number": 79,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1068
+        },
+        {
+          "page_number": 80,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 977
+        },
+        {
+          "page_number": 81,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1253
+        },
+        {
+          "page_number": 82,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1224
+        },
+        {
+          "page_number": 83,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1352
+        },
+        {
+          "page_number": 84,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1273
+        },
+        {
+          "page_number": 85,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1524
+        },
+        {
+          "page_number": 86,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1509
+        },
+        {
+          "page_number": 87,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1243
+        },
+        {
+          "page_number": 88,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1328
+        },
+        {
+          "page_number": 89,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 2492
+        },
+        {
+          "page_number": 90,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1070
+        },
+        {
+          "page_number": 91,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 611
+        },
+        {
+          "page_number": 92,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 910
+        },
+        {
+          "page_number": 93,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 853
+        },
+        {
+          "page_number": 94,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1189
+        },
+        {
+          "page_number": 95,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 804
+        },
+        {
+          "page_number": 96,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1142
+        },
+        {
+          "page_number": 97,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1089
+        },
+        {
+          "page_number": 98,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1133
+        },
+        {
+          "page_number": 99,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 709
+        },
+        {
+          "page_number": 100,
+          "width_pt": 842.0,
+          "height_pt": 1191.0,
+          "rotation": 0,
+          "text_characters": 1745
+        }
+      ],
+      "omr_status": "not_run"
+    },
+    {
+      "path": "resource/ravel left hand piano concerto/maurice-ravel-piano-concerto-for-the-left-hand.mid",
+      "bytes": 629776,
+      "sha256": "f9ba8d12d461fa9f869ae4e083d2f47f58f4d87a5ad85fbfc4b84f9d5649a8a3",
+      "kind": "midi",
+      "optional": true,
+      "format_type": 1,
+      "ticks_per_beat": 480,
+      "track_count": 39,
+      "duration_seconds": 1046.543488625,
+      "integrated_duration_seconds": 1046.5434886251792,
+      "event_counts": {
+        "track_name": 39,
+        "time_signature": 38,
+        "key_signature": 586,
+        "set_tempo": 74,
+        "control_change": 138789,
+        "program_change": 154,
+        "midi_port": 158,
+        "note_on": 52935,
+        "marker": 53,
+        "pitchwheel": 925,
+        "end_of_track": 1
+      },
+      "note_on_count": 26141,
+      "quarter_note_bpm_range": [
+        10.00002000004,
+        210.00021000021
+      ],
+      "distinct_time_signatures": [
+        "2/4",
+        "3/4",
+        "4/4",
+        "5/8",
+        "6/8",
+        "9/8",
+        "12/8",
+        "13/8",
+        "15/8",
+        "34/16"
+      ],
+      "metadata_text_encoding": "mido default latin1; labels may need manual correction",
+      "tracks": [
+        {
+          "track_index": 0,
+          "name": "Flute",
+          "message_count": 12011,
+          "note_on_count": 888,
+          "end_tick": 747828,
+          "channels": [
+            1,
+            8,
+            10,
+            11,
+            12
+          ],
+          "pitch_range": [
+            60,
+            96
+          ]
+        },
+        {
+          "track_index": 1,
+          "name": "Piccolo",
+          "message_count": 4704,
+          "note_on_count": 446,
+          "end_tick": 747828,
+          "channels": [
+            0,
+            13,
+            14,
+            15
+          ],
+          "pitch_range": [
+            60,
+            105
+          ]
+        },
+        {
+          "track_index": 2,
+          "name": "Oboe",
+          "message_count": 6594,
+          "note_on_count": 584,
+          "end_tick": 747840,
+          "channels": [
+            2
+          ],
+          "pitch_range": [
+            58,
+            91
+          ]
+        },
+        {
+          "track_index": 3,
+          "name": "English Horn",
+          "message_count": 1975,
+          "note_on_count": 189,
+          "end_tick": 735120,
+          "channels": [
+            3
+          ],
+          "pitch_range": [
+            53,
+            80
+          ]
+        },
+        {
+          "track_index": 4,
+          "name": "Eâ­ Clarinet",
+          "message_count": 3084,
+          "note_on_count": 388,
+          "end_tick": 747840,
+          "channels": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "pitch_range": [
+            64,
+            95
+          ]
+        },
+        {
+          "track_index": 5,
+          "name": "A Clarinet",
+          "message_count": 9558,
+          "note_on_count": 1199,
+          "end_tick": 747840,
+          "channels": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "pitch_range": [
+            50,
+            90
+          ]
+        },
+        {
+          "track_index": 6,
+          "name": "A Bass Clarinet",
+          "message_count": 3849,
+          "note_on_count": 418,
+          "end_tick": 747840,
+          "channels": [
+            2,
+            10,
+            11,
+            12,
+            13
+          ],
+          "pitch_range": [
+            37,
+            69
+          ]
+        },
+        {
+          "track_index": 7,
+          "name": "Bassoon",
+          "message_count": 6231,
+          "note_on_count": 739,
+          "end_tick": 747840,
+          "channels": [
+            6
+          ],
+          "pitch_range": [
+            34,
+            70
+          ]
+        },
+        {
+          "track_index": 8,
+          "name": "Contrabassoon",
+          "message_count": 2809,
+          "note_on_count": 302,
+          "end_tick": 747000,
+          "channels": [
+            3
+          ],
+          "pitch_range": [
+            23,
+            52
+          ]
+        },
+        {
+          "track_index": 9,
+          "name": "Horn in F",
+          "message_count": 5731,
+          "note_on_count": 898,
+          "end_tick": 747840,
+          "channels": [
+            0,
+            1,
+            2,
+            3,
+            7,
+            14,
+            15
+          ],
+          "pitch_range": [
+            38,
+            76
+          ]
+        },
+        {
+          "track_index": 10,
+          "name": "Horn in F",
+          "message_count": 5544,
+          "note_on_count": 660,
+          "end_tick": 747840,
+          "channels": [
+            8
+          ],
+          "pitch_range": [
+            38,
+            74
+          ]
+        },
+        {
+          "track_index": 11,
+          "name": "C Trumpet",
+          "message_count": 4187,
+          "note_on_count": 659,
+          "end_tick": 747840,
+          "channels": [
+            10,
+            11
+          ],
+          "pitch_range": [
+            58,
+            82
+          ]
+        },
+        {
+          "track_index": 12,
+          "name": "C Trumpet",
+          "message_count": 314,
+          "note_on_count": 10,
+          "end_tick": 712321,
+          "channels": [
+            14,
+            15
+          ],
+          "pitch_range": [
+            67,
+            70
+          ]
+        },
+        {
+          "track_index": 13,
+          "name": "Trombone",
+          "message_count": 2982,
+          "note_on_count": 324,
+          "end_tick": 747840,
+          "channels": [
+            4,
+            5,
+            12
+          ],
+          "pitch_range": [
+            53,
+            72
+          ]
+        },
+        {
+          "track_index": 14,
+          "name": "Tuba",
+          "message_count": 2221,
+          "note_on_count": 298,
+          "end_tick": 747840,
+          "channels": [
+            4,
+            6
+          ],
+          "pitch_range": [
+            32,
+            64
+          ]
+        },
+        {
+          "track_index": 15,
+          "name": "Timpani",
+          "message_count": 5172,
+          "note_on_count": 2570,
+          "end_tick": 747720,
+          "channels": [
+            13
+          ],
+          "pitch_range": [
+            41,
+            53
+          ]
+        },
+        {
+          "track_index": 16,
+          "name": "Triangle",
+          "message_count": 268,
+          "note_on_count": 129,
+          "end_tick": 748128,
+          "channels": [
+            9
+          ],
+          "pitch_range": [
+            38,
+            81
+          ]
+        },
+        {
+          "track_index": 17,
+          "name": "Triangle",
+          "message_count": 1894,
+          "note_on_count": 818,
+          "end_tick": 747840,
+          "channels": [
+            9
+          ],
+          "pitch_range": [
+            35,
+            57
+          ]
+        },
+        {
+          "track_index": 18,
+          "name": "Cymbal",
+          "message_count": 540,
+          "note_on_count": 246,
+          "end_tick": 747840,
+          "channels": [
+            9
+          ],
+          "pitch_range": [
+            35,
+            76
+          ]
+        },
+        {
+          "track_index": 19,
+          "name": "Concert Bass Drum",
+          "message_count": 180,
+          "note_on_count": 85,
+          "end_tick": 747360,
+          "channels": [
+            9
+          ],
+          "pitch_range": [
+            35,
+            35
+          ]
+        },
+        {
+          "track_index": 20,
+          "name": "Tam-Tam",
+          "message_count": 12,
+          "note_on_count": 1,
+          "end_tick": 747360,
+          "channels": [
+            9
+          ],
+          "pitch_range": [
+            52,
+            52
+          ]
+        },
+        {
+          "track_index": 21,
+          "name": "Harp",
+          "message_count": 689,
+          "note_on_count": 316,
+          "end_tick": 741121,
+          "channels": [
+            0,
+            14,
+            15
+          ],
+          "pitch_range": [
+            43,
+            99
+          ]
+        },
+        {
+          "track_index": 22,
+          "name": "Harp",
+          "message_count": 400,
+          "note_on_count": 187,
+          "end_tick": 747120,
+          "channels": [
+            0,
+            14,
+            15
+          ],
+          "pitch_range": [
+            26,
+            91
+          ]
+        },
+        {
+          "track_index": 23,
+          "name": "Piano",
+          "message_count": 7752,
+          "note_on_count": 3789,
+          "end_tick": 741348,
+          "channels": [
+            1
+          ],
+          "pitch_range": [
+            21,
+            108
+          ]
+        },
+        {
+          "track_index": 24,
+          "name": "Piano",
+          "message_count": 4213,
+          "note_on_count": 1947,
+          "end_tick": 747108,
+          "channels": [
+            1
+          ],
+          "pitch_range": [
+            21,
+            86
+          ]
+        },
+        {
+          "track_index": 25,
+          "name": "Violins",
+          "message_count": 25794,
+          "note_on_count": 1656,
+          "end_tick": 748080,
+          "channels": [
+            0,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "pitch_range": [
+            55,
+            96
+          ]
+        },
+        {
+          "track_index": 26,
+          "name": "Violins",
+          "message_count": 667,
+          "note_on_count": 64,
+          "end_tick": 712321,
+          "channels": [
+            12,
+            13,
+            14
+          ],
+          "pitch_range": [
+            65,
+            86
+          ]
+        },
+        {
+          "track_index": 27,
+          "name": "Violins",
+          "message_count": 62,
+          "note_on_count": 2,
+          "end_tick": 712321,
+          "channels": [
+            0,
+            1,
+            2
+          ],
+          "pitch_range": [
+            79,
+            82
+          ]
+        },
+        {
+          "track_index": 28,
+          "name": "Violins",
+          "message_count": 27835,
+          "note_on_count": 2067,
+          "end_tick": 748080,
+          "channels": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            10,
+            11
+          ],
+          "pitch_range": [
+            55,
+            98
+          ]
+        },
+        {
+          "track_index": 29,
+          "name": "Violins",
+          "message_count": 1067,
+          "note_on_count": 64,
+          "end_tick": 712321,
+          "channels": [
+            0,
+            1,
+            15
+          ],
+          "pitch_range": [
+            55,
+            88
+          ]
+        },
+        {
+          "track_index": 30,
+          "name": "Violins",
+          "message_count": 59,
+          "note_on_count": 1,
+          "end_tick": 712321,
+          "channels": [
+            6,
+            7,
+            8
+          ],
+          "pitch_range": [
+            76,
+            76
+          ]
+        },
+        {
+          "track_index": 31,
+          "name": "Violas",
+          "message_count": 25310,
+          "note_on_count": 1628,
+          "end_tick": 748080,
+          "channels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "pitch_range": [
+            48,
+            90
+          ]
+        },
+        {
+          "track_index": 32,
+          "name": "Violas",
+          "message_count": 565,
+          "note_on_count": 90,
+          "end_tick": 712321,
+          "channels": [
+            2,
+            3,
+            4
+          ],
+          "pitch_range": [
+            48,
+            71
+          ]
+        },
+        {
+          "track_index": 33,
+          "name": "Violoncellos",
+          "message_count": 13476,
+          "note_on_count": 1505,
+          "end_tick": 748080,
+          "channels": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "pitch_range": [
+            36,
+            81
+          ]
+        },
+        {
+          "track_index": 34,
+          "name": "Violoncellos",
+          "message_count": 1323,
+          "note_on_count": 164,
+          "end_tick": 712321,
+          "channels": [
+            5,
+            6,
+            7
+          ],
+          "pitch_range": [
+            36,
+            67
+          ]
+        },
+        {
+          "track_index": 35,
+          "name": "Violoncellos",
+          "message_count": 188,
+          "note_on_count": 44,
+          "end_tick": 712321,
+          "channels": [
+            10,
+            11,
+            12
+          ],
+          "pitch_range": [
+            40,
+            49
+          ]
+        },
+        {
+          "track_index": 36,
+          "name": "Contrabasses",
+          "message_count": 3116,
+          "note_on_count": 541,
+          "end_tick": 748080,
+          "channels": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "pitch_range": [
+            25,
+            60
+          ]
+        },
+        {
+          "track_index": 37,
+          "name": "Contrabasses",
+          "message_count": 1337,
+          "note_on_count": 223,
+          "end_tick": 712321,
+          "channels": [
+            2,
+            3,
+            4
+          ],
+          "pitch_range": [
+            24,
+            67
+          ]
+        },
+        {
+          "track_index": 38,
+          "name": "Contrabasses",
+          "message_count": 77,
+          "note_on_count": 2,
+          "end_tick": 712321,
+          "channels": [
+            3,
+            4,
+            5
+          ],
+          "pitch_range": [
+            28,
+            55
+          ]
+        }
+      ],
+      "timeline_events": [
+        {
+          "type": "time_signature",
+          "numerator": 3,
+          "denominator": 4,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1499999,
+          "tick": 0,
+          "midi_seconds": 0.0,
+          "quarter_notes_per_minute": 40.00002666668444
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "F",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "F",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 0,
+          "midi_seconds": 0.0
+        },
+        {
+          "type": "marker",
+          "text": "1",
+          "tick": 8640,
+          "midi_seconds": 26.999982000000024
+        },
+        {
+          "type": "key_signature",
+          "key": "F",
+          "tick": 8640,
+          "midi_seconds": 26.999982000000024
+        },
+        {
+          "type": "marker",
+          "text": "2",
+          "tick": 20160,
+          "midi_seconds": 62.999958000000085
+        },
+        {
+          "type": "time_signature",
+          "numerator": 2,
+          "denominator": 4,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 21600,
+          "midi_seconds": 67.49995500000026
+        },
+        {
+          "type": "time_signature",
+          "numerator": 3,
+          "denominator": 4,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 22560,
+          "midi_seconds": 70.49995300000022
+        },
+        {
+          "type": "time_signature",
+          "numerator": 2,
+          "denominator": 4,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 24000,
+          "midi_seconds": 74.99995000000042
+        },
+        {
+          "type": "key_signature",
+          "key": "F",
+          "tick": 27840,
+          "midi_seconds": 86.99994200000047
+        },
+        {
+          "type": "marker",
+          "text": "3",
+          "tick": 28800,
+          "midi_seconds": 89.99994000000063
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 29760,
+          "midi_seconds": 92.99993800000084
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 29760,
+          "midi_seconds": 92.99993800000084
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 29760,
+          "midi_seconds": 92.99993800000084
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 29760,
+          "midi_seconds": 92.99993800000084
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 29760,
+          "midi_seconds": 92.99993800000084
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 29760,
+          "midi_seconds": 92.99993800000084
+        },
+        {
+          "type": "time_signature",
+          "numerator": 34,
+          "denominator": 16,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 38400,
+          "midi_seconds": 119.9999200000028
+        },
+        {
+          "type": "marker",
+          "text": "4",
+          "tick": 38400,
+          "midi_seconds": 119.9999200000028
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 2999999,
+          "tick": 38880,
+          "midi_seconds": 121.49991900000339,
+          "quarter_notes_per_minute": 20.000006666668888
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1499999,
+          "tick": 39059,
+          "midi_seconds": 122.61866862708672,
+          "quarter_notes_per_minute": 40.00002666668444
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1250000,
+          "tick": 39720,
+          "midi_seconds": 124.6842922500034,
+          "quarter_notes_per_minute": 48.0
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1499999,
+          "tick": 40080,
+          "midi_seconds": 125.6217922500034,
+          "quarter_notes_per_minute": 40.00002666668444
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1250000,
+          "tick": 40560,
+          "midi_seconds": 127.1217912500034,
+          "quarter_notes_per_minute": 48.0
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1714287,
+          "tick": 41520,
+          "midi_seconds": 129.62179125000338,
+          "quarter_notes_per_minute": 34.999973750019684
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1499999,
+          "tick": 41760,
+          "midi_seconds": 130.4789347500034,
+          "quarter_notes_per_minute": 40.00002666668444
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1428571,
+          "tick": 42000,
+          "midi_seconds": 131.22893425000333,
+          "quarter_notes_per_minute": 42.00001260000378
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1250000,
+          "tick": 42240,
+          "midi_seconds": 131.9432197500034,
+          "quarter_notes_per_minute": 48.0
+        },
+        {
+          "type": "time_signature",
+          "numerator": 15,
+          "denominator": 8,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 42480,
+          "midi_seconds": 132.5682197500034
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1499999,
+          "tick": 42480,
+          "midi_seconds": 132.5682197500034,
+          "quarter_notes_per_minute": 40.00002666668444
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1666667,
+          "tick": 43200,
+          "midi_seconds": 134.8182182500034,
+          "quarter_notes_per_minute": 35.99999280000144
+        },
+        {
+          "type": "time_signature",
+          "numerator": 5,
+          "denominator": 8,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 46080,
+          "midi_seconds": 144.8182202500032
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1363637,
+          "tick": 46080,
+          "midi_seconds": 144.8182202500032,
+          "quarter_notes_per_minute": 43.99997946667625
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1250000,
+          "tick": 46320,
+          "midi_seconds": 145.50003875000314,
+          "quarter_notes_per_minute": 48.0
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1250000,
+          "tick": 46560,
+          "midi_seconds": 146.12503875000306,
+          "quarter_notes_per_minute": 48.0
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1250000,
+          "tick": 46800,
+          "midi_seconds": 146.750038750003,
+          "quarter_notes_per_minute": 48.0
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1200000,
+          "tick": 47040,
+          "midi_seconds": 147.37503875000294,
+          "quarter_notes_per_minute": 50.0
+        },
+        {
+          "type": "time_signature",
+          "numerator": 2,
+          "denominator": 4,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 47280,
+          "midi_seconds": 147.9750387500029
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1176471,
+          "tick": 47280,
+          "midi_seconds": 147.9750387500029,
+          "quarter_notes_per_minute": 50.99998215000625
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1875001,
+          "tick": 48000,
+          "midi_seconds": 149.73974525000293,
+          "quarter_notes_per_minute": 31.999982933342437
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 5999988,
+          "tick": 48180,
+          "midi_seconds": 150.44287062500297,
+          "quarter_notes_per_minute": 10.00002000004
+        },
+        {
+          "type": "time_signature",
+          "numerator": 3,
+          "denominator": 4,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 48240,
+          "midi_seconds": 151.19286912500294
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1363637,
+          "tick": 48240,
+          "midi_seconds": 151.19286912500294,
+          "quarter_notes_per_minute": 43.99997946667625
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 2000000,
+          "tick": 48960,
+          "midi_seconds": 153.23832462500292,
+          "quarter_notes_per_minute": 30.0
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1363637,
+          "tick": 49680,
+          "midi_seconds": 156.23832462500292,
+          "quarter_notes_per_minute": 43.99997946667625
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 909091,
+          "tick": 62040,
+          "midi_seconds": 191.3519773750028,
+          "quarter_notes_per_minute": 65.99999340000066
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1000000,
+          "tick": 62640,
+          "midi_seconds": 192.48834112500285,
+          "quarter_notes_per_minute": 60.0
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 983606,
+          "tick": 62880,
+          "midi_seconds": 192.9883411250029,
+          "quarter_notes_per_minute": 61.00003456668625
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 967742,
+          "tick": 63120,
+          "midi_seconds": 193.48014412500297,
+          "quarter_notes_per_minute": 61.99999586666694
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 967742,
+          "tick": 63360,
+          "midi_seconds": 193.964015125003,
+          "quarter_notes_per_minute": 61.99999586666694
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1363637,
+          "tick": 63600,
+          "midi_seconds": 194.44788612500298,
+          "quarter_notes_per_minute": 43.99997946667625
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1363637,
+          "tick": 68400,
+          "midi_seconds": 208.08425612500292,
+          "quarter_notes_per_minute": 43.99997946667625
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1200000,
+          "tick": 68640,
+          "midi_seconds": 208.766074625003,
+          "quarter_notes_per_minute": 50.0
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1071429,
+          "tick": 68880,
+          "midi_seconds": 209.36607462500297,
+          "quarter_notes_per_minute": 55.99997760000896
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1000000,
+          "tick": 69120,
+          "midi_seconds": 209.90178912500306,
+          "quarter_notes_per_minute": 60.0
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1363637,
+          "tick": 69360,
+          "midi_seconds": 210.40178912500312,
+          "quarter_notes_per_minute": 43.99997946667625
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1250000,
+          "tick": 74160,
+          "midi_seconds": 224.0381591250031,
+          "quarter_notes_per_minute": 48.0
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1250000,
+          "tick": 74400,
+          "midi_seconds": 224.66315912500303,
+          "quarter_notes_per_minute": 48.0
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1071429,
+          "tick": 74640,
+          "midi_seconds": 225.28815912500298,
+          "quarter_notes_per_minute": 55.99997760000896
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 625000,
+          "tick": 74880,
+          "midi_seconds": 225.82387362500307,
+          "quarter_notes_per_minute": 96.0
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1363637,
+          "tick": 75120,
+          "midi_seconds": 226.13637362500313,
+          "quarter_notes_per_minute": 43.99997946667625
+        },
+        {
+          "type": "time_signature",
+          "numerator": 9,
+          "denominator": 8,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 79920,
+          "midi_seconds": 239.77274362500307
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 483871,
+          "tick": 79920,
+          "midi_seconds": 239.77274362500307,
+          "quarter_notes_per_minute": 123.99999173333389
+        },
+        {
+          "type": "time_signature",
+          "numerator": 13,
+          "denominator": 8,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 82080,
+          "midi_seconds": 241.9501631250031
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 545455,
+          "tick": 83760,
+          "midi_seconds": 243.64371162500314,
+          "quarter_notes_per_minute": 109.99990833340972
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 600000,
+          "tick": 84480,
+          "midi_seconds": 244.46189412500314,
+          "quarter_notes_per_minute": 100.0
+        },
+        {
+          "type": "time_signature",
+          "numerator": 5,
+          "denominator": 8,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 85200,
+          "midi_seconds": 245.36189412500318
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1363637,
+          "tick": 85200,
+          "midi_seconds": 245.36189412500318,
+          "quarter_notes_per_minute": 43.99997946667625
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1111111,
+          "tick": 85680,
+          "midi_seconds": 246.72553112500316,
+          "quarter_notes_per_minute": 54.00000540000054
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1666667,
+          "tick": 85920,
+          "midi_seconds": 247.28108662500313,
+          "quarter_notes_per_minute": 35.99999280000144
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1363637,
+          "tick": 86160,
+          "midi_seconds": 248.11442012500333,
+          "quarter_notes_per_minute": 43.99997946667625
+        },
+        {
+          "type": "time_signature",
+          "numerator": 12,
+          "denominator": 8,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 86400,
+          "midi_seconds": 248.79623862500327
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1666667,
+          "tick": 86400,
+          "midi_seconds": 248.79623862500327,
+          "quarter_notes_per_minute": 35.99999280000144
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1363637,
+          "tick": 86640,
+          "midi_seconds": 249.62957212500348,
+          "quarter_notes_per_minute": 43.99997946667625
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1666667,
+          "tick": 86880,
+          "midi_seconds": 250.3113906250034,
+          "quarter_notes_per_minute": 35.99999280000144
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1363637,
+          "tick": 87120,
+          "midi_seconds": 251.14472412500362,
+          "quarter_notes_per_minute": 43.99997946667625
+        },
+        {
+          "type": "time_signature",
+          "numerator": 2,
+          "denominator": 4,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 89280,
+          "midi_seconds": 257.28109062500374
+        },
+        {
+          "type": "marker",
+          "text": "5",
+          "tick": 89280,
+          "midi_seconds": 257.28109062500374
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1363637,
+          "tick": 89760,
+          "midi_seconds": 258.64472762500526,
+          "quarter_notes_per_minute": 43.99997946667625
+        },
+        {
+          "type": "time_signature",
+          "numerator": 3,
+          "denominator": 4,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 90240,
+          "midi_seconds": 260.0083646250053
+        },
+        {
+          "type": "marker",
+          "text": "6",
+          "tick": 98880,
+          "midi_seconds": 284.5538306250067
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1363637,
+          "tick": 106080,
+          "midi_seconds": 305.0083856250111,
+          "quarter_notes_per_minute": 43.99997946667625
+        },
+        {
+          "type": "time_signature",
+          "numerator": 2,
+          "denominator": 4,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 107520,
+          "midi_seconds": 309.0992966250121
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1499999,
+          "tick": 107520,
+          "midi_seconds": 309.0992966250121,
+          "quarter_notes_per_minute": 40.00002666668444
+        },
+        {
+          "type": "marker",
+          "text": "7",
+          "tick": 107520,
+          "midi_seconds": 309.0992966250121
+        },
+        {
+          "type": "marker",
+          "text": "8",
+          "tick": 114240,
+          "midi_seconds": 330.09928262500716
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 115200,
+          "midi_seconds": 333.0992806250069
+        },
+        {
+          "type": "key_signature",
+          "key": "F",
+          "tick": 115200,
+          "midi_seconds": 333.0992806250069
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1363637,
+          "tick": 118080,
+          "midi_seconds": 342.0992746250069,
+          "quarter_notes_per_minute": 43.99997946667625
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1250000,
+          "tick": 118560,
+          "midi_seconds": 343.4629116250069,
+          "quarter_notes_per_minute": 48.0
+        },
+        {
+          "type": "time_signature",
+          "numerator": 3,
+          "denominator": 4,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1153846,
+          "tick": 119040,
+          "midi_seconds": 344.712911625007,
+          "quarter_notes_per_minute": 52.000006933334255
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "Ab",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "Ab",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "F",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "F",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 119040,
+          "midi_seconds": 344.712911625007
+        },
+        {
+          "type": "marker",
+          "text": "9",
+          "tick": 123360,
+          "midi_seconds": 355.09752562500665
+        },
+        {
+          "type": "key_signature",
+          "key": "Eb",
+          "tick": 133440,
+          "midi_seconds": 379.32829162500514
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 133440,
+          "midi_seconds": 379.32829162500514
+        },
+        {
+          "type": "key_signature",
+          "key": "F",
+          "tick": 133440,
+          "midi_seconds": 379.32829162500514
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 133440,
+          "midi_seconds": 379.32829162500514
+        },
+        {
+          "type": "time_signature",
+          "numerator": 2,
+          "denominator": 4,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 136320,
+          "midi_seconds": 386.25136762500506
+        },
+        {
+          "type": "time_signature",
+          "numerator": 3,
+          "denominator": 4,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 137280,
+          "midi_seconds": 388.5590596250051
+        },
+        {
+          "type": "marker",
+          "text": "10",
+          "tick": 137280,
+          "midi_seconds": 388.5590596250051
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1071429,
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505,
+          "quarter_notes_per_minute": 55.99997760000896
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "key_signature",
+          "key": "Db",
+          "tick": 138720,
+          "midi_seconds": 392.02059762500505
+        },
+        {
+          "type": "time_signature",
+          "numerator": 2,
+          "denominator": 4,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 144480,
+          "midi_seconds": 404.87774562500596
+        },
+        {
+          "type": "key_signature",
+          "key": "Eb",
+          "tick": 144480,
+          "midi_seconds": 404.87774562500596
+        },
+        {
+          "type": "key_signature",
+          "key": "F",
+          "tick": 144480,
+          "midi_seconds": 404.87774562500596
+        },
+        {
+          "type": "time_signature",
+          "numerator": 3,
+          "denominator": 4,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "marker",
+          "text": "11",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Bb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Bb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "F",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 145440,
+          "midi_seconds": 407.02060362500697
+        },
+        {
+          "type": "time_signature",
+          "numerator": 2,
+          "denominator": 4,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 151200,
+          "midi_seconds": 419.8777516250081
+        },
+        {
+          "type": "time_signature",
+          "numerator": 3,
+          "denominator": 4,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "marker",
+          "text": "12",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "Ab",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "F",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 152160,
+          "midi_seconds": 422.0206096250086
+        },
+        {
+          "type": "key_signature",
+          "key": "G",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "G",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "G",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "G",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "G",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "F#",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "F#",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "G",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "G",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "F",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "G",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "G",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "G",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "G",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "G",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "G",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "G",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "G",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "G",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "G",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "G",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "G",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "G",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "G",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "G",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "G",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "G",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "G",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "G",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "G",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "G",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "G",
+          "tick": 156480,
+          "midi_seconds": 431.66347062500876
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "marker",
+          "text": "13",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "F",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "F",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 160800,
+          "midi_seconds": 441.30633162500965
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1071429,
+          "tick": 168000,
+          "midi_seconds": 457.37776662500903,
+          "quarter_notes_per_minute": 55.99997760000896
+        },
+        {
+          "type": "time_signature",
+          "numerator": 4,
+          "denominator": 4,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 170880,
+          "midi_seconds": 463.8063406250092
+        },
+        {
+          "type": "time_signature",
+          "numerator": 6,
+          "denominator": 8,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 289855,
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955,
+          "quarter_notes_per_minute": 207.00005175001294
+        },
+        {
+          "type": "marker",
+          "text": "14",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "Eb",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "Eb",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "F",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "F",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 172800,
+          "midi_seconds": 468.09205662500955
+        },
+        {
+          "type": "key_signature",
+          "key": "F#",
+          "tick": 173040,
+          "midi_seconds": 468.2369841250096
+        },
+        {
+          "type": "key_signature",
+          "key": "F#",
+          "tick": 174960,
+          "midi_seconds": 469.3964041250097
+        },
+        {
+          "type": "key_signature",
+          "key": "A",
+          "tick": 178560,
+          "midi_seconds": 471.57031662500975
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 178560,
+          "midi_seconds": 471.57031662500975
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 178560,
+          "midi_seconds": 471.57031662500975
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 178560,
+          "midi_seconds": 471.57031662500975
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 178560,
+          "midi_seconds": 471.57031662500975
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 178560,
+          "midi_seconds": 471.57031662500975
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 178560,
+          "midi_seconds": 471.57031662500975
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 178560,
+          "midi_seconds": 471.57031662500975
+        },
+        {
+          "type": "marker",
+          "text": "15",
+          "tick": 184320,
+          "midi_seconds": 475.04857662501126
+        },
+        {
+          "type": "marker",
+          "text": "16",
+          "tick": 197280,
+          "midi_seconds": 482.8746616250107
+        },
+        {
+          "type": "marker",
+          "text": "17",
+          "tick": 217440,
+          "midi_seconds": 495.04857162501077
+        },
+        {
+          "type": "marker",
+          "text": "18",
+          "tick": 240480,
+          "midi_seconds": 508.9616116250127
+        },
+        {
+          "type": "key_signature",
+          "key": "F",
+          "tick": 240480,
+          "midi_seconds": 508.9616116250127
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 252000,
+          "midi_seconds": 515.918131625013
+        },
+        {
+          "type": "marker",
+          "text": "19",
+          "tick": 253440,
+          "midi_seconds": 516.7876966250137
+        },
+        {
+          "type": "marker",
+          "text": "20",
+          "tick": 264960,
+          "midi_seconds": 523.7442166250231
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 267120,
+          "midi_seconds": 525.0485641250206
+        },
+        {
+          "type": "marker",
+          "text": "21",
+          "tick": 273600,
+          "midi_seconds": 528.9616066250256
+        },
+        {
+          "type": "marker",
+          "text": "22",
+          "tick": 296640,
+          "midi_seconds": 542.8746466250259
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "marker",
+          "text": "23",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "Cb",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "F",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "F",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 309600,
+          "midi_seconds": 550.7007316250266
+        },
+        {
+          "type": "marker",
+          "text": "24",
+          "tick": 331200,
+          "midi_seconds": 563.7442066250492
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 331200,
+          "midi_seconds": 563.7442066250492
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "marker",
+          "text": "25",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "Eb",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "F",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "F",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 352800,
+          "midi_seconds": 576.7876816250505
+        },
+        {
+          "type": "marker",
+          "text": "26",
+          "tick": 370080,
+          "midi_seconds": 587.2224616250583
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "marker",
+          "text": "27",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "F",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "F",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 385920,
+          "midi_seconds": 596.7876766250674
+        },
+        {
+          "type": "marker",
+          "text": "28",
+          "tick": 397440,
+          "midi_seconds": 603.7441966250672
+        },
+        {
+          "type": "marker",
+          "text": "29",
+          "tick": 413280,
+          "midi_seconds": 613.3094116250668
+        },
+        {
+          "type": "marker",
+          "text": "30",
+          "tick": 434880,
+          "midi_seconds": 626.3528866250713
+        },
+        {
+          "type": "marker",
+          "text": "31",
+          "tick": 452160,
+          "midi_seconds": 636.7876666250719
+        },
+        {
+          "type": "marker",
+          "text": "32",
+          "tick": 465120,
+          "midi_seconds": 644.6137516250716
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 478080,
+          "midi_seconds": 652.4398366250746
+        },
+        {
+          "type": "marker",
+          "text": "33",
+          "tick": 482400,
+          "midi_seconds": 655.0485316250741
+        },
+        {
+          "type": "marker",
+          "text": "34",
+          "tick": 495360,
+          "midi_seconds": 662.8746166250763
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 505440,
+          "midi_seconds": 668.9615716250829
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 505440,
+          "midi_seconds": 668.9615716250829
+        },
+        {
+          "type": "marker",
+          "text": "35",
+          "tick": 511200,
+          "midi_seconds": 672.4398316250865
+        },
+        {
+          "type": "marker",
+          "text": "36",
+          "tick": 524160,
+          "midi_seconds": 680.2659166250917
+        },
+        {
+          "type": "marker",
+          "text": "37",
+          "tick": 535680,
+          "midi_seconds": 687.2224366250979
+        },
+        {
+          "type": "marker",
+          "text": "38",
+          "tick": 548640,
+          "midi_seconds": 695.0485216251009
+        },
+        {
+          "type": "marker",
+          "text": "39",
+          "tick": 567360,
+          "midi_seconds": 706.352866625103
+        },
+        {
+          "type": "marker",
+          "text": "40",
+          "tick": 583200,
+          "midi_seconds": 715.9180816251039
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "marker",
+          "text": "41",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "Eb",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "Eb",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "F",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "F",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 599040,
+          "midi_seconds": 725.4832966251194
+        },
+        {
+          "type": "marker",
+          "text": "42",
+          "tick": 616320,
+          "midi_seconds": 735.918076625124
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "Eb",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "Eb",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 619200,
+          "midi_seconds": 737.6572066251244
+        },
+        {
+          "type": "time_signature",
+          "numerator": 3,
+          "denominator": 4,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 626400,
+          "midi_seconds": 742.0050316251318
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 434783,
+          "tick": 626400,
+          "midi_seconds": 742.0050316251318,
+          "quarter_notes_per_minute": 137.99987580011177
+        },
+        {
+          "type": "time_signature",
+          "numerator": 2,
+          "denominator": 4,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 312500,
+          "tick": 627840,
+          "midi_seconds": 743.309380625127,
+          "quarter_notes_per_minute": 192.0
+        },
+        {
+          "type": "marker",
+          "text": "43",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "B",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 627840,
+          "midi_seconds": 743.309380625127
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 309278,
+          "tick": 630720,
+          "midi_seconds": 745.184380625127,
+          "quarter_notes_per_minute": 194.00021986691584
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 306122,
+          "tick": 632640,
+          "midi_seconds": 746.4214926251268,
+          "quarter_notes_per_minute": 196.0002874670883
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 303030,
+          "tick": 634560,
+          "midi_seconds": 747.6459806251266,
+          "quarter_notes_per_minute": 198.000198000198
+        },
+        {
+          "type": "marker",
+          "text": "44",
+          "tick": 635520,
+          "midi_seconds": 748.2520406251267
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 300000,
+          "tick": 637440,
+          "midi_seconds": 749.4641606251267,
+          "quarter_notes_per_minute": 200.0
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 297030,
+          "tick": 639360,
+          "midi_seconds": 750.6641606251274,
+          "quarter_notes_per_minute": 201.999798000202
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 294118,
+          "tick": 641280,
+          "midi_seconds": 751.852280625127,
+          "quarter_notes_per_minute": 203.99975520029375
+        },
+        {
+          "type": "marker",
+          "text": "45",
+          "tick": 641280,
+          "midi_seconds": 751.852280625127
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 291262,
+          "tick": 643200,
+          "midi_seconds": 753.0287526251274,
+          "quarter_notes_per_minute": 206.0000961333782
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 288462,
+          "tick": 644160,
+          "midi_seconds": 753.611276625127,
+          "quarter_notes_per_minute": 207.99966720053249
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 285714,
+          "tick": 645120,
+          "midi_seconds": 754.188200625127,
+          "quarter_notes_per_minute": 210.00021000021
+        },
+        {
+          "type": "key_signature",
+          "key": "F",
+          "tick": 647040,
+          "midi_seconds": 755.331056625127
+        },
+        {
+          "type": "key_signature",
+          "key": "F",
+          "tick": 647040,
+          "midi_seconds": 755.331056625127
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1363637,
+          "tick": 648960,
+          "midi_seconds": 756.4739126251262,
+          "quarter_notes_per_minute": 43.99997946667625
+        },
+        {
+          "type": "marker",
+          "text": "46",
+          "tick": 648960,
+          "midi_seconds": 756.4739126251262
+        },
+        {
+          "type": "time_signature",
+          "numerator": 3,
+          "denominator": 4,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 649920,
+          "midi_seconds": 759.2011866251295
+        },
+        {
+          "type": "marker",
+          "text": "47",
+          "tick": 653760,
+          "midi_seconds": 770.1102826251305
+        },
+        {
+          "type": "marker",
+          "text": "48",
+          "tick": 659520,
+          "midi_seconds": 786.4739266251344
+        },
+        {
+          "type": "marker",
+          "text": "49",
+          "tick": 667200,
+          "midi_seconds": 808.292118625138
+        },
+        {
+          "type": "marker",
+          "text": "50",
+          "tick": 671520,
+          "midi_seconds": 820.5648516251426
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1714287,
+          "tick": 687120,
+          "midi_seconds": 864.883054125147,
+          "quarter_notes_per_minute": 34.999973750019684
+        },
+        {
+          "type": "time_signature",
+          "numerator": 2,
+          "denominator": 4,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 698880,
+          "midi_seconds": 906.883085625122
+        },
+        {
+          "type": "time_signature",
+          "numerator": 3,
+          "denominator": 4,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 699840,
+          "midi_seconds": 910.3116596251205
+        },
+        {
+          "type": "time_signature",
+          "numerator": 2,
+          "denominator": 4,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 704160,
+          "midi_seconds": 925.7402426251126
+        },
+        {
+          "type": "time_signature",
+          "numerator": 3,
+          "denominator": 4,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "Eb",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "Eb",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "key_signature",
+          "key": "E",
+          "tick": 705120,
+          "midi_seconds": 929.1688166251117
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 1499999,
+          "tick": 706560,
+          "midi_seconds": 934.3116776251101,
+          "quarter_notes_per_minute": 40.00002666668444
+        },
+        {
+          "type": "time_signature",
+          "numerator": 2,
+          "denominator": 4,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "C#",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "C#",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "key_signature",
+          "key": "D",
+          "tick": 712320,
+          "midi_seconds": 952.3116656251191
+        },
+        {
+          "type": "time_signature",
+          "numerator": 3,
+          "denominator": 4,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 713280,
+          "midi_seconds": 955.3116636251199
+        },
+        {
+          "type": "time_signature",
+          "numerator": 2,
+          "denominator": 4,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 719040,
+          "midi_seconds": 973.311651625129
+        },
+        {
+          "type": "time_signature",
+          "numerator": 3,
+          "denominator": 4,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 720000,
+          "midi_seconds": 976.3116496251301
+        },
+        {
+          "type": "marker",
+          "text": "51",
+          "tick": 727200,
+          "midi_seconds": 998.8116346251402
+        },
+        {
+          "type": "key_signature",
+          "key": "F",
+          "tick": 734400,
+          "midi_seconds": 1021.3116196251443
+        },
+        {
+          "type": "key_signature",
+          "key": "F",
+          "tick": 734400,
+          "midi_seconds": 1021.3116196251443
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 734400,
+          "midi_seconds": 1021.3116196251443
+        },
+        {
+          "type": "marker",
+          "text": "52",
+          "tick": 735840,
+          "midi_seconds": 1025.811616625145
+        },
+        {
+          "type": "time_signature",
+          "numerator": 2,
+          "denominator": 4,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 737280,
+          "midi_seconds": 1030.3116136251517
+        },
+        {
+          "type": "time_signature",
+          "numerator": 6,
+          "denominator": 8,
+          "clocks_per_click": 24,
+          "notated_32nd_notes_per_beat": 8,
+          "tick": 741120,
+          "midi_seconds": 1042.3116056251756
+        },
+        {
+          "type": "set_tempo",
+          "tempo": 289855,
+          "tick": 741120,
+          "midi_seconds": 1042.3116056251756,
+          "quarter_notes_per_minute": 207.00005175001294
+        },
+        {
+          "type": "marker",
+          "text": "53",
+          "tick": 741120,
+          "midi_seconds": 1042.3116056251756
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 741120,
+          "midi_seconds": 1042.3116056251756
+        },
+        {
+          "type": "key_signature",
+          "key": "C",
+          "tick": 741120,
+          "midi_seconds": 1042.3116056251756
+        }
+      ]
+    }
+  ],
+  "compatibility_status": "needs_score_and_audio_review",
+  "limitations": [
+    "Metadata does not establish edition compatibility.",
+    "No OMR, full audio decoding, alignment or listening was performed."
+  ]
+}

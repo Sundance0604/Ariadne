@@ -1,0 +1,14 @@
+test_changing_meters_and_partial_final_bar (test_midi_score.MidiTimelineTests.test_changing_meters_and_partial_final_bar) ... ok
+test_midbar_change_is_not_silently_rounded (test_midi_score.MidiTimelineTests.test_midbar_change_is_not_silently_rounded) ... ok
+test_missing_initial_meter_requires_review (test_midi_score.MidiTimelineTests.test_missing_initial_meter_requires_review) ... ok
+test_port_switches_do_not_pair_different_instruments (test_midi_score.MidiTimelineTests.test_port_switches_do_not_pair_different_instruments) ... ok
+test_tempo_changes_are_integrated_before_new_tempo (test_midi_score.MidiTimelineTests.test_tempo_changes_are_integrated_before_new_tempo) ... ok
+test_anchor_roundtrip_history_and_invalid_order (test_review_storage.AnchorStorageTests.test_anchor_roundtrip_history_and_invalid_order) ... 127.0.0.1 - - [24/Oct/2026 23:10:33] "POST /api/anchors HTTP/1.1" 200 -
+127.0.0.1 - - [24/Oct/2026 23:10:33] "POST /api/anchors HTTP/1.1" 200 -
+127.0.0.1 - - [24/Oct/2026 23:10:33] "POST /api/anchors HTTP/1.1" 400 -
+ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.590s
+
+OK

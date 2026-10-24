@@ -1,0 +1,9 @@
+00:11:33 Parsing original MIDI tracks and tempo changes
+00:11:34 Parsed 6819 note intervals; 309 inferred bars
+00:11:34 Decoding full audio locally and resampling to 22050 Hz
+00:11:36 Estimated tuning offset: 12 cents; extracting full-recording pitch features
+........................................................................................00:11:54 Extracting full-recording onset features
+........................................................................................00:12:17 Feature cache saved; 6819 pitched note intervals used
+00:12:17 Running full-recording multiscale DTW with chroma + DLNCO
+00:12:23 Running chroma-only comparison to locate algorithm disagreement
+00:12:28 Saved D:\mycodelife\workshop\AI\classicMusic\works\lark-ascending\alignment.json; 309 bars; flags {'meter_change_inside_bar': 3, 'feature_variant_disagreement_over_2s': 2}

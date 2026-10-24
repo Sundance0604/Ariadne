@@ -1,0 +1,91 @@
+{
+  "tracks": [
+    {
+      "track": "ravel-left-hand",
+      "pages": 100,
+      "candidates": 535,
+      "review_counts": {
+        "needs_review": 33,
+        "unreviewed": 502
+      },
+      "region_counts": {
+        "bar": 531,
+        "candidate_cadenza_group_33_36": 4
+      },
+      "guide_sections": 15,
+      "references": 8,
+      "soloist": "Krystian Zimerman",
+      "duration_seconds": 1096.0,
+      "images": [
+        {
+          "page": 1,
+          "width": 1287,
+          "height": 1820
+        },
+        {
+          "page": 100,
+          "width": 1287,
+          "height": 1820
+        }
+      ],
+      "audio_range_and_source_hashes": "passed",
+      "out_of_range_page": "404"
+    },
+    {
+      "track": "lark-ascending",
+      "pages": 35,
+      "candidates": 309,
+      "review_counts": {
+        "needs_review": 98,
+        "unreviewed": 211
+      },
+      "region_counts": {
+        "bar": 216,
+        "cadenza_region": 63,
+        "system_candidate": 30
+      },
+      "guide_sections": 35,
+      "references": 8,
+      "soloist": "Hilary Hahn",
+      "duration_seconds": 977.8933333333333,
+      "images": [
+        {
+          "page": 1,
+          "width": 910,
+          "height": 1287
+        },
+        {
+          "page": 35,
+          "width": 910,
+          "height": 1287
+        }
+      ],
+      "audio_range_and_source_hashes": "passed",
+      "out_of_range_page": "404"
+    }
+  ],
+  "ravel_preservation": [
+    {
+      "path": "alignment.json",
+      "unchanged": true,
+      "sha256": "4c6c57fb0c240fcd77c155d2701b9f019333ba0c7a3940aee01064a2e563d701"
+    },
+    {
+      "path": "measure-map.json",
+      "unchanged": true,
+      "sha256": "e1728176bafc426540601f7f0e4859b441decf33261442642da4fb4ffc2181a2"
+    },
+    {
+      "path": "metadata/recording.json",
+      "unchanged": true,
+      "sha256": "35a45711dba099e31580ff8a26fb30fedcbcad85d8ea81bfc9f5dc600c94f9a1"
+    }
+  ],
+  "tests": {
+    "ran": 18,
+    "passed": 16,
+    "skipped_m4a": 2
+  },
+  "javascript_syntax": "app.mjs and analysis.mjs passed node --check",
+  "browser_playback_validation": "not performed; local browser operations disabled by app settings"
+}
