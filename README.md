@@ -1,4 +1,37 @@
-# 本地曲谱同步与导聆
+# Ariadne · 曲谱同步与导聆
+
+## 首次使用
+
+需要 Python 3.11 或更新版本，推荐 Python 3.12。仓库包含两首作品的音频、PDF、MIDI、分析和预计算同步结果，克隆后无需重新计算。播放器依赖可通过 pip 安装，不需要 Codex、Conda、Node.js 或系统 PDF 工具。
+
+```sh
+git clone https://github.com/Sundance0604/Ariadne.git
+cd Ariadne
+```
+
+Windows（PowerShell）：
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe start.py
+```
+
+macOS / Linux：
+
+```sh
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python start.py
+```
+
+打开终端显示的 [本地播放器地址](http://127.0.0.1:8765/)，在顶部选择作品。关闭时在终端按 Ctrl+C。如端口占用，可运行 `python start.py --port 8766` 并打开对应地址。首次打开每张谱页时会在本机生成图片，之后读取缓存。请在浏览器中点击播放；人工校正使用“保存人工锚点”写入本地项目。
+
+播放器在本机运行，GitHub 仓库页面本身不是在线播放器。公开仓库中的示例媒体由项目提供者明确授权随项目上传；运行时不会把音频、乐谱或校正数据发送给远程分析服务。
+
+若希望重新计算同步或运行全部测试，再安装 `requirements-processing.txt`；也可运行 `conda env create -f environment.yml` 后使用 `synctoolbox` 环境。后文 OMR 小样属于可选研究流程，仍需另行准备 Audiveris 和 Poppler，不影响已收录曲目的播放。
+
+## 已收录曲目
 
 播放器现支持曲目切换：拉威尔《左手钢琴协奏曲》与沃恩·威廉斯《云雀高飞》（The Lark Ascending）。打开本地页面后在顶部选择曲目；也可直接打开 [《云雀高飞》](http://127.0.0.1:8765/?track=lark-ascending)。切换会暂停音频，并同步切换谱页、小节时间轴、导聆、录音阵容与文献。
 
@@ -73,7 +106,7 @@ python scripts/align_recording.py --anchors review-anchors.json --output alignme
 | `output/alignment/review-ending.wav` | 结尾相同形式的试听 |
 | `output/alignment/ravel-recording-timed.mid` | 按录音时间重定时的 MIDI 听辨辅助文件；其拍位置不能当作原谱小节位置 |
 
-试听参考用简单正弦音色，局部录音做了响度归一化以便比较。它们不是原录音的新版本，不代表已由人工试听验收。素材、缓存、处理及校正均留在本地。
+试听参考用简单正弦音色，局部录音做了响度归一化以便比较。它们不是原录音的新版本，不代表已由人工试听验收。运行中的缓存、处理及校正均保存在本地。
 
 ## PDF / OMR 复现
 
@@ -83,10 +116,10 @@ python scripts/align_recording.py --anchors review-anchors.json --output alignme
 ./scripts/run_omr_samples.ps1
 ```
 
-重建 PDF 坐标需要 `pdfplumber` 和 Poppler。本次使用应用附带的 PDF Python 运行时：
+重建 PDF 坐标需要安装 `requirements-processing.txt` 中的 `pdfplumber`；OMR 小样图像转换另需 Poppler。运行：
 
 ```powershell
-& 'C:\Users\32599\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' scripts/map_pdf.py
+python scripts/map_pdf.py
 ```
 
 该几何提取器针对已提供的矢量 PDF，不是通用 PDF 识谱工具。原工作流仍是 `WORKFLOW_Ravel_Left_Hand_Concerto.md`；历史输入审查见 `reports/input-audit.md`，后续实测状态以本次测试报告为准。

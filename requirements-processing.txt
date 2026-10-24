@@ -1,0 +1,11 @@
+# Optional: recompute alignments and PDF geometry, or run the full test suite.
+-r requirements.txt
+-r requirements-audit.txt
+synctoolbox==1.4.2
+numpy>=2,<3
+scipy>=1.14,<2
+librosa>=0.10,<0.12
+numba>=0.61,<0.66
+soundfile>=0.13,<0.14
+matplotlib>=3.9,<4
+pdfplumber>=0.11,<0.12

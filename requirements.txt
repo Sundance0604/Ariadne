@@ -1,0 +1,2 @@
+# Playback of the included scores and precomputed alignments.
+-r requirements-review.txt

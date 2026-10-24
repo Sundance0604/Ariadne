@@ -8,10 +8,10 @@ from pathlib import Path
 import re
 import shutil
 import socket
-import subprocess
 import threading
 from urllib.parse import urlparse,parse_qs
 from review_library import library,track_context,page_count
+from pdf_render import render_page
 
 ROOT=Path(__file__).resolve().parents[1]
 LOCK=threading.Lock()
@@ -116,15 +116,17 @@ class Handler(BaseHTTPRequestHandler):
             if not 1<=n<=page_count(mapping): return self.send_error(404)
             pdf=(ROOT/mapping['pdf_path']).resolve()
             if not pdf.is_relative_to((ROOT/'resource').resolve()): return self.send_error(403)
-            directory=ROOT/'tmp/review-pages'/mapping['pdf_sha256'][:12]
+            directory=ROOT/'tmp/review-pages/pdfium-v1'/mapping['pdf_sha256'][:12]
             prefix=directory/f'page-{n:03d}'; image=prefix.with_suffix('.png')
             with LOCK:
                 if not image.exists():
                     directory.mkdir(parents=True,exist_ok=True)
-                    process=subprocess.run(['pdftoppm','-f',str(n),'-l',str(n),'-r','110',
-                        '-png','-singlefile',str(pdf),str(prefix)],
-                        capture_output=True,timeout=60)
-                    if process.returncode: return self.send_error(500,'PDF rendering failed')
+                    try:
+                        render_page(pdf,n,image)
+                    except ImportError:
+                        return self.send_json({'error':'请先运行 python -m pip install -r requirements.txt'},503)
+                    except (OSError,ValueError,RuntimeError):
+                        return self.send_error(500,'PDF rendering failed')
             return self.send_file(image,'image/png')
         self.send_error(404)
 
