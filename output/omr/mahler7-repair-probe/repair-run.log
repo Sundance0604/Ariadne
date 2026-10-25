@@ -1,0 +1,293 @@
+["D:\\mycodelife\\workshop\\AI\\classicMusic\\.tools\\audiveris-portable\\Audiveris\\Audiveris.exe", "-batch", "-transcribe", "-export", "-save", "-swap", "-sheets", "1-4", "-output", "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7-repair-probe", "--", "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7-repair-probe\\test-1.omr"]
+Picked up JAVA_TOOL_OPTIONS: -Djava.io.tmpdir="D:\mycodelife\workshop\AI\classicMusic\tmp\java" -Dorg.bytedeco.javacpp.cachedir="D:\mycodelife\workshop\AI\classicMusic\.tools\javacpp"
+INFO  []                      Main 259  | Running in batch mode
+INFO  []                 Languages 138  | Installed OCR languages: eng
+INFO  []             AliasPatterns 146  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 194  | Submitting 1 task(s) in sequence:
+    Book "D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-repair-probe\test-1.omr"
+INFO  []                      Book 2965 | Loading book D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-repair-probe\test-1.omr
+INFO  [test-1]                      Book 1929 | Book reaching PAGE on sheets:[#1#2#3#4]
+INFO  [test-1#1]                      Book 2050 | End of Stub#1
+INFO  [test-1#2]                      Book 2050 | End of Stub#2
+INFO  [test-1#3]            StepMonitoring 98   | CHORDS
+INFO  [test-1#3]                 SheetStub 1000 | Loaded /sheet#3/sheet#3.xml
+INFO  [test-1#3]                      Book 2565 | Stored /book.xml
+INFO  [test-1#3]                     Sheet 1583 | Stored /sheet#3/sheet#3.xml
+INFO  [test-1#3]            StepMonitoring 98   | CURVES
+INFO  [test-1#3]              SlursBuilder 240  | Slurs: 11
+INFO  [test-1#3]           SegmentsBuilder 155  | Segments: 4
+INFO  [test-1#3]                      Book 2565 | Stored /book.xml
+INFO  [test-1#3]                     Sheet 1583 | Stored /sheet#3/sheet#3.xml
+INFO  [test-1#3]            StepMonitoring 98   | SYMBOLS
+INFO  [test-1#3]                      Book 2565 | Stored /book.xml
+INFO  [test-1#3]                     Sheet 1583 | Stored /sheet#3/sheet#3.xml
+INFO  [test-1#3]            StepMonitoring 98   | LINKS
+INFO  [test-1#3]                  KeyInter 1198 | No effective key before AlterInter#36449{(0.262) staff:1 NATURAL pitch:-4.0}
+INFO  [test-1#3]                  KeyInter 1198 | No effective key before AlterInter#36635{(0.178) staff:2 NATURAL pitch:-4.0}
+INFO  [test-1#3]                  KeyInter 1198 | No effective key before AlterInter#36536{(0.204) staff:5 NATURAL pitch:-4.0}
+INFO  [test-1#3]                  KeyInter 1198 | No effective key before AlterInter#36818{(0.695) staff:7 NATURAL pitch:1.0}
+INFO  [test-1#3]                  KeyInter 1198 | No effective key before AlterInter#36910{(0.386) staff:7 NATURAL pitch:-3.0}
+INFO  [test-1#3]                  KeyInter 1198 | No effective key before AlterInter#37743{(0.783) staff:7 NATURAL pitch:1.0}
+INFO  [test-1#3]                  KeyInter 1198 | No effective key before AlterInter#36514{(0.465) staff:14 NATURAL pitch:5.0}
+INFO  [test-1#3]                  KeyInter 1198 | No effective key before AlterInter#37143{(0.755) staff:14 NATURAL pitch:5.0}
+INFO  [test-1#3]                  KeyInter 1198 | No effective key before AlterInter#36300{(0.296) staff:15 NATURAL pitch:-5.0}
+INFO  [test-1#3]                  KeyInter 1198 | No effective key before AlterInter#36462{(0.435) staff:15 NATURAL pitch:3.0}
+INFO  [test-1#3]                  KeyInter 1198 | No effective key before AlterInter#36652{(0.167) staff:15 NATURAL pitch:2.0}
+INFO  [test-1#3]                  KeyInter 1198 | No effective key before AlterInter#37114{(0.694) staff:15 NATURAL pitch:-1.0}
+INFO  [test-1#3]                  KeyInter 1331 | Key built KeyInter#38993{(0.331) staff:17 KEY_SHARP_1 pitch:0.1 fifths:1}
+INFO  [test-1#3]                  KeyInter 1198 | No effective key before AlterInter#38202{(0.212) staff:18 NATURAL pitch:5.0}
+INFO  [test-1#3]                      Book 2565 | Stored /book.xml
+INFO  [test-1#3]                     Sheet 1583 | Stored /sheet#3/sheet#3.xml
+INFO  [test-1#3]            StepMonitoring 98   | RHYTHMS
+INFO  [test-1#3]                      Book 2565 | Stored /book.xml
+INFO  [test-1#3]                     Sheet 1583 | Stored /sheet#3/sheet#3.xml
+INFO  [test-1#3]            StepMonitoring 98   | PAGE
+WARN  [test-1#3]              MeasureFixer 343  | System#1 No target duration for measures local IDs [1, 2, 3, 4, 5], please check time signatures
+INFO  [test-1#3]                      Book 2565 | Stored /book.xml
+INFO  [test-1#3]                     Sheet 1583 | Stored /sheet#3/sheet#3.xml
+INFO  [test-1#3]                 SheetStub 1655 | Sheet#3 disposed
+INFO  [test-1#3]                      Book 2050 | End of Stub#3
+INFO  [test-1#4]            StepMonitoring 98   | TEXTS
+INFO  [test-1#4]                 SheetStub 1000 | Loaded /sheet#4/sheet#4.xml
+INFO  [test-1#4]                      Book 2565 | Stored /book.xml
+INFO  [test-1#4]                     Sheet 1583 | Stored /sheet#4/sheet#4.xml
+INFO  [test-1#4]            StepMonitoring 98   | MEASURES
+INFO  [test-1#4]                      Page 307  | 5 raw measures: [5 in system#1]
+INFO  [test-1#4]                      Book 2565 | Stored /book.xml
+INFO  [test-1#4]                     Sheet 1583 | Stored /sheet#4/sheet#4.xml
+INFO  [test-1#4]            StepMonitoring 98   | CHORDS
+INFO  [test-1#4]                      Book 2565 | Stored /book.xml
+INFO  [test-1#4]                     Sheet 1583 | Stored /sheet#4/sheet#4.xml
+INFO  [test-1#4]            StepMonitoring 98   | CURVES
+INFO  [test-1#4]              SlursBuilder 240  | Slurs: 28
+INFO  [test-1#4]           SegmentsBuilder 155  | Segments: 13
+INFO  [test-1#4]                      Book 2565 | Stored /book.xml
+INFO  [test-1#4]                     Sheet 1583 | Stored /sheet#4/sheet#4.xml
+INFO  [test-1#4]            StepMonitoring 98   | SYMBOLS
+INFO  [test-1#4]                      Book 2565 | Stored /book.xml
+INFO  [test-1#4]                     Sheet 1583 | Stored /sheet#4/sheet#4.xml
+INFO  [test-1#4]            StepMonitoring 98   | LINKS
+INFO  [test-1#4]                  KeyInter 1198 | No effective key before AlterInter#31193{(0.772) staff:4 NATURAL pitch:-5.0}
+INFO  [test-1#4]                  KeyInter 1198 | No effective key before AlterInter#31564{(0.488) staff:4 NATURAL pitch:-4.0}
+INFO  [test-1#4]                  KeyInter 1198 | No effective key before AlterInter#30142{(0.774) staff:7 NATURAL pitch:-3.0}
+INFO  [test-1#4]                  KeyInter 1198 | No effective key before AlterInter#31384{(0.514) staff:7 NATURAL pitch:4.0}
+INFO  [test-1#4]                  KeyInter 1331 | Key built KeyInter#32044{(0.216) staff:8 KEY_SHARP_1 pitch:1.1 fifths:1}
+INFO  [test-1#4]                  KeyInter 1198 | No effective key before AlterInter#30021{(0.142) staff:9 NATURAL pitch:-4.0}
+INFO  [test-1#4]                  KeyInter 1198 | No effective key before AlterInter#30196{(0.616) staff:9 NATURAL pitch:-3.0}
+INFO  [test-1#4]                  KeyInter 1198 | No effective key before AlterInter#30782{(0.487) staff:9 NATURAL pitch:-5.0}
+INFO  [test-1#4]                  KeyInter 1198 | No effective key before AlterInter#31709{(0.731) staff:9 NATURAL pitch:-3.0}
+INFO  [test-1#4]                  KeyInter 1198 | No effective key before AlterInter#31786{(0.263) staff:10 NATURAL pitch:2.0}
+INFO  [test-1#4]                  KeyInter 1198 | No effective key before AlterInter#31809{(0.295) staff:10 NATURAL pitch:2.0}
+INFO  [test-1#4]                  KeyInter 1198 | No effective key before AlterInter#29991{(0.255) staff:12 NATURAL pitch:-3.0}
+INFO  [test-1#4]                      Book 2565 | Stored /book.xml
+INFO  [test-1#4]                     Sheet 1583 | Stored /sheet#4/sheet#4.xml
+INFO  [test-1#4]            StepMonitoring 98   | RHYTHMS
+INFO  [test-1#4]             MeasureRhythm 1044 | Measure{#4P33} No timeOffset for HeadChordInter#27354{(0.726/0.726) staff:4 slot#6 dur:1/4}
+INFO  [test-1#4]             MeasureRhythm 1044 | Measure{#4P35} No timeOffset for HeadChordInter#27376{(0.588/0.588) staff:6 slot#2 dur:1/4}
+INFO  [test-1#4]               StackRhythm 224  | S1 MeasureStack#4 no correct rhythm
+INFO  [test-1#4]                      Book 2565 | Stored /book.xml
+INFO  [test-1#4]                     Sheet 1583 | Stored /sheet#4/sheet#4.xml
+INFO  [test-1#4]            StepMonitoring 98   | PAGE
+WARN  [test-1#4]              MeasureFixer 343  | System#1 No target duration for measures local IDs [1, 2, 3, 4, 5], please check time signatures
+INFO  [test-1#4]                      Book 2565 | Stored /book.xml
+INFO  [test-1#4]                     Sheet 1583 | Stored /sheet#4/sheet#4.xml
+INFO  [test-1#4]                 SheetStub 1655 | Sheet#4 disposed
+INFO  [test-1#4]                      Book 2050 | End of Stub#4
+INFO  [test-1]                      Book 2057 | End of Book{test-1}
+INFO  [test-1]                      Book 543  | Created scores: [{Score null}]
+INFO  [test-1]                    Voices 333  | Retrieving logical parts
+INFO  [test-1]                 SheetStub 1000 | Loaded /sheet#1/sheet#1.xml
+INFO  [test-1]                 SheetStub 1000 | Loaded /sheet#2/sheet#2.xml
+INFO  [test-1]                 SheetStub 1000 | Loaded /sheet#3/sheet#3.xml
+INFO  [test-1]                 SheetStub 1000 | Loaded /sheet#4/sheet#4.xml
+INFO  [test-1]           PartwiseBuilder 2707 | Exporting sheet(s): [#1#2#3#4]
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 1
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 2
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 3
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 4
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 5
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 6
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 7
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 8
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 9
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 10
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 11
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 12
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 13
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 14
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 15
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 16
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 17
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 18
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 19
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 20
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 21
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 22
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 23
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 24
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 25
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 26
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 27
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 28
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 29
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 30
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 31
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 32
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 33
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 34
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 35
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 36
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 37
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 38
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 39
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 40
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 41
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 42
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 43
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 44
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 45
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 46
+INFO  [test-1]                      Part 351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 47
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 1
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 2
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 3
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 4
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 5
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 6
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 7
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 8
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 9
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 10
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 11
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 12
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 13
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 14
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 15
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 16
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 17
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 18
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 19
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 20
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 21
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 22
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 23
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 24
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 25
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 26
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 27
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 28
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 29
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 48
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 49
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 50
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 51
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 52
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 53
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 54
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 55
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 56
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 57
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 58
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 59
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 60
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 61
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 62
+INFO  [test-1]                      Part 351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 63
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 1
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 2
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 3
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 4
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 5
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 6
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 7
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 8
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 9
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 10
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 11
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 12
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 13
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 14
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 15
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 30
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 31
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 32
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 33
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 34
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 35
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 36
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 37
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 38
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 39
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 40
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 41
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 42
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 43
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 44
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 46
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 47
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 48
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 49
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 50
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 51
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 52
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 53
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 54
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 55
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 56
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 57
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 58
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 59
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 60
+INFO  [test-1]                      Part 351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 61
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 16
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 17
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 18
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 19
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 20
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 21
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 22
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 23
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 24
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 25
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 26
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 27
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 28
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 29
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 30
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 31
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 32
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 33
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 34
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 35
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 36
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 37
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 38
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 39
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 40
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 41
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 42
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 43
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 46
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 47
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 48
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 49
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 50
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 51
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 52
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 53
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 54
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 55
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 56
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 57
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 58
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 59
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 60
+INFO  [test-1]                      Part 351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 61
+INFO  [test-1]             ScoreExporter 164  | Score test-1 exported to D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-repair-probe\test-1.mxl
+INFO  [test-1]                      Book 2565 | Stored /book.xml
+INFO  [test-1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [test-1]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [test-1]                     Sheet 1583 | Stored /sheet#3/sheet#3.xml
+INFO  [test-1]                      Book 2525 | Book stored as D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-repair-probe\test-1.omr
+INFO  [test-1]                     Score 181  | Closing {Score 1}
+Estimating resolution as 424

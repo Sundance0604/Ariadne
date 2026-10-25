@@ -1,0 +1,14 @@
+Independent STFT: 0/3785 seconds
+Independent STFT: 300/3785 seconds
+Independent STFT: 600/3785 seconds
+Independent STFT: 900/3785 seconds
+Independent STFT: 1200/3785 seconds
+Independent STFT: 1500/3785 seconds
+Independent STFT: 1800/3785 seconds
+Independent STFT: 2100/3785 seconds
+Independent STFT: 2400/3785 seconds
+Independent STFT: 2700/3785 seconds
+Independent STFT: 3000/3785 seconds
+Independent STFT: 3300/3785 seconds
+Independent STFT: 3600/3785 seconds
+{"format_version": "1.0.0", "audio_sha256": "eb9a3ad6e19d775de29cc53b224c1b2c5ede83c7c274a7e463be3fe52945a5fb", "symbolic_reference_sha256": "41107250298ab3ab85eda3289d97e8fb267d0fb0bbf739c5bf2bac8a0a3d8219", "method": "independent STFT chroma versus MIDI pitch activation; \u00b18/16-second controls", "parameters": {"sample_rate": 11025, "hop_length": 1102, "n_fft": 4096, "sample_reference_step_seconds": 0.5}, "structural": {"measure_count": 1244, "monotone": true, "positive_intervals": true}, "flag_counts": {"weak_independent_pitch_evidence": 26, "insufficient_pitched_reference": 27}, "aggregate_cosine_median": 0.7727848362655129, "aggregate_shifted_margin_median": 0.06815434104610874}

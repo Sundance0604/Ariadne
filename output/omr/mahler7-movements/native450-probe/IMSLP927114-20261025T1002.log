@@ -1,0 +1,235 @@
+2026-10-25 10:02:38,111 INFO [IMSLP927114]                 Book.java:560  | 257 sheets in D:\mycodelife\workshop\AI\classicMusic\resource\mahler No.7\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_in_E_minor_---_Full_Score_(Dover_Reprint).pdf
+2026-10-25 10:02:38,230 INFO []                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:02:38,231 INFO []                 Book.java:2525 | Book stored as D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-movements\native450-probe\IMSLP927114.omr
+2026-10-25 10:02:38,233 INFO []                 Book.java:1929 | Book reaching PAGE on sheets:[#1#2]
+2026-10-25 10:02:38,234 INFO [IMSLP927114#1]       StepMonitoring.java:98   | LOAD
+2026-10-25 10:02:39,199 INFO [IMSLP927114#1]            SheetStub.java:1278 | Loaded image #1 3704x4956 from D:\mycodelife\workshop\AI\classicMusic\resource\mahler No.7\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_in_E_minor_---_Full_Score_(Dover_Reprint).pdf
+2026-10-25 10:02:39,209 INFO [IMSLP927114#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:02:39,338 INFO [IMSLP927114#1]           DataHolder.java:348  | Stored /sheet#1/GRAY.png
+2026-10-25 10:02:39,687 INFO [IMSLP927114#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:02:39,689 INFO [IMSLP927114#1]       StepMonitoring.java:98   | BINARY
+2026-10-25 10:02:40,302 INFO [IMSLP927114#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:02:40,302 INFO [IMSLP927114#1]           DataHolder.java:256  | Removed /sheet#1/GRAY.png
+2026-10-25 10:02:40,408 INFO [IMSLP927114#1]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2026-10-25 10:02:40,409 INFO [IMSLP927114#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:02:40,412 INFO [IMSLP927114#1]       StepMonitoring.java:98   | SCALE
+2026-10-25 10:02:40,434 INFO [IMSLP927114#1]         ScaleBuilder.java:254  | Beam  guessed height: 10 -- 0.25 of [8..16] range
+2026-10-25 10:02:40,434 INFO [IMSLP927114#1]         ScaleBuilder.java:271  | Beam measured height: 13 -- 0.63 of [8..16] range at 322% of needed quorum
+2026-10-25 10:02:40,435 INFO [IMSLP927114#1]         ScaleBuilder.java:401  | Normalized black jitter: 23.53 %
+2026-10-25 10:02:40,435 INFO [IMSLP927114#1]            ScaleStep.java:65   | Scale{ interline(15,17,18) line(3,5,7) beam(13)}
+2026-10-25 10:02:40,442 INFO [IMSLP927114#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:02:40,444 INFO [IMSLP927114#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:02:40,446 INFO [IMSLP927114#1]       StepMonitoring.java:98   | GRID
+2026-10-25 10:02:42,314 INFO [IMSLP927114#1]       LinesRetriever.java:1508 | Global slope: -0.00153
+2026-10-25 10:02:42,376 INFO [IMSLP927114#1]    ClustersRetriever.java:326  | Retrieved raw line clusters: 17 of sizes [5] with interline(15,17,18)
+2026-10-25 10:02:42,751 INFO [IMSLP927114#1]            PeakGraph.java:310  | Systems: #1[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+2026-10-25 10:02:42,859 INFO [IMSLP927114#1]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{698-720 F#20117 T#1 [BRACE]}
+2026-10-25 10:02:42,860 INFO [IMSLP927114#1]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{698-719 F#20118 T#2 [BRACE, BRACE_MIDDLE]}
+2026-10-25 10:02:42,860 INFO [IMSLP927114#1]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{717-737 F#20121 T#4 [BRACE, BRACE_MIDDLE]}
+2026-10-25 10:02:42,860 INFO [IMSLP927114#1]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{723-742 F#20122 T#5 [BRACE, BRACE_BOTTOM]}
+2026-10-25 10:02:42,860 INFO [IMSLP927114#1]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{688-710 F#20123 T#6 [BRACE, BRACE_MIDDLE]}
+2026-10-25 10:02:42,860 INFO [IMSLP927114#1]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{716-737 F#20125 T#7 [BRACE, BRACE_BOTTOM]}
+2026-10-25 10:02:42,860 INFO [IMSLP927114#1]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{692-715 F#20128 T#9 [BRACE]}
+2026-10-25 10:02:42,860 INFO [IMSLP927114#1]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{720-740 F#20130 T#10 [BRACE, BRACE_BOTTOM]}
+2026-10-25 10:02:42,861 INFO [IMSLP927114#1]        BarsRetriever.java:1305 | System#1
+2026-10-25 10:02:42,861 INFO [IMSLP927114#1]        BarsRetriever.java:1308 |    PartGroup{bracket number:1 barline:true staves:1-7}
+2026-10-25 10:02:42,861 INFO [IMSLP927114#1]        BarsRetriever.java:1308 |    PartGroup{bracket number:1 barline:true staves:8-10}
+2026-10-25 10:02:42,861 INFO [IMSLP927114#1]        BarsRetriever.java:1308 |    PartGroup{bracket number:1 barline:true staves:12-17}
+2026-10-25 10:02:42,861 INFO [IMSLP927114#1]        BarsRetriever.java:1308 |    PartGroup{brace number:2 barline:true staves:12-13}
+2026-10-25 10:02:42,861 INFO [IMSLP927114#1]        BarsRetriever.java:1308 |    PartGroup{brace number:2 barline:true staves:15-16}
+2026-10-25 10:02:43,827 INFO [IMSLP927114#1]        SystemManager.java:800  | 17 parts along 1 system
+2026-10-25 10:02:43,827 INFO [IMSLP927114#1]                 Book.java:543  | Created scores: [{Score 1}]
+2026-10-25 10:02:43,833 INFO [IMSLP927114#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:02:44,174 INFO [IMSLP927114#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:02:44,178 INFO [IMSLP927114#1]       StepMonitoring.java:98   | HEADERS
+2026-10-25 10:02:44,970 INFO [IMSLP927114#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:02:45,148 INFO [IMSLP927114#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:02:45,154 INFO [IMSLP927114#1]       StepMonitoring.java:98   | STEM_SEEDS
+2026-10-25 10:02:45,487 INFO [IMSLP927114#1]        StemSeedsStep.java:86   | stem(6 max:8)
+2026-10-25 10:02:45,837 INFO [IMSLP927114#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:02:46,104 INFO [IMSLP927114#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:02:46,111 INFO [IMSLP927114#1]       StepMonitoring.java:98   | BEAMS
+2026-10-25 10:02:52,935 INFO [IMSLP927114#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:02:53,074 INFO [IMSLP927114#1]           DataHolder.java:348  | Stored /sheet#1/HEAD_SPOTS.png
+2026-10-25 10:02:53,814 INFO [IMSLP927114#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:02:53,820 INFO [IMSLP927114#1]       StepMonitoring.java:98   | LEDGERS
+2026-10-25 10:02:55,247 INFO [IMSLP927114#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:02:56,028 INFO [IMSLP927114#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:02:56,034 INFO [IMSLP927114#1]       StepMonitoring.java:98   | HEADS
+2026-10-25 10:03:05,335 INFO [IMSLP927114#1]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:-0.4,R:0.2] NOTEHEAD_BLACK[L:-0.9,R:-0.8]}
+2026-10-25 10:03:05,343 INFO [IMSLP927114#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:03:05,344 INFO [IMSLP927114#1]           DataHolder.java:256  | Removed /sheet#1/HEAD_SPOTS.png
+2026-10-25 10:03:06,837 INFO [IMSLP927114#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:03:06,846 INFO [IMSLP927114#1]       StepMonitoring.java:98   | STEMS
+2026-10-25 10:03:44,797 INFO [IMSLP927114#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:03:46,906 INFO [IMSLP927114#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:03:46,956 INFO [IMSLP927114#1]       StepMonitoring.java:98   | REDUCTION
+2026-10-25 10:03:47,915 INFO [IMSLP927114#1]        ReductionStep.java:105  | Stems free length median value: 62 pixels, 3.6 interlines
+2026-10-25 10:03:47,934 INFO [IMSLP927114#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:03:48,479 INFO [IMSLP927114#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:03:48,484 INFO [IMSLP927114#1]       StepMonitoring.java:98   | CUE_BEAMS
+2026-10-25 10:03:48,485 INFO [IMSLP927114#1]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-10-25 10:03:48,493 INFO [IMSLP927114#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:03:49,027 INFO [IMSLP927114#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:03:49,032 INFO [IMSLP927114#1]       StepMonitoring.java:98   | TEXTS
+2026-10-25 10:03:53,596 INFO [IMSLP927114#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:03:54,278 INFO [IMSLP927114#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:03:54,283 INFO [IMSLP927114#1]       StepMonitoring.java:98   | MEASURES
+2026-10-25 10:03:54,286 INFO [IMSLP927114#1]      MeasuresBuilder.java:416  | S1 partial barline column: s1:G(x:2735,y:785)[14] s2:G(x:2735,y:988)[26] s3:G(x:2734,y:1190)[38] s4:G(x:2734,y:1394)[50] s5:G(x:2734,y:1634)[62] s6:G(x:2732,y:1851)[74] s7:G(x:2733,y:2078)[86] s8:G(x:2734,y:2316)[98] s9:G(x:2736,y:2521)[110] s10:G(x:2737,y:2714)[122] s11:G(x:2740,y:2955)[132] s12:G(x:2743,y:3185)[144] s13:G(x:2746,y:3386)[156] s14:G(x:2749,y:3620)[168] s15:G(x:2752,y:3829)[180] s16:G(x:2755,y:4073)[192]
+2026-10-25 10:03:54,287 INFO [IMSLP927114#1]      MeasuresBuilder.java:424  | S1 expanding major column: s1:G(x:2735,y:785)[14] s2:G(x:2735,y:988)[26] s3:G(x:2734,y:1190)[38] s4:G(x:2734,y:1394)[50] s5:G(x:2734,y:1634)[62] s6:G(x:2732,y:1851)[74] s7:G(x:2733,y:2078)[86] s8:G(x:2734,y:2316)[98] s9:G(x:2736,y:2521)[110] s10:G(x:2737,y:2714)[122] s11:G(x:2740,y:2955)[132] s12:G(x:2743,y:3185)[144] s13:G(x:2746,y:3386)[156] s14:G(x:2749,y:3620)[168] s15:G(x:2752,y:3829)[180] s16:G(x:2755,y:4073)[192]
+2026-10-25 10:03:54,288 INFO [IMSLP927114#1]      MeasuresBuilder.java:416  | S1 partial barline column: s17:G(x:2760,y:4336)[204]
+2026-10-25 10:03:54,288 INFO [IMSLP927114#1]      MeasuresBuilder.java:420  | S1 deleting  minor column: s17:G(x:2760,y:4336)[204]
+2026-10-25 10:03:54,292 INFO [IMSLP927114#1]                 Page.java:307  | 4 raw measures: [4 in system#1]
+2026-10-25 10:03:54,300 INFO [IMSLP927114#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:03:55,002 INFO [IMSLP927114#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:03:55,007 INFO [IMSLP927114#1]       StepMonitoring.java:98   | CHORDS
+2026-10-25 10:03:55,053 INFO [IMSLP927114#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:03:55,747 INFO [IMSLP927114#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:03:55,751 INFO [IMSLP927114#1]       StepMonitoring.java:98   | CURVES
+2026-10-25 10:03:58,760 INFO [IMSLP927114#1]         SlursBuilder.java:240  | Slurs: 12
+2026-10-25 10:03:58,846 INFO [IMSLP927114#1]      SegmentsBuilder.java:155  | Segments: 43
+2026-10-25 10:03:58,858 INFO [IMSLP927114#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:03:59,649 INFO [IMSLP927114#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:03:59,655 INFO [IMSLP927114#1]       StepMonitoring.java:98   | SYMBOLS
+2026-10-25 10:04:04,123 INFO [IMSLP927114#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:04:05,544 INFO [IMSLP927114#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:04:05,549 INFO [IMSLP927114#1]       StepMonitoring.java:98   | LINKS
+2026-10-25 10:04:05,589 INFO [IMSLP927114#1]             KeyInter.java:1198 | No effective key before AlterInter#29622{(0.382) staff:6 NATURAL pitch:-3.0}
+2026-10-25 10:04:05,590 INFO [IMSLP927114#1]             KeyInter.java:1198 | No effective key before AlterInter#29869{(0.252) staff:6 NATURAL pitch:-4.0}
+2026-10-25 10:04:05,590 INFO [IMSLP927114#1]             KeyInter.java:1198 | No effective key before AlterInter#29443{(0.184) staff:8 NATURAL pitch:-1.0}
+2026-10-25 10:04:05,920 INFO [IMSLP927114#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:04:06,916 INFO [IMSLP927114#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:04:06,920 INFO [IMSLP927114#1]       StepMonitoring.java:98   | RHYTHMS
+2026-10-25 10:04:07,066 INFO [IMSLP927114#1]        MeasureRhythm.java:1044 | Measure{#2P3} No timeOffset for HeadChordInter#25200{(0.650/0.650) staff:3 slot#2 dur:1/4}
+2026-10-25 10:04:07,079 INFO [IMSLP927114#1]        MeasureRhythm.java:1044 | Measure{#2P14} No timeOffset for HeadChordInter#25384{(0.958/0.958) staff:14 slot#2 dur:1/8}
+2026-10-25 10:04:07,089 INFO [IMSLP927114#1]        MeasureRhythm.java:1276 | Measure{#2P17} Time inconsistency in {11/32=[HeadChordInter#25513{(0.953/0.953) staff:17 slot#6 off:11/32 dur:1/32}], 7/16=[HeadChordInter#25514{(0.947/0.947) staff:17 slot#6 off:7/16 dur:1/8}]}
+2026-10-25 10:04:07,091 INFO [IMSLP927114#1]          StackRhythm.java:224  | S1 MeasureStack#2 no correct rhythm
+2026-10-25 10:04:07,134 INFO [IMSLP927114#1]        MeasureRhythm.java:1276 | Measure{#4P17} Time inconsistency in {1/8=[HeadChordInter#25532{(0.957/0.957) staff:17 slot#2 off:1/8 dur:1/32}], 3/16=[HeadChordInter#25533{(0.957/0.957) staff:17 slot#2 off:3/16 dur:1/32}]}
+2026-10-25 10:04:07,135 INFO [IMSLP927114#1]        MeasureRhythm.java:1276 | Measure{#4P17} Time inconsistency in {5/32=[HeadChordInter#25534{(0.961/0.961) staff:17 slot#3 off:5/32 dur:1/32}], 7/32=[HeadChordInter#25535{(0.953/0.953) staff:17 slot#3 off:7/32 dur:1/32}]}
+2026-10-25 10:04:07,147 INFO [IMSLP927114#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:04:08,159 INFO [IMSLP927114#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:04:08,164 INFO [IMSLP927114#1]       StepMonitoring.java:98   | PAGE
+2026-10-25 10:04:08,170 WARN [IMSLP927114#1]         MeasureFixer.java:343  | System#1 No target duration for measures local IDs [1, 2, 3, 4], please check time signatures
+2026-10-25 10:04:08,181 INFO [IMSLP927114#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:04:09,183 INFO [IMSLP927114#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:04:09,188 INFO [IMSLP927114#1]            SheetStub.java:1655 | Sheet#1 disposed
+2026-10-25 10:04:09,226 INFO [IMSLP927114#1]                 Book.java:2050 | End of Stub#1
+2026-10-25 10:04:09,227 INFO [IMSLP927114#2]       StepMonitoring.java:98   | LOAD
+2026-10-25 10:04:10,450 INFO [IMSLP927114#2]            SheetStub.java:1278 | Loaded image #2 3704x4956 from D:\mycodelife\workshop\AI\classicMusic\resource\mahler No.7\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_in_E_minor_---_Full_Score_(Dover_Reprint).pdf
+2026-10-25 10:04:10,459 INFO [IMSLP927114#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:04:10,667 INFO [IMSLP927114#2]           DataHolder.java:348  | Stored /sheet#2/GRAY.png
+2026-10-25 10:04:10,668 INFO [IMSLP927114#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:04:10,674 INFO [IMSLP927114#2]       StepMonitoring.java:98   | BINARY
+2026-10-25 10:04:12,106 INFO [IMSLP927114#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:04:12,106 INFO [IMSLP927114#2]           DataHolder.java:256  | Removed /sheet#2/GRAY.png
+2026-10-25 10:04:12,270 INFO [IMSLP927114#2]           DataHolder.java:348  | Stored /sheet#2/BINARY.png
+2026-10-25 10:04:12,271 INFO [IMSLP927114#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:04:12,277 INFO [IMSLP927114#2]       StepMonitoring.java:98   | SCALE
+2026-10-25 10:04:12,310 INFO [IMSLP927114#2]         ScaleBuilder.java:254  | Beam  guessed height: 10 -- 0.25 of [8..16] range
+2026-10-25 10:04:12,311 INFO [IMSLP927114#2]         ScaleBuilder.java:271  | Beam measured height: 13 -- 0.63 of [8..16] range at 208% of needed quorum
+2026-10-25 10:04:12,311 INFO [IMSLP927114#2]         ScaleBuilder.java:401  | Normalized black jitter: 23.53 %
+2026-10-25 10:04:12,311 INFO [IMSLP927114#2]            ScaleStep.java:65   | Scale{ interline(15,17,18) line(3,5,7) beam(13)}
+2026-10-25 10:04:12,319 INFO [IMSLP927114#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:04:12,320 INFO [IMSLP927114#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:04:12,329 INFO [IMSLP927114#2]       StepMonitoring.java:98   | GRID
+2026-10-25 10:04:16,258 INFO [IMSLP927114#2]       LinesRetriever.java:1508 | Global slope: 0.00000
+2026-10-25 10:04:16,331 INFO [IMSLP927114#2]    ClustersRetriever.java:326  | Retrieved raw line clusters: 19 of sizes [5] with interline(15,17,18)
+2026-10-25 10:04:16,946 INFO [IMSLP927114#2]            PeakGraph.java:310  | Systems: #1[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+2026-10-25 10:04:18,742 INFO [IMSLP927114#2]        SystemManager.java:800  | 19 parts along 1 system
+2026-10-25 10:04:18,751 INFO [IMSLP927114#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:04:18,890 INFO [IMSLP927114#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:04:18,897 INFO [IMSLP927114#2]       StepMonitoring.java:98   | HEADERS
+2026-10-25 10:04:19,668 INFO [IMSLP927114#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:04:19,904 INFO [IMSLP927114#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:04:19,911 INFO [IMSLP927114#2]       StepMonitoring.java:98   | STEM_SEEDS
+2026-10-25 10:04:20,020 INFO [IMSLP927114#2]        StemSeedsStep.java:86   | stem(7 max:8)
+2026-10-25 10:04:20,073 INFO [IMSLP927114#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:04:20,431 INFO [IMSLP927114#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:04:20,437 INFO [IMSLP927114#2]       StepMonitoring.java:98   | BEAMS
+2026-10-25 10:04:29,334 INFO [IMSLP927114#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:04:29,469 INFO [IMSLP927114#2]           DataHolder.java:348  | Stored /sheet#2/HEAD_SPOTS.png
+2026-10-25 10:04:30,165 INFO [IMSLP927114#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:04:30,172 INFO [IMSLP927114#2]       StepMonitoring.java:98   | LEDGERS
+2026-10-25 10:04:32,092 INFO [IMSLP927114#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:04:32,904 INFO [IMSLP927114#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:04:32,911 INFO [IMSLP927114#2]       StepMonitoring.java:98   | HEADS
+2026-10-25 10:04:45,500 INFO [IMSLP927114#2]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:-1.1,R:-1.6] NOTEHEAD_BLACK[L:-0.7,R:-1.4]}
+2026-10-25 10:04:45,509 INFO [IMSLP927114#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:04:45,510 INFO [IMSLP927114#2]           DataHolder.java:256  | Removed /sheet#2/HEAD_SPOTS.png
+2026-10-25 10:04:47,453 INFO [IMSLP927114#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:04:47,461 INFO [IMSLP927114#2]       StepMonitoring.java:98   | STEMS
+2026-10-25 10:05:21,684 INFO [IMSLP927114#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:05:23,988 INFO [IMSLP927114#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:05:24,002 INFO [IMSLP927114#2]       StepMonitoring.java:98   | REDUCTION
+2026-10-25 10:05:24,883 INFO [IMSLP927114#2]        ReductionStep.java:105  | Stems free length median value: 62 pixels, 3.6 interlines
+2026-10-25 10:05:24,897 INFO [IMSLP927114#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:05:25,391 INFO [IMSLP927114#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:05:25,397 INFO [IMSLP927114#2]       StepMonitoring.java:98   | CUE_BEAMS
+2026-10-25 10:05:25,398 INFO [IMSLP927114#2]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-10-25 10:05:25,406 INFO [IMSLP927114#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:05:25,896 INFO [IMSLP927114#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:05:25,902 INFO [IMSLP927114#2]       StepMonitoring.java:98   | TEXTS
+2026-10-25 10:05:30,679 INFO [IMSLP927114#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:05:31,221 INFO [IMSLP927114#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:05:31,233 INFO [IMSLP927114#2]       StepMonitoring.java:98   | MEASURES
+2026-10-25 10:05:31,234 INFO [IMSLP927114#2]      MeasuresBuilder.java:416  | S1 partial barline column: s1:G(x:419,y:480)[320] s2:G(x:424,y:684)[321] s3:G(x:425,y:875)[322] s4:G(x:431,y:1099)[323] s5:G(x:434,y:1316)[324] s6:G(x:437,y:1503)[325] s7:G(x:440,y:1733)[326] s8:G(x:443,y:1950)[327] s9:G(x:445,y:2180)[328] s10:G(x:445,y:2373)[329] s11:G(x:444,y:2600)[330] s12:G(x:444,y:2797)[331] s13:G(x:443,y:2994)[332] s17:G(x:441,y:3925)[336] s18:G(x:434,y:4185)[337] s19:G(x:448,y:4440)[338]
+2026-10-25 10:05:31,234 INFO [IMSLP927114#2]      MeasuresBuilder.java:424  | S1 expanding major column: s1:G(x:419,y:480)[320] s2:G(x:424,y:684)[321] s3:G(x:425,y:875)[322] s4:G(x:431,y:1099)[323] s5:G(x:434,y:1316)[324] s6:G(x:437,y:1503)[325] s7:G(x:440,y:1733)[326] s8:G(x:443,y:1950)[327] s9:G(x:445,y:2180)[328] s10:G(x:445,y:2373)[329] s11:G(x:444,y:2600)[330] s12:G(x:444,y:2797)[331] s13:G(x:443,y:2994)[332] s17:G(x:441,y:3925)[336] s18:G(x:434,y:4185)[337] s19:G(x:448,y:4440)[338]
+2026-10-25 10:05:31,235 INFO [IMSLP927114#2]      MeasuresBuilder.java:416  | S1 partial barline column: s14:G(x:488,y:3257)[333] s15:G(x:488,y:3465)[334] s16:G(x:486,y:3697)[335]
+2026-10-25 10:05:31,235 INFO [IMSLP927114#2]      MeasuresBuilder.java:420  | S1 deleting  minor column: s14:G(x:488,y:3257)[333] s15:G(x:488,y:3465)[334] s16:G(x:486,y:3697)[335]
+2026-10-25 10:05:31,237 INFO [IMSLP927114#2]                 Page.java:307  | 4 raw measures: [4 in system#1]
+2026-10-25 10:05:31,244 INFO [IMSLP927114#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:05:31,806 INFO [IMSLP927114#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:05:31,821 INFO [IMSLP927114#2]       StepMonitoring.java:98   | CHORDS
+2026-10-25 10:05:31,830 WARN [IMSLP927114#2]                 Book.java:2044 | Error processing stub java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.addInter(org.audiveris.omr.sig.inter.Inter)" because "measure" is null
+java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.addInter(org.audiveris.omr.sig.inter.Inter)" because "measure" is null
+	at java.base/java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at org.audiveris.omr.sheet.SheetStub.doOneStep(SheetStub.java:519)
+	at org.audiveris.omr.sheet.SheetStub.reachStep(SheetStub.java:1405)
+	at org.audiveris.omr.sheet.Book.reachBookStep(Book.java:2035)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:885)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:513)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:370)
+	at org.audiveris.omr.Main.main(Main.java:272)
+	at Audiveris.main(Audiveris.java:50)
+Caused by: java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.addInter(org.audiveris.omr.sig.inter.Inter)" because "measure" is null
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:185)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:125)
+	at org.audiveris.omr.step.OmrStep.doit(OmrStep.java:138)
+	at org.audiveris.omr.sheet.SheetStub.lambda$doOneStep$0(SheetStub.java:503)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.addInter(org.audiveris.omr.sig.inter.Inter)" because "measure" is null
+	at org.audiveris.omr.sheet.rhythm.MeasureStack.addInter(MeasureStack.java:248)
+	at org.audiveris.omr.sig.inter.AbstractChordInter.invalidateCache(AbstractChordInter.java:1087)
+	at org.audiveris.omr.sig.relation.Containment.added(Containment.java:52)
+	at org.audiveris.omr.sig.SigListener.edgeAdded(SigListener.java:77)
+	at org.jgrapht.graph.DefaultListenableGraph.fireEdgeAdded(DefaultListenableGraph.java:276)
+	at org.jgrapht.graph.DefaultListenableGraph.addEdge(DefaultListenableGraph.java:135)
+	at org.audiveris.omr.sig.SIGraph.addEdge(SIGraph.java:144)
+	at org.audiveris.omr.sig.inter.EnsembleHelper.addMember(EnsembleHelper.java:81)
+	at org.audiveris.omr.sig.inter.AbstractChordInter.addMember(AbstractChordInter.java:208)
+	at org.audiveris.omr.sheet.note.ChordsBuilder.connectHead(ChordsBuilder.java:328)
+	at org.audiveris.omr.sheet.note.ChordsBuilder.buildHeadChords(ChordsBuilder.java:147)
+	at org.audiveris.omr.sheet.note.ChordsStep.doSystem(ChordsStep.java:63)
+	at org.audiveris.omr.sheet.note.ChordsStep.doSystem(ChordsStep.java:36)
+	at org.audiveris.omr.step.AbstractSystemStep.lambda$doitPerSystem$0(AbstractSystemStep.java:158)
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:178)
+	... 7 common frames omitted
+2026-10-25 10:05:31,831 INFO [IMSLP927114#2]                 Book.java:2584 | Book{IMSLP927114} storing
+2026-10-25 10:05:31,969 INFO [IMSLP927114#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:05:32,566 INFO [IMSLP927114#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:05:32,567 INFO [IMSLP927114#2]                 Book.java:2525 | Book stored as D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-movements\native450-probe\IMSLP927114.omr
+2026-10-25 10:05:32,575 INFO [IMSLP927114#2]            SheetStub.java:1655 | Sheet#2 disposed
+2026-10-25 10:05:32,603 INFO [IMSLP927114#2]                 Book.java:2050 | End of Stub#2
+2026-10-25 10:05:32,604 INFO [IMSLP927114]                 Book.java:2057 | End of Book{IMSLP927114}
+2026-10-25 10:05:32,604 WARN [IMSLP927114]                  CLI.java:956  | Exception occurred java.lang.Exception: Error in reaching step PAGE
+java.lang.Exception: Error in reaching step PAGE
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:893)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:513)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:370)
+	at org.audiveris.omr.Main.main(Main.java:272)
+	at Audiveris.main(Audiveris.java:50)
+2026-10-25 10:05:32,632 INFO [IMSLP927114]                Score.java:181  | Closing {Score 1}

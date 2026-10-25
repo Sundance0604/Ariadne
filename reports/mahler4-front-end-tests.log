@@ -1,0 +1,36 @@
+✔ piecewise mapping supports offset, drift, inversion and bounded validity (1.3764ms)
+✔ video-only uses video clock and leaves audio paused and muted (2.2799ms)
+✔ audio-only stays compatible; switching project stops the old source (0.1964ms)
+✔ dual playback has exactly one audible source and switches through the mapping (1.8241ms)
+✔ unknown performances cannot start a slave or switch sources (0.3864ms)
+✔ large drift pauses the slave instead of repeated seeks; gaps are not extrapolated (0.5784ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10.0974
+✔ movement guide follows playback sequence even while another PDF page is browsed (0.4425ms)
+✔ existing page-based guides stay compatible and movement labels disclose granularity (0.1582ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4.1107
+✔ observed PDF regions follow nonlinear reference times, without filling unmatched gaps (0.6586ms)
+✔ coordinate clicks seek the matching physical region; playhead stays in its observed rectangle (0.2224ms)
+✔ recomputing alignment updates time boundaries while preserving PDF coordinates (1.5753ms)
+✔ finer candidates fall back to their system and manual timing takes priority (0.6069ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6.2769

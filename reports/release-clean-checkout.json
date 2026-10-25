@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "exported_index_without_videos": true,
+  "tool_cache_absent": true,
+  "minimal_existing_python_environment": true,
+  "launcher_fallback": "ravel-left-hand",
+  "score_render": "passed",
+  "audio_byte_range": "passed",
+  "missing_video": "expected_404",
+  "tracks": {
+    "ravel-left-hand": {
+      "reference_segments": 535,
+      "guide_sections": 15
+    },
+    "lark-ascending": {
+      "reference_segments": 309,
+      "guide_sections": 35
+    },
+    "mahler-4": {
+      "reference_segments": 1244,
+      "guide_sections": 38
+    }
+  }
+}

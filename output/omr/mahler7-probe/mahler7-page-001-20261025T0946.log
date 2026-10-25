@@ -1,0 +1,119 @@
+2026-10-25 09:46:36,483 INFO [mahler7-page-001]                 Book.java:560  | 1 sheet in D:\mycodelife\workshop\AI\classicMusic\tmp\omr\mahler-probe\mahler7-page-001.png
+2026-10-25 09:46:36,568 INFO []                 Book.java:2565 | Stored /book.xml
+2026-10-25 09:46:36,568 INFO []                 Book.java:2525 | Book stored as D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-probe\mahler7-page-001.omr
+2026-10-25 09:46:36,571 INFO []                 Book.java:1929 | Book reaching PAGE on sheets:[#1]
+2026-10-25 09:46:36,572 INFO [mahler7-page-001]       StepMonitoring.java:98   | LOAD
+2026-10-25 09:46:36,678 INFO [mahler7-page-001]            SheetStub.java:1278 | Loaded image #1 2470x3305 from D:\mycodelife\workshop\AI\classicMusic\tmp\omr\mahler-probe\mahler7-page-001.png
+2026-10-25 09:46:36,681 INFO [mahler7-page-001]            ImageUtil.java:152  | Converting max RGB to gray
+2026-10-25 09:46:36,802 INFO [mahler7-page-001]                 Book.java:2565 | Stored /book.xml
+2026-10-25 09:46:36,876 INFO [mahler7-page-001]           DataHolder.java:348  | Stored /sheet#1/GRAY.png
+2026-10-25 09:46:37,010 INFO [mahler7-page-001]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 09:46:37,013 INFO [mahler7-page-001]       StepMonitoring.java:98   | BINARY
+2026-10-25 09:46:37,313 INFO [mahler7-page-001]                 Book.java:2565 | Stored /book.xml
+2026-10-25 09:46:37,313 INFO [mahler7-page-001]           DataHolder.java:256  | Removed /sheet#1/GRAY.png
+2026-10-25 09:46:37,361 INFO [mahler7-page-001]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2026-10-25 09:46:37,362 INFO [mahler7-page-001]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 09:46:37,365 INFO [mahler7-page-001]       StepMonitoring.java:98   | SCALE
+2026-10-25 09:46:37,383 INFO [mahler7-page-001]         ScaleBuilder.java:254  | Beam  guessed height:  6 -- 0.25 of [5..10] range
+2026-10-25 09:46:37,383 INFO [mahler7-page-001]         ScaleBuilder.java:271  | Beam measured height:  9 -- 0.80 of [5..10] range at 370% of needed quorum
+2026-10-25 09:46:37,384 INFO [mahler7-page-001]         ScaleBuilder.java:401  | Normalized black jitter: 27.27 %
+2026-10-25 09:46:37,384 INFO [mahler7-page-001]            ScaleStep.java:65   | Scale{ interline(10,11,12) line(2,4,5) beam(9)}
+2026-10-25 09:46:37,386 INFO [mahler7-page-001]                 Book.java:2565 | Stored /book.xml
+2026-10-25 09:46:37,388 INFO [mahler7-page-001]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 09:46:37,390 INFO [mahler7-page-001]       StepMonitoring.java:98   | GRID
+2026-10-25 09:46:38,312 INFO [mahler7-page-001]       LinesRetriever.java:1508 | Global slope: -0.00128
+2026-10-25 09:46:38,356 INFO [mahler7-page-001]    ClustersRetriever.java:326  | Retrieved raw line clusters: 17 of sizes [5] with interline(10,11,12)
+2026-10-25 09:46:38,574 INFO [mahler7-page-001]            PeakGraph.java:310  | Systems: #1[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+2026-10-25 09:46:38,597 WARN [mahler7-page-001]        BarsRetriever.java:368  | Staff#2 isolated brace top
+2026-10-25 09:46:38,652 INFO [mahler7-page-001]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{465-480 F#12311 T#1 [BRACE]}
+2026-10-25 09:46:38,652 INFO [mahler7-page-001]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{458-473 F#12317 T#6 [BRACE, BRACE_MIDDLE]}
+2026-10-25 09:46:38,653 INFO [mahler7-page-001]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{477-491 F#12319 T#7 [BRACE, BRACE_BOTTOM]}
+2026-10-25 09:46:38,653 INFO [mahler7-page-001]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{461-477 F#12321 T#9 [BRACE]}
+2026-10-25 09:46:38,653 INFO [mahler7-page-001]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{480-493 F#12323 T#10 [BRACE, BRACE_BOTTOM]}
+2026-10-25 09:46:38,653 INFO [mahler7-page-001]        BarsRetriever.java:1305 | System#1
+2026-10-25 09:46:38,653 INFO [mahler7-page-001]        BarsRetriever.java:1308 |    PartGroup{bracket number:1 barline:true staves:1-7}
+2026-10-25 09:46:38,653 INFO [mahler7-page-001]        BarsRetriever.java:1308 |    PartGroup{brace number:2 barline:true staves:2-5}
+2026-10-25 09:46:38,653 INFO [mahler7-page-001]        BarsRetriever.java:1308 |    PartGroup{bracket number:1 barline:true staves:8-10}
+2026-10-25 09:46:38,654 INFO [mahler7-page-001]        BarsRetriever.java:1308 |    PartGroup{bracket number:1 barline:true staves:12-17}
+2026-10-25 09:46:38,654 INFO [mahler7-page-001]        BarsRetriever.java:1308 |    PartGroup{brace number:2 barline:true staves:12-13}
+2026-10-25 09:46:38,654 INFO [mahler7-page-001]        BarsRetriever.java:1308 |    PartGroup{brace number:2 barline:true staves:15-16}
+2026-10-25 09:46:39,054 INFO [mahler7-page-001]        SystemManager.java:800  | 17 parts along 1 system
+2026-10-25 09:46:39,055 INFO [mahler7-page-001]                 Book.java:543  | Created scores: [{Score 1}]
+2026-10-25 09:46:39,059 INFO [mahler7-page-001]                 Book.java:2565 | Stored /book.xml
+2026-10-25 09:46:39,321 INFO [mahler7-page-001]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 09:46:39,324 INFO [mahler7-page-001]       StepMonitoring.java:98   | HEADERS
+2026-10-25 09:46:39,772 INFO [mahler7-page-001]                 Book.java:2565 | Stored /book.xml
+2026-10-25 09:46:39,895 INFO [mahler7-page-001]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 09:46:39,899 INFO [mahler7-page-001]       StepMonitoring.java:98   | STEM_SEEDS
+2026-10-25 09:46:39,947 INFO [mahler7-page-001]        StemSeedsStep.java:86   | stem(5 max:6)
+2026-10-25 09:46:40,024 INFO [mahler7-page-001]                 Book.java:2565 | Stored /book.xml
+2026-10-25 09:46:40,193 INFO [mahler7-page-001]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 09:46:40,195 INFO [mahler7-page-001]       StepMonitoring.java:98   | BEAMS
+2026-10-25 09:46:41,895 INFO [mahler7-page-001]                 Book.java:2565 | Stored /book.xml
+2026-10-25 09:46:41,936 INFO [mahler7-page-001]           DataHolder.java:348  | Stored /sheet#1/HEAD_SPOTS.png
+2026-10-25 09:46:42,105 INFO [mahler7-page-001]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 09:46:42,107 INFO [mahler7-page-001]       StepMonitoring.java:98   | LEDGERS
+2026-10-25 09:46:42,445 INFO [mahler7-page-001]                 Book.java:2565 | Stored /book.xml
+2026-10-25 09:46:42,666 INFO [mahler7-page-001]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 09:46:42,668 INFO [mahler7-page-001]       StepMonitoring.java:98   | HEADS
+2026-10-25 09:46:44,884 INFO [mahler7-page-001]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:-0.6,R:-0.6] NOTEHEAD_BLACK[L:-0.4,R:0.2]}
+2026-10-25 09:46:44,886 INFO [mahler7-page-001]                 Book.java:2565 | Stored /book.xml
+2026-10-25 09:46:44,887 INFO [mahler7-page-001]           DataHolder.java:256  | Removed /sheet#1/HEAD_SPOTS.png
+2026-10-25 09:46:45,900 INFO [mahler7-page-001]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 09:46:45,903 INFO [mahler7-page-001]       StepMonitoring.java:98   | STEMS
+2026-10-25 09:47:00,200 INFO [mahler7-page-001]                 Book.java:2565 | Stored /book.xml
+2026-10-25 09:47:02,540 INFO [mahler7-page-001]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 09:47:02,547 INFO [mahler7-page-001]       StepMonitoring.java:98   | REDUCTION
+2026-10-25 09:47:04,325 INFO [mahler7-page-001]        ReductionStep.java:105  | Stems free length median value: 42 pixels, 3.8 interlines
+2026-10-25 09:47:04,342 INFO [mahler7-page-001]                 Book.java:2565 | Stored /book.xml
+2026-10-25 09:47:04,765 INFO [mahler7-page-001]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 09:47:04,769 INFO [mahler7-page-001]       StepMonitoring.java:98   | CUE_BEAMS
+2026-10-25 09:47:04,770 INFO [mahler7-page-001]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-10-25 09:47:04,773 INFO [mahler7-page-001]                 Book.java:2565 | Stored /book.xml
+2026-10-25 09:47:05,170 INFO [mahler7-page-001]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 09:47:05,176 INFO [mahler7-page-001]       StepMonitoring.java:98   | TEXTS
+2026-10-25 09:47:10,097 INFO [mahler7-page-001]                 Book.java:2565 | Stored /book.xml
+2026-10-25 09:47:10,549 INFO [mahler7-page-001]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 09:47:10,555 INFO [mahler7-page-001]       StepMonitoring.java:98   | MEASURES
+2026-10-25 09:47:10,562 INFO [mahler7-page-001]      MeasuresBuilder.java:416  | S1 partial barline column: s1:G(x:1824,y:524)[14] s2:G(x:1824,y:659)[26] s3:G(x:1823,y:794)[38] s4:G(x:1823,y:929)[50] s5:G(x:1822,y:1090)[62] s6:G(x:1822,y:1235)[74] s7:G(x:1822,y:1385)[86] s8:G(x:1823,y:1545)[98] s9:G(x:1824,y:1682)[110] s10:G(x:1825,y:1810)[122] s11:G(x:1827,y:1971)[132] s12:G(x:1829,y:2124)[144] s13:G(x:1831,y:2258)[156] s14:G(x:1833,y:2414)[168] s15:G(x:1835,y:2553)[180] s16:G(x:1837,y:2715)[192]
+2026-10-25 09:47:10,562 INFO [mahler7-page-001]      MeasuresBuilder.java:424  | S1 expanding major column: s1:G(x:1824,y:524)[14] s2:G(x:1824,y:659)[26] s3:G(x:1823,y:794)[38] s4:G(x:1823,y:929)[50] s5:G(x:1822,y:1090)[62] s6:G(x:1822,y:1235)[74] s7:G(x:1822,y:1385)[86] s8:G(x:1823,y:1545)[98] s9:G(x:1824,y:1682)[110] s10:G(x:1825,y:1810)[122] s11:G(x:1827,y:1971)[132] s12:G(x:1829,y:2124)[144] s13:G(x:1831,y:2258)[156] s14:G(x:1833,y:2414)[168] s15:G(x:1835,y:2553)[180] s16:G(x:1837,y:2715)[192]
+2026-10-25 09:47:10,567 INFO [mahler7-page-001]      MeasuresBuilder.java:416  | S1 partial barline column: s17:G(x:1840,y:2891)[203]
+2026-10-25 09:47:10,567 INFO [mahler7-page-001]      MeasuresBuilder.java:420  | S1 deleting  minor column: s17:G(x:1840,y:2891)[203]
+2026-10-25 09:47:10,573 INFO [mahler7-page-001]                 Page.java:307  | 4 raw measures: [4 in system#1]
+2026-10-25 09:47:10,577 INFO [mahler7-page-001]                 Book.java:2565 | Stored /book.xml
+2026-10-25 09:47:11,048 INFO [mahler7-page-001]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 09:47:11,052 INFO [mahler7-page-001]       StepMonitoring.java:98   | CHORDS
+2026-10-25 09:47:11,127 INFO [mahler7-page-001]                 Book.java:2565 | Stored /book.xml
+2026-10-25 09:47:11,637 INFO [mahler7-page-001]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 09:47:11,642 INFO [mahler7-page-001]       StepMonitoring.java:98   | CURVES
+2026-10-25 09:47:13,506 INFO [mahler7-page-001]         SlursBuilder.java:240  | Slurs: 4
+2026-10-25 09:47:13,673 INFO [mahler7-page-001]      SegmentsBuilder.java:155  | Segments: 55
+2026-10-25 09:47:13,684 INFO [mahler7-page-001]                 Book.java:2565 | Stored /book.xml
+2026-10-25 09:47:14,279 INFO [mahler7-page-001]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 09:47:14,284 INFO [mahler7-page-001]       StepMonitoring.java:98   | SYMBOLS
+2026-10-25 09:47:17,227 INFO [mahler7-page-001]                 Book.java:2565 | Stored /book.xml
+2026-10-25 09:47:18,266 INFO [mahler7-page-001]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 09:47:18,272 INFO [mahler7-page-001]       StepMonitoring.java:98   | LINKS
+2026-10-25 09:47:18,280 INFO [mahler7-page-001]        SentenceInter.java:463  | No chord near SentenceInter#29217{(0.524) staff:1 mFont:BS-31 Direction} i!!!
+2026-10-25 09:47:18,321 INFO [mahler7-page-001]             KeyInter.java:1331 | Key built KeyInter#35008{(0.283) staff:4 KEY_SHARP_1 pitch:-0.4 fifths:1}
+2026-10-25 09:47:18,321 INFO [mahler7-page-001]             KeyInter.java:1198 | No effective key before AlterInter#34551{(0.671) staff:6 NATURAL pitch:-3.0}
+2026-10-25 09:47:18,322 INFO [mahler7-page-001]             KeyInter.java:1198 | No effective key before AlterInter#34311{(0.125) staff:8 NATURAL pitch:-4.0}
+2026-10-25 09:47:18,322 INFO [mahler7-page-001]             KeyInter.java:1331 | Key built KeyInter#35010{(0.769) staff:15 KEY_SHARP_1 pitch:-4.1 fifths:1}
+2026-10-25 09:47:18,531 INFO [mahler7-page-001]                 Book.java:2565 | Stored /book.xml
+2026-10-25 09:47:19,507 INFO [mahler7-page-001]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 09:47:19,512 INFO [mahler7-page-001]       StepMonitoring.java:98   | RHYTHMS
+2026-10-25 09:47:19,581 INFO [mahler7-page-001]        MeasureRhythm.java:1044 | Measure{#2P6} No timeOffset for HeadChordInter#29496{(0.799/0.799) staff:6 slot#4 dur:1/4}
+2026-10-25 09:47:19,595 INFO [mahler7-page-001]          StackRhythm.java:224  | S1 MeasureStack#2 no correct rhythm
+2026-10-25 09:47:19,658 INFO [mahler7-page-001]                 Book.java:2565 | Stored /book.xml
+2026-10-25 09:47:20,667 INFO [mahler7-page-001]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 09:47:20,671 INFO [mahler7-page-001]       StepMonitoring.java:98   | PAGE
+2026-10-25 09:47:20,678 WARN [mahler7-page-001]         MeasureFixer.java:343  | System#1 No target duration for measures local IDs [1, 2, 3, 4], please check time signatures
+2026-10-25 09:47:20,685 INFO [mahler7-page-001]                 Book.java:2565 | Stored /book.xml
+2026-10-25 09:47:21,726 INFO [mahler7-page-001]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 09:47:21,730 INFO [mahler7-page-001]            SheetStub.java:1655 | Sheet disposed
+2026-10-25 09:47:21,794 INFO [mahler7-page-001]                 Book.java:2050 | End of Stub#1
+2026-10-25 09:47:21,795 INFO [mahler7-page-001]                 Book.java:2057 | End of Book{mahler7-page-001}
+2026-10-25 09:47:22,561 INFO [mahler7-page-001]            SheetStub.java:1000 | Loaded /sheet#1/sheet#1.xml
+2026-10-25 09:47:22,976 INFO [mahler7-page-001]      PartwiseBuilder.java:2707 | Exporting sheet(s): [#1]
+2026-10-25 09:47:23,164 INFO [mahler7-page-001]        ScoreExporter.java:164  | Score mahler7-page-001 exported to D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-probe\mahler7-page-001.mxl
+2026-10-25 09:47:23,242 INFO [mahler7-page-001]                Score.java:181  | Closing {Score 1}

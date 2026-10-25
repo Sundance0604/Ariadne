@@ -25,6 +25,7 @@ from synctoolbox.feature.dlnco import pitch_onset_features_to_DLNCO
 from synctoolbox.dtw.mrmsdtw import sync_via_mrmsdtw, sync_via_mrmsdtw_with_anchors
 from synctoolbox.dtw.utils import make_path_strictly_monotonic
 from midi_score import read_midi, symbolic_features
+from audio_io import audio_info, read_audio
 
 
 def digest(path):
@@ -85,7 +86,7 @@ def main():
     save_json(report_directory / 'midi-parse.json', {
         k: v for k, v in score.items() if k not in {'notes', 'measures'}})
     log(f"Parsed {len(score['notes'])} note intervals; {len(score['measures'])} inferred bars")
-    info = sf.info(args.audio)
+    info = audio_info(args.audio)
     audio_duration = info.frames / info.samplerate
     if (cache / 'features.npz').exists():
         log('Loading fingerprinted feature cache')
@@ -95,7 +96,7 @@ def main():
             tuning = int(data['tuning'])
     else:
         log('Decoding full audio locally and resampling to 22050 Hz')
-        wave, sample_rate = sf.read(args.audio, dtype='float32', always_2d=True)
+        wave, sample_rate = read_audio(args.audio, dtype='float32', always_2d=True)
         wave = wave.mean(axis=1)
         if sample_rate != fs:
             import math

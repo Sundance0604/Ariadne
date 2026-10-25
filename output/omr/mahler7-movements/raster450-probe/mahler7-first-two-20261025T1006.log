@@ -1,0 +1,278 @@
+2026-10-25 10:06:18,314 INFO [mahler7-first-two]                 Book.java:560  | 2 sheets in D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-movements\raster450-probe\mahler7-first-two.tif
+2026-10-25 10:06:18,412 INFO []                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:06:18,413 INFO []                 Book.java:2525 | Book stored as D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-movements\raster450-probe\mahler7-first-two.omr
+2026-10-25 10:06:18,415 INFO []                 Book.java:1929 | Book reaching PAGE on sheets:[#1#2]
+2026-10-25 10:06:18,416 INFO [mahler7-first-two#1]       StepMonitoring.java:98   | LOAD
+2026-10-25 10:06:18,471 INFO [mahler7-first-two#1]            SheetStub.java:1278 | Loaded image #1 3705x4957 from D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-movements\raster450-probe\mahler7-first-two.tif
+2026-10-25 10:06:18,476 INFO [mahler7-first-two#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:06:18,605 INFO [mahler7-first-two#1]           DataHolder.java:348  | Stored /sheet#1/GRAY.png
+2026-10-25 10:06:18,748 INFO [mahler7-first-two#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:06:18,750 INFO [mahler7-first-two#1]       StepMonitoring.java:98   | BINARY
+2026-10-25 10:06:19,355 INFO [mahler7-first-two#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:06:19,356 INFO [mahler7-first-two#1]           DataHolder.java:256  | Removed /sheet#1/GRAY.png
+2026-10-25 10:06:19,448 INFO [mahler7-first-two#1]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2026-10-25 10:06:19,449 INFO [mahler7-first-two#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:06:19,451 INFO [mahler7-first-two#1]       StepMonitoring.java:98   | SCALE
+2026-10-25 10:06:19,468 INFO [mahler7-first-two#1]         ScaleBuilder.java:254  | Beam  guessed height: 10 -- 0.25 of [8..16] range
+2026-10-25 10:06:19,469 INFO [mahler7-first-two#1]         ScaleBuilder.java:271  | Beam measured height: 13 -- 0.63 of [8..16] range at 278% of needed quorum
+2026-10-25 10:06:19,469 INFO [mahler7-first-two#1]         ScaleBuilder.java:401  | Normalized black jitter: 23.53 %
+2026-10-25 10:06:19,469 INFO [mahler7-first-two#1]            ScaleStep.java:65   | Scale{ interline(15,17,18) line(3,5,7) beam(13)}
+2026-10-25 10:06:19,471 INFO [mahler7-first-two#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:06:19,473 INFO [mahler7-first-two#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:06:19,476 INFO [mahler7-first-two#1]       StepMonitoring.java:98   | GRID
+2026-10-25 10:06:21,927 INFO [mahler7-first-two#1]       LinesRetriever.java:1508 | Global slope: -0.00147
+2026-10-25 10:06:22,054 INFO [mahler7-first-two#1]    ClustersRetriever.java:326  | Retrieved raw line clusters: 17 of sizes [5] with interline(15,17,18)
+2026-10-25 10:06:22,545 INFO [mahler7-first-two#1]            PeakGraph.java:310  | Systems: #1[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+2026-10-25 10:06:22,700 INFO [mahler7-first-two#1]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{698-720 F#17364 T#1 [BRACE]}
+2026-10-25 10:06:22,700 INFO [mahler7-first-two#1]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{698-719 F#17365 T#2 [BRACE, BRACE_MIDDLE]}
+2026-10-25 10:06:22,701 INFO [mahler7-first-two#1]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{717-737 F#17368 T#4 [BRACE, BRACE_MIDDLE]}
+2026-10-25 10:06:22,701 INFO [mahler7-first-two#1]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{723-742 F#17369 T#5 [BRACE, BRACE_BOTTOM]}
+2026-10-25 10:06:22,701 INFO [mahler7-first-two#1]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{688-710 F#17370 T#6 [BRACE, BRACE_MIDDLE]}
+2026-10-25 10:06:22,701 INFO [mahler7-first-two#1]        BarsRetriever.java:769  | No brace partner at level:2 for Peak{716-737 F#17372 T#7 [BRACE, BRACE_BOTTOM]}
+2026-10-25 10:06:22,702 INFO [mahler7-first-two#1]        BarsRetriever.java:1305 | System#1
+2026-10-25 10:06:22,702 INFO [mahler7-first-two#1]        BarsRetriever.java:1308 |    PartGroup{bracket number:1 barline:true staves:1-7}
+2026-10-25 10:06:22,702 INFO [mahler7-first-two#1]        BarsRetriever.java:1308 |    PartGroup{bracket number:1 barline:true staves:8-10}
+2026-10-25 10:06:22,703 INFO [mahler7-first-two#1]        BarsRetriever.java:1308 |    PartGroup{brace number:2 barline:true staves:9-10}
+2026-10-25 10:06:22,703 INFO [mahler7-first-two#1]        BarsRetriever.java:1308 |    PartGroup{bracket number:1 barline:true staves:12-17}
+2026-10-25 10:06:22,703 INFO [mahler7-first-two#1]        BarsRetriever.java:1308 |    PartGroup{brace number:2 barline:true staves:12-13}
+2026-10-25 10:06:22,703 INFO [mahler7-first-two#1]        BarsRetriever.java:1308 |    PartGroup{brace number:2 barline:true staves:15-16}
+2026-10-25 10:06:24,094 INFO [mahler7-first-two#1]        SystemManager.java:800  | 17 parts along 1 system
+2026-10-25 10:06:24,095 INFO [mahler7-first-two#1]                 Book.java:543  | Created scores: [{Score 1}]
+2026-10-25 10:06:24,100 INFO [mahler7-first-two#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:06:24,528 INFO [mahler7-first-two#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:06:24,533 INFO [mahler7-first-two#1]       StepMonitoring.java:98   | HEADERS
+2026-10-25 10:06:26,270 INFO [mahler7-first-two#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:06:26,607 INFO [mahler7-first-two#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:06:26,612 INFO [mahler7-first-two#1]       StepMonitoring.java:98   | STEM_SEEDS
+2026-10-25 10:06:26,785 INFO [mahler7-first-two#1]           StemScaler.java:143  | No stem peak found, computing defaults
+2026-10-25 10:06:26,785 INFO [mahler7-first-two#1]        StemSeedsStep.java:86   | stem(5 max:7)
+2026-10-25 10:06:26,940 INFO [mahler7-first-two#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:06:27,307 INFO [mahler7-first-two#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:06:27,312 INFO [mahler7-first-two#1]       StepMonitoring.java:98   | BEAMS
+2026-10-25 10:06:38,508 INFO [mahler7-first-two#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:06:38,646 INFO [mahler7-first-two#1]           DataHolder.java:348  | Stored /sheet#1/HEAD_SPOTS.png
+2026-10-25 10:06:39,502 INFO [mahler7-first-two#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:06:39,508 INFO [mahler7-first-two#1]       StepMonitoring.java:98   | LEDGERS
+2026-10-25 10:06:40,714 INFO [mahler7-first-two#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:06:41,647 INFO [mahler7-first-two#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:06:41,652 INFO [mahler7-first-two#1]       StepMonitoring.java:98   | HEADS
+2026-10-25 10:06:52,131 INFO [mahler7-first-two#1]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:-1.4,R:-0.8] NOTEHEAD_BLACK[L:-0.8,R:-1.4]}
+2026-10-25 10:06:52,135 INFO [mahler7-first-two#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:06:52,136 INFO [mahler7-first-two#1]           DataHolder.java:256  | Removed /sheet#1/HEAD_SPOTS.png
+2026-10-25 10:06:53,809 INFO [mahler7-first-two#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:06:53,814 INFO [mahler7-first-two#1]       StepMonitoring.java:98   | STEMS
+2026-10-25 10:07:20,461 INFO [mahler7-first-two#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:07:22,778 INFO [mahler7-first-two#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:07:22,786 INFO [mahler7-first-two#1]       StepMonitoring.java:98   | REDUCTION
+2026-10-25 10:07:24,120 INFO [mahler7-first-two#1]       BeamGroupInter.java:1123 | Separating beams BeamInter#3892{(0.653/0.951) BEAM} and BeamHookInter#4368{(0.250/0.575) BEAM_HOOK}
+2026-10-25 10:07:24,126 INFO [mahler7-first-two#1]        ReductionStep.java:105  | Stems free length median value: 62 pixels, 3.6 interlines
+2026-10-25 10:07:24,143 INFO [mahler7-first-two#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:07:24,687 INFO [mahler7-first-two#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:07:24,700 INFO [mahler7-first-two#1]       StepMonitoring.java:98   | CUE_BEAMS
+2026-10-25 10:07:24,700 INFO [mahler7-first-two#1]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-10-25 10:07:24,704 INFO [mahler7-first-two#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:07:25,223 INFO [mahler7-first-two#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:07:25,228 INFO [mahler7-first-two#1]       StepMonitoring.java:98   | TEXTS
+2026-10-25 10:07:29,588 INFO [mahler7-first-two#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:07:30,235 INFO [mahler7-first-two#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:07:30,240 INFO [mahler7-first-two#1]       StepMonitoring.java:98   | MEASURES
+2026-10-25 10:07:30,244 INFO [mahler7-first-two#1]      MeasuresBuilder.java:416  | S1 partial barline column: s1:G(x:2735,y:785)[16] s2:G(x:2735,y:989)[26] s3:G(x:2735,y:1190)[36] s4:G(x:2734,y:1394)[46] s5:G(x:2734,y:1635)[56] s6:G(x:2733,y:1852)[66] s7:G(x:2734,y:2078)[75] s8:G(x:2735,y:2317)[85] s9:G(x:2736,y:2522)[95] s10:G(x:2738,y:2715)[105] s11:G(x:2741,y:2955)[113] s12:G(x:2743,y:3186)[123] s13:G(x:2747,y:3387)[133] s14:G(x:2750,y:3621)[143] s15:G(x:2753,y:3830)[153] s16:G(x:2756,y:4073)[163]
+2026-10-25 10:07:30,245 INFO [mahler7-first-two#1]      MeasuresBuilder.java:424  | S1 expanding major column: s1:G(x:2735,y:785)[16] s2:G(x:2735,y:989)[26] s3:G(x:2735,y:1190)[36] s4:G(x:2734,y:1394)[46] s5:G(x:2734,y:1635)[56] s6:G(x:2733,y:1852)[66] s7:G(x:2734,y:2078)[75] s8:G(x:2735,y:2317)[85] s9:G(x:2736,y:2522)[95] s10:G(x:2738,y:2715)[105] s11:G(x:2741,y:2955)[113] s12:G(x:2743,y:3186)[123] s13:G(x:2747,y:3387)[133] s14:G(x:2750,y:3621)[143] s15:G(x:2753,y:3830)[153] s16:G(x:2756,y:4073)[163]
+2026-10-25 10:07:30,246 INFO [mahler7-first-two#1]      MeasuresBuilder.java:416  | S1 partial barline column: s17:G(x:2760,y:4337)[173]
+2026-10-25 10:07:30,246 INFO [mahler7-first-two#1]      MeasuresBuilder.java:420  | S1 deleting  minor column: s17:G(x:2760,y:4337)[173]
+2026-10-25 10:07:30,252 INFO [mahler7-first-two#1]                 Page.java:307  | 4 raw measures: [4 in system#1]
+2026-10-25 10:07:30,256 INFO [mahler7-first-two#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:07:30,913 INFO [mahler7-first-two#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:07:30,919 INFO [mahler7-first-two#1]       StepMonitoring.java:98   | CHORDS
+2026-10-25 10:07:30,952 INFO [mahler7-first-two#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:07:31,668 INFO [mahler7-first-two#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:07:31,672 INFO [mahler7-first-two#1]       StepMonitoring.java:98   | CURVES
+2026-10-25 10:07:34,716 INFO [mahler7-first-two#1]         SlursBuilder.java:240  | Slurs: 7
+2026-10-25 10:07:34,830 INFO [mahler7-first-two#1]      SegmentsBuilder.java:155  | Segments: 44
+2026-10-25 10:07:34,840 INFO [mahler7-first-two#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:07:35,596 INFO [mahler7-first-two#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:07:35,601 INFO [mahler7-first-two#1]       StepMonitoring.java:98   | SYMBOLS
+2026-10-25 10:07:40,009 INFO [mahler7-first-two#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:07:41,372 INFO [mahler7-first-two#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:07:41,379 INFO [mahler7-first-two#1]       StepMonitoring.java:98   | LINKS
+2026-10-25 10:07:41,418 INFO [mahler7-first-two#1]             KeyInter.java:1198 | No effective key before AlterInter#30758{(0.479) staff:6 NATURAL pitch:-3.0}
+2026-10-25 10:07:41,420 INFO [mahler7-first-two#1]             KeyInter.java:1331 | Key built KeyInter#31134{(0.148) staff:15 KEY_FLAT_1 pitch:2.3 fifths:-1}
+2026-10-25 10:07:41,773 INFO [mahler7-first-two#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:07:42,792 INFO [mahler7-first-two#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:07:42,797 INFO [mahler7-first-two#1]       StepMonitoring.java:98   | RHYTHMS
+2026-10-25 10:07:42,860 INFO [mahler7-first-two#1]        MeasureRhythm.java:1044 | Measure{#2P3} No timeOffset for HeadChordInter#26619{(0.659/0.659) staff:3 slot#2 dur:1/4}
+2026-10-25 10:07:42,865 INFO [mahler7-first-two#1]        MeasureRhythm.java:1044 | Measure{#2P6} No timeOffset for HeadChordInter#26704{(0.725/0.725) staff:6 slot#5 dur:1/4}
+2026-10-25 10:07:42,886 INFO [mahler7-first-two#1]        MeasureRhythm.java:1276 | Measure{#2P17} Time inconsistency in {11/32=[HeadChordInter#26928{(0.953/0.953) staff:17 slot#6 off:11/32 dur:1/32}], 7/16=[HeadChordInter#26929{(0.950/0.950) staff:17 slot#6 off:7/16 dur:1/8}]}
+2026-10-25 10:07:42,889 INFO [mahler7-first-two#1]          StackRhythm.java:224  | S1 MeasureStack#2 no correct rhythm
+2026-10-25 10:07:42,916 INFO [mahler7-first-two#1]          StackRhythm.java:224  | S1 MeasureStack#3 no correct rhythm
+2026-10-25 10:07:42,938 INFO [mahler7-first-two#1]        MeasureRhythm.java:1276 | Measure{#4P17} Time inconsistency in {7/32=[HeadChordInter#26951{(0.950/0.950) staff:17 slot#3 off:7/32 dur:1/32}], 5/16=[HeadChordInter#26950{(0.957/0.957) staff:17 slot#3 off:5/16 dur:1/16}]}
+2026-10-25 10:07:42,950 INFO [mahler7-first-two#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:07:44,013 INFO [mahler7-first-two#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:07:44,018 INFO [mahler7-first-two#1]       StepMonitoring.java:98   | PAGE
+2026-10-25 10:07:44,023 WARN [mahler7-first-two#1]         MeasureFixer.java:343  | System#1 No target duration for measures local IDs [1, 2, 3, 4], please check time signatures
+2026-10-25 10:07:44,028 INFO [mahler7-first-two#1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:07:45,080 INFO [mahler7-first-two#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:07:45,084 INFO [mahler7-first-two#1]            SheetStub.java:1655 | Sheet#1 disposed
+2026-10-25 10:07:45,130 INFO [mahler7-first-two#1]                 Book.java:2050 | End of Stub#1
+2026-10-25 10:07:45,131 INFO [mahler7-first-two#2]       StepMonitoring.java:98   | LOAD
+2026-10-25 10:07:45,376 INFO [mahler7-first-two#2]            SheetStub.java:1278 | Loaded image #2 3705x4957 from D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-movements\raster450-probe\mahler7-first-two.tif
+2026-10-25 10:07:45,382 INFO [mahler7-first-two#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:07:45,599 INFO [mahler7-first-two#2]           DataHolder.java:348  | Stored /sheet#2/GRAY.png
+2026-10-25 10:07:45,600 INFO [mahler7-first-two#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:07:45,607 INFO [mahler7-first-two#2]       StepMonitoring.java:98   | BINARY
+2026-10-25 10:07:46,400 INFO [mahler7-first-two#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:07:46,401 INFO [mahler7-first-two#2]           DataHolder.java:256  | Removed /sheet#2/GRAY.png
+2026-10-25 10:07:46,507 INFO [mahler7-first-two#2]           DataHolder.java:348  | Stored /sheet#2/BINARY.png
+2026-10-25 10:07:46,508 INFO [mahler7-first-two#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:07:46,514 INFO [mahler7-first-two#2]       StepMonitoring.java:98   | SCALE
+2026-10-25 10:07:46,534 INFO [mahler7-first-two#2]         ScaleBuilder.java:254  | Beam  guessed height: 10 -- 0.25 of [8..15] range
+2026-10-25 10:07:46,534 INFO [mahler7-first-two#2]         ScaleBuilder.java:271  | Beam measured height: 13 -- 0.71 of [8..15] range at 197% of needed quorum
+2026-10-25 10:07:46,534 INFO [mahler7-first-two#2]         ScaleBuilder.java:401  | Normalized black jitter: 17.65 %
+2026-10-25 10:07:46,534 INFO [mahler7-first-two#2]            ScaleStep.java:65   | Scale{ interline(15,17,18) line(4,5,7) beam(13)}
+2026-10-25 10:07:46,537 INFO [mahler7-first-two#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:07:46,538 INFO [mahler7-first-two#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:07:46,541 INFO [mahler7-first-two#2]       StepMonitoring.java:98   | GRID
+2026-10-25 10:07:48,125 INFO [mahler7-first-two#2]       LinesRetriever.java:1508 | Global slope: 0.00045
+2026-10-25 10:07:48,179 INFO [mahler7-first-two#2]    ClustersRetriever.java:326  | Retrieved raw line clusters: 19 of sizes [5] with interline(15,17,18)
+2026-10-25 10:07:48,565 INFO [mahler7-first-two#2]            PeakGraph.java:310  | Systems: #1[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+2026-10-25 10:07:49,572 INFO [mahler7-first-two#2]        SystemManager.java:800  | 19 parts along 1 system
+2026-10-25 10:07:49,575 INFO [mahler7-first-two#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:07:49,670 INFO [mahler7-first-two#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:07:49,675 INFO [mahler7-first-two#2]       StepMonitoring.java:98   | HEADERS
+2026-10-25 10:07:49,691 WARN [mahler7-first-two#2]          ClefBuilder.java:658  | Staff#5 no recognized header clef.
+2026-10-25 10:07:49,692 WARN [mahler7-first-two#2]          ClefBuilder.java:658  | Staff#6 no recognized header clef.
+2026-10-25 10:07:49,997 INFO [mahler7-first-two#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:07:50,113 INFO [mahler7-first-two#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:07:50,118 INFO [mahler7-first-two#2]       StepMonitoring.java:98   | STEM_SEEDS
+2026-10-25 10:07:50,172 INFO [mahler7-first-two#2]        StemSeedsStep.java:86   | stem(7 max:8)
+2026-10-25 10:07:50,198 INFO [mahler7-first-two#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:07:50,368 INFO [mahler7-first-two#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:07:50,373 INFO [mahler7-first-two#2]       StepMonitoring.java:98   | BEAMS
+2026-10-25 10:07:55,371 INFO [mahler7-first-two#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:07:55,464 INFO [mahler7-first-two#2]           DataHolder.java:348  | Stored /sheet#2/HEAD_SPOTS.png
+2026-10-25 10:07:55,893 INFO [mahler7-first-two#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:07:55,897 INFO [mahler7-first-two#2]       StepMonitoring.java:98   | LEDGERS
+2026-10-25 10:07:56,829 INFO [mahler7-first-two#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:07:57,126 INFO [mahler7-first-two#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:07:57,132 INFO [mahler7-first-two#2]       StepMonitoring.java:98   | HEADS
+2026-10-25 10:08:04,292 INFO [mahler7-first-two#2]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:-1.3,R:-1.2] NOTEHEAD_BLACK[L:-0.9,R:-1.1]}
+2026-10-25 10:08:04,295 INFO [mahler7-first-two#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:08:04,295 INFO [mahler7-first-two#2]           DataHolder.java:256  | Removed /sheet#2/HEAD_SPOTS.png
+2026-10-25 10:08:05,364 INFO [mahler7-first-two#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:08:05,368 INFO [mahler7-first-two#2]       StepMonitoring.java:98   | STEMS
+2026-10-25 10:08:20,862 INFO [mahler7-first-two#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:08:22,510 INFO [mahler7-first-two#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:08:22,515 INFO [mahler7-first-two#2]       StepMonitoring.java:98   | REDUCTION
+2026-10-25 10:08:23,241 INFO [mahler7-first-two#2]        ReductionStep.java:105  | Stems free length median value: 62 pixels, 3.6 interlines
+2026-10-25 10:08:23,251 INFO [mahler7-first-two#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:08:23,571 INFO [mahler7-first-two#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:08:23,574 INFO [mahler7-first-two#2]       StepMonitoring.java:98   | CUE_BEAMS
+2026-10-25 10:08:23,574 INFO [mahler7-first-two#2]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-10-25 10:08:23,577 INFO [mahler7-first-two#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:08:23,889 INFO [mahler7-first-two#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:08:23,893 INFO [mahler7-first-two#2]       StepMonitoring.java:98   | TEXTS
+2026-10-25 10:08:26,916 INFO [mahler7-first-two#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:08:27,238 INFO [mahler7-first-two#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:08:27,242 INFO [mahler7-first-two#2]       StepMonitoring.java:98   | MEASURES
+2026-10-25 10:08:27,243 INFO [mahler7-first-two#2]      MeasuresBuilder.java:416  | S1 partial barline column: s1:G(x:420,y:481)[320] s2:G(x:424,y:684)[321] s3:G(x:426,y:875)[322] s4:G(x:431,y:1099)[323]
+2026-10-25 10:08:27,243 INFO [mahler7-first-two#2]      MeasuresBuilder.java:420  | S1 deleting  minor column: s1:G(x:420,y:481)[320] s2:G(x:424,y:684)[321] s3:G(x:426,y:875)[322] s4:G(x:431,y:1099)[323]
+2026-10-25 10:08:27,243 INFO [mahler7-first-two#2]      MeasuresBuilder.java:416  | S1 partial barline column: s8:G(x:444,y:1950)[327] s9:G(x:445,y:2181)[328] s10:G(x:445,y:2374)[329] s11:G(x:445,y:2601)[330] s12:G(x:444,y:2797)[331] s13:G(x:443,y:2995)[332] s17:G(x:449,y:3926)[336] s19:G(x:447,y:4440)[338]
+2026-10-25 10:08:27,243 INFO [mahler7-first-two#2]      MeasuresBuilder.java:420  | S1 deleting  minor column: s8:G(x:444,y:1950)[327] s9:G(x:445,y:2181)[328] s10:G(x:445,y:2374)[329] s11:G(x:445,y:2601)[330] s12:G(x:444,y:2797)[331] s13:G(x:443,y:2995)[332] s17:G(x:449,y:3926)[336] s19:G(x:447,y:4440)[338]
+2026-10-25 10:08:27,243 INFO [mahler7-first-two#2]      MeasuresBuilder.java:416  | S1 partial barline column: s14:G(x:467,y:3258)[333]
+2026-10-25 10:08:27,244 INFO [mahler7-first-two#2]      MeasuresBuilder.java:420  | S1 deleting  minor column: s14:G(x:467,y:3258)[333]
+2026-10-25 10:08:27,244 INFO [mahler7-first-two#2]      MeasuresBuilder.java:416  | S1 partial barline column: s5:G(x:484,y:1316)[324] s6:G(x:487,y:1503)[325] s15:G(x:489,y:3465)[334] s16:G(x:486,y:3698)[335]
+2026-10-25 10:08:27,244 INFO [mahler7-first-two#2]      MeasuresBuilder.java:420  | S1 deleting  minor column: s5:G(x:484,y:1316)[324] s6:G(x:487,y:1503)[325] s15:G(x:489,y:3465)[334] s16:G(x:486,y:3698)[335]
+2026-10-25 10:08:27,244 INFO [mahler7-first-two#2]      MeasuresBuilder.java:416  | S1 partial barline column: s7:G(x:550,y:1733)[326] s18:G(x:542,y:4185)[337]
+2026-10-25 10:08:27,244 INFO [mahler7-first-two#2]      MeasuresBuilder.java:420  | S1 deleting  minor column: s7:G(x:550,y:1733)[326] s18:G(x:542,y:4185)[337]
+2026-10-25 10:08:27,245 INFO [mahler7-first-two#2]                 Page.java:307  | 4 raw measures: [4 in system#1]
+2026-10-25 10:08:27,248 INFO [mahler7-first-two#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:08:27,567 INFO [mahler7-first-two#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:08:27,580 INFO [mahler7-first-two#2]       StepMonitoring.java:98   | CHORDS
+2026-10-25 10:08:27,588 INFO [mahler7-first-two#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:08:27,936 INFO [mahler7-first-two#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:08:27,940 INFO [mahler7-first-two#2]       StepMonitoring.java:98   | CURVES
+2026-10-25 10:08:29,419 INFO [mahler7-first-two#2]         SlursBuilder.java:240  | Slurs: 20
+2026-10-25 10:08:29,472 INFO [mahler7-first-two#2]      SegmentsBuilder.java:155  | Segments: 26
+2026-10-25 10:08:29,476 INFO [mahler7-first-two#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:08:30,032 INFO [mahler7-first-two#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:08:30,047 INFO [mahler7-first-two#2]       StepMonitoring.java:98   | SYMBOLS
+2026-10-25 10:08:33,189 INFO [mahler7-first-two#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:08:34,303 INFO [mahler7-first-two#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:08:34,307 INFO [mahler7-first-two#2]       StepMonitoring.java:98   | LINKS
+2026-10-25 10:08:34,312 INFO [mahler7-first-two#2]        SentenceInter.java:449  | No measure stack for SentenceInter#29020{(0.734) staff:19 mFont:IS-66 Direction} Symphony No. 7 (I)
+2026-10-25 10:08:34,331 INFO [mahler7-first-two#2]             KeyInter.java:1331 | Key built KeyInter#35304{(0.223) staff:3 KEY_FLAT_1 pitch:1.0 fifths:-1}
+2026-10-25 10:08:34,332 WARN [mahler7-first-two#2]             KeyInter.java:1174 | No effective clef before AlterInter#33532{(0.794) staff:5 SHARP pitch:-5.0}
+2026-10-25 10:08:34,332 WARN [mahler7-first-two#2]             KeyInter.java:1174 | No effective clef before AlterInter#34882{(0.275) staff:5 SHARP pitch:0.0}
+2026-10-25 10:08:34,332 WARN [mahler7-first-two#2]             KeyInter.java:1174 | No effective clef before AlterInter#33382{(0.693) staff:6 FLAT pitch:4.0}
+2026-10-25 10:08:34,332 INFO [mahler7-first-two#2]             KeyInter.java:1198 | No effective key before AlterInter#33748{(0.481) staff:7 NATURAL pitch:3.0}
+2026-10-25 10:08:34,332 INFO [mahler7-first-two#2]             KeyInter.java:1198 | No effective key before AlterInter#33912{(0.663) staff:7 NATURAL pitch:4.0}
+2026-10-25 10:08:34,332 INFO [mahler7-first-two#2]             KeyInter.java:1198 | No effective key before AlterInter#33649{(0.793) staff:9 NATURAL pitch:5.0}
+2026-10-25 10:08:34,332 INFO [mahler7-first-two#2]             KeyInter.java:1331 | Key built KeyInter#35306{(0.158) staff:10 KEY_SHARP_1 pitch:-0.2 fifths:1}
+2026-10-25 10:08:34,332 INFO [mahler7-first-two#2]             KeyInter.java:1198 | No effective key before AlterInter#34717{(0.305) staff:11 NATURAL pitch:-2.0}
+2026-10-25 10:08:34,332 INFO [mahler7-first-two#2]             KeyInter.java:1198 | No effective key before AlterInter#32539{(0.123) staff:15 NATURAL pitch:-3.0}
+2026-10-25 10:08:34,332 INFO [mahler7-first-two#2]             KeyInter.java:1198 | No effective key before AlterInter#33136{(0.206) staff:15 NATURAL pitch:-3.0}
+2026-10-25 10:08:34,332 INFO [mahler7-first-two#2]             KeyInter.java:1198 | No effective key before AlterInter#33470{(0.797) staff:15 NATURAL pitch:5.0}
+2026-10-25 10:08:34,332 INFO [mahler7-first-two#2]             KeyInter.java:1198 | No effective key before AlterInter#33505{(0.768) staff:15 NATURAL pitch:5.0}
+2026-10-25 10:08:34,333 INFO [mahler7-first-two#2]             KeyInter.java:1198 | No effective key before AlterInter#32389{(0.594) staff:18 NATURAL pitch:-4.0}
+2026-10-25 10:08:34,333 INFO [mahler7-first-two#2]             KeyInter.java:1198 | No effective key before AlterInter#33027{(0.769) staff:18 NATURAL pitch:-3.0}
+2026-10-25 10:08:34,333 INFO [mahler7-first-two#2]             KeyInter.java:1198 | No effective key before AlterInter#33373{(0.748) staff:18 NATURAL pitch:1.0}
+2026-10-25 10:08:34,333 INFO [mahler7-first-two#2]             KeyInter.java:1198 | No effective key before AlterInter#33863{(0.268) staff:18 NATURAL pitch:4.0}
+2026-10-25 10:08:34,333 INFO [mahler7-first-two#2]             KeyInter.java:1198 | No effective key before AlterInter#33372{(0.761) staff:19 NATURAL pitch:1.0}
+2026-10-25 10:08:34,333 INFO [mahler7-first-two#2]             KeyInter.java:1198 | No effective key before AlterInter#33724{(0.780) staff:19 NATURAL pitch:3.0}
+2026-10-25 10:08:34,333 INFO [mahler7-first-two#2]             KeyInter.java:1198 | No effective key before AlterInter#33876{(0.161) staff:19 NATURAL pitch:4.0}
+2026-10-25 10:08:34,333 INFO [mahler7-first-two#2]             KeyInter.java:1198 | No effective key before AlterInter#34953{(0.437) staff:19 NATURAL pitch:0.0}
+2026-10-25 10:08:34,484 INFO [mahler7-first-two#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:08:35,252 INFO [mahler7-first-two#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:08:35,393 INFO [mahler7-first-two#2]       StepMonitoring.java:98   | RHYTHMS
+2026-10-25 10:08:35,418 INFO [mahler7-first-two#2]        MeasureRhythm.java:1276 | Measure{#3P17} Time inconsistency in {13/32=[HeadChordInter#29358{(0.949/0.949) staff:17 slot#4 off:13/32 dur:1/32}], 1/2=[HeadChordInter#29357{(0.945/0.945) staff:17 slot#4 off:1/2 dur:1/8}]}
+2026-10-25 10:08:35,440 INFO [mahler7-first-two#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:08:36,225 INFO [mahler7-first-two#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:08:36,230 INFO [mahler7-first-two#2]       StepMonitoring.java:98   | PAGE
+2026-10-25 10:08:36,231 WARN [mahler7-first-two#2]         MeasureFixer.java:343  | System#1 No target duration for measures local IDs [1, 2, 3, 4], please check time signatures
+2026-10-25 10:08:36,234 INFO [mahler7-first-two#2]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:08:37,005 INFO [mahler7-first-two#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:08:37,012 INFO [mahler7-first-two#2]            SheetStub.java:1655 | Sheet#2 disposed
+2026-10-25 10:08:37,034 INFO [mahler7-first-two#2]                 Book.java:2050 | End of Stub#2
+2026-10-25 10:08:37,034 INFO [mahler7-first-two]                 Book.java:2057 | End of Book{mahler7-first-two}
+2026-10-25 10:08:37,532 INFO [mahler7-first-two]            SheetStub.java:1000 | Loaded /sheet#1/sheet#1.xml
+2026-10-25 10:08:37,953 INFO [mahler7-first-two]            SheetStub.java:1000 | Loaded /sheet#2/sheet#2.xml
+2026-10-25 10:08:38,348 INFO [mahler7-first-two]      PartwiseBuilder.java:2707 | Exporting sheet(s): [#1#2]
+2026-10-25 10:08:38,349 INFO [mahler7-first-two]                 Part.java:351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 1
+2026-10-25 10:08:38,359 INFO [mahler7-first-two]                 Part.java:351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 2
+2026-10-25 10:08:38,361 INFO [mahler7-first-two]                 Part.java:351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 3
+2026-10-25 10:08:38,361 INFO [mahler7-first-two]                 Part.java:351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 4
+2026-10-25 10:08:38,362 INFO [mahler7-first-two]                 Part.java:351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 5
+2026-10-25 10:08:38,362 INFO [mahler7-first-two]                 Part.java:351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 6
+2026-10-25 10:08:38,363 INFO [mahler7-first-two]                 Part.java:351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 7
+2026-10-25 10:08:38,364 INFO [mahler7-first-two]                 Part.java:351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 8
+2026-10-25 10:08:38,365 INFO [mahler7-first-two]                 Part.java:351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 9
+2026-10-25 10:08:38,365 INFO [mahler7-first-two]                 Part.java:351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 10
+2026-10-25 10:08:38,366 INFO [mahler7-first-two]                 Part.java:351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 11
+2026-10-25 10:08:38,367 INFO [mahler7-first-two]                 Part.java:351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 12
+2026-10-25 10:08:38,367 INFO [mahler7-first-two]                 Part.java:351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 13
+2026-10-25 10:08:38,369 INFO [mahler7-first-two]                 Part.java:351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 14
+2026-10-25 10:08:38,370 INFO [mahler7-first-two]                 Part.java:351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 15
+2026-10-25 10:08:38,370 INFO [mahler7-first-two]                 Part.java:351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 16
+2026-10-25 10:08:38,371 INFO [mahler7-first-two]                 Part.java:351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 17
+2026-10-25 10:08:38,371 INFO [mahler7-first-two]                 Part.java:351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 18
+2026-10-25 10:08:38,449 INFO [mahler7-first-two]                 Part.java:351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 19
+2026-10-25 10:08:38,450 INFO [mahler7-first-two]                 Part.java:351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 20
+2026-10-25 10:08:38,451 INFO [mahler7-first-two]                 Part.java:351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 21
+2026-10-25 10:08:38,451 INFO [mahler7-first-two]                 Part.java:351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 22
+2026-10-25 10:08:38,452 INFO [mahler7-first-two]                 Part.java:351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 23
+2026-10-25 10:08:38,453 INFO [mahler7-first-two]                 Part.java:351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 24
+2026-10-25 10:08:38,453 INFO [mahler7-first-two]                 Part.java:351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 25
+2026-10-25 10:08:38,454 INFO [mahler7-first-two]                 Part.java:351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 26
+2026-10-25 10:08:38,454 INFO [mahler7-first-two]                 Part.java:351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 27
+2026-10-25 10:08:38,455 INFO [mahler7-first-two]                 Part.java:351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 28
+2026-10-25 10:08:38,455 INFO [mahler7-first-two]                 Part.java:351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 29
+2026-10-25 10:08:38,456 INFO [mahler7-first-two]                 Part.java:351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 30
+2026-10-25 10:08:38,456 INFO [mahler7-first-two]                 Part.java:351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 31
+2026-10-25 10:08:38,457 INFO [mahler7-first-two]                 Part.java:351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 32
+2026-10-25 10:08:38,457 INFO [mahler7-first-two]                 Part.java:351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 33
+2026-10-25 10:08:38,458 INFO [mahler7-first-two]                 Part.java:351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 34
+2026-10-25 10:08:38,653 INFO [mahler7-first-two]        ScoreExporter.java:164  | Score mahler7-first-two exported to D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-movements\raster450-probe\mahler7-first-two.mxl
+2026-10-25 10:08:38,723 INFO [mahler7-first-two]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:08:39,675 INFO [mahler7-first-two]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:08:39,675 INFO [mahler7-first-two]                 Book.java:2525 | Book stored as D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-movements\raster450-probe\mahler7-first-two.omr
+2026-10-25 10:08:39,680 INFO [mahler7-first-two]                Score.java:181  | Closing {Score 1}

@@ -1,9 +1,11 @@
 """Serve the local sync review at 127.0.0.1; no external uploads or accounts."""
 import argparse
+import hashlib
 from datetime import datetime,timezone
 from http.server import BaseHTTPRequestHandler,ThreadingHTTPServer
 import json
 import math
+import mimetypes
 from pathlib import Path
 import re
 import shutil
@@ -12,9 +14,11 @@ import threading
 from urllib.parse import urlparse,parse_qs
 from review_library import library,track_context,page_count
 from pdf_render import render_page
+from score_measure_data import load_score_measures,update_numbering
 
 ROOT=Path(__file__).resolve().parents[1]
 LOCK=threading.Lock()
+MEDIA_FINGERPRINTS={}
 
 
 class ReviewServer(ThreadingHTTPServer):
@@ -32,6 +36,37 @@ def read_json(path): return json.loads(path.read_text(encoding='utf-8'))
 
 
 class Handler(BaseHTTPRequestHandler):
+    def send_media(self,path,content_type):
+        """Bounded streaming is essential for seeking in large local MP4s."""
+        length=path.stat().st_size
+        requested=self.headers.get('Range')
+        start,end=0,length-1
+        if requested:
+            match=re.fullmatch(r'bytes=(\d*)-(\d*)',requested)
+            if not match or not any(match.groups()):
+                start=length
+            elif not match[1]:
+                start=max(0,length-int(match[2]))
+            else:
+                start=int(match[1]);end=min(int(match[2]) if match[2] else end,end)
+            if start>end or start>=length:
+                self.send_response(416);self.send_header('Content-Range',f'bytes */{length}')
+                self.send_header('Content-Length','0');self.end_headers();return
+        self.send_response(206 if requested else 200)
+        self.send_header('Content-Type',content_type)
+        self.send_header('Accept-Ranges','bytes')
+        self.send_header('Content-Length',str(end-start+1))
+        if requested:self.send_header('Content-Range',f'bytes {start}-{end}/{length}')
+        self.end_headers()
+        with path.open('rb') as stream:
+            stream.seek(start);remaining=end-start+1
+            try:
+                while remaining:
+                    chunk=stream.read(min(65536,remaining))
+                    if not chunk:break
+                    self.wfile.write(chunk);remaining-=len(chunk)
+            except (BrokenPipeError,ConnectionResetError,ConnectionAbortedError):pass
+
     def send_file(self,path,content_type):
         self.send_response(200)
         self.send_header('Content-Type',content_type)
@@ -53,10 +88,17 @@ class Handler(BaseHTTPRequestHandler):
         if route=='/playhead.mjs': return self.send_file(ROOT/'review/playhead.mjs','text/javascript; charset=utf-8')
         if route=='/analysis.mjs': return self.send_file(ROOT/'review/analysis.mjs','text/javascript; charset=utf-8')
         if route=='/app.mjs': return self.send_file(ROOT/'review/app.mjs','text/javascript; charset=utf-8')
+        if route=='/playback.mjs': return self.send_file(ROOT/'review/playback.mjs','text/javascript; charset=utf-8')
+        if route=='/score-follow.mjs': return self.send_file(ROOT/'review/score-follow.mjs','text/javascript; charset=utf-8')
+        if route=='/movements.mjs': return self.send_file(ROOT/'review/movements.mjs','text/javascript; charset=utf-8')
+        if route=='/measure-numbers.mjs': return self.send_file(ROOT/'review/measure-numbers.mjs','text/javascript; charset=utf-8')
         if route=='/api/library':
             catalog=library(ROOT)
             return self.send_json({'default_track':catalog['default_track'],
                 'tracks':[{'id':t['id'],'title':t['title']} for t in catalog['tracks']]})
+        if route=='/api/health':
+            identity=hashlib.sha256(str(ROOT.resolve()).casefold().encode('utf-8')).hexdigest()[:24]
+            return self.send_json({'app':'Ariadne','workspace_id':identity,'format_version':'1.0.0'})
         try:
             query=parse_qs(urlparse(self.path).query)
             track,directory=track_context(ROOT,query.get('track',[None])[0])
@@ -74,42 +116,45 @@ class Handler(BaseHTTPRequestHandler):
                 alignment=read_json(directory/'alignment.json')
                 mapping=read_json(directory/'measure-map.json')
                 saved=read_json(anchors) if anchors.exists() else None
+                media=read_json(directory/'media-sync.json') if (directory/'media-sync.json').exists() else None
+                score_anchors_path=directory/'score-region-anchors.json'
+                score_anchors=read_json(score_anchors_path) if score_anchors_path.exists() else None
+                if score_anchors and (score_anchors.get('audio_sha256')!=alignment['audio']['sha256'] or score_anchors.get('pdf_sha256')!=mapping['pdf_sha256']):
+                    raise ValueError('谱面区域人工校正与当前素材不匹配')
+                if media and media['masterClock']=='video' and media['video']['sha256']!=alignment['audio']['sha256']:
+                    raise ValueError('视频与当前总谱对齐的素材指纹不一致')
                 if saved and (saved.get('audio_sha256')!=alignment['audio']['sha256'] or
                               saved.get('score_sha256')!=alignment['symbolic_reference']['sha256']):
                     raise ValueError('已保存锚点与当前素材不匹配，请先检查')
                 return self.send_json({'track':{'id':track['id'],'title':track['title']},
-                    'page_count':page_count(mapping),'alignment':alignment,'mapping':mapping,'anchors':saved})
+                    'page_count':page_count(mapping),'alignment':alignment,'mapping':mapping,'anchors':saved,'media':media,
+                    'score_region_anchors':score_anchors,'score_measures':load_score_measures(directory,mapping)})
             except (OSError,ValueError,KeyError) as error:
                 return self.send_json({'error':str(error)},422)
-        if route=='/audio':
+        if route in {'/audio','/video'}:
+          try:
             document=read_json(directory/'alignment.json')
-            path=(ROOT/document['audio']['path']).resolve()
+            media=read_json(directory/'media-sync.json') if (directory/'media-sync.json').exists() else None
+            if route=='/video':
+                if not media:return self.send_error(404)
+                entry=media['video']
+            else:entry=document['audio']
+            path=(ROOT/entry['path']).resolve()
             if not path.is_relative_to((ROOT/'resource').resolve()):
                 return self.send_error(403)
-            length=path.stat().st_size
-            requested=self.headers.get('Range')
-            match=re.fullmatch(r'bytes=(\d+)-(\d*)',requested or '')
-            start,end=0,length-1
-            if match:
-                start=int(match[1]); end=min(int(match[2]) if match[2] else end,end)
-                if start>end:
-                    self.send_response(416); self.send_header('Content-Range',f'bytes */{length}')
-                    self.end_headers(); return
-            self.send_response(206 if match else 200)
-            self.send_header('Content-Type','audio/mpeg')
-            self.send_header('Accept-Ranges','bytes')
-            self.send_header('Content-Length',str(end-start+1))
-            if match: self.send_header('Content-Range',f'bytes {start}-{end}/{length}')
-            self.end_headers()
-            with path.open('rb') as stream:
-                stream.seek(start); remaining=end-start+1
-                try:
-                    while remaining:
-                        chunk=stream.read(min(65536,remaining))
-                        if not chunk: break
-                        self.wfile.write(chunk); remaining-=len(chunk)
-                except (BrokenPipeError,ConnectionResetError,ConnectionAbortedError): pass
-            return
+            if entry.get('bytes') and path.stat().st_size!=entry['bytes']:
+                return self.send_json({'error':'媒体文件已变化，请重新准备和对齐'},409)
+            if route=='/video':
+                stat=path.stat();key=(str(path),stat.st_size,stat.st_mtime_ns)
+                with LOCK:
+                    if key not in MEDIA_FINGERPRINTS:
+                        with path.open('rb') as stream:MEDIA_FINGERPRINTS[key]=hashlib.file_digest(stream,'sha256').hexdigest()
+                    actual=MEDIA_FINGERPRINTS[key]
+                if actual!=entry['sha256']:
+                    return self.send_json({'error':'视频指纹发生变化，请重新准备和对齐'},409)
+            return self.send_media(path,mimetypes.guess_type(path.name)[0] or 'application/octet-stream')
+          except (OSError,ValueError,KeyError) as error:
+            return self.send_json({'error':f'本地媒体不可用：{error}'},404)
         match=re.fullmatch(r'/page/(\d+)\.png',route)
         if match:
             n=int(match[1]); mapping=read_json(directory/'measure-map.json')
@@ -131,6 +176,9 @@ class Handler(BaseHTTPRequestHandler):
         self.send_error(404)
 
     def do_POST(self):
+        if urlparse(self.path).path=='/api/score-measure-number':return self.save_score_measure_number()
+        if urlparse(self.path).path=='/api/score-region-anchor':return self.save_score_region_anchor()
+        if urlparse(self.path).path=='/api/media-sync':return self.save_media_sync()
         if urlparse(self.path).path!='/api/anchors': return self.send_error(404)
         origin=self.headers.get('Origin')
         if origin and origin!=f'http://{self.headers.get("Host")}': return self.send_error(403)
@@ -181,6 +229,104 @@ class Handler(BaseHTTPRequestHandler):
             self.send_json({'saved':True,'anchors':len(anchors)})
         except (OSError,ValueError,TypeError,KeyError) as error:
             self.send_json({'error':str(error)},400)
+
+    def save_media_sync(self):
+        origin=self.headers.get('Origin')
+        if origin and origin!=f'http://{self.headers.get("Host")}':return self.send_error(403)
+        try:
+            from media_sync import validate_anchors
+            query=parse_qs(urlparse(self.path).query)
+            track,directory=track_context(ROOT,query.get('track',[None])[0])
+            length=int(self.headers.get('Content-Length','0'))
+            if not 0<length<=100000:raise ValueError('请求过大或为空')
+            request=json.loads(self.rfile.read(length))
+            with LOCK:
+                path=directory/'media-sync.json'
+                media=read_json(path);alignment=read_json(directory/'alignment.json')
+                if media['masterClock']!='audio':raise ValueError('仅双媒体项目需要音画锚点')
+                if request.get('track_id')!=track['id'] or request.get('master_sha256')!=alignment['audio']['sha256'] or request.get('video_sha256')!=media['video']['sha256']:
+                    raise ValueError('锚点与当前曲目或媒体指纹不匹配')
+                if request.get('same_performance_confirmed') is not True:
+                    raise ValueError('需要先确认音频与视频来自同一演出')
+                reason=request.get('reason','').strip()
+                if not reason:raise ValueError('请填写核验依据')
+                anchors=validate_anchors(request['anchors'],alignment['audio']['duration_seconds'],media['video']['duration_seconds'])
+                updated=[{**a,'reviewStatus':'corrected'} for a in anchors]
+                media.setdefault('history',[]).append({'modified_at':datetime.now(timezone.utc).isoformat(),
+                    'source':'human_review_ui','reason':reason,'old_anchors':media.get('anchors',[]),'new_anchors':updated})
+                media.update(anchors=updated,method='manual_piecewise_linear',matchStatus='manual_reviewed',
+                    validInterval={'masterStart':updated[0]['masterTime'],'masterEnd':updated[-1]['masterTime']})
+                pending=path.with_suffix('.json.tmp');pending.write_text(json.dumps(media,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');pending.replace(path)
+            return self.send_json({'saved':True,'media':media})
+        except (OSError,ValueError,TypeError,KeyError,AttributeError) as error:
+            return self.send_json({'error':str(error)},400)
+
+    def save_score_region_anchor(self):
+        origin=self.headers.get('Origin')
+        if origin and origin!=f'http://{self.headers.get("Host")}':return self.send_error(403)
+        try:
+            query=parse_qs(urlparse(self.path).query)
+            track,directory=track_context(ROOT,query.get('track',[None])[0])
+            length=int(self.headers.get('Content-Length','0'))
+            if not 0<length<=100000:raise ValueError('请求过大或为空')
+            request=json.loads(self.rfile.read(length))
+            alignment=read_json(directory/'alignment.json');mapping=read_json(directory/'measure-map.json')
+            if request.get('track_id')!=track['id'] or request.get('audio_sha256')!=alignment['audio']['sha256'] or request.get('pdf_sha256')!=mapping['pdf_sha256']:
+                raise ValueError('谱面校正所属曲目或素材指纹不匹配')
+            regions={r['region_id']:r for r in mapping.get('score_regions',[])+mapping.get('bar_regions',[])}
+            numbered=load_score_measures(directory,mapping)
+            if numbered:regions.update({r['region_id']:r for r in numbered['measures']})
+            region_id=request['region_id']
+            if region_id not in regions:raise ValueError('未知原谱区域')
+            start,end=request['start_seconds'],request['end_seconds']
+            if any(not isinstance(t,(int,float)) or isinstance(t,bool) or not math.isfinite(t) for t in [start,end]):
+                raise ValueError('时间必须为有限数值')
+            if not 0<=start<end<=alignment['audio']['duration_seconds']:raise ValueError('时间须在当前视频内且起点早于终点')
+            reason=request.get('reason','').strip()
+            if not reason or request.get('confirmed') is not True:raise ValueError('请确认已核对原谱和录音，并填写校正依据')
+            anchor={'region_id':region_id,'start_seconds':start,'end_seconds':end,'reason':reason,
+                'review_status':'corrected','source':'human_review_ui','modified_at':datetime.now(timezone.utc).isoformat()}
+            path=directory/'score-region-anchors.json'
+            with LOCK:
+                old=read_json(path) if path.exists() else {'audio_sha256':alignment['audio']['sha256'],'pdf_sha256':mapping['pdf_sha256'],'anchors':[],'history':[]}
+                if old['audio_sha256']!=alignment['audio']['sha256'] or old['pdf_sha256']!=mapping['pdf_sha256']:
+                    raise ValueError('已有人工校正属于其他素材，拒绝覆盖')
+                for other in old['anchors']:
+                    if other['region_id']==region_id:continue
+                    related=regions[region_id].get('parent_region_id')==other['region_id'] or regions.get(other['region_id'],{}).get('parent_region_id')==region_id
+                    if not related and max(start,other['start_seconds'])<min(end,other['end_seconds']):
+                        raise ValueError('与其他已校正区域的时间重叠，请先核对边界')
+                previous=next((a for a in old['anchors'] if a['region_id']==region_id),None)
+                old['anchors']=[a for a in old['anchors'] if a['region_id']!=region_id]+[anchor]
+                old['history'].append({'modified_at':anchor['modified_at'],'old_anchor':previous,'new_anchor':anchor})
+                pending=path.with_suffix('.json.tmp');pending.write_text(json.dumps(old,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n');pending.replace(path)
+            return self.send_json({'saved':True,'score_region_anchors':old})
+        except (OSError,ValueError,TypeError,KeyError,AttributeError) as error:
+            return self.send_json({'error':str(error)},400)
+
+    def save_score_measure_number(self):
+        origin=self.headers.get('Origin')
+        if origin and origin!=f'http://{self.headers.get("Host")}':return self.send_error(403)
+        try:
+            query=parse_qs(urlparse(self.path).query)
+            track,directory=track_context(ROOT,query.get('track',[None])[0])
+            length=int(self.headers.get('Content-Length','0'))
+            if not 0<length<=100000:raise ValueError('请求过大或为空')
+            request=json.loads(self.rfile.read(length))
+            if request.get('track_id')!=track['id']:raise ValueError('编号校正所属曲目不匹配')
+            with LOCK:
+                mapping=read_json(directory/'measure-map.json')
+                document=load_score_measures(directory,mapping)
+                if document is None:raise ValueError('当前作品尚未建立小节编号索引')
+                path=directory/'score-measure-corrections.json'
+                saved=update_numbering(document,read_json(path) if path.exists() else None,request)
+                pending=path.with_suffix('.json.tmp')
+                pending.write_text(json.dumps(saved,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
+                pending.replace(path)
+                document=load_score_measures(directory,mapping)
+            return self.send_json({'saved':True,'score_measures':document})
+        except (OSError,ValueError,TypeError,KeyError,AttributeError) as error:
+            return self.send_json({'error':str(error)},400)
 
 
 if __name__=='__main__':

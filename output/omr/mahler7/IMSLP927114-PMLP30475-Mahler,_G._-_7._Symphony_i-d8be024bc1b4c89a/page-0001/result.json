@@ -1,0 +1,355 @@
+{
+  "page": 1,
+  "attempt": "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7\\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_i-d8be024bc1b4c89a\\page-0001\\attempt-001",
+  "cache_hit": false,
+  "status": "converted_needs_review",
+  "previous_failures": [],
+  "input_image": "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7\\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_i-d8be024bc1b4c89a\\page-0001\\attempt-001\\page-0001.png",
+  "log": "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7\\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_i-d8be024bc1b4c89a\\page-0001\\attempt-001\\audiveris.log",
+  "mxl": [
+    "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7\\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_i-d8be024bc1b4c89a\\page-0001\\attempt-001\\page-0001.mxl"
+  ],
+  "musicxml": [
+    "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7\\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_i-d8be024bc1b4c89a\\page-0001\\attempt-001\\page-0001.musicxml"
+  ],
+  "omr": [
+    "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7\\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_i-d8be024bc1b4c89a\\page-0001\\attempt-001\\page-0001.omr"
+  ],
+  "validation": [
+    {
+      "structurally_valid": true,
+      "errors": [],
+      "part_count": 17,
+      "staff_count": 17,
+      "measure_counts_per_part": [
+        4
+      ],
+      "time_signatures": [],
+      "note_elements": 693,
+      "pitched_notes": 656,
+      "unpitched_notes": 0,
+      "sounding_notes": 656,
+      "rests": 37,
+      "parts": [
+        {
+          "id": "P1",
+          "name": "Flb’ten.",
+          "measures": 4,
+          "staves": 1,
+          "note_elements": 10,
+          "rests": 4,
+          "pitched_notes": 6,
+          "unpitched_notes": 0,
+          "grace_notes": 0,
+          "sounding_notes": 6
+        },
+        {
+          "id": "P2",
+          "name": "3",
+          "measures": 4,
+          "staves": 1,
+          "note_elements": 11,
+          "rests": 3,
+          "pitched_notes": 8,
+          "unpitched_notes": 0,
+          "grace_notes": 0,
+          "sounding_notes": 8
+        },
+        {
+          "id": "P3",
+          "name": "Clarinetten in A.",
+          "measures": 4,
+          "staves": 1,
+          "note_elements": 39,
+          "sounding_notes": 39,
+          "pitched_notes": 39,
+          "unpitched_notes": 0,
+          "grace_notes": 0
+        },
+        {
+          "id": "P4",
+          "name": "3",
+          "measures": 4,
+          "staves": 1,
+          "note_elements": 51,
+          "sounding_notes": 49,
+          "pitched_notes": 49,
+          "unpitched_notes": 0,
+          "grace_notes": 0,
+          "rests": 2
+        },
+        {
+          "id": "P5",
+          "name": "Bchlarinette in A.",
+          "measures": 4,
+          "staves": 1,
+          "note_elements": 34,
+          "sounding_notes": 31,
+          "pitched_notes": 31,
+          "unpitched_notes": 0,
+          "grace_notes": 0,
+          "rests": 3
+        },
+        {
+          "id": "P6",
+          "name": "i",
+          "measures": 4,
+          "staves": 1,
+          "note_elements": 88,
+          "sounding_notes": 86,
+          "pitched_notes": 86,
+          "unpitched_notes": 0,
+          "grace_notes": 0,
+          "rests": 2
+        },
+        {
+          "id": "P7",
+          "name": "Contrafagott.",
+          "measures": 4,
+          "staves": 1,
+          "note_elements": 35,
+          "sounding_notes": 34,
+          "pitched_notes": 34,
+          "unpitched_notes": 0,
+          "grace_notes": 0,
+          "rests": 1
+        },
+        {
+          "id": "P8",
+          "name": "Tenorhorn in B.",
+          "measures": 4,
+          "staves": 1,
+          "note_elements": 22,
+          "rests": 2,
+          "pitched_notes": 20,
+          "unpitched_notes": 0,
+          "grace_notes": 0,
+          "sounding_notes": 20
+        },
+        {
+          "id": "P9",
+          "name": "Voice",
+          "measures": 4,
+          "staves": 1,
+          "note_elements": 14,
+          "rests": 5,
+          "pitched_notes": 9,
+          "unpitched_notes": 0,
+          "grace_notes": 0,
+          "sounding_notes": 9
+        },
+        {
+          "id": "P10",
+          "name": "BaB -Tuba..",
+          "measures": 4,
+          "staves": 1,
+          "note_elements": 11,
+          "rests": 4,
+          "pitched_notes": 7,
+          "unpitched_notes": 0,
+          "grace_notes": 0,
+          "sounding_notes": 7
+        },
+        {
+          "id": "P11",
+          "name": "GroBe Trommel.",
+          "measures": 4,
+          "staves": 1,
+          "note_elements": 8,
+          "rests": 4,
+          "pitched_notes": 4,
+          "unpitched_notes": 0,
+          "grace_notes": 0,
+          "sounding_notes": 4
+        },
+        {
+          "id": "P12",
+          "name": "Violinen.",
+          "measures": 4,
+          "staves": 1,
+          "note_elements": 4,
+          "rests": 4,
+          "pitched_notes": 0,
+          "unpitched_notes": 0,
+          "grace_notes": 0
+        },
+        {
+          "id": "P13",
+          "name": "II.",
+          "measures": 4,
+          "staves": 1,
+          "note_elements": 68,
+          "sounding_notes": 66,
+          "pitched_notes": 66,
+          "unpitched_notes": 0,
+          "grace_notes": 0,
+          "rests": 2
+        },
+        {
+          "id": "P14",
+          "name": "Violen.",
+          "measures": 4,
+          "staves": 1,
+          "note_elements": 73,
+          "sounding_notes": 73,
+          "pitched_notes": 73,
+          "unpitched_notes": 0,
+          "grace_notes": 0
+        },
+        {
+          "id": "P15",
+          "name": "Voice",
+          "measures": 4,
+          "staves": 1,
+          "note_elements": 73,
+          "sounding_notes": 73,
+          "pitched_notes": 73,
+          "unpitched_notes": 0,
+          "grace_notes": 0
+        },
+        {
+          "id": "P16",
+          "name": "4 rach geteilt.",
+          "measures": 4,
+          "staves": 1,
+          "note_elements": 71,
+          "sounding_notes": 71,
+          "pitched_notes": 71,
+          "unpitched_notes": 0,
+          "grace_notes": 0
+        },
+        {
+          "id": "P17",
+          "name": "Contrabiisse.",
+          "measures": 4,
+          "staves": 1,
+          "note_elements": 81,
+          "sounding_notes": 80,
+          "pitched_notes": 80,
+          "unpitched_notes": 0,
+          "grace_notes": 0,
+          "rests": 1
+        }
+      ],
+      "issues": [
+        {
+          "part": "P1",
+          "kind": "missing_time_signature",
+          "detail": "Cannot check durations against meter; do not assume 4/4."
+        },
+        {
+          "part": "P2",
+          "kind": "missing_time_signature",
+          "detail": "Cannot check durations against meter; do not assume 4/4."
+        },
+        {
+          "part": "P3",
+          "kind": "missing_time_signature",
+          "detail": "Cannot check durations against meter; do not assume 4/4."
+        },
+        {
+          "part": "P4",
+          "kind": "missing_time_signature",
+          "detail": "Cannot check durations against meter; do not assume 4/4."
+        },
+        {
+          "part": "P5",
+          "kind": "missing_time_signature",
+          "detail": "Cannot check durations against meter; do not assume 4/4."
+        },
+        {
+          "part": "P6",
+          "kind": "missing_time_signature",
+          "detail": "Cannot check durations against meter; do not assume 4/4."
+        },
+        {
+          "part": "P7",
+          "kind": "missing_time_signature",
+          "detail": "Cannot check durations against meter; do not assume 4/4."
+        },
+        {
+          "part": "P8",
+          "kind": "missing_time_signature",
+          "detail": "Cannot check durations against meter; do not assume 4/4."
+        },
+        {
+          "part": "P9",
+          "kind": "missing_time_signature",
+          "detail": "Cannot check durations against meter; do not assume 4/4."
+        },
+        {
+          "part": "P10",
+          "kind": "missing_time_signature",
+          "detail": "Cannot check durations against meter; do not assume 4/4."
+        },
+        {
+          "part": "P11",
+          "kind": "missing_time_signature",
+          "detail": "Cannot check durations against meter; do not assume 4/4."
+        },
+        {
+          "part": "P12",
+          "kind": "missing_time_signature",
+          "detail": "Cannot check durations against meter; do not assume 4/4."
+        },
+        {
+          "part": "P13",
+          "kind": "missing_time_signature",
+          "detail": "Cannot check durations against meter; do not assume 4/4."
+        },
+        {
+          "part": "P14",
+          "kind": "missing_time_signature",
+          "detail": "Cannot check durations against meter; do not assume 4/4."
+        },
+        {
+          "part": "P15",
+          "kind": "missing_time_signature",
+          "detail": "Cannot check durations against meter; do not assume 4/4."
+        },
+        {
+          "part": "P16",
+          "kind": "missing_time_signature",
+          "detail": "Cannot check durations against meter; do not assume 4/4."
+        },
+        {
+          "part": "P17",
+          "kind": "missing_time_signature",
+          "detail": "Cannot check durations against meter; do not assume 4/4."
+        }
+      ],
+      "issue_count": 17,
+      "quality_status": "needs_manual_review",
+      "musical_accuracy_verified": false,
+      "limitations": [
+        "No pitch-by-pitch comparison or XSD validation.",
+        "Parts can combine several instruments; counts are not accuracy scores.",
+        "Voice extent differences are review hints, not proof of rhythm errors.",
+        "Page-local measure numbers are not original full-score measure numbers."
+      ]
+    }
+  ],
+  "engine_diagnostics": [
+    "INFO  [page-0001]             MeasureRhythm 1044 | Measure{#2P3} No timeOffset for HeadChordInter#26680{(0.659/0.659) staff:3 slot#2 dur:1/4}",
+    "INFO  [page-0001]             MeasureRhythm 1044 | Measure{#2P6} No timeOffset for HeadChordInter#26765{(0.725/0.725) staff:6 slot#5 dur:1/4}",
+    "INFO  [page-0001]               StackRhythm 224  | S1 MeasureStack#2 no correct rhythm",
+    "INFO  [page-0001]               StackRhythm 224  | S1 MeasureStack#3 no correct rhythm",
+    "WARN  [page-0001]              MeasureFixer 343  | System#1 No target duration for measures local IDs [1, 2, 3, 4], please check time signatures"
+  ],
+  "render": {
+    "status": "rendered_needs_review",
+    "images": [
+      "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7\\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_i-d8be024bc1b4c89a\\page-0001\\attempt-001\\rerender-1-1.png",
+      "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7\\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_i-d8be024bc1b4c89a\\page-0001\\attempt-001\\rerender-1-2.png"
+    ]
+  },
+  "files": {
+    "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7\\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_i-d8be024bc1b4c89a\\page-0001\\attempt-001\\page-0001.png": "07456e0ad2b86164f16a7dfa6c1c10e87bee7743315d7aed57c3c96f34e4c9e7",
+    "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7\\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_i-d8be024bc1b4c89a\\page-0001\\attempt-001\\audiveris.log": "e317735b91e7944481ab1f47da149d8c4516bebeb174b6d1379573c0c7c62a74",
+    "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7\\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_i-d8be024bc1b4c89a\\page-0001\\attempt-001\\page-0001.mxl": "4c253b67bb8e1876cfdb6586cff1d9ed040e8eac8e6f7d492b774317b447ec18",
+    "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7\\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_i-d8be024bc1b4c89a\\page-0001\\attempt-001\\page-0001.musicxml": "b9957ef9567926893aae3e3781032bf0230ba17b7c0965f1641f2a769e18f9ed",
+    "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7\\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_i-d8be024bc1b4c89a\\page-0001\\attempt-001\\page-0001.omr": "f62517810408c5d28e97afd9640ea7318ba5e2b126217104cd48d57f140d5fa9",
+    "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7\\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_i-d8be024bc1b4c89a\\page-0001\\attempt-001\\rerender-1-1.png": "974584ebcb75f0f01b133dc49cef56dc5572758f68a266dca7a90e3f4aa0476d",
+    "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7\\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_i-d8be024bc1b4c89a\\page-0001\\attempt-001\\rerender-1-2.png": "c1ee7af20c829fe70e9b5004fd951fd65e2e711ec77a34de62ab7552a2b134ff"
+  }
+}

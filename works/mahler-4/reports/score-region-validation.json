@@ -1,0 +1,42 @@
+{
+  "inputs": {
+    "pdf_sha256": "d8db1e9225a0d0500dfcf8de78afd2bf74c4f350d9ada1f3bc0d87ca6cf57132",
+    "midis": [
+      {
+        "path": "resource/mahler No.4/mahler_symphony_4_1_(c)unknown.mid",
+        "sha256": "cd1945537ea7845f2a4a2a3bc0848c92fe6f91930ff0dde2ad20fd974de38693"
+      },
+      {
+        "path": "resource/mahler No.4/mahler_symphony_4_2_(c)unknown.mid",
+        "sha256": "665092cfa2b93575bbf9f2a6b488d87af1914add29341f6c36fb74079643ba10"
+      },
+      {
+        "path": "resource/mahler No.4/mahler_symphony_4_3_(c)unknown.mid",
+        "sha256": "72ceb177b09be60682cc941445d047a5f35b42d61d15159754a8471e22c7069a"
+      },
+      {
+        "path": "resource/mahler No.4/mahler_symphony_4_4_(c)unknown.mid",
+        "sha256": "e8928a88baddb19f9703fc68e2f8c829c897dffa1e8f0bdd0ea5b5d30d902c52"
+      }
+    ]
+  },
+  "systems": 172,
+  "finer_bar_candidates": 384,
+  "stable_system_candidates": 108,
+  "needs_review_system_candidates": 64,
+  "mapped_pdf_pages": 123,
+  "human_verified_regions": 0,
+  "movement_counts": {
+    "1": 65,
+    "2": 36,
+    "3": 38,
+    "4": 33
+  },
+  "limitations": [
+    "全部位置均为自动候选，未完成人工逐音验收。",
+    "MIDI 固定拍号不能当作原谱小节号；不显示未经核实的印刷编号。",
+    "只识别音符头的音级轮廓，调号、临时变音、谱号歧义与长休止会造成偏差。",
+    "总参考时值是算法边界约束；局部拍号长度来自推断，并非全部已由图像读出。",
+    "稳定表示本轮几种参数下边界较一致，不是准确率或人工确认。"
+  ]
+}

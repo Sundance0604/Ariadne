@@ -39,10 +39,13 @@ export function buildPlaybackRegions(measures, mapping) {
 }
 
 export function playheadPosition(timeMap, audioSeconds, box, region) {
-  const referenceTime = region && audioSeconds <= region.audioStart + .001 ? region.start
+  const referenceTime = region?.manual_timing
+    ? region.start+Math.max(0,Math.min(1,(audioSeconds-region.audioStart)/(region.audioEnd-region.audioStart)))*(region.end-region.start)
+    : region && audioSeconds <= region.audioStart + .001 ? region.start
     : region && audioSeconds >= region.audioEnd - .001 ? region.end
     : referenceTimeAt(timeMap, audioSeconds);
-  if (referenceTime === null || !box || !region || region.end <= region.start) return null;
+  if (referenceTime === null || !box || !region || !Number.isFinite(region.start)
+      || !Number.isFinite(region.end) || region.end <= region.start) return null;
   const fraction = Math.max(0, Math.min(1, (referenceTime - region.start) / (region.end - region.start)));
   const [left, , width] = box.rect_pt;
   return { fraction, leftPercent: (left + width * fraction) / box.page_width_pt * 100 };

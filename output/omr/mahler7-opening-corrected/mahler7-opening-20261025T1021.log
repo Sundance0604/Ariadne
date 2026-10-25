@@ -1,0 +1,89 @@
+2026-10-25 10:21:13,797 INFO [mahler7-opening]                 Book.java:543  | Created scores: [{Score null}]
+2026-10-25 10:21:13,799 INFO [mahler7-opening]               Voices.java:333  | Retrieving logical parts
+2026-10-25 10:21:13,801 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 1
+2026-10-25 10:21:13,801 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 2
+2026-10-25 10:21:13,801 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 4
+2026-10-25 10:21:13,802 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 5
+2026-10-25 10:21:13,802 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 6
+2026-10-25 10:21:13,802 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 7
+2026-10-25 10:21:13,802 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 8
+2026-10-25 10:21:13,802 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 9
+2026-10-25 10:21:13,802 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 13
+2026-10-25 10:21:13,802 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 14
+2026-10-25 10:21:13,802 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 15
+2026-10-25 10:21:13,802 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 16
+2026-10-25 10:21:13,802 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 17
+2026-10-25 10:21:13,802 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 18
+2026-10-25 10:21:13,802 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 19
+2026-10-25 10:21:13,802 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 20
+2026-10-25 10:21:13,803 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 21
+2026-10-25 10:21:13,803 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 1
+2026-10-25 10:21:13,803 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 2
+2026-10-25 10:21:13,803 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 3
+2026-10-25 10:21:13,803 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 4
+2026-10-25 10:21:13,803 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 5
+2026-10-25 10:21:13,803 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 6
+2026-10-25 10:21:13,803 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 7
+2026-10-25 10:21:13,804 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 8
+2026-10-25 10:21:13,804 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 10
+2026-10-25 10:21:13,804 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 11
+2026-10-25 10:21:13,804 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 12
+2026-10-25 10:21:13,804 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 13
+2026-10-25 10:21:13,804 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 14
+2026-10-25 10:21:13,804 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 16
+2026-10-25 10:21:13,804 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 17
+2026-10-25 10:21:13,804 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 18
+2026-10-25 10:21:13,804 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 19
+2026-10-25 10:21:13,804 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 20
+2026-10-25 10:21:13,804 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 21
+2026-10-25 10:21:13,805 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 1
+2026-10-25 10:21:13,805 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 2
+2026-10-25 10:21:13,805 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 3
+2026-10-25 10:21:13,805 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 4
+2026-10-25 10:21:13,805 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 5
+2026-10-25 10:21:13,805 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 6
+2026-10-25 10:21:13,805 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 7
+2026-10-25 10:21:13,805 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 8
+2026-10-25 10:21:13,805 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 9
+2026-10-25 10:21:13,805 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 10
+2026-10-25 10:21:13,805 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 11
+2026-10-25 10:21:13,805 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 14
+2026-10-25 10:21:13,806 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 16
+2026-10-25 10:21:13,806 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 17
+2026-10-25 10:21:13,806 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 18
+2026-10-25 10:21:13,806 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 19
+2026-10-25 10:21:13,806 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 20
+2026-10-25 10:21:13,806 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 21
+2026-10-25 10:21:13,806 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 1
+2026-10-25 10:21:13,806 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 2
+2026-10-25 10:21:13,806 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 3
+2026-10-25 10:21:13,806 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 4
+2026-10-25 10:21:13,806 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 5
+2026-10-25 10:21:13,806 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 6
+2026-10-25 10:21:13,806 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 7
+2026-10-25 10:21:13,807 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 8
+2026-10-25 10:21:13,807 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 9
+2026-10-25 10:21:13,807 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 10
+2026-10-25 10:21:13,807 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 11
+2026-10-25 10:21:13,807 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 13
+2026-10-25 10:21:13,807 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 14
+2026-10-25 10:21:13,807 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 15
+2026-10-25 10:21:13,807 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 16
+2026-10-25 10:21:13,807 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 17
+2026-10-25 10:21:13,807 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 18
+2026-10-25 10:21:13,807 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 19
+2026-10-25 10:21:13,807 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 20
+2026-10-25 10:21:13,807 WARN [mahler7-opening]        PartCollation.java:412  | Cannot find logical for id 21
+2026-10-25 10:21:14,724 INFO [mahler7-opening]            SheetStub.java:1000 | Loaded /sheet#1/sheet#1.xml
+2026-10-25 10:21:15,207 INFO [mahler7-opening]            SheetStub.java:1000 | Loaded /sheet#2/sheet#2.xml
+2026-10-25 10:21:15,576 INFO [mahler7-opening]            SheetStub.java:1000 | Loaded /sheet#3/sheet#3.xml
+2026-10-25 10:21:15,948 INFO [mahler7-opening]            SheetStub.java:1000 | Loaded /sheet#4/sheet#4.xml
+2026-10-25 10:21:16,186 INFO [mahler7-opening]      PartwiseBuilder.java:2707 | Exporting sheet(s): [#1#2#3#4]
+2026-10-25 10:21:16,211 INFO [mahler7-opening]        ScoreExporter.java:164  | Score mahler7-opening exported to D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-opening-corrected\mahler7-opening.mxl
+2026-10-25 10:21:16,284 INFO [mahler7-opening]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:21:17,218 INFO [mahler7-opening]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:21:18,132 INFO [mahler7-opening]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:21:18,809 INFO [mahler7-opening]                Sheet.java:1583 | Stored /sheet#3/sheet#3.xml
+2026-10-25 10:21:19,658 INFO [mahler7-opening]                Sheet.java:1583 | Stored /sheet#4/sheet#4.xml
+2026-10-25 10:21:19,658 INFO [mahler7-opening]                 Book.java:2525 | Book stored as D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-opening-corrected\mahler7-opening.omr
+2026-10-25 10:21:19,666 INFO [mahler7-opening]                Score.java:181  | Closing {Score 1}

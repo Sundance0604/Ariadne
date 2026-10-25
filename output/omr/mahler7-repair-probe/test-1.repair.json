@@ -1,0 +1,36 @@
+{
+  "source": "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7-by-movement\\movement-01\\runs\\run-0001\\score.omr",
+  "source_sha256": "8d196e8f0a9381b8dac4f177774c29e36366fa0ab0fc71d29d3500a0ef1fd054",
+  "output": "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7-repair-probe\\test-1.omr",
+  "output_sha256": "dc1910400d2a3100e00ed9f1ebc759c5ef9d535b2d46b16f13b07d5c7f06bb0b",
+  "changes": [
+    {
+      "sheet": 3,
+      "edits": [
+        {
+          "system": "1",
+          "parts": [
+            "1",
+            "2",
+            "10",
+            "14",
+            "15"
+          ],
+          "removed_empty_leading_measures": 5,
+          "measure_count": 5,
+          "stack_boundaries": [
+            400,
+            1154,
+            1747,
+            2309,
+            2892,
+            3418
+          ],
+          "rebuilt_derived_chord_containers": 257
+        }
+      ]
+    }
+  ],
+  "kind": "empty_measure_before_staff_start",
+  "musical_accuracy_verified": false
+}

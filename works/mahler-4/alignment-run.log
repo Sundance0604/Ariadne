@@ -1,0 +1,9 @@
+11:00:38 Parsing original MIDI tracks and tempo changes
+11:00:46 Parsed 43291 note intervals; 1244 inferred bars
+11:00:46 Decoding full audio locally and resampling to 22050 Hz
+11:00:49 Estimated tuning offset: 10 cents; extracting full-recording pitch features
+........................................................................................11:02:20 Extracting full-recording onset features
+........................................................................................11:04:06 Feature cache saved; 41901 pitched note intervals used
+11:04:06 Running full-recording multiscale DTW with chroma + DLNCO
+11:04:34 Running chroma-only comparison to locate algorithm disagreement
+11:04:54 Saved D:\mycodelife\workshop\AI\classicMusic\works\mahler-4\alignment.json; 1244 bars; flags {'feature_variant_disagreement_over_2s': 1, 'long_interval_check_cadenza_or_fermata': 1}

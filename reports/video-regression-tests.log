@@ -1,0 +1,122 @@
+test_edited_listener_copy_has_no_research_instructions (test_analysis_data.AnalysisImportTests.test_edited_listener_copy_has_no_research_instructions) ... ok
+test_new_work_reference_types_come_from_metadata (test_analysis_data.AnalysisImportTests.test_new_work_reference_types_come_from_metadata) ... ok
+test_real_page_guide_covers_each_page_once (test_analysis_data.AnalysisImportTests.test_real_page_guide_covers_each_page_once) ... ok
+test_reference_kinds_and_comparison_scope (test_analysis_data.AnalysisImportTests.test_reference_kinds_and_comparison_scope) ... ok
+test_rendered_markdown_escapes_raw_html_and_blocks_script_links (test_analysis_data.AnalysisImportTests.test_rendered_markdown_escapes_raw_html_and_blocks_script_links) ... ok
+test_wrong_pdf_binding_is_rejected (test_analysis_data.AnalysisImportTests.test_wrong_pdf_binding_is_rejected) ... ok
+test_aac_full_recording_decodes_and_has_browser_playback_file (test_audio_io.M4ADecodeTests.test_aac_full_recording_decodes_and_has_browser_playback_file) ... skipped 'M4A experiments suspended by user'
+test_alac_short_fixture_decodes (test_audio_io.M4ADecodeTests.test_alac_short_fixture_decodes) ... skipped 'M4A experiments suspended by user'
+test_listener_copy_covers_the_bound_score_and_recording (test_lark_integration.LarkIntegrationTests.test_listener_copy_covers_the_bound_score_and_recording) ... ok
+test_regions_belong_to_real_candidates_and_missing_positions_are_flagged (test_lark_integration.LarkIntegrationTests.test_regions_belong_to_real_candidates_and_missing_positions_are_flagged) ... ok
+test_changing_meters_and_partial_final_bar (test_midi_score.MidiTimelineTests.test_changing_meters_and_partial_final_bar) ... ok
+test_midbar_change_is_not_silently_rounded (test_midi_score.MidiTimelineTests.test_midbar_change_is_not_silently_rounded) ... ok
+test_missing_initial_meter_requires_review (test_midi_score.MidiTimelineTests.test_missing_initial_meter_requires_review) ... ok
+test_port_switches_do_not_pair_different_instruments (test_midi_score.MidiTimelineTests.test_port_switches_do_not_pair_different_instruments) ... ok
+test_tempo_changes_are_integrated_before_new_tempo (test_midi_score.MidiTimelineTests.test_tempo_changes_are_integrated_before_new_tempo) ... ok
+Movement 1: cumulative pages 1-2
+Movement 1: cumulative pages 1-4
+test_cumulative_export_and_resume_preserve_snapshot (test_movement_processing.MovementTests.test_cumulative_export_and_resume_preserve_snapshot) ... ok
+Movement 1: cumulative pages 1-2
+test_engine_exit_zero_with_missing_page_is_failure (test_movement_processing.MovementTests.test_engine_exit_zero_with_missing_page_is_failure) ... ok
+Movement 1: cumulative pages 1-2
+Movement 1: cumulative pages 1-4
+test_explicit_reviewed_resume_book_takes_priority_over_old_snapshots (test_movement_processing.MovementTests.test_explicit_reviewed_resume_book_takes_priority_over_old_snapshots) ... ok
+Movement 1: cumulative pages 1-2
+Movement 1: cumulative pages 1-4
+test_fragments_are_not_reported_as_single_movement (test_movement_processing.MovementTests.test_fragments_are_not_reported_as_single_movement) ... ok
+test_input_fingerprint_rejected (test_movement_processing.MovementTests.test_input_fingerprint_rejected) ... ok
+test_manifest_requires_exact_coverage (test_movement_processing.MovementTests.test_manifest_requires_exact_coverage) ... ok
+Movement 1: cumulative pages 81-82
+Movement 1: cumulative pages 81-84
+test_movement_local_sheet_numbers_map_to_physical_pdf_pages (test_movement_processing.MovementTests.test_movement_local_sheet_numbers_map_to_physical_pdf_pages) ... ok
+test_step_without_sheet_data_and_invalid_page_are_not_completed (test_movement_processing.MovementTests.test_step_without_sheet_data_and_invalid_page_are_not_completed) ... ok
+test_streamed_tiff_pages_and_verified_cache (test_movement_processing.MovementTests.test_streamed_tiff_pages_and_verified_cache) ... Exception ignored while finalizing file <PIL.TiffImagePlugin.AppendingTiffWriter object at 0x000001B779745D50>:
+Traceback (most recent call last):
+  File "C:\Users\32599\.conda\envs\synctoolbox\Lib\site-packages\PIL\TiffImagePlugin.py", line 2291, in close
+    self.finalize()
+  File "C:\Users\32599\.conda\envs\synctoolbox\Lib\site-packages\PIL\TiffImagePlugin.py", line 2152, in finalize
+    self.f.seek(self.offsetOfNewPage)
+ValueError: seek of closed file
+Exception ignored while finalizing file <PIL.TiffImagePlugin.AppendingTiffWriter object at 0x000001B779745D50>:
+Traceback (most recent call last):
+  File "C:\Users\32599\.conda\envs\synctoolbox\Lib\site-packages\PIL\TiffImagePlugin.py", line 2291, in close
+    self.finalize()
+  File "C:\Users\32599\.conda\envs\synctoolbox\Lib\site-packages\PIL\TiffImagePlugin.py", line 2152, in finalize
+    self.f.seek(self.offsetOfNewPage)
+ValueError: seek of closed file
+ok
+test_book_repair_preserves_original_and_completed_pages (test_omr_repair.OmrRepairTests.test_book_repair_preserves_original_and_completed_pages) ... ok
+test_nonempty_leading_measure_is_not_removed (test_omr_repair.OmrRepairTests.test_nonempty_leading_measure_is_not_removed) ... ok
+test_phantom_before_staff_moves_to_start_and_preserves_heads (test_omr_repair.OmrRepairTests.test_phantom_before_staff_moves_to_start_and_preserves_heads) ... ok
+test_real_pickup_inside_staff_is_not_removed (test_omr_repair.OmrRepairTests.test_real_pickup_inside_staff_is_not_removed) ... ok
+test_rhythm_processed_stacks_are_not_rewritten (test_omr_repair.OmrRepairTests.test_rhythm_processed_stacks_are_not_rewritten) ... ok
+test_page_span_mismatch_is_rejected (test_part_mapping.PartMappingTests.test_page_span_mismatch_is_rejected) ... ok
+test_reviewed_page_mapping_preserves_notes_and_division_context (test_part_mapping.PartMappingTests.test_reviewed_page_mapping_preserves_notes_and_division_context) ... ok
+test_unpitched_notes_are_retained (test_part_mapping.PartMappingTests.test_unpitched_notes_are_retained) ... ok
+test_unreviewed_page_is_rejected (test_part_mapping.PartMappingTests.test_unreviewed_page_is_rejected) ... ok
+test_wrong_source_and_part_count_are_rejected (test_part_mapping.PartMappingTests.test_wrong_source_and_part_count_are_rejected) ... ok
+test_both_tracks_playback_payload_and_uncached_pdf_renderer (test_playback_install.PlaybackInstallTests.test_both_tracks_playback_payload_and_uncached_pdf_renderer) ... 127.0.0.1 - - [25/Oct/2026 11:14:03] "GET /api/project?track=ravel-left-hand HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2026 11:14:03] "GET /api/analysis?track=ravel-left-hand HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2026 11:14:03] "GET /audio?track=ravel-left-hand HTTP/1.1" 206 -
+127.0.0.1 - - [25/Oct/2026 11:14:03] "GET /api/project?track=lark-ascending HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2026 11:14:03] "GET /api/analysis?track=lark-ascending HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2026 11:14:03] "GET /audio?track=lark-ascending HTTP/1.1" 206 -
+ok
+test_server_delivers_rendered_page (test_playback_install.PlaybackInstallTests.test_server_delivers_rendered_page) ... 127.0.0.1 - - [25/Oct/2026 11:14:03] "GET /page/1.png?track=lark-ascending HTTP/1.1" 200 -
+ok
+test_catalog_rejects_a_configured_path_outside_the_workspace (test_review_library.TrackIsolationTests.test_catalog_rejects_a_configured_path_outside_the_workspace) ... ok
+test_routes_audio_bounds_and_anchors_stay_with_the_selected_track (test_review_library.TrackIsolationTests.test_routes_audio_bounds_and_anchors_stay_with_the_selected_track) ... 127.0.0.1 - - [25/Oct/2026 11:14:04] "GET /api/library HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2026 11:14:04] "GET /api/project HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2026 11:14:04] "GET /api/project?track=second HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2026 11:14:04] "GET /api/project?track=../../ HTTP/1.1" 404 -
+127.0.0.1 - - [25/Oct/2026 11:14:04] code 404, message Not Found
+127.0.0.1 - - [25/Oct/2026 11:14:04] "GET /page/37.png?track=second HTTP/1.1" 404 -
+127.0.0.1 - - [25/Oct/2026 11:14:04] "GET /audio?track=second HTTP/1.1" 206 -
+127.0.0.1 - - [25/Oct/2026 11:14:04] "POST /api/anchors?track=second HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2026 11:14:04] "POST /api/anchors?track=second HTTP/1.1" 400 -
+ok
+test_anchor_roundtrip_history_and_invalid_order (test_review_storage.AnchorStorageTests.test_anchor_roundtrip_history_and_invalid_order) ... 127.0.0.1 - - [25/Oct/2026 11:14:05] "POST /api/anchors HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2026 11:14:05] "POST /api/anchors HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2026 11:14:05] "POST /api/anchors HTTP/1.1" 400 -
+ok
+test_timeout_stops_spawned_child (test_score_processing.ProcessTests.test_timeout_stops_spawned_child) ... ok
+test_cache_revalidation_and_tampered_output_rebuild (test_score_processing.RecoveryTests.test_cache_revalidation_and_tampered_output_rebuild) ... ok
+test_exhausted_failure_saved_and_repeatable (test_score_processing.RecoveryTests.test_exhausted_failure_saved_and_repeatable) ... ok
+test_failed_partial_export_does_not_satisfy_retry (test_score_processing.RecoveryTests.test_failed_partial_export_does_not_satisfy_retry) ... ok
+test_renderer_exit_zero_without_images_is_failure (test_score_processing.RecoveryTests.test_renderer_exit_zero_without_images_is_failure) ... ok
+test_missing_meter_is_reported_not_assumed (test_score_processing.ValidationTests.test_missing_meter_is_reported_not_assumed) ... ok
+test_mxl_container_chords_and_backups (test_score_processing.ValidationTests.test_mxl_container_chords_and_backups) ... ok
+test_no_notes_and_bad_container_fail (test_score_processing.ValidationTests.test_no_notes_and_bad_container_fail) ... ok
+test_page_ranges (test_score_processing.ValidationTests.test_page_ranges) ... ok
+test_plain_musicxml_and_namespaces (test_score_processing.ValidationTests.test_plain_musicxml_and_namespaces) ... ok
+test_rhythm_and_staff_mismatches_flagged (test_score_processing.ValidationTests.test_rhythm_and_staff_mismatches_flagged) ... ok
+test_stream_accepts_an_all_rest_part_when_other_parts_sound (test_score_processing.ValidationTests.test_stream_accepts_an_all_rest_part_when_other_parts_sound) ... ok
+test_streamed_and_in_memory_validation_agree (test_score_processing.ValidationTests.test_streamed_and_in_memory_validation_agree) ... ok
+test_save_is_bound_to_track_and_fingerprints_with_history (test_video_support.ManualSyncAPITests.test_save_is_bound_to_track_and_fingerprints_with_history) ... 127.0.0.1 - - [25/Oct/2026 11:14:08] "POST /api/media-sync?track=fixture HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2026 11:14:08] "POST /api/media-sync?track=fixture HTTP/1.1" 400 -
+127.0.0.1 - - [25/Oct/2026 11:14:08] "POST /api/media-sync?track=fixture HTTP/1.1" 400 -
+127.0.0.1 - - [25/Oct/2026 11:14:08] "POST /api/media-sync?track=fixture HTTP/1.1" 400 -
+ok
+test_actual_silent_mp4_is_manual_only (test_video_support.MappingValidationTests.test_actual_silent_mp4_is_manual_only) ... ok
+test_rejects_nonfinite_reversed_and_outside_times (test_video_support.MappingValidationTests.test_rejects_nonfinite_reversed_and_outside_times) ... ok
+test_old_tracks_have_no_video_and_analysis_is_independent (test_video_support.RealVideoTests.test_old_tracks_have_no_video_and_analysis_is_independent) ... 127.0.0.1 - - [25/Oct/2026 11:14:09] "GET /api/project?track=ravel-left-hand HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2026 11:14:09] code 404, message Not Found
+127.0.0.1 - - [25/Oct/2026 11:14:09] "GET /video?track=ravel-left-hand HTTP/1.1" 404 -
+127.0.0.1 - - [25/Oct/2026 11:14:09] "GET /api/project?track=lark-ascending HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2026 11:14:09] code 404, message Not Found
+127.0.0.1 - - [25/Oct/2026 11:14:09] "GET /video?track=lark-ascending HTTP/1.1" 404 -
+127.0.0.1 - - [25/Oct/2026 11:14:09] "GET /api/analysis?track=mahler-4 HTTP/1.1" 200 -
+ok
+test_real_video_payload_and_byte_ranges (test_video_support.RealVideoTests.test_real_video_payload_and_byte_ranges) ... 127.0.0.1 - - [25/Oct/2026 11:14:09] "GET /api/project?track=mahler-4 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2026 11:14:10] "GET /video?track=mahler-4 HTTP/1.1" 206 -
+127.0.0.1 - - [25/Oct/2026 11:14:10] "GET /video?track=mahler-4 HTTP/1.1" 206 -
+127.0.0.1 - - [25/Oct/2026 11:14:10] "GET /video?track=mahler-4 HTTP/1.1" 206 -
+127.0.0.1 - - [25/Oct/2026 11:14:10] "GET /video?track=mahler-4 HTTP/1.1" 416 -
+127.0.0.1 - - [25/Oct/2026 11:14:10] "GET /video?track=mahler-4 HTTP/1.1" 416 -
+127.0.0.1 - - [25/Oct/2026 11:14:10] "GET /video?track=mahler-4 HTTP/1.1" 416 -
+ok
+
+----------------------------------------------------------------------
+Ran 57 tests in 8.062s
+
+OK (skipped=2)

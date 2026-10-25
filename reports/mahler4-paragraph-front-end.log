@@ -1,0 +1,23 @@
+✔ movement guide follows playback sequence even while another PDF page is browsed (0.694ms)
+✔ short Mahler guides follow the visible score with separate paragraphs on the same page (2.0053ms)
+✔ existing page-based guides stay compatible and movement labels disclose granularity (0.1238ms)
+✔ Mahler chapter jumps use real movement identities and score pages (14.5754ms)
+✔ single movement works have no redundant chapter navigation (0.5023ms)
+✔ observed PDF regions follow nonlinear reference times, without filling unmatched gaps (0.3001ms)
+✔ coordinate clicks seek the matching physical region; playhead stays in its observed rectangle (0.2196ms)
+✔ recomputing alignment updates time boundaries while preserving PDF coordinates (0.1345ms)
+✔ finer candidates fall back to their system and manual timing takes priority (0.1895ms)
+✔ piecewise mapping supports offset, drift, inversion and bounded validity (0.6356ms)
+✔ video-only uses video clock and leaves audio paused and muted (0.5768ms)
+✔ audio-only stays compatible; switching project stops the old source (0.1383ms)
+✔ dual playback has exactly one audible source and switches through the mapping (0.7765ms)
+✔ unknown performances cannot start a slave or switch sources (0.125ms)
+✔ large drift pauses the slave instead of repeated seeks; gaps are not extrapolated (0.1829ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 43.891

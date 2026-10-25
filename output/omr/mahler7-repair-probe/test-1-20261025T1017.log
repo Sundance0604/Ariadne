@@ -1,0 +1,284 @@
+2026-10-25 10:17:44,265 INFO [test-1]                 Book.java:1929 | Book reaching PAGE on sheets:[#1#2#3#4]
+2026-10-25 10:17:44,266 INFO [test-1#1]                 Book.java:2050 | End of Stub#1
+2026-10-25 10:17:44,266 INFO [test-1#2]                 Book.java:2050 | End of Stub#2
+2026-10-25 10:17:44,266 INFO [test-1#3]       StepMonitoring.java:98   | CHORDS
+2026-10-25 10:17:45,114 INFO [test-1#3]            SheetStub.java:1000 | Loaded /sheet#3/sheet#3.xml
+2026-10-25 10:17:45,166 INFO [test-1#3]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:17:45,527 INFO [test-1#3]                Sheet.java:1583 | Stored /sheet#3/sheet#3.xml
+2026-10-25 10:17:45,535 INFO [test-1#3]       StepMonitoring.java:98   | CURVES
+2026-10-25 10:17:49,148 INFO [test-1#3]         SlursBuilder.java:240  | Slurs: 11
+2026-10-25 10:17:49,274 INFO [test-1#3]      SegmentsBuilder.java:155  | Segments: 4
+2026-10-25 10:17:49,297 INFO [test-1#3]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:17:49,833 INFO [test-1#3]                Sheet.java:1583 | Stored /sheet#3/sheet#3.xml
+2026-10-25 10:17:49,844 INFO [test-1#3]       StepMonitoring.java:98   | SYMBOLS
+2026-10-25 10:17:55,270 INFO [test-1#3]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:17:56,697 INFO [test-1#3]                Sheet.java:1583 | Stored /sheet#3/sheet#3.xml
+2026-10-25 10:17:56,708 INFO [test-1#3]       StepMonitoring.java:98   | LINKS
+2026-10-25 10:17:56,753 INFO [test-1#3]             KeyInter.java:1198 | No effective key before AlterInter#36449{(0.262) staff:1 NATURAL pitch:-4.0}
+2026-10-25 10:17:56,754 INFO [test-1#3]             KeyInter.java:1198 | No effective key before AlterInter#36635{(0.178) staff:2 NATURAL pitch:-4.0}
+2026-10-25 10:17:56,754 INFO [test-1#3]             KeyInter.java:1198 | No effective key before AlterInter#36536{(0.204) staff:5 NATURAL pitch:-4.0}
+2026-10-25 10:17:56,754 INFO [test-1#3]             KeyInter.java:1198 | No effective key before AlterInter#36818{(0.695) staff:7 NATURAL pitch:1.0}
+2026-10-25 10:17:56,755 INFO [test-1#3]             KeyInter.java:1198 | No effective key before AlterInter#36910{(0.386) staff:7 NATURAL pitch:-3.0}
+2026-10-25 10:17:56,755 INFO [test-1#3]             KeyInter.java:1198 | No effective key before AlterInter#37743{(0.783) staff:7 NATURAL pitch:1.0}
+2026-10-25 10:17:56,755 INFO [test-1#3]             KeyInter.java:1198 | No effective key before AlterInter#36514{(0.465) staff:14 NATURAL pitch:5.0}
+2026-10-25 10:17:56,756 INFO [test-1#3]             KeyInter.java:1198 | No effective key before AlterInter#37143{(0.755) staff:14 NATURAL pitch:5.0}
+2026-10-25 10:17:56,756 INFO [test-1#3]             KeyInter.java:1198 | No effective key before AlterInter#36300{(0.296) staff:15 NATURAL pitch:-5.0}
+2026-10-25 10:17:56,756 INFO [test-1#3]             KeyInter.java:1198 | No effective key before AlterInter#36462{(0.435) staff:15 NATURAL pitch:3.0}
+2026-10-25 10:17:56,756 INFO [test-1#3]             KeyInter.java:1198 | No effective key before AlterInter#36652{(0.167) staff:15 NATURAL pitch:2.0}
+2026-10-25 10:17:56,756 INFO [test-1#3]             KeyInter.java:1198 | No effective key before AlterInter#37114{(0.694) staff:15 NATURAL pitch:-1.0}
+2026-10-25 10:17:56,758 INFO [test-1#3]             KeyInter.java:1331 | Key built KeyInter#38993{(0.331) staff:17 KEY_SHARP_1 pitch:0.1 fifths:1}
+2026-10-25 10:17:56,758 INFO [test-1#3]             KeyInter.java:1198 | No effective key before AlterInter#38202{(0.212) staff:18 NATURAL pitch:5.0}
+2026-10-25 10:17:56,973 INFO [test-1#3]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:17:58,341 INFO [test-1#3]                Sheet.java:1583 | Stored /sheet#3/sheet#3.xml
+2026-10-25 10:17:58,353 INFO [test-1#3]       StepMonitoring.java:98   | RHYTHMS
+2026-10-25 10:17:58,465 INFO [test-1#3]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:17:59,851 INFO [test-1#3]                Sheet.java:1583 | Stored /sheet#3/sheet#3.xml
+2026-10-25 10:17:59,861 INFO [test-1#3]       StepMonitoring.java:98   | PAGE
+2026-10-25 10:17:59,868 WARN [test-1#3]         MeasureFixer.java:343  | System#1 No target duration for measures local IDs [1, 2, 3, 4, 5], please check time signatures
+2026-10-25 10:17:59,877 INFO [test-1#3]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:18:01,252 INFO [test-1#3]                Sheet.java:1583 | Stored /sheet#3/sheet#3.xml
+2026-10-25 10:18:01,262 INFO [test-1#3]            SheetStub.java:1655 | Sheet#3 disposed
+2026-10-25 10:18:01,291 INFO [test-1#3]                 Book.java:2050 | End of Stub#3
+2026-10-25 10:18:01,291 INFO [test-1#4]       StepMonitoring.java:98   | TEXTS
+2026-10-25 10:18:02,205 INFO [test-1#4]            SheetStub.java:1000 | Loaded /sheet#4/sheet#4.xml
+2026-10-25 10:18:06,041 INFO [test-1#4]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:18:06,552 INFO [test-1#4]                Sheet.java:1583 | Stored /sheet#4/sheet#4.xml
+2026-10-25 10:18:06,562 INFO [test-1#4]       StepMonitoring.java:98   | MEASURES
+2026-10-25 10:18:06,568 INFO [test-1#4]                 Page.java:307  | 5 raw measures: [5 in system#1]
+2026-10-25 10:18:06,576 INFO [test-1#4]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:18:07,094 INFO [test-1#4]                Sheet.java:1583 | Stored /sheet#4/sheet#4.xml
+2026-10-25 10:18:07,104 INFO [test-1#4]       StepMonitoring.java:98   | CHORDS
+2026-10-25 10:18:07,123 INFO [test-1#4]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:18:07,680 INFO [test-1#4]                Sheet.java:1583 | Stored /sheet#4/sheet#4.xml
+2026-10-25 10:18:07,689 INFO [test-1#4]       StepMonitoring.java:98   | CURVES
+2026-10-25 10:18:10,807 INFO [test-1#4]         SlursBuilder.java:240  | Slurs: 28
+2026-10-25 10:18:10,872 INFO [test-1#4]      SegmentsBuilder.java:155  | Segments: 13
+2026-10-25 10:18:10,881 INFO [test-1#4]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:18:11,682 INFO [test-1#4]                Sheet.java:1583 | Stored /sheet#4/sheet#4.xml
+2026-10-25 10:18:11,692 INFO [test-1#4]       StepMonitoring.java:98   | SYMBOLS
+2026-10-25 10:18:15,784 INFO [test-1#4]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:18:16,781 INFO [test-1#4]                Sheet.java:1583 | Stored /sheet#4/sheet#4.xml
+2026-10-25 10:18:16,800 INFO [test-1#4]       StepMonitoring.java:98   | LINKS
+2026-10-25 10:18:16,821 INFO [test-1#4]             KeyInter.java:1198 | No effective key before AlterInter#31193{(0.772) staff:4 NATURAL pitch:-5.0}
+2026-10-25 10:18:16,821 INFO [test-1#4]             KeyInter.java:1198 | No effective key before AlterInter#31564{(0.488) staff:4 NATURAL pitch:-4.0}
+2026-10-25 10:18:16,821 INFO [test-1#4]             KeyInter.java:1198 | No effective key before AlterInter#30142{(0.774) staff:7 NATURAL pitch:-3.0}
+2026-10-25 10:18:16,821 INFO [test-1#4]             KeyInter.java:1198 | No effective key before AlterInter#31384{(0.514) staff:7 NATURAL pitch:4.0}
+2026-10-25 10:18:16,822 INFO [test-1#4]             KeyInter.java:1331 | Key built KeyInter#32044{(0.216) staff:8 KEY_SHARP_1 pitch:1.1 fifths:1}
+2026-10-25 10:18:16,822 INFO [test-1#4]             KeyInter.java:1198 | No effective key before AlterInter#30021{(0.142) staff:9 NATURAL pitch:-4.0}
+2026-10-25 10:18:16,822 INFO [test-1#4]             KeyInter.java:1198 | No effective key before AlterInter#30196{(0.616) staff:9 NATURAL pitch:-3.0}
+2026-10-25 10:18:16,822 INFO [test-1#4]             KeyInter.java:1198 | No effective key before AlterInter#30782{(0.487) staff:9 NATURAL pitch:-5.0}
+2026-10-25 10:18:16,822 INFO [test-1#4]             KeyInter.java:1198 | No effective key before AlterInter#31709{(0.731) staff:9 NATURAL pitch:-3.0}
+2026-10-25 10:18:16,823 INFO [test-1#4]             KeyInter.java:1198 | No effective key before AlterInter#31786{(0.263) staff:10 NATURAL pitch:2.0}
+2026-10-25 10:18:16,823 INFO [test-1#4]             KeyInter.java:1198 | No effective key before AlterInter#31809{(0.295) staff:10 NATURAL pitch:2.0}
+2026-10-25 10:18:16,823 INFO [test-1#4]             KeyInter.java:1198 | No effective key before AlterInter#29991{(0.255) staff:12 NATURAL pitch:-3.0}
+2026-10-25 10:18:16,959 INFO [test-1#4]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:18:17,911 INFO [test-1#4]                Sheet.java:1583 | Stored /sheet#4/sheet#4.xml
+2026-10-25 10:18:17,922 INFO [test-1#4]       StepMonitoring.java:98   | RHYTHMS
+2026-10-25 10:18:17,962 INFO [test-1#4]        MeasureRhythm.java:1044 | Measure{#4P33} No timeOffset for HeadChordInter#27354{(0.726/0.726) staff:4 slot#6 dur:1/4}
+2026-10-25 10:18:17,963 INFO [test-1#4]        MeasureRhythm.java:1044 | Measure{#4P35} No timeOffset for HeadChordInter#27376{(0.588/0.588) staff:6 slot#2 dur:1/4}
+2026-10-25 10:18:17,974 INFO [test-1#4]          StackRhythm.java:224  | S1 MeasureStack#4 no correct rhythm
+2026-10-25 10:18:17,996 INFO [test-1#4]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:18:18,995 INFO [test-1#4]                Sheet.java:1583 | Stored /sheet#4/sheet#4.xml
+2026-10-25 10:18:19,004 INFO [test-1#4]       StepMonitoring.java:98   | PAGE
+2026-10-25 10:18:19,007 WARN [test-1#4]         MeasureFixer.java:343  | System#1 No target duration for measures local IDs [1, 2, 3, 4, 5], please check time signatures
+2026-10-25 10:18:19,016 INFO [test-1#4]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:18:20,016 INFO [test-1#4]                Sheet.java:1583 | Stored /sheet#4/sheet#4.xml
+2026-10-25 10:18:20,025 INFO [test-1#4]            SheetStub.java:1655 | Sheet#4 disposed
+2026-10-25 10:18:20,051 INFO [test-1#4]                 Book.java:2050 | End of Stub#4
+2026-10-25 10:18:20,052 INFO [test-1]                 Book.java:2057 | End of Book{test-1}
+2026-10-25 10:18:20,052 INFO [test-1]                 Book.java:543  | Created scores: [{Score null}]
+2026-10-25 10:18:20,052 INFO [test-1]               Voices.java:333  | Retrieving logical parts
+2026-10-25 10:18:20,992 INFO [test-1]            SheetStub.java:1000 | Loaded /sheet#1/sheet#1.xml
+2026-10-25 10:18:22,008 INFO [test-1]            SheetStub.java:1000 | Loaded /sheet#2/sheet#2.xml
+2026-10-25 10:18:22,861 INFO [test-1]            SheetStub.java:1000 | Loaded /sheet#3/sheet#3.xml
+2026-10-25 10:18:23,629 INFO [test-1]            SheetStub.java:1000 | Loaded /sheet#4/sheet#4.xml
+2026-10-25 10:18:24,035 INFO [test-1]      PartwiseBuilder.java:2707 | Exporting sheet(s): [#1#2#3#4]
+2026-10-25 10:18:24,036 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 1
+2026-10-25 10:18:24,044 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 2
+2026-10-25 10:18:24,045 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 3
+2026-10-25 10:18:24,046 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 4
+2026-10-25 10:18:24,046 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 5
+2026-10-25 10:18:24,047 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 6
+2026-10-25 10:18:24,048 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 7
+2026-10-25 10:18:24,048 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 8
+2026-10-25 10:18:24,049 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 9
+2026-10-25 10:18:24,049 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 10
+2026-10-25 10:18:24,050 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 11
+2026-10-25 10:18:24,051 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 12
+2026-10-25 10:18:24,051 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 13
+2026-10-25 10:18:24,052 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 14
+2026-10-25 10:18:24,052 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 15
+2026-10-25 10:18:24,054 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 16
+2026-10-25 10:18:24,055 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 17
+2026-10-25 10:18:24,055 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 18
+2026-10-25 10:18:24,056 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 19
+2026-10-25 10:18:24,057 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 20
+2026-10-25 10:18:24,057 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 21
+2026-10-25 10:18:24,058 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 22
+2026-10-25 10:18:24,058 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 23
+2026-10-25 10:18:24,059 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 24
+2026-10-25 10:18:24,060 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 25
+2026-10-25 10:18:24,060 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 26
+2026-10-25 10:18:24,061 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 27
+2026-10-25 10:18:24,061 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 28
+2026-10-25 10:18:24,063 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 29
+2026-10-25 10:18:24,063 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 30
+2026-10-25 10:18:24,064 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 31
+2026-10-25 10:18:24,065 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 32
+2026-10-25 10:18:24,066 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 33
+2026-10-25 10:18:24,066 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 34
+2026-10-25 10:18:24,067 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 35
+2026-10-25 10:18:24,067 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 36
+2026-10-25 10:18:24,068 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 37
+2026-10-25 10:18:24,068 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 38
+2026-10-25 10:18:24,069 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 39
+2026-10-25 10:18:24,070 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 40
+2026-10-25 10:18:24,070 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 41
+2026-10-25 10:18:24,071 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 42
+2026-10-25 10:18:24,071 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 43
+2026-10-25 10:18:24,072 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 44
+2026-10-25 10:18:24,073 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 45
+2026-10-25 10:18:24,074 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 46
+2026-10-25 10:18:24,074 INFO [test-1]                 Part.java:351  | Sheet#1 System#1 Part#48{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 47
+2026-10-25 10:18:24,144 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 1
+2026-10-25 10:18:24,147 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 2
+2026-10-25 10:18:24,147 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 3
+2026-10-25 10:18:24,148 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 4
+2026-10-25 10:18:24,149 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 5
+2026-10-25 10:18:24,149 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 6
+2026-10-25 10:18:24,150 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 7
+2026-10-25 10:18:24,150 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 8
+2026-10-25 10:18:24,151 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 9
+2026-10-25 10:18:24,151 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 10
+2026-10-25 10:18:24,152 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 11
+2026-10-25 10:18:24,152 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 12
+2026-10-25 10:18:24,153 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 13
+2026-10-25 10:18:24,153 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 14
+2026-10-25 10:18:24,154 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 15
+2026-10-25 10:18:24,154 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 16
+2026-10-25 10:18:24,155 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 17
+2026-10-25 10:18:24,155 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 18
+2026-10-25 10:18:24,156 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 19
+2026-10-25 10:18:24,157 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 20
+2026-10-25 10:18:24,157 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 21
+2026-10-25 10:18:24,158 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 22
+2026-10-25 10:18:24,158 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 23
+2026-10-25 10:18:24,159 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 24
+2026-10-25 10:18:24,160 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 25
+2026-10-25 10:18:24,160 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 26
+2026-10-25 10:18:24,161 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 27
+2026-10-25 10:18:24,162 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 28
+2026-10-25 10:18:24,162 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 29
+2026-10-25 10:18:24,187 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 48
+2026-10-25 10:18:24,188 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 49
+2026-10-25 10:18:24,188 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 50
+2026-10-25 10:18:24,189 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 51
+2026-10-25 10:18:24,189 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 52
+2026-10-25 10:18:24,190 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 53
+2026-10-25 10:18:24,190 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 54
+2026-10-25 10:18:24,191 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 55
+2026-10-25 10:18:24,191 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 56
+2026-10-25 10:18:24,192 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 57
+2026-10-25 10:18:24,194 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 58
+2026-10-25 10:18:24,194 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 59
+2026-10-25 10:18:24,195 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 60
+2026-10-25 10:18:24,197 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 61
+2026-10-25 10:18:24,198 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 62
+2026-10-25 10:18:24,198 INFO [test-1]                 Part.java:351  | Sheet#2 System#1 Part#30{name:F1. staves[1] configs:[5]} dummyPart id: 63
+2026-10-25 10:18:24,201 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 1
+2026-10-25 10:18:24,203 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 2
+2026-10-25 10:18:24,203 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 3
+2026-10-25 10:18:24,204 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 4
+2026-10-25 10:18:24,204 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 5
+2026-10-25 10:18:24,205 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 6
+2026-10-25 10:18:24,205 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 7
+2026-10-25 10:18:24,205 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 8
+2026-10-25 10:18:24,206 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 9
+2026-10-25 10:18:24,206 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 10
+2026-10-25 10:18:24,207 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 11
+2026-10-25 10:18:24,207 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 12
+2026-10-25 10:18:24,207 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 13
+2026-10-25 10:18:24,208 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 14
+2026-10-25 10:18:24,208 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 15
+2026-10-25 10:18:24,221 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 30
+2026-10-25 10:18:24,222 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 31
+2026-10-25 10:18:24,222 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 32
+2026-10-25 10:18:24,223 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 33
+2026-10-25 10:18:24,223 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 34
+2026-10-25 10:18:24,224 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 35
+2026-10-25 10:18:24,224 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 36
+2026-10-25 10:18:24,224 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 37
+2026-10-25 10:18:24,225 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 38
+2026-10-25 10:18:24,225 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 39
+2026-10-25 10:18:24,226 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 40
+2026-10-25 10:18:24,226 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 41
+2026-10-25 10:18:24,227 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 42
+2026-10-25 10:18:24,227 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 43
+2026-10-25 10:18:24,228 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 44
+2026-10-25 10:18:24,230 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 46
+2026-10-25 10:18:24,230 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 47
+2026-10-25 10:18:24,231 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 48
+2026-10-25 10:18:24,231 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 49
+2026-10-25 10:18:24,231 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 50
+2026-10-25 10:18:24,232 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 51
+2026-10-25 10:18:24,232 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 52
+2026-10-25 10:18:24,233 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 53
+2026-10-25 10:18:24,233 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 54
+2026-10-25 10:18:24,233 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 55
+2026-10-25 10:18:24,234 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 56
+2026-10-25 10:18:24,234 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 57
+2026-10-25 10:18:24,235 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 58
+2026-10-25 10:18:24,235 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 59
+2026-10-25 10:18:24,235 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 60
+2026-10-25 10:18:24,236 INFO [test-1]                 Part.java:351  | Sheet#3 System#1 Part#16{ staves[1] configs:[5]} dummyPart id: 61
+2026-10-25 10:18:24,255 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 16
+2026-10-25 10:18:24,256 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 17
+2026-10-25 10:18:24,257 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 18
+2026-10-25 10:18:24,257 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 19
+2026-10-25 10:18:24,258 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 20
+2026-10-25 10:18:24,258 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 21
+2026-10-25 10:18:24,259 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 22
+2026-10-25 10:18:24,259 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 23
+2026-10-25 10:18:24,260 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 24
+2026-10-25 10:18:24,260 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 25
+2026-10-25 10:18:24,262 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 26
+2026-10-25 10:18:24,262 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 27
+2026-10-25 10:18:24,262 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 28
+2026-10-25 10:18:24,263 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 29
+2026-10-25 10:18:24,264 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 30
+2026-10-25 10:18:24,264 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 31
+2026-10-25 10:18:24,265 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 32
+2026-10-25 10:18:24,265 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 33
+2026-10-25 10:18:24,266 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 34
+2026-10-25 10:18:24,266 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 35
+2026-10-25 10:18:24,267 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 36
+2026-10-25 10:18:24,267 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 37
+2026-10-25 10:18:24,268 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 38
+2026-10-25 10:18:24,269 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 39
+2026-10-25 10:18:24,269 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 40
+2026-10-25 10:18:24,269 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 41
+2026-10-25 10:18:24,270 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 42
+2026-10-25 10:18:24,270 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 43
+2026-10-25 10:18:24,274 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 46
+2026-10-25 10:18:24,274 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 47
+2026-10-25 10:18:24,275 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 48
+2026-10-25 10:18:24,275 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 49
+2026-10-25 10:18:24,276 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 50
+2026-10-25 10:18:24,276 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 51
+2026-10-25 10:18:24,277 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 52
+2026-10-25 10:18:24,277 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 53
+2026-10-25 10:18:24,278 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 54
+2026-10-25 10:18:24,278 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 55
+2026-10-25 10:18:24,279 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 56
+2026-10-25 10:18:24,279 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 57
+2026-10-25 10:18:24,280 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 58
+2026-10-25 10:18:24,280 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 59
+2026-10-25 10:18:24,281 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 60
+2026-10-25 10:18:24,281 INFO [test-1]                 Part.java:351  | Sheet#4 System#1 Part#1{ staves[1] configs:[5]} dummyPart id: 61
+2026-10-25 10:18:24,570 INFO [test-1]        ScoreExporter.java:164  | Score test-1 exported to D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-repair-probe\test-1.mxl
+2026-10-25 10:18:24,659 INFO [test-1]                 Book.java:2565 | Stored /book.xml
+2026-10-25 10:18:25,715 INFO [test-1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-10-25 10:18:26,759 INFO [test-1]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-10-25 10:18:27,602 INFO [test-1]                Sheet.java:1583 | Stored /sheet#3/sheet#3.xml
+2026-10-25 10:18:27,602 INFO [test-1]                 Book.java:2525 | Book stored as D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-repair-probe\test-1.omr
+2026-10-25 10:18:27,610 INFO [test-1]                Score.java:181  | Closing {Score 1}

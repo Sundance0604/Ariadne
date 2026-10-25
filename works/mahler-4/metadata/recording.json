@@ -1,0 +1,114 @@
+{
+  "format_version": "1.0.0",
+  "work": {
+    "work_id": "mahler-symphony-4",
+    "title": "第四交响曲",
+    "original_title": "Symphonie Nr. 4",
+    "composer": {
+      "name": "古斯塔夫·马勒",
+      "original_name": "Gustav Mahler"
+    },
+    "instrumentation": "管弦乐与终曲独唱（详细编制与分析论点待核验）"
+  },
+  "recording": {
+    "recording_id": "mahler4-abbado-lucerne-2009-local-video",
+    "soloists": [],
+    "conductor": {
+      "name": "克劳迪奥·阿巴多",
+      "original_name": "Claudio Abbado"
+    },
+    "ensemble": {
+      "name": "琉森节日管弦乐团",
+      "original_name": "Lucerne Festival Orchestra",
+      "abbreviation": "LFO"
+    },
+    "artist_information_source": "user_supplied_video_filename",
+    "artist_information_note": "指挥、乐团与 2009 年份来自用户提供的视频文件名；独唱者、发行资料及所据版本尚未独立核验。",
+    "audio_sha256": "eb9a3ad6e19d775de29cc53b224c1b2c5ede83c7c274a7e463be3fe52945a5fb"
+  },
+  "analysis_document": {
+    "document_id": "mahler4-user-gpt-analysis",
+    "path": "resource/mahler No.4/analysis/Mahler_Symphony_No4_Full_Analysis.md",
+    "pdf_sha256": "d8db1e9225a0d0500dfcf8de78afd2bf74c4f350d9ada1f3bc0d87ca6cf57132",
+    "review_status": "gpt_draft_revised_sources_checked",
+    "locator_type": "movement_sections",
+    "movement_sections": [
+      {
+        "movement": 1,
+        "section": 3
+      },
+      {
+        "movement": 2,
+        "section": 4
+      },
+      {
+        "movement": 3,
+        "section": 5
+      },
+      {
+        "movement": 4,
+        "section": 6
+      }
+    ],
+    "reference_kinds": {
+      "1": "programme_note",
+      "2": "programme_note",
+      "3": "programme_note",
+      "4": "source_index",
+      "5": "source_index",
+      "6": "chapter",
+      "7": "thesis",
+      "8": "research_article",
+      "9": "research_article"
+    },
+    "reference_reading_status": {
+      "mahler4-ref-4": "primary_page_checked",
+      "mahler4-ref-7": "official_indexed_title_abstract_checked",
+      "mahler4-ref-1": "official_programme_note_checked",
+      "mahler4-ref-2": "official_programme_note_checked",
+      "mahler4-ref-3": "official_programme_note_checked",
+      "mahler4-ref-5": "primary_page_checked",
+      "mahler4-ref-6": "abstract_checked",
+      "mahler4-ref-8": "abstract_checked",
+      "mahler4-ref-9": "abstract_checked"
+    },
+    "reference_evidence": {
+      "mahler4-ref-4": "2026-10-25 已读取 Mahler Foundation 官方作品主页面；乐章与配器子页请求超时，未标为分章全文已读。",
+      "mahler4-ref-7": "2026-10-25 已核对 Radford 官方库搜索索引的题名、作者、2021 年、题名页与摘要；实际条目及 PDF 请求返回 502，未读论文全文。题名页作者为 Megan K. Denslinger，导师为 Bruce Mahin。",
+      "mahler4-ref-1": "2026-10-25 已读取协会官方页面的创作史、首演与 de La Grange 评论/分析正文；历史引语为二手转引。",
+      "mahler4-ref-2": "2026-10-25 已读取柏林爱乐官方 Benedikt von Berntstorff 导赏正文；网页乐章编号列表异常，未据此安排顺序。",
+      "mahler4-ref-3": "2026-10-25 已读取 USUO 的 Work History、配器与四乐章 Listening Guide 正文。",
+      "mahler4-ref-5": "2026-10-25 已核对 IMSLP Full Scores #70999 的 127 页及 Doblinger/UE/Dover 出版链；未把目录核验等同音符校勘。",
+      "mahler4-ref-6": "2026-10-25 已核对 OUP 章节题名、页139–174、2015年、DOI与摘要；未读章节全文。",
+      "mahler4-ref-8": "2026-10-25 已核对 Cambridge 的作者、2011年、8(2):219–236、DOI及摘要；未读全文。",
+      "mahler4-ref-9": "2026-10-25 已核对 Cambridge 的作者、2020年、145(2):351–384、DOI及摘要；未读全文。"
+    },
+    "movement_source_ids": {
+      "1": [
+        "mahler4-ref-1",
+        "mahler4-ref-2",
+        "mahler4-ref-3",
+        "mahler4-ref-6"
+      ],
+      "2": [
+        "mahler4-ref-1",
+        "mahler4-ref-2",
+        "mahler4-ref-3",
+        "mahler4-ref-4"
+      ],
+      "3": [
+        "mahler4-ref-1",
+        "mahler4-ref-3"
+      ],
+      "4": [
+        "mahler4-ref-1",
+        "mahler4-ref-2",
+        "mahler4-ref-3"
+      ]
+    },
+    "editorial_note": "38 段导聆 · 随谱面段落切换 · 同步时间待复核",
+    "reference_note": "9项可追溯资料；官方导赏、谱源目录、出版社摘要与未取得全文的论文分别标明核验范围。",
+    "provenance_notice": "整章原稿与 9 项文献保留；新增 38 段短导聆依据本版谱面速度、歌词与织体阅读窗口编排，阅读窗口不等于严格曲式边界。原稿 32 个事件建议仍未逐项定位，录音时间沿用待复核的跟谱结果。",
+    "score_guide_path": "works/mahler-4/analysis/score-guide.json"
+  }
+}

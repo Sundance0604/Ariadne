@@ -1,0 +1,253 @@
+["D:\\mycodelife\\workshop\\AI\\classicMusic\\.tools\\audiveris-portable\\Audiveris\\Audiveris.exe", "-batch", "-transcribe", "-export", "-save", "-swap", "-constant", "org.audiveris.omr.image.ImageLoading.pdfResolution=450", "-sheets", "1-2", "-output", "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7-movements\\native450-probe", "--", "D:\\mycodelife\\workshop\\AI\\classicMusic\\resource\\mahler No.7\\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_in_E_minor_---_Full_Score_(Dover_Reprint).pdf"]
+Picked up JAVA_TOOL_OPTIONS: -Djava.io.tmpdir="D:\mycodelife\workshop\AI\classicMusic\tmp\java" -Dorg.bytedeco.javacpp.cachedir="D:\mycodelife\workshop\AI\classicMusic\.tools\javacpp"
+INFO  []                      Main 259  | Running in batch mode
+INFO  []                 Languages 138  | Installed OCR languages: eng
+INFO  []             AliasPatterns 146  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 194  | Submitting 1 task(s) in sequence:
+    Input "D:\mycodelife\workshop\AI\classicMusic\resource\mahler No.7\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_in_E_minor_---_Full_Score_(Dover_Reprint).pdf"
+INFO  []               BookManager 280  | Found alias: IMSLP927114 for IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_in_E_minor_---_Full_Score_(Dover_Reprint)
+INFO  [IMSLP927114]                      Book 560  | 257 sheets in D:\mycodelife\workshop\AI\classicMusic\resource\mahler No.7\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_in_E_minor_---_Full_Score_(Dover_Reprint).pdf
+INFO  []                      Book 2565 | Stored /book.xml
+INFO  []                      Book 2525 | Book stored as D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-movements\native450-probe\IMSLP927114.omr
+INFO  []                      Book 1929 | Book reaching PAGE on sheets:[#1#2]
+INFO  [IMSLP927114#1]            StepMonitoring 98   | LOAD
+INFO  [IMSLP927114#1]                 SheetStub 1278 | Loaded image #1 3704x4956 from D:\mycodelife\workshop\AI\classicMusic\resource\mahler No.7\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_in_E_minor_---_Full_Score_(Dover_Reprint).pdf
+INFO  [IMSLP927114#1]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#1]                DataHolder 348  | Stored /sheet#1/GRAY.png
+INFO  [IMSLP927114#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [IMSLP927114#1]            StepMonitoring 98   | BINARY
+INFO  [IMSLP927114#1]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#1]                DataHolder 256  | Removed /sheet#1/GRAY.png
+INFO  [IMSLP927114#1]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [IMSLP927114#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [IMSLP927114#1]            StepMonitoring 98   | SCALE
+INFO  [IMSLP927114#1]              ScaleBuilder 254  | Beam  guessed height: 10 -- 0.25 of [8..16] range
+INFO  [IMSLP927114#1]              ScaleBuilder 271  | Beam measured height: 13 -- 0.63 of [8..16] range at 322% of needed quorum
+INFO  [IMSLP927114#1]              ScaleBuilder 401  | Normalized black jitter: 23.53 %
+INFO  [IMSLP927114#1]                 ScaleStep 65   | Scale{ interline(15,17,18) line(3,5,7) beam(13)}
+INFO  [IMSLP927114#1]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [IMSLP927114#1]            StepMonitoring 98   | GRID
+INFO  [IMSLP927114#1]            LinesRetriever 1508 | Global slope: -0.00153
+INFO  [IMSLP927114#1]         ClustersRetriever 326  | Retrieved raw line clusters: 17 of sizes [5] with interline(15,17,18)
+INFO  [IMSLP927114#1]                 PeakGraph 310  | Systems: #1[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+INFO  [IMSLP927114#1]             BarsRetriever 769  | No brace partner at level:2 for Peak{698-720 F#20117 T#1 [BRACE]}
+INFO  [IMSLP927114#1]             BarsRetriever 769  | No brace partner at level:2 for Peak{698-719 F#20118 T#2 [BRACE, BRACE_MIDDLE]}
+INFO  [IMSLP927114#1]             BarsRetriever 769  | No brace partner at level:2 for Peak{717-737 F#20121 T#4 [BRACE, BRACE_MIDDLE]}
+INFO  [IMSLP927114#1]             BarsRetriever 769  | No brace partner at level:2 for Peak{723-742 F#20122 T#5 [BRACE, BRACE_BOTTOM]}
+INFO  [IMSLP927114#1]             BarsRetriever 769  | No brace partner at level:2 for Peak{688-710 F#20123 T#6 [BRACE, BRACE_MIDDLE]}
+INFO  [IMSLP927114#1]             BarsRetriever 769  | No brace partner at level:2 for Peak{716-737 F#20125 T#7 [BRACE, BRACE_BOTTOM]}
+INFO  [IMSLP927114#1]             BarsRetriever 769  | No brace partner at level:2 for Peak{692-715 F#20128 T#9 [BRACE]}
+INFO  [IMSLP927114#1]             BarsRetriever 769  | No brace partner at level:2 for Peak{720-740 F#20130 T#10 [BRACE, BRACE_BOTTOM]}
+INFO  [IMSLP927114#1]             BarsRetriever 1305 | System#1
+INFO  [IMSLP927114#1]             BarsRetriever 1308 |    PartGroup{bracket number:1 barline:true staves:1-7}
+INFO  [IMSLP927114#1]             BarsRetriever 1308 |    PartGroup{bracket number:1 barline:true staves:8-10}
+INFO  [IMSLP927114#1]             BarsRetriever 1308 |    PartGroup{bracket number:1 barline:true staves:12-17}
+INFO  [IMSLP927114#1]             BarsRetriever 1308 |    PartGroup{brace number:2 barline:true staves:12-13}
+INFO  [IMSLP927114#1]             BarsRetriever 1308 |    PartGroup{brace number:2 barline:true staves:15-16}
+INFO  [IMSLP927114#1]             SystemManager 800  | 17 parts along 1 system
+INFO  [IMSLP927114#1]                      Book 543  | Created scores: [{Score 1}]
+INFO  [IMSLP927114#1]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [IMSLP927114#1]            StepMonitoring 98   | HEADERS
+INFO  [IMSLP927114#1]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [IMSLP927114#1]            StepMonitoring 98   | STEM_SEEDS
+INFO  [IMSLP927114#1]             StemSeedsStep 86   | stem(6 max:8)
+INFO  [IMSLP927114#1]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [IMSLP927114#1]            StepMonitoring 98   | BEAMS
+INFO  [IMSLP927114#1]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#1]                DataHolder 348  | Stored /sheet#1/HEAD_SPOTS.png
+INFO  [IMSLP927114#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [IMSLP927114#1]            StepMonitoring 98   | LEDGERS
+INFO  [IMSLP927114#1]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [IMSLP927114#1]            StepMonitoring 98   | HEADS
+INFO  [IMSLP927114#1]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:-0.4,R:0.2] NOTEHEAD_BLACK[L:-0.9,R:-0.8]}
+INFO  [IMSLP927114#1]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#1]                DataHolder 256  | Removed /sheet#1/HEAD_SPOTS.png
+INFO  [IMSLP927114#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [IMSLP927114#1]            StepMonitoring 98   | STEMS
+INFO  [IMSLP927114#1]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [IMSLP927114#1]            StepMonitoring 98   | REDUCTION
+INFO  [IMSLP927114#1]             ReductionStep 105  | Stems free length median value: 62 pixels, 3.6 interlines
+INFO  [IMSLP927114#1]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [IMSLP927114#1]            StepMonitoring 98   | CUE_BEAMS
+INFO  [IMSLP927114#1]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [IMSLP927114#1]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [IMSLP927114#1]            StepMonitoring 98   | TEXTS
+INFO  [IMSLP927114#1]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [IMSLP927114#1]            StepMonitoring 98   | MEASURES
+INFO  [IMSLP927114#1]           MeasuresBuilder 416  | S1 partial barline column: s1:G(x:2735,y:785)[14] s2:G(x:2735,y:988)[26] s3:G(x:2734,y:1190)[38] s4:G(x:2734,y:1394)[50] s5:G(x:2734,y:1634)[62] s6:G(x:2732,y:1851)[74] s7:G(x:2733,y:2078)[86] s8:G(x:2734,y:2316)[98] s9:G(x:2736,y:2521)[110] s10:G(x:2737,y:2714)[122] s11:G(x:2740,y:2955)[132] s12:G(x:2743,y:3185)[144] s13:G(x:2746,y:3386)[156] s14:G(x:2749,y:3620)[168] s15:G(x:2752,y:3829)[180] s16:G(x:2755,y:4073)[192]
+INFO  [IMSLP927114#1]           MeasuresBuilder 424  | S1 expanding major column: s1:G(x:2735,y:785)[14] s2:G(x:2735,y:988)[26] s3:G(x:2734,y:1190)[38] s4:G(x:2734,y:1394)[50] s5:G(x:2734,y:1634)[62] s6:G(x:2732,y:1851)[74] s7:G(x:2733,y:2078)[86] s8:G(x:2734,y:2316)[98] s9:G(x:2736,y:2521)[110] s10:G(x:2737,y:2714)[122] s11:G(x:2740,y:2955)[132] s12:G(x:2743,y:3185)[144] s13:G(x:2746,y:3386)[156] s14:G(x:2749,y:3620)[168] s15:G(x:2752,y:3829)[180] s16:G(x:2755,y:4073)[192]
+INFO  [IMSLP927114#1]           MeasuresBuilder 416  | S1 partial barline column: s17:G(x:2760,y:4336)[204]
+INFO  [IMSLP927114#1]           MeasuresBuilder 420  | S1 deleting  minor column: s17:G(x:2760,y:4336)[204]
+INFO  [IMSLP927114#1]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [IMSLP927114#1]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [IMSLP927114#1]            StepMonitoring 98   | CHORDS
+INFO  [IMSLP927114#1]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [IMSLP927114#1]            StepMonitoring 98   | CURVES
+INFO  [IMSLP927114#1]              SlursBuilder 240  | Slurs: 12
+INFO  [IMSLP927114#1]           SegmentsBuilder 155  | Segments: 43
+INFO  [IMSLP927114#1]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [IMSLP927114#1]            StepMonitoring 98   | SYMBOLS
+INFO  [IMSLP927114#1]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [IMSLP927114#1]            StepMonitoring 98   | LINKS
+INFO  [IMSLP927114#1]                  KeyInter 1198 | No effective key before AlterInter#29622{(0.382) staff:6 NATURAL pitch:-3.0}
+INFO  [IMSLP927114#1]                  KeyInter 1198 | No effective key before AlterInter#29869{(0.252) staff:6 NATURAL pitch:-4.0}
+INFO  [IMSLP927114#1]                  KeyInter 1198 | No effective key before AlterInter#29443{(0.184) staff:8 NATURAL pitch:-1.0}
+INFO  [IMSLP927114#1]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [IMSLP927114#1]            StepMonitoring 98   | RHYTHMS
+INFO  [IMSLP927114#1]             MeasureRhythm 1044 | Measure{#2P3} No timeOffset for HeadChordInter#25200{(0.650/0.650) staff:3 slot#2 dur:1/4}
+INFO  [IMSLP927114#1]             MeasureRhythm 1044 | Measure{#2P14} No timeOffset for HeadChordInter#25384{(0.958/0.958) staff:14 slot#2 dur:1/8}
+INFO  [IMSLP927114#1]             MeasureRhythm 1276 | Measure{#2P17} Time inconsistency in {11/32=[HeadChordInter#25513{(0.953/0.953) staff:17 slot#6 off:11/32 dur:1/32}], 7/16=[HeadChordInter#25514{(0.947/0.947) staff:17 slot#6 off:7/16 dur:1/8}]}
+INFO  [IMSLP927114#1]               StackRhythm 224  | S1 MeasureStack#2 no correct rhythm
+INFO  [IMSLP927114#1]             MeasureRhythm 1276 | Measure{#4P17} Time inconsistency in {1/8=[HeadChordInter#25532{(0.957/0.957) staff:17 slot#2 off:1/8 dur:1/32}], 3/16=[HeadChordInter#25533{(0.957/0.957) staff:17 slot#2 off:3/16 dur:1/32}]}
+INFO  [IMSLP927114#1]             MeasureRhythm 1276 | Measure{#4P17} Time inconsistency in {5/32=[HeadChordInter#25534{(0.961/0.961) staff:17 slot#3 off:5/32 dur:1/32}], 7/32=[HeadChordInter#25535{(0.953/0.953) staff:17 slot#3 off:7/32 dur:1/32}]}
+INFO  [IMSLP927114#1]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [IMSLP927114#1]            StepMonitoring 98   | PAGE
+WARN  [IMSLP927114#1]              MeasureFixer 343  | System#1 No target duration for measures local IDs [1, 2, 3, 4], please check time signatures
+INFO  [IMSLP927114#1]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [IMSLP927114#1]                 SheetStub 1655 | Sheet#1 disposed
+INFO  [IMSLP927114#1]                      Book 2050 | End of Stub#1
+INFO  [IMSLP927114#2]            StepMonitoring 98   | LOAD
+INFO  [IMSLP927114#2]                 SheetStub 1278 | Loaded image #2 3704x4956 from D:\mycodelife\workshop\AI\classicMusic\resource\mahler No.7\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_in_E_minor_---_Full_Score_(Dover_Reprint).pdf
+INFO  [IMSLP927114#2]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#2]                DataHolder 348  | Stored /sheet#2/GRAY.png
+INFO  [IMSLP927114#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [IMSLP927114#2]            StepMonitoring 98   | BINARY
+INFO  [IMSLP927114#2]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#2]                DataHolder 256  | Removed /sheet#2/GRAY.png
+INFO  [IMSLP927114#2]                DataHolder 348  | Stored /sheet#2/BINARY.png
+INFO  [IMSLP927114#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [IMSLP927114#2]            StepMonitoring 98   | SCALE
+INFO  [IMSLP927114#2]              ScaleBuilder 254  | Beam  guessed height: 10 -- 0.25 of [8..16] range
+INFO  [IMSLP927114#2]              ScaleBuilder 271  | Beam measured height: 13 -- 0.63 of [8..16] range at 208% of needed quorum
+INFO  [IMSLP927114#2]              ScaleBuilder 401  | Normalized black jitter: 23.53 %
+INFO  [IMSLP927114#2]                 ScaleStep 65   | Scale{ interline(15,17,18) line(3,5,7) beam(13)}
+INFO  [IMSLP927114#2]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [IMSLP927114#2]            StepMonitoring 98   | GRID
+INFO  [IMSLP927114#2]            LinesRetriever 1508 | Global slope: 0.00000
+INFO  [IMSLP927114#2]         ClustersRetriever 326  | Retrieved raw line clusters: 19 of sizes [5] with interline(15,17,18)
+INFO  [IMSLP927114#2]                 PeakGraph 310  | Systems: #1[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+INFO  [IMSLP927114#2]             SystemManager 800  | 19 parts along 1 system
+INFO  [IMSLP927114#2]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [IMSLP927114#2]            StepMonitoring 98   | HEADERS
+INFO  [IMSLP927114#2]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [IMSLP927114#2]            StepMonitoring 98   | STEM_SEEDS
+INFO  [IMSLP927114#2]             StemSeedsStep 86   | stem(7 max:8)
+INFO  [IMSLP927114#2]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [IMSLP927114#2]            StepMonitoring 98   | BEAMS
+INFO  [IMSLP927114#2]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#2]                DataHolder 348  | Stored /sheet#2/HEAD_SPOTS.png
+INFO  [IMSLP927114#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [IMSLP927114#2]            StepMonitoring 98   | LEDGERS
+INFO  [IMSLP927114#2]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [IMSLP927114#2]            StepMonitoring 98   | HEADS
+INFO  [IMSLP927114#2]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:-1.1,R:-1.6] NOTEHEAD_BLACK[L:-0.7,R:-1.4]}
+INFO  [IMSLP927114#2]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#2]                DataHolder 256  | Removed /sheet#2/HEAD_SPOTS.png
+INFO  [IMSLP927114#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [IMSLP927114#2]            StepMonitoring 98   | STEMS
+INFO  [IMSLP927114#2]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [IMSLP927114#2]            StepMonitoring 98   | REDUCTION
+INFO  [IMSLP927114#2]             ReductionStep 105  | Stems free length median value: 62 pixels, 3.6 interlines
+INFO  [IMSLP927114#2]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [IMSLP927114#2]            StepMonitoring 98   | CUE_BEAMS
+INFO  [IMSLP927114#2]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [IMSLP927114#2]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [IMSLP927114#2]            StepMonitoring 98   | TEXTS
+INFO  [IMSLP927114#2]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [IMSLP927114#2]            StepMonitoring 98   | MEASURES
+INFO  [IMSLP927114#2]           MeasuresBuilder 416  | S1 partial barline column: s1:G(x:419,y:480)[320] s2:G(x:424,y:684)[321] s3:G(x:425,y:875)[322] s4:G(x:431,y:1099)[323] s5:G(x:434,y:1316)[324] s6:G(x:437,y:1503)[325] s7:G(x:440,y:1733)[326] s8:G(x:443,y:1950)[327] s9:G(x:445,y:2180)[328] s10:G(x:445,y:2373)[329] s11:G(x:444,y:2600)[330] s12:G(x:444,y:2797)[331] s13:G(x:443,y:2994)[332] s17:G(x:441,y:3925)[336] s18:G(x:434,y:4185)[337] s19:G(x:448,y:4440)[338]
+INFO  [IMSLP927114#2]           MeasuresBuilder 424  | S1 expanding major column: s1:G(x:419,y:480)[320] s2:G(x:424,y:684)[321] s3:G(x:425,y:875)[322] s4:G(x:431,y:1099)[323] s5:G(x:434,y:1316)[324] s6:G(x:437,y:1503)[325] s7:G(x:440,y:1733)[326] s8:G(x:443,y:1950)[327] s9:G(x:445,y:2180)[328] s10:G(x:445,y:2373)[329] s11:G(x:444,y:2600)[330] s12:G(x:444,y:2797)[331] s13:G(x:443,y:2994)[332] s17:G(x:441,y:3925)[336] s18:G(x:434,y:4185)[337] s19:G(x:448,y:4440)[338]
+INFO  [IMSLP927114#2]           MeasuresBuilder 416  | S1 partial barline column: s14:G(x:488,y:3257)[333] s15:G(x:488,y:3465)[334] s16:G(x:486,y:3697)[335]
+INFO  [IMSLP927114#2]           MeasuresBuilder 420  | S1 deleting  minor column: s14:G(x:488,y:3257)[333] s15:G(x:488,y:3465)[334] s16:G(x:486,y:3697)[335]
+INFO  [IMSLP927114#2]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [IMSLP927114#2]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [IMSLP927114#2]            StepMonitoring 98   | CHORDS
+WARN  [IMSLP927114#2]                      Book 2044 | Error processing stub java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.addInter(org.audiveris.omr.sig.inter.Inter)" because "measure" is null
+java.util.concurrent.ExecutionException: java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.addInter(org.audiveris.omr.sig.inter.Inter)" because "measure" is null
+	at java.base/java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at org.audiveris.omr.sheet.SheetStub.doOneStep(SheetStub.java:519)
+	at org.audiveris.omr.sheet.SheetStub.reachStep(SheetStub.java:1405)
+	at org.audiveris.omr.sheet.Book.reachBookStep(Book.java:2035)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:885)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:513)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:370)
+	at org.audiveris.omr.Main.main(Main.java:272)
+	at Audiveris.main(Audiveris.java:50)
+Caused by: java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.addInter(org.audiveris.omr.sig.inter.Inter)" because "measure" is null
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:185)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:125)
+	at org.audiveris.omr.step.OmrStep.doit(OmrStep.java:138)
+	at org.audiveris.omr.sheet.SheetStub.lambda$doOneStep$0(SheetStub.java:503)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.addInter(org.audiveris.omr.sig.inter.Inter)" because "measure" is null
+	at org.audiveris.omr.sheet.rhythm.MeasureStack.addInter(MeasureStack.java:248)
+	at org.audiveris.omr.sig.inter.AbstractChordInter.invalidateCache(AbstractChordInter.java:1087)
+	at org.audiveris.omr.sig.relation.Containment.added(Containment.java:52)
+	at org.audiveris.omr.sig.SigListener.edgeAdded(SigListener.java:77)
+	at org.jgrapht.graph.DefaultListenableGraph.fireEdgeAdded(DefaultListenableGraph.java:276)
+	at org.jgrapht.graph.DefaultListenableGraph.addEdge(DefaultListenableGraph.java:135)
+	at org.audiveris.omr.sig.SIGraph.addEdge(SIGraph.java:144)
+	at org.audiveris.omr.sig.inter.EnsembleHelper.addMember(EnsembleHelper.java:81)
+	at org.audiveris.omr.sig.inter.AbstractChordInter.addMember(AbstractChordInter.java:208)
+	at org.audiveris.omr.sheet.note.ChordsBuilder.connectHead(ChordsBuilder.java:328)
+	at org.audiveris.omr.sheet.note.ChordsBuilder.buildHeadChords(ChordsBuilder.java:147)
+	at org.audiveris.omr.sheet.note.ChordsStep.doSystem(ChordsStep.java:63)
+	at org.audiveris.omr.sheet.note.ChordsStep.doSystem(ChordsStep.java:36)
+	at org.audiveris.omr.step.AbstractSystemStep.lambda$doitPerSystem$0(AbstractSystemStep.java:158)
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:178)
+	... 7 common frames omitted
+INFO  [IMSLP927114#2]                      Book 2584 | Book{IMSLP927114} storing
+INFO  [IMSLP927114#2]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [IMSLP927114#2]                      Book 2525 | Book stored as D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-movements\native450-probe\IMSLP927114.omr
+INFO  [IMSLP927114#2]                 SheetStub 1655 | Sheet#2 disposed
+INFO  [IMSLP927114#2]                      Book 2050 | End of Stub#2
+INFO  [IMSLP927114]                      Book 2057 | End of Book{IMSLP927114}
+WARN  [IMSLP927114]                       CLI 956  | Exception occurred java.lang.Exception: Error in reaching step PAGE
+java.lang.Exception: Error in reaching step PAGE
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:893)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:513)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:370)
+	at org.audiveris.omr.Main.main(Main.java:272)
+	at Audiveris.main(Audiveris.java:50)
+INFO  [IMSLP927114]                     Score 181  | Closing {Score 1}
+WARN  []                      Main 373  | Exception on IMSLP927114, java.lang.Exception: Error in reaching step PAGE
+java.lang.Exception: Error in reaching step PAGE
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:893)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:513)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:370)
+	at org.audiveris.omr.Main.main(Main.java:272)
+	at Audiveris.main(Audiveris.java:50)
+WARN  []                      Main 307  | Exit forced. Failure
+Estimating resolution as 431
+Estimating resolution as 426

@@ -1,0 +1,37 @@
+test_timeout_stops_spawned_child (test_score_processing.ProcessTests.test_timeout_stops_spawned_child) ... ok
+test_cache_revalidation_and_tampered_output_rebuild (test_score_processing.RecoveryTests.test_cache_revalidation_and_tampered_output_rebuild) ... ok
+test_exhausted_failure_saved_and_repeatable (test_score_processing.RecoveryTests.test_exhausted_failure_saved_and_repeatable) ... ok
+test_failed_partial_export_does_not_satisfy_retry (test_score_processing.RecoveryTests.test_failed_partial_export_does_not_satisfy_retry) ... ok
+test_renderer_exit_zero_without_images_is_failure (test_score_processing.RecoveryTests.test_renderer_exit_zero_without_images_is_failure) ... ok
+test_missing_meter_is_reported_not_assumed (test_score_processing.ValidationTests.test_missing_meter_is_reported_not_assumed) ... ok
+test_mxl_container_chords_and_backups (test_score_processing.ValidationTests.test_mxl_container_chords_and_backups) ... ok
+test_no_notes_and_bad_container_fail (test_score_processing.ValidationTests.test_no_notes_and_bad_container_fail) ... ok
+test_page_ranges (test_score_processing.ValidationTests.test_page_ranges) ... ok
+test_plain_musicxml_and_namespaces (test_score_processing.ValidationTests.test_plain_musicxml_and_namespaces) ... ok
+test_rhythm_and_staff_mismatches_flagged (test_score_processing.ValidationTests.test_rhythm_and_staff_mismatches_flagged) ... ok
+test_stream_accepts_an_all_rest_part_when_other_parts_sound (test_score_processing.ValidationTests.test_stream_accepts_an_all_rest_part_when_other_parts_sound) ... ok
+test_streamed_and_in_memory_validation_agree (test_score_processing.ValidationTests.test_streamed_and_in_memory_validation_agree) ... ok
+test_cumulative_export_and_resume_preserve_snapshot (test_movement_processing.MovementTests.test_cumulative_export_and_resume_preserve_snapshot) ... ok
+test_engine_exit_zero_with_missing_page_is_failure (test_movement_processing.MovementTests.test_engine_exit_zero_with_missing_page_is_failure) ... ok
+test_explicit_reviewed_resume_book_takes_priority_over_old_snapshots (test_movement_processing.MovementTests.test_explicit_reviewed_resume_book_takes_priority_over_old_snapshots) ... ok
+test_fragments_are_not_reported_as_single_movement (test_movement_processing.MovementTests.test_fragments_are_not_reported_as_single_movement) ... ok
+test_input_fingerprint_rejected (test_movement_processing.MovementTests.test_input_fingerprint_rejected) ... ok
+test_manifest_requires_exact_coverage (test_movement_processing.MovementTests.test_manifest_requires_exact_coverage) ... ok
+test_movement_local_sheet_numbers_map_to_physical_pdf_pages (test_movement_processing.MovementTests.test_movement_local_sheet_numbers_map_to_physical_pdf_pages) ... ok
+test_step_without_sheet_data_and_invalid_page_are_not_completed (test_movement_processing.MovementTests.test_step_without_sheet_data_and_invalid_page_are_not_completed) ... ok
+test_streamed_tiff_pages_and_verified_cache (test_movement_processing.MovementTests.test_streamed_tiff_pages_and_verified_cache) ... ok
+test_book_repair_preserves_original_and_completed_pages (test_omr_repair.OmrRepairTests.test_book_repair_preserves_original_and_completed_pages) ... ok
+test_nonempty_leading_measure_is_not_removed (test_omr_repair.OmrRepairTests.test_nonempty_leading_measure_is_not_removed) ... ok
+test_phantom_before_staff_moves_to_start_and_preserves_heads (test_omr_repair.OmrRepairTests.test_phantom_before_staff_moves_to_start_and_preserves_heads) ... ok
+test_real_pickup_inside_staff_is_not_removed (test_omr_repair.OmrRepairTests.test_real_pickup_inside_staff_is_not_removed) ... ok
+test_rhythm_processed_stacks_are_not_rewritten (test_omr_repair.OmrRepairTests.test_rhythm_processed_stacks_are_not_rewritten) ... ok
+test_page_span_mismatch_is_rejected (test_part_mapping.PartMappingTests.test_page_span_mismatch_is_rejected) ... ok
+test_reviewed_page_mapping_preserves_notes_and_division_context (test_part_mapping.PartMappingTests.test_reviewed_page_mapping_preserves_notes_and_division_context) ... ok
+test_unpitched_notes_are_retained (test_part_mapping.PartMappingTests.test_unpitched_notes_are_retained) ... ok
+test_unreviewed_page_is_rejected (test_part_mapping.PartMappingTests.test_unreviewed_page_is_rejected) ... ok
+test_wrong_source_and_part_count_are_rejected (test_part_mapping.PartMappingTests.test_wrong_source_and_part_count_are_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 3.741s
+
+OK

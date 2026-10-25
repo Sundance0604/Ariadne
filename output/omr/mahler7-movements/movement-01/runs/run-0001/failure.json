@@ -1,0 +1,25 @@
+{
+  "status": "failed",
+  "movement": {
+    "number": 1,
+    "start_page": 1,
+    "end_page": 80,
+    "page_count": 80,
+    "source_heading": "I. Langsam (Adagio)"
+  },
+  "target_page": 2,
+  "completed_pages": [
+    1
+  ],
+  "run": {
+    "folder": "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7-movements\\movement-01\\runs\\run-0001",
+    "pid": 15472,
+    "pages": [
+      1,
+      2
+    ],
+    "started_utc": "2026-10-25T02:07:28.004277+00:00"
+  },
+  "musical_accuracy_verified": false,
+  "error": "Command exited 1; see D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7-movements\\movement-01\\runs\\run-0001\\audiveris.log"
+}

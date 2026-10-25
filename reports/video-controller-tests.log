@@ -1,0 +1,14 @@
+✔ piecewise mapping supports offset, drift, inversion and bounded validity (0.7348ms)
+✔ video-only uses video clock and leaves audio paused and muted (1.5754ms)
+✔ audio-only stays compatible; switching project stops the old source (0.3353ms)
+✔ dual playback has exactly one audible source and switches through the mapping (1.0466ms)
+✔ unknown performances cannot start a slave or switch sources (0.1664ms)
+✔ large drift pauses the slave instead of repeated seeks; gaps are not extrapolated (0.2133ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7.8381

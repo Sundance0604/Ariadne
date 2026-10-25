@@ -1,0 +1,3 @@
+["D:\\software\\MuseScorePortable\\App\\MuseScore\\bin\\MuseScore4.exe", "-r", "110", "-o", "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7-opening-corrected\\review.png", "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7-opening-corrected\\mahler7-opening.musicxml"]
+failed open log file: D:/software/MuseScorePortable/Data/settings/logs/MuseScore_261025_102728.log
+[7332:11248:20261025,102728.717:ERROR file_io_win.cc:180] CreateFile D:/software/MuseScorePortable/Data/settings/logs/dumps\settings.dat: 拒绝访问。 (5)

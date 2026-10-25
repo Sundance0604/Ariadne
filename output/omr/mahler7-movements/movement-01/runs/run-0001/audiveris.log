@@ -1,0 +1,144 @@
+["D:\\mycodelife\\workshop\\AI\\classicMusic\\.tools\\audiveris-portable\\Audiveris\\Audiveris.exe", "-batch", "-transcribe", "-export", "-save", "-swap", "-constant", "org.audiveris.omr.image.ImageLoading.pdfResolution=450", "-sheets", "1-2", "-output", "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7-movements\\movement-01\\runs\\run-0001", "--", "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7-movements\\movement-01\\runs\\run-0001\\IMSLP927114.omr"]
+Picked up JAVA_TOOL_OPTIONS: -Djava.io.tmpdir="D:\mycodelife\workshop\AI\classicMusic\tmp\java" -Dorg.bytedeco.javacpp.cachedir="D:\mycodelife\workshop\AI\classicMusic\.tools\javacpp"
+INFO  []                      Main 259  | Running in batch mode
+INFO  []                 Languages 138  | Installed OCR languages: eng
+INFO  []             AliasPatterns 146  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 194  | Submitting 1 task(s) in sequence:
+    Book "D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-movements\movement-01\runs\run-0001\IMSLP927114.omr"
+INFO  []                      Book 2965 | Loading book D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-movements\movement-01\runs\run-0001\IMSLP927114.omr
+INFO  [IMSLP927114]                      Book 1929 | Book reaching PAGE on sheets:[#1#2]
+INFO  [IMSLP927114#1]                      Book 2050 | End of Stub#1
+INFO  [IMSLP927114#2]            StepMonitoring 98   | CHORDS
+WARN  [IMSLP927114#2]              MeasureStack 377  | Error in class org.audiveris.omr.sheet.rhythm.MeasureStack afterReload() java.lang.IndexOutOfBoundsException: Index 4 out of bounds for length 4
+java.lang.IndexOutOfBoundsException: Index 4 out of bounds for length 4
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Unknown Source)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Unknown Source)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Unknown Source)
+	at java.base/java.util.Objects.checkIndex(Unknown Source)
+	at java.base/java.util.ArrayList.get(Unknown Source)
+	at java.base/java.util.Collections$UnmodifiableList.get(Unknown Source)
+	at org.audiveris.omr.sheet.rhythm.MeasureStack.afterReload(MeasureStack.java:367)
+	at org.audiveris.omr.sheet.SystemInfo.lambda$afterReload$2(SystemInfo.java:333)
+	at java.base/java.util.ArrayList.forEach(Unknown Source)
+	at org.audiveris.omr.sheet.SystemInfo.afterReload(SystemInfo.java:333)
+	at org.audiveris.omr.sheet.Sheet.afterReload(Sheet.java:397)
+	at org.audiveris.omr.sheet.SheetStub.getSheet(SheetStub.java:987)
+	at org.audiveris.omr.sheet.SheetStub.doOneStep(SheetStub.java:489)
+	at org.audiveris.omr.sheet.SheetStub.reachStep(SheetStub.java:1405)
+	at org.audiveris.omr.sheet.Book.reachBookStep(Book.java:2035)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:885)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:513)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:370)
+	at org.audiveris.omr.Main.main(Main.java:272)
+	at Audiveris.main(Audiveris.java:50)
+INFO  [IMSLP927114#2]                 SheetStub 1000 | Loaded /sheet#2/sheet#2.xml
+INFO  [IMSLP927114#2]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [IMSLP927114#2]            StepMonitoring 98   | CURVES
+INFO  [IMSLP927114#2]              SlursBuilder 240  | Slurs: 19
+INFO  [IMSLP927114#2]           SegmentsBuilder 155  | Segments: 27
+INFO  [IMSLP927114#2]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [IMSLP927114#2]            StepMonitoring 98   | SYMBOLS
+INFO  [IMSLP927114#2]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [IMSLP927114#2]            StepMonitoring 98   | LINKS
+WARN  [IMSLP927114#2]             SentenceInter 507  | Error in link LyricLineInter#27996{(0.586) staff:16 mFont:BIS-58 Lyrics number:1} java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.MeasureStack.getSystem()" because "this.stack" is null
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.MeasureStack.getSystem()" because "this.stack" is null
+	at org.audiveris.omr.sheet.rhythm.Measure.getHeadChordsAbove(Measure.java:876)
+	at org.audiveris.omr.sig.inter.LyricItemInter.lookupLink(LyricItemInter.java:398)
+	at org.audiveris.omr.sig.inter.LyricItemInter.mapToChord(LyricItemInter.java:479)
+	at org.audiveris.omr.sig.inter.SentenceInter.link(SentenceInter.java:439)
+	at org.audiveris.omr.sheet.symbol.SymbolsLinker.linkTexts(SymbolsLinker.java:307)
+	at org.audiveris.omr.sheet.symbol.SymbolsLinker.process(SymbolsLinker.java:359)
+	at org.audiveris.omr.sheet.symbol.LinksStep.doSystem(LinksStep.java:132)
+	at org.audiveris.omr.sheet.symbol.LinksStep.doSystem(LinksStep.java:61)
+	at org.audiveris.omr.step.AbstractSystemStep.lambda$doitPerSystem$0(AbstractSystemStep.java:158)
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:178)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:125)
+	at org.audiveris.omr.step.OmrStep.doit(OmrStep.java:138)
+	at org.audiveris.omr.sheet.SheetStub.lambda$doOneStep$0(SheetStub.java:503)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+INFO  [IMSLP927114#2]             SentenceInter 449  | No measure stack for SentenceInter#28042{(0.697) staff:19 mFont:IS-62 Direction} SymPhOny No. 7 (1)
+INFO  [IMSLP927114#2]             SymbolsLinker 258  | No chord linked to OctaveShiftInter#33472{(0.175) staff:4 QUINDICESIMA BASSA} at java.awt.Point[x=3415,y=1154]
+INFO  [IMSLP927114#2]                  KeyInter 1198 | No effective key before AlterInter#31872{(0.794) staff:7 NATURAL pitch:-3.0}
+INFO  [IMSLP927114#2]                  KeyInter 1198 | No effective key before AlterInter#32078{(0.753) staff:7 NATURAL pitch:1.0}
+INFO  [IMSLP927114#2]                  KeyInter 1198 | No effective key before AlterInter#32419{(0.464) staff:7 NATURAL pitch:3.0}
+INFO  [IMSLP927114#2]                  KeyInter 1198 | No effective key before AlterInter#32575{(0.695) staff:7 NATURAL pitch:4.0}
+INFO  [IMSLP927114#2]                  KeyInter 1198 | No effective key before AlterInter#32338{(0.781) staff:9 NATURAL pitch:5.0}
+INFO  [IMSLP927114#2]                  KeyInter 1198 | No effective key before AlterInter#32705{(0.147) staff:9 NATURAL pitch:5.0}
+INFO  [IMSLP927114#2]                  KeyInter 1198 | No effective key before AlterInter#33087{(0.352) staff:11 NATURAL pitch:-2.0}
+INFO  [IMSLP927114#2]                  KeyInter 1331 | Key built KeyInter#33691{(0.212) staff:14 KEY_SHARP_1 pitch:1.0 fifths:1}
+INFO  [IMSLP927114#2]                  KeyInter 1331 | Key built KeyInter#33693{(0.323) staff:14 KEY_SHARP_1 pitch:-0.2 fifths:1}
+INFO  [IMSLP927114#2]                  KeyInter 1198 | No effective key before AlterInter#31505{(0.396) staff:15 NATURAL pitch:-3.0}
+INFO  [IMSLP927114#2]                  KeyInter 1198 | No effective key before AlterInter#32186{(0.796) staff:15 NATURAL pitch:5.0}
+INFO  [IMSLP927114#2]                  KeyInter 1198 | No effective key before AlterInter#32218{(0.751) staff:15 NATURAL pitch:5.0}
+INFO  [IMSLP927114#2]                  KeyInter 1198 | No effective key before AlterInter#32069{(0.795) staff:16 NATURAL pitch:3.0}
+INFO  [IMSLP927114#2]                  KeyInter 1198 | No effective key before AlterInter#31485{(0.679) staff:18 NATURAL pitch:-4.0}
+INFO  [IMSLP927114#2]                  KeyInter 1198 | No effective key before AlterInter#31837{(0.778) staff:18 NATURAL pitch:-3.0}
+INFO  [IMSLP927114#2]                  KeyInter 1198 | No effective key before AlterInter#32073{(0.782) staff:18 NATURAL pitch:1.0}
+INFO  [IMSLP927114#2]                  KeyInter 1198 | No effective key before AlterInter#32518{(0.197) staff:18 NATURAL pitch:-2.0}
+INFO  [IMSLP927114#2]                  KeyInter 1198 | No effective key before AlterInter#32550{(0.296) staff:18 NATURAL pitch:4.0}
+INFO  [IMSLP927114#2]                  KeyInter 1198 | No effective key before AlterInter#32071{(0.790) staff:19 NATURAL pitch:1.0}
+INFO  [IMSLP927114#2]                  KeyInter 1198 | No effective key before AlterInter#32369{(0.762) staff:19 NATURAL pitch:3.0}
+INFO  [IMSLP927114#2]                  KeyInter 1198 | No effective key before AlterInter#32563{(0.227) staff:19 NATURAL pitch:4.0}
+INFO  [IMSLP927114#2]                  KeyInter 1198 | No effective key before AlterInter#33026{(0.747) staff:19 NATURAL pitch:1.0}
+INFO  [IMSLP927114#2]                  KeyInter 1198 | No effective key before AlterInter#33458{(0.221) staff:19 NATURAL pitch:-4.0}
+INFO  [IMSLP927114#2]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [IMSLP927114#2]            StepMonitoring 98   | RHYTHMS
+INFO  [IMSLP927114#2]             MeasureRhythm 1044 | Measure{#3P10} No timeOffset for HeadChordInter#28301{(0.964/0.964) staff:10 slot#13 dur:1/16}
+INFO  [IMSLP927114#2]             MeasureRhythm 1044 | Measure{#3P17} No timeOffset for HeadChordInter#28407{(0.934/0.934) staff:17 slot#11 dur:1/4}
+INFO  [IMSLP927114#2]             MeasureRhythm 1044 | Measure{#3P17} No timeOffset for HeadChordInter#28672{(0.934/0.934) staff:17 slot#11 dur:1/4}
+INFO  [IMSLP927114#2]             MeasureRhythm 1044 | Measure{#3P17} No timeOffset for HeadChordInter#28409{(0.916/0.916) staff:17 slot#11 dur:1/4}
+INFO  [IMSLP927114#2]             MeasureRhythm 1044 | Measure{#3P17} No timeOffset for HeadChordInter#28674{(0.916/0.916) staff:17 slot#11 dur:1/4}
+INFO  [IMSLP927114#2]               StackRhythm 224  | S1 MeasureStack#3 no correct rhythm
+WARN  [IMSLP927114#2]                      Book 2044 | Error processing stub java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.purgeVoices()" because "measure" is null
+java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.purgeVoices()" because "measure" is null
+	at java.base/java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at org.audiveris.omr.sheet.SheetStub.doOneStep(SheetStub.java:519)
+	at org.audiveris.omr.sheet.SheetStub.reachStep(SheetStub.java:1405)
+	at org.audiveris.omr.sheet.Book.reachBookStep(Book.java:2035)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:885)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:513)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:370)
+	at org.audiveris.omr.Main.main(Main.java:272)
+	at Audiveris.main(Audiveris.java:50)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.rhythm.Measure.purgeVoices()" because "measure" is null
+	at org.audiveris.omr.sheet.rhythm.Voices.refineSystem(Voices.java:430)
+	at org.audiveris.omr.sheet.rhythm.PageRhythm.processRanges(PageRhythm.java:288)
+	at org.audiveris.omr.sheet.rhythm.PageRhythm.process(PageRhythm.java:248)
+	at org.audiveris.omr.sheet.rhythm.RhythmsStep.doit(RhythmsStep.java:192)
+	at org.audiveris.omr.step.OmrStep.doit(OmrStep.java:138)
+	at org.audiveris.omr.sheet.SheetStub.lambda$doOneStep$0(SheetStub.java:503)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+INFO  [IMSLP927114#2]                      Book 2584 | Book{IMSLP927114} storing
+INFO  [IMSLP927114#2]                      Book 2565 | Stored /book.xml
+INFO  [IMSLP927114#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [IMSLP927114#2]                      Book 2525 | Book stored as D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-movements\movement-01\runs\run-0001\IMSLP927114.omr
+INFO  [IMSLP927114#2]                 SheetStub 1655 | Sheet#2 disposed
+INFO  [IMSLP927114#2]                      Book 2050 | End of Stub#2
+INFO  [IMSLP927114]                      Book 2057 | End of Book{IMSLP927114}
+WARN  [IMSLP927114]                       CLI 956  | Exception occurred java.lang.Exception: Error in reaching step PAGE
+java.lang.Exception: Error in reaching step PAGE
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:893)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:513)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:370)
+	at org.audiveris.omr.Main.main(Main.java:272)
+	at Audiveris.main(Audiveris.java:50)
+INFO  [IMSLP927114]                     Score 181  | Closing {Score 1}
+WARN  []                      Main 373  | Exception on IMSLP927114, java.lang.Exception: Error in reaching step PAGE
+java.lang.Exception: Error in reaching step PAGE
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:893)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:513)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:370)
+	at org.audiveris.omr.Main.main(Main.java:272)
+	at Audiveris.main(Audiveris.java:50)
+WARN  []                      Main 307  | Exit forced. Failure

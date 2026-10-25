@@ -1,0 +1,34 @@
+[
+  {
+    "movement": 1,
+    "path": "resource/mahler No.4/mahler_symphony_4_1_(c)unknown.mid",
+    "sha256": "cd1945537ea7845f2a4a2a3bc0848c92fe6f91930ff0dde2ad20fd974de38693",
+    "start_tick": 0,
+    "duration_seconds": 1053.0372491083328,
+    "measures": 355
+  },
+  {
+    "movement": 2,
+    "path": "resource/mahler No.4/mahler_symphony_4_2_(c)unknown.mid",
+    "sha256": "665092cfa2b93575bbf9f2a6b488d87af1914add29341f6c36fb74079643ba10",
+    "start_tick": 340800,
+    "duration_seconds": 523.0452207041666,
+    "measures": 382
+  },
+  {
+    "movement": 3,
+    "path": "resource/mahler No.4/mahler_symphony_4_3_(c)unknown.mid",
+    "sha256": "72ceb177b09be60682cc941445d047a5f35b42d61d15159754a8471e22c7069a",
+    "start_tick": 478320,
+    "duration_seconds": 1088.4255285958334,
+    "measures": 322
+  },
+  {
+    "movement": 4,
+    "path": "resource/mahler No.4/mahler_symphony_4_4_(c)unknown.mid",
+    "sha256": "e8928a88baddb19f9703fc68e2f8c829c897dffa1e8f0bdd0ea5b5d30d902c52",
+    "start_tick": 787440,
+    "duration_seconds": 556.7478837708333,
+    "measures": 185
+  }
+]

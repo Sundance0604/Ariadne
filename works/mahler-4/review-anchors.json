@@ -1,0 +1,38 @@
+{
+  "format_version": "1.0.0",
+  "audio_sha256": "eb9a3ad6e19d775de29cc53b224c1b2c5ede83c7c274a7e463be3fe52945a5fb",
+  "score_sha256": "41107250298ab3ab85eda3289d97e8fb267d0fb0bbf739c5bf2bac8a0a3d8219",
+  "anchors": [],
+  "history": [
+    {
+      "modified_at": "2026-10-25T09:29:25.942683+00:00",
+      "source": "human_review_ui",
+      "old_anchors": [],
+      "new_anchors": []
+    },
+    {
+      "modified_at": "2026-10-25T09:29:28.944118+00:00",
+      "source": "human_review_ui",
+      "old_anchors": [],
+      "new_anchors": []
+    },
+    {
+      "modified_at": "2026-10-25T09:29:30.463713+00:00",
+      "source": "human_review_ui",
+      "old_anchors": [],
+      "new_anchors": []
+    },
+    {
+      "modified_at": "2026-10-25T09:29:35.773567+00:00",
+      "source": "human_review_ui",
+      "old_anchors": [],
+      "new_anchors": []
+    },
+    {
+      "modified_at": "2026-10-25T09:29:50.109444+00:00",
+      "source": "human_review_ui",
+      "old_anchors": [],
+      "new_anchors": []
+    }
+  ]
+}

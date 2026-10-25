@@ -2,7 +2,20 @@
   "format_version": "1.0.0",
   "default_track": "ravel-left-hand",
   "tracks": [
-    {"id": "ravel-left-hand", "title": "拉威尔 · 左手钢琴协奏曲", "data_root": "."},
-    {"id": "lark-ascending", "title": "沃恩·威廉斯 · 云雀高飞", "data_root": "works/lark-ascending"}
+    {
+      "id": "ravel-left-hand",
+      "title": "拉威尔 · 左手钢琴协奏曲",
+      "data_root": "."
+    },
+    {
+      "id": "lark-ascending",
+      "title": "沃恩·威廉斯 · 云雀高飞",
+      "data_root": "works/lark-ascending"
+    },
+    {
+      "id": "mahler-4",
+      "title": "马勒 · 第四交响曲（视频）",
+      "data_root": "works/mahler-4"
+    }
   ]
 }

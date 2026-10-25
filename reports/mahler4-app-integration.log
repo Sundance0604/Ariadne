@@ -1,0 +1,50 @@
+{
+  "kind": "in-memory DOM module integration, not a browser playback test",
+  "checks": [
+    {
+      "index": 1,
+      "page": "原始 PDF · 第 5 / 127 页",
+      "region": "第 5 页 · 系统 1",
+      "left": "23.139880952380953%",
+      "guide": "第一乐章：古典外观与失稳的奏鸣曲"
+    },
+    {
+      "index": 20,
+      "page": "原始 PDF · 第 7 / 127 页",
+      "region": "第 7 页 · 系统 1",
+      "left": "60.65576954194667%",
+      "guide": "第一乐章：古典外观与失稳的奏鸣曲"
+    },
+    {
+      "index": 356,
+      "page": "原始 PDF · 第 49 / 127 页",
+      "region": "第 49 页 · 系统 1",
+      "left": "25.372023809523807%",
+      "guide": "第二乐章：死神的小提琴与乡村舞曲"
+    },
+    {
+      "index": 740,
+      "page": "原始 PDF · 第 78 / 127 页",
+      "region": "第 78 页 · 小节候选",
+      "left": "32.788592117504905%",
+      "guide": "第三乐章：双重变奏、哀伤与天国之门"
+    },
+    {
+      "index": 1065,
+      "page": "原始 PDF · 第 102 / 127 页",
+      "region": "第 102 页 · 系统 1",
+      "left": "80.03361413112235%",
+      "guide": "第四乐章：《天国的生活》与反讽的终曲"
+    },
+    {
+      "index": 1244,
+      "page": "原始 PDF · 第 127 / 127 页",
+      "region": "第 127 页 · 系统 2",
+      "left": "87.1510673234822%",
+      "guide": "第四乐章：《天国的生活》与反讽的终曲"
+    }
+  ],
+  "old_tracks": "passed",
+  "stable_only_filter": "passed",
+  "reference_count": "9 项参考资料 · 来自分析原稿"
+}

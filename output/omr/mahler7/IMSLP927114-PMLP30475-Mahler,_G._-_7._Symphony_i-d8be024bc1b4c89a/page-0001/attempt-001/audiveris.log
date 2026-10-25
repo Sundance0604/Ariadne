@@ -1,0 +1,130 @@
+["D:\\mycodelife\\workshop\\AI\\classicMusic\\.tools\\audiveris-portable\\Audiveris\\Audiveris.exe", "-batch", "-transcribe", "-export", "-save", "-output", "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7\\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_i-d8be024bc1b4c89a\\page-0001\\attempt-001", "--", "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7\\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_i-d8be024bc1b4c89a\\page-0001\\attempt-001\\page-0001.png"]
+Picked up JAVA_TOOL_OPTIONS: -Djava.io.tmpdir="D:\mycodelife\workshop\AI\classicMusic\tmp\java" -Dorg.bytedeco.javacpp.cachedir="D:\mycodelife\workshop\AI\classicMusic\.tools\javacpp"
+INFO  []                      Main 259  | Running in batch mode
+INFO  []                 Languages 138  | Installed OCR languages: eng
+INFO  []             AliasPatterns 146  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 194  | Submitting 1 task(s) in sequence:
+    Input "D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_i-d8be024bc1b4c89a\page-0001\attempt-001\page-0001.png"
+INFO  [page-0001]                      Book 560  | 1 sheet in D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_i-d8be024bc1b4c89a\page-0001\attempt-001\page-0001.png
+INFO  []                      Book 2565 | Stored /book.xml
+INFO  []                      Book 2525 | Book stored as D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_i-d8be024bc1b4c89a\page-0001\attempt-001\page-0001.omr
+INFO  []                      Book 1929 | Book reaching PAGE on sheets:[#1]
+INFO  [page-0001]            StepMonitoring 98   | LOAD
+INFO  [page-0001]                 SheetStub 1278 | Loaded image #1 3705x4957 from D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_i-d8be024bc1b4c89a\page-0001\attempt-001\page-0001.png
+INFO  [page-0001]                 ImageUtil 152  | Converting max RGB to gray
+INFO  [page-0001]                      Book 2565 | Stored /book.xml
+INFO  [page-0001]                DataHolder 348  | Stored /sheet#1/GRAY.png
+INFO  [page-0001]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [page-0001]            StepMonitoring 98   | BINARY
+INFO  [page-0001]                      Book 2565 | Stored /book.xml
+INFO  [page-0001]                DataHolder 256  | Removed /sheet#1/GRAY.png
+INFO  [page-0001]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [page-0001]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [page-0001]            StepMonitoring 98   | SCALE
+INFO  [page-0001]              ScaleBuilder 254  | Beam  guessed height: 10 -- 0.25 of [8..16] range
+INFO  [page-0001]              ScaleBuilder 271  | Beam measured height: 13 -- 0.63 of [8..16] range at 278% of needed quorum
+INFO  [page-0001]              ScaleBuilder 401  | Normalized black jitter: 23.53 %
+INFO  [page-0001]                 ScaleStep 65   | Scale{ interline(15,17,18) line(3,5,7) beam(13)}
+INFO  [page-0001]                      Book 2565 | Stored /book.xml
+INFO  [page-0001]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [page-0001]            StepMonitoring 98   | GRID
+INFO  [page-0001]            LinesRetriever 1508 | Global slope: -0.00147
+INFO  [page-0001]         ClustersRetriever 326  | Retrieved raw line clusters: 17 of sizes [5] with interline(15,17,18)
+INFO  [page-0001]                 PeakGraph 310  | Systems: #1[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+INFO  [page-0001]             BarsRetriever 769  | No brace partner at level:2 for Peak{698-720 F#17364 T#1 [BRACE]}
+INFO  [page-0001]             BarsRetriever 769  | No brace partner at level:2 for Peak{698-719 F#17365 T#2 [BRACE, BRACE_MIDDLE]}
+INFO  [page-0001]             BarsRetriever 769  | No brace partner at level:2 for Peak{717-737 F#17368 T#4 [BRACE, BRACE_MIDDLE]}
+INFO  [page-0001]             BarsRetriever 769  | No brace partner at level:2 for Peak{723-742 F#17369 T#5 [BRACE, BRACE_BOTTOM]}
+INFO  [page-0001]             BarsRetriever 769  | No brace partner at level:2 for Peak{688-710 F#17370 T#6 [BRACE, BRACE_MIDDLE]}
+INFO  [page-0001]             BarsRetriever 769  | No brace partner at level:2 for Peak{716-737 F#17372 T#7 [BRACE, BRACE_BOTTOM]}
+INFO  [page-0001]             BarsRetriever 1305 | System#1
+INFO  [page-0001]             BarsRetriever 1308 |    PartGroup{bracket number:1 barline:true staves:1-7}
+INFO  [page-0001]             BarsRetriever 1308 |    PartGroup{bracket number:1 barline:true staves:8-10}
+INFO  [page-0001]             BarsRetriever 1308 |    PartGroup{brace number:2 barline:true staves:9-10}
+INFO  [page-0001]             BarsRetriever 1308 |    PartGroup{bracket number:1 barline:true staves:12-17}
+INFO  [page-0001]             BarsRetriever 1308 |    PartGroup{brace number:2 barline:true staves:12-13}
+INFO  [page-0001]             BarsRetriever 1308 |    PartGroup{brace number:2 barline:true staves:15-16}
+INFO  [page-0001]             SystemManager 800  | 17 parts along 1 system
+INFO  [page-0001]                      Book 543  | Created scores: [{Score 1}]
+INFO  [page-0001]                      Book 2565 | Stored /book.xml
+INFO  [page-0001]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [page-0001]            StepMonitoring 98   | HEADERS
+INFO  [page-0001]                      Book 2565 | Stored /book.xml
+INFO  [page-0001]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [page-0001]            StepMonitoring 98   | STEM_SEEDS
+INFO  [page-0001]                StemScaler 143  | No stem peak found, computing defaults
+INFO  [page-0001]             StemSeedsStep 86   | stem(5 max:7)
+INFO  [page-0001]                      Book 2565 | Stored /book.xml
+INFO  [page-0001]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [page-0001]            StepMonitoring 98   | BEAMS
+INFO  [page-0001]                      Book 2565 | Stored /book.xml
+INFO  [page-0001]                DataHolder 348  | Stored /sheet#1/HEAD_SPOTS.png
+INFO  [page-0001]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [page-0001]            StepMonitoring 98   | LEDGERS
+INFO  [page-0001]                      Book 2565 | Stored /book.xml
+INFO  [page-0001]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [page-0001]            StepMonitoring 98   | HEADS
+INFO  [page-0001]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:-1.4,R:-0.8] NOTEHEAD_BLACK[L:-0.8,R:-1.4]}
+INFO  [page-0001]                      Book 2565 | Stored /book.xml
+INFO  [page-0001]                DataHolder 256  | Removed /sheet#1/HEAD_SPOTS.png
+INFO  [page-0001]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [page-0001]            StepMonitoring 98   | STEMS
+INFO  [page-0001]                      Book 2565 | Stored /book.xml
+INFO  [page-0001]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [page-0001]            StepMonitoring 98   | REDUCTION
+INFO  [page-0001]            BeamGroupInter 1123 | Separating beams BeamInter#3892{(0.653/0.951) BEAM} and BeamHookInter#4368{(0.250/0.575) BEAM_HOOK}
+INFO  [page-0001]             ReductionStep 105  | Stems free length median value: 62 pixels, 3.6 interlines
+INFO  [page-0001]                      Book 2565 | Stored /book.xml
+INFO  [page-0001]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [page-0001]            StepMonitoring 98   | CUE_BEAMS
+INFO  [page-0001]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [page-0001]                      Book 2565 | Stored /book.xml
+INFO  [page-0001]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [page-0001]            StepMonitoring 98   | TEXTS
+INFO  [page-0001]                      Book 2565 | Stored /book.xml
+INFO  [page-0001]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [page-0001]            StepMonitoring 98   | MEASURES
+INFO  [page-0001]           MeasuresBuilder 416  | S1 partial barline column: s1:G(x:2735,y:785)[16] s2:G(x:2735,y:989)[26] s3:G(x:2735,y:1190)[36] s4:G(x:2734,y:1394)[46] s5:G(x:2734,y:1635)[56] s6:G(x:2733,y:1852)[66] s7:G(x:2734,y:2078)[75] s8:G(x:2735,y:2317)[85] s9:G(x:2736,y:2522)[95] s10:G(x:2738,y:2715)[105] s11:G(x:2741,y:2955)[113] s12:G(x:2743,y:3186)[123] s13:G(x:2747,y:3387)[133] s14:G(x:2750,y:3621)[143] s15:G(x:2753,y:3830)[153] s16:G(x:2756,y:4073)[163]
+INFO  [page-0001]           MeasuresBuilder 424  | S1 expanding major column: s1:G(x:2735,y:785)[16] s2:G(x:2735,y:989)[26] s3:G(x:2735,y:1190)[36] s4:G(x:2734,y:1394)[46] s5:G(x:2734,y:1635)[56] s6:G(x:2733,y:1852)[66] s7:G(x:2734,y:2078)[75] s8:G(x:2735,y:2317)[85] s9:G(x:2736,y:2522)[95] s10:G(x:2738,y:2715)[105] s11:G(x:2741,y:2955)[113] s12:G(x:2743,y:3186)[123] s13:G(x:2747,y:3387)[133] s14:G(x:2750,y:3621)[143] s15:G(x:2753,y:3830)[153] s16:G(x:2756,y:4073)[163]
+INFO  [page-0001]           MeasuresBuilder 416  | S1 partial barline column: s17:G(x:2760,y:4337)[173]
+INFO  [page-0001]           MeasuresBuilder 420  | S1 deleting  minor column: s17:G(x:2760,y:4337)[173]
+INFO  [page-0001]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [page-0001]                      Book 2565 | Stored /book.xml
+INFO  [page-0001]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [page-0001]            StepMonitoring 98   | CHORDS
+INFO  [page-0001]                      Book 2565 | Stored /book.xml
+INFO  [page-0001]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [page-0001]            StepMonitoring 98   | CURVES
+INFO  [page-0001]              SlursBuilder 240  | Slurs: 7
+INFO  [page-0001]           SegmentsBuilder 155  | Segments: 44
+INFO  [page-0001]                      Book 2565 | Stored /book.xml
+INFO  [page-0001]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [page-0001]            StepMonitoring 98   | SYMBOLS
+INFO  [page-0001]                      Book 2565 | Stored /book.xml
+INFO  [page-0001]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [page-0001]            StepMonitoring 98   | LINKS
+INFO  [page-0001]                  KeyInter 1198 | No effective key before AlterInter#30821{(0.479) staff:6 NATURAL pitch:-3.0}
+INFO  [page-0001]                  KeyInter 1331 | Key built KeyInter#31197{(0.148) staff:15 KEY_FLAT_1 pitch:2.3 fifths:-1}
+INFO  [page-0001]                      Book 2565 | Stored /book.xml
+INFO  [page-0001]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [page-0001]            StepMonitoring 98   | RHYTHMS
+INFO  [page-0001]             MeasureRhythm 1044 | Measure{#2P3} No timeOffset for HeadChordInter#26680{(0.659/0.659) staff:3 slot#2 dur:1/4}
+INFO  [page-0001]             MeasureRhythm 1044 | Measure{#2P6} No timeOffset for HeadChordInter#26765{(0.725/0.725) staff:6 slot#5 dur:1/4}
+INFO  [page-0001]             MeasureRhythm 1276 | Measure{#2P17} Time inconsistency in {11/32=[HeadChordInter#26989{(0.953/0.953) staff:17 slot#6 off:11/32 dur:1/32}], 7/16=[HeadChordInter#26990{(0.950/0.950) staff:17 slot#6 off:7/16 dur:1/8}]}
+INFO  [page-0001]               StackRhythm 224  | S1 MeasureStack#2 no correct rhythm
+INFO  [page-0001]               StackRhythm 224  | S1 MeasureStack#3 no correct rhythm
+INFO  [page-0001]             MeasureRhythm 1276 | Measure{#4P17} Time inconsistency in {7/32=[HeadChordInter#27012{(0.950/0.950) staff:17 slot#3 off:7/32 dur:1/32}], 5/16=[HeadChordInter#27011{(0.957/0.957) staff:17 slot#3 off:5/16 dur:1/16}]}
+INFO  [page-0001]                      Book 2565 | Stored /book.xml
+INFO  [page-0001]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [page-0001]            StepMonitoring 98   | PAGE
+WARN  [page-0001]              MeasureFixer 343  | System#1 No target duration for measures local IDs [1, 2, 3, 4], please check time signatures
+INFO  [page-0001]                      Book 2565 | Stored /book.xml
+INFO  [page-0001]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [page-0001]                 SheetStub 1655 | Sheet disposed
+INFO  [page-0001]                      Book 2050 | End of Stub#1
+INFO  [page-0001]                      Book 2057 | End of Book{page-0001}
+INFO  [page-0001]                 SheetStub 1000 | Loaded /sheet#1/sheet#1.xml
+INFO  [page-0001]           PartwiseBuilder 2707 | Exporting sheet(s): [#1]
+INFO  [page-0001]             ScoreExporter 164  | Score page-0001 exported to D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7\IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_i-d8be024bc1b4c89a\page-0001\attempt-001\page-0001.mxl
+INFO  [page-0001]                     Score 181  | Closing {Score 1}
+Estimating resolution as 435

@@ -1,0 +1,16 @@
+test_timeout_stops_spawned_child (test_score_processing.ProcessTests.test_timeout_stops_spawned_child) ... ok
+test_cache_revalidation_and_tampered_output_rebuild (test_score_processing.RecoveryTests.test_cache_revalidation_and_tampered_output_rebuild) ... ok
+test_exhausted_failure_saved_and_repeatable (test_score_processing.RecoveryTests.test_exhausted_failure_saved_and_repeatable) ... ok
+test_failed_partial_export_does_not_satisfy_retry (test_score_processing.RecoveryTests.test_failed_partial_export_does_not_satisfy_retry) ... ok
+test_renderer_exit_zero_without_images_is_failure (test_score_processing.RecoveryTests.test_renderer_exit_zero_without_images_is_failure) ... ok
+test_missing_meter_is_reported_not_assumed (test_score_processing.ValidationTests.test_missing_meter_is_reported_not_assumed) ... ok
+test_mxl_container_chords_and_backups (test_score_processing.ValidationTests.test_mxl_container_chords_and_backups) ... ok
+test_no_notes_and_bad_container_fail (test_score_processing.ValidationTests.test_no_notes_and_bad_container_fail) ... ok
+test_page_ranges (test_score_processing.ValidationTests.test_page_ranges) ... ok
+test_plain_musicxml_and_namespaces (test_score_processing.ValidationTests.test_plain_musicxml_and_namespaces) ... ok
+test_rhythm_and_staff_mismatches_flagged (test_score_processing.ValidationTests.test_rhythm_and_staff_mismatches_flagged) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 3.544s
+
+OK

@@ -1,0 +1,287 @@
+["D:\\mycodelife\\workshop\\AI\\classicMusic\\.tools\\audiveris-portable\\Audiveris\\Audiveris.exe", "-batch", "-transcribe", "-export", "-save", "-swap", "-output", "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7-movements\\raster450-probe", "--", "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7-movements\\raster450-probe\\mahler7-first-two.tif"]
+Picked up JAVA_TOOL_OPTIONS: -Djava.io.tmpdir="D:\mycodelife\workshop\AI\classicMusic\tmp\java" -Dorg.bytedeco.javacpp.cachedir="D:\mycodelife\workshop\AI\classicMusic\.tools\javacpp"
+INFO  []                      Main 259  | Running in batch mode
+INFO  []                 Languages 138  | Installed OCR languages: eng
+INFO  []             AliasPatterns 146  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 194  | Submitting 1 task(s) in sequence:
+    Input "D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-movements\raster450-probe\mahler7-first-two.tif"
+INFO  [mahler7-first-two]                      Book 560  | 2 sheets in D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-movements\raster450-probe\mahler7-first-two.tif
+INFO  []                      Book 2565 | Stored /book.xml
+INFO  []                      Book 2525 | Book stored as D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-movements\raster450-probe\mahler7-first-two.omr
+INFO  []                      Book 1929 | Book reaching PAGE on sheets:[#1#2]
+INFO  [mahler7-first-two#1]            StepMonitoring 98   | LOAD
+INFO  [mahler7-first-two#1]                 SheetStub 1278 | Loaded image #1 3705x4957 from D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-movements\raster450-probe\mahler7-first-two.tif
+INFO  [mahler7-first-two#1]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#1]                DataHolder 348  | Stored /sheet#1/GRAY.png
+INFO  [mahler7-first-two#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [mahler7-first-two#1]            StepMonitoring 98   | BINARY
+INFO  [mahler7-first-two#1]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#1]                DataHolder 256  | Removed /sheet#1/GRAY.png
+INFO  [mahler7-first-two#1]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [mahler7-first-two#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [mahler7-first-two#1]            StepMonitoring 98   | SCALE
+INFO  [mahler7-first-two#1]              ScaleBuilder 254  | Beam  guessed height: 10 -- 0.25 of [8..16] range
+INFO  [mahler7-first-two#1]              ScaleBuilder 271  | Beam measured height: 13 -- 0.63 of [8..16] range at 278% of needed quorum
+INFO  [mahler7-first-two#1]              ScaleBuilder 401  | Normalized black jitter: 23.53 %
+INFO  [mahler7-first-two#1]                 ScaleStep 65   | Scale{ interline(15,17,18) line(3,5,7) beam(13)}
+INFO  [mahler7-first-two#1]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [mahler7-first-two#1]            StepMonitoring 98   | GRID
+INFO  [mahler7-first-two#1]            LinesRetriever 1508 | Global slope: -0.00147
+INFO  [mahler7-first-two#1]         ClustersRetriever 326  | Retrieved raw line clusters: 17 of sizes [5] with interline(15,17,18)
+INFO  [mahler7-first-two#1]                 PeakGraph 310  | Systems: #1[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+INFO  [mahler7-first-two#1]             BarsRetriever 769  | No brace partner at level:2 for Peak{698-720 F#17364 T#1 [BRACE]}
+INFO  [mahler7-first-two#1]             BarsRetriever 769  | No brace partner at level:2 for Peak{698-719 F#17365 T#2 [BRACE, BRACE_MIDDLE]}
+INFO  [mahler7-first-two#1]             BarsRetriever 769  | No brace partner at level:2 for Peak{717-737 F#17368 T#4 [BRACE, BRACE_MIDDLE]}
+INFO  [mahler7-first-two#1]             BarsRetriever 769  | No brace partner at level:2 for Peak{723-742 F#17369 T#5 [BRACE, BRACE_BOTTOM]}
+INFO  [mahler7-first-two#1]             BarsRetriever 769  | No brace partner at level:2 for Peak{688-710 F#17370 T#6 [BRACE, BRACE_MIDDLE]}
+INFO  [mahler7-first-two#1]             BarsRetriever 769  | No brace partner at level:2 for Peak{716-737 F#17372 T#7 [BRACE, BRACE_BOTTOM]}
+INFO  [mahler7-first-two#1]             BarsRetriever 1305 | System#1
+INFO  [mahler7-first-two#1]             BarsRetriever 1308 |    PartGroup{bracket number:1 barline:true staves:1-7}
+INFO  [mahler7-first-two#1]             BarsRetriever 1308 |    PartGroup{bracket number:1 barline:true staves:8-10}
+INFO  [mahler7-first-two#1]             BarsRetriever 1308 |    PartGroup{brace number:2 barline:true staves:9-10}
+INFO  [mahler7-first-two#1]             BarsRetriever 1308 |    PartGroup{bracket number:1 barline:true staves:12-17}
+INFO  [mahler7-first-two#1]             BarsRetriever 1308 |    PartGroup{brace number:2 barline:true staves:12-13}
+INFO  [mahler7-first-two#1]             BarsRetriever 1308 |    PartGroup{brace number:2 barline:true staves:15-16}
+INFO  [mahler7-first-two#1]             SystemManager 800  | 17 parts along 1 system
+INFO  [mahler7-first-two#1]                      Book 543  | Created scores: [{Score 1}]
+INFO  [mahler7-first-two#1]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [mahler7-first-two#1]            StepMonitoring 98   | HEADERS
+INFO  [mahler7-first-two#1]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [mahler7-first-two#1]            StepMonitoring 98   | STEM_SEEDS
+INFO  [mahler7-first-two#1]                StemScaler 143  | No stem peak found, computing defaults
+INFO  [mahler7-first-two#1]             StemSeedsStep 86   | stem(5 max:7)
+INFO  [mahler7-first-two#1]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [mahler7-first-two#1]            StepMonitoring 98   | BEAMS
+INFO  [mahler7-first-two#1]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#1]                DataHolder 348  | Stored /sheet#1/HEAD_SPOTS.png
+INFO  [mahler7-first-two#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [mahler7-first-two#1]            StepMonitoring 98   | LEDGERS
+INFO  [mahler7-first-two#1]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [mahler7-first-two#1]            StepMonitoring 98   | HEADS
+INFO  [mahler7-first-two#1]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:-1.4,R:-0.8] NOTEHEAD_BLACK[L:-0.8,R:-1.4]}
+INFO  [mahler7-first-two#1]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#1]                DataHolder 256  | Removed /sheet#1/HEAD_SPOTS.png
+INFO  [mahler7-first-two#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [mahler7-first-two#1]            StepMonitoring 98   | STEMS
+INFO  [mahler7-first-two#1]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [mahler7-first-two#1]            StepMonitoring 98   | REDUCTION
+INFO  [mahler7-first-two#1]            BeamGroupInter 1123 | Separating beams BeamInter#3892{(0.653/0.951) BEAM} and BeamHookInter#4368{(0.250/0.575) BEAM_HOOK}
+INFO  [mahler7-first-two#1]             ReductionStep 105  | Stems free length median value: 62 pixels, 3.6 interlines
+INFO  [mahler7-first-two#1]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [mahler7-first-two#1]            StepMonitoring 98   | CUE_BEAMS
+INFO  [mahler7-first-two#1]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [mahler7-first-two#1]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [mahler7-first-two#1]            StepMonitoring 98   | TEXTS
+INFO  [mahler7-first-two#1]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [mahler7-first-two#1]            StepMonitoring 98   | MEASURES
+INFO  [mahler7-first-two#1]           MeasuresBuilder 416  | S1 partial barline column: s1:G(x:2735,y:785)[16] s2:G(x:2735,y:989)[26] s3:G(x:2735,y:1190)[36] s4:G(x:2734,y:1394)[46] s5:G(x:2734,y:1635)[56] s6:G(x:2733,y:1852)[66] s7:G(x:2734,y:2078)[75] s8:G(x:2735,y:2317)[85] s9:G(x:2736,y:2522)[95] s10:G(x:2738,y:2715)[105] s11:G(x:2741,y:2955)[113] s12:G(x:2743,y:3186)[123] s13:G(x:2747,y:3387)[133] s14:G(x:2750,y:3621)[143] s15:G(x:2753,y:3830)[153] s16:G(x:2756,y:4073)[163]
+INFO  [mahler7-first-two#1]           MeasuresBuilder 424  | S1 expanding major column: s1:G(x:2735,y:785)[16] s2:G(x:2735,y:989)[26] s3:G(x:2735,y:1190)[36] s4:G(x:2734,y:1394)[46] s5:G(x:2734,y:1635)[56] s6:G(x:2733,y:1852)[66] s7:G(x:2734,y:2078)[75] s8:G(x:2735,y:2317)[85] s9:G(x:2736,y:2522)[95] s10:G(x:2738,y:2715)[105] s11:G(x:2741,y:2955)[113] s12:G(x:2743,y:3186)[123] s13:G(x:2747,y:3387)[133] s14:G(x:2750,y:3621)[143] s15:G(x:2753,y:3830)[153] s16:G(x:2756,y:4073)[163]
+INFO  [mahler7-first-two#1]           MeasuresBuilder 416  | S1 partial barline column: s17:G(x:2760,y:4337)[173]
+INFO  [mahler7-first-two#1]           MeasuresBuilder 420  | S1 deleting  minor column: s17:G(x:2760,y:4337)[173]
+INFO  [mahler7-first-two#1]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [mahler7-first-two#1]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [mahler7-first-two#1]            StepMonitoring 98   | CHORDS
+INFO  [mahler7-first-two#1]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [mahler7-first-two#1]            StepMonitoring 98   | CURVES
+INFO  [mahler7-first-two#1]              SlursBuilder 240  | Slurs: 7
+INFO  [mahler7-first-two#1]           SegmentsBuilder 155  | Segments: 44
+INFO  [mahler7-first-two#1]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [mahler7-first-two#1]            StepMonitoring 98   | SYMBOLS
+INFO  [mahler7-first-two#1]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [mahler7-first-two#1]            StepMonitoring 98   | LINKS
+INFO  [mahler7-first-two#1]                  KeyInter 1198 | No effective key before AlterInter#30758{(0.479) staff:6 NATURAL pitch:-3.0}
+INFO  [mahler7-first-two#1]                  KeyInter 1331 | Key built KeyInter#31134{(0.148) staff:15 KEY_FLAT_1 pitch:2.3 fifths:-1}
+INFO  [mahler7-first-two#1]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [mahler7-first-two#1]            StepMonitoring 98   | RHYTHMS
+INFO  [mahler7-first-two#1]             MeasureRhythm 1044 | Measure{#2P3} No timeOffset for HeadChordInter#26619{(0.659/0.659) staff:3 slot#2 dur:1/4}
+INFO  [mahler7-first-two#1]             MeasureRhythm 1044 | Measure{#2P6} No timeOffset for HeadChordInter#26704{(0.725/0.725) staff:6 slot#5 dur:1/4}
+INFO  [mahler7-first-two#1]             MeasureRhythm 1276 | Measure{#2P17} Time inconsistency in {11/32=[HeadChordInter#26928{(0.953/0.953) staff:17 slot#6 off:11/32 dur:1/32}], 7/16=[HeadChordInter#26929{(0.950/0.950) staff:17 slot#6 off:7/16 dur:1/8}]}
+INFO  [mahler7-first-two#1]               StackRhythm 224  | S1 MeasureStack#2 no correct rhythm
+INFO  [mahler7-first-two#1]               StackRhythm 224  | S1 MeasureStack#3 no correct rhythm
+INFO  [mahler7-first-two#1]             MeasureRhythm 1276 | Measure{#4P17} Time inconsistency in {7/32=[HeadChordInter#26951{(0.950/0.950) staff:17 slot#3 off:7/32 dur:1/32}], 5/16=[HeadChordInter#26950{(0.957/0.957) staff:17 slot#3 off:5/16 dur:1/16}]}
+INFO  [mahler7-first-two#1]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [mahler7-first-two#1]            StepMonitoring 98   | PAGE
+WARN  [mahler7-first-two#1]              MeasureFixer 343  | System#1 No target duration for measures local IDs [1, 2, 3, 4], please check time signatures
+INFO  [mahler7-first-two#1]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [mahler7-first-two#1]                 SheetStub 1655 | Sheet#1 disposed
+INFO  [mahler7-first-two#1]                      Book 2050 | End of Stub#1
+INFO  [mahler7-first-two#2]            StepMonitoring 98   | LOAD
+INFO  [mahler7-first-two#2]                 SheetStub 1278 | Loaded image #2 3705x4957 from D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-movements\raster450-probe\mahler7-first-two.tif
+INFO  [mahler7-first-two#2]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#2]                DataHolder 348  | Stored /sheet#2/GRAY.png
+INFO  [mahler7-first-two#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [mahler7-first-two#2]            StepMonitoring 98   | BINARY
+INFO  [mahler7-first-two#2]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#2]                DataHolder 256  | Removed /sheet#2/GRAY.png
+INFO  [mahler7-first-two#2]                DataHolder 348  | Stored /sheet#2/BINARY.png
+INFO  [mahler7-first-two#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [mahler7-first-two#2]            StepMonitoring 98   | SCALE
+INFO  [mahler7-first-two#2]              ScaleBuilder 254  | Beam  guessed height: 10 -- 0.25 of [8..15] range
+INFO  [mahler7-first-two#2]              ScaleBuilder 271  | Beam measured height: 13 -- 0.71 of [8..15] range at 197% of needed quorum
+INFO  [mahler7-first-two#2]              ScaleBuilder 401  | Normalized black jitter: 17.65 %
+INFO  [mahler7-first-two#2]                 ScaleStep 65   | Scale{ interline(15,17,18) line(4,5,7) beam(13)}
+INFO  [mahler7-first-two#2]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [mahler7-first-two#2]            StepMonitoring 98   | GRID
+INFO  [mahler7-first-two#2]            LinesRetriever 1508 | Global slope: 0.00045
+INFO  [mahler7-first-two#2]         ClustersRetriever 326  | Retrieved raw line clusters: 19 of sizes [5] with interline(15,17,18)
+INFO  [mahler7-first-two#2]                 PeakGraph 310  | Systems: #1[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+INFO  [mahler7-first-two#2]             SystemManager 800  | 19 parts along 1 system
+INFO  [mahler7-first-two#2]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [mahler7-first-two#2]            StepMonitoring 98   | HEADERS
+WARN  [mahler7-first-two#2]               ClefBuilder 658  | Staff#5 no recognized header clef.
+WARN  [mahler7-first-two#2]               ClefBuilder 658  | Staff#6 no recognized header clef.
+INFO  [mahler7-first-two#2]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [mahler7-first-two#2]            StepMonitoring 98   | STEM_SEEDS
+INFO  [mahler7-first-two#2]             StemSeedsStep 86   | stem(7 max:8)
+INFO  [mahler7-first-two#2]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [mahler7-first-two#2]            StepMonitoring 98   | BEAMS
+INFO  [mahler7-first-two#2]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#2]                DataHolder 348  | Stored /sheet#2/HEAD_SPOTS.png
+INFO  [mahler7-first-two#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [mahler7-first-two#2]            StepMonitoring 98   | LEDGERS
+INFO  [mahler7-first-two#2]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [mahler7-first-two#2]            StepMonitoring 98   | HEADS
+INFO  [mahler7-first-two#2]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:-1.3,R:-1.2] NOTEHEAD_BLACK[L:-0.9,R:-1.1]}
+INFO  [mahler7-first-two#2]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#2]                DataHolder 256  | Removed /sheet#2/HEAD_SPOTS.png
+INFO  [mahler7-first-two#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [mahler7-first-two#2]            StepMonitoring 98   | STEMS
+INFO  [mahler7-first-two#2]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [mahler7-first-two#2]            StepMonitoring 98   | REDUCTION
+INFO  [mahler7-first-two#2]             ReductionStep 105  | Stems free length median value: 62 pixels, 3.6 interlines
+INFO  [mahler7-first-two#2]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [mahler7-first-two#2]            StepMonitoring 98   | CUE_BEAMS
+INFO  [mahler7-first-two#2]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [mahler7-first-two#2]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [mahler7-first-two#2]            StepMonitoring 98   | TEXTS
+INFO  [mahler7-first-two#2]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [mahler7-first-two#2]            StepMonitoring 98   | MEASURES
+INFO  [mahler7-first-two#2]           MeasuresBuilder 416  | S1 partial barline column: s1:G(x:420,y:481)[320] s2:G(x:424,y:684)[321] s3:G(x:426,y:875)[322] s4:G(x:431,y:1099)[323]
+INFO  [mahler7-first-two#2]           MeasuresBuilder 420  | S1 deleting  minor column: s1:G(x:420,y:481)[320] s2:G(x:424,y:684)[321] s3:G(x:426,y:875)[322] s4:G(x:431,y:1099)[323]
+INFO  [mahler7-first-two#2]           MeasuresBuilder 416  | S1 partial barline column: s8:G(x:444,y:1950)[327] s9:G(x:445,y:2181)[328] s10:G(x:445,y:2374)[329] s11:G(x:445,y:2601)[330] s12:G(x:444,y:2797)[331] s13:G(x:443,y:2995)[332] s17:G(x:449,y:3926)[336] s19:G(x:447,y:4440)[338]
+INFO  [mahler7-first-two#2]           MeasuresBuilder 420  | S1 deleting  minor column: s8:G(x:444,y:1950)[327] s9:G(x:445,y:2181)[328] s10:G(x:445,y:2374)[329] s11:G(x:445,y:2601)[330] s12:G(x:444,y:2797)[331] s13:G(x:443,y:2995)[332] s17:G(x:449,y:3926)[336] s19:G(x:447,y:4440)[338]
+INFO  [mahler7-first-two#2]           MeasuresBuilder 416  | S1 partial barline column: s14:G(x:467,y:3258)[333]
+INFO  [mahler7-first-two#2]           MeasuresBuilder 420  | S1 deleting  minor column: s14:G(x:467,y:3258)[333]
+INFO  [mahler7-first-two#2]           MeasuresBuilder 416  | S1 partial barline column: s5:G(x:484,y:1316)[324] s6:G(x:487,y:1503)[325] s15:G(x:489,y:3465)[334] s16:G(x:486,y:3698)[335]
+INFO  [mahler7-first-two#2]           MeasuresBuilder 420  | S1 deleting  minor column: s5:G(x:484,y:1316)[324] s6:G(x:487,y:1503)[325] s15:G(x:489,y:3465)[334] s16:G(x:486,y:3698)[335]
+INFO  [mahler7-first-two#2]           MeasuresBuilder 416  | S1 partial barline column: s7:G(x:550,y:1733)[326] s18:G(x:542,y:4185)[337]
+INFO  [mahler7-first-two#2]           MeasuresBuilder 420  | S1 deleting  minor column: s7:G(x:550,y:1733)[326] s18:G(x:542,y:4185)[337]
+INFO  [mahler7-first-two#2]                      Page 307  | 4 raw measures: [4 in system#1]
+INFO  [mahler7-first-two#2]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [mahler7-first-two#2]            StepMonitoring 98   | CHORDS
+INFO  [mahler7-first-two#2]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [mahler7-first-two#2]            StepMonitoring 98   | CURVES
+INFO  [mahler7-first-two#2]              SlursBuilder 240  | Slurs: 20
+INFO  [mahler7-first-two#2]           SegmentsBuilder 155  | Segments: 26
+INFO  [mahler7-first-two#2]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [mahler7-first-two#2]            StepMonitoring 98   | SYMBOLS
+INFO  [mahler7-first-two#2]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [mahler7-first-two#2]            StepMonitoring 98   | LINKS
+INFO  [mahler7-first-two#2]             SentenceInter 449  | No measure stack for SentenceInter#29020{(0.734) staff:19 mFont:IS-66 Direction} Symphony No. 7 (I)
+INFO  [mahler7-first-two#2]                  KeyInter 1331 | Key built KeyInter#35304{(0.223) staff:3 KEY_FLAT_1 pitch:1.0 fifths:-1}
+WARN  [mahler7-first-two#2]                  KeyInter 1174 | No effective clef before AlterInter#33532{(0.794) staff:5 SHARP pitch:-5.0}
+WARN  [mahler7-first-two#2]                  KeyInter 1174 | No effective clef before AlterInter#34882{(0.275) staff:5 SHARP pitch:0.0}
+WARN  [mahler7-first-two#2]                  KeyInter 1174 | No effective clef before AlterInter#33382{(0.693) staff:6 FLAT pitch:4.0}
+INFO  [mahler7-first-two#2]                  KeyInter 1198 | No effective key before AlterInter#33748{(0.481) staff:7 NATURAL pitch:3.0}
+INFO  [mahler7-first-two#2]                  KeyInter 1198 | No effective key before AlterInter#33912{(0.663) staff:7 NATURAL pitch:4.0}
+INFO  [mahler7-first-two#2]                  KeyInter 1198 | No effective key before AlterInter#33649{(0.793) staff:9 NATURAL pitch:5.0}
+INFO  [mahler7-first-two#2]                  KeyInter 1331 | Key built KeyInter#35306{(0.158) staff:10 KEY_SHARP_1 pitch:-0.2 fifths:1}
+INFO  [mahler7-first-two#2]                  KeyInter 1198 | No effective key before AlterInter#34717{(0.305) staff:11 NATURAL pitch:-2.0}
+INFO  [mahler7-first-two#2]                  KeyInter 1198 | No effective key before AlterInter#32539{(0.123) staff:15 NATURAL pitch:-3.0}
+INFO  [mahler7-first-two#2]                  KeyInter 1198 | No effective key before AlterInter#33136{(0.206) staff:15 NATURAL pitch:-3.0}
+INFO  [mahler7-first-two#2]                  KeyInter 1198 | No effective key before AlterInter#33470{(0.797) staff:15 NATURAL pitch:5.0}
+INFO  [mahler7-first-two#2]                  KeyInter 1198 | No effective key before AlterInter#33505{(0.768) staff:15 NATURAL pitch:5.0}
+INFO  [mahler7-first-two#2]                  KeyInter 1198 | No effective key before AlterInter#32389{(0.594) staff:18 NATURAL pitch:-4.0}
+INFO  [mahler7-first-two#2]                  KeyInter 1198 | No effective key before AlterInter#33027{(0.769) staff:18 NATURAL pitch:-3.0}
+INFO  [mahler7-first-two#2]                  KeyInter 1198 | No effective key before AlterInter#33373{(0.748) staff:18 NATURAL pitch:1.0}
+INFO  [mahler7-first-two#2]                  KeyInter 1198 | No effective key before AlterInter#33863{(0.268) staff:18 NATURAL pitch:4.0}
+INFO  [mahler7-first-two#2]                  KeyInter 1198 | No effective key before AlterInter#33372{(0.761) staff:19 NATURAL pitch:1.0}
+INFO  [mahler7-first-two#2]                  KeyInter 1198 | No effective key before AlterInter#33724{(0.780) staff:19 NATURAL pitch:3.0}
+INFO  [mahler7-first-two#2]                  KeyInter 1198 | No effective key before AlterInter#33876{(0.161) staff:19 NATURAL pitch:4.0}
+INFO  [mahler7-first-two#2]                  KeyInter 1198 | No effective key before AlterInter#34953{(0.437) staff:19 NATURAL pitch:0.0}
+INFO  [mahler7-first-two#2]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [mahler7-first-two#2]            StepMonitoring 98   | RHYTHMS
+INFO  [mahler7-first-two#2]             MeasureRhythm 1276 | Measure{#3P17} Time inconsistency in {13/32=[HeadChordInter#29358{(0.949/0.949) staff:17 slot#4 off:13/32 dur:1/32}], 1/2=[HeadChordInter#29357{(0.945/0.945) staff:17 slot#4 off:1/2 dur:1/8}]}
+INFO  [mahler7-first-two#2]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [mahler7-first-two#2]            StepMonitoring 98   | PAGE
+WARN  [mahler7-first-two#2]              MeasureFixer 343  | System#1 No target duration for measures local IDs [1, 2, 3, 4], please check time signatures
+INFO  [mahler7-first-two#2]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two#2]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [mahler7-first-two#2]                 SheetStub 1655 | Sheet#2 disposed
+INFO  [mahler7-first-two#2]                      Book 2050 | End of Stub#2
+INFO  [mahler7-first-two]                      Book 2057 | End of Book{mahler7-first-two}
+INFO  [mahler7-first-two]                 SheetStub 1000 | Loaded /sheet#1/sheet#1.xml
+INFO  [mahler7-first-two]                 SheetStub 1000 | Loaded /sheet#2/sheet#2.xml
+INFO  [mahler7-first-two]           PartwiseBuilder 2707 | Exporting sheet(s): [#1#2]
+INFO  [mahler7-first-two]                      Part 351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 1
+INFO  [mahler7-first-two]                      Part 351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 2
+INFO  [mahler7-first-two]                      Part 351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 3
+INFO  [mahler7-first-two]                      Part 351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 4
+INFO  [mahler7-first-two]                      Part 351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 5
+INFO  [mahler7-first-two]                      Part 351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 6
+INFO  [mahler7-first-two]                      Part 351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 7
+INFO  [mahler7-first-two]                      Part 351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 8
+INFO  [mahler7-first-two]                      Part 351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 9
+INFO  [mahler7-first-two]                      Part 351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 10
+INFO  [mahler7-first-two]                      Part 351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 11
+INFO  [mahler7-first-two]                      Part 351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 12
+INFO  [mahler7-first-two]                      Part 351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 13
+INFO  [mahler7-first-two]                      Part 351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 14
+INFO  [mahler7-first-two]                      Part 351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 15
+INFO  [mahler7-first-two]                      Part 351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 16
+INFO  [mahler7-first-two]                      Part 351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 17
+INFO  [mahler7-first-two]                      Part 351  | Sheet#1 System#1 Part#19{name:Flb’ten. staves[1] configs:[5]} dummyPart id: 18
+INFO  [mahler7-first-two]                      Part 351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 19
+INFO  [mahler7-first-two]                      Part 351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 20
+INFO  [mahler7-first-two]                      Part 351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 21
+INFO  [mahler7-first-two]                      Part 351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 22
+INFO  [mahler7-first-two]                      Part 351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 23
+INFO  [mahler7-first-two]                      Part 351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 24
+INFO  [mahler7-first-two]                      Part 351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 25
+INFO  [mahler7-first-two]                      Part 351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 26
+INFO  [mahler7-first-two]                      Part 351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 27
+INFO  [mahler7-first-two]                      Part 351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 28
+INFO  [mahler7-first-two]                      Part 351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 29
+INFO  [mahler7-first-two]                      Part 351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 30
+INFO  [mahler7-first-two]                      Part 351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 31
+INFO  [mahler7-first-two]                      Part 351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 32
+INFO  [mahler7-first-two]                      Part 351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 33
+INFO  [mahler7-first-two]                      Part 351  | Sheet#2 System#1 Part#1{name:F1. staves[1] configs:[5]} dummyPart id: 34
+INFO  [mahler7-first-two]             ScoreExporter 164  | Score mahler7-first-two exported to D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-movements\raster450-probe\mahler7-first-two.mxl
+INFO  [mahler7-first-two]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-first-two]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [mahler7-first-two]                      Book 2525 | Book stored as D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-movements\raster450-probe\mahler7-first-two.omr
+INFO  [mahler7-first-two]                     Score 181  | Closing {Score 1}
+Estimating resolution as 435
+Estimating resolution as 430

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "work": "Mahler Symphony No. 7",
+  "pdf": "resource/mahler No.7/IMSLP927114-PMLP30475-Mahler,_G._-_7._Symphony_in_E_minor_---_Full_Score_(Dover_Reprint).pdf",
+  "pdf_sha256": "c3ebc69bd1dabe68897a5e57c299464d8c39025f8d3dda4acd06299770f54e6c",
+  "pdf_pages": 257,
+  "page_numbering": "physical PDF pages, 1-based",
+  "boundary_verification": "Visual inspection of movement headings and previous final pages; all 257 pages covered once.",
+  "movements": [
+    {
+      "number": 1,
+      "start_page": 1,
+      "end_page": 80,
+      "page_count": 80,
+      "source_heading": "I. Langsam (Adagio)"
+    },
+    {
+      "number": 2,
+      "start_page": 81,
+      "end_page": 118,
+      "page_count": 38,
+      "source_heading": "II: Serenade - Allegro moderato"
+    },
+    {
+      "number": 3,
+      "start_page": 119,
+      "end_page": 154,
+      "page_count": 36,
+      "source_heading": "III. Schattenhaft"
+    },
+    {
+      "number": 4,
+      "start_page": 155,
+      "end_page": 183,
+      "page_count": 29,
+      "source_heading": "IV: Serenade - Andante amoroso"
+    },
+    {
+      "number": 5,
+      "start_page": 184,
+      "end_page": 257,
+      "page_count": 74,
+      "source_heading": "Rondo - Finale - Allegro ordinario"
+    }
+  ]
+}

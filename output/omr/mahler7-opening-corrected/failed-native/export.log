@@ -1,0 +1,96 @@
+["D:\\mycodelife\\workshop\\AI\\classicMusic\\.tools\\audiveris-portable\\Audiveris\\Audiveris.exe", "-batch", "-export", "-save", "-sheets", "1-4", "-output", "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7-opening-corrected", "--", "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7-opening-corrected\\mahler7-opening.omr"]
+INFO  []                      Main 259  | Running in batch mode
+INFO  []                 Languages 138  | Installed OCR languages: eng
+INFO  []             AliasPatterns 146  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 194  | Submitting 1 task(s) in sequence:
+    Book "D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-opening-corrected\mahler7-opening.omr"
+INFO  []                      Book 2965 | Loading book D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-opening-corrected\mahler7-opening.omr
+INFO  [mahler7-opening]                      Book 543  | Created scores: [{Score null}]
+INFO  [mahler7-opening]                    Voices 333  | Retrieving logical parts
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 1
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 2
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 4
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 5
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 6
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 7
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 8
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 9
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 13
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 14
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 15
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 16
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 17
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 18
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 19
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 20
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 21
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 1
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 2
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 3
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 4
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 5
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 6
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 7
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 8
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 10
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 11
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 12
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 13
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 14
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 16
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 17
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 18
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 19
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 20
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 21
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 1
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 2
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 3
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 4
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 5
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 6
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 7
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 8
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 9
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 10
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 11
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 14
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 16
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 17
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 18
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 19
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 20
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 21
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 1
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 2
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 3
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 4
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 5
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 6
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 7
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 8
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 9
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 10
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 11
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 13
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 14
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 15
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 16
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 17
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 18
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 19
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 20
+WARN  [mahler7-opening]             PartCollation 412  | Cannot find logical for id 21
+INFO  [mahler7-opening]                 SheetStub 1000 | Loaded /sheet#1/sheet#1.xml
+INFO  [mahler7-opening]                 SheetStub 1000 | Loaded /sheet#2/sheet#2.xml
+INFO  [mahler7-opening]                 SheetStub 1000 | Loaded /sheet#3/sheet#3.xml
+INFO  [mahler7-opening]                 SheetStub 1000 | Loaded /sheet#4/sheet#4.xml
+INFO  [mahler7-opening]           PartwiseBuilder 2707 | Exporting sheet(s): [#1#2#3#4]
+INFO  [mahler7-opening]             ScoreExporter 164  | Score mahler7-opening exported to D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-opening-corrected\mahler7-opening.mxl
+INFO  [mahler7-opening]                      Book 2565 | Stored /book.xml
+INFO  [mahler7-opening]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [mahler7-opening]                     Sheet 1583 | Stored /sheet#2/sheet#2.xml
+INFO  [mahler7-opening]                     Sheet 1583 | Stored /sheet#3/sheet#3.xml
+INFO  [mahler7-opening]                     Sheet 1583 | Stored /sheet#4/sheet#4.xml
+INFO  [mahler7-opening]                      Book 2525 | Book stored as D:\mycodelife\workshop\AI\classicMusic\output\omr\mahler7-opening-corrected\mahler7-opening.omr
+INFO  [mahler7-opening]                     Score 181  | Closing {Score 1}

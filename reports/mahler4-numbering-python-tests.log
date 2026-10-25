@@ -1,0 +1,71 @@
+test_counting_resets_per_movement_and_manual_anchor_propagates (test_score_measure_numbers.NumberingTests.test_counting_resets_per_movement_and_manual_anchor_propagates) ... ok
+test_http_corrections_are_persistent_bound_and_support_numbered_region_times (test_score_measure_numbers.NumberingTests.test_http_corrections_are_persistent_bound_and_support_numbered_region_times) ... 127.0.0.1 - - [25/Oct/2026 17:26:12] "POST /api/score-measure-number?track=fixture HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2026 17:26:12] "POST /api/score-measure-number?track=fixture HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2026 17:26:12] "POST /api/score-measure-number?track=fixture HTTP/1.1" 400 -
+127.0.0.1 - - [25/Oct/2026 17:26:12] "POST /api/score-measure-number?track=fixture HTTP/1.1" 400 -
+127.0.0.1 - - [25/Oct/2026 17:26:12] "POST /api/score-measure-number?track=fixture HTTP/1.1" 400 -
+127.0.0.1 - - [25/Oct/2026 17:26:12] "POST /api/score-measure-number?track=fixture HTTP/1.1" 400 -
+127.0.0.1 - - [25/Oct/2026 17:26:12] "POST /api/score-measure-number?track=fixture HTTP/1.1" 400 -
+127.0.0.1 - - [25/Oct/2026 17:26:12] "POST /api/score-measure-number?track=fixture HTTP/1.1" 400 -
+127.0.0.1 - - [25/Oct/2026 17:26:12] code 403, message Forbidden
+127.0.0.1 - - [25/Oct/2026 17:26:12] "POST /api/score-measure-number?track=fixture HTTP/1.1" 403 -
+127.0.0.1 - - [25/Oct/2026 17:26:12] "POST /api/score-region-anchor?track=fixture HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2026 17:26:12] "GET /api/project?track=fixture HTTP/1.1" 200 -
+ok
+test_invalid_and_stale_edits_are_rejected_without_mutating_history (test_score_measure_numbers.NumberingTests.test_invalid_and_stale_edits_are_rejected_without_mutating_history) ... ok
+test_pickup_continuation_multibar_rest_and_later_anchor (test_score_measure_numbers.NumberingTests.test_pickup_continuation_multibar_rest_and_later_anchor) ... ok
+test_real_index_covers_score_and_does_not_turn_rehearsal_figures_into_bars (test_score_measure_numbers.NumberingTests.test_real_index_covers_score_and_does_not_turn_rehearsal_figures_into_bars) ... ok
+test_binding_mismatch_is_rejected_and_original_is_not_rewritten (test_mahler4_analysis.MahlerAnalysisTests.test_binding_mismatch_is_rejected_and_original_is_not_rewritten) ... ok
+test_event_suggestions_remain_unlocated_instead_of_equal_duration_slices (test_mahler4_analysis.MahlerAnalysisTests.test_event_suggestions_remain_unlocated_instead_of_equal_duration_slices) ... ok
+test_full_source_is_live_and_all_four_chapters_are_bound (test_mahler4_analysis.MahlerAnalysisTests.test_full_source_is_live_and_all_four_chapters_are_bound) ... ok
+test_reading_windows_are_contiguous_short_and_cover_every_score_page (test_mahler4_analysis.MahlerAnalysisTests.test_reading_windows_are_contiguous_short_and_cover_every_score_page) ... ok
+test_references_keep_explicit_reading_statuses (test_mahler4_analysis.MahlerAnalysisTests.test_references_keep_explicit_reading_statuses) ... ok
+test_edited_listener_copy_has_no_research_instructions (test_analysis_data.AnalysisImportTests.test_edited_listener_copy_has_no_research_instructions) ... ok
+test_new_work_reference_types_come_from_metadata (test_analysis_data.AnalysisImportTests.test_new_work_reference_types_come_from_metadata) ... ok
+test_real_page_guide_covers_each_page_once (test_analysis_data.AnalysisImportTests.test_real_page_guide_covers_each_page_once) ... ok
+test_reference_kinds_and_comparison_scope (test_analysis_data.AnalysisImportTests.test_reference_kinds_and_comparison_scope) ... ok
+test_rendered_markdown_escapes_raw_html_and_blocks_script_links (test_analysis_data.AnalysisImportTests.test_rendered_markdown_escapes_raw_html_and_blocks_script_links) ... ok
+test_wrong_pdf_binding_is_rejected (test_analysis_data.AnalysisImportTests.test_wrong_pdf_binding_is_rejected) ... ok
+test_save_is_bound_to_track_and_fingerprints_with_history (test_video_support.ManualSyncAPITests.test_save_is_bound_to_track_and_fingerprints_with_history) ... 127.0.0.1 - - [25/Oct/2026 17:26:13] "POST /api/media-sync?track=fixture HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2026 17:26:13] "POST /api/media-sync?track=fixture HTTP/1.1" 400 -
+127.0.0.1 - - [25/Oct/2026 17:26:13] "POST /api/media-sync?track=fixture HTTP/1.1" 400 -
+127.0.0.1 - - [25/Oct/2026 17:26:13] "POST /api/media-sync?track=fixture HTTP/1.1" 400 -
+ok
+test_score_region_correction_history_and_wrong_media_rejection (test_video_support.ManualSyncAPITests.test_score_region_correction_history_and_wrong_media_rejection) ... 127.0.0.1 - - [25/Oct/2026 17:26:14] "POST /api/score-region-anchor?track=fixture HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2026 17:26:14] "POST /api/score-region-anchor?track=fixture HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2026 17:26:14] "POST /api/score-region-anchor?track=fixture HTTP/1.1" 400 -
+127.0.0.1 - - [25/Oct/2026 17:26:14] "POST /api/score-region-anchor?track=fixture HTTP/1.1" 400 -
+127.0.0.1 - - [25/Oct/2026 17:26:14] "POST /api/score-region-anchor?track=fixture HTTP/1.1" 400 -
+127.0.0.1 - - [25/Oct/2026 17:26:14] "POST /api/score-region-anchor?track=fixture HTTP/1.1" 400 -
+127.0.0.1 - - [25/Oct/2026 17:26:14] "POST /api/score-region-anchor?track=fixture HTTP/1.1" 400 -
+ok
+test_actual_silent_mp4_is_manual_only (test_video_support.MappingValidationTests.test_actual_silent_mp4_is_manual_only) ... ok
+test_rejects_nonfinite_reversed_and_outside_times (test_video_support.MappingValidationTests.test_rejects_nonfinite_reversed_and_outside_times) ... ok
+test_old_tracks_have_no_video_and_analysis_is_independent (test_video_support.RealVideoTests.test_old_tracks_have_no_video_and_analysis_is_independent) ... 127.0.0.1 - - [25/Oct/2026 17:26:14] "GET /api/project?track=ravel-left-hand HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2026 17:26:14] code 404, message Not Found
+127.0.0.1 - - [25/Oct/2026 17:26:14] "GET /video?track=ravel-left-hand HTTP/1.1" 404 -
+127.0.0.1 - - [25/Oct/2026 17:26:14] "GET /api/project?track=lark-ascending HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2026 17:26:14] code 404, message Not Found
+127.0.0.1 - - [25/Oct/2026 17:26:14] "GET /video?track=lark-ascending HTTP/1.1" 404 -
+127.0.0.1 - - [25/Oct/2026 17:26:15] "GET /api/analysis?track=mahler-4 HTTP/1.1" 200 -
+ok
+test_real_video_payload_and_byte_ranges (test_video_support.RealVideoTests.test_real_video_payload_and_byte_ranges) ... 127.0.0.1 - - [25/Oct/2026 17:26:15] "GET /api/project?track=mahler-4 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2026 17:26:16] "GET /video?track=mahler-4 HTTP/1.1" 206 -
+127.0.0.1 - - [25/Oct/2026 17:26:16] "GET /video?track=mahler-4 HTTP/1.1" 206 -
+127.0.0.1 - - [25/Oct/2026 17:26:16] "GET /video?track=mahler-4 HTTP/1.1" 206 -
+127.0.0.1 - - [25/Oct/2026 17:26:16] "GET /video?track=mahler-4 HTTP/1.1" 416 -
+127.0.0.1 - - [25/Oct/2026 17:26:16] "GET /video?track=mahler-4 HTTP/1.1" 416 -
+127.0.0.1 - - [25/Oct/2026 17:26:16] "GET /video?track=mahler-4 HTTP/1.1" 416 -
+ok
+test_finer_candidates_have_observed_parent_geometry_and_stricter_evidence (test_mahler4_mapping.MahlerMappingTests.test_finer_candidates_have_observed_parent_geometry_and_stricter_evidence) ... ok
+test_real_geometry_spans_all_score_pages_and_is_fingerprint_bound (test_mahler4_mapping.MahlerMappingTests.test_real_geometry_spans_all_score_pages_and_is_fingerprint_bound) ... ok
+test_unreviewed_results_do_not_become_confirmed_measure_numbers (test_mahler4_mapping.MahlerMappingTests.test_unreviewed_results_do_not_become_confirmed_measure_numbers) ... ok
+test_falls_back_when_the_first_port_is_occupied (test_launcher.LocalLauncherTests.test_falls_back_when_the_first_port_is_occupied) ... ok
+test_reuses_matching_workspace_and_rejects_other_workspace (test_launcher.LocalLauncherTests.test_reuses_matching_workspace_and_rejects_other_workspace) ... 127.0.0.1 - - [25/Oct/2026 17:26:16] "GET /api/health HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2026 17:26:16] "GET /api/health HTTP/1.1" 200 -
+ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 4.796s
+
+OK

@@ -1,0 +1,158 @@
+{
+  "pdf_sha256": "d8db1e9225a0d0500dfcf8de78afd2bf74c4f350d9ada1f3bc0d87ca6cf57132",
+  "geometry_sha256": "8da19514e453fe0459e9af8bb71b8567b2ad7599c7746164710310ce91e22005",
+  "measures": 1253,
+  "pages": 123,
+  "movement_counts": {
+    "1": 350,
+    "2": 365,
+    "3": 354,
+    "4": 184
+  },
+  "cross_staff_supported": 1249,
+  "stable_timing_candidates": 387,
+  "suppressed_duplicate_systems": [
+    {
+      "page": 124,
+      "system": 2,
+      "kept_system": 1
+    }
+  ],
+  "additional_boundaries": [
+    {
+      "page": 19,
+      "system": 0,
+      "x_pt": 424.5
+    },
+    {
+      "page": 29,
+      "system": 0,
+      "x_pt": 390.0
+    },
+    {
+      "page": 29,
+      "system": 0,
+      "x_pt": 473.0
+    },
+    {
+      "page": 29,
+      "system": 0,
+      "x_pt": 556.5
+    },
+    {
+      "page": 38,
+      "system": 0,
+      "x_pt": 514.0
+    },
+    {
+      "page": 40,
+      "system": 0,
+      "x_pt": 551.5
+    },
+    {
+      "page": 41,
+      "system": 0,
+      "x_pt": 174.5
+    },
+    {
+      "page": 47,
+      "system": 1,
+      "x_pt": 174.5
+    },
+    {
+      "page": 48,
+      "system": 0,
+      "x_pt": 599.0
+    },
+    {
+      "page": 48,
+      "system": 0,
+      "x_pt": 614.0
+    },
+    {
+      "page": 53,
+      "system": 0,
+      "x_pt": 581.0
+    },
+    {
+      "page": 63,
+      "system": 0,
+      "x_pt": 533.0
+    },
+    {
+      "page": 63,
+      "system": 0,
+      "x_pt": 579.5
+    },
+    {
+      "page": 91,
+      "system": 0,
+      "x_pt": 553.0
+    },
+    {
+      "page": 93,
+      "system": 2,
+      "x_pt": 364.0
+    },
+    {
+      "page": 96,
+      "system": 0,
+      "x_pt": 507.0
+    },
+    {
+      "page": 96,
+      "system": 0,
+      "x_pt": 541.0
+    },
+    {
+      "page": 97,
+      "system": 1,
+      "x_pt": 147.0
+    },
+    {
+      "page": 97,
+      "system": 1,
+      "x_pt": 207.0
+    },
+    {
+      "page": 97,
+      "system": 1,
+      "x_pt": 320.5
+    },
+    {
+      "page": 98,
+      "system": 0,
+      "x_pt": 212.0
+    },
+    {
+      "page": 100,
+      "system": 0,
+      "x_pt": 497.5
+    },
+    {
+      "page": 116,
+      "system": 0,
+      "x_pt": 159.5
+    },
+    {
+      "page": 120,
+      "system": 0,
+      "x_pt": 232.0
+    },
+    {
+      "page": 125,
+      "system": 0,
+      "x_pt": 526.0
+    }
+  ],
+  "ocr_landmarks": 174,
+  "trusted_printed_measure_anchors": 0,
+  "limitations": [
+    "生成号码是逐乐章识图计数候选，不是识别出的印刷小节号。",
+    "弱起、跨行续段、多小节休止与漏检边界需要复核；可设置本框小节数。",
+    "排练号与拍号不自动作为小节编号锚点。",
+    "时间沿用已有音符匹配候选；编号本身不证明录音时间准确。"
+  ],
+  "label_overlap_warnings": 0,
+  "labels_in_nearby_bar_whitespace": 32
+}

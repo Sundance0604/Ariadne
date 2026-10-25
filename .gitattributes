@@ -1,0 +1,11 @@
+# Accept source files from Windows without changing their bytes or source hashes.
+* whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Generated exports/logs can contain upstream whitespace; preserve audit bytes.
+output/omr/** -whitespace linguist-generated
+reports/*.log -whitespace linguist-generated
+works/** -whitespace linguist-generated
+resource/** -whitespace
+# These are maintained by people rather than bulk conversion output.
+works/*/metadata/** -linguist-generated
+works/mahler-4/analysis/score-guide.json -linguist-generated
+works/mahler-7/*.json -linguist-generated

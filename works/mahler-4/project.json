@@ -1,0 +1,98 @@
+{
+  "format_version": "1.0.0",
+  "title": "马勒第四 · 视频本地试验",
+  "inputs": [
+    {
+      "path": "resource/mahler No.4/【交响乐】阿巴多 琉森节日管弦乐团 马勒第四交响曲（2009）.mp4",
+      "sha256": "eb9a3ad6e19d775de29cc53b224c1b2c5ede83c7c274a7e463be3fe52945a5fb",
+      "bytes": 1168228684,
+      "method": "ffmpeg_diagnostic_fallback",
+      "duration_seconds": 3785.27,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "description": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 2333 kb/s, 29.97 fps, 29.97 tbr, 16k tbn (default)"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "description": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 125 kb/s (default)"
+        }
+      ],
+      "diagnostic": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'D:\\mycodelife\\workshop\\AI\\classicMusic\\resource\\mahler No.4\\【交响乐】阿巴多 琉森节日管弦乐团 马勒第四交响曲（2009）.mp4':\r\n  Metadata:\r\n    major_brand     : isom\r\n    minor_version   : 512\r\n    compatible_brands: isomiso2avc1mp41\r\n    encoder         : Lavf62.3.100\r\n    description     : Packed by Bilibili XCoder v2.0.2\r\n  Duration: 01:03:05.27, start: 0.000000, bitrate: 2468 kb/s\r\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 2333 kb/s, 29.97 fps, 29.97 tbr, 16k tbn (default)\r\n      Metadata:\r\n        handler_name    : VideoHandler\r\n        vendor_id       : [0][0][0][0]\r\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 125 kb/s (default)\r\n      Metadata:\r\n        handler_name    : SoundHandler\r\n        vendor_id       : [0][0][0][0]\r\nAt least one output file must be specified\r\n",
+      "warning": "ffprobe 未安装；当前轨道信息来自 FFmpeg，精细的轨道时间轴待 ffprobe 复核。"
+    },
+    {
+      "kind": "pdf",
+      "path": "resource/mahler No.4/IMSLP70999-PMLP58739-Mahler_-_Symphony_No._4_(orch._score).pdf",
+      "sha256": "d8db1e9225a0d0500dfcf8de78afd2bf74c4f350d9ada1f3bc0d87ca6cf57132"
+    },
+    {
+      "movement": 1,
+      "path": "resource/mahler No.4/mahler_symphony_4_1_(c)unknown.mid",
+      "sha256": "cd1945537ea7845f2a4a2a3bc0848c92fe6f91930ff0dde2ad20fd974de38693",
+      "start_tick": 0,
+      "duration_seconds": 1053.0372491083328,
+      "measures": 355
+    },
+    {
+      "movement": 2,
+      "path": "resource/mahler No.4/mahler_symphony_4_2_(c)unknown.mid",
+      "sha256": "665092cfa2b93575bbf9f2a6b488d87af1914add29341f6c36fb74079643ba10",
+      "start_tick": 340800,
+      "duration_seconds": 523.0452207041666,
+      "measures": 382
+    },
+    {
+      "movement": 3,
+      "path": "resource/mahler No.4/mahler_symphony_4_3_(c)unknown.mid",
+      "sha256": "72ceb177b09be60682cc941445d047a5f35b42d61d15159754a8471e22c7069a",
+      "start_tick": 478320,
+      "duration_seconds": 1088.4255285958334,
+      "measures": 322
+    },
+    {
+      "movement": 4,
+      "path": "resource/mahler No.4/mahler_symphony_4_4_(c)unknown.mid",
+      "sha256": "e8928a88baddb19f9703fc68e2f8c829c897dffa1e8f0bdd0ea5b5d30d902c52",
+      "start_tick": 787440,
+      "duration_seconds": 556.7478837708333,
+      "measures": 185
+    }
+  ],
+  "privacy": {
+    "processing": "local_only",
+    "media_uploaded": false
+  },
+  "processing_status": {
+    "video_playback": "implemented",
+    "video_audio_extraction": "complete",
+    "midi_auxiliary_alignment": "algorithmic_candidate",
+    "pdf_bar_coordinates": "algorithmic_system_and_selected_bar_candidates",
+    "pdf_omr_only_alignment": "not_completed",
+    "human_listening_review": "pending",
+    "musicological_analysis": "gpt_draft_revised_with_source_reading_status",
+    "score_measure_numbers": "editable_scan_count_candidates"
+  },
+  "score_region_counts": {
+    "systems": 172,
+    "finer_bar_candidates": 384,
+    "stable_system_candidates": 108,
+    "needs_review_system_candidates": 64,
+    "human_verified_regions": 0
+  },
+  "score_measure_numbering": {
+    "measures": 1253,
+    "pages": 123,
+    "movement_counts": {
+      "1": 350,
+      "2": 365,
+      "3": 354,
+      "4": 184
+    },
+    "stable_timing_candidates": 387,
+    "trusted_printed_measure_anchors": 0,
+    "label_overlap_warnings": 0
+  }
+}

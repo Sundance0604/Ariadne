@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "source_pdf_sha256": "c3ebc69bd1dabe68897a5e57c299464d8c39025f8d3dda4acd06299770f54e6c",
+  "scope": "Reviewed physical-staff identities for PDF pages 1-4 only; no pitch, transpose or rhythm corrections.",
+  "logical_parts": [
+    {
+      "id": 1,
+      "name": "Flutes",
+      "abbreviation": "Fl.",
+      "staff_lines": [
+        5
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Oboes",
+      "abbreviation": "Ob.",
+      "staff_lines": [
+        5
+      ]
+    },
+    {
+      "id": 3,
+      "name": "English horn",
+      "abbreviation": "Egl.H.",
+      "staff_lines": [
+        5
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Clarinet 1 in A",
+      "abbreviation": "Cl.A.1",
+      "staff_lines": [
+        5
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Clarinets 2-3 in A",
+      "abbreviation": "Cl.A.2-3",
+      "staff_lines": [
+        5
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Bass clarinet in A",
+      "abbreviation": "Bcl.A.",
+      "staff_lines": [
+        5
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Bassoons",
+      "abbreviation": "Fag.",
+      "staff_lines": [
+        5
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Contrabassoon",
+      "abbreviation": "C.Fag.",
+      "staff_lines": [
+        5
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Tenor horn in B-flat",
+      "abbreviation": "Tenh.",
+      "staff_lines": [
+        5
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Horns 1,3 in F",
+      "abbreviation": "Hr.F.1,3",
+      "staff_lines": [
+        5
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Horns 2,4 in F",
+      "abbreviation": "Hr.F.2,4",
+      "staff_lines": [
+        5
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Trumpets in F",
+      "abbreviation": "Trp.F.",
+      "staff_lines": [
+        5
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Trombones",
+      "abbreviation": "Pos.",
+      "staff_lines": [
+        5
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Bass tuba",
+      "abbreviation": "Tuba",
+      "staff_lines": [
+        5
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Percussion: timpani / bass drum",
+      "abbreviation": "Pk./Gr.Tr.",
+      "staff_lines": [
+        5
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Violin I",
+      "abbreviation": "Vl.I",
+      "staff_lines": [
+        5
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Violin II",
+      "abbreviation": "Vl.II",
+      "staff_lines": [
+        5
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Viola",
+      "abbreviation": "Va.",
+      "staff_lines": [
+        5
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Cellos, upper division",
+      "abbreviation": "Vc.upper",
+      "staff_lines": [
+        5
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Cellos, lower division",
+      "abbreviation": "Vc.lower",
+      "staff_lines": [
+        5
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Double basses",
+      "abbreviation": "Cb.",
+      "staff_lines": [
+        5
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "pdf_page": 1,
+      "page_id": 1,
+      "system_index": 1,
+      "logical_ids": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "pdf_page": 2,
+      "page_id": 1,
+      "system_index": 1,
+      "logical_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "pdf_page": 3,
+      "page_id": 1,
+      "system_index": 1,
+      "logical_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "pdf_page": 4,
+      "page_id": 1,
+      "system_index": 1,
+      "logical_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    }
+  ],
+  "review_notes": [
+    "Based on original PDF left-margin labels and printed instrument numbers.",
+    "Divided cellos retained as separate physical staves, not merged into one voice.",
+    "Percussion staff identity covers bass drum on page 1 and shared timpani/bass drum on page 4; instrument-change semantics remain unencoded.",
+    "Instrument identities do not establish correct sounding transposition."
+  ]
+}

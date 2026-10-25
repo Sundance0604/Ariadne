@@ -1,0 +1,3 @@
+# Optional PDF -> MusicXML processing. Audiveris is a separate local application.
+pypdfium2==5.14.0
+Pillow>=10.4,<14

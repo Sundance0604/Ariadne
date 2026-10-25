@@ -1,0 +1,639 @@
+{
+  "source_pdf_pages": [
+    1,
+    2
+  ],
+  "musical_accuracy_verified": false,
+  "progress": {
+    "completed_pages": [
+      1,
+      2
+    ],
+    "invalid_pages": [],
+    "pending_pages": [],
+    "book_source": "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7-movements\\raster450-probe\\mahler7-first-two.tif",
+    "software_version": "5.11.0"
+  },
+  "validation": {
+    "structurally_valid": true,
+    "errors": [],
+    "part_count": 35,
+    "staff_count": 35,
+    "measure_counts_per_part": [
+      8
+    ],
+    "time_signatures": [],
+    "note_elements": 1454,
+    "pitched_notes": 1240,
+    "unpitched_notes": 0,
+    "sounding_notes": 1240,
+    "rests": 214,
+    "parts": [
+      {
+        "id": "P1",
+        "name": "F1.",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 29,
+        "rests": 8,
+        "pitched_notes": 21,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 21
+      },
+      {
+        "id": "P2",
+        "name": "8",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 41,
+        "rests": 7,
+        "pitched_notes": 34,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 34
+      },
+      {
+        "id": "P3",
+        "name": "Voice",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 16,
+        "rests": 7,
+        "pitched_notes": 9,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 9
+      },
+      {
+        "id": "P4",
+        "name": "Voice",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 41,
+        "rests": 7,
+        "pitched_notes": 34,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 34
+      },
+      {
+        "id": "P5",
+        "name": "CLA.",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 40,
+        "rests": 6,
+        "pitched_notes": 34,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 34
+      },
+      {
+        "id": "P6",
+        "name": "Bcl.A.",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 24,
+        "rests": 7,
+        "pitched_notes": 17,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 17
+      },
+      {
+        "id": "P7",
+        "name": "“Fa g'. 2",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 33,
+        "rests": 5,
+        "pitched_notes": 28,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 28
+      },
+      {
+        "id": "P8",
+        "name": "Voice",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 27,
+        "rests": 4,
+        "pitched_notes": 23,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 23
+      },
+      {
+        "id": "P9",
+        "name": "Hr. I\".",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 43,
+        "rests": 7,
+        "pitched_notes": 36,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 36
+      },
+      {
+        "id": "P10",
+        "name": "Voice",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 39,
+        "rests": 7,
+        "pitched_notes": 32,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 32
+      },
+      {
+        "id": "P11",
+        "name": "Trp, E‘.",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 27,
+        "rests": 7,
+        "pitched_notes": 20,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 20
+      },
+      {
+        "id": "P12",
+        "name": "3",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 26,
+        "rests": 9,
+        "pitched_notes": 17,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 17
+      },
+      {
+        "id": "P13",
+        "name": "Tuba.",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 13,
+        "rests": 6,
+        "pitched_notes": 7,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 7
+      },
+      {
+        "id": "P14",
+        "name": "V].",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 26,
+        "rests": 6,
+        "pitched_notes": 20,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 20
+      },
+      {
+        "id": "P15",
+        "name": "II.",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 46,
+        "rests": 6,
+        "pitched_notes": 40,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 40
+      },
+      {
+        "id": "P16",
+        "name": "Va.",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 48,
+        "rests": 4,
+        "pitched_notes": 44,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 44
+      },
+      {
+        "id": "P17",
+        "name": "Celli",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 53,
+        "rests": 5,
+        "pitched_notes": 48,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 48
+      },
+      {
+        "id": "P18",
+        "name": "get.",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 59,
+        "rests": 4,
+        "pitched_notes": 55,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 55
+      },
+      {
+        "id": "P19",
+        "name": "Flb’ten.",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 14,
+        "rests": 8,
+        "pitched_notes": 6,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 6
+      },
+      {
+        "id": "P20",
+        "name": "3",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 15,
+        "rests": 7,
+        "pitched_notes": 8,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 8
+      },
+      {
+        "id": "P21",
+        "name": "Clarinetten in A.",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 43,
+        "sounding_notes": 39,
+        "pitched_notes": 39,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "rests": 4
+      },
+      {
+        "id": "P22",
+        "name": "3",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 55,
+        "sounding_notes": 49,
+        "pitched_notes": 49,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "rests": 6
+      },
+      {
+        "id": "P23",
+        "name": "Bchlarinette in A.",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 38,
+        "sounding_notes": 31,
+        "pitched_notes": 31,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "rests": 7
+      },
+      {
+        "id": "P24",
+        "name": "i",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 92,
+        "sounding_notes": 86,
+        "pitched_notes": 86,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "rests": 6
+      },
+      {
+        "id": "P25",
+        "name": "Contrafagott.",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 39,
+        "sounding_notes": 34,
+        "pitched_notes": 34,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "rests": 5
+      },
+      {
+        "id": "P26",
+        "name": "Tenorhorn in B.",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 26,
+        "rests": 6,
+        "pitched_notes": 20,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 20
+      },
+      {
+        "id": "P27",
+        "name": "Voice",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 18,
+        "rests": 9,
+        "pitched_notes": 9,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 9
+      },
+      {
+        "id": "P28",
+        "name": "BaB -Tuba..",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 15,
+        "rests": 8,
+        "pitched_notes": 7,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 7
+      },
+      {
+        "id": "P29",
+        "name": "GroBe Trommel.",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 12,
+        "rests": 8,
+        "pitched_notes": 4,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 4
+      },
+      {
+        "id": "P30",
+        "name": "Violinen.",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 8,
+        "rests": 8,
+        "pitched_notes": 0,
+        "unpitched_notes": 0,
+        "grace_notes": 0
+      },
+      {
+        "id": "P31",
+        "name": "II.",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 72,
+        "sounding_notes": 66,
+        "pitched_notes": 66,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "rests": 6
+      },
+      {
+        "id": "P32",
+        "name": "Violen.",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 77,
+        "sounding_notes": 73,
+        "pitched_notes": 73,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "rests": 4
+      },
+      {
+        "id": "P33",
+        "name": "Voice",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 77,
+        "sounding_notes": 73,
+        "pitched_notes": 73,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "rests": 4
+      },
+      {
+        "id": "P34",
+        "name": "4 rach geteilt.",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 75,
+        "sounding_notes": 71,
+        "pitched_notes": 71,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "rests": 4
+      },
+      {
+        "id": "P35",
+        "name": "Contrabiisse.",
+        "measures": 8,
+        "staves": 1,
+        "note_elements": 147,
+        "sounding_notes": 145,
+        "pitched_notes": 145,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "rests": 2
+      }
+    ],
+    "issues": [
+      {
+        "part": "P1",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P2",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P3",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P4",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P5",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P6",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P7",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P8",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P9",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P10",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P11",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P12",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P13",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P14",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P15",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P16",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P17",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P18",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P19",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P20",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P21",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P22",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P23",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P24",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P25",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P26",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P27",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P28",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P29",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P30",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P31",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P32",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P33",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P34",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P35",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      }
+    ],
+    "issue_count": 35,
+    "quality_status": "needs_manual_review",
+    "musical_accuracy_verified": false,
+    "limitations": [
+      "No pitch-by-pitch comparison or XSD validation.",
+      "Parts can combine several instruments; counts are not accuracy scores.",
+      "Voice extent differences are review hints, not proof of rhythm errors.",
+      "Page-local measure numbers are not original full-score measure numbers."
+    ]
+  }
+}

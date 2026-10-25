@@ -11,3 +11,27 @@ dist/
 !.env.example
 .DS_Store
 Thumbs.db
+# Large performance media remain local unless explicitly authorized for release.
+*.mp4
+*.mkv
+# Performance videos stay local, including uppercase extensions and alternate containers.
+*.[mM][pP]4
+*.[mM][kK][vV]
+*.[mM][oO][vV]
+*.[mM]4[vV]
+*.[aA][vV][iI]
+*.[wW][eE][bB][mM]
+*.[wW][mM][vV]
+*.[mM][pP][gG]
+*.[mM][pP][eE][gG]
+*.[mM]2[tT][sS]
+*.[mM][tT][sS]
+*.[fF][lL][vV]
+*.[vV][oO][bB]
+*.3[gG][pP]
+*.3[gG]2
+*.[oO][gG][vV]
+resource/**/*.[tT][sS]
+# Large, regenerable multi-page OMR input and cumulative run history.
+output/omr/mahler7-by-movement/
+resource/.video-tests/

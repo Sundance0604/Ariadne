@@ -1,0 +1,506 @@
+{
+  "source_musicxml": "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7-repair-probe\\test-1.mxl",
+  "source_omr": "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7-repair-probe\\test-1.omr",
+  "source_sha256": "0c6bb246a3bf63974e058b97ba0abcf42f6f70e0d793dd06c7374f9b3b9af1e6",
+  "output": "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7-opening-corrected\\mahler7-opening.musicxml",
+  "output_sha256": "5a4c9c80b59a6f58b62dae72519bd22b6543f31cc789e3c500a3f642823d6cb2",
+  "mapping_sha256": "93e1863f3bc750fc1049fc395631a5a20a4f07b502a617d428ce0223d9b2f677",
+  "source_pdf_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "segments": [
+    {
+      "page": 1,
+      "start": 0,
+      "end": 4,
+      "sources": {
+        "1": "P48",
+        "2": "P49",
+        "4": "P50",
+        "5": "P51",
+        "6": "P52",
+        "7": "P53",
+        "8": "P54",
+        "9": "P55",
+        "13": "P56",
+        "14": "P57",
+        "15": "P58",
+        "16": "P59",
+        "17": "P60",
+        "18": "P61",
+        "19": "P62",
+        "20": "P63",
+        "21": "P64"
+      }
+    },
+    {
+      "page": 2,
+      "start": 4,
+      "end": 8,
+      "sources": {
+        "1": "P30",
+        "2": "P31",
+        "3": "P32",
+        "4": "P33",
+        "5": "P34",
+        "6": "P35",
+        "7": "P36",
+        "8": "P37",
+        "10": "P38",
+        "11": "P39",
+        "12": "P40",
+        "13": "P41",
+        "14": "P42",
+        "16": "P43",
+        "17": "P44",
+        "18": "P45",
+        "19": "P46",
+        "20": "P47",
+        "21": "P64"
+      }
+    },
+    {
+      "page": 3,
+      "start": 8,
+      "end": 13,
+      "sources": {
+        "1": "P16",
+        "2": "P17",
+        "3": "P18",
+        "4": "P19",
+        "5": "P20",
+        "6": "P21",
+        "7": "P22",
+        "8": "P23",
+        "9": "P24",
+        "10": "P25",
+        "11": "P26",
+        "14": "P27",
+        "16": "P28",
+        "17": "P29",
+        "18": "P45",
+        "19": "P62",
+        "20": "P63",
+        "21": "P64"
+      }
+    },
+    {
+      "page": 4,
+      "start": 13,
+      "end": 18,
+      "sources": {
+        "1": "P1",
+        "2": "P2",
+        "3": "P3",
+        "4": "P4",
+        "5": "P5",
+        "6": "P6",
+        "7": "P7",
+        "8": "P8",
+        "9": "P9",
+        "10": "P10",
+        "11": "P11",
+        "13": "P12",
+        "14": "P13",
+        "15": "P14",
+        "16": "P15",
+        "17": "P44",
+        "18": "P45",
+        "19": "P62",
+        "20": "P63",
+        "21": "P64"
+      }
+    }
+  ],
+  "pitched_note_content_preserved": true,
+  "musical_accuracy_verified": false,
+  "validation": {
+    "structurally_valid": true,
+    "errors": [],
+    "part_count": 21,
+    "staff_count": 21,
+    "measure_counts_per_part": [
+      18
+    ],
+    "time_signatures": [],
+    "note_elements": 2505,
+    "pitched_notes": 2285,
+    "unpitched_notes": 0,
+    "sounding_notes": 2285,
+    "rests": 220,
+    "parts": [
+      {
+        "id": "P1",
+        "name": "Flutes",
+        "measures": 18,
+        "staves": 1,
+        "note_elements": 119,
+        "rests": 12,
+        "pitched_notes": 107,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 107
+      },
+      {
+        "id": "P2",
+        "name": "Oboes",
+        "measures": 18,
+        "staves": 1,
+        "note_elements": 133,
+        "rests": 9,
+        "pitched_notes": 124,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 124
+      },
+      {
+        "id": "P3",
+        "name": "English horn",
+        "measures": 18,
+        "staves": 1,
+        "note_elements": 47,
+        "rests": 12,
+        "pitched_notes": 35,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 35
+      },
+      {
+        "id": "P4",
+        "name": "Clarinet 1 in A",
+        "measures": 18,
+        "staves": 1,
+        "note_elements": 143,
+        "sounding_notes": 136,
+        "pitched_notes": 136,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "rests": 7
+      },
+      {
+        "id": "P5",
+        "name": "Clarinets 2-3 in A",
+        "measures": 18,
+        "staves": 1,
+        "note_elements": 163,
+        "sounding_notes": 155,
+        "pitched_notes": 155,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "rests": 8
+      },
+      {
+        "id": "P6",
+        "name": "Bass clarinet in A",
+        "measures": 18,
+        "staves": 1,
+        "note_elements": 84,
+        "sounding_notes": 74,
+        "pitched_notes": 74,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "rests": 10
+      },
+      {
+        "id": "P7",
+        "name": "Bassoons",
+        "measures": 18,
+        "staves": 1,
+        "note_elements": 191,
+        "sounding_notes": 185,
+        "pitched_notes": 185,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "rests": 6
+      },
+      {
+        "id": "P8",
+        "name": "Contrabassoon",
+        "measures": 18,
+        "staves": 1,
+        "note_elements": 114,
+        "sounding_notes": 108,
+        "pitched_notes": 108,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "rests": 6
+      },
+      {
+        "id": "P9",
+        "name": "Tenor horn in B-flat",
+        "measures": 18,
+        "staves": 1,
+        "note_elements": 97,
+        "rests": 12,
+        "pitched_notes": 85,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 85
+      },
+      {
+        "id": "P10",
+        "name": "Horns 1,3 in F",
+        "measures": 18,
+        "staves": 1,
+        "note_elements": 81,
+        "rests": 13,
+        "pitched_notes": 68,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 68
+      },
+      {
+        "id": "P11",
+        "name": "Horns 2,4 in F",
+        "measures": 18,
+        "staves": 1,
+        "note_elements": 80,
+        "rests": 16,
+        "pitched_notes": 64,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 64
+      },
+      {
+        "id": "P12",
+        "name": "Trumpets in F",
+        "measures": 18,
+        "staves": 1,
+        "note_elements": 37,
+        "rests": 17,
+        "pitched_notes": 20,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 20
+      },
+      {
+        "id": "P13",
+        "name": "Trombones",
+        "measures": 18,
+        "staves": 1,
+        "note_elements": 54,
+        "rests": 18,
+        "pitched_notes": 36,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 36
+      },
+      {
+        "id": "P14",
+        "name": "Bass tuba",
+        "measures": 18,
+        "staves": 1,
+        "note_elements": 41,
+        "rests": 15,
+        "pitched_notes": 26,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 26
+      },
+      {
+        "id": "P15",
+        "name": "Percussion: timpani / bass drum",
+        "measures": 18,
+        "staves": 1,
+        "note_elements": 26,
+        "rests": 17,
+        "pitched_notes": 9,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 9
+      },
+      {
+        "id": "P16",
+        "name": "Violin I",
+        "measures": 18,
+        "staves": 1,
+        "note_elements": 78,
+        "rests": 13,
+        "pitched_notes": 65,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "sounding_notes": 65
+      },
+      {
+        "id": "P17",
+        "name": "Violin II",
+        "measures": 18,
+        "staves": 1,
+        "note_elements": 153,
+        "sounding_notes": 142,
+        "pitched_notes": 142,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "rests": 11
+      },
+      {
+        "id": "P18",
+        "name": "Viola",
+        "measures": 18,
+        "staves": 1,
+        "note_elements": 241,
+        "sounding_notes": 237,
+        "pitched_notes": 237,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "rests": 4
+      },
+      {
+        "id": "P19",
+        "name": "Cellos, upper division",
+        "measures": 18,
+        "staves": 1,
+        "note_elements": 171,
+        "sounding_notes": 166,
+        "pitched_notes": 166,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "rests": 5
+      },
+      {
+        "id": "P20",
+        "name": "Cellos, lower division",
+        "measures": 18,
+        "staves": 1,
+        "note_elements": 218,
+        "sounding_notes": 214,
+        "pitched_notes": 214,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "rests": 4
+      },
+      {
+        "id": "P21",
+        "name": "Double basses",
+        "measures": 18,
+        "staves": 1,
+        "note_elements": 234,
+        "sounding_notes": 229,
+        "pitched_notes": 229,
+        "unpitched_notes": 0,
+        "grace_notes": 0,
+        "rests": 5
+      }
+    ],
+    "issues": [
+      {
+        "part": "P1",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P2",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P3",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P4",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P5",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P6",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P7",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P8",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P9",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P10",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P11",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P12",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P13",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P14",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P15",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P16",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P17",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P18",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P19",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P20",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      },
+      {
+        "part": "P21",
+        "kind": "missing_time_signature",
+        "detail": "Cannot check durations against meter; do not assume 4/4."
+      }
+    ],
+    "issue_count": 21,
+    "quality_status": "needs_manual_review",
+    "musical_accuracy_verified": false,
+    "limitations": [
+      "No pitch-by-pitch comparison or XSD validation.",
+      "Parts can combine several instruments; counts are not accuracy scores.",
+      "Voice extent differences are review hints, not proof of rhythm errors.",
+      "Page-local measure numbers are not original full-score measure numbers."
+    ]
+  },
+  "scope": "Reviewed staff identities only; no pitch, meter, rhythm or transpose correction"
+}

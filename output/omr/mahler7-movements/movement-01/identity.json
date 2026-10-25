@@ -1,0 +1,13 @@
+{
+  "pdf_sha256": "c3ebc69bd1dabe68897a5e57c299464d8c39025f8d3dda4acd06299770f54e6c",
+  "movement": {
+    "number": 1,
+    "start_page": 1,
+    "end_page": 80,
+    "page_count": 80,
+    "source_heading": "I. Langsam (Adagio)"
+  },
+  "audiveris_executable_sha256": "06dbf3b4a5acd4dbbefcf9dfbcef43529ad6afde4ba9330cb856d849cd7fe172",
+  "mode": "native_pdf_book_v1",
+  "dpi": 450
+}

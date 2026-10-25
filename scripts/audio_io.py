@@ -38,6 +38,12 @@ def readable_audio(path):
         except (RuntimeError,sf.LibsndfileError):
             pass
     with path.open('rb') as stream: key=hashlib.file_digest(stream,'sha256').hexdigest()
+    # The optional video preparation step creates a small mono analysis WAV.
+    # Reuse that fingerprint-bound file for MP4 alignment and anchor recomputes.
+    prepared=ROOT/'.tools/video-audio'/f'{key}.wav'
+    if path.suffix.lower()=='.mp4' and prepared.exists():
+        sf.info(prepared)
+        return prepared
     directory=ROOT/'.tools/decoded-audio';directory.mkdir(parents=True,exist_ok=True)
     decoded=directory/f'{key}.wav'
     if decoded.exists():

@@ -1,0 +1,3 @@
+["D:\\software\\MuseScorePortable\\App\\MuseScore\\bin\\MuseScore4.exe", "-r", "90", "-o", "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7-movements\\raster450-probe\\review.png", "D:\\mycodelife\\workshop\\AI\\classicMusic\\output\\omr\\mahler7-movements\\raster450-probe\\mahler7-first-two.mxl"]
+failed open log file: D:/software/MuseScorePortable/Data/settings/logs/MuseScore_261025_101108.log
+[32856:34660:20261025,101108.263:ERROR file_io_win.cc:180] CreateFile D:/software/MuseScorePortable/Data/settings/logs/dumps\settings.dat: 拒绝访问。 (5)

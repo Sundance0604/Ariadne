@@ -1,0 +1,61 @@
+{
+  "kind": "in-memory DOM module integration, not a browser playback test",
+  "checks": [
+    {
+      "index": 1,
+      "page": "原始 PDF · 第 5 / 127 页",
+      "region": "第 5 页 · 系统 1",
+      "left": "23.139880952380953%",
+      "guide": "铃声开场：先听脉动与音色"
+    },
+    {
+      "index": 20,
+      "page": "原始 PDF · 第 7 / 127 页",
+      "region": "第 7 页 · 系统 1",
+      "left": "60.65576954194667%",
+      "guide": "主部入场：从短音走向歌唱"
+    },
+    {
+      "index": 356,
+      "page": "原始 PDF · 第 49 / 127 页",
+      "region": "第 49 页 · 系统 1",
+      "left": "25.372023809523807%",
+      "guide": "怪诞舞步与独奏小提琴"
+    },
+    {
+      "index": 740,
+      "page": "原始 PDF · 第 78 / 127 页",
+      "region": "第 78 页 · 小节候选",
+      "left": "32.788592117504905%",
+      "guide": "安宁主题：低声部的歌唱"
+    },
+    {
+      "index": 1065,
+      "page": "原始 PDF · 第 102 / 127 页",
+      "region": "第 102 页 · 系统 1",
+      "left": "80.03361413112235%",
+      "guide": "终曲前奏：先听没有歌词的歌"
+    },
+    {
+      "index": 1244,
+      "page": "原始 PDF · 第 127 / 127 页",
+      "region": "第 127 页 · 系统 2",
+      "left": "87.1510673234822%",
+      "guide": "消逝的尾声：用聆听完成终结"
+    }
+  ],
+  "paragraphChecks": [
+    "铃声开场：先听脉动与音色",
+    "主部入场：从短音走向歌唱",
+    "哀诉主题：更慢、更富表情",
+    "羔羊与屠夫：真诚讲述中的反差",
+    "再一次间奏：诗节之间的转身",
+    "天国花园：丰饶的日常景象"
+  ],
+  "segment_start_checks": "38 passed",
+  "movement_jumps": "4 passed",
+  "manual_page_reading": "passed",
+  "old_tracks": "passed",
+  "stable_only_filter": "passed",
+  "reference_count": "9 项参考资料 · 来自分析原稿"
+}
