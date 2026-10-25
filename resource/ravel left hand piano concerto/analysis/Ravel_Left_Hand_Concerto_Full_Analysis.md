@@ -141,7 +141,7 @@ Andante 带来较明确的行进速度，钢琴与乐队在较舒展的线条和
 
 - 全文：https://mtosmt.org/issues/mto.05.11.3/mto.05.11.3.leong_korevaar.html
 - DOI：https://doi.org/10.30535/mto.11.3.3
-- 阅读状态：已核对与本文有关的 §21–36，特别是开头华彩的组织及 §34–35 的 E—A—D 解释；未将论文的其他演奏结论移植为本录音的特征。
+- 阅读状态：已核对与本文有关的 §21–36，并补读§38–44，特别是开头华彩的组织、踏板与声部及 §34–35 的 E—A—D 解释；未将论文的其他演奏结论移植为本录音的特征。
 
 ### 11.2 Jennifer P. Beavers (2021)
 
@@ -149,7 +149,7 @@ Andante 带来较明确的行进速度，钢琴与乐队在较舒展的线条和
 
 - 全文：https://mtosmt.org/issues/mto.21.27.1/mto.21.27.1.beavers.html
 - DOI：https://doi.org/10.30535/mto.27.1.2
-- 阅读状态：已核对针对左手协奏曲的 §4.12–4.15、§5.1–5.5。正文仅作有作者归属的解释，不把论文中的小节编号自动等同于当前重排谱。
+- 阅读状态：已核对针对左手协奏曲的 §4.12–4.15、§5.1–5.6。正文仅作有作者归属的解释，不把论文中的小节编号自动等同于当前重排谱。
 
 ### 11.3 Philharmonie de Paris：作品导赏与详细分析
 
@@ -160,8 +160,8 @@ Andante 带来较明确的行进速度，钢琴与乐队在较舒展的线条和
 
 **"Ravel : Le Concerto pour la main gauche ou les enjeux d'un néo-classicisme."** *Musurgia* 5(3–4).
 
-- 期刊目录：https://musurgia.fr/1998/12/
-- 阅读状态：延伸文献，全文及完整页码本次未核实；未作为本版具体论点的依据。
+- 期刊条目：https://musurgia.fr/masson-marie-noelle-ravel-le-concerto-pour-la-main-gauche-ou-les-enjeux-dun-neo-classicisme-musurgia-5-3-4-1998/
+- 阅读状态：已核对期刊官方条目，起页37；终页与全文未核实，不用于本版具体论点。
 
 ### 11.5 Wonyoung Kong (2007)
 
@@ -170,12 +170,12 @@ Andante 带来较明确的行进速度，钢琴与乐队在较舒展的线条和
 - DOI：https://doi.org/10.17254/jemri.2007.11.2.004
 - 阅读状态：沿用原稿所列书目信息，本次未读取全文；未据此新增逐小节演奏分析。
 
-### 11.6 Catherine Hammond (2012)
+### 11.6 Clare Hammond (2012)
 
 **To Conceal or Reveal: Left-Hand Pianism with Particular Reference to Ravel's Concerto pour la main gauche and Britten's Diversions.** Doctoral thesis, City University London.
 
 - 机构知识库：https://openaccess.city.ac.uk/id/eprint/11671/
-- 阅读状态：延伸文献，本次未读取相关论文章节；未作为本版具体论点的依据。
+- 阅读状态：已读取机构公开全文中第2章相关部分，印59–66、73–84、86–88页（PDF物理页=印页+1）；用于织体、音区与独奏／乐队组织研究，未将其本地录音计时比例用于本录音。论文题名页确认作者为Clare Hammond，原稿的Catherine已纠正。
 
 ### 11.7 Los Angeles Philharmonic：作品导赏
 
@@ -193,3 +193,6 @@ Andante 带来较明确的行进速度，钢琴与乐队在较舒展的线条和
 ## 12. 编辑记录
 
 原工作稿另存为 `Ravel_Left_Hand_Concerto_Full_Analysis.original-20261024.md`。本次改写删去了正文中的研究命令与执行清单，纠正了当前 PDF 的性质及 Allegro、Cadenza、最终 Allegro 的页码，重新区分成稿叙述、学者解释与尚未核查的参考资料。详细依据见项目的 `reports/analysis-editorial-review.md`。
+
+
+新增技术研究见播放器“研究”页签的五篇文章：调性过程、音色与身体、和声转位、曲式功能、声部与对位。Caplin（2013）公开论文已读119–123页；Russ（2000）章节仅核对出版信息，阅读记录见 `analysis/sources.json`。

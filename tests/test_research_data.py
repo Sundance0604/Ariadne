@@ -12,7 +12,7 @@ import uuid
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
-from research_data import load_research
+from research_data import load_research, harmonic_fields
 import serve_review
 
 
@@ -81,6 +81,11 @@ class ResearchDataTests(unittest.TestCase):
         self.event['sources'][0]['source_id'] = 'made-up-source'
         with self.assertRaisesRegex(ValueError, '来源'): self.load()
 
+    def test_reference_score_fingerprint_cannot_be_silently_replaced(self):
+        self.save('analysis/sources.json', {'sources': [{'source_id':'comparison-score',
+            'path':'resource/score.pdf','sha256':'wrong-fingerprint','urls':[]}]})
+        with self.assertRaisesRegex(ValueError, '参考谱'): self.load()
+
     def test_granularity_status_and_authority_cannot_be_invented(self):
         cases = [('score_spans', [{'precision': 'unlocated', 'pdf_page_start': 1}]),
                  ('score_spans', [{'precision': 'page_range', 'pdf_page_start': 1, 'pdf_page_end': 2, 'start_seconds': 8}]),
@@ -140,14 +145,39 @@ class ResearchDataTests(unittest.TestCase):
 class RavelResearchTests(unittest.TestCase):
     def test_real_pilot_is_conservative_and_legacy_guides_unchanged(self):
         data = load_research(ROOT)
-        self.assertEqual(len(data['events']), 8)
-        self.assertEqual(len(data['essays']), 2)
+        self.assertEqual(len(data['events']), 35)
+        self.assertEqual(len(data['essays']), 5)
         self.assertGreaterEqual(len(data['essays'][0]['score_spans']), 3)
         self.assertTrue(all(e['verification']['timing'] == 'candidate_alignment' for e in data['events']))
-        self.assertTrue(all(e['score_spans'][0]['precision'] == 'page_range' for e in data['events']))
+        self.assertTrue(any(e['score_spans'][0]['precision'] == 'score_segment' for e in data['events']))
         self.assertEqual(len(json.loads((ROOT/'analysis/annotations.json').read_text(encoding='utf-8'))['annotations']), 15)
         self.assertFalse(load_research(ROOT, ROOT/'works/lark-ascending')['available'])
         self.assertFalse(load_research(ROOT, ROOT/'works/mahler-4')['available'])
+
+    def test_actual_ravel_harmonic_claims_keep_bass_collection_and_scope(self):
+        data = load_research(ROOT)
+        events = {e['id']: e for e in data['events']}
+        harmonic = [e for e in data['events'] if 'harmonic_analysis' in e]
+        self.assertEqual(len(harmonic), 8)
+        arrival = events['return-tonic-second-inversion']['harmonic_analysis']
+        self.assertEqual((arrival['root'],arrival['bass'],arrival['inversion']), ('D','A3','second'))
+        self.assertEqual(arrival['pitch_collection'], ['D','F#','A'])
+        self.assertEqual(events['cadenza-c-over-e']['harmonic_analysis']['inversion'], 'first')
+        self.assertIsNone(events['tonal-perspective']['harmonic_analysis']['roman_numeral'])
+        self.assertEqual(events['cadenza-dominant']['harmonic_analysis']['omitted_tones'], ['E'])
+        sources = {s['source_id']:s for s in data['sources']}
+        self.assertIn('Clare Hammond',sources['analysis-ref-11-6']['citation_label'])
+        self.assertEqual(sources['analysis-ref-11-6']['reading_status'], 'relevant_sections_checked')
+        self.assertEqual(sources['ravel-russ-2000']['reading_status'], 'publisher_metadata_checked')
+
+    def test_harmony_rejects_written_pitch_and_inversion_without_bass_evidence(self):
+        event = next(e for e in load_research(ROOT)['events'] if e['id']=='return-tonic-second-inversion')
+        for field, value in [('pitch_basis','written'),('bass','D2'),('root','A'),
+                             ('voices',[]),('omitted_tones',['A']),('system','automatically_verified')]:
+            bad = copy.deepcopy(event);bad['harmonic_analysis'][field] = value
+            with self.subTest(field=field), self.assertRaises(ValueError): harmonic_fields(bad)
+        bad = copy.deepcopy(event);bad['dimension']='form'
+        with self.assertRaises(ValueError):harmonic_fields(bad)
 
 
 if __name__ == '__main__': unittest.main()

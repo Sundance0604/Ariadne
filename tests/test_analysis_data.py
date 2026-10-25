@@ -31,7 +31,9 @@ class AnalysisImportTests(unittest.TestCase):
         self.assertEqual(refs[7]['scope'],'comparison_other_work')
         self.assertEqual(refs[0]['reading_status'],'relevant_sections_checked')
         self.assertEqual(refs[1]['reading_status'],'relevant_sections_checked')
-        self.assertEqual(refs[3]['reading_status'],'not_read')
+        self.assertEqual(refs[3]['reading_status'],'publisher_metadata_checked')
+        self.assertEqual(refs[5]['reading_status'],'relevant_sections_checked')
+        self.assertIn('Clare Hammond',refs[5]['citation_label'])
 
     def test_edited_listener_copy_has_no_research_instructions(self):
         notes=self.data['annotations']

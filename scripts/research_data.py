@@ -1,6 +1,7 @@
 """Edition-bound research, kept separate from recording time and legacy guides."""
 import hashlib
 import json
+import re
 from pathlib import Path, PureWindowsPath
 from urllib.parse import urlparse
 
@@ -8,6 +9,7 @@ from analysis_data import RENDER, load_analysis
 from review_library import page_count
 
 DIMENSIONS = {'harmony', 'counterpoint', 'form', 'orchestration', 'motif'}
+HARMONIC_SYSTEMS = {'functional_tonal', 'modal_pentatonic', 'quartal', 'layered_pedal'}
 CLAIMS = {'score_observation', 'theoretical_analysis', 'hermeneutic_interpretation'}
 PRECISIONS = {'page_range', 'score_segment', 'score_segment_candidate', 'unlocated'}
 ROOT = Path(__file__).resolve().parents[1]
@@ -24,6 +26,46 @@ def require(condition, message):
 
 def integer(value):
     return isinstance(value, int) and not isinstance(value, bool)
+
+
+def harmonic_fields(item):
+    """Validate evidence structure, never certify the musical interpretation."""
+    harmonic = item.get('harmonic_analysis')
+    if harmonic is None:
+        return
+    require(item.get('dimension') == 'harmony' and isinstance(harmonic, dict), '和声记录须属于和声事件')
+    require(harmonic.get('system') in HARMONIC_SYSTEMS, '和声体系无效')
+    require(harmonic.get('pitch_basis') == 'concert', '和声合计须使用实音')
+    for field in ['key_context', 'bass', 'temporal_scope', 'voice_leading', 'nonchord_tones']:
+        require(isinstance(harmonic.get(field), str) and harmonic[field].strip(), '和声缺少语境、低音或声部证据')
+    pitch = re.compile(r'^[A-G](?:#|b)?$')
+    for field in ['pitch_collection', 'chord_tones', 'omitted_tones']:
+        values = harmonic.get(field)
+        require(isinstance(values, list) and all(isinstance(p, str) and pitch.fullmatch(p) for p in values)
+                and len(set(values)) == len(values), '和声音名格式无效')
+    require(harmonic['pitch_collection'], '和声缺少结构音集合')
+    require(set(harmonic['omitted_tones']) <= set(harmonic['chord_tones'])
+            and not set(harmonic['omitted_tones']) & set(harmonic['pitch_collection']), '省略音与当前音集合矛盾')
+    root, roman, inversion = (harmonic.get(k) for k in ['root', 'roman_numeral', 'inversion'])
+    require(root is None or isinstance(root, str) and pitch.fullmatch(root), '和声根音无效')
+    require(roman is None or isinstance(roman, str) and roman.strip(), '和声级数无效')
+    require(inversion in {'root','first','second','third','not_applicable','undetermined'}, '和弦转位无效')
+    if harmonic['system'] == 'functional_tonal':
+        tones = harmonic['chord_tones']
+        index = {'root': 0, 'first': 1, 'second': 2, 'third': 3}.get(inversion)
+        require(root and roman and len(tones) in {3,4} and tones[0] == root and
+                index is not None and index < len(tones), '功能和声缺少根音、级数或转位依据')
+        bass = re.fullmatch(r'([A-G](?:#|b)?)-?\d+', harmonic['bass'])
+        require(bass and bass[1] == tones[index], '实际低音与和弦转位矛盾')
+        require(set(harmonic['pitch_collection']) <= set(tones), '功能和声结构音未与和弦音区分')
+    voices = harmonic.get('voices')
+    require(isinstance(voices, list) and voices, '缺少乐器实音分工')
+    for voice in voices:
+        require(isinstance(voice, dict) and all(isinstance(voice.get(k), str) and voice[k].strip()
+                for k in ['instrument','role']), '声部身份或职责无效')
+        require(isinstance(voice.get('pitches'), list) and voice['pitches'] and all(
+                isinstance(p, str) and re.fullmatch(r'[A-G](?:#|b)?(?:-?\d+)?', p)
+                for p in voice['pitches']), '乐器实音格式无效')
 
 
 def local_path(root, value):
@@ -87,7 +129,11 @@ def load_research(root=ROOT, data_root=None):
         for source in read(registry)['sources']:
             require(source.get('source_id') not in sources, '研究来源标识重复')
             if source.get('path'):
-                local_path(root, source['path'])
+                source_path = local_path(root, source['path'])
+                if source.get('sha256'):
+                    with source_path.open('rb') as stream:
+                        require(hashlib.file_digest(stream, 'sha256').hexdigest() == source['sha256'],
+                                '研究参考谱内容与指纹不匹配')
             require(all(urlparse(url).scheme in {'http', 'https'} and urlparse(url).netloc
                         for url in source.get('urls', [])), '研究来源链接无效')
             sources[source['source_id']] = source
@@ -124,6 +170,7 @@ def load_research(root=ROOT, data_root=None):
             require(isinstance(label, str) and label.strip(), '研究条目缺少标题')
             if key == 'events':
                 require(item.get('dimension') in DIMENSIONS, '研究维度无效')
+                harmonic_fields(item)
             else:
                 require(item.get('reading_mode') == 'persistent', '诠释文章必须支持独立阅读')
             spans_for(item, page_count(mapping), regions)

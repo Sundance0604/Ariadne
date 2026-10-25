@@ -7,7 +7,38 @@
       "path": "resource/ravel left hand piano concerto/maurice-ravel-piano-concerto-for-the-left-hand.pdf",
       "reading_status": "key_pages_checked",
       "urls": [],
-      "reading_note": "本轮查看物理1、3、10、33、91、95页图像；未逐音校勘全谱。"
+      "reading_note": "关键页图像检查：1、3、10–16、24–25、33–36、51、61、82、90–96、100。另据辅助MIDI局部核对跨乐器实音、八度与重叠；不声称全谱逐音校勘。",
+      "sha256": "67aa60cc89160ea7e475fd7fa45352ec6e0c45f6cd3557421d8caafc18531083"
+    },
+    {
+      "source_id": "ravel-durand-score",
+      "title": "用户提供的杜兰版管弦乐总谱扫描件（99物理页）",
+      "kind": "score",
+      "path": "resource/ravel left hand piano concerto/IMSLP01581-Ravel_-_Piano_Concerto_for_the_Left_Hand_(Orchestral_Score).pdf",
+      "reading_status": "key_pages_checked",
+      "urls": [],
+      "reading_note": "物理8–16页缩略定位，物理15页／印13页重入段放大对照；未逐音校勘全谱。",
+      "sha256": "4ef405bb68ad16fbd8011af6a3e9f19de104b1631accfbd8661bd59fa3b4e149"
+    },
+    {
+      "source_id": "ravel-caplin-2013",
+      "title": "William E. Caplin (2013). Teaching Classical Form: Strict Categories vs. Flexible Analyses. Dutch Journal of Music Theory 18(3), 119–135.",
+      "kind": "research_article",
+      "reading_status": "relevant_sections_checked",
+      "urls": [
+        "https://williamcaplin.com/download/teaching-classical-form.pdf"
+      ],
+      "reading_note": "已读作者公开PDF印119–123页：形式功能、延长／模进／终止、sentence与period。古典风格定义仅作拉威尔分析的比较框架，未声称阅读全文。"
+    },
+    {
+      "source_id": "ravel-russ-2000",
+      "title": "Michael Russ (2000). Ravel and the orchestra. In Deborah Mawer (ed.), The Cambridge Companion to Ravel, 118–139.",
+      "kind": "book_chapter",
+      "reading_status": "publisher_metadata_checked",
+      "urls": [
+        "https://doi.org/10.1017/CCOL9780521640268.008"
+      ],
+      "reading_note": "仅核对出版社章节信息及预览，正文未获读；列为延伸阅读，不用于具体和声结论。"
     }
   ]
 }

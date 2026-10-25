@@ -1,0 +1,676 @@
+{
+  "method": "Selected MIDI cross-check only; pitches independently compared with score images, not automatic harmonic truth.",
+  "midi_sha256": "f9ba8d12d461fa9f869ae4e083d2f47f58f4d87a5ad85fbfc4b84f9d5649a8a3",
+  "ticks_per_quarter": 480,
+  "windows": [
+    {
+      "label": "dominant-root",
+      "midi_notated_bar": 61,
+      "start_tick": 85200,
+      "end_tick": 85680,
+      "notes": [
+        {
+          "track": 23,
+          "note": "A1",
+          "start": 85200,
+          "end": 85351
+        },
+        {
+          "track": 23,
+          "note": "A2",
+          "start": 85200,
+          "end": 85351
+        },
+        {
+          "track": 23,
+          "note": "G3",
+          "start": 85360,
+          "end": 85511
+        },
+        {
+          "track": 23,
+          "note": "A3",
+          "start": 85360,
+          "end": 85511
+        },
+        {
+          "track": 23,
+          "note": "C#4",
+          "start": 85360,
+          "end": 85511
+        },
+        {
+          "track": 23,
+          "note": "G4",
+          "start": 85360,
+          "end": 85511
+        },
+        {
+          "track": 23,
+          "note": "A4",
+          "start": 85360,
+          "end": 85511
+        },
+        {
+          "track": 23,
+          "note": "G4",
+          "start": 85520,
+          "end": 85671
+        },
+        {
+          "track": 23,
+          "note": "A4",
+          "start": 85520,
+          "end": 85671
+        },
+        {
+          "track": 23,
+          "note": "C#5",
+          "start": 85520,
+          "end": 85671
+        },
+        {
+          "track": 23,
+          "note": "G5",
+          "start": 85520,
+          "end": 85671
+        },
+        {
+          "track": 23,
+          "note": "A5",
+          "start": 85520,
+          "end": 85671
+        }
+      ]
+    },
+    {
+      "label": "orchestral-upbeat",
+      "midi_notated_bar": 63,
+      "start_tick": 90120,
+      "end_tick": 90240,
+      "notes": [
+        {
+          "track": 0,
+          "note": "D5",
+          "start": 90120,
+          "end": 90233
+        },
+        {
+          "track": 0,
+          "note": "F#5",
+          "start": 90120,
+          "end": 90233
+        },
+        {
+          "track": 1,
+          "note": "F#5",
+          "start": 90120,
+          "end": 90239
+        },
+        {
+          "track": 2,
+          "note": "F#5",
+          "start": 90120,
+          "end": 90239
+        },
+        {
+          "track": 4,
+          "note": "F#5",
+          "start": 90120,
+          "end": 90239
+        },
+        {
+          "track": 5,
+          "note": "A4",
+          "start": 90120,
+          "end": 90239
+        },
+        {
+          "track": 5,
+          "note": "D5",
+          "start": 90120,
+          "end": 90239
+        },
+        {
+          "track": 9,
+          "note": "D4",
+          "start": 90120,
+          "end": 90239
+        },
+        {
+          "track": 9,
+          "note": "A4",
+          "start": 90120,
+          "end": 90239
+        },
+        {
+          "track": 10,
+          "note": "A3",
+          "start": 90120,
+          "end": 90239
+        },
+        {
+          "track": 10,
+          "note": "F#4",
+          "start": 90120,
+          "end": 90239
+        },
+        {
+          "track": 11,
+          "note": "F#4",
+          "start": 90120,
+          "end": 90239
+        },
+        {
+          "track": 25,
+          "note": "A4",
+          "start": 90120,
+          "end": 90239
+        },
+        {
+          "track": 25,
+          "note": "D5",
+          "start": 90120,
+          "end": 90239
+        },
+        {
+          "track": 25,
+          "note": "F#5",
+          "start": 90120,
+          "end": 90239
+        },
+        {
+          "track": 28,
+          "note": "A3",
+          "start": 90120,
+          "end": 90239
+        },
+        {
+          "track": 28,
+          "note": "D4",
+          "start": 90120,
+          "end": 90239
+        },
+        {
+          "track": 28,
+          "note": "F#4",
+          "start": 90120,
+          "end": 90239
+        },
+        {
+          "track": 31,
+          "note": "A3",
+          "start": 90120,
+          "end": 90239
+        },
+        {
+          "track": 31,
+          "note": "A4",
+          "start": 90120,
+          "end": 90239
+        }
+      ]
+    },
+    {
+      "label": "upper-E-over-A",
+      "midi_notated_bar": 64,
+      "start_tick": 90240,
+      "end_tick": 90360,
+      "notes": [
+        {
+          "track": 0,
+          "note": "E5",
+          "start": 90240,
+          "end": 91037
+        },
+        {
+          "track": 0,
+          "note": "G#5",
+          "start": 90240,
+          "end": 91037
+        },
+        {
+          "track": 1,
+          "note": "G#5",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 2,
+          "note": "G#5",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 4,
+          "note": "G#5",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 5,
+          "note": "B4",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 5,
+          "note": "E5",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 9,
+          "note": "B3",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 9,
+          "note": "A4",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 10,
+          "note": "A3",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 10,
+          "note": "E4",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 11,
+          "note": "G#4",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 25,
+          "note": "B4",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 25,
+          "note": "E5",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 25,
+          "note": "G#5",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 28,
+          "note": "B3",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 28,
+          "note": "E4",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 28,
+          "note": "G#4",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 31,
+          "note": "A3",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 31,
+          "note": "A4",
+          "start": 90240,
+          "end": 91079
+        }
+      ]
+    },
+    {
+      "label": "delayed-D-bass",
+      "midi_notated_bar": 64,
+      "start_tick": 90720,
+      "end_tick": 90840,
+      "notes": [
+        {
+          "track": 0,
+          "note": "E5",
+          "start": 90240,
+          "end": 91037
+        },
+        {
+          "track": 0,
+          "note": "G#5",
+          "start": 90240,
+          "end": 91037
+        },
+        {
+          "track": 1,
+          "note": "G#5",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 2,
+          "note": "G#5",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 4,
+          "note": "G#5",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 5,
+          "note": "B4",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 5,
+          "note": "E5",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 6,
+          "note": "D2",
+          "start": 90720,
+          "end": 91919
+        },
+        {
+          "track": 7,
+          "note": "D2",
+          "start": 90720,
+          "end": 91919
+        },
+        {
+          "track": 7,
+          "note": "D3",
+          "start": 90720,
+          "end": 91919
+        },
+        {
+          "track": 8,
+          "note": "D1",
+          "start": 90720,
+          "end": 91919
+        },
+        {
+          "track": 9,
+          "note": "B3",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 9,
+          "note": "A4",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 10,
+          "note": "A3",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 10,
+          "note": "E4",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 11,
+          "note": "G#4",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 15,
+          "note": "D3",
+          "start": 90720,
+          "end": 91199
+        },
+        {
+          "track": 25,
+          "note": "B4",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 25,
+          "note": "E5",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 25,
+          "note": "G#5",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 28,
+          "note": "B3",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 28,
+          "note": "E4",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 28,
+          "note": "G#4",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 31,
+          "note": "A3",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 31,
+          "note": "A4",
+          "start": 90240,
+          "end": 91079
+        },
+        {
+          "track": 33,
+          "note": "D2",
+          "start": 90720,
+          "end": 91919
+        },
+        {
+          "track": 33,
+          "note": "D3",
+          "start": 90720,
+          "end": 91919
+        },
+        {
+          "track": 36,
+          "note": "D1",
+          "start": 90720,
+          "end": 91919
+        }
+      ]
+    },
+    {
+      "label": "C-over-E-arpeggio",
+      "midi_notated_bar": 480,
+      "start_tick": 671520,
+      "end_tick": 672000,
+      "notes": [
+        {
+          "track": 23,
+          "note": "E2",
+          "start": 671520,
+          "end": 671599
+        },
+        {
+          "track": 23,
+          "note": "G2",
+          "start": 671600,
+          "end": 671679
+        },
+        {
+          "track": 23,
+          "note": "C3",
+          "start": 671680,
+          "end": 671759
+        },
+        {
+          "track": 23,
+          "note": "G2",
+          "start": 671760,
+          "end": 671839
+        },
+        {
+          "track": 23,
+          "note": "C3",
+          "start": 671840,
+          "end": 671919
+        },
+        {
+          "track": 23,
+          "note": "E3",
+          "start": 671920,
+          "end": 671999
+        },
+        {
+          "track": 33,
+          "note": "G2",
+          "start": 670320,
+          "end": 672239
+        },
+        {
+          "track": 34,
+          "note": "C2",
+          "start": 670080,
+          "end": 672239
+        },
+        {
+          "track": 37,
+          "note": "E1",
+          "start": 671520,
+          "end": 672239
+        },
+        {
+          "track": 38,
+          "note": "E1",
+          "start": 668640,
+          "end": 672239
+        }
+      ]
+    },
+    {
+      "label": "last-chord",
+      "midi_notated_bar": 535,
+      "start_tick": 747840,
+      "end_tick": 748080,
+      "notes": [
+        {
+          "track": 16,
+          "note": "D2",
+          "start": 747648,
+          "end": 748127
+        },
+        {
+          "track": 25,
+          "note": "D4",
+          "start": 747600,
+          "end": 748079
+        },
+        {
+          "track": 25,
+          "note": "A4",
+          "start": 747600,
+          "end": 748079
+        },
+        {
+          "track": 25,
+          "note": "F#5",
+          "start": 747600,
+          "end": 748079
+        },
+        {
+          "track": 28,
+          "note": "A4",
+          "start": 747600,
+          "end": 748079
+        },
+        {
+          "track": 28,
+          "note": "A5",
+          "start": 747600,
+          "end": 748079
+        },
+        {
+          "track": 31,
+          "note": "D3",
+          "start": 747600,
+          "end": 748079
+        },
+        {
+          "track": 31,
+          "note": "A3",
+          "start": 747600,
+          "end": 748079
+        },
+        {
+          "track": 31,
+          "note": "F#4",
+          "start": 747600,
+          "end": 748079
+        },
+        {
+          "track": 31,
+          "note": "D5",
+          "start": 747600,
+          "end": 748079
+        },
+        {
+          "track": 33,
+          "note": "F#3",
+          "start": 747600,
+          "end": 748079
+        },
+        {
+          "track": 33,
+          "note": "D4",
+          "start": 747600,
+          "end": 748079
+        },
+        {
+          "track": 36,
+          "note": "F#3",
+          "start": 747600,
+          "end": 748079
+        }
+      ]
+    }
+  ],
+  "purpose": "对人工选定的关键窗口做辅助MIDI交叉检查；不是逐音同步、原谱权威编号或自动和声识别。",
+  "pdf_sha256": "67aa60cc89160ea7e475fd7fa45352ec6e0c45f6cd3557421d8caafc18531083",
+  "notation": "临时MIDI输出按音级显示升降记号；实际和声拼写以正文总谱核查为准。ticks为MIDI位置，不是录音秒数。"
+}

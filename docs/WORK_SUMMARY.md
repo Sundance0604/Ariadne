@@ -69,3 +69,7 @@
 - [马四文献修订](../reports/mahler4-analysis-review.md)
 - [PDF → MusicXML 接口](pdf-to-musicxml.md)
 - [马七 OMR](../reports/mahler7-omr.md) 与 [乐章实验](../reports/mahler7-movements.md)
+
+## 拉威尔谱面技术研究（2026-10-25）
+
+新增35条技术事件、5篇研究文章、8份带乐器实音分工的和声记录；区分V7、I6/4、C/E、四度／五声与持续低音叠层。补充曲式功能与织体分析，纠正Hammond作者名字并登记实际阅读范围。原15条导聆、时间对齐与谱面几何保留。音乐学逐拍校核与候选同步试听仍未完成，详见[更新与验证报告](../reports/ravel-score-research-update.md)。

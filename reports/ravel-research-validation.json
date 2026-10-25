@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-25",
+  "python": {
+    "environment": "synctoolbox",
+    "total": 88,
+    "passed": 86,
+    "skipped": 2,
+    "skip_reason": "M4A decoding tests deliberately suspended"
+  },
+  "frontend": {
+    "total": 23,
+    "passed": 23
+  },
+  "module_integration": {
+    "actual_http": true,
+    "in_memory_dom": true,
+    "passed": true,
+    "not_browser_playback": true
+  },
+  "real_browser": {
+    "loaded_essays": 5,
+    "harmonic_detail_and_concert_pitch_table": true,
+    "clock_from": 284.301894,
+    "clock_to": 308.509292,
+    "score_from": 13,
+    "score_to": 16,
+    "article_preserved": true,
+    "pause_and_seek": true,
+    "aural_musicological_review": false,
+    "preview": "output/research/ravel-technical-expansion.png"
+  },
+  "unchanged_core": {
+    "alignment.json": true,
+    "measure-map.json": true
+  },
+  "legacy_annotations_unchanged": true,
+  "musicological_status": "key-page image review and selected MIDI cross-check; not complete bar-by-bar or expert verification",
+  "timing_status": "candidate_alignment",
+  "scope": {
+    "events": 35,
+    "essays": 5,
+    "harmonic_records": 8
+  }
+}

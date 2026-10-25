@@ -10,8 +10,8 @@
       "id": "opening-low-strings",
       "dimension": "orchestration",
       "claim_level": "score_observation",
-      "short_label": "低音弦乐背景与低音巴松",
-      "detail_markdown": "当前重排谱第1页的低音弦乐反复型先建立背景，低音巴松随后进入。此卡片提示本页的声部关系，不表示这些声部在页内每一刻都同时发音。",
+      "short_label": "低弦背景：长音与分解层",
+      "detail_markdown": "大提琴分部维持D、G，低音提琴的长音层与反复分解层提供E、A等支点；低音巴松随后作为有呼吸的旋律前景进入。持续层、运动层与独奏线各有职责。",
       "score_spans": [
         {
           "pdf_page_start": 1,
@@ -23,7 +23,7 @@
       "sources": [
         {
           "source_id": "ravel-target-score",
-          "locator": "PDF物理第1页，低弦与低音巴松谱表",
+          "locator": "当前PDF物理1页相关谱表",
           "claim_attribution": "score"
         }
       ],
@@ -34,6 +34,7 @@
         "timing": "candidate_alignment"
       },
       "related_essay_ids": [
+        "ravel-texture-counterpoint",
         "ravel-tonal-emergence"
       ]
     },
@@ -41,8 +42,8 @@
       "id": "horn-contrast",
       "dimension": "orchestration",
       "claim_level": "score_observation",
-      "short_label": "低音巴松与圆号的并置",
-      "detail_markdown": "第3页可比较低音巴松的连贯线条、圆号发音和弦乐反复背景。尚未逐音核定相似轮廓的主题身份，因此不将它们自动标成同一主题。",
+      "short_label": "圆号线条与低音木管并置",
+      "detail_markdown": "第3页圆号有自己的节奏与音程轮廓；低音巴松延续、巴松填充与低弦分解相叠。圆号没有简单复制所有低音巴松音符，宜分析为对比层次。",
       "score_spans": [
         {
           "pdf_page_start": 3,
@@ -54,7 +55,7 @@
       "sources": [
         {
           "source_id": "ravel-target-score",
-          "locator": "PDF物理第3页，低音巴松、圆号与低弦",
+          "locator": "当前PDF物理3页相关谱表",
           "claim_attribution": "score"
         }
       ],
@@ -65,6 +66,7 @@
         "timing": "candidate_alignment"
       },
       "related_essay_ids": [
+        "ravel-texture-counterpoint",
         "ravel-timbre-perspectives"
       ]
     },
@@ -72,74 +74,12 @@
       "id": "tonal-perspective",
       "dimension": "harmony",
       "claim_level": "theoretical_analysis",
-      "short_label": "E–A–D：长跨度调性视角",
-      "detail_markdown": "Leong与Korevaar在§34–35将引子、开头华彩和乐队重入联系为E—A—D路径。这是对较长音乐过程的理论解释，不能当作第1–3页每个瞬间的和弦标签。当前版本的音集合仍待逐音校勘。",
+      "short_label": "E支点：四度结构，不直接记ii",
+      "detail_markdown": "将低弦持续音与反复展开合看，骨架为E–A–D–G；缺少把它确定为E小三和弦所需的B。E首先是低音支点。四度叠置与随后旋律形成调性歧义，不能给每个切片机械标ii。",
       "score_spans": [
         {
           "pdf_page_start": 1,
-          "pdf_page_end": 3,
-          "precision": "page_range",
-          "region_ids": []
-        }
-      ],
-      "sources": [
-        {
-          "source_id": "analysis-ref-11-1",
-          "locator": "§34–35；Example 6",
-          "claim_attribution": "authors"
-        }
-      ],
-      "verification": {
-        "score": "pending",
-        "literature": "relevant_sections_checked",
-        "location": "page_range",
-        "timing": "candidate_alignment"
-      },
-      "related_essay_ids": [
-        "ravel-tonal-emergence"
-      ]
-    },
-    {
-      "id": "single-hand-layers",
-      "dimension": "counterpoint",
-      "claim_level": "theoretical_analysis",
-      "short_label": "单手如何呈现多层织体",
-      "detail_markdown": "Leong与Korevaar在§24–28讨论单手动作与多声部听觉之间的关系。此处只把这一问题关联到开头华彩的页级范围；不声称已逐拍确定旋律、低音和内声的全部对应。",
-      "score_spans": [
-        {
-          "pdf_page_start": 10,
-          "pdf_page_end": 14,
-          "precision": "page_range",
-          "region_ids": []
-        }
-      ],
-      "sources": [
-        {
-          "source_id": "analysis-ref-11-1",
-          "locator": "§24–28；Examples 4–5",
-          "claim_attribution": "authors"
-        }
-      ],
-      "verification": {
-        "score": "pending",
-        "literature": "relevant_sections_checked",
-        "location": "page_range",
-        "timing": "candidate_alignment"
-      },
-      "related_essay_ids": [
-        "ravel-tonal-emergence"
-      ]
-    },
-    {
-      "id": "opening-cadenza",
-      "dimension": "form",
-      "claim_level": "theoretical_analysis",
-      "short_label": "开头钢琴华彩（段落背景）",
-      "detail_markdown": "本版第10页已出现钢琴华彩性进入，第10–14页作为当前导聆的粗范围。乐队收束与独奏进入可能共处一页，页码不等于精确起始音。",
-      "score_spans": [
-        {
-          "pdf_page_start": 10,
-          "pdf_page_end": 14,
+          "pdf_page_end": 1,
           "precision": "page_range",
           "region_ids": []
         }
@@ -147,13 +87,93 @@
       "sources": [
         {
           "source_id": "ravel-target-score",
-          "locator": "PDF第10页与既有导聆10–14页范围",
+          "locator": "当前PDF物理1页相关谱表",
           "claim_attribution": "score"
-        },
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-harmonic-ledger",
+        "ravel-tonal-emergence"
+      ],
+      "harmonic_analysis": {
+        "system": "quartal",
+        "key_context": "D中心尚未明确；E持续低音",
+        "root": null,
+        "bass": "E1",
+        "roman_numeral": null,
+        "inversion": "not_applicable",
+        "pitch_collection": [
+          "E",
+          "A",
+          "D",
+          "G"
+        ],
+        "chord_tones": [],
+        "omitted_tones": [],
+        "pitch_basis": "concert",
+        "temporal_scope": "开头低弦持续音与首个分解音型的结构归约；不是四音同时重奏",
+        "voices": [
+          {
+            "instrument": "大提琴分部",
+            "pitches": [
+              "D2",
+              "G2"
+            ],
+            "role": "持续背景"
+          },
+          {
+            "instrument": "低音提琴长音层",
+            "pitches": [
+              "E1",
+              "A1"
+            ],
+            "role": "低音支撑"
+          },
+          {
+            "instrument": "低音提琴活动层",
+            "pitches": [
+              "E1",
+              "A1",
+              "D2",
+              "G2"
+            ],
+            "role": "分解运动"
+          }
+        ],
+        "voice_leading": "低音支点保持，内层按四度骨架展开。",
+        "nonchord_tones": "五声／四度构成音不按预设三和弦一律降格为非和弦音。"
+      }
+    },
+    {
+      "id": "pedal-trajectory",
+      "dimension": "harmony",
+      "claim_level": "theoretical_analysis",
+      "short_label": "E—A—D：跨段支点路径",
+      "detail_markdown": "从引子E支点，经独奏A支点，到乐队重入的D主调到达，形成长跨度方向。这里谈的是结构归约；并不把四度集合、五声集合和主和弦当作同一种和弦形态。",
+      "score_spans": [
+        {
+          "pdf_page_start": 2,
+          "pdf_page_end": 9,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "sources": [
         {
           "source_id": "analysis-ref-11-1",
-          "locator": "§29–33；开头华彩的段落功能",
+          "locator": "§34–35：长跨度低音支点解释",
           "claim_attribution": "authors"
+        },
+        {
+          "source_id": "ravel-target-score",
+          "locator": "1、10–15页，跨段对照",
+          "claim_attribution": "score"
         }
       ],
       "verification": {
@@ -163,15 +183,647 @@
         "timing": "candidate_alignment"
       },
       "related_essay_ids": [
+        "ravel-tonal-emergence",
+        "ravel-harmonic-ledger"
+      ],
+      "analysis_framework": "结构低音与局部和声分层"
+    },
+    {
+      "id": "opening-pentatonic",
+      "dimension": "harmony",
+      "claim_level": "theoretical_analysis",
+      "short_label": "五声A支点：“V”→I",
+      "detail_markdown": "独奏开场的D–E–G–A–B材料不含C♯。A→D具有属音到主音方向，但缺少普通属大三和弦的导音。宜写带引号的“V”→I，并区分材料音与按解决关系判定的非和弦音。",
+      "score_spans": [
+        {
+          "pdf_page_start": 10,
+          "pdf_page_end": 11,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "当前PDF物理10页相关谱表",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-harmonic-ledger",
         "ravel-tonal-emergence"
+      ],
+      "harmonic_analysis": {
+        "system": "modal_pentatonic",
+        "key_context": "D为目标，A为独奏开场支点",
+        "root": null,
+        "bass": "A0",
+        "roman_numeral": null,
+        "inversion": "not_applicable",
+        "pitch_collection": [
+          "D",
+          "E",
+          "G",
+          "A",
+          "B"
+        ],
+        "chord_tones": [],
+        "omitted_tones": [],
+        "pitch_basis": "concert",
+        "temporal_scope": "第10页钢琴入口至第11页开场分解段；非全页恒定和弦",
+        "voices": [
+          {
+            "instrument": "钢琴",
+            "pitches": [
+              "A0",
+              "D",
+              "E",
+              "G",
+              "A",
+              "B"
+            ],
+            "role": "持续支点与五声分解；无八度音名表示音级"
+          }
+        ],
+        "voice_leading": "A支点转向D；C♯未参与这一五声开场。",
+        "nonchord_tones": "D、E、G、A、B为材料集合，不能全部强解为A大三和弦的倚音。"
+      }
+    },
+    {
+      "id": "single-hand-layers",
+      "dimension": "counterpoint",
+      "claim_level": "theoretical_analysis",
+      "short_label": "旋律与低音：隐伏多声部",
+      "detail_markdown": "钢琴分时触及旋律、和声与低音，持续时值和踏板使不同层次在听觉上保持连续。低音与旋律的重音不同，不等同于一条只有装饰的单旋律；分解和弦内的每颗音也不应被算作独立声部。",
+      "score_spans": [
+        {
+          "pdf_page_start": 11,
+          "pdf_page_end": 12,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "当前PDF物理11页相关谱表",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-texture-counterpoint",
+        "ravel-timbre-perspectives"
+      ]
+    },
+    {
+      "id": "opening-cadenza",
+      "dimension": "form",
+      "claim_level": "theoretical_analysis",
+      "short_label": "开头华彩：呈示性独奏入口",
+      "detail_markdown": "自由开场、歌唱性陈述、附点和弦与跳跃强化、结束姿态构成华彩内部的功能序列。其职责包括宣布独奏者、发展材料和引导主调到达；局部T1/T2标签不直接等同整曲主部／副部。",
+      "score_spans": [
+        {
+          "pdf_page_start": 10,
+          "pdf_page_end": 15,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "当前PDF物理10页相关谱表",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-form-functions",
+        "ravel-tonal-emergence"
+      ],
+      "analysis_framework": "局部开场—陈述—延续强化—结束；全曲呈示过程"
+    },
+    {
+      "id": "vivo-contrary-lines",
+      "dimension": "counterpoint",
+      "claim_level": "theoretical_analysis",
+      "short_label": "Vivo：反向线条的听觉分离",
+      "detail_markdown": "第12页下部Vivo起，上下层的走向差异强化两条线的独立感。反向进行描述声部运动；尚不足以将此段命名为卡农、赋格或可转位对位。",
+      "score_spans": [
+        {
+          "pdf_page_start": 12,
+          "pdf_page_end": 13,
+          "precision": "score_segment",
+          "score_start": [
+            12,
+            4,
+            565
+          ],
+          "score_end": [
+            13,
+            0,
+            485.2
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "当前PDF物理12页相关谱表",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "score_segment",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-texture-counterpoint",
+        "ravel-timbre-perspectives"
+      ]
+    },
+    {
+      "id": "cadenza-dominant",
+      "dimension": "harmony",
+      "claim_level": "theoretical_analysis",
+      "short_label": "A7(no5) → A7：原位属七",
+      "detail_markdown": "Strepitoso入口的A低音与随后G–A–C♯和弦确立属七骨架，首个密集攻击省略E，随后E出现在分解音型中。功能为D大调V7，转位为原位；本卡定位整个结束姿态，不把装饰音全算在最初的垂直和弦中。",
+      "score_spans": [
+        {
+          "pdf_page_start": 13,
+          "pdf_page_end": 14,
+          "precision": "score_segment",
+          "score_start": [
+            13,
+            0,
+            485.2
+          ],
+          "score_end": [
+            14,
+            0,
+            788.4
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "当前PDF物理13页相关谱表",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "score_segment",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-harmonic-ledger",
+        "ravel-tonal-emergence"
+      ],
+      "harmonic_analysis": {
+        "system": "functional_tonal",
+        "key_context": "D大调",
+        "root": "A",
+        "bass": "A1",
+        "roman_numeral": "V7(no5) → V7",
+        "inversion": "root",
+        "pitch_collection": [
+          "A",
+          "C#",
+          "G"
+        ],
+        "chord_tones": [
+          "A",
+          "C#",
+          "E",
+          "G"
+        ],
+        "omitted_tones": [
+          "E"
+        ],
+        "pitch_basis": "concert",
+        "temporal_scope": "Strepitoso开头A低音及首个和弦攻击；后续E在分解中补出",
+        "voices": [
+          {
+            "instrument": "钢琴低音",
+            "pitches": [
+              "A1",
+              "A2"
+            ],
+            "role": "根音低音"
+          },
+          {
+            "instrument": "钢琴和弦层",
+            "pitches": [
+              "G3",
+              "A3",
+              "C#4",
+              "G4",
+              "A4"
+            ],
+            "role": "属七骨架及加倍"
+          }
+        ],
+        "voice_leading": "C♯与G建立属七三全音；跨段趋向D主调。实际表面经快速音型及滑奏。",
+        "nonchord_tones": "后续B♭可参与降九色彩或经过；必须逐位置判断，不覆盖整页。"
+      }
+    },
+    {
+      "id": "return-tonic-second-inversion",
+      "dimension": "harmony",
+      "claim_level": "theoretical_analysis",
+      "short_label": "D/A：I6/4，主和弦第二转位",
+      "detail_markdown": "印号63末弱起：木管、弦乐及圆号合成D–F♯–A，最低管弦乐音为圆号A3。钢琴已休止，低弦尚未发音。故此刻为D/A，即D大调I6/4；其位置不支持自动称作终止四六和弦。",
+      "score_spans": [
+        {
+          "pdf_page_start": 15,
+          "pdf_page_end": 15,
+          "precision": "score_segment",
+          "score_start": [
+            15,
+            0,
+            320
+          ],
+          "score_end": [
+            15,
+            0,
+            349.4
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "当前PDF物理15页相关谱表",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "score_segment",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-harmonic-ledger",
+        "ravel-tonal-emergence"
+      ],
+      "harmonic_analysis": {
+        "system": "functional_tonal",
+        "key_context": "D大调",
+        "root": "D",
+        "bass": "A3",
+        "roman_numeral": "I6/4",
+        "inversion": "second",
+        "pitch_collection": [
+          "D",
+          "F#",
+          "A"
+        ],
+        "chord_tones": [
+          "D",
+          "F#",
+          "A"
+        ],
+        "omitted_tones": [],
+        "pitch_basis": "concert",
+        "temporal_scope": "当前重排谱印号63末乐队弱起至下一小节线前",
+        "voices": [
+          {
+            "instrument": "圆号组",
+            "pitches": [
+              "A3",
+              "D4",
+              "F#4",
+              "A4"
+            ],
+            "role": "实际最低音与和声填充"
+          },
+          {
+            "instrument": "长笛",
+            "pitches": [
+              "D5",
+              "F#5"
+            ],
+            "role": "上层旋律与和声"
+          },
+          {
+            "instrument": "A调单簧管",
+            "pitches": [
+              "A4",
+              "D5"
+            ],
+            "role": "和声及音区加倍"
+          },
+          {
+            "instrument": "第一小提琴",
+            "pitches": [
+              "A4",
+              "D5",
+              "F#5"
+            ],
+            "role": "上层和弦"
+          },
+          {
+            "instrument": "第二小提琴",
+            "pitches": [
+              "A3",
+              "D4",
+              "F#4"
+            ],
+            "role": "较低和弦排列"
+          },
+          {
+            "instrument": "中提琴",
+            "pitches": [
+              "A3",
+              "A4"
+            ],
+            "role": "五音八度加倍"
+          }
+        ],
+        "voice_leading": "上层主和弦先进入，深低音D随后才到达。",
+        "nonchord_tones": "当前短窗口无须把D或F♯解释为V和弦上的挂留；后续音响另列。"
+      }
+    },
+    {
+      "id": "return-layered-harmony",
+      "dimension": "harmony",
+      "claim_level": "theoretical_analysis",
+      "short_label": "E/A与迟到D：分层和声",
+      "detail_markdown": "印号64起，上方为E–G♯–B，圆号保留A；随后深低音D进入。先有{A,B,E,G♯}，再有{D,E,G♯,A,B}。上层三和弦平移、A持续与D低音到达应分别记录，不能仅凭E大三和弦就宣布转到A调。",
+      "score_spans": [
+        {
+          "pdf_page_start": 15,
+          "pdf_page_end": 15,
+          "precision": "score_segment",
+          "score_start": [
+            15,
+            0,
+            349.4
+          ],
+          "score_end": [
+            15,
+            0,
+            581.4
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "当前PDF物理15页相关谱表",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "score_segment",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-harmonic-ledger",
+        "ravel-tonal-emergence"
+      ],
+      "alternatives": [
+        "若取E为根音，D到达后可描述为带附加A的E7/D；规范V4/2/V的功能仍需向A解决的证据。"
+      ],
+      "harmonic_analysis": {
+        "system": "layered_pedal",
+        "key_context": "D主调到达过程中的上层平移",
+        "root": null,
+        "bass": "A3 → D1",
+        "roman_numeral": null,
+        "inversion": "undetermined",
+        "pitch_collection": [
+          "A",
+          "B",
+          "D",
+          "E",
+          "G#"
+        ],
+        "chord_tones": [],
+        "omitted_tones": [],
+        "pitch_basis": "concert",
+        "temporal_scope": "先按印号64上层起音取样，再记录深低音D加入；五音集合非从起点同时存在",
+        "voices": [
+          {
+            "instrument": "上层木管／弦乐",
+            "pitches": [
+              "E",
+              "G#",
+              "B"
+            ],
+            "role": "E大三和弦层"
+          },
+          {
+            "instrument": "圆号／中提琴",
+            "pitches": [
+              "A3",
+              "A4"
+            ],
+            "role": "保留音层"
+          },
+          {
+            "instrument": "低弦／低音木管",
+            "pitches": [
+              "A",
+              "D"
+            ],
+            "role": "延后低音动作；D到达后改变实际最低音"
+          }
+        ],
+        "voice_leading": "D/F♯/A上层转为E/G♯/B，A保留，低层另行A→D。",
+        "nonchord_tones": "G♯是上层E大三和弦组成音，不能无证据一律命名为D调的倚音。"
+      }
+    },
+    {
+      "id": "orchestral-doubling",
+      "dimension": "orchestration",
+      "claim_level": "score_observation",
+      "short_label": "重入：加倍、填充、低音后置",
+      "detail_markdown": "上方木管与第一小提琴强化旋律和和声，第二小提琴、圆号提供较低排列；低弦、低音木管与定音鼓迟后承接低音。多个谱表并不等于多个独立主题。",
+      "score_spans": [
+        {
+          "pdf_page_start": 15,
+          "pdf_page_end": 16,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "当前PDF物理15页相关谱表",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-texture-counterpoint",
+        "ravel-harmonic-ledger"
+      ]
+    },
+    {
+      "id": "return-formal-arrival",
+      "dimension": "form",
+      "claim_level": "theoretical_analysis",
+      "short_label": "主调到达与乐队确认",
+      "detail_markdown": "第15页乐队弱起、后置低音和持续的主题陈述共同形成到达过程。其形式作用比单一音头宽，不能把第一次D大三和弦攻击直接等同教科书完全终止。",
+      "score_spans": [
+        {
+          "pdf_page_start": 15,
+          "pdf_page_end": 23,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "当前PDF物理15页相关谱表",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-form-functions",
+        "ravel-tonal-emergence"
+      ],
+      "analysis_framework": "主调确立、主题确认与结构重音"
+    },
+    {
+      "id": "lyrical-poly-meter",
+      "dimension": "counterpoint",
+      "claim_level": "theoretical_analysis",
+      "short_label": "3/4与9/8：旋律／伴奏分层",
+      "detail_markdown": "第24页钢琴歌唱层与快速音型具有不同节奏组织，旋律与伴奏的记谱拍号可不同。应沿各自节拍组读谱，不能把每次音型相遇都当作新的和弦或模仿入口。",
+      "score_spans": [
+        {
+          "pdf_page_start": 24,
+          "pdf_page_end": 24,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "当前PDF物理24页相关谱表",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-texture-counterpoint"
+      ]
+    },
+    {
+      "id": "english-horn-transfer",
+      "dimension": "orchestration",
+      "claim_level": "score_observation",
+      "short_label": "Andante：英国管接管歌唱线",
+      "detail_markdown": "第25页下部Andante，英国管承担有呼吸的线条，钢琴以连续音型支撑，中低弦保持背景。主导权转移、和声延续与伴奏运动共同连接前后。",
+      "score_spans": [
+        {
+          "pdf_page_start": 25,
+          "pdf_page_end": 25,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "当前PDF物理25页相关谱表",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-texture-counterpoint",
+        "ravel-form-functions"
+      ]
+    },
+    {
+      "id": "lyrical-formal-region",
+      "dimension": "form",
+      "claim_level": "theoretical_analysis",
+      "short_label": "抒情对比与连接",
+      "detail_markdown": "Più lento及Andante附近，较长旋律音、减薄配器和流动伴奏构成与厚重主题陈述的对比。这是乐句功能和织体的共同变化；页码分组只是导航范围。",
+      "score_spans": [
+        {
+          "pdf_page_start": 24,
+          "pdf_page_end": 32,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "当前PDF物理24页相关谱表",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-form-functions"
       ]
     },
     {
       "id": "allegro-region",
       "dimension": "form",
-      "claim_level": "score_observation",
-      "short_label": "Allegro：快速段落",
-      "detail_markdown": "Allegro速度文字出现在本版第33页。33–48页沿用既有导聆的段落范围，仅用于背景，不将第48页末当作已核定的严格曲式边界。",
+      "claim_level": "theoretical_analysis",
+      "short_label": "Allegro：快板对比区",
+      "detail_markdown": "第33页排练号14起，6/8、下降和弦型及反复节奏支撑建立快板性格。它与此前慢段形成大尺度对比，并保留进一步展开旧材料的空间。",
       "score_spans": [
         {
           "pdf_page_start": 33,
@@ -183,7 +835,7 @@
       "sources": [
         {
           "source_id": "ravel-target-score",
-          "locator": "PDF物理第33页Allegro标记；现有33–48页导聆",
+          "locator": "当前PDF物理33页相关谱表",
           "claim_attribution": "score"
         }
       ],
@@ -194,15 +846,380 @@
         "timing": "candidate_alignment"
       },
       "related_essay_ids": [
-        "ravel-tonal-emergence"
+        "ravel-form-functions"
+      ],
+      "analysis_framework": "起始陈述—重复变形—展开；单乐章对比区"
+    },
+    {
+      "id": "allegro-roles",
+      "dimension": "orchestration",
+      "claim_level": "score_observation",
+      "short_label": "下降和弦与低音节奏支撑",
+      "detail_markdown": "第33–36页，下降型先由乐队、后由钢琴等声部呈示；低弦、圆号及鼓类的短促支撑维持节拍。第36页钢琴附点线与竖琴交替和弦分工，不能都称为主题独奏。",
+      "score_spans": [
+        {
+          "pdf_page_start": 33,
+          "pdf_page_end": 36,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "当前PDF物理33页相关谱表",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-texture-counterpoint"
+      ]
+    },
+    {
+      "id": "parallel-triads",
+      "dimension": "harmony",
+      "claim_level": "theoretical_analysis",
+      "short_label": "Dm—C—Bdim—Am—G—F：平移上层",
+      "detail_markdown": "第35页印号135起，钢琴白键三和弦逐级下降，与E、B、G♯低层相叠。Dm叠E大三和弦的切片可描述为E7(♭9,11)，但这一形态本身不证明在A调执行属功能；反复低音与音阶性平移提供另一种组织逻辑。",
+      "score_spans": [
+        {
+          "pdf_page_start": 35,
+          "pdf_page_end": 35,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "当前PDF物理35页相关谱表",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-harmonic-ledger"
+      ],
+      "harmonic_analysis": {
+        "system": "layered_pedal",
+        "key_context": "E支点；上层白键三和弦移动",
+        "root": null,
+        "bass": "E2",
+        "roman_numeral": null,
+        "inversion": "undetermined",
+        "pitch_collection": [
+          "E",
+          "G#",
+          "B",
+          "D",
+          "F",
+          "A"
+        ],
+        "chord_tones": [],
+        "omitted_tones": [],
+        "pitch_basis": "concert",
+        "temporal_scope": "印号135起音的Dm上层与E支撑合看；后续下降和弦另变",
+        "voices": [
+          {
+            "instrument": "钢琴",
+            "pitches": [
+              "D5",
+              "F5",
+              "A5"
+            ],
+            "role": "Dm上层"
+          },
+          {
+            "instrument": "大提琴",
+            "pitches": [
+              "E2",
+              "B2",
+              "G#3"
+            ],
+            "role": "E大三和弦支撑"
+          },
+          {
+            "instrument": "低音提琴",
+            "pitches": [
+              "E2",
+              "B2"
+            ],
+            "role": "低层加倍；以实音计"
+          }
+        ],
+        "voice_leading": "上层Dm→C→Bdim→Am→G→F，低层E支点延续，异层材料交错。",
+        "nonchord_tones": "F、A、D在上层是和弦构成音；不能无条件按A调属和弦的装饰音处理。"
+      }
+    },
+    {
+      "id": "planing-not-counterpoint",
+      "dimension": "counterpoint",
+      "claim_level": "theoretical_analysis",
+      "short_label": "平行和弦：和声化旋律",
+      "detail_markdown": "第35页三和弦块随上声下降，内声主要同向支撑。这里宜称和声化旋律或和弦平移；音有三颗，不代表存在三条等权、独立发展的对位线。",
+      "score_spans": [
+        {
+          "pdf_page_start": 35,
+          "pdf_page_end": 36,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "当前PDF物理35页相关谱表",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-texture-counterpoint",
+        "ravel-harmonic-ledger"
+      ]
+    },
+    {
+      "id": "scene-transition",
+      "dimension": "form",
+      "claim_level": "theoretical_analysis",
+      "short_label": "透明高音区：展开空间换景",
+      "detail_markdown": "第51页排练号25处，短句、高音区、点状弦乐和连续分解构成新织体。其功能是展开过程中的音色与音区转换，而非仅凭换配器就认定另起一首封闭段落。",
+      "score_spans": [
+        {
+          "pdf_page_start": 51,
+          "pdf_page_end": 51,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "当前PDF物理51页相关谱表",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-form-functions",
+        "ravel-timbre-perspectives"
+      ]
+    },
+    {
+      "id": "harp-piano-division",
+      "dimension": "orchestration",
+      "claim_level": "score_observation",
+      "short_label": "竖琴奏高线，钢琴奏分解",
+      "detail_markdown": "第51页长笛／短笛与竖琴的高音线关系紧密，持续的快速分解主要写在钢琴，弦乐以拨奏、短音支撑。类似竖琴的音响不等于实际竖琴在奏分解伴奏。",
+      "score_spans": [
+        {
+          "pdf_page_start": 51,
+          "pdf_page_end": 51,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "当前PDF物理51页相关谱表",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-texture-counterpoint",
+        "ravel-timbre-perspectives"
+      ]
+    },
+    {
+      "id": "trombone-ostinato",
+      "dimension": "counterpoint",
+      "claim_level": "theoretical_analysis",
+      "short_label": "长号长线与反复背景",
+      "detail_markdown": "第61页长号持续、连接音与鼓类、中低弦反复节奏并存，钢琴休止。两层时间尺度不同，是长线条与固定背景的复合，不按乐器数机械计算主题数。",
+      "score_spans": [
+        {
+          "pdf_page_start": 61,
+          "pdf_page_end": 61,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "当前PDF物理61页相关谱表",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-texture-counterpoint"
+      ]
+    },
+    {
+      "id": "trombone-orchestration",
+      "dimension": "orchestration",
+      "claim_level": "score_observation",
+      "short_label": "钢琴休止时的管弦乐层次",
+      "detail_markdown": "长号承担长时值线条，中低弦提供重复节拍支撑，鼓类明确运动；第61页末竖琴上行开启新的音区方向。钢琴此处留出空间，运动并未停止。",
+      "score_spans": [
+        {
+          "pdf_page_start": 61,
+          "pdf_page_end": 61,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "当前PDF物理61页相关谱表",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-texture-counterpoint",
+        "ravel-form-functions"
+      ]
+    },
+    {
+      "id": "development-continuation",
+      "dimension": "form",
+      "claim_level": "theoretical_analysis",
+      "short_label": "展开性延续：交替与叠合",
+      "detail_markdown": "第61页及其后，早先材料、持续线和活动背景交替或重叠。此段以展开性延续理解；尚不把每个配器交接认证为新的主题或严格小曲式边界。",
+      "score_spans": [
+        {
+          "pdf_page_start": 61,
+          "pdf_page_end": 81,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "当前PDF物理61页相关谱表",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-form-functions"
+      ]
+    },
+    {
+      "id": "retransition",
+      "dimension": "form",
+      "claim_level": "theoretical_analysis",
+      "short_label": "返回过程：音区与材料回收",
+      "detail_markdown": "第82页排练号43附近起，低层材料、钢琴跳跃与乐队逐渐聚合，为后段回收创造条件。再转换与返回是过程性功能，不以翻页或单一速度字样取代材料、调性与终止判断。",
+      "score_spans": [
+        {
+          "pdf_page_start": 82,
+          "pdf_page_end": 90,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "当前PDF物理82页相关谱表",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-form-functions"
+      ]
+    },
+    {
+      "id": "contrary-return",
+      "dimension": "counterpoint",
+      "claim_level": "theoretical_analysis",
+      "short_label": "跳跃与外声走向",
+      "detail_markdown": "第82页下系统钢琴和低弦形成不同节奏的线条。高低交替与外声走向需分别读出，不能将所有跳跃简化成同一和弦的装饰，也不据此命名严格模仿。",
+      "score_spans": [
+        {
+          "pdf_page_start": 82,
+          "pdf_page_end": 82,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "当前PDF物理82页相关谱表",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-texture-counterpoint"
       ]
     },
     {
       "id": "closing-cadenza",
       "dimension": "form",
-      "claim_level": "score_observation",
-      "short_label": "末段华彩（段落背景）",
-      "detail_markdown": "第91页可见Cadenza标记。91–94页是本版导聆的粗范围；自由时值、乐队余音和独奏内部段落仍需分别校核。",
+      "claim_level": "theoretical_analysis",
+      "short_label": "后段华彩：回忆与综合",
+      "detail_markdown": "第91页Cadenza开始，低区分解、旋律与密集运动逐层组织；第93页加入较慢低线，第95页后半乐队逐步进入。它承担返回、变形与综合，独奏空间的结束并非一刀切。",
       "score_spans": [
         {
           "pdf_page_start": 91,
@@ -214,7 +1231,7 @@
       "sources": [
         {
           "source_id": "ravel-target-score",
-          "locator": "PDF第91页Cadenza；现有91–94页导聆",
+          "locator": "当前PDF物理91页相关谱表",
           "claim_attribution": "score"
         }
       ],
@@ -225,19 +1242,105 @@
         "timing": "candidate_alignment"
       },
       "related_essay_ids": [
+        "ravel-form-functions",
         "ravel-timbre-perspectives"
       ]
     },
     {
-      "id": "orchestra-return",
-      "dimension": "orchestration",
-      "claim_level": "score_observation",
-      "short_label": "乐队在本页重新进入",
-      "detail_markdown": "第95页上部仍为钢琴，后部开始出现乐队声部。页级背景卡不表示这一页从第一个音起就是合奏，也不把论文中的小节号直接套入MIDI候选编号。",
+      "id": "cadenza-c-over-e",
+      "dimension": "harmony",
+      "claim_level": "theoretical_analysis",
+      "short_label": "C/E：大三和弦第一转位",
+      "detail_markdown": "第91页前两小节钢琴重复E–G–C分解，按骨架取根音C、低音E，为C/E。局部以C为参照可写I6；相对D中心是♭VII6。仅凭这一音响不足以证明已经完成转调。旋律B♭加入后须另开分析窗口。",
       "score_spans": [
         {
-          "pdf_page_start": 95,
-          "pdf_page_end": 95,
+          "pdf_page_start": 91,
+          "pdf_page_end": 91,
+          "precision": "score_segment",
+          "score_start": [
+            91,
+            0,
+            88.9
+          ],
+          "score_end": [
+            91,
+            0,
+            585.8
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "当前PDF物理91页相关谱表",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "score_segment",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-harmonic-ledger",
+        "ravel-timbre-perspectives"
+      ],
+      "harmonic_analysis": {
+        "system": "functional_tonal",
+        "key_context": "局部C集合；全曲D中心",
+        "root": "C",
+        "bass": "E1",
+        "roman_numeral": "I6（局部C）／♭VII6（相对D）",
+        "inversion": "first",
+        "pitch_collection": [
+          "C",
+          "E",
+          "G"
+        ],
+        "chord_tones": [
+          "C",
+          "E",
+          "G"
+        ],
+        "omitted_tones": [],
+        "pitch_basis": "concert",
+        "temporal_scope": "Cadenza首两小节的重复分解骨架；残留弦乐随后退出",
+        "voices": [
+          {
+            "instrument": "钢琴",
+            "pitches": [
+              "E2",
+              "G2",
+              "C3",
+              "E3",
+              "G3"
+            ],
+            "role": "C/E分解"
+          },
+          {
+            "instrument": "残留低弦",
+            "pitches": [
+              "E1",
+              "C2"
+            ],
+            "role": "首小节延续、渐退；最低E层"
+          }
+        ],
+        "voice_leading": "E保持低区支点，C大三和弦分解延展，随后B♭旋律改变音响。",
+        "nonchord_tones": "后续B♭不纳入本窗口；需依据新旋律与和声重分层。"
+      }
+    },
+    {
+      "id": "cadenza-melody-layer",
+      "dimension": "counterpoint",
+      "claim_level": "theoretical_analysis",
+      "short_label": "长音旋律与高速分解",
+      "detail_markdown": "第92页较长旋律音与密集连续音型分层：旋律的句法和伴奏的音型周期不等长。先保持两层身份，再讨论和声；不能每颗快速音都单列成一次和弦变化。",
+      "score_spans": [
+        {
+          "pdf_page_start": 92,
+          "pdf_page_end": 92,
           "precision": "page_range",
           "region_ids": []
         }
@@ -245,7 +1348,7 @@
       "sources": [
         {
           "source_id": "ravel-target-score",
-          "locator": "PDF第95页后部管弦乐重新进入",
+          "locator": "当前PDF物理92页相关谱表",
           "claim_attribution": "score"
         }
       ],
@@ -256,8 +1359,237 @@
         "timing": "candidate_alignment"
       },
       "related_essay_ids": [
+        "ravel-texture-counterpoint",
         "ravel-timbre-perspectives"
       ]
+    },
+    {
+      "id": "cadenza-countermelody",
+      "dimension": "counterpoint",
+      "claim_level": "theoretical_analysis",
+      "short_label": "低声部三连线：独立副旋律",
+      "detail_markdown": "第93页印号500附近，较慢低声部以三连组织单列，与上方旋律及密集音型有独立入口和方向。这里有比单纯分解和弦更充分的副旋律／多层对位依据；不进一步冒称为赋格或可转位对位。",
+      "score_spans": [
+        {
+          "pdf_page_start": 93,
+          "pdf_page_end": 94,
+          "precision": "score_segment",
+          "score_start": [
+            93,
+            3,
+            88.9
+          ],
+          "score_end": [
+            94,
+            0,
+            88.9
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "当前PDF物理93页相关谱表",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "score_segment",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-texture-counterpoint",
+        "ravel-timbre-perspectives"
+      ]
+    },
+    {
+      "id": "orchestra-return",
+      "dimension": "orchestration",
+      "claim_level": "score_observation",
+      "short_label": "乐队进入尚在延续的华彩",
+      "detail_markdown": "第95页后半排练号51，低音单簧管、低弦逐渐接入，钢琴运动仍延续。第96页木管进一步分次进入。这是层次重建，不是翻页即全体齐奏。",
+      "score_spans": [
+        {
+          "pdf_page_start": 95,
+          "pdf_page_end": 97,
+          "precision": "score_segment",
+          "score_start": [
+            95,
+            2,
+            474.1
+          ],
+          "score_end": [
+            97,
+            0,
+            0
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "当前PDF物理95页相关谱表",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "score_segment",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-texture-counterpoint",
+        "ravel-timbre-perspectives"
+      ]
+    },
+    {
+      "id": "overlapping-return",
+      "dimension": "form",
+      "claim_level": "theoretical_analysis",
+      "short_label": "重叠式重入与收束",
+      "detail_markdown": "独奏未完全停下，乐队已逐层参与，因此华彩与后续合奏的关系应记为重叠连接。返回和结束功能逐步加强，不必制造一个不存在的全体静止分界。",
+      "score_spans": [
+        {
+          "pdf_page_start": 95,
+          "pdf_page_end": 99,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "当前PDF物理95页相关谱表",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-form-functions",
+        "ravel-timbre-perspectives"
+      ]
+    },
+    {
+      "id": "final-allegro",
+      "dimension": "form",
+      "claim_level": "theoretical_analysis",
+      "short_label": "短Allegro：压缩尾声",
+      "detail_markdown": "第100页排练号53，6/8与短促集体动作回收快段动力；篇幅虽短，结束功能来自此前的回忆、聚合与主调回归。采用codetta／压缩尾声解释。",
+      "score_spans": [
+        {
+          "pdf_page_start": 100,
+          "pdf_page_end": 100,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "当前PDF物理100页相关谱表",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-form-functions"
+      ]
+    },
+    {
+      "id": "final-tonic",
+      "dimension": "harmony",
+      "claim_level": "theoretical_analysis",
+      "short_label": "终结D大三和弦：I",
+      "detail_markdown": "最后的合奏汇入D–F♯–A，低层D支撑主调终结。此前下行线条、力度与节奏收束另属过程，不能用终和弦倒推每个经过音都是标准属和弦。",
+      "score_spans": [
+        {
+          "pdf_page_start": 100,
+          "pdf_page_end": 100,
+          "precision": "score_segment",
+          "score_start": [
+            100,
+            0,
+            730
+          ],
+          "score_end": [
+            100,
+            0,
+            796.5
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "当前PDF物理100页相关谱表",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "score_segment",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-harmonic-ledger",
+        "ravel-form-functions"
+      ],
+      "harmonic_analysis": {
+        "system": "functional_tonal",
+        "key_context": "D大调",
+        "root": "D",
+        "bass": "D2",
+        "roman_numeral": "I",
+        "inversion": "root",
+        "pitch_collection": [
+          "D",
+          "F#",
+          "A"
+        ],
+        "chord_tones": [
+          "D",
+          "F#",
+          "A"
+        ],
+        "omitted_tones": [],
+        "pitch_basis": "concert",
+        "temporal_scope": "最后合奏攻击后的主调结构音，不包含此前下行经过",
+        "voices": [
+          {
+            "instrument": "大号等低层",
+            "pitches": [
+              "D2",
+              "D3"
+            ],
+            "role": "根音支撑"
+          },
+          {
+            "instrument": "弦乐及木管",
+            "pitches": [
+              "D",
+              "F#",
+              "A"
+            ],
+            "role": "主和弦与八度加倍"
+          }
+        ],
+        "voice_leading": "前段运动收束于D主调；不把整个尾声简化成一个V–I。",
+        "nonchord_tones": "此前下行线条的变化音不纳入终和弦。"
+      }
     }
   ]
 }

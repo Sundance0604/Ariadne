@@ -37,3 +37,19 @@ test('navigation never turns page precision or candidate times into exact seekin
   assert.equal(spanNavigation({...span,precision:'score_segment'},verified,regions).time,12);
   assert.equal(spanNavigation({...span,precision:'score_segment'},{...verified,timing:'candidate_alignment'},regions).canSeek,false);
 });
+
+test('harmonic evidence shows concert-pitch distribution and actual inversion',()=>{
+  const $=makeDOM(),data=fixture(),hud=createStructuralHUD({onEssay(){}});
+  data.events[0].harmonic_analysis={system:'functional_tonal',key_context:'D major',root:'D',bass:'A3',
+    roman_numeral:'I6/4',inversion:'second',pitch_collection:['D','F#','A'],omitted_tones:[],
+    temporal_scope:'orchestral upbeat only',voices:[{instrument:'horns',pitches:['A3','D4'],role:'bass and filling'}],
+    voice_leading:'bass D arrives later',nonchord_tones:'none in this sample'};
+  hud.load(data);hud.update({playingPage:1});
+  $('structural-hud').children[0].children[1].children.find(n=>n.tagName==='button').onclick();
+  assert.match($('hud-detail').textContent,/实音/);
+  assert.match($('hud-detail').textContent,/A3/);
+  assert.match($('hud-detail').textContent,/第二转位/);
+  assert.match($('hud-detail').textContent,/orchestral upbeat only/);
+  assert.match($('hud-detail').textContent,/horns/);
+  hud.reset();assert.equal($('hud-detail').hidden,true);
+});

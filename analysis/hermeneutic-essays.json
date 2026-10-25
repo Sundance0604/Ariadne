@@ -17,49 +17,52 @@
           "pdf_page_start": 1,
           "pdf_page_end": 3,
           "precision": "page_range",
-          "region_ids": [],
-          "label": "引子相关证据 · PDF 1–3页"
+          "region_ids": []
         },
         {
           "pdf_page_start": 10,
           "pdf_page_end": 14,
           "precision": "page_range",
-          "region_ids": [],
-          "label": "开头华彩 · PDF 10–14页"
+          "region_ids": []
         },
         {
           "pdf_page_start": 15,
           "pdf_page_end": 23,
           "precision": "page_range",
-          "region_ids": [],
-          "label": "乐队重入及其后续 · PDF 15–23页"
+          "region_ids": []
         }
       ],
       "related_event_ids": [
+        "opening-low-strings",
         "tonal-perspective",
-        "single-hand-layers",
-        "opening-cadenza"
+        "pedal-trajectory",
+        "opening-pentatonic",
+        "opening-cadenza",
+        "cadenza-dominant",
+        "return-tonic-second-inversion",
+        "return-layered-harmony",
+        "return-formal-arrival"
       ],
       "sources": [
         {
-          "source_id": "analysis-ref-11-1",
-          "locator": "§24–35，重点§29–35",
-          "claim_attribution": "authors"
+          "source_id": "ravel-target-score",
+          "locator": "1、10–15页",
+          "claim_attribution": "score"
         },
         {
-          "source_id": "ravel-target-score",
-          "locator": "本版1、3、10页及既有导聆的粗范围",
-          "claim_attribution": "score"
+          "source_id": "analysis-ref-11-1",
+          "locator": "§31–35，区分局部与长跨度",
+          "claim_attribution": "authors"
         }
       ],
       "verification": {
-        "score": "pending",
+        "score": "key_pages_checked",
         "literature": "relevant_sections_checked",
         "location": "page_range",
         "timing": "candidate_alignment"
       },
-      "review_status": "draft_for_musicological_review",
-      "interpretive_note": "论文论证与本版页级导航分别登记；全部音符和细分起止仍待专家校核。"
+      "review_status": "score_based_analysis_for_musicological_review",
+      "interpretive_note": "关键谱页与局部音高已对照；未完成全曲逐拍和弦、全部非和弦音解决及专家复核。时间仍为既有候选同步。"
     },
     {
       "id": "ravel-timbre-perspectives",
@@ -72,49 +75,336 @@
           "pdf_page_start": 1,
           "pdf_page_end": 3,
           "precision": "page_range",
-          "region_ids": [],
-          "label": "开头音色关系 · PDF 1–3页"
+          "region_ids": []
         },
         {
           "pdf_page_start": 91,
           "pdf_page_end": 94,
           "precision": "page_range",
-          "region_ids": [],
-          "label": "末段独奏华彩 · PDF 91–94页"
+          "region_ids": []
         },
         {
           "pdf_page_start": 95,
-          "pdf_page_end": 95,
+          "pdf_page_end": 100,
           "precision": "page_range",
-          "region_ids": [],
-          "label": "乐队进入 · PDF 95页"
+          "region_ids": []
+        },
+        {
+          "pdf_page_start": 11,
+          "pdf_page_end": 11,
+          "precision": "page_range",
+          "region_ids": []
+        },
+        {
+          "pdf_page_start": 51,
+          "pdf_page_end": 51,
+          "precision": "page_range",
+          "region_ids": []
         }
       ],
       "related_event_ids": [
         "horn-contrast",
+        "single-hand-layers",
+        "vivo-contrary-lines",
+        "scene-transition",
+        "harp-piano-division",
         "closing-cadenza",
-        "orchestra-return"
+        "cadenza-c-over-e",
+        "cadenza-melody-layer",
+        "cadenza-countermelody",
+        "orchestra-return",
+        "overlapping-return"
       ],
       "sources": [
         {
+          "source_id": "ravel-target-score",
+          "locator": "3、11、51、91–96、100页",
+          "claim_attribution": "score"
+        },
+        {
           "source_id": "analysis-ref-11-2",
-          "locator": "§5.1–5.5，重点§5.2–5.5",
+          "locator": "§4.14、§5.2–5.5",
           "claim_attribution": "authors"
         },
         {
-          "source_id": "ravel-target-score",
-          "locator": "本版3、91、95页",
-          "claim_attribution": "score"
+          "source_id": "analysis-ref-11-6",
+          "locator": "第2章印60–66、73–84、86–87页",
+          "claim_attribution": "authors"
         }
       ],
       "verification": {
-        "score": "pending",
+        "score": "key_pages_checked",
         "literature": "relevant_sections_checked",
         "location": "page_range",
         "timing": "candidate_alignment"
       },
-      "review_status": "draft_for_musicological_review",
-      "interpretive_note": "音色与意义的关联属于作者解释；未验证相似材料在本版中的逐音同一性。"
+      "review_status": "score_based_analysis_for_musicological_review",
+      "interpretive_note": "关键谱页与局部音高已对照；未完成全曲逐拍和弦、全部非和弦音解决及专家复核。时间仍为既有候选同步。"
+    },
+    {
+      "id": "ravel-harmonic-ledger",
+      "title": "和声、低音与转位：V7、I6/4与C/E",
+      "claim_level": "theoretical_analysis",
+      "reading_mode": "persistent",
+      "markdown_path": "analysis/essays/ravel-harmonic-ledger.md",
+      "score_spans": [
+        {
+          "pdf_page_start": 1,
+          "pdf_page_end": 1,
+          "precision": "page_range",
+          "region_ids": []
+        },
+        {
+          "pdf_page_start": 10,
+          "pdf_page_end": 15,
+          "precision": "page_range",
+          "region_ids": []
+        },
+        {
+          "pdf_page_start": 35,
+          "pdf_page_end": 35,
+          "precision": "page_range",
+          "region_ids": []
+        },
+        {
+          "pdf_page_start": 91,
+          "pdf_page_end": 91,
+          "precision": "page_range",
+          "region_ids": []
+        },
+        {
+          "pdf_page_start": 100,
+          "pdf_page_end": 100,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "related_event_ids": [
+        "tonal-perspective",
+        "pedal-trajectory",
+        "opening-pentatonic",
+        "cadenza-dominant",
+        "return-tonic-second-inversion",
+        "return-layered-harmony",
+        "orchestral-doubling",
+        "parallel-triads",
+        "planing-not-counterpoint",
+        "cadenza-c-over-e",
+        "final-tonic"
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "正文逐例列明；重排谱印号与MIDI计数分别登记",
+          "claim_attribution": "score"
+        },
+        {
+          "source_id": "ravel-durand-score",
+          "locator": "物理15页，印13页，重入位置对照",
+          "claim_attribution": "score"
+        },
+        {
+          "source_id": "analysis-ref-11-1",
+          "locator": "§31–35",
+          "claim_attribution": "authors"
+        },
+        {
+          "source_id": "ravel-caplin-2013",
+          "locator": "印119–123页，终止与延长的区分",
+          "claim_attribution": "authors"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "relevant_sections_checked",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "review_status": "score_based_analysis_for_musicological_review",
+      "interpretive_note": "关键谱页与局部音高已对照；未完成全曲逐拍和弦、全部非和弦音解决及专家复核。时间仍为既有候选同步。"
+    },
+    {
+      "id": "ravel-form-functions",
+      "title": "曲式功能：单乐章中的呈示、展开与重构性返回",
+      "claim_level": "theoretical_analysis",
+      "reading_mode": "persistent",
+      "markdown_path": "analysis/essays/ravel-form-functions.md",
+      "score_spans": [
+        {
+          "pdf_page_start": 1,
+          "pdf_page_end": 10,
+          "precision": "page_range",
+          "region_ids": []
+        },
+        {
+          "pdf_page_start": 11,
+          "pdf_page_end": 32,
+          "precision": "page_range",
+          "region_ids": []
+        },
+        {
+          "pdf_page_start": 33,
+          "pdf_page_end": 81,
+          "precision": "page_range",
+          "region_ids": []
+        },
+        {
+          "pdf_page_start": 82,
+          "pdf_page_end": 90,
+          "precision": "page_range",
+          "region_ids": []
+        },
+        {
+          "pdf_page_start": 91,
+          "pdf_page_end": 100,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "related_event_ids": [
+        "opening-cadenza",
+        "return-formal-arrival",
+        "english-horn-transfer",
+        "lyrical-formal-region",
+        "allegro-region",
+        "scene-transition",
+        "trombone-orchestration",
+        "development-continuation",
+        "retransition",
+        "closing-cadenza",
+        "overlapping-return",
+        "final-allegro",
+        "final-tonic"
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "速度标记及所列关键页；大区范围不等同逐小节校完",
+          "claim_attribution": "score"
+        },
+        {
+          "source_id": "ravel-caplin-2013",
+          "locator": "119–123页，作为古典形式功能比较框架",
+          "claim_attribution": "authors"
+        },
+        {
+          "source_id": "analysis-ref-11-6",
+          "locator": "印73–76页，独奏／乐队与大结构",
+          "claim_attribution": "authors"
+        },
+        {
+          "source_id": "analysis-ref-11-1",
+          "locator": "§29–30，开头华彩局部组织",
+          "claim_attribution": "authors"
+        },
+        {
+          "source_id": "analysis-ref-11-2",
+          "locator": "§5.4，返回的音色视角",
+          "claim_attribution": "authors"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "relevant_sections_checked",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "review_status": "score_based_analysis_for_musicological_review",
+      "interpretive_note": "关键谱页与局部音高已对照；未完成全曲逐拍和弦、全部非和弦音解决及专家复核。时间仍为既有候选同步。"
+    },
+    {
+      "id": "ravel-texture-counterpoint",
+      "title": "乐器职责与对位：从加倍到独立副旋律",
+      "claim_level": "theoretical_analysis",
+      "reading_mode": "persistent",
+      "markdown_path": "analysis/essays/ravel-texture-counterpoint.md",
+      "score_spans": [
+        {
+          "pdf_page_start": 1,
+          "pdf_page_end": 3,
+          "precision": "page_range",
+          "region_ids": []
+        },
+        {
+          "pdf_page_start": 11,
+          "pdf_page_end": 15,
+          "precision": "page_range",
+          "region_ids": []
+        },
+        {
+          "pdf_page_start": 24,
+          "pdf_page_end": 25,
+          "precision": "page_range",
+          "region_ids": []
+        },
+        {
+          "pdf_page_start": 33,
+          "pdf_page_end": 36,
+          "precision": "page_range",
+          "region_ids": []
+        },
+        {
+          "pdf_page_start": 51,
+          "pdf_page_end": 51,
+          "precision": "page_range",
+          "region_ids": []
+        },
+        {
+          "pdf_page_start": 61,
+          "pdf_page_end": 61,
+          "precision": "page_range",
+          "region_ids": []
+        },
+        {
+          "pdf_page_start": 91,
+          "pdf_page_end": 96,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "related_event_ids": [
+        "opening-low-strings",
+        "horn-contrast",
+        "single-hand-layers",
+        "vivo-contrary-lines",
+        "orchestral-doubling",
+        "lyrical-poly-meter",
+        "english-horn-transfer",
+        "allegro-roles",
+        "planing-not-counterpoint",
+        "harp-piano-division",
+        "trombone-ostinato",
+        "trombone-orchestration",
+        "contrary-return",
+        "cadenza-melody-layer",
+        "cadenza-countermelody",
+        "orchestra-return"
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "正文各页的发音、节奏、休止与加倍关系",
+          "claim_attribution": "score"
+        },
+        {
+          "source_id": "analysis-ref-11-6",
+          "locator": "印60–66、79–84、86–87页",
+          "claim_attribution": "authors"
+        },
+        {
+          "source_id": "analysis-ref-11-2",
+          "locator": "§4.14；音色与实际乐器职责区分",
+          "claim_attribution": "authors"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "relevant_sections_checked",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "review_status": "score_based_analysis_for_musicological_review",
+      "interpretive_note": "关键谱页与局部音高已对照；未完成全曲逐拍和弦、全部非和弦音解决及专家复核。时间仍为既有候选同步。"
     }
   ]
 }

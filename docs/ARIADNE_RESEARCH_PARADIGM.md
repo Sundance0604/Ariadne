@@ -52,6 +52,10 @@
 
 事件至少有唯一ID、维度、认识层次、短标签、详解、一个或多个谱面范围、具体来源及独立 `verification.score/literature/location/timing`。文章另有标题、`reading_mode: persistent`、正文和可选关联事件。两者允许多个不连续范围与同一位置的竞争观点。
 
+和声事件可附加 `harmonic_analysis`：记录体系、调性语境、根音、实际最低音、罗马级数、转位、结构音、省略音、取样窗口、乐器实音分工、声部进行及非和弦音说明。`pitch_basis`必须为`concert`；音名以`C4`为中央C，省略八度时表示音级。`pitch_collection`是指定窗口的结构归约，不冒充该段全部实际音符。功能和弦以`chord_tones`按根、三、五、七音排列；检查低音与转位是否矛盾。四度、五声或多层持续音可保留空根音／级数，不能为填满卡片制造V–I。
+
+这些结构检查只能拒绝明显的数据矛盾，不能自动判定调性、和弦功能、声部独立性或终止。必须结合全总谱的移调、持续音与节拍位置。附加参考谱可单独记录路径与SHA-256；内容替换时拒绝继续使用旧研究依据。当前拉威尔技术扩展及阅读记录见[更新报告](../reports/ravel-score-research-update.md)。
+
 状态使用明确字符串，例如 `pending`、`disputed`、`key_pages_checked`、`relevant_sections_checked`、`page_range`、`candidate_alignment`。人工 `verified` 的谱面／定位必须记录审核者和日期。文章的编辑完成度、谱面事实、文献阅读范围与时间精度各自独立。禁止新增虚构浮点“准确率”。
 
 实际实现：后端 `scripts/research_data.py`；纯定位逻辑 `review/research-model.mjs`；技术仪表 `structural-hud.mjs`；长文 `hermeneutics.mjs`；加载及版本隔离 `research.mjs`；共用安全DOM呈现 `research-ui.mjs`。`app.mjs`只接线到统一媒体上下文，`analysis.mjs`只扩充第四个标签。没有重写框架，也没有重跑对齐或OMR。

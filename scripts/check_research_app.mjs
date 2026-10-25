@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 const $=id=>document.getElementById(id);
 async function ready(test){for(let i=0;i<200;i++){if(test())return;await new Promise(r=>setTimeout(r,10));}throw Error('Research did not load');}
 $('track').value='ravel-left-hand';await $('track').onchange();
-await ready(()=>$('essay-select').children.length===2);
+await ready(()=>$('essay-select').children.length===5);
 $('tab-research').onclick();$('essay-body').scrollTop=240;
 const first=$('essay-body').children[0];
 $('jump').value='32';$('go').onclick();
@@ -15,14 +15,20 @@ $('jump').value='126';$('go').onclick();$('pagenext').onclick();
 assert.match($('hud-position').textContent,/播放位置.*33.*浏览页.*34/);
 $('essay-follow').checked=true;$('essay-follow').onchange();
 $('jump').value='480';$('go').onclick();
-assert.match($('essay-body').children[0].textContent,/同一架钢琴/);
+// The form essay legitimately spans both the Allegro and the later cadenza.
+assert.match($('essay-body').children[0].textContent,/曲式功能/);
 $('essay-follow').checked=false;$('jump').value='1';$('go').onclick();
-assert.match($('essay-body').children[0].textContent,/同一架钢琴/);
+assert.match($('essay-body').children[0].textContent,/曲式功能/);
 $('essay-select').value='ravel-tonal-emergence';$('essay-select').onchange();
 const time=$('audio').currentTime;
 const anchors=$('essay-body').children.filter(n=>n.tagName==='BUTTON');
 anchors[1].onclick();assert.equal($('audio').currentTime,time);assert.match($('pagelabel').textContent,/第 10 /);
 anchors[2].onclick();assert.equal($('audio').currentTime,time);assert.match($('pagelabel').textContent,/第 15 /);
+$('jump').value='61';$('go').onclick();
+const harmony=$('structural-hud').children[0].children[1];
+harmony.children.find(n=>n.tagName==='BUTTON'&&n.textContent.includes('A7')).onclick();
+const descendants=node=>node.textContent+' '+node.children.map(descendants).join(' ');
+assert.match(descendants($('hud-detail')),/A1/);assert.match(descendants($('hud-detail')),/原位/);
 for(const track of ['lark-ascending','mahler-4']){
   $('track').value=track;await $('track').onchange();await ready(()=>$('research-state').textContent.includes('暂无'));
   assert.equal($('essay-body').children.length,0);

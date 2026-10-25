@@ -1,6 +1,27 @@
 import {activeEvents,indexResearch,dimensionLabels,claimLabels,eventScope} from './research-model.mjs';
 import {node,rich,verificationText,appendSources} from './research-ui.mjs';
 
+const systems={functional_tonal:'调性功能和声',modal_pentatonic:'调式／五声材料',quartal:'四度结构',layered_pedal:'分层与持续低音'};
+const inversions={root:'原位',first:'第一转位',second:'第二转位',third:'第三转位',not_applicable:'不适用',undetermined:'不作单一转位判定'};
+function appendHarmony(target,harmony){
+  if(!harmony)return;
+  const section=node('section',null,'harmonic-evidence');section.append(node('h4','和声与声部依据（实音）'));
+  const facts=node('dl',null,'harmonic-summary');
+  for(const [label,value] of [['体系',systems[harmony.system]],['调性语境',harmony.key_context],
+    ['级数',harmony.roman_numeral||'不强加功能级数'],['根音',harmony.root||'不归为单一三度和弦'],
+    ['实际低音',harmony.bass],['转位',inversions[harmony.inversion]],['结构音',harmony.pitch_collection.join('、')],
+    ['省略音',(harmony.omitted_tones||[]).join('、')||'无另列省略音']]){
+    facts.append(node('dt',label),node('dd',value));
+  }
+  section.append(facts,node('p',`取样范围：${harmony.temporal_scope}`));
+  const scroll=node('div',null,'harmonic-table'),table=node('table'),head=node('thead'),row=node('tr');
+  for(const label of ['乐器／声部','实音','职责'])row.append(node('th',label));head.append(row);table.append(head);
+  const body=node('tbody');for(const voice of harmony.voices){const row=node('tr');
+    for(const text of [voice.instrument,voice.pitches.join('、'),voice.role])row.append(node('td',text));body.append(row);}
+  table.append(body);scroll.append(table);section.append(scroll,node('p',`声部进行：${harmony.voice_leading}`),
+    node('p',`非和弦音／材料音：${harmony.nonchord_tones}`));target.append(section);
+}
+
 export function createStructuralHUD({onEssay}){
   const root=document.getElementById('structural-hud'),cards=new Map(),signatures=new Map();
   const position=document.getElementById('hud-position'),detail=document.getElementById('hud-detail');
@@ -14,6 +35,7 @@ export function createStructuralHUD({onEssay}){
   function explain(event){
     detail.replaceChildren(node('h3',event.short_label),node('p',`${claimLabels[event.claim_level]} · ${verificationText(event.verification)}`,'analysis-note'));
     const body=node('div',null,'analysis-rich');rich(body,event.html);detail.append(body);
+    appendHarmony(detail,event.harmonic_analysis);
     if(event.analysis_framework)detail.append(node('p',`框架：${event.analysis_framework}`));
     for(const alternative of event.alternatives||[])detail.append(node('p',`其他解释：${alternative}`));
     appendSources(detail,event,data.sources);

@@ -38,14 +38,14 @@
     "path": "resource/ravel left hand piano concerto/analysis/Ravel_Left_Hand_Concerto_Full_Analysis.md",
     "pdf_sha256": "67aa60cc89160ea7e475fd7fa45352ec6e0c45f6cd3557421d8caafc18531083",
     "review_status": "editorially_revised",
-    "editorial_note": "已改为成稿叙述，并按当前 PDF 纠正关键段落页码；不等于逐音符与录音同步全部验收。",
+    "editorial_note": "导聆正文已编辑；新增研究含关键和声、声部职责与曲式功能分析。关键谱页与辅助MIDI局部对照不等于全曲逐拍或专家验收。",
     "reference_reading_status": {
       "analysis-ref-11-1": "relevant_sections_checked",
       "analysis-ref-11-2": "relevant_sections_checked",
       "analysis-ref-11-3": "search_summary_only",
-      "analysis-ref-11-4": "not_read",
+      "analysis-ref-11-4": "publisher_metadata_checked",
       "analysis-ref-11-5": "not_read",
-      "analysis-ref-11-6": "not_read",
+      "analysis-ref-11-6": "relevant_sections_checked",
       "analysis-ref-11-7": "programme_note_checked_with_conflicts",
       "analysis-ref-11-8": "comparison_not_used"
     }
