@@ -1,0 +1,86 @@
+{
+  "checked_at": "2026-10-25T20:31:33.916264+08:00",
+  "status": "local_mvp_candidate_ready",
+  "baseline": {
+    "python_total": 76,
+    "python_passed": 74,
+    "python_skipped": 2,
+    "node_passed": 17
+  },
+  "final": {
+    "python_total": 85,
+    "python_passed": 83,
+    "python_skipped": 2,
+    "node_passed": 22,
+    "module_http_dom_integration": "PASS"
+  },
+  "research_http": [
+    {
+      "track": "ravel-left-hand",
+      "http": 200,
+      "available": true,
+      "events": 8,
+      "essays": 2
+    },
+    {
+      "track": "lark-ascending",
+      "http": 200,
+      "available": false,
+      "events": 0,
+      "essays": 0
+    },
+    {
+      "track": "mahler-4",
+      "http": 200,
+      "available": false,
+      "events": 0,
+      "essays": 0
+    }
+  ],
+  "static_modules": "PASS",
+  "legacy_files_unchanged": {
+    "alignment.json": true,
+    "measure-map.json": true,
+    "analysis/annotations.json": true,
+    "metadata/recording.json": true
+  },
+  "browser": {
+    "method": "actual in-app browser using supported UI tools",
+    "ravel_audio_playback": "PASS; time advanced to about90.77s",
+    "persistent_article_scroll": "PASS; scrollTop720 retained across seeks to pages10 and33",
+    "independent_hud_and_manual_page": "PASS; playing33 and browsing34 distinguished",
+    "essay_follow_and_hud_links": "PASS",
+    "page_only_navigation": "PASS; audio stayed0 while opening pages10 and15",
+    "rate_and_loop": "PASS; rate1.2 and A/B return to52.18s, page3, article retained",
+    "lark_audio": "PASS; paused=false",
+    "mahler_video": "PASS; readyState4, paused=false, time0.158575",
+    "viewport_checks": [
+      "1265x712",
+      "748x856",
+      "390x844"
+    ],
+    "screenshots": [
+      "output/research/ravel-desktop.jpg",
+      "output/research/mobile-score.jpg",
+      "output/research/mobile-essay.jpg"
+    ],
+    "not_run": [
+      "full-work human listening validation",
+      "expert note/beat-level analysis review",
+      "real dual-source audio/video switching",
+      "all combinations of mobile modes/fullscreen/PiP"
+    ]
+  },
+  "sources_read_this_round": {
+    "leong-korevaar-2005": "sections24-35, especially29-35",
+    "beavers-2021": "sections4.12 and5.1-5.5"
+  },
+  "no_dtw_or_omr_rerun": true,
+  "no_media_upload_or_cloud_deployment": true,
+  "git_index_check": {
+    "status": "PASS",
+    "indexed_files": 343,
+    "no_video_blobs": true,
+    "no_blob_over_100_MiB": true
+  }
+}

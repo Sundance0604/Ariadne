@@ -92,6 +92,8 @@ class Handler(BaseHTTPRequestHandler):
         if route=='/score-follow.mjs': return self.send_file(ROOT/'review/score-follow.mjs','text/javascript; charset=utf-8')
         if route=='/movements.mjs': return self.send_file(ROOT/'review/movements.mjs','text/javascript; charset=utf-8')
         if route=='/measure-numbers.mjs': return self.send_file(ROOT/'review/measure-numbers.mjs','text/javascript; charset=utf-8')
+        if route in {'/research.mjs','/research-model.mjs','/research-ui.mjs','/structural-hud.mjs','/hermeneutics.mjs'}:
+            return self.send_file(ROOT/'review'/route[1:],'text/javascript; charset=utf-8')
         if route=='/api/library':
             catalog=library(ROOT)
             return self.send_json({'default_track':catalog['default_track'],
@@ -109,6 +111,12 @@ class Handler(BaseHTTPRequestHandler):
                 from analysis_data import load_analysis
                 return self.send_json(load_analysis(ROOT,directory))
             except (OSError,ValueError,KeyError,ImportError) as error:
+                return self.send_json({'error':str(error)},422)
+        if route=='/api/research':
+            try:
+                from research_data import load_research
+                return self.send_json(load_research(ROOT,directory))
+            except (OSError,ValueError,KeyError,TypeError,ImportError) as error:
                 return self.send_json({'error':str(error)},422)
         if route=='/api/project':
             try:

@@ -4,6 +4,7 @@ import {PlaybackController} from '/playback.mjs';
 import {prepareScoreRegions,scoreRegionAt,scoreRegionAtPoint} from '/score-follow.mjs';
 import {movementChapters,chapterAtTime} from '/movements.mjs';
 import {createMeasureNumberPanel,measureNumberLabel} from '/measure-numbers.mjs';
+import {createResearchPanel} from '/research.mjs';
 
 const $=id=>document.getElementById(id);
 const audio=new PlaybackController($('audio'),$('video'),message=>$('media-state').textContent=message);
@@ -29,6 +30,13 @@ const measureNumberPanel=createMeasureNumberPanel({onLocate:locateNumberedMeasur
   scoreMeasures=data;scoreRegions=prepareScoreRegions(scoreMapDocument,project,scoreCorrections,scoreMeasures);
   activeScoreRegion=null;syncPlaybackPosition();configureScoreReview();
 }});
+const researchPanel=createResearchPanel({getRegions:()=>scoreRegions,onSelectTab:name=>analysisPanel.selectTab(name),
+  onNavigate:navigation=>{
+    if(!project||!navigation.page)return;
+    if(navigation.canSeek){audio.currentTime=navigation.time;syncPlaybackPosition();updateTransport();showPage(navigation.page);}
+    else{$('follow').checked=false;showPage(navigation.page,true);$('toast').textContent='已打开相关谱页 · 音频位置待核查，未改变播放时间；可重新勾选跟随播放。';}
+  }});
+new ResizeObserver(()=>document.documentElement.style.setProperty('--hud-height',document.getElementById('research-hud-bar').getBoundingClientRect().height+'px')).observe(document.getElementById('research-hud-bar'));
 new ResizeObserver(()=>document.documentElement.style.setProperty('--toolbar-height',document.querySelector('.toolbar').getBoundingClientRect().height+'px')).observe(document.querySelector('.toolbar'));
 new ResizeObserver(()=>document.documentElement.style.setProperty('--score-nav-height',document.querySelector('.pagebuttons').getBoundingClientRect().height+'px')).observe(document.querySelector('.pagebuttons'));
 for(const [selector,variable] of [['header','--header-height'],['.transport','--transport-height']])new ResizeObserver(()=>document.documentElement.style.setProperty(variable,document.querySelector(selector).getBoundingClientRect().height+'px')).observe(document.querySelector(selector));
@@ -142,6 +150,9 @@ function updatePlayhead(){
   analysisPanel.update(box?.page_number,m.sequence_index,{page,time:audio.currentTime,
     ...(box?.page_number===page?{system_index:box.system_index??0,
       x_pt:position?position.leftPercent/100*box.page_width_pt:box.rect_pt[0]}:{})});
+  researchPanel.update({playingPage:box?.page_number??null,browsedPage:page,time:audio.currentTime,
+    referenceId:m.measure_id,regionId:box?.region_id,systemIndex:box?.system_index,
+    x:position&&box?position.leftPercent/100*box.page_width_pt:null});
   line.hidden=!position||box.page_number!==page||!$('showplayhead').checked;
   if(!position){$('playheadlabel').textContent='暂无位置估计';return;}
   if(!line.hidden){
@@ -191,7 +202,7 @@ async function loadTrack(id){
   scoreMapDocument=null;scoreCorrections=null;$('score-region-review').hidden=true;
   scoreMeasures=null;measureNumberPanel.load(null,track);
   if($('stable-regions-label'))$('stable-regions-label').hidden=true;
-  audio.reset();controls(false);analysisPanel.reset(null);$('play').disabled=true;
+  audio.reset();controls(false);analysisPanel.reset(null);researchPanel.reset();$('play').disabled=true;
   chapters=[];chapterButtons=[];$('movement-chapters').replaceChildren();$('movement-chapters').hidden=true;
   $('video-panel').hidden=true;$('media-state').textContent='';$('loop').checked=false;
   loopStart=0;loopEnd=0;$('loop-label').textContent='';updateTransport();
@@ -236,7 +247,8 @@ async function loadTrack(id){
     if(scoreRegions.length)$('media-state').textContent='自动跟随原谱区域；定位与时间仍保留复核状态。';
     else if(!data.mapping.measures.length){$('notice').textContent='扫描谱小节坐标尚未核验，请手动翻页。';$('media-state').textContent='小节时间为自动候选；扫描谱尚无小节坐标，请手动翻页。';}
     document.body.classList.toggle('has-video',Boolean(data.media?.video));
-    analysisPanel.load(track);showPage(data.mapping.first_score_page||1);choose(0);controls(true);
+    analysisPanel.load(track);researchPanel.load(track,data.mapping.pdf_sha256);
+    showPage(data.mapping.first_score_page||1);choose(0);controls(true);
     $('toast').textContent=retained?`已恢复本页暂存的 ${draft.length} 个锚点`:`已载入 ${draft.length} 个人工锚点`;
     const url=new URL(location.href);url.searchParams.set('track',track);history.replaceState(null,'',url);
   }catch(error){if(version===loadVersion){$('pagelabel').textContent=`无法载入：${error.message}`;$('toast').textContent='可选择其他曲目后重试';}}

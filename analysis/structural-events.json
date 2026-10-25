@@ -1,0 +1,263 @@
+{
+  "schema_version": "1.0.0",
+  "work_id": "ravel-left-hand-concerto",
+  "edition": {
+    "edition_id": "ravel-reengraving-100p",
+    "pdf_sha256": "67aa60cc89160ea7e475fd7fa45352ec6e0c45f6cd3557421d8caafc18531083"
+  },
+  "events": [
+    {
+      "id": "opening-low-strings",
+      "dimension": "orchestration",
+      "claim_level": "score_observation",
+      "short_label": "低音弦乐背景与低音巴松",
+      "detail_markdown": "当前重排谱第1页的低音弦乐反复型先建立背景，低音巴松随后进入。此卡片提示本页的声部关系，不表示这些声部在页内每一刻都同时发音。",
+      "score_spans": [
+        {
+          "pdf_page_start": 1,
+          "pdf_page_end": 1,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "PDF物理第1页，低弦与低音巴松谱表",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-tonal-emergence"
+      ]
+    },
+    {
+      "id": "horn-contrast",
+      "dimension": "orchestration",
+      "claim_level": "score_observation",
+      "short_label": "低音巴松与圆号的并置",
+      "detail_markdown": "第3页可比较低音巴松的连贯线条、圆号发音和弦乐反复背景。尚未逐音核定相似轮廓的主题身份，因此不将它们自动标成同一主题。",
+      "score_spans": [
+        {
+          "pdf_page_start": 3,
+          "pdf_page_end": 3,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "PDF物理第3页，低音巴松、圆号与低弦",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-timbre-perspectives"
+      ]
+    },
+    {
+      "id": "tonal-perspective",
+      "dimension": "harmony",
+      "claim_level": "theoretical_analysis",
+      "short_label": "E–A–D：长跨度调性视角",
+      "detail_markdown": "Leong与Korevaar在§34–35将引子、开头华彩和乐队重入联系为E—A—D路径。这是对较长音乐过程的理论解释，不能当作第1–3页每个瞬间的和弦标签。当前版本的音集合仍待逐音校勘。",
+      "score_spans": [
+        {
+          "pdf_page_start": 1,
+          "pdf_page_end": 3,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "analysis-ref-11-1",
+          "locator": "§34–35；Example 6",
+          "claim_attribution": "authors"
+        }
+      ],
+      "verification": {
+        "score": "pending",
+        "literature": "relevant_sections_checked",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-tonal-emergence"
+      ]
+    },
+    {
+      "id": "single-hand-layers",
+      "dimension": "counterpoint",
+      "claim_level": "theoretical_analysis",
+      "short_label": "单手如何呈现多层织体",
+      "detail_markdown": "Leong与Korevaar在§24–28讨论单手动作与多声部听觉之间的关系。此处只把这一问题关联到开头华彩的页级范围；不声称已逐拍确定旋律、低音和内声的全部对应。",
+      "score_spans": [
+        {
+          "pdf_page_start": 10,
+          "pdf_page_end": 14,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "analysis-ref-11-1",
+          "locator": "§24–28；Examples 4–5",
+          "claim_attribution": "authors"
+        }
+      ],
+      "verification": {
+        "score": "pending",
+        "literature": "relevant_sections_checked",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-tonal-emergence"
+      ]
+    },
+    {
+      "id": "opening-cadenza",
+      "dimension": "form",
+      "claim_level": "theoretical_analysis",
+      "short_label": "开头钢琴华彩（段落背景）",
+      "detail_markdown": "本版第10页已出现钢琴华彩性进入，第10–14页作为当前导聆的粗范围。乐队收束与独奏进入可能共处一页，页码不等于精确起始音。",
+      "score_spans": [
+        {
+          "pdf_page_start": 10,
+          "pdf_page_end": 14,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "PDF第10页与既有导聆10–14页范围",
+          "claim_attribution": "score"
+        },
+        {
+          "source_id": "analysis-ref-11-1",
+          "locator": "§29–33；开头华彩的段落功能",
+          "claim_attribution": "authors"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "relevant_sections_checked",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-tonal-emergence"
+      ]
+    },
+    {
+      "id": "allegro-region",
+      "dimension": "form",
+      "claim_level": "score_observation",
+      "short_label": "Allegro：快速段落",
+      "detail_markdown": "Allegro速度文字出现在本版第33页。33–48页沿用既有导聆的段落范围，仅用于背景，不将第48页末当作已核定的严格曲式边界。",
+      "score_spans": [
+        {
+          "pdf_page_start": 33,
+          "pdf_page_end": 48,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "PDF物理第33页Allegro标记；现有33–48页导聆",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-tonal-emergence"
+      ]
+    },
+    {
+      "id": "closing-cadenza",
+      "dimension": "form",
+      "claim_level": "score_observation",
+      "short_label": "末段华彩（段落背景）",
+      "detail_markdown": "第91页可见Cadenza标记。91–94页是本版导聆的粗范围；自由时值、乐队余音和独奏内部段落仍需分别校核。",
+      "score_spans": [
+        {
+          "pdf_page_start": 91,
+          "pdf_page_end": 94,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "PDF第91页Cadenza；现有91–94页导聆",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-timbre-perspectives"
+      ]
+    },
+    {
+      "id": "orchestra-return",
+      "dimension": "orchestration",
+      "claim_level": "score_observation",
+      "short_label": "乐队在本页重新进入",
+      "detail_markdown": "第95页上部仍为钢琴，后部开始出现乐队声部。页级背景卡不表示这一页从第一个音起就是合奏，也不把论文中的小节号直接套入MIDI候选编号。",
+      "score_spans": [
+        {
+          "pdf_page_start": 95,
+          "pdf_page_end": 95,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "sources": [
+        {
+          "source_id": "ravel-target-score",
+          "locator": "PDF第95页后部管弦乐重新进入",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "key_pages_checked",
+        "literature": "not_applicable",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "related_essay_ids": [
+        "ravel-timbre-perspectives"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "sources": [
+    {
+      "source_id": "ravel-target-score",
+      "title": "用户提供的100页重排总谱（非权威校订版认定）",
+      "kind": "score",
+      "path": "resource/ravel left hand piano concerto/maurice-ravel-piano-concerto-for-the-left-hand.pdf",
+      "reading_status": "key_pages_checked",
+      "urls": [],
+      "reading_note": "本轮查看物理1、3、10、33、91、95页图像；未逐音校勘全谱。"
+    }
+  ]
+}

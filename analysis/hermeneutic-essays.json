@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0.0",
+  "work_id": "ravel-left-hand-concerto",
+  "edition": {
+    "edition_id": "ravel-reengraving-100p",
+    "pdf_sha256": "67aa60cc89160ea7e475fd7fa45352ec6e0c45f6cd3557421d8caafc18531083"
+  },
+  "essays": [
+    {
+      "id": "ravel-tonal-emergence",
+      "title": "调性的逐步确立：从E，经A，至D",
+      "claim_level": "hermeneutic_interpretation",
+      "reading_mode": "persistent",
+      "markdown_path": "analysis/essays/ravel-tonal-emergence.md",
+      "score_spans": [
+        {
+          "pdf_page_start": 1,
+          "pdf_page_end": 3,
+          "precision": "page_range",
+          "region_ids": [],
+          "label": "引子相关证据 · PDF 1–3页"
+        },
+        {
+          "pdf_page_start": 10,
+          "pdf_page_end": 14,
+          "precision": "page_range",
+          "region_ids": [],
+          "label": "开头华彩 · PDF 10–14页"
+        },
+        {
+          "pdf_page_start": 15,
+          "pdf_page_end": 23,
+          "precision": "page_range",
+          "region_ids": [],
+          "label": "乐队重入及其后续 · PDF 15–23页"
+        }
+      ],
+      "related_event_ids": [
+        "tonal-perspective",
+        "single-hand-layers",
+        "opening-cadenza"
+      ],
+      "sources": [
+        {
+          "source_id": "analysis-ref-11-1",
+          "locator": "§24–35，重点§29–35",
+          "claim_attribution": "authors"
+        },
+        {
+          "source_id": "ravel-target-score",
+          "locator": "本版1、3、10页及既有导聆的粗范围",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "pending",
+        "literature": "relevant_sections_checked",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "review_status": "draft_for_musicological_review",
+      "interpretive_note": "论文论证与本版页级导航分别登记；全部音符和细分起止仍待专家校核。"
+    },
+    {
+      "id": "ravel-timbre-perspectives",
+      "title": "同一架钢琴中的不同声音：开头与末段的比较",
+      "claim_level": "hermeneutic_interpretation",
+      "reading_mode": "persistent",
+      "markdown_path": "analysis/essays/ravel-timbre-perspectives.md",
+      "score_spans": [
+        {
+          "pdf_page_start": 1,
+          "pdf_page_end": 3,
+          "precision": "page_range",
+          "region_ids": [],
+          "label": "开头音色关系 · PDF 1–3页"
+        },
+        {
+          "pdf_page_start": 91,
+          "pdf_page_end": 94,
+          "precision": "page_range",
+          "region_ids": [],
+          "label": "末段独奏华彩 · PDF 91–94页"
+        },
+        {
+          "pdf_page_start": 95,
+          "pdf_page_end": 95,
+          "precision": "page_range",
+          "region_ids": [],
+          "label": "乐队进入 · PDF 95页"
+        }
+      ],
+      "related_event_ids": [
+        "horn-contrast",
+        "closing-cadenza",
+        "orchestra-return"
+      ],
+      "sources": [
+        {
+          "source_id": "analysis-ref-11-2",
+          "locator": "§5.1–5.5，重点§5.2–5.5",
+          "claim_attribution": "authors"
+        },
+        {
+          "source_id": "ravel-target-score",
+          "locator": "本版3、91、95页",
+          "claim_attribution": "score"
+        }
+      ],
+      "verification": {
+        "score": "pending",
+        "literature": "relevant_sections_checked",
+        "location": "page_range",
+        "timing": "candidate_alignment"
+      },
+      "review_status": "draft_for_musicological_review",
+      "interpretive_note": "音色与意义的关联属于作者解释；未验证相似材料在本版中的逐音同一性。"
+    }
+  ]
+}

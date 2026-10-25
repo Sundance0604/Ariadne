@@ -1,0 +1,30 @@
+✔ movement guide follows playback sequence even while another PDF page is browsed (0.9206ms)
+✔ short Mahler guides follow the visible score with separate paragraphs on the same page (2.2079ms)
+✔ existing page-based guides stay compatible and movement labels disclose granularity (0.164ms)
+✔ long reading and scroll stay fixed across pages, seek and pause/rate context (0.9352ms)
+✔ late old-track research cannot replace new-track empty state; errors stay local (21.828ms)
+✔ candidate numbers, corrected numbers and multibar labels remain distinct (0.2237ms)
+✔ real physical measure rectangles drive fine highlighting and keep manual times (36.062ms)
+✔ Mahler chapter jumps use real movement identities and score pages (19.3567ms)
+✔ single movement works have no redundant chapter navigation (0.1363ms)
+✔ observed PDF regions follow nonlinear reference times, without filling unmatched gaps (0.2398ms)
+✔ coordinate clicks seek the matching physical region; playhead stays in its observed rectangle (0.2655ms)
+✔ recomputing alignment updates time boundaries while preserving PDF coordinates (0.0958ms)
+✔ finer candidates fall back to their system and manual timing takes priority (0.1243ms)
+✔ dimension intervals, overlap, gaps and unlocated items remain separate (0.1929ms)
+✔ HUD discloses page background and does not rebuild unchanged dimensions (0.5857ms)
+✔ navigation never turns page precision or candidate times into exact seeking (0.1689ms)
+✔ piecewise mapping supports offset, drift, inversion and bounded validity (0.6732ms)
+✔ video-only uses video clock and leaves audio paused and muted (0.7081ms)
+✔ audio-only stays compatible; switching project stops the old source (0.2512ms)
+✔ dual playback has exactly one audible source and switches through the mapping (1.101ms)
+✔ unknown performances cannot start a slave or switch sources (0.2091ms)
+✔ large drift pauses the slave instead of repeated seeks; gaps are not extrapolated (0.2252ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 122.4483
