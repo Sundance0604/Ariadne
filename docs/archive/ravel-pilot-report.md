@@ -1,6 +1,6 @@
 # 拉威尔双阅读路径 MVP 实测
 
-> 本文保存首轮MVP的8事件／2文章及当时的验证快照。后续已扩充为35事件、5文章和8份结构化和声记录；现状以[拉威尔谱面技术研究更新](../reports/ravel-score-research-update.md)为准，以下历史数量不代表当前数据。
+> 本文保存首轮MVP的8事件／2文章及当时的验证快照。后续已扩充为35事件、5文章和8份结构化和声记录；现状以[拉威尔谱面技术研究更新](../../reports/ravel-score-research-update.md)为准，以下历史数量不代表当前数据。
 
 日期：2026-10-25。任务依据：`ARIADNE_CODEX_RESEARCH_PARADIGM.md`。本轮只实施本地研究呈现、数据校验和测试；未重跑OMR或DTW，未上传、推送或部署媒体。
 
@@ -28,7 +28,7 @@
 | `tests/test_research_data.py` | 真实样板、结构、路径、来源、指纹、HTTP和认识论边界 |
 | `tests/test_structural_hud.mjs`、`test_hermeneutic_navigation.mjs`、`research-dom.mjs` | 区间、冲突、文章保持、导航及异步隔离夹具 |
 | `scripts/check_research_app.mjs` | 实际模块＋HTTP＋内存DOM联调，复用原马四检查 |
-| `docs/ARIADNE_RESEARCH_PARADIGM.md` | 已实现的数据规范与接口 |
+| `docs/design/research-paradigm.md` | 已实现的数据规范与接口 |
 | `README.md`、`docs/WORK_SUMMARY.md` | 新功能、入口和本轮限制 |
 | `reports/research-*.log/json`、`output/research/` | 运行日志、结果与真实浏览器截图 |
 

@@ -69,7 +69,7 @@ MusicXML 容器、XML 解析、part ID 与 part-list 一致性、小节/音符�
 
 这条命令已实际执行：首次运行转换成功，重复运行命中 1 页缓存；原始输出的 SHA-256 与 MusicXML 结构在缓存返回前再次检查。加 `-Force` 可保留旧结果并重新识谱。
 
-接口位于 `backend/score_processing/`，支持 PDF 路径、页码范围、输出目录、DPI、每页超时、额外重试次数、缓存和可选 MuseScore 重排。不同页面独立输出；不合并全曲声部，不推断原谱全曲小节编号。依赖与详细行为见 [接口说明](../docs/pdf-to-musicxml.md)。
+接口位于 `backend/score_processing/`，支持 PDF 路径、页码范围、输出目录、DPI、每页超时、额外重试次数、缓存和可选 MuseScore 重排。不同页面独立输出；不合并全曲声部，不推断原谱全曲小节编号。依赖与详细行为见 [接口说明](../docs/guides/pdf-to-musicxml.md)。
 
 11 项自动测试通过，覆盖 MXL 容器与明文解析、和弦/backup 时值、缺失拍号、结构空结果、谱表/小节不匹配、非法页码、缓存损坏、部分失败重试、失败后恢复以及渲染器返回 0 却无输出等情形。另以真实 Python 子进程验证超时能同时终止启动器和子进程，避免重试时后台识谱继续写入。引擎行为测试使用模拟引擎；本报告的数据和视觉检查来自真实 Audiveris/MuseScore 执行。测试日志为 `reports/mahler7-omr-tests.log`。
 

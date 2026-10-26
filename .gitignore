@@ -35,3 +35,6 @@ resource/**/*.[tT][sS]
 # Large, regenerable multi-page OMR input and cumulative run history.
 output/omr/mahler7-by-movement/
 resource/.video-tests/
+output/video-export/
+# Local editable captions, preferences and organization history.
+local/

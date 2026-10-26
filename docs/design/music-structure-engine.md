@@ -1,14 +1,14 @@
 # 独立音乐结构分析引擎
 
-**MusicXML后续接入：** 当前全谱符号主路线为`backend/musicxml_analysis/`与`analysis/musicxml/`，逐谱窗口继续提供直接读谱核查；见[MusicXML接入与音乐分析](../reports/ravel-musicxml-analysis-20261026.md)。下文的“当前”描述保留此前阶段的历史语境。
+**MusicXML后续接入：** 当前全谱符号主路线为`backend/musicxml_analysis/`与`analysis/musicxml/`，逐谱窗口继续提供直接读谱核查；见[MusicXML接入与音乐分析](../../reports/ravel-musicxml-analysis-20261026.md)。下文的“当前”描述保留此前阶段的历史语境。
 
-**2026-10-26研究调整：** 当前主路线为 `backend/score_studies.py` 与 `analysis/score-studies/`。精细和声／对位使用局部逐谱底稿；配器与全曲层级独立研究，不受全局未匹配数约束。旧自动引擎仅为可选辅助。下文保留其历史范围与限制，旧C/D开关只约束该自动实验。见[当前音乐成果与流程](../reports/ravel-musical-studies-20261026.md)。
+**2026-10-26研究调整：** 当前主路线为 `backend/score_studies.py` 与 `analysis/score-studies/`。精细和声／对位使用局部逐谱底稿；配器与全曲层级独立研究，不受全局未匹配数约束。旧自动引擎仅为可选辅助。下文保留其历史范围与限制，旧C/D开关只约束该自动实验。见[当前音乐成果与流程](../../reports/ravel-musical-studies-20261026.md)。
 
-本轮实现离线候选生成与播放器接入；没有完成音乐学院标准的全曲自动分析。试验只处理现有拉威尔矢量总谱物理1–3、10–15页。A/B尚未通过逐音内容验收，C/D不扩展。具体结果见[实测报告](../reports/ravel-structure-engine.md)。
+本轮实现离线候选生成与播放器接入；没有完成音乐学院标准的全曲自动分析。试验只处理现有拉威尔矢量总谱物理1–3、10–15页。A/B尚未通过逐音内容验收，C/D不扩展。具体结果见[实测报告](../../reports/ravel-structure-engine.md)。
 
 ## A/B续轮
 
-当前播放稿为 `round1-a7657439303a57e6`。新增基于bassa方向的八度归属、符干／小节线区分、单音与双音震音几何、未改变MIDI的记谱持续性记录，以及8组分维读谱抽查。代理记录与清单指纹绑定，保存在冻结轮次之外；旧稿和修订稿保留。MIDI note-on/off层不等于源谱指法，源谱休止与参考长键值的差别必须显式保留。当前问题与测试见[续轮报告](../reports/ravel-ab-notation-review.md)。
+当前播放稿为 `round1-a7657439303a57e6`。新增基于bassa方向的八度归属、符干／小节线区分、单音与双音震音几何、未改变MIDI的记谱持续性记录，以及8组分维读谱抽查。代理记录与清单指纹绑定，保存在冻结轮次之外；旧稿和修订稿保留。MIDI note-on/off层不等于源谱指法，源谱休止与参考长键值的差别必须显式保留。当前问题与测试见[续轮报告](../../reports/ravel-ab-notation-review.md)。
 
 ## 流程与依赖
 

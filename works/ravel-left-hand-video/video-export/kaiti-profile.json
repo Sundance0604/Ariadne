@@ -1,0 +1,93 @@
+{
+  "format_version": "1.0",
+  "width": 1920,
+  "height": 1080,
+  "music_start_video": 27.5,
+  "music_start_confirmation": {
+    "status": "user_confirmed",
+    "date": "2026-10-26",
+    "scope": "User confirmed the current Ravel music start is correct; not a signature for later alignment."
+  },
+  "segments": [
+    {
+      "video_start": 0,
+      "video_end": 95
+    }
+  ],
+  "font": "KaiTi",
+  "font_size": 48,
+  "spacing": 0,
+  "yellow": "#FFDF42",
+  "minimum_caption_seconds": 3,
+  "characters_per_second": 7,
+  "score_zoom": 1,
+  "score_dpi": 144,
+  "crf": 18,
+  "preset": "fast",
+  "layout": {
+    "harmony": {
+      "x": 56,
+      "y": 32,
+      "w": 820,
+      "h": 330,
+      "font_size": 48
+    },
+    "orchestration": {
+      "x": 920,
+      "y": 24,
+      "w": 944,
+      "h": 196,
+      "font_size": 44,
+      "align": "right"
+    },
+    "counterpoint": {
+      "x": 56,
+      "y": 384,
+      "w": 1140,
+      "h": 150,
+      "font_size": 44
+    },
+    "form": {
+      "x": 56,
+      "y": 554,
+      "w": 1140,
+      "h": 236,
+      "font_size": 42
+    },
+    "guide": {
+      "x": 56,
+      "y": 810,
+      "w": 1140,
+      "h": 225,
+      "font_size": 44
+    },
+    "score": {
+      "x": 1260,
+      "y": 230,
+      "w": 600,
+      "h": 800
+    },
+    "interpretation": {
+      "x": 260,
+      "y": 738,
+      "w": 1400,
+      "h": 295,
+      "font_size": 52,
+      "align": "center",
+      "scroll": true
+    },
+    "intro": {
+      "x": 200,
+      "y": 150,
+      "w": 1520,
+      "h": 780,
+      "font_size": 64,
+      "align": "center",
+      "scroll": true
+    }
+  },
+  "intro_clear_video": 24.48,
+  "intro_clearance_basis": "actual source presentation frame at or before music entry minus three seconds",
+  "bold": true,
+  "web_video_layout": true
+}

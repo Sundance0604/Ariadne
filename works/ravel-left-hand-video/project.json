@@ -1,0 +1,60 @@
+{
+  "format_version": "1.0.0",
+  "project_id": "ravel-left-hand-video",
+  "title": "拉威尔 · 左手钢琴协奏曲（艾马尔视频）",
+  "shared_score_track": "ravel-left-hand",
+  "inputs": [
+    {
+      "kind": "video",
+      "path": "resource/ravel left hand piano concerto/Maurice Ravel - Piano Concerto for the Left Hand ｜ performance by Pierre-Laurent Aimard [8yR_P2YEM88].mp4",
+      "sha256": "f73028a0e26be3347fa11875a74df8f2ee12919bbb2c45fcd11d22db00b0e3d8",
+      "bytes": 412017810,
+      "method": "ffmpeg_diagnostic_fallback",
+      "duration_seconds": 1197.85,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "description": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 2617 kb/s, 25 fps, 25 tbr, 12800 tbn (default)"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "description": "Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)"
+        }
+      ],
+      "diagnostic": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'D:\\mycodelife\\workshop\\AI\\classicMusic\\resource\\ravel left hand piano concerto\\Maurice Ravel - Piano Concerto for the Left Hand ｜ performance by Pierre-Laurent Aimard [8yR_P2YEM88].mp4':\r\n  Metadata:\r\n    major_brand     : isom\r\n    minor_version   : 512\r\n    compatible_brands: isomiso2avc1mp41\r\n    title           : Maurice Ravel - Piano Concerto for the Left Hand | performance by Pierre-Laurent Aimard\r\n    artist          : wocomoMUSIC\r\n    date            : 20250301\r\n    encoder         : Lavf63.17.100\r\n    comment         : https://www.youtube.com/watch?v=8yR_P2YEM88\r\n    genre           : Music\r\n    description     : Strasbourg Convention Centre, Strasbourg, 2018 \r\n                    : \r\n                    : Maurice Ravel's Piano Concerto for the Left Hand (1929-1930) is a masterful one-movement composition written for pianist Paul Wittgenstein, who lost his right arm during World War I. This concerto blends classical traditions with prominent jazz influences\r\n                    : \r\n                    : In this video, an exceptional performance of the piece by the award-winning French pianist Pierre-Laurent Aimard and the Strasbourg Philharmonic Orchestra conducted by Marko Letonja.\r\n                    : \r\n                    : #ravel #concert #strasbourg #orchestra #music #instruments #composer #piano \r\n                    : \r\n                    : ------- \r\n                    : \r\n                    : Subscribe to wocomoMUSIC: https://goo.gl/ahZRzC\r\n                    : Follow us on Facebook: http://www.facebook.com/wocomo\r\n                    : \r\n                    : ----------\r\n                    : \r\n                    : Music composed by Maurice Ravel \r\n                    : \r\n                    : Pierre-Laurent Aimard - Piano \r\n                    : Strasbourg Philharmonic Orchestra\r\n                    : Marko Letonja - Conductor \r\n                    : \r\n                    : © Ozango, 2018\r\n                    : \r\n                    : ------- \r\n                    : \r\n                    : High-quality music concerts, performances and documentaries – in areas such as classical, jazz, ballet, modern dance, rock and pop. WocomoMUSIC – music for grown-ups!\r\n                    : \r\n                    : Check out our other channels to watch high-quality documentaries:\r\n                    : ▷ wocomoCULTURE: https://www.youtube.com/@wocomoCULTURE\r\n                    : ▷ wocomoFRANÇAIS: https://www.youtube.com/@wocomoFRANCAIS\r\n                    : ▷ wocomoHUMANITY: https://www.youtube.com/@wocomoHUMANITY\r\n                    : ▷ wocomoHISTORY: https://www.youtube.com/@wocomoHISTORY\r\n                    : \r\n                    : WocomoMUSIC is part of the Wocomo channel network by NIKITA VENTURES. Wocomo - wonderful content in motion.\r\n    synopsis        : Strasbourg Convention Centre, Strasbourg, 2018 \r\n                    : \r\n                    : Maurice Ravel's Piano Concerto for the Left Hand (1929-1930) is a masterful one-movement composition written for pianist Paul Wittgenstein, who lost his right arm during World War I. This concerto blends classical traditions with prominent jazz influences\r\n                    : \r\n                    : In this video, an exceptional performance of the piece by the award-winning French pianist Pierre-Laurent Aimard and the Strasbourg Philharmonic Orchestra conducted by Marko Letonja.\r\n                    : \r\n                    : #ravel #concert #strasbourg #orchestra #music #instruments #composer #piano \r\n                    : \r\n                    : ------- \r\n                    : \r\n                    : Subscribe to wocomoMUSIC: https://goo.gl/ahZRzC\r\n                    : Follow us on Facebook: http://www.facebook.com/wocomo\r\n                    : \r\n                    : ----------\r\n                    : \r\n                    : Music composed by Maurice Ravel \r\n                    : \r\n                    : Pierre-Laurent Aimard - Piano \r\n                    : Strasbourg Philharmonic Orchestra\r\n                    : Marko Letonja - Conductor \r\n                    : \r\n                    : © Ozango, 2018\r\n                    : \r\n                    : ------- \r\n                    : \r\n                    : High-quality music concerts, performances and documentaries – in areas such as classical, jazz, ballet, modern dance, rock and pop. WocomoMUSIC – music for grown-ups!\r\n                    : \r\n                    : Check out our other channels to watch high-quality documentaries:\r\n                    : ▷ wocomoCULTURE: https://www.youtube.com/@wocomoCULTURE\r\n                    : ▷ wocomoFRANÇAIS: https://www.youtube.com/@wocomoFRANCAIS\r\n                    : ▷ wocomoHUMANITY: https://www.youtube.com/@wocomoHUMANITY\r\n                    : ▷ wocomoHISTORY: https://www.youtube.com/@wocomoHISTORY\r\n                    : \r\n                    : WocomoMUSIC is part of the Wocomo channel network by NIKITA VENTURES. Wocomo - wonderful content in motion.\r\n  Duration: 00:19:57.85, start: 0.000000, bitrate: 2751 kb/s\r\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 2617 kb/s, 25 fps, 25 tbr, 12800 tbn (default)\r\n      Metadata:\r\n        handler_name    : ISO Media file produced by Google Inc.\r\n        vendor_id       : [0][0][0][0]\r\n  Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)\r\n      Metadata:\r\n        handler_name    : ISO Media file produced by Google Inc.\r\n        vendor_id       : [0][0][0][0]\r\nAt least one output file must be specified\r\n",
+      "warning": "ffprobe 未安装；当前轨道信息来自 FFmpeg，精细的轨道时间轴待 ffprobe 复核。"
+    },
+    {
+      "kind": "pdf",
+      "path": "resource/ravel left hand piano concerto/maurice-ravel-piano-concerto-for-the-left-hand.pdf",
+      "sha256": "67aa60cc89160ea7e475fd7fa45352ec6e0c45f6cd3557421d8caafc18531083"
+    },
+    {
+      "kind": "midi",
+      "path": "resource/ravel left hand piano concerto/maurice-ravel-piano-concerto-for-the-left-hand.mid",
+      "sha256": "f9ba8d12d461fa9f869ae4e083d2f47f58f4d87a5ad85fbfc4b84f9d5649a8a3",
+      "duration_seconds": 1046.543488625
+    }
+  ],
+  "files": {
+    "alignment": "alignment.json",
+    "measure_map": "measure-map.json",
+    "recording_metadata": "metadata/recording.json",
+    "musicxml_recording_projection": {
+      "path": "works/ravel-left-hand-video/musicxml-recording-projection.json",
+      "sha256": "afad98d019fd0889e8fb05e344c717091af756ee6170c761abb7172f60907537"
+    }
+  },
+  "privacy": {
+    "processing": "local_only",
+    "media_uploaded": false,
+    "video_published": false
+  },
+  "processing_status": {
+    "midi_auxiliary_alignment": "independent_video_audio_DTW_candidate",
+    "score_research": "shared_original_sources_not_duplicated",
+    "human_listening_review": "pending"
+  }
+}

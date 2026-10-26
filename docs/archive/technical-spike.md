@@ -2,7 +2,7 @@
 
 > 后续更新：2026-10-24 已在用户创建的 Conda 环境中实跑 Sync Toolbox 1.4.2，并以便携方式运行 Audiveris 5.11.0。以下保留首次审查的历史状态；实际结果与当前限制见 `reports/alignment-test.md`、`reports/omr-review.md`。
 
-审查日期：2026-10-24（Asia/Shanghai）。执行依据：`WORKFLOW_Ravel_Left_Hand_Concerto.md`。
+审查日期：2026-10-24（Asia/Shanghai）。执行依据：`docs/workflows/ravel-left-hand-original.md`。
 
 ## 审查结论与状态
 

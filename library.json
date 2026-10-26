@@ -8,6 +8,12 @@
       "data_root": "."
     },
     {
+      "id": "ravel-left-hand-video",
+      "title": "拉威尔 · 左手钢琴协奏曲（艾马尔视频）",
+      "data_root": "works/ravel-left-hand-video",
+      "score_source": "ravel-left-hand"
+    },
+    {
       "id": "lark-ascending",
       "title": "沃恩·威廉斯 · 云雀高飞",
       "data_root": "works/lark-ascending"

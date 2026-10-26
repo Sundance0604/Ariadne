@@ -1,0 +1,475 @@
+{
+  "format_version": "1.0",
+  "video_sha256": "f73028a0e26be3347fa11875a74df8f2ee12919bbb2c45fcd11d22db00b0e3d8",
+  "alignment_sha256": "7d67900ac64b7c5d0165bbdc8e84d95596fea569d9a1dece5dc2308d0c7a6a28",
+  "events": [
+    {
+      "id": "intro-title",
+      "slot": "interpretation",
+      "video_start": 1,
+      "video_end": 11,
+      "text": "莫里斯·拉威尔\n《左手钢琴协奏曲》\n钢琴：皮埃尔－洛朗·艾马尔",
+      "phase": "intro",
+      "timing_precision": "source_interval",
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex",
+        "scope": "agent_source_check_for_short_video_excerpt",
+        "human_signature": null,
+        "sources": [
+          {
+            "path": "analysis/score-studies/ravel-study-20261026.json",
+            "sha256": "6763a6720d4a72ce327259e314c8bd3b6647d30600293e1342c3db8690e4421c"
+          },
+          {
+            "path": "analysis/musicxml/interpretation-20261026-v3/activation.json",
+            "sha256": "b2f946d4a79cde9ef8e970e9e38ec431d66335bd3048dde8fb9c26f81723a980"
+          },
+          {
+            "path": "analysis/essays/ravel-timbre-perspectives.md",
+            "sha256": "94ac548ee89cec50632fe8ec595a4a08513b0886d87bbb5f7828f0aa5ae3ac77"
+          },
+          {
+            "path": "resource/ravel left hand piano concerto/analysis/Ravel_Left_Hand_Concerto_Full_Analysis.md",
+            "sha256": "49b10c2df1c6a5e5eab25189d18ccd248fa14b0e6626574829baa9c6b1f6ab9f"
+          },
+          {
+            "path": "works/ravel-left-hand-video/metadata/recording.json",
+            "sha256": "756250fa82186a5b405a2f9caeedbae6dbc65b88e90f3ef8e421c0acd8c8d43d"
+          }
+        ],
+        "basis": "Selected score-study observations and existing prose, shortened without adding harmonic-function claims.",
+        "content_sha256": "08143a213758d4082ad6b2aa01c1209374d7e647e34485a7fc0e002772cdabca"
+      }
+    },
+    {
+      "id": "intro-reading",
+      "slot": "interpretation",
+      "video_start": 11.5,
+      "video_end": 24.5,
+      "text": "一只手，在钢琴上展开多个声部。\n聆听低音背景、旋律与伴奏之间的层次，\n以及独奏与乐队如何交换前景。",
+      "phase": "intro",
+      "timing_precision": "source_interval",
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex",
+        "scope": "agent_source_check_for_short_video_excerpt",
+        "human_signature": null,
+        "sources": [
+          {
+            "path": "analysis/score-studies/ravel-study-20261026.json",
+            "sha256": "6763a6720d4a72ce327259e314c8bd3b6647d30600293e1342c3db8690e4421c"
+          },
+          {
+            "path": "analysis/musicxml/interpretation-20261026-v3/activation.json",
+            "sha256": "b2f946d4a79cde9ef8e970e9e38ec431d66335bd3048dde8fb9c26f81723a980"
+          },
+          {
+            "path": "analysis/essays/ravel-timbre-perspectives.md",
+            "sha256": "94ac548ee89cec50632fe8ec595a4a08513b0886d87bbb5f7828f0aa5ae3ac77"
+          },
+          {
+            "path": "resource/ravel left hand piano concerto/analysis/Ravel_Left_Hand_Concerto_Full_Analysis.md",
+            "sha256": "49b10c2df1c6a5e5eab25189d18ccd248fa14b0e6626574829baa9c6b1f6ab9f"
+          },
+          {
+            "path": "works/ravel-left-hand-video/metadata/recording.json",
+            "sha256": "756250fa82186a5b405a2f9caeedbae6dbc65b88e90f3ef8e421c0acd8c8d43d"
+          }
+        ],
+        "basis": "Selected score-study observations and existing prose, shortened without adding harmonic-function claims.",
+        "content_sha256": "7b7327b6bda2e0859a7aa84dd21c4f57dea543051728dbbeaa7fdc5a3e11d8f3"
+      }
+    },
+    {
+      "id": "opening-harmony",
+      "slot": "harmony",
+      "video_start": 27.5,
+      "video_end": 33.299997,
+      "text": "E—A—D—G：四度骨架\n持续低音与分解音型相叠",
+      "phase": "performance",
+      "timing_precision": "score_segment",
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex",
+        "scope": "agent_source_check_for_short_video_excerpt",
+        "human_signature": null,
+        "sources": [
+          {
+            "path": "analysis/score-studies/ravel-study-20261026.json",
+            "sha256": "6763a6720d4a72ce327259e314c8bd3b6647d30600293e1342c3db8690e4421c"
+          },
+          {
+            "path": "analysis/musicxml/interpretation-20261026-v3/activation.json",
+            "sha256": "b2f946d4a79cde9ef8e970e9e38ec431d66335bd3048dde8fb9c26f81723a980"
+          },
+          {
+            "path": "analysis/essays/ravel-timbre-perspectives.md",
+            "sha256": "94ac548ee89cec50632fe8ec595a4a08513b0886d87bbb5f7828f0aa5ae3ac77"
+          },
+          {
+            "path": "resource/ravel left hand piano concerto/analysis/Ravel_Left_Hand_Concerto_Full_Analysis.md",
+            "sha256": "49b10c2df1c6a5e5eab25189d18ccd248fa14b0e6626574829baa9c6b1f6ab9f"
+          },
+          {
+            "path": "works/ravel-left-hand-video/metadata/recording.json",
+            "sha256": "756250fa82186a5b405a2f9caeedbae6dbc65b88e90f3ef8e421c0acd8c8d43d"
+          }
+        ],
+        "basis": "opening-bar-1 transcription; study-quartal reasoning; no third-based chord function asserted.",
+        "content_sha256": "d506c48bb62b34f3871b17e9d438e5a12e6ee9a1001e0d3a4d08732ad68f24a3"
+      }
+    },
+    {
+      "id": "opening-orchestration",
+      "slot": "orchestration",
+      "video_start": 27.5,
+      "video_end": 33.299997,
+      "text": "大提琴、低音提琴\n长音与六连音分层",
+      "phase": "performance",
+      "timing_precision": "score_segment",
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex",
+        "scope": "agent_source_check_for_short_video_excerpt",
+        "human_signature": null,
+        "sources": [
+          {
+            "path": "analysis/score-studies/ravel-study-20261026.json",
+            "sha256": "6763a6720d4a72ce327259e314c8bd3b6647d30600293e1342c3db8690e4421c"
+          },
+          {
+            "path": "analysis/musicxml/interpretation-20261026-v3/activation.json",
+            "sha256": "b2f946d4a79cde9ef8e970e9e38ec431d66335bd3048dde8fb9c26f81723a980"
+          },
+          {
+            "path": "analysis/essays/ravel-timbre-perspectives.md",
+            "sha256": "94ac548ee89cec50632fe8ec595a4a08513b0886d87bbb5f7828f0aa5ae3ac77"
+          },
+          {
+            "path": "resource/ravel left hand piano concerto/analysis/Ravel_Left_Hand_Concerto_Full_Analysis.md",
+            "sha256": "49b10c2df1c6a5e5eab25189d18ccd248fa14b0e6626574829baa9c6b1f6ab9f"
+          },
+          {
+            "path": "works/ravel-left-hand-video/metadata/recording.json",
+            "sha256": "756250fa82186a5b405a2f9caeedbae6dbc65b88e90f3ef8e421c0acd8c8d43d"
+          }
+        ],
+        "basis": "Selected score-study observations and existing prose, shortened without adding harmonic-function claims.",
+        "content_sha256": "43a0f0d728fb820418811cc4e8c3a0f68b16fb3e448501251df7711c45143eda"
+      }
+    },
+    {
+      "id": "bassoon-entry",
+      "slot": "orchestration",
+      "video_start": 33.299997,
+      "video_end": 63.239982,
+      "text": "低音巴松进入低弦背景\n旋律与伴奏分层",
+      "phase": "performance",
+      "timing_precision": "score_segment",
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex",
+        "scope": "agent_source_check_for_short_video_excerpt",
+        "human_signature": null,
+        "sources": [
+          {
+            "path": "analysis/score-studies/ravel-study-20261026.json",
+            "sha256": "6763a6720d4a72ce327259e314c8bd3b6647d30600293e1342c3db8690e4421c"
+          },
+          {
+            "path": "analysis/musicxml/interpretation-20261026-v3/activation.json",
+            "sha256": "b2f946d4a79cde9ef8e970e9e38ec431d66335bd3048dde8fb9c26f81723a980"
+          },
+          {
+            "path": "analysis/essays/ravel-timbre-perspectives.md",
+            "sha256": "94ac548ee89cec50632fe8ec595a4a08513b0886d87bbb5f7828f0aa5ae3ac77"
+          },
+          {
+            "path": "resource/ravel left hand piano concerto/analysis/Ravel_Left_Hand_Concerto_Full_Analysis.md",
+            "sha256": "49b10c2df1c6a5e5eab25189d18ccd248fa14b0e6626574829baa9c6b1f6ab9f"
+          },
+          {
+            "path": "works/ravel-left-hand-video/metadata/recording.json",
+            "sha256": "756250fa82186a5b405a2f9caeedbae6dbc65b88e90f3ef8e421c0acd8c8d43d"
+          }
+        ],
+        "basis": "XML m2 contains contrabassoon entry; caption describes an entry and texture, not an all-instruments-active list.",
+        "content_sha256": "aa5ecf2b2599916b0fe054b3e7989e2a799b2e52c2cc184646dc0a7dc9a45d67"
+      }
+    },
+    {
+      "id": "opening-counterpoint",
+      "slot": "counterpoint",
+      "video_start": 27.5,
+      "video_end": 33.299997,
+      "text": "持续音与六连音\n构成不同节奏层",
+      "phase": "performance",
+      "timing_precision": "score_segment",
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex",
+        "scope": "agent_source_check_for_short_video_excerpt",
+        "human_signature": null,
+        "sources": [
+          {
+            "path": "analysis/score-studies/ravel-study-20261026.json",
+            "sha256": "6763a6720d4a72ce327259e314c8bd3b6647d30600293e1342c3db8690e4421c"
+          },
+          {
+            "path": "analysis/musicxml/interpretation-20261026-v3/activation.json",
+            "sha256": "b2f946d4a79cde9ef8e970e9e38ec431d66335bd3048dde8fb9c26f81723a980"
+          },
+          {
+            "path": "analysis/essays/ravel-timbre-perspectives.md",
+            "sha256": "94ac548ee89cec50632fe8ec595a4a08513b0886d87bbb5f7828f0aa5ae3ac77"
+          },
+          {
+            "path": "resource/ravel left hand piano concerto/analysis/Ravel_Left_Hand_Concerto_Full_Analysis.md",
+            "sha256": "49b10c2df1c6a5e5eab25189d18ccd248fa14b0e6626574829baa9c6b1f6ab9f"
+          },
+          {
+            "path": "works/ravel-left-hand-video/metadata/recording.json",
+            "sha256": "756250fa82186a5b405a2f9caeedbae6dbc65b88e90f3ef8e421c0acd8c8d43d"
+          }
+        ],
+        "basis": "study-arpeggio-layers; no imitation or strict counterpoint claimed.",
+        "content_sha256": "9e4b490e5f2d80aea4768c36eb285260291d465bb93dc224b390881dbbe07a13"
+      }
+    },
+    {
+      "id": "opening-form",
+      "slot": "form",
+      "video_start": 27.5,
+      "video_end": 63.239982,
+      "text": "开头：背景先建立，旋律随后进入",
+      "phase": "performance",
+      "timing_precision": "page_range",
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex",
+        "scope": "agent_source_check_for_short_video_excerpt",
+        "human_signature": null,
+        "sources": [
+          {
+            "path": "analysis/score-studies/ravel-study-20261026.json",
+            "sha256": "6763a6720d4a72ce327259e314c8bd3b6647d30600293e1342c3db8690e4421c"
+          },
+          {
+            "path": "analysis/musicxml/interpretation-20261026-v3/activation.json",
+            "sha256": "b2f946d4a79cde9ef8e970e9e38ec431d66335bd3048dde8fb9c26f81723a980"
+          },
+          {
+            "path": "analysis/essays/ravel-timbre-perspectives.md",
+            "sha256": "94ac548ee89cec50632fe8ec595a4a08513b0886d87bbb5f7828f0aa5ae3ac77"
+          },
+          {
+            "path": "resource/ravel left hand piano concerto/analysis/Ravel_Left_Hand_Concerto_Full_Analysis.md",
+            "sha256": "49b10c2df1c6a5e5eab25189d18ccd248fa14b0e6626574829baa9c6b1f6ab9f"
+          },
+          {
+            "path": "works/ravel-left-hand-video/metadata/recording.json",
+            "sha256": "756250fa82186a5b405a2f9caeedbae6dbc65b88e90f3ef8e421c0acd8c8d43d"
+          }
+        ],
+        "basis": "Selected score-study observations and existing prose, shortened without adding harmonic-function claims.",
+        "content_sha256": "f235b054680eb2a658e137293fcd2d52cf612ae2874a3ab44a7e0ad90ee431bb"
+      }
+    },
+    {
+      "id": "opening-guide",
+      "slot": "guide",
+      "video_start": 27.5,
+      "video_end": 45.099991,
+      "text": "先听持续音与流动音型的分工。",
+      "phase": "performance",
+      "timing_precision": "page_range",
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex",
+        "scope": "agent_source_check_for_short_video_excerpt",
+        "human_signature": null,
+        "sources": [
+          {
+            "path": "analysis/score-studies/ravel-study-20261026.json",
+            "sha256": "6763a6720d4a72ce327259e314c8bd3b6647d30600293e1342c3db8690e4421c"
+          },
+          {
+            "path": "analysis/musicxml/interpretation-20261026-v3/activation.json",
+            "sha256": "b2f946d4a79cde9ef8e970e9e38ec431d66335bd3048dde8fb9c26f81723a980"
+          },
+          {
+            "path": "analysis/essays/ravel-timbre-perspectives.md",
+            "sha256": "94ac548ee89cec50632fe8ec595a4a08513b0886d87bbb5f7828f0aa5ae3ac77"
+          },
+          {
+            "path": "resource/ravel left hand piano concerto/analysis/Ravel_Left_Hand_Concerto_Full_Analysis.md",
+            "sha256": "49b10c2df1c6a5e5eab25189d18ccd248fa14b0e6626574829baa9c6b1f6ab9f"
+          },
+          {
+            "path": "works/ravel-left-hand-video/metadata/recording.json",
+            "sha256": "756250fa82186a5b405a2f9caeedbae6dbc65b88e90f3ef8e421c0acd8c8d43d"
+          }
+        ],
+        "basis": "Selected score-study observations and existing prose, shortened without adding harmonic-function claims.",
+        "content_sha256": "4bbe09f03e270f4c130e4fb5ea14e790458087ceabc1b17f28fcb38a533c31d7"
+      }
+    },
+    {
+      "id": "texture-interpretation",
+      "slot": "interpretation",
+      "video_start": 59,
+      "video_end": 69,
+      "text": "相近的低音区里，长音托住流动音型；\n旋律从背景中显露，听觉的前景逐渐改变。",
+      "phase": "performance",
+      "timing_precision": "page_range",
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex",
+        "scope": "agent_source_check_for_short_video_excerpt",
+        "human_signature": null,
+        "sources": [
+          {
+            "path": "analysis/score-studies/ravel-study-20261026.json",
+            "sha256": "6763a6720d4a72ce327259e314c8bd3b6647d30600293e1342c3db8690e4421c"
+          },
+          {
+            "path": "analysis/musicxml/interpretation-20261026-v3/activation.json",
+            "sha256": "b2f946d4a79cde9ef8e970e9e38ec431d66335bd3048dde8fb9c26f81723a980"
+          },
+          {
+            "path": "analysis/essays/ravel-timbre-perspectives.md",
+            "sha256": "94ac548ee89cec50632fe8ec595a4a08513b0886d87bbb5f7828f0aa5ae3ac77"
+          },
+          {
+            "path": "resource/ravel left hand piano concerto/analysis/Ravel_Left_Hand_Concerto_Full_Analysis.md",
+            "sha256": "49b10c2df1c6a5e5eab25189d18ccd248fa14b0e6626574829baa9c6b1f6ab9f"
+          },
+          {
+            "path": "works/ravel-left-hand-video/metadata/recording.json",
+            "sha256": "756250fa82186a5b405a2f9caeedbae6dbc65b88e90f3ef8e421c0acd8c8d43d"
+          }
+        ],
+        "basis": "Interpretive listening prompt based on study-opening-orch and existing timbre essay; no exact bar-level formal boundary asserted.",
+        "content_sha256": "62f30aeb2c849d3c5bbbfd4af8832634d9b76c69408f9884178a6ed20c05ba8b"
+      }
+    },
+    {
+      "id": "horn-bassoon-counterpoint",
+      "slot": "counterpoint",
+      "video_start": 81.119946,
+      "video_end": 92.479967,
+      "text": "圆号与巴松节奏错开\n八度与六度先合并为层",
+      "phase": "performance",
+      "timing_precision": "score_segment",
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex",
+        "scope": "agent_source_check_for_short_video_excerpt",
+        "human_signature": null,
+        "sources": [
+          {
+            "path": "analysis/score-studies/ravel-study-20261026.json",
+            "sha256": "6763a6720d4a72ce327259e314c8bd3b6647d30600293e1342c3db8690e4421c"
+          },
+          {
+            "path": "analysis/musicxml/interpretation-20261026-v3/activation.json",
+            "sha256": "b2f946d4a79cde9ef8e970e9e38ec431d66335bd3048dde8fb9c26f81723a980"
+          },
+          {
+            "path": "analysis/essays/ravel-timbre-perspectives.md",
+            "sha256": "94ac548ee89cec50632fe8ec595a4a08513b0886d87bbb5f7828f0aa5ae3ac77"
+          },
+          {
+            "path": "resource/ravel left hand piano concerto/analysis/Ravel_Left_Hand_Concerto_Full_Analysis.md",
+            "sha256": "49b10c2df1c6a5e5eab25189d18ccd248fa14b0e6626574829baa9c6b1f6ab9f"
+          },
+          {
+            "path": "works/ravel-left-hand-video/metadata/recording.json",
+            "sha256": "756250fa82186a5b405a2f9caeedbae6dbc65b88e90f3ef8e421c0acd8c8d43d"
+          }
+        ],
+        "basis": "Directly transcribed horn-bassoon-bars-10-11; study-passing; limited to this checked window.",
+        "content_sha256": "280799d2dfe6ab008789650bedbad6b7ab0e1e6eff03c64a70970cd6257ab8c3"
+      }
+    },
+    {
+      "id": "horn-bassoon-orchestration",
+      "slot": "orchestration",
+      "video_start": 81.119946,
+      "video_end": 95,
+      "text": "圆号、巴松与低音巴松\n叠置于低弦背景",
+      "phase": "performance",
+      "timing_precision": "score_segment",
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex",
+        "scope": "agent_source_check_for_short_video_excerpt",
+        "human_signature": null,
+        "sources": [
+          {
+            "path": "analysis/score-studies/ravel-study-20261026.json",
+            "sha256": "6763a6720d4a72ce327259e314c8bd3b6647d30600293e1342c3db8690e4421c"
+          },
+          {
+            "path": "analysis/musicxml/interpretation-20261026-v3/activation.json",
+            "sha256": "b2f946d4a79cde9ef8e970e9e38ec431d66335bd3048dde8fb9c26f81723a980"
+          },
+          {
+            "path": "analysis/essays/ravel-timbre-perspectives.md",
+            "sha256": "94ac548ee89cec50632fe8ec595a4a08513b0886d87bbb5f7828f0aa5ae3ac77"
+          },
+          {
+            "path": "resource/ravel left hand piano concerto/analysis/Ravel_Left_Hand_Concerto_Full_Analysis.md",
+            "sha256": "49b10c2df1c6a5e5eab25189d18ccd248fa14b0e6626574829baa9c6b1f6ab9f"
+          },
+          {
+            "path": "works/ravel-left-hand-video/metadata/recording.json",
+            "sha256": "756250fa82186a5b405a2f9caeedbae6dbc65b88e90f3ef8e421c0acd8c8d43d"
+          }
+        ],
+        "basis": "XML m10-12 instrument entries and corresponding directly checked score pages; segment summary, not per-onset activity claim.",
+        "content_sha256": "a499d32115fcba21ed9b2bf46fcc257f2b105d38e2eb5f4e59e118fb0b16ad9b"
+      }
+    },
+    {
+      "id": "horn-bassoon-guide",
+      "slot": "guide",
+      "video_start": 81.119946,
+      "video_end": 95,
+      "text": "把加倍合成一个音色层，再听各层如何交错。",
+      "phase": "performance",
+      "timing_precision": "score_segment",
+      "review": {
+        "status": "approved",
+        "reviewer": "Codex",
+        "scope": "agent_source_check_for_short_video_excerpt",
+        "human_signature": null,
+        "sources": [
+          {
+            "path": "analysis/score-studies/ravel-study-20261026.json",
+            "sha256": "6763a6720d4a72ce327259e314c8bd3b6647d30600293e1342c3db8690e4421c"
+          },
+          {
+            "path": "analysis/musicxml/interpretation-20261026-v3/activation.json",
+            "sha256": "b2f946d4a79cde9ef8e970e9e38ec431d66335bd3048dde8fb9c26f81723a980"
+          },
+          {
+            "path": "analysis/essays/ravel-timbre-perspectives.md",
+            "sha256": "94ac548ee89cec50632fe8ec595a4a08513b0886d87bbb5f7828f0aa5ae3ac77"
+          },
+          {
+            "path": "resource/ravel left hand piano concerto/analysis/Ravel_Left_Hand_Concerto_Full_Analysis.md",
+            "sha256": "49b10c2df1c6a5e5eab25189d18ccd248fa14b0e6626574829baa9c6b1f6ab9f"
+          },
+          {
+            "path": "works/ravel-left-hand-video/metadata/recording.json",
+            "sha256": "756250fa82186a5b405a2f9caeedbae6dbc65b88e90f3ef8e421c0acd8c8d43d"
+          }
+        ],
+        "basis": "Selected score-study observations and existing prose, shortened without adding harmonic-function claims.",
+        "content_sha256": "7185324e80f97dd2c2fa5eebfeb479b1dd100f927c6cc997775d5999f232f234"
+      }
+    }
+  ]
+}

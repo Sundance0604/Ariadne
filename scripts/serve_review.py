@@ -21,7 +21,7 @@ ROOT=Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0,str(ROOT))
 
-from review_library import library,track_context,page_count
+from review_library import library,track_context,page_count,score_directory
 from pdf_render import render_page
 from score_measure_data import load_score_measures,update_numbering
 
@@ -98,9 +98,10 @@ class Handler(BaseHTTPRequestHandler):
         if route=='/app.mjs': return self.send_file(ROOT/'review/app.mjs','text/javascript; charset=utf-8')
         if route=='/playback.mjs': return self.send_file(ROOT/'review/playback.mjs','text/javascript; charset=utf-8')
         if route=='/score-follow.mjs': return self.send_file(ROOT/'review/score-follow.mjs','text/javascript; charset=utf-8')
+        if route=='/score-display.mjs': return self.send_file(ROOT/'review/score-display.mjs','text/javascript; charset=utf-8')
         if route=='/movements.mjs': return self.send_file(ROOT/'review/movements.mjs','text/javascript; charset=utf-8')
         if route=='/measure-numbers.mjs': return self.send_file(ROOT/'review/measure-numbers.mjs','text/javascript; charset=utf-8')
-        if route in {'/research.mjs','/research-model.mjs','/research-ui.mjs','/structural-hud.mjs','/hermeneutics.mjs','/engine-evidence.mjs','/musicxml-evidence.mjs','/musicxml-live.mjs'}:
+        if route in {'/research.mjs','/research-model.mjs','/research-ui.mjs','/structural-hud.mjs','/hermeneutics.mjs','/engine-evidence.mjs','/musicxml-evidence.mjs','/musicxml-live.mjs','/score-analysis-model.mjs','/hud-text.mjs'}:
             return self.send_file(ROOT/'review'/route[1:],'text/javascript; charset=utf-8')
         if route=='/api/library':
             catalog=library(ROOT)
@@ -112,8 +113,11 @@ class Handler(BaseHTTPRequestHandler):
         try:
             query=parse_qs(urlparse(self.path).query)
             track,directory=track_context(ROOT,query.get('track',[None])[0])
+            shared=score_directory(ROOT,directory) if route.startswith('/api/') else directory
         except ValueError as error:
             return self.send_json({'error':str(error)},404)
+        except (OSError,KeyError,TypeError) as error:
+            return self.send_json({'error':str(error)},422)
         if route=='/api/analysis':
             try:
                 from analysis_data import load_analysis
@@ -123,28 +127,31 @@ class Handler(BaseHTTPRequestHandler):
         if route=='/api/research':
             try:
                 from research_data import load_research
-                return self.send_json(load_research(ROOT,directory))
+                return self.send_json(load_research(ROOT,directory,track_id=track['id']))
             except (OSError,ValueError,KeyError,TypeError,ImportError) as error:
                 return self.send_json({'error':str(error)},422)
         if route in {'/api/musicxml','/api/musicxml-evidence','/api/musicxml-artifact','/api/musicxml-live'}:
             try:
                 from backend.musicxml_analysis.store import load_bundle,measure_evidence
                 from backend.structure_analysis.common import bounded_path
-                bundle=load_bundle(ROOT,directory)
+                bundle=load_bundle(ROOT,shared)
                 if bundle is None:return self.send_json({'available':False})
                 if route=='/api/musicxml-live':
                     from backend.musicxml_analysis.live_store import load_live
-                    live=load_live(ROOT,directory,bundle)
-                    return self.send_json({'available':False} if not live else {'available':True,
-                        'summary':live['manifest']['summary'],'projection':live['tables']['recording-projection'],
-                        'frames':[{**f,'active_instruments':[{k:v for k,v in p.items() if k!='event_ids'} for p in f['active_instruments']]} for f in live['tables']['activation']['frames']],
-                        'readings':{id:[{k:r[k] for k in ['id','kind','label','functions','basis']} for r in rs] for id,rs in live['tables']['harmonic-readings']['readings'].items()},
-                        'form':live['tables']['form-synthesis']})
+                    from backend.musicxml_analysis.hud import load_hud,live_payload
+                    live=load_live(ROOT,directory,bundle,score_work=shared)
+                    return self.send_json({'available':False} if not live else live_payload(bundle,live,load_hud(ROOT,shared,bundle)))
                 if route=='/api/musicxml-evidence':
                     document=measure_evidence(bundle,query.get('measure_id',[''])[0])
                     from backend.musicxml_analysis.live_store import load_live
-                    live=load_live(ROOT,directory,bundle)
-                    if live:document['harmonic_readings']={w['id']:live['tables']['harmonic-readings']['readings'][w['id']] for w in document['harmony']}
+                    from backend.musicxml_analysis.hud import load_hud,audited_functions
+                    live=load_live(ROOT,directory,bundle,score_work=shared)
+                    if live:
+                        overlay=load_hud(ROOT,shared,bundle)
+                        document['harmonic_readings']={w['id']:[{**r,'functions_original':r['functions'],
+                            'functions':audited_functions(r,overlay)}
+                            for r in live['tables']['harmonic-readings']['readings'][w['id']]] for w in document['harmony']}
+                        document['hud_cases']=[c for c in overlay['cases']['cases'] if c['measure_id']==document['measure']['measure_id']] if overlay else []
                     return self.send_json(document)
                 if route=='/api/musicxml-artifact':
                     name=query.get('name',[''])[0]
@@ -157,7 +164,7 @@ class Handler(BaseHTTPRequestHandler):
         if route in {'/api/score-studies','/api/score-study-image'}:
             try:
                 from backend.score_studies import load_studies
-                study=load_studies(ROOT,directory)
+                study=load_studies(ROOT,shared)
                 if route=='/api/score-study-image':
                     from backend.structure_analysis.common import bounded_path
                     window=next((w for w in study['document']['windows'] if w['id']==query.get('window_id',[''])[0]),None) if study else None
@@ -170,8 +177,8 @@ class Handler(BaseHTTPRequestHandler):
             try:
                 from backend.structure_analysis.store import load_bundle,event_evidence
                 if route=='/api/structure-evidence':
-                    return self.send_json(event_evidence(ROOT,directory,query.get('event_id',[''])[0]))
-                bundle=load_bundle(ROOT,directory)
+                    return self.send_json(event_evidence(ROOT,shared,query.get('event_id',[''])[0]))
+                bundle=load_bundle(ROOT,shared)
                 return self.send_json({'available':False} if bundle is None else
                     {'available':True,'manifest':bundle['manifest'],'summary':bundle['summary']})
             except (OSError,ValueError,KeyError,TypeError,ImportError) as error:
@@ -196,8 +203,8 @@ class Handler(BaseHTTPRequestHandler):
                 try:
                     from backend.musicxml_analysis.store import load_bundle as load_xml
                     from backend.musicxml_analysis.live_store import load_live
-                    xml=load_xml(ROOT,directory,mapping)
-                    live=load_live(ROOT,directory,xml) if xml else None
+                    xml=load_xml(ROOT,shared,mapping)
+                    live=load_live(ROOT,directory,xml,score_work=shared) if xml else None
                     if live:
                         # Runtime geometry adapter only. Source alignment and
                         # the older on-disk PDF map remain untouched.

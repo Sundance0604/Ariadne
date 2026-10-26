@@ -24,8 +24,18 @@ def _load(root_text,work_text,pointer_text,base_hash,token):
     return {'manifest':manifest,'tables':tables,'path':pointer['path']}
 
 
-def load_live(root,work,base):
-    root=Path(root).resolve();work=Path(work).resolve();path=work/'analysis/musicxml/interpretation-current.json'
+def load_live(root,work,base,score_work=None):
+    root=Path(root).resolve();work=Path(work).resolve()
+    shared=Path(score_work).resolve() if score_work is not None else work
+    if shared!=work:
+        # Score frames/readings stay in their original fingerprint-bound
+        # snapshot. Only the independently aligned performance projection varies.
+        from .projection import load_projection
+        live=load_live(root,shared,base)
+        if live is None:return None
+        projection=load_projection(root,work,base,live['tables']['recording-projection'])
+        return {**live,'tables':{**live['tables'],'recording-projection':projection}}
+    path=work/'analysis/musicxml/interpretation-current.json'
     if not path.exists():return None
     pointer=read(path);run=bounded_path(root,pointer['path']);manifest=read(run/'manifest.json')
     alignment=read(work/'alignment.json')

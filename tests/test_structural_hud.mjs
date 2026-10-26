@@ -19,9 +19,9 @@ test('HUD discloses page background and does not rebuild unchanged dimensions',(
   const $=makeDOM(),hud=createStructuralHUD({onEssay(){}});hud.load(fixture());
   hud.update({playingPage:1,browsedPage:8,time:10});
   assert.match($('hud-position').textContent,/播放位置.*1.*浏览页.*8/);
-  assert.match($('structural-hud').textContent,/本页／本段背景/);
-  assert.match($('structural-hud').textContent,/多条观点并列/);
-  const orchestration=$('structural-hud').children[3].children[1];
+  assert.match($('structural-hud').textContent,/背景和声：待分析/);
+  assert.match($('structural-hud').textContent,/hypothesis A.*hypothesis B/);
+  const orchestration=$('structural-hud').children[1].children[1];
   const count=orchestration.replacements;
   hud.update({playingPage:2,browsedPage:8,time:11});
   assert.equal(orchestration.replacements,count);
@@ -45,7 +45,7 @@ test('harmonic evidence shows concert-pitch distribution and actual inversion',(
     temporal_scope:'orchestral upbeat only',voices:[{instrument:'horns',pitches:['A3','D4'],role:'bass and filling'}],
     voice_leading:'bass D arrives later',nonchord_tones:'none in this sample'};
   hud.load(data);hud.update({playingPage:1});
-  $('structural-hud').children[0].children[1].children.find(n=>n.tagName==='button').onclick();
+  hud.showEvent(data.events[0]);
   assert.match($('hud-detail').textContent,/实音/);
   assert.match($('hud-detail').textContent,/A3/);
   assert.match($('hud-detail').textContent,/第二转位/);

@@ -1,0 +1,399 @@
+{
+  "schema_version": "1.0.0",
+  "cases": [
+    {
+      "id": "m11-layers",
+      "measure_id": "xml-m0011",
+      "window_id": "xml-h-000197",
+      "start_q": "31",
+      "end_q": "187/6",
+      "label": "持续低音与上层和声分开",
+      "explanation": "全体最低音E1；除E音级层外为G–B♭–D–F，上层低音D2、第二转位。弦乐层另成E半减七，分析对象不同，允许并列。",
+      "event_ids": [
+        "P10-xml-m0011-n0005",
+        "P10-xml-m0011-n0006",
+        "P32-xml-m0011-n0002",
+        "P35-xml-m0011-n0007",
+        "P36-xml-m0011-n0002",
+        "P36-xml-m0011-n0003",
+        "P8-xml-m0011-n0003",
+        "P8-xml-m0011-n0004",
+        "P9-xml-m0011-n0001"
+      ],
+      "global_bass": {
+        "name": "E1",
+        "step": "E",
+        "alter": 0,
+        "octave": 1,
+        "ps": 28.0,
+        "pc": 4
+      },
+      "interval_ids": [
+        "xml-cp-031146",
+        "xml-cp-031588",
+        "xml-cp-031853",
+        "xml-cp-048915"
+      ],
+      "status": "agent_source_evidence_checked_human_pending",
+      "dimensions": [
+        "harmony",
+        "counterpoint"
+      ],
+      "related_essay_ids": [
+        "ravel-harmonic-ledger",
+        "ravel-texture-counterpoint"
+      ]
+    },
+    {
+      "id": "m58-open-fifth",
+      "measure_id": "xml-m0058",
+      "window_id": "xml-h-001097",
+      "start_q": "1321/8",
+      "end_q": "661/4",
+      "label": "开放五度与独奏内部分层",
+      "explanation": "G♭／D♭仅两个音级，多八度加倍；未出现三音，不据此确定主属功能。钢琴同一分部包含不同谱表／声部，不能由一个分部推出单线织体。",
+      "event_ids": [
+        "P23-xml-m0058-n0013",
+        "P23-xml-m0058-n0014",
+        "P23-xml-m0058-n0031",
+        "P23-xml-m0058-n0032"
+      ],
+      "global_bass": {
+        "name": "Gb1",
+        "step": "G",
+        "alter": -1.0,
+        "octave": 1,
+        "ps": 30.0,
+        "pc": 6
+      },
+      "interval_ids": [],
+      "status": "agent_source_evidence_checked_human_pending",
+      "dimensions": [
+        "harmony",
+        "orchestration"
+      ],
+      "related_essay_ids": [
+        "ravel-harmonic-ledger",
+        "ravel-texture-counterpoint"
+      ]
+    },
+    {
+      "id": "m63-upbeat",
+      "measure_id": "xml-m0063",
+      "window_id": "xml-h-001206",
+      "start_q": "751/4",
+      "end_q": "188",
+      "label": "D/A乐队弱起层",
+      "explanation": "当前记谱音D–F♯–A，最低A3，第二转位。D调下I64是条件性读法；此处不能自动称终止四六，也不把录音踏板余响并入XML时值。",
+      "event_ids": [
+        "P1-xml-m0063-n0003",
+        "P1-xml-m0063-n0004",
+        "P10-xml-m0063-n0003",
+        "P10-xml-m0063-n0004",
+        "P11-xml-m0063-n0003",
+        "P11-xml-m0063-n0004",
+        "P12-xml-m0063-n0003",
+        "P2-xml-m0063-n0003",
+        "P24-xml-m0063-n0003",
+        "P24-xml-m0063-n0004",
+        "P24-xml-m0063-n0005",
+        "P27-xml-m0063-n0003",
+        "P27-xml-m0063-n0004",
+        "P27-xml-m0063-n0005",
+        "P3-xml-m0063-n0003",
+        "P30-xml-m0063-n0003",
+        "P30-xml-m0063-n0004",
+        "P5-xml-m0063-n0003",
+        "P6-xml-m0063-n0003",
+        "P6-xml-m0063-n0004"
+      ],
+      "global_bass": {
+        "name": "A3",
+        "step": "A",
+        "alter": 0,
+        "octave": 3,
+        "ps": 57.0,
+        "pc": 9
+      },
+      "interval_ids": [
+        "xml-cp-004727",
+        "xml-cp-005045",
+        "xml-cp-006516",
+        "xml-cp-009586"
+      ],
+      "status": "agent_source_evidence_checked_human_pending",
+      "dimensions": [
+        "harmony",
+        "counterpoint"
+      ],
+      "related_essay_ids": [
+        "ravel-harmonic-ledger",
+        "ravel-form-functions"
+      ]
+    },
+    {
+      "id": "m64-upper-A",
+      "measure_id": "xml-m0064",
+      "window_id": "xml-h-001207",
+      "start_q": "188",
+      "end_q": "755/4",
+      "label": "E上层与A持续层",
+      "explanation": "全体包含A–B–E–G♯，最低A3；所选E三和弦层的最低音另列。后续低音在3/4处到A1，再在1处到D1，不能合并为整小节同一纵向和弦。",
+      "event_ids": [
+        "P1-xml-m0064-n0001",
+        "P1-xml-m0064-n0002",
+        "P10-xml-m0064-n0001",
+        "P10-xml-m0064-n0002",
+        "P11-xml-m0064-n0001",
+        "P11-xml-m0064-n0002",
+        "P12-xml-m0064-n0001",
+        "P2-xml-m0064-n0001",
+        "P24-xml-m0064-n0001",
+        "P24-xml-m0064-n0002",
+        "P24-xml-m0064-n0003",
+        "P27-xml-m0064-n0001",
+        "P27-xml-m0064-n0002",
+        "P27-xml-m0064-n0003",
+        "P3-xml-m0064-n0001",
+        "P30-xml-m0064-n0001",
+        "P30-xml-m0064-n0002",
+        "P5-xml-m0064-n0001",
+        "P6-xml-m0064-n0001",
+        "P6-xml-m0064-n0002"
+      ],
+      "global_bass": {
+        "name": "A3",
+        "step": "A",
+        "alter": 0,
+        "octave": 3,
+        "ps": 57.0,
+        "pc": 9
+      },
+      "interval_ids": [
+        "xml-cp-004728",
+        "xml-cp-005046",
+        "xml-cp-006517",
+        "xml-cp-009587"
+      ],
+      "status": "agent_source_evidence_checked_human_pending",
+      "dimensions": [
+        "harmony",
+        "counterpoint"
+      ],
+      "related_essay_ids": [
+        "ravel-harmonic-ledger"
+      ]
+    },
+    {
+      "id": "m64-low-A",
+      "measure_id": "xml-m0064",
+      "window_id": "xml-h-001208",
+      "start_q": "755/4",
+      "end_q": "189",
+      "label": "深低音A加入",
+      "explanation": "低音巴松、低音提琴等在3/4处加入A低音区；这是新的记谱时点，尚未到D低音。",
+      "event_ids": [
+        "P1-xml-m0064-n0001",
+        "P1-xml-m0064-n0002",
+        "P10-xml-m0064-n0001",
+        "P10-xml-m0064-n0002",
+        "P11-xml-m0064-n0001",
+        "P11-xml-m0064-n0002",
+        "P12-xml-m0064-n0001",
+        "P16-xml-m0064-n0002",
+        "P2-xml-m0064-n0001",
+        "P24-xml-m0064-n0001",
+        "P24-xml-m0064-n0002",
+        "P24-xml-m0064-n0003",
+        "P27-xml-m0064-n0001",
+        "P27-xml-m0064-n0002",
+        "P27-xml-m0064-n0003",
+        "P3-xml-m0064-n0001",
+        "P30-xml-m0064-n0001",
+        "P30-xml-m0064-n0002",
+        "P32-xml-m0064-n0002",
+        "P32-xml-m0064-n0003",
+        "P35-xml-m0064-n0002",
+        "P5-xml-m0064-n0001",
+        "P6-xml-m0064-n0001",
+        "P6-xml-m0064-n0002",
+        "P7-xml-m0064-n0002",
+        "P8-xml-m0064-n0002",
+        "P8-xml-m0064-n0003",
+        "P9-xml-m0064-n0002"
+      ],
+      "global_bass": {
+        "name": "A1",
+        "step": "A",
+        "alter": 0,
+        "octave": 1,
+        "ps": 33.0,
+        "pc": 9
+      },
+      "interval_ids": [
+        "xml-cp-004728",
+        "xml-cp-005046",
+        "xml-cp-005592",
+        "xml-cp-006036"
+      ],
+      "status": "agent_source_evidence_checked_human_pending",
+      "dimensions": [
+        "harmony",
+        "counterpoint"
+      ]
+    },
+    {
+      "id": "m64-low-D",
+      "measure_id": "xml-m0064",
+      "window_id": "xml-h-001209",
+      "start_q": "189",
+      "end_q": "759/4",
+      "label": "D低音随后到达",
+      "explanation": "小节内1处D1成为全体最低音；此前的E上层读法不直接继承为此刻全体和弦。",
+      "event_ids": [
+        "P1-xml-m0064-n0003",
+        "P1-xml-m0064-n0004",
+        "P10-xml-m0064-n0003",
+        "P10-xml-m0064-n0004",
+        "P11-xml-m0064-n0003",
+        "P11-xml-m0064-n0004",
+        "P12-xml-m0064-n0002",
+        "P16-xml-m0064-n0003",
+        "P2-xml-m0064-n0002",
+        "P24-xml-m0064-n0004",
+        "P24-xml-m0064-n0005",
+        "P24-xml-m0064-n0006",
+        "P27-xml-m0064-n0004",
+        "P27-xml-m0064-n0005",
+        "P27-xml-m0064-n0006",
+        "P3-xml-m0064-n0002",
+        "P30-xml-m0064-n0003",
+        "P30-xml-m0064-n0004",
+        "P32-xml-m0064-n0004",
+        "P32-xml-m0064-n0005",
+        "P35-xml-m0064-n0003",
+        "P5-xml-m0064-n0002",
+        "P6-xml-m0064-n0003",
+        "P6-xml-m0064-n0004",
+        "P7-xml-m0064-n0003",
+        "P8-xml-m0064-n0004",
+        "P8-xml-m0064-n0005",
+        "P9-xml-m0064-n0003"
+      ],
+      "global_bass": {
+        "name": "D1",
+        "step": "D",
+        "alter": 0,
+        "octave": 1,
+        "ps": 26.0,
+        "pc": 2
+      },
+      "interval_ids": [
+        "xml-cp-004728",
+        "xml-cp-005046",
+        "xml-cp-005593",
+        "xml-cp-006037"
+      ],
+      "status": "agent_source_evidence_checked_human_pending",
+      "dimensions": [
+        "harmony",
+        "counterpoint"
+      ]
+    },
+    {
+      "id": "m520-strings",
+      "measure_id": "xml-m0520",
+      "window_id": "xml-h-006292",
+      "start_q": "1517",
+      "end_q": "18205/12",
+      "label": "钢琴与低弦重建",
+      "explanation": "中提琴B3/D4与大提琴B2/D3作八度加倍，G1低音支撑；钢琴有自身多声部。当前尚无低音单簧管。",
+      "event_ids": [
+        "P23-xml-m0520-n0009",
+        "P23-xml-m0520-n0010",
+        "P23-xml-m0520-n0035",
+        "P30-xml-m0520-n0003",
+        "P30-xml-m0520-n0004",
+        "P32-xml-m0520-n0003",
+        "P32-xml-m0520-n0004",
+        "P35-xml-m0520-n0003"
+      ],
+      "global_bass": {
+        "name": "G1",
+        "step": "G",
+        "alter": 0,
+        "octave": 1,
+        "ps": 31.0,
+        "pc": 7
+      },
+      "interval_ids": [
+        "xml-cp-043393"
+      ],
+      "status": "agent_source_evidence_checked_human_pending",
+      "dimensions": [
+        "orchestration",
+        "counterpoint",
+        "form"
+      ],
+      "related_essay_ids": [
+        "ravel-texture-counterpoint",
+        "ravel-form-functions"
+      ]
+    },
+    {
+      "id": "m520-bass-clarinet",
+      "measure_id": "xml-m0520",
+      "window_id": "xml-h-006301",
+      "start_q": "6071/4",
+      "end_q": "9107/6",
+      "label": "低音单簧管后进入",
+      "explanation": "低音单簧管D2在11/4处加入；活跃分部由钢琴及三个低弦分部增加为五个分部，不把小节活动并集当作当前状态。",
+      "event_ids": [
+        "P23-xml-m0520-n0009",
+        "P23-xml-m0520-n0010",
+        "P23-xml-m0520-n0044",
+        "P30-xml-m0520-n0003",
+        "P30-xml-m0520-n0004",
+        "P32-xml-m0520-n0003",
+        "P32-xml-m0520-n0004",
+        "P35-xml-m0520-n0003",
+        "P7-xml-m0520-n0005"
+      ],
+      "global_bass": {
+        "name": "G1",
+        "step": "G",
+        "alter": 0,
+        "octave": 1,
+        "ps": 31.0,
+        "pc": 7
+      },
+      "interval_ids": [
+        "xml-cp-024047",
+        "xml-cp-026027",
+        "xml-cp-043402"
+      ],
+      "status": "agent_source_evidence_checked_human_pending",
+      "dimensions": [
+        "orchestration",
+        "counterpoint",
+        "form"
+      ]
+    }
+  ],
+  "contexts": [
+    {
+      "id": "m11-E-pedal",
+      "start_q": "30",
+      "end_q": "33",
+      "measure_id": "xml-m0011",
+      "label": "E1持续低音；上层和声另作局部分析",
+      "event_ids": [
+        "P9-xml-m0011-n0001"
+      ],
+      "status": "source_supported_pedal_not_final_harmonic_function"
+    }
+  ],
+  "human_signoffs": 0,
+  "expert_signoffs": 0,
+  "scope": "Four demonstration groups; not full-score background harmony"
+}

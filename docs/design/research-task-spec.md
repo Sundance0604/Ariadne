@@ -11,7 +11,7 @@
 
 开始前必须阅读：
 
-1. `AGENTS.md`、`README.md`、`WORKFLOW_Ravel_Left_Hand_Concerto.md`；
+1. `AGENTS.md`、`README.md`、`docs/workflows/ravel-left-hand-original.md`；
 2. `review/index.html`、`review/app.mjs`、`review/analysis.mjs`、`review/score-follow.mjs`、`review/playback.mjs`；
 3. `scripts/analysis_data.py`、`scripts/serve_review.py`、`scripts/review_library.py`；
 4. `library.json`、拉威尔根目录下的 `alignment.json`、`measure-map.json`、`analysis/annotations.json`、`metadata/recording.json`；
@@ -326,7 +326,7 @@ GET /api/research?track=ravel-left-hand
 
 ### Phase 1：数据规范与 loader
 
-- 写 `docs/ARIADNE_RESEARCH_PARADIGM.md`，明确定义双阅读路径、三认识层次、坐标系、版本约束与人工审核状态；
+- 写 `docs/design/research-paradigm.md`，明确定义双阅读路径、三认识层次、坐标系、版本约束与人工审核状态；
 - 创建适量 JSON schema／类型校验或 Python 验证器；
 - 创建拉威尔技术事件和诠释文章的最小真实试验数据；
 - 确保旧 `annotations.json` 不变且可照常加载。
@@ -351,7 +351,7 @@ GET /api/research?track=ravel-left-hand
 - 对实际拉威尔数据完成运行联调和界面检查；
 - 用真实可用的环境做浏览器实测；无法实测则明确写“未完成浏览器验证”，不得把内存 DOM 测试称为实播；
 - 更新 README 的新功能、数据精度和研究限制；
-- 在 `docs/RAVEL_PILOT_REPORT.md` 记录成果、失败、未核查内容及下一阶段需要人工音乐学审阅的事项。
+- 在 `docs/archive/ravel-pilot-report.md` 记录成果、失败、未核查内容及下一阶段需要人工音乐学审阅的事项。
 
 完成一个 Phase 后继续下一个，不要只生成计划就停止。若遇阻碍，优先把核心架构和可测试子任务完成，并在报告中准确说明余项。
 

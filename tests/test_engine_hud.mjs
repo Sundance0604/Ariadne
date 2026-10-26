@@ -25,8 +25,8 @@ test('harmony changes inside one reference bar without rebuilding orchestration 
   $('essay-body').append(new Element());$('essay-body').scrollTop=123;
   const article=$('essay-body').children[0];hud.load(data);
   hud.update({playingPage:10,browsedPage:10,referenceTick:50,referenceSha256:sha});
-  const orch=$('structural-hud').children[3].children[1],replacements=orch.replacements;
-  assert.match($('structural-hud').textContent,/h1/);assert.match($('structural-hud').textContent,/证据PDF 11–11页/);
+  const orch=$('structural-hud').children[1].children[1],replacements=orch.replacements;
+  assert.match($('structural-hud').textContent,/h1/);assert.match($('structural-hud').textContent,/PDF\/MIDI候选/);
   hud.update({playingPage:10,browsedPage:10,referenceTick:150,referenceSha256:sha});
   assert.match($('structural-hud').textContent,/h2/);assert.doesNotMatch($('structural-hud').textContent,/h1/);
   assert.equal(orch.replacements,replacements);assert.equal($('essay-body').children[0],article);assert.equal($('essay-body').scrollTop,123);
@@ -37,7 +37,7 @@ test('late evidence response cannot repopulate a reset track',async()=>{
   $('hud-auto-candidates').checked=true;
   const hud=createStructuralHUD({onEssay(){},onEvidence:()=>new Promise(resolve=>{complete=resolve;})});
   hud.load({events:[candidate('h','harmony',0,100)],essays:[],sources:[]});
-  hud.update({playingPage:11,referenceTick:1,referenceSha256:sha});$('structural-hud').children[0].children[1].children[0].onclick();
+  hud.update({playingPage:11,referenceTick:1,referenceSha256:sha});hud.showEvent(candidate('h','harmony',0,100));
   await Promise.resolve();hud.reset();complete({facts:{notes:[],written_marks:[]},derivations:[],uncertainties:[]});
   await new Promise(resolve=>setImmediate(resolve));assert.equal($('hud-detail').hidden,true);assert.equal($('hud-detail').children.length,0);
 });
@@ -54,7 +54,7 @@ test('score-review cases are readable while retaining agent-only review status',
     title:'F小七和弦的局部归约',observations:['低层F、C还原'],findings:['上层Ab、C、Eb'],unresolved:['局部调性未确立']}]});
   for(const text of ['代理读谱抽查','未升级为人工或专家验收','谱面观察','局部调性未确立'])assert.ok(target.textContent.includes(text));
 });
-test('direct score studies take precedence without requiring an engine interval match',()=>{
+test('direct score studies and opted-in engine candidates coexist without a source winner',()=>{
   const $=makeDOM(),data=fixture(),hud=createStructuralHUD({onEssay(){}});
   $('hud-auto-candidates').checked=true;
   data.events.push(candidate('automatic','harmony',0,100));
@@ -63,8 +63,8 @@ test('direct score studies take precedence without requiring an engine interval 
     score_spans:[{precision:'page_range',pdf_page_start:1,pdf_page_end:1}],verification:{score:'agent_score_checked'}});
   hud.load(data);hud.update({playingPage:1,referenceTick:50,referenceSha256:sha});
   const text=$('structural-hud').children[0].textContent;
-  assert.match(text,/score argument/);assert.doesNotMatch(text,/automatic/);
-  assert.match(text,/仅页级定位/);assert.match(text,/人工签核待完成/);
+  assert.match(text,/score argument/);assert.match(text,/automatic/);
+  hud.showDimension('harmony');assert.match($('hud-detail').textContent,/仅页级定位/);assert.match($('hud-detail').textContent,/人工签核待完成/);
   hud.update({playingPage:2,referenceTick:50,referenceSha256:sha});
   assert.match($('structural-hud').children[0].textContent,/automatic/);
 });

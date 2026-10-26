@@ -25,15 +25,15 @@ test('all current instruments and alternative readings update without touching t
         {label:'圆号',roles:['持续层'],pitches:['E4'],instrument_names:[]},{label:'巴松',roles:['低音支撑'],pitches:['A2'],instrument_names:[]}]},
       {id:'b',start_q:1,end_q:2,number:'1',page:1,onset_q:'1',harmony_window_id:'h',active_instruments:[]}],
     readings:{h:[{label:'读法一',functions:[],kind:'complete_vertical'},{label:'读法二',functions:[],kind:'complete_vertical'}]}};
-  globalThis.fetch=async()=>({ok:true,json:async()=>payload});const panel=createMusicXMLLive();panel.update({referenceSeconds:0});await panel.load('ravel-left-hand');
-  assert.match(root.textContent,/读法一/);assert.match(root.textContent,/读法二/);assert.match(root.textContent,/圆号/);assert.match(root.textContent,/巴松/);
-  panel.update({referenceSeconds:1.5});assert.doesNotMatch(root.textContent,/圆号/);assert.doesNotMatch(root.textContent,/巴松/);
-  panel.update({referenceSeconds:3});assert.match(root.textContent,/位置未覆盖/);
+  globalThis.fetch=async()=>({ok:true,json:async()=>payload});const panel=createMusicXMLLive();await panel.load('ravel-left-hand');
+  assert.equal(panel.at(0).data,payload);assert.equal(panel.at(0).frame.active_instruments.length,2);
+  assert.equal(panel.at(1.5).frame.active_instruments.length,0);assert.equal(panel.at(3).frame,null);
+  assert.equal(root.children.length,0,'provider must not create a second harmony/orchestration UI');
   assert.equal($('essay-body').textContent,'persistent');assert.equal($('essay-body').scrollTop,110);
 });
 
 test('an old performance response cannot activate instruments after a track reset',async()=>{
   makeDOM();const base=document.getElementById,root=new Element('section');document.getElementById=id=>id==='musicxml-live'?root:base(id);
   let finish;globalThis.fetch=()=>new Promise(resolve=>{finish=resolve;});const panel=createMusicXMLLive();const request=panel.load('ravel-left-hand');panel.reset();
-  finish({ok:true,json:async()=>({available:true})});await request;assert.equal(root.hidden,true);
+  finish({ok:true,json:async()=>({available:true})});await request;assert.equal(panel.at(0).data,null);
 });

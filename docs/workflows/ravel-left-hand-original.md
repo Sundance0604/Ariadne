@@ -43,7 +43,7 @@ Matchmaker Demo：https://github.com/pymatchmaker/matchmaker-demo（参考
 PDF → OMR → 页面坐标映射，但不要把模拟在线跟谱当成离线全局对齐）
 
 生成
-`docs/technical-spike.md`，比较各方案的输入格式、离线对齐能力、PDF/OMR
+`docs/archive/technical-spike.md`，比较各方案的输入格式、离线对齐能力、PDF/OMR
 支持、许可、安装难度、限制和选型理由。若尚未实际验证，标记"待验证"。不要只凭项目名称推断功能。
 
 ## 2. 建议架构
@@ -241,7 +241,7 @@ ID，再通过小节---PDF 坐标映射绘制高亮，并查询 `annotations.jso
 按阶段实施，每阶段运行测试并汇报，不要一次性生成大量未经验证的代码。
 
 **第一阶段：** 检查工作区、输入文件和现有开源工具，产出
-`docs/technical-spike.md` 与 `reports/input-audit.md`（素材可用时）。
+`docs/archive/technical-spike.md` 与 `reports/input-audit.md`（素材可用时）。
 
 **第二阶段：** 确定数据格式，搭建前端与本地处理接口。
 
@@ -255,7 +255,7 @@ ID，再通过小节---PDF 坐标映射绘制高亮，并查询 `annotations.jso
 
 每阶段必须报告：已完成、未完成、实际运行的测试、测试结果、已知限制和下一步。不得声称未运行的测试通过，也不得用虚构素材冒充真实测试。
 
-最终交付至少包含： - `WORKFLOW.md` - `docs/technical-spike.md` -
+最终交付至少包含： - `WORKFLOW.md` - `docs/archive/technical-spike.md` -
 `reports/input-audit.md`（素材可用时） -
 `reports/omr-review.md`（识谱后） - `analysis/analysis.md` -
 `analysis/bibliography.md` - `analysis/annotations.json` -

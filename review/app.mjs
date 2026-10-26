@@ -1,7 +1,8 @@
-import {buildPlaybackRegions,playheadPosition} from '/playhead.mjs';
+import {buildPlaybackRegions,playheadPosition,scoreTimeCovered} from '/playhead.mjs';
 import {createAnalysisPanel} from '/analysis.mjs';
 import {PlaybackController} from '/playback.mjs';
 import {prepareScoreRegions,scoreRegionAt,scoreRegionAtPoint} from '/score-follow.mjs';
+import {highlightPercent,revealRegionScroll,measureIndexAt} from '/score-display.mjs';
 import {movementChapters,chapterAtTime} from '/movements.mjs';
 import {createMeasureNumberPanel,measureNumberLabel} from '/measure-numbers.mjs';
 import {createResearchPanel} from '/research.mjs';
@@ -30,12 +31,21 @@ const measureNumberPanel=createMeasureNumberPanel({onLocate:locateNumberedMeasur
   scoreMeasures=data;scoreRegions=prepareScoreRegions(scoreMapDocument,project,scoreCorrections,scoreMeasures);
   activeScoreRegion=null;syncPlaybackPosition();configureScoreReview();
 }});
-const researchPanel=createResearchPanel({getRegions:()=>scoreRegions,onSelectTab:name=>analysisPanel.selectTab(name),
+const researchPanel=createResearchPanel({getRegions:()=>scoreRegions,onSelectTab:name=>{
+  analysisPanel.selectTab(name);
+  if(name==='evidence')document.querySelector('[data-mobile-tab="analysis"]')?.click();
+},
   onNavigate:navigation=>{
     if(!project||!navigation.page)return;
     if(navigation.canSeek){audio.currentTime=navigation.time;syncPlaybackPosition();updateTransport();showPage(navigation.page);}
     else{$('follow').checked=false;showPage(navigation.page,true);$('toast').textContent='已打开相关谱页 · 音频位置待核查，未改变播放时间；可重新勾选跟随播放。';}
   }});
+const returnScore=$('evidence-return-score');
+if(returnScore)returnScore.onclick=()=>{
+  analysisPanel.selectTab('guide');document.querySelector('[data-mobile-tab="score"]')?.click();
+  $('follow').checked=true;$('follow').onchange();
+  $('score').scrollIntoView?.({block:'nearest'});
+};
 new ResizeObserver(()=>document.documentElement.style.setProperty('--hud-height',document.getElementById('research-hud-bar').getBoundingClientRect().height+'px')).observe(document.getElementById('research-hud-bar'));
 new ResizeObserver(()=>document.documentElement.style.setProperty('--toolbar-height',document.querySelector('.toolbar').getBoundingClientRect().height+'px')).observe(document.querySelector('.toolbar'));
 new ResizeObserver(()=>document.documentElement.style.setProperty('--score-nav-height',document.querySelector('.pagebuttons').getBoundingClientRect().height+'px')).observe(document.querySelector('.pagebuttons'));
@@ -74,9 +84,9 @@ function scoreLocation(region){
 function highlight(){
   if(!project)return;
   const box=scoreRegions.length?activeScoreRegion:mapping.get(project.measures[current].measure_id),node=$('highlight');
-  node.hidden=!box||box.page_number!==page;if(node.hidden)return;
-  const [x,y,w,h]=box.rect_pt;
-  Object.assign(node.style,{left:`${x/box.page_width_pt*100}%`,top:`${y/box.page_height_pt*100}%`,width:`${w/box.page_width_pt*100}%`,height:`${h/box.page_height_pt*100}%`});
+  node.hidden=!scoreTimeCovered(project.score_time_coverage,audio.currentTime)||!box||box.page_number!==page;if(node.hidden)return;
+  const rect=highlightPercent(box);
+  Object.assign(node.style,Object.fromEntries(Object.entries(rect).map(([key,value])=>[key,`${value}%`])));
   const uncertain=box.review_status==='needs_review'||scoreRegions.length&&!box.manual_timing&&timingNeedsReview();
   node.style.borderColor=uncertain?'#c54242':'#bd7c19';
   node.style.background=uncertain?'#d9454522':'#e9b54229';
@@ -87,9 +97,9 @@ function revealPlayingRegion(){
   const target=node.getBoundingClientRect(),view=pane.getBoundingClientRect();
   // Keep the current system's top staff visible when the full orchestra is
   // taller than the viewport. Never repeatedly fight a reader's scrolling.
-  if(target.top<view.top+12||target.top>view.bottom-60||target.bottom<view.top)
-    pane.scrollTop+=target.top-view.top-18;
-  if(target.right<view.left||target.left>view.right-30)pane.scrollLeft+=target.left-view.left-18;
+  const scroll=revealRegionScroll({top:pane.scrollTop,left:pane.scrollLeft},target,view);
+  if(pane.scrollTop!==scroll.top)pane.scrollTop=scroll.top;
+  if(pane.scrollLeft!==scroll.left)pane.scrollLeft=scroll.left;
 }
 function syncScoreRegion(){
   if(!scoreRegions.length||!project)return false;
@@ -146,11 +156,12 @@ function updatePlayhead(){
   if(!project)return;
   const m=project.measures[current],box=scoreRegions.length?activeScoreRegion:mapping.get(m.measure_id),
     region=scoreRegions.length?activeScoreRegion:playbackRegions.get(m.measure_id);
-  const position=playheadPosition(project.time_map,audio.currentTime,box,region),line=$('playhead');
-  analysisPanel.update(box?.page_number,m.sequence_index,{page,time:audio.currentTime,
+  const covered=scoreTimeCovered(project.score_time_coverage,audio.currentTime);
+  const position=covered?playheadPosition(project.time_map,audio.currentTime,box,region):null,line=$('playhead');
+  analysisPanel.update(covered?box?.page_number:null,m.sequence_index,{page,time:audio.currentTime,
     ...(box?.page_number===page?{system_index:box.system_index??0,
       x_pt:position?position.leftPercent/100*box.page_width_pt:box.rect_pt[0]}:{})});
-  researchPanel.update({playingPage:box?.page_number??null,browsedPage:page,time:audio.currentTime,
+  researchPanel.update({playingPage:covered?box?.page_number??null:null,browsedPage:page,time:audio.currentTime,
     referenceId:m.measure_id,regionId:box?.region_id,systemIndex:box?.system_index,
     referenceSeconds:position?.referenceSeconds??null,
     x:position&&box?position.leftPercent/100*box.page_width_pt:null});
@@ -167,9 +178,7 @@ function updatePlayhead(){
 }
 function syncPlaybackPosition(){
   if(!project)return;
-  let lo=0,hi=project.measures.length;
-  while(lo<hi){const mid=(lo+hi)>>1;if(project.measures[mid].start_seconds<=audio.currentTime+.001)lo=mid+1;else hi=mid;}
-  const index=Math.max(0,lo-1);if(index!==current)choose(index);else syncScoreRegion();updatePlayhead();
+  const index=measureIndexAt(project.measures,audio.currentTime);if(index!==current)choose(index);else syncScoreRegion();highlight();updatePlayhead();
 }
 function updateTransport(){
   $('progress').max=audio.duration||1;$('progress').value=audio.currentTime;

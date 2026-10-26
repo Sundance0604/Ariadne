@@ -1,0 +1,938 @@
+{
+  "schema_version": "1.0",
+  "work_id": "ravel-left-hand-concerto",
+  "base_snapshot": "analysis/musicxml/ravel-20261026-v5",
+  "labels": {
+    "counterpoint": "声部关系与复调",
+    "form": "曲式与主题发展"
+  },
+  "materials": [
+    {
+      "id": "alpha",
+      "title": "低音巴松初始材料",
+      "identity_status": "provisional",
+      "anchor_pages": [
+        1,
+        2
+      ],
+      "definition": "以低音巴松的初次旋律进入为起点；后续同主题身份须逐次比较。"
+    },
+    {
+      "id": "beta",
+      "title": "圆号材料",
+      "identity_status": "local_signature_transcribed",
+      "anchor_pages": [
+        2,
+        3
+      ],
+      "definition": "已录入第10–11号的音程与节奏；两层圆号先按八度加倍合并。"
+    },
+    {
+      "id": "lyric",
+      "title": "慢段歌唱材料",
+      "identity_status": "provisional",
+      "anchor_pages": [
+        24,
+        25
+      ],
+      "definition": "以歌唱层与流动伴奏的对置为导航；不直接等同奏鸣曲副部。"
+    },
+    {
+      "id": "fast",
+      "title": "6/8快段材料",
+      "identity_status": "provisional",
+      "anchor_pages": [
+        33
+      ],
+      "definition": "速度、节拍与短音型形成对比；未据速度词断定主题身份。"
+    },
+    {
+      "id": "late-cantabile",
+      "title": "后华彩旋律层",
+      "identity_status": "provisional",
+      "anchor_pages": [
+        91,
+        95
+      ],
+      "definition": "与开头华彩的联系先列为待检验关系，不自动合并同主题。"
+    }
+  ],
+  "material_links": [
+    {
+      "from": "alpha",
+      "to": "cad1",
+      "status": "auxiliary_comparison_only",
+      "argument": "既有五音比较提供候选，未自动确认为同主题。"
+    },
+    {
+      "from": "fast-area",
+      "to": "coda",
+      "status": "tempo_character_return",
+      "argument": "Allegro标记与性格返回，不等于已核验全段主题相同。"
+    }
+  ],
+  "motif_interface": "reuse MusicXML form.motif_comparisons; legacy MotifAnalyzer remains auxiliary",
+  "relations": [
+    {
+      "id": "ravel-five-attack-cadenza-return",
+      "motif_comparison_id": "xml-motif-f8f68a3c49e6",
+      "type": "literal_transposed_correspondence",
+      "from": {
+        "voice_id": "P23:v1",
+        "measure_id": "xml-m0042",
+        "event_ids": [
+          "P23-xml-m0042-n0011",
+          "P23-xml-m0042-n0012",
+          "P23-xml-m0042-n0015",
+          "P23-xml-m0042-n0018",
+          "P23-xml-m0043-n0003"
+        ],
+        "start_q": "469/4",
+        "start_pitch": "D4"
+      },
+      "to": {
+        "voice_id": "P1:v1",
+        "measure_id": "xml-m0067",
+        "event_ids": [
+          "P1-xml-m0067-n0006",
+          "P1-xml-m0067-n0008",
+          "P1-xml-m0067-n0010",
+          "P1-xml-m0067-n0012",
+          "P1-xml-m0068-n0002"
+        ],
+        "start_q": "795/4",
+        "start_pitch": "D6"
+      },
+      "intervals": [
+        0.0,
+        -5.0,
+        4.0,
+        -2.0
+      ],
+      "duration_ratios": [
+        "1",
+        "1",
+        "6",
+        "2",
+        "16"
+      ],
+      "transposition_semitones": 24,
+      "status": "agent_xml_note_comparison_checked",
+      "theme_identity": "unassigned",
+      "human_signoff": null,
+      "scope": "五个连续攻击的上层取音；不是完整旋律或整段主题的同一性认定",
+      "counterevidence": [
+        "同度及八度加倍不能计作多次独立主题陈述。",
+        "五音相同也可能是局部公式；未据此合并整段主题。"
+      ],
+      "simultaneous_doublings": [
+        {
+          "voice_id": "P1:v1",
+          "measure_id": "xml-m0067",
+          "event_ids": [
+            "P1-xml-m0067-n0006",
+            "P1-xml-m0067-n0008",
+            "P1-xml-m0067-n0010",
+            "P1-xml-m0067-n0012",
+            "P1-xml-m0068-n0002"
+          ],
+          "start_q": "795/4",
+          "start_pitch": "D6"
+        },
+        {
+          "voice_id": "P2:v1",
+          "measure_id": "xml-m0067",
+          "event_ids": [
+            "P2-xml-m0067-n0003",
+            "P2-xml-m0067-n0004",
+            "P2-xml-m0067-n0005",
+            "P2-xml-m0067-n0006",
+            "P2-xml-m0068-n0001"
+          ],
+          "start_q": "795/4",
+          "start_pitch": "D6"
+        },
+        {
+          "voice_id": "P3:v1",
+          "measure_id": "xml-m0067",
+          "event_ids": [
+            "P3-xml-m0067-n0003",
+            "P3-xml-m0067-n0004",
+            "P3-xml-m0067-n0005",
+            "P3-xml-m0067-n0006",
+            "P3-xml-m0068-n0001"
+          ],
+          "start_q": "795/4",
+          "start_pitch": "D6"
+        },
+        {
+          "voice_id": "P5:v1",
+          "measure_id": "xml-m0067",
+          "event_ids": [
+            "P5-xml-m0067-n0003",
+            "P5-xml-m0067-n0004",
+            "P5-xml-m0067-n0005",
+            "P5-xml-m0067-n0006",
+            "P5-xml-m0068-n0001"
+          ],
+          "start_q": "795/4",
+          "start_pitch": "D6"
+        },
+        {
+          "voice_id": "P12:v1",
+          "measure_id": "xml-m0067",
+          "event_ids": [
+            "P12-xml-m0067-n0005",
+            "P12-xml-m0067-n0006",
+            "P12-xml-m0067-n0007",
+            "P12-xml-m0067-n0008",
+            "P12-xml-m0068-n0001"
+          ],
+          "start_q": "795/4",
+          "start_pitch": "D5"
+        },
+        {
+          "voice_id": "P24:v1",
+          "measure_id": "xml-m0067",
+          "event_ids": [
+            "P24-xml-m0067-n0009",
+            "P24-xml-m0067-n0012",
+            "P24-xml-m0067-n0015",
+            "P24-xml-m0067-n0018",
+            "P24-xml-m0068-n0003"
+          ],
+          "start_q": "795/4",
+          "start_pitch": "D6"
+        },
+        {
+          "voice_id": "P27:v1",
+          "measure_id": "xml-m0067",
+          "event_ids": [
+            "P27-xml-m0067-n0009",
+            "P27-xml-m0067-n0012",
+            "P27-xml-m0067-n0015",
+            "P27-xml-m0067-n0018",
+            "P27-xml-m0068-n0003"
+          ],
+          "start_q": "795/4",
+          "start_pitch": "D5"
+        }
+      ]
+    }
+  ],
+  "readings": [
+    {
+      "id": "voices-opening",
+      "dimension": "counterpoint",
+      "title": "持续层与流动层",
+      "summary": "大提琴长音与低音提琴六连音分担持续和流动；节奏分层不等于多条独立旋律。",
+      "detail": "大提琴两层持续，低音提琴活动层使用同一四度骨架。\n持续音与六连音具有节奏差异，但活动层主要展开背景音集；本窗口不支持把各分部称为独立模仿声部。\n保留持续层、运动层的分工，避免把“多件乐器同时演奏”直接算作严格对位。",
+      "score_spans": [
+        {
+          "precision": "page_range",
+          "pdf_page_start": 1,
+          "pdf_page_end": 1,
+          "region_ids": []
+        }
+      ],
+      "priority": 10,
+      "source_events": [
+        {
+          "id": "study-arpeggio-layers",
+          "path": "analysis/score-studies/ravel-study-20261026.json",
+          "text": "大提琴两层持续，低音提琴活动层使用同一四度骨架。\n持续音与六连音具有节奏差异，但活动层主要展开背景音集；本窗口不支持把各分部称为独立模仿声部。\n保留持续层、运动层的分工，避免把“多件乐器同时演奏”直接算作严格对位。"
+        }
+      ],
+      "relation_ids": [],
+      "evidence_level": "existing_score_study_synthesis",
+      "human_signoff": null
+    },
+    {
+      "id": "voices-bassoon",
+      "dimension": "counterpoint",
+      "title": "旋律从背景中显出",
+      "summary": "低音巴松的长句成为前景，低弦保持持续音与流动背景；先分清旋律和支撑层。",
+      "detail": "沿低音巴松句子的延续聆听，再与低弦的持续／分解层比较。声部职责不同，不按同时演奏的乐器数计算复调声部。",
+      "score_spans": [
+        {
+          "precision": "page_range",
+          "pdf_page_start": 2,
+          "pdf_page_end": 2,
+          "region_ids": []
+        }
+      ],
+      "priority": 10,
+      "source_events": [
+        {
+          "id": "study-form-intro",
+          "path": "analysis/score-studies/ravel-study-20261026.json",
+          "text": "低音区持续层、低音巴松与圆号材料先后进入；段尾与独奏交接需按实际入口区分。\n主题材料先于独奏出现，第一华彩可承担呈示性功能，而非单纯插入炫技。"
+        }
+      ],
+      "relation_ids": [],
+      "evidence_level": "existing_score_study_synthesis",
+      "human_signoff": null
+    },
+    {
+      "id": "voices-horn",
+      "dimension": "counterpoint",
+      "title": "加倍合并后的异节奏关系",
+      "summary": "圆号八度加倍与巴松平行六度各合为一层；两层以不同节奏交错推进。",
+      "detail": "圆号两层始终相距八度；巴松双音由B♭1/G2、C2/A2、D2/B♭2构成平行六度层。\n先把圆号八度加倍与巴松平行六度分别视为层，再比较层间关系。圆号八分运动与巴松四分／二分时值形成独立节奏与斜向运动。\n第二小节圆号实音F4–E4–D4下行，巴松B♭2保持：复音程为纯十二度→增十一度→大十度。弱八分的E4在这对声部中是经过性不协和。\n低音巴松同时维持E1，故不能把这个局部经过音判断直接扩大为全织体的和弦外音。这里是分层的自由声部关系，不是卡农或赋格。",
+      "score_spans": [
+        {
+          "precision": "page_range",
+          "pdf_page_start": 3,
+          "pdf_page_end": 3,
+          "region_ids": []
+        }
+      ],
+      "priority": 10,
+      "source_events": [
+        {
+          "id": "study-passing",
+          "path": "analysis/score-studies/ravel-study-20261026.json",
+          "text": "圆号两层始终相距八度；巴松双音由B♭1/G2、C2/A2、D2/B♭2构成平行六度层。\n先把圆号八度加倍与巴松平行六度分别视为层，再比较层间关系。圆号八分运动与巴松四分／二分时值形成独立节奏与斜向运动。\n第二小节圆号实音F4–E4–D4下行，巴松B♭2保持：复音程为纯十二度→增十一度→大十度。弱八分的E4在这对声部中是经过性不协和。\n低音巴松同时维持E1，故不能把这个局部经过音判断直接扩大为全织体的和弦外音。这里是分层的自由声部关系，不是卡农或赋格。"
+        }
+      ],
+      "relation_ids": [],
+      "evidence_level": "existing_score_study_synthesis",
+      "human_signoff": null
+    },
+    {
+      "id": "voices-single-hand-layers",
+      "dimension": "counterpoint",
+      "title": "歌唱线、低音与填充",
+      "summary": "钢琴分时触及旋律与低音；长音线的句法与和弦填充分开，不能把每颗分解音都算作独立声部。",
+      "detail": "钢琴分时触及旋律、和声与低音，持续时值和踏板使不同层次在听觉上保持连续。低音与旋律的重音不同，不等同于一条只有装饰的单旋律；分解和弦内的每颗音也不应被算作独立声部。",
+      "score_spans": [
+        {
+          "pdf_page_start": 11,
+          "pdf_page_end": 12,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "priority": 20,
+      "source_events": [
+        {
+          "id": "single-hand-layers",
+          "path": "analysis/structural-events.json",
+          "text": "钢琴分时触及旋律、和声与低音，持续时值和踏板使不同层次在听觉上保持连续。低音与旋律的重音不同，不等同于一条只有装饰的单旋律；分解和弦内的每颗音也不应被算作独立声部。"
+        }
+      ],
+      "relation_ids": [],
+      "evidence_level": "existing_score_study_synthesis",
+      "human_signoff": null
+    },
+    {
+      "id": "voices-vivo-contrary-lines",
+      "dimension": "counterpoint",
+      "title": "外声的反向运动",
+      "summary": "Vivo的上下层走向不同；分开追踪两条线的方向与节奏，听它们怎样保持独立。",
+      "detail": "第12页下部Vivo起，上下层的走向差异强化两条线的独立感。反向进行描述声部运动；尚不足以将此段命名为卡农、赋格或可转位对位。",
+      "score_spans": [
+        {
+          "pdf_page_start": 12,
+          "pdf_page_end": 13,
+          "precision": "score_segment",
+          "score_start": [
+            12,
+            4,
+            565
+          ],
+          "score_end": [
+            13,
+            0,
+            485.2
+          ]
+        }
+      ],
+      "priority": 20,
+      "source_events": [
+        {
+          "id": "vivo-contrary-lines",
+          "path": "analysis/structural-events.json",
+          "text": "第12页下部Vivo起，上下层的走向差异强化两条线的独立感。反向进行描述声部运动；尚不足以将此段命名为卡农、赋格或可转位对位。"
+        }
+      ],
+      "relation_ids": [],
+      "evidence_level": "existing_score_study_synthesis",
+      "human_signoff": null,
+      "start_q": "333/2",
+      "end_q": "355/2",
+      "activation_precision": "existing_pdf_span_measure_containment"
+    },
+    {
+      "id": "voices-lyrical-poly-meter",
+      "dimension": "counterpoint",
+      "title": "不同节奏组织下的主副层",
+      "summary": "歌唱旋律与快速伴奏各有节拍组织；旋律句法与伴奏周期不必同时起止。",
+      "detail": "第24页钢琴歌唱层与快速音型具有不同节奏组织，旋律与伴奏的记谱拍号可不同。应沿各自节拍组读谱，不能把每次音型相遇都当作新的和弦或模仿入口。",
+      "score_spans": [
+        {
+          "pdf_page_start": 24,
+          "pdf_page_end": 24,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "priority": 20,
+      "source_events": [
+        {
+          "id": "lyrical-poly-meter",
+          "path": "analysis/structural-events.json",
+          "text": "第24页钢琴歌唱层与快速音型具有不同节奏组织，旋律与伴奏的记谱拍号可不同。应沿各自节拍组读谱，不能把每次音型相遇都当作新的和弦或模仿入口。"
+        }
+      ],
+      "relation_ids": [],
+      "evidence_level": "existing_score_study_synthesis",
+      "human_signoff": null
+    },
+    {
+      "id": "voices-planing-not-counterpoint",
+      "dimension": "counterpoint",
+      "title": "和声化旋律与平行支撑",
+      "summary": "上层线条带着和弦块同向下降，内声主要支撑旋律；三颗和弦音不等于三条独立旋律。",
+      "detail": "第35页三和弦块随上声下降，内声主要同向支撑。这里宜称和声化旋律或和弦平移；音有三颗，不代表存在三条等权、独立发展的对位线。",
+      "score_spans": [
+        {
+          "pdf_page_start": 35,
+          "pdf_page_end": 36,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "priority": 20,
+      "source_events": [
+        {
+          "id": "planing-not-counterpoint",
+          "path": "analysis/structural-events.json",
+          "text": "第35页三和弦块随上声下降，内声主要同向支撑。这里宜称和声化旋律或和弦平移；音有三颗，不代表存在三条等权、独立发展的对位线。"
+        }
+      ],
+      "relation_ids": [],
+      "evidence_level": "existing_score_study_synthesis",
+      "human_signoff": null
+    },
+    {
+      "id": "voices-trombone-ostinato",
+      "dimension": "counterpoint",
+      "title": "长线条与固定背景",
+      "summary": "长号持续、连接的线条与中低弦和鼓类的反复节奏并置，两层具有不同时间尺度。",
+      "detail": "第61页长号持续、连接音与鼓类、中低弦反复节奏并存，钢琴休止。两层时间尺度不同，是长线条与固定背景的复合，不按乐器数机械计算主题数。",
+      "score_spans": [
+        {
+          "pdf_page_start": 61,
+          "pdf_page_end": 61,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "priority": 20,
+      "source_events": [
+        {
+          "id": "trombone-ostinato",
+          "path": "analysis/structural-events.json",
+          "text": "第61页长号持续、连接音与鼓类、中低弦反复节奏并存，钢琴休止。两层时间尺度不同，是长线条与固定背景的复合，不按乐器数机械计算主题数。"
+        }
+      ],
+      "relation_ids": [],
+      "evidence_level": "existing_score_study_synthesis",
+      "human_signoff": null
+    },
+    {
+      "id": "voices-contrary-return",
+      "dimension": "counterpoint",
+      "title": "交替音区中的声部区分",
+      "summary": "钢琴与低弦形成不同节奏的线条；高低音区交替时，仍分别追踪外声的走向。",
+      "detail": "第82页下系统钢琴和低弦形成不同节奏的线条。高低交替与外声走向需分别读出，不能将所有跳跃简化成同一和弦的装饰，也不据此命名严格模仿。",
+      "score_spans": [
+        {
+          "pdf_page_start": 82,
+          "pdf_page_end": 82,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "priority": 20,
+      "source_events": [
+        {
+          "id": "contrary-return",
+          "path": "analysis/structural-events.json",
+          "text": "第82页下系统钢琴和低弦形成不同节奏的线条。高低交替与外声走向需分别读出，不能将所有跳跃简化成同一和弦的装饰，也不据此命名严格模仿。"
+        }
+      ],
+      "relation_ids": [],
+      "evidence_level": "existing_score_study_synthesis",
+      "human_signoff": null
+    },
+    {
+      "id": "voices-cadenza-melody-layer",
+      "dimension": "counterpoint",
+      "title": "旋律与流动伴奏并存",
+      "summary": "较长旋律音在密集音型上延续；旋律句法与伴奏周期不等长，先保持两层的连续性。",
+      "detail": "第92页较长旋律音与密集连续音型分层：旋律的句法和伴奏的音型周期不等长。先保持两层身份，再讨论和声；不能每颗快速音都单列成一次和弦变化。",
+      "score_spans": [
+        {
+          "pdf_page_start": 92,
+          "pdf_page_end": 92,
+          "precision": "page_range",
+          "region_ids": []
+        }
+      ],
+      "priority": 20,
+      "source_events": [
+        {
+          "id": "cadenza-melody-layer",
+          "path": "analysis/structural-events.json",
+          "text": "第92页较长旋律音与密集连续音型分层：旋律的句法和伴奏的音型周期不等长。先保持两层身份，再讨论和声；不能每颗快速音都单列成一次和弦变化。"
+        }
+      ],
+      "relation_ids": [],
+      "evidence_level": "existing_score_study_synthesis",
+      "human_signoff": null
+    },
+    {
+      "id": "voices-cadenza-countermelody",
+      "dimension": "counterpoint",
+      "title": "独立低声部的加入",
+      "summary": "较慢低声部另有三连组织、入口与方向，与上方旋律和密集音型形成更明确的多层声部关系。",
+      "detail": "第93页印号500附近，较慢低声部以三连组织单列，与上方旋律及密集音型有独立入口和方向。这里有比单纯分解和弦更充分的副旋律／多层对位依据；不进一步冒称为赋格或可转位对位。",
+      "score_spans": [
+        {
+          "pdf_page_start": 93,
+          "pdf_page_end": 94,
+          "precision": "score_segment",
+          "score_start": [
+            93,
+            3,
+            88.9
+          ],
+          "score_end": [
+            94,
+            0,
+            88.9
+          ]
+        }
+      ],
+      "priority": 20,
+      "source_events": [
+        {
+          "id": "cadenza-countermelody",
+          "path": "analysis/structural-events.json",
+          "text": "第93页印号500附近，较慢低声部以三连组织单列，与上方旋律及密集音型有独立入口和方向。这里有比单纯分解和弦更充分的副旋律／多层对位依据；不进一步冒称为赋格或可转位对位。"
+        }
+      ],
+      "relation_ids": [],
+      "evidence_level": "existing_score_study_synthesis",
+      "human_signoff": null,
+      "start_q": "1458",
+      "end_q": "1472",
+      "activation_precision": "existing_pdf_span_measure_containment"
+    },
+    {
+      "id": "development-intro",
+      "dimension": "form",
+      "title": "引子：材料的预呈示与积累",
+      "summary": "低弦背景先建立，低音巴松与圆号材料随后进入；这些陈述为独奏接管前景积累条件。",
+      "detail": "主题材料先于独奏出现，第一华彩可承担呈示性功能，而非单纯插入炫技。",
+      "score_spans": [
+        {
+          "precision": "page_range",
+          "pdf_page_start": 1,
+          "pdf_page_end": 10,
+          "region_ids": []
+        }
+      ],
+      "priority": 10,
+      "source_events": [
+        {
+          "id": "study-form-intro",
+          "path": "analysis/score-studies/ravel-study-20261026.json",
+          "text": "低音区持续层、低音巴松与圆号材料先后进入；段尾与独奏交接需按实际入口区分。\n主题材料先于独奏出现，第一华彩可承担呈示性功能，而非单纯插入炫技。"
+        }
+      ],
+      "relation_ids": [],
+      "evidence_level": "existing_score_study_synthesis",
+      "human_signoff": null,
+      "start_q": "0",
+      "end_q": "80"
+    },
+    {
+      "id": "development-cadenza-1",
+      "dimension": "form",
+      "title": "首次华彩：独奏陈述与展开",
+      "summary": "独奏接管此前的管弦乐空间，经歌唱性陈述、强化运动与结束姿态，准备后续乐队的到达。",
+      "detail": "自由开场、歌唱性陈述、附点和弦与跳跃强化、结束姿态构成华彩内部的功能序列。其职责包括宣布独奏者、发展材料和引导主调到达；局部T1/T2标签不直接等同整曲主部／副部。",
+      "score_spans": [
+        {
+          "precision": "page_range",
+          "pdf_page_start": 10,
+          "pdf_page_end": 15,
+          "region_ids": []
+        }
+      ],
+      "priority": 10,
+      "source_events": [
+        {
+          "id": "opening-cadenza",
+          "path": "analysis/structural-events.json",
+          "text": "自由开场、歌唱性陈述、附点和弦与跳跃强化、结束姿态构成华彩内部的功能序列。其职责包括宣布独奏者、发展材料和引导主调到达；局部T1/T2标签不直接等同整曲主部／副部。"
+        }
+      ],
+      "relation_ids": [],
+      "evidence_level": "existing_score_study_synthesis",
+      "human_signoff": null,
+      "start_q": "80",
+      "end_q": "751/4"
+    },
+    {
+      "id": "development-orchestral-return",
+      "dimension": "form",
+      "title": "乐队重入：到达与主题确认",
+      "summary": "首次华彩之后，乐队重新承担主题陈述；和声、低音与音色的到达分阶段完成。",
+      "detail": "第15页乐队弱起、后置低音和持续的主题陈述共同形成到达过程。其形式作用比单一音头宽，不能把第一次D大三和弦攻击直接等同教科书完全终止。",
+      "score_spans": [
+        {
+          "precision": "page_range",
+          "pdf_page_start": 15,
+          "pdf_page_end": 23,
+          "region_ids": []
+        }
+      ],
+      "priority": 10,
+      "source_events": [
+        {
+          "id": "return-formal-arrival",
+          "path": "analysis/structural-events.json",
+          "text": "第15页乐队弱起、后置低音和持续的主题陈述共同形成到达过程。其形式作用比单一音头宽，不能把第一次D大三和弦攻击直接等同教科书完全终止。"
+        }
+      ],
+      "relation_ids": [],
+      "evidence_level": "existing_score_study_synthesis",
+      "human_signoff": null,
+      "start_q": "751/4",
+      "end_q": "248"
+    },
+    {
+      "id": "development-lyric",
+      "dimension": "form",
+      "title": "抒情对比与连接",
+      "summary": "长旋律音与流动伴奏改变前一段厚重陈述的组织方式；对比与连接共同推进慢段。",
+      "detail": "Più lento及Andante附近，较长旋律音、减薄配器和流动伴奏构成与厚重主题陈述的对比。这是乐句功能和织体的共同变化；页码分组只是导航范围。",
+      "score_spans": [
+        {
+          "precision": "page_range",
+          "pdf_page_start": 24,
+          "pdf_page_end": 32,
+          "region_ids": []
+        }
+      ],
+      "priority": 10,
+      "source_events": [
+        {
+          "id": "lyrical-formal-region",
+          "path": "analysis/structural-events.json",
+          "text": "Più lento及Andante附近，较长旋律音、减薄配器和流动伴奏构成与厚重主题陈述的对比。这是乐句功能和织体的共同变化；页码分组只是导航范围。"
+        }
+      ],
+      "relation_ids": [],
+      "evidence_level": "existing_score_study_synthesis",
+      "human_signoff": null,
+      "start_q": "248",
+      "end_q": "360"
+    },
+    {
+      "id": "development-allegro",
+      "dimension": "form",
+      "title": "快段：对比与内部发展",
+      "summary": "6/8、下降和弦型与反复节奏建立快板对比；内部通过交替、叠合和层次变化继续展开。",
+      "detail": "第33页排练号14起，6/8、下降和弦型及反复节奏支撑建立快板性格。它与此前慢段形成大尺度对比，并保留进一步展开旧材料的空间。",
+      "score_spans": [
+        {
+          "precision": "page_range",
+          "pdf_page_start": 33,
+          "pdf_page_end": 90,
+          "region_ids": []
+        }
+      ],
+      "priority": 10,
+      "source_events": [
+        {
+          "id": "allegro-region",
+          "path": "analysis/structural-events.json",
+          "text": "第33页排练号14起，6/8、下降和弦型及反复节奏支撑建立快板性格。它与此前慢段形成大尺度对比，并保留进一步展开旧材料的空间。"
+        }
+      ],
+      "relation_ids": [],
+      "evidence_level": "existing_score_study_synthesis",
+      "human_signoff": null,
+      "start_q": "360",
+      "end_q": "1399"
+    },
+    {
+      "id": "development-cadenza-2",
+      "dimension": "form",
+      "title": "后段华彩：重组独奏空间",
+      "summary": "与首次华彩对照：独奏再次组织低音、歌唱线和连续运动；组织方式的呼应不等于整段主题相同。",
+      "detail": "第91页Cadenza开始，低区分解、旋律与密集运动逐层组织；第93页加入较慢低线，第95页后半乐队逐步进入。它承担返回、变形与综合，独奏空间的结束并非一刀切。",
+      "score_spans": [
+        {
+          "precision": "page_range",
+          "pdf_page_start": 91,
+          "pdf_page_end": 95,
+          "region_ids": []
+        }
+      ],
+      "priority": 10,
+      "source_events": [
+        {
+          "id": "closing-cadenza",
+          "path": "analysis/structural-events.json",
+          "text": "第91页Cadenza开始，低区分解、旋律与密集运动逐层组织；第93页加入较慢低线，第95页后半乐队逐步进入。它承担返回、变形与综合，独奏空间的结束并非一刀切。"
+        }
+      ],
+      "relation_ids": [],
+      "evidence_level": "existing_score_study_synthesis",
+      "human_signoff": null,
+      "start_q": "1399",
+      "end_q": "1518"
+    },
+    {
+      "id": "development-reconstruction",
+      "dimension": "form",
+      "title": "独奏与乐队的重叠连接",
+      "summary": "钢琴尚未结束，乐队已逐层加入；华彩与合奏以重叠连接，逐渐加强返回和收束功能。",
+      "detail": "独奏未完全停下，乐队已逐层参与，因此华彩与后续合奏的关系应记为重叠连接。返回和结束功能逐步加强，不必制造一个不存在的全体静止分界。",
+      "score_spans": [
+        {
+          "precision": "page_range",
+          "pdf_page_start": 96,
+          "pdf_page_end": 99,
+          "region_ids": []
+        }
+      ],
+      "priority": 10,
+      "source_events": [
+        {
+          "id": "overlapping-return",
+          "path": "analysis/structural-events.json",
+          "text": "独奏未完全停下，乐队已逐层参与，因此华彩与后续合奏的关系应记为重叠连接。返回和结束功能逐步加强，不必制造一个不存在的全体静止分界。"
+        }
+      ],
+      "relation_ids": [],
+      "evidence_level": "existing_score_study_synthesis",
+      "human_signoff": null,
+      "start_q": "1517",
+      "end_q": "1544"
+    },
+    {
+      "id": "development-coda",
+      "dimension": "form",
+      "title": "短Allegro：压缩收束",
+      "summary": "短促的6/8集体动作回收快段动力，把此前的回忆与聚合压缩为最后的收束。",
+      "detail": "第100页排练号53，6/8与短促集体动作回收快段动力；篇幅虽短，结束功能来自此前的回忆、聚合与主调回归。采用codetta／压缩尾声解释。",
+      "score_spans": [
+        {
+          "precision": "page_range",
+          "pdf_page_start": 100,
+          "pdf_page_end": 100,
+          "region_ids": []
+        }
+      ],
+      "priority": 10,
+      "source_events": [
+        {
+          "id": "final-allegro",
+          "path": "analysis/structural-events.json",
+          "text": "第100页排练号53，6/8与短促集体动作回收快段动力；篇幅虽短，结束功能来自此前的回忆、聚合与主调回归。采用codetta／压缩尾声解释。"
+        }
+      ],
+      "relation_ids": [],
+      "evidence_level": "existing_score_study_synthesis",
+      "human_signoff": null,
+      "start_q": "1544",
+      "end_q": "1559"
+    },
+    {
+      "id": "development-scene-transition",
+      "dimension": "form",
+      "title": "展开内部的织体转折",
+      "summary": "快段继续展开，高音短句与连续分解形成新的组织；这是内部转折，不因换配器就另立完整主题。",
+      "detail": "第51页排练号25处，短句、高音区、点状弦乐和连续分解构成新织体。其功能是展开过程中的音色与音区转换，而非仅凭换配器就认定另起一首封闭段落。",
+      "score_spans": [
+        {
+          "precision": "page_range",
+          "pdf_page_start": 51,
+          "pdf_page_end": 51,
+          "region_ids": []
+        }
+      ],
+      "priority": 20,
+      "source_events": [
+        {
+          "id": "scene-transition",
+          "path": "analysis/structural-events.json",
+          "text": "第51页排练号25处，短句、高音区、点状弦乐和连续分解构成新织体。其功能是展开过程中的音色与音区转换，而非仅凭换配器就认定另起一首封闭段落。"
+        }
+      ],
+      "relation_ids": [],
+      "evidence_level": "existing_score_study_synthesis",
+      "human_signoff": null
+    },
+    {
+      "id": "development-development-continuation",
+      "dimension": "form",
+      "title": "材料的交替与叠合",
+      "summary": "长线、早先材料与反复背景交替或重叠；通过不同时间尺度的组合延续展开。",
+      "detail": "第61页及其后，早先材料、持续线和活动背景交替或重叠。此段以展开性延续理解；尚不把每个配器交接认证为新的主题或严格小曲式边界。",
+      "score_spans": [
+        {
+          "precision": "page_range",
+          "pdf_page_start": 61,
+          "pdf_page_end": 81,
+          "region_ids": []
+        }
+      ],
+      "priority": 20,
+      "source_events": [
+        {
+          "id": "development-continuation",
+          "path": "analysis/structural-events.json",
+          "text": "第61页及其后，早先材料、持续线和活动背景交替或重叠。此段以展开性延续理解；尚不把每个配器交接认证为新的主题或严格小曲式边界。"
+        }
+      ],
+      "relation_ids": [],
+      "evidence_level": "existing_score_study_synthesis",
+      "human_signoff": null
+    },
+    {
+      "id": "development-retransition",
+      "dimension": "form",
+      "title": "返回前的聚合过程",
+      "summary": "低层材料、钢琴跳跃与乐队逐渐聚合，为后段回收准备条件；返回是一段过程。",
+      "detail": "第82页排练号43附近起，低层材料、钢琴跳跃与乐队逐渐聚合，为后段回收创造条件。再转换与返回是过程性功能，不以翻页或单一速度字样取代材料、调性与终止判断。",
+      "score_spans": [
+        {
+          "precision": "page_range",
+          "pdf_page_start": 82,
+          "pdf_page_end": 90,
+          "region_ids": []
+        }
+      ],
+      "priority": 20,
+      "source_events": [
+        {
+          "id": "retransition",
+          "path": "analysis/structural-events.json",
+          "text": "第82页排练号43附近起，低层材料、钢琴跳跃与乐队逐渐聚合，为后段回收创造条件。再转换与返回是过程性功能，不以翻页或单一速度字样取代材料、调性与终止判断。"
+        }
+      ],
+      "relation_ids": [],
+      "evidence_level": "existing_score_study_synthesis",
+      "human_signoff": null
+    },
+    {
+      "id": "development-five-origin",
+      "dimension": "form",
+      "title": "华彩中的五音上层片段",
+      "summary": "记住上层D—D—A—C♯—B的重复起音、跳进与回折；后续乐队陈述会出现相同的音程及节奏配置。",
+      "detail": "五个连续攻击的上层取音；不是完整旋律或整段主题的同一性认定。原型与对应片段的音符、音程、时值比例及反证分别保留。",
+      "score_spans": [
+        {
+          "precision": "page_range",
+          "pdf_page_start": 11,
+          "pdf_page_end": 11,
+          "region_ids": []
+        }
+      ],
+      "priority": 100,
+      "source_events": [],
+      "relation_ids": [
+        "ravel-five-attack-cadenza-return"
+      ],
+      "evidence_level": "xml_literal_note_comparison",
+      "human_signoff": null,
+      "start_q": "469/4",
+      "end_q": "243/2",
+      "note_ids": [
+        "P23-xml-m0042-n0011",
+        "P23-xml-m0042-n0012",
+        "P23-xml-m0042-n0015",
+        "P23-xml-m0042-n0018",
+        "P23-xml-m0043-n0003"
+      ],
+      "video_text": "华彩上层：D—D—A—C♯—B。留意重复起音、跳进和回折。"
+    },
+    {
+      "id": "development-five-return",
+      "dimension": "form",
+      "title": "独奏与乐队之间的局部对应",
+      "summary": "此处上层五音与此前华彩片段相隔两个八度，音程及节奏比例保持；局部对应连接独奏与乐队陈述。",
+      "detail": "五个连续攻击的上层取音；不是完整旋律或整段主题的同一性认定。原型与对应片段的音符、音程、时值比例及反证分别保留。",
+      "score_spans": [
+        {
+          "precision": "page_range",
+          "pdf_page_start": 16,
+          "pdf_page_end": 16,
+          "region_ids": []
+        }
+      ],
+      "priority": 100,
+      "source_events": [],
+      "relation_ids": [
+        "ravel-five-attack-cadenza-return"
+      ],
+      "evidence_level": "xml_literal_note_comparison",
+      "human_signoff": null,
+      "start_q": "795/4",
+      "end_q": "203",
+      "note_ids": [
+        "P1-xml-m0067-n0006",
+        "P1-xml-m0067-n0008",
+        "P1-xml-m0067-n0010",
+        "P1-xml-m0067-n0012",
+        "P1-xml-m0068-n0002"
+      ],
+      "video_text": "华彩的五音上层片段在此上移两八度，音程与节奏比例保持。"
+    },
+    {
+      "id": "voices-five-doubling",
+      "dimension": "counterpoint",
+      "title": "同度与八度加倍的一条线",
+      "summary": "长笛、短笛、双簧管等以同度或八度加倍相同上层片段；共同强化一条线，不按分部数计算复调声部。",
+      "detail": "五个连续攻击的上层取音；不是完整旋律或整段主题的同一性认定。原型与对应片段的音符、音程、时值比例及反证分别保留。",
+      "score_spans": [
+        {
+          "precision": "page_range",
+          "pdf_page_start": 16,
+          "pdf_page_end": 16,
+          "region_ids": []
+        }
+      ],
+      "priority": 100,
+      "source_events": [],
+      "relation_ids": [
+        "ravel-five-attack-cadenza-return"
+      ],
+      "evidence_level": "xml_literal_note_comparison",
+      "human_signoff": null,
+      "start_q": "795/4",
+      "end_q": "203",
+      "note_ids": [
+        "P1-xml-m0067-n0006",
+        "P1-xml-m0067-n0008",
+        "P1-xml-m0067-n0010",
+        "P1-xml-m0067-n0012",
+        "P1-xml-m0068-n0002"
+      ],
+      "video_text": "多件乐器同度或八度加倍这一上层片段，共同强化一条线。"
+    }
+  ],
+  "review": {
+    "scope": "既有谱面研究的职责重组；另逐音复算一组XML局部对应。",
+    "human_signoffs": 0,
+    "expert_signoffs": 0
+  }
+}

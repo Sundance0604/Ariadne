@@ -43,7 +43,7 @@ for(const cls of ['.toolbar','header','.transport','.score-scroll','.pagebuttons
 const modes=['study','watch','focus'].map(mode=>{const e=new Element('button');e.dataset.mode=mode;return e;});
 const mobile=['score','analysis','video'].map(mode=>{const e=new Element('button');e.dataset.mobileTab=mode;return e;});
 globalThis.document=documentModel;globalThis.ResizeObserver=class{constructor(fn){this.fn=fn;}observe(){this.fn();}};
-globalThis.window=new EventTarget();globalThis.location={href:'http://127.0.0.1:8766/?track=mahler-4'};
+globalThis.window=new EventTarget();globalThis.location={href:new URL('/?track=mahler-4',process.env.ARIADNE_REVIEW_URL||'http://127.0.0.1:8766').href};
 globalThis.history={replaceState(_a,_b,u){location.href=String(u);}};
 const frames=new Map();let frame=0;globalThis.requestAnimationFrame=fn=>{frames.set(++frame,fn);return frame;};globalThis.cancelAnimationFrame=id=>frames.delete(id);
 const realFetch=globalThis.fetch;globalThis.fetch=(url,options)=>realFetch(new URL(url,location.href),options);

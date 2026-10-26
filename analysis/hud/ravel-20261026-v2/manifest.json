@@ -1,0 +1,15 @@
+{
+  "base_manifest_sha256": "e4618399060a21f11eb2a1c7b3466ebd5f8d25b72565591d11dad367e3eafcdb",
+  "interpretation_manifest_sha256": "28db7ad23ea19cbd090bbd7ac738e7d625c859ab4cd82aaeb546203975bd3dc8",
+  "build_code_sha256": "9275413153c2f7203dae9b4454496305374229722bd6ae5ecb57ca84e7549a23",
+  "files": {
+    "cases.json": "f53e850779754de26ac0d55cddb06831c41c268587a0d282ec9743db65bbc917",
+    "roman-audit.json": "72a3ad27d895b04aaed1aeb217293bb821e14d29e313afd33c1520915042727b"
+  },
+  "counts": {
+    "checked": 6746,
+    "compatible": 5698,
+    "withheld": 1048,
+    "unique_checks": 946
+  }
+}

@@ -75,6 +75,7 @@ class CompletionEvidence(unittest.TestCase):
                 for name in re.findall(r"(?:from\s*|import\s*)['\"]([^'\"]+\.mjs)['\"]",source):
                     queue.append(urlparse(urljoin(base+path,name)).path)
             self.assertIn('/musicxml-evidence.mjs',seen);self.assertIn('/musicxml-live.mjs',seen)
+            self.assertIn('/score-analysis-model.mjs',seen)
         finally:server.shutdown();server.server_close();thread.join()
 
 

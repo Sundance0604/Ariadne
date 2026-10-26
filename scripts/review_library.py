@@ -25,3 +25,27 @@ def track_context(root, track_id=None):
 
 def page_count(mapping):
     return int(mapping.get('page_count') or max(m['page_number'] for m in mapping['measures']))
+
+
+def score_directory(root, directory):
+    """Share score research explicitly; performance timelines remain separate."""
+    root, directory = Path(root).resolve(), Path(directory).resolve()
+    if not directory.is_relative_to(root):
+        raise ValueError('曲目目录必须位于当前项目内')
+    catalog = library(root)
+    track = next((t for t in catalog['tracks'] if (root/t['data_root']).resolve()==directory),None)
+    if not track or not track.get('score_source'):
+        return directory
+    source, shared = track_context(root,track['score_source'])
+    if shared==directory or source.get('score_source'):
+        raise ValueError('共享谱面来源不能循环或多级转接')
+    def read(folder,name):
+        return json.loads((folder/name).read_text(encoding='utf-8'))
+    for name,field in [('measure-map.json','pdf_sha256'),('alignment.json','symbolic_reference')]:
+        actual, expected = read(directory,name)[field], read(shared,name)[field]
+        if field=='symbolic_reference':actual,expected=actual['sha256'],expected['sha256']
+        if actual!=expected:
+            raise ValueError('共享谱面与当前PDF或符号参考不匹配')
+    if read(directory,'metadata/recording.json')['work']['work_id']!=read(shared,'metadata/recording.json')['work']['work_id']:
+        raise ValueError('共享谱面属于其他作品')
+    return shared

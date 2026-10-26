@@ -1,0 +1,23 @@
+{
+  "before": {
+    "alignment.json": "4c6c57fb0c240fcd77c155d2701b9f019333ba0c7a3940aee01064a2e563d701",
+    "measure-map.json": "e1728176bafc426540601f7f0e4859b441decf33261442642da4fb4ffc2181a2",
+    "metadata/recording.json": "743227726954aadc9ea0385c5ae03fb3ffc280db2ca9c1c3e4b7e4bf9adafceb",
+    "project.json": "cdb67b9b07cd230aa31733f22e7cfca54b507bb6e1e1f6a759fd9dab0b8cc661",
+    "analysis/structural-events.json": "82012a9884240e03d3498ff53f56e277a10b3846ffacc52b675a75eac5fdd7f5",
+    "analysis/hermeneutic-essays.json": "e86f0c29f6f6b6c597190a3ec0f3fa8f23e493347c446c29535dad1b68afa1b0",
+    "analysis/musicxml/current.json": "245ffa0ddcf2fe8e0fe661d05a12b1c710d08f6be5c992e1bbabc71edd5b471e",
+    "analysis/musicxml/interpretation-current.json": "014737bfd4f11bb23a7bc059424d393d978e6f7a1651f2f4c8fd9f93bc89fc5b"
+  },
+  "after": {
+    "alignment.json": "4c6c57fb0c240fcd77c155d2701b9f019333ba0c7a3940aee01064a2e563d701",
+    "measure-map.json": "e1728176bafc426540601f7f0e4859b441decf33261442642da4fb4ffc2181a2",
+    "metadata/recording.json": "743227726954aadc9ea0385c5ae03fb3ffc280db2ca9c1c3e4b7e4bf9adafceb",
+    "project.json": "cdb67b9b07cd230aa31733f22e7cfca54b507bb6e1e1f6a759fd9dab0b8cc661",
+    "analysis/structural-events.json": "82012a9884240e03d3498ff53f56e277a10b3846ffacc52b675a75eac5fdd7f5",
+    "analysis/hermeneutic-essays.json": "e86f0c29f6f6b6c597190a3ec0f3fa8f23e493347c446c29535dad1b68afa1b0",
+    "analysis/musicxml/current.json": "245ffa0ddcf2fe8e0fe661d05a12b1c710d08f6be5c992e1bbabc71edd5b471e",
+    "analysis/musicxml/interpretation-current.json": "014737bfd4f11bb23a7bc059424d393d978e6f7a1651f2f4c8fd9f93bc89fc5b"
+  },
+  "unchanged": true
+}

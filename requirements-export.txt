@@ -1,0 +1,5 @@
+# Optional offline video authoring; playback has no new dependencies.
+-r requirements.txt
+-r requirements-media.txt
+# Node.js (CLI only) executes the same native JS score modules as the player.
+# FFmpeg must include libass, libx264 and AAC/MP4 support. No browser required.

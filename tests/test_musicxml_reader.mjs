@@ -28,10 +28,10 @@ test('a late MusicXML response cannot repopulate a reset track',async()=>{
   finish({ok:true,json:async()=>({})});await loading;assert.equal(root.hidden,true);
 });
 
-test('XML measure evidence and checked studies take priority over old optional candidates',()=>{
+test('XML measure index is not a duplicate card; curated research remains and auxiliary data is opt-in',()=>{
   const $=makeDOM(),hud=createStructuralHUD({onEssay(){}}),d=fixture();
   d.events[0].analysis_origin='musicxml_analysis';d.events[1].analysis_origin='engine_candidate';
   d.events.push({...d.events[0],id:'study',short_label:'direct study',analysis_origin:'score_study'});
-  hud.load(d);hud.update({playingPage:1});assert.match($('structural-hud').textContent,/hypothesis A/);
+  hud.load(d);hud.update({playingPage:1});assert.doesNotMatch($('structural-hud').textContent,/hypothesis A/);
   assert.match($('structural-hud').textContent,/direct study/);assert.doesNotMatch($('structural-hud').textContent,/hypothesis B/);
 });

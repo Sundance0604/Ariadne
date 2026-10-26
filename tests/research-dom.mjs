@@ -8,6 +8,7 @@ export class Element {
   set innerHTML(value){this._text=value;this.children=[];}
   querySelectorAll(){return [];}
   setAttribute(key,value){this.attributes[key]=value;}
+  getAttribute(key){return this.attributes[key]??null;}
 }
 export function makeDOM(){
   const ids=['structural-hud','hud-position','hud-detail','hud-auto-candidates','essay-select','essay-body','essay-follow','research-state'];

@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 const $=id=>document.getElementById(id);
 async function ready(test){const deadline=Date.now()+20000;while(Date.now()<deadline){if(test())return;await new Promise(r=>setTimeout(r,10));}throw Error('Research did not load: '+$('research-state').textContent);}
 $('track').value='ravel-left-hand';await $('track').onchange();
-await ready(()=>$('essay-select').children.length===5);
+await ready(()=>$('essay-select').children.length===5&&$('hud-position').textContent.includes('m.1'));
 $('tab-research').onclick();$('essay-body').scrollTop=240;
 const first=$('essay-body').children[0];
 const xmlReader=$('musicxml-reader');assert.equal(xmlReader.hidden,false);
@@ -19,16 +19,17 @@ assert.equal($('essay-body').scrollTop,240);assert.match($('pagelabel').textCont
 assert.equal($('follow').checked,false);$('follow').checked=true;$('follow').onchange();
 $('jump').value='32';$('go').onclick();
 assert.equal($('essay-body').children[0],first);assert.equal($('essay-body').scrollTop,240);
-assert.match($('structural-hud').children[1].children[1].children.find(n=>n.tagName==='BUTTON').textContent,/引子|华彩/);
+assert.match($('structural-hud').children[3].children[1].children[0].textContent,/引子|华彩/);
 $('jump').value='126';$('go').onclick();$('pagenext').onclick();
-assert.match($('hud-position').textContent,/播放位置.*33.*浏览页.*34/);
+assert.match($('hud-position').textContent,/当前.*33.*浏览页.*34/);
 $('essay-follow').checked=true;$('essay-follow').onchange();
 $('jump').value='480';$('go').onclick();
 // The form essay legitimately spans both the Allegro and the later cadenza.
 assert.match($('essay-body').children[0].textContent,/曲式功能/);
 $('essay-follow').checked=false;$('jump').value='1';$('go').onclick();
 assert.match($('essay-body').children[0].textContent,/曲式功能/);
-$('structural-hud').children[0].children[1].children.find(n=>n.tagName==='BUTTON').onclick();
+$('structural-hud').children[0].children[1].onclick();
+$('hud-detail').children.find(n=>n.tagName==='BUTTON'&&n.textContent.includes('持续低音上的四度骨架')).onclick();
 const scoreDetail=node=>node.textContent+' '+(node.innerHTML||'')+' '+node.children.map(scoreDetail).join(' ');
 assert.match(scoreDetail($('hud-detail')),/符号底稿/);assert.match(scoreDetail($('hud-detail')),/1\/6/);
 assert.match(scoreDetail($('hud-detail')),/人工签核/);
@@ -40,12 +41,14 @@ anchors[2].onclick();assert.equal($('audio').currentTime,time);assert.match($('p
 $('hud-auto-candidates').checked=true;$('hud-auto-candidates').onchange();
 $('jump').value='61';$('go').onclick();
 const harmony=$('structural-hud').children[0].children[1];
-harmony.children.find(n=>n.tagName==='BUTTON'&&!n.textContent.startsWith('MusicXML')).onclick();
+harmony.onclick();
+$('hud-detail').children.find(n=>n.tagName==='BUTTON'&&n.textContent.startsWith('PDF/MIDI候选')).onclick();
 const descendants=node=>node.textContent+' '+node.children.map(descendants).join(' ');
 await ready(()=>descendants($('hud-detail')).includes('谱面观测与符号证据'));
 assert.match(descendants($('hud-detail')),/PDF位置/);assert.match(descendants($('hud-detail')),/理论推导与关系/);
 $('jump').value='55';$('go').onclick();$('audio').currentTime+=.25;
-harmony.children.find(n=>n.tagName==='BUTTON'&&!n.textContent.startsWith('MusicXML')).onclick();
+harmony.onclick();
+$('hud-detail').children.find(n=>n.tagName==='BUTTON'&&n.textContent.startsWith('PDF/MIDI候选')).onclick();
 await ready(()=>descendants($('hud-detail')).includes('Fm7'));
 assert.match(descendants($('hud-detail')),/代理读谱抽查/);
 assert.match(descendants($('hud-detail')),/上谱表.*休止/);

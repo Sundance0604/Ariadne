@@ -1,0 +1,51 @@
+{
+  "format_version": "1.0.0",
+  "work": {
+    "work_id": "ravel-left-hand-concerto",
+    "title": "左手钢琴协奏曲",
+    "original_title": "Concerto pour la main gauche",
+    "composer": {
+      "name": "莫里斯·拉威尔",
+      "original_name": "Maurice Ravel"
+    },
+    "instrumentation": "左手钢琴与管弦乐"
+  },
+  "recording": {
+    "recording_id": "ravel-left-hand-aimard-letonja-strasbourg-video",
+    "soloists": [
+      {
+        "name": "皮埃尔-洛朗·艾马尔",
+        "original_name": "Pierre-Laurent Aimard",
+        "role": "钢琴独奏"
+      }
+    ],
+    "conductor": {
+      "name": "Marko Letonja",
+      "original_name": "Marko Letonja"
+    },
+    "ensemble": {
+      "name": "斯特拉斯堡爱乐乐团",
+      "original_name": "Strasbourg Philharmonic Orchestra"
+    },
+    "audio_sha256": "f73028a0e26be3347fa11875a74df8f2ee12919bbb2c45fcd11d22db00b0e3d8",
+    "artist_information_source": "supplied_video_embedded_description",
+    "artist_information_note": "独奏者、指挥与乐团来自用户视频的内嵌说明；本版使用视频自带音轨。演出日期未独立核验。"
+  },
+  "analysis_document": {
+    "document_id": "ravel-listening-edition-20261024",
+    "path": "resource/ravel left hand piano concerto/analysis/Ravel_Left_Hand_Concerto_Full_Analysis.md",
+    "pdf_sha256": "67aa60cc89160ea7e475fd7fa45352ec6e0c45f6cd3557421d8caafc18531083",
+    "review_status": "editorially_revised",
+    "editorial_note": "复用同版总谱导聆与研究；本视频为独立演出，已重新计算候选同步，时间仍待试听复核。",
+    "reference_reading_status": {
+      "analysis-ref-11-1": "relevant_sections_checked",
+      "analysis-ref-11-2": "relevant_sections_checked",
+      "analysis-ref-11-3": "search_summary_only",
+      "analysis-ref-11-4": "publisher_metadata_checked",
+      "analysis-ref-11-5": "not_read",
+      "analysis-ref-11-6": "relevant_sections_checked",
+      "analysis-ref-11-7": "programme_note_checked_with_conflicts",
+      "analysis-ref-11-8": "comparison_not_used"
+    }
+  }
+}

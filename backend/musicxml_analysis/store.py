@@ -69,7 +69,8 @@ def measure_evidence(bundle,measure_id):
         'hierarchy':[u for u in bundle['tables']['form']['hierarchy'] if measure_id in u['xml_measure_ids']]}
 
 
-def research_events(bundle):
+def research_events(bundle,track_id='ravel-left-hand'):
+    from urllib.parse import quote
     result=[];indices=bundle['indices'];form=bundle['tables']['form']
     names={p['id']:p['name'] for p in bundle['tables']['parts']['parts']}
     for m in bundle['tables']['measures']['measures']:
@@ -107,5 +108,5 @@ def research_events(bundle):
                 'verification':{'score':'pending','location':'score_segment_candidate','literature':'not_applicable','timing':'candidate_alignment'},
                 'sources':[{'source_id':'ravel-musicxml-score','locator':f'MusicXML measure {m["number"]}; '+mid,'claim_attribution':'score'}],
                 'related_essay_ids':[],'analysis_framework':'MusicXML-first; source note IDs and separate XML→PDF measure containment',
-                'evidence_url':'/api/musicxml-evidence?track=ravel-left-hand&measure_id='+mid})
+                'evidence_url':'/api/musicxml-evidence?track='+quote(track_id,safe='')+'&measure_id='+mid})
     return result

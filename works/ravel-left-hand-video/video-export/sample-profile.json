@@ -1,0 +1,79 @@
+{
+  "format_version": "1.0",
+  "width": 1920,
+  "height": 1080,
+  "music_start_video": 27.5,
+  "music_start_confirmation": {
+    "status": "user_confirmed",
+    "date": "2026-10-26",
+    "scope": "User confirmed the current Ravel music start is correct; not a signature for later alignment."
+  },
+  "segments": [
+    {
+      "video_start": 0,
+      "video_end": 95
+    }
+  ],
+  "font": "Microsoft YaHei",
+  "font_size": 32,
+  "spacing": 0,
+  "yellow": "#FFDF42",
+  "minimum_caption_seconds": 3,
+  "characters_per_second": 7,
+  "score_zoom": 1,
+  "score_dpi": 144,
+  "crf": 18,
+  "preset": "fast",
+  "layout": {
+    "harmony": {
+      "x": 70,
+      "y": 60,
+      "w": 860,
+      "h": 160
+    },
+    "orchestration": {
+      "x": 1030,
+      "y": 45,
+      "w": 820,
+      "h": 160
+    },
+    "counterpoint": {
+      "x": 70,
+      "y": 400,
+      "w": 1030,
+      "h": 105
+    },
+    "form": {
+      "x": 70,
+      "y": 540,
+      "w": 1030,
+      "h": 105
+    },
+    "guide": {
+      "x": 70,
+      "y": 680,
+      "w": 1030,
+      "h": 150
+    },
+    "score": {
+      "x": 1260,
+      "y": 230,
+      "w": 600,
+      "h": 800
+    },
+    "interpretation": {
+      "x": 360,
+      "y": 880,
+      "w": 1200,
+      "h": 145,
+      "font_size": 38
+    },
+    "intro": {
+      "x": 180,
+      "y": 300,
+      "w": 1560,
+      "h": 600,
+      "font_size": 54
+    }
+  }
+}

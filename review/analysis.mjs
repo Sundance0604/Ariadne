@@ -27,7 +27,7 @@ export function annotationRangeLabel(note){
 
 export function createAnalysisPanel(onSeek){
   let data=null,playingPage=null,playingSequence=null,position=null,browsedPage=null,selectedId=null,renderedId=null,track=null,loadVersion=0;
-  const tabs=['guide','recording','references','research'];
+  const tabs=['guide','recording','references','research',...(byId('tab-evidence')?['evidence']:[])];
   function selectTab(name){
     for(const tab of tabs){const selected=tab===name;byId(`tab-${tab}`).setAttribute('aria-selected',String(selected));byId(`tab-${tab}`).tabIndex=selected?0:-1;byId(`panel-${tab}`).hidden=!selected;}
   }

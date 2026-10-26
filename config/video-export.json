@@ -1,0 +1,9 @@
+{
+  "format_version": "1.0",
+  "sample_package": "output/video-export/ravel-demo",
+  "sample_document": "local/video-export/ravel-sample.json",
+  "font_settings": "local/video-export/font-sizes.json",
+  "latest_video": "local/video-export/latest-video.txt",
+  "full_package": "output/video-export/ravel-full-001",
+  "full_document": "output/video-export/ravel-full-001/captions-editable.json"
+}

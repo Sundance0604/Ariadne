@@ -234,7 +234,7 @@ python -m backend.score_processing.movements --manifest "works/my-work/movements
 
 先建立与 `works/mahler-7/movements.json` 同结构、且边界已核对的清单；`--through-page` 是目标物理页。使用 `--status` 查看检查点。不要让两个进程同时写同一乐章目录；失败时保留原 `.omr` 和日志，从检查点恢复，不清空全部工程。
 
-目前马七连续识别仍有失败与缺页，不是完成全曲转录的示范。前四页声部身份校正样本与后续原始候选分别保存；仅核对声部身份不代表音符、拍号或节奏也正确。详见 `docs/pdf-to-musicxml.md` 和马七报告。
+目前马七连续识别仍有失败与缺页，不是完成全曲转录的示范。前四页声部身份校正样本与后续原始候选分别保存；仅核对声部身份不代表音符、拍号或节奏也正确。详见 `docs/guides/pdf-to-musicxml.md` 和马七报告。
 
 ### 第七步：绑定赏析与文献
 
@@ -350,3 +350,30 @@ git diff --cached --stat
 - XML→PDF区域在运行时适配原播放器，不覆盖旧同步和旧映射。首华彩缺失的单谱表区域由独立几何补充。
 - 前端模块必须检查实际HTTP导入依赖图；内存DOM通过不能代替浏览器资源加载和实播检查。真实浏览器确认长文章的非零滚动位置、播放推进、多个活跃乐器及跨曲清理。
 - 代理验收、关键谱例核查、人类签核与专家逐音审定分别记录。当前研究版通过代理功能验收，不伪造人类或专家签名。详见`reports/ravel-acceptance-20261026.md`。
+
+## 12. 拉威尔独立视频版（2026-10-26）
+
+- `ravel-left-hand-video` 使用艾马尔视频自身音轨独立计算DTW，数据位于 `works/ravel-left-hand-video/`；原齐默尔曼音频版不覆盖。视频继续留在本机，不提交Git。
+- 曲库的 `score_source` 显式引用原曲目。共享前核对作品、PDF和参考MIDI身份；复用研究原稿、XML快照与谱例，演出阵容及录音投影独立。不要把共享谱面误当成两场演出同源。
+- `musicxml-recording-projection.json` 绑定本视频、独立alignment及共享XML快照；上游谱面或本地时间映射变化须重建投影，不能改指纹绕过。
+- 已从视频的27.5–1162.5秒分析窗口重算，并按27.5秒偏移回原视频时钟。此边界为代理画面／频谱估计，尚无人类试听签核。完整文件首尾DTW草稿单独保留，不激活；`score_time_coverage` 之外不显示虚构的和声、乐器与播放线。
+- `scripts/build_ravel_video.py` 封装已生成的原始对齐；拒绝覆盖已存在的视频版。`scripts/check_ravel_video_app.mjs` 使用实际HTTP及模拟DOM／媒体，不是真实视频解码实播。本轮浏览器控制被Work设置禁用，范围见 `reports/ravel-video-20261026.md`。
+
+## 13. 统一四维技术HUD（2026-10-26）
+
+- PDF上方仅有和声、配器与织体、对位、曲式四个入口。`musicxml-live.mjs` 为单一数据提供者，不生成第二套面板；`score-analysis-model.mjs` 组合事实、局部分析及结构范围，各维度按稳定签名更新。
+- `#hud-detail` 与默认折叠的 `#musicxml-reader` 位于右侧 `#panel-evidence`，源音符ID及完整小节数据按需读取，不自动seek。播放、详情开关和证据查阅不得替换 `#essay-body`。
+- `analysis/hud/current.json` 指向小型案例／罗马数字兼容性核查层，绑定原XML和解释快照。它不重建和声引擎、不覆盖原快照；无可靠跨时范围时显示背景待分析。
+- 罗马数字重建与所选层音级不一致时暂缓展示为有效读法，原字段仍在冻结证据中；兼容性检查不是和声功能或准确率认证。
+- 四组示范用源音符、时值和进入事件核对；原同步、几何、研究正文、校正与旧引擎历史保持原样。测试及本轮浏览器不可用范围见 `reports/musicxml-hud-integration-20261026.md`，不得沿用历史截图冒充新版布局验收。
+- 用户随后认可四维组织形式，但要求增加显示空间。当前HUD默认约240–360 CSS像素，可拖动调高；全部活跃分部、和弦／并列层及曲式模型完整换行，不再按两行或前四个分部截断。四个标题保留可见，卡片各自滚动；不要机械恢复任务书早期100–160像素的密度目标。
+
+## 14. 项目组织与日常制作（2026-10-26）
+
+- 先看根目录`项目导航.md`与`docs/README.md`。视频制作和分析撰写的当前流程分别在`docs/workflows/video-production.md`、`docs/workflows/analysis-writing.md`；历史任务书在`docs/design/`或`docs/archive/`，不据其文字假定功能已完成。
+- 视频脚本集中在`scripts/video_export/`。`scripts/export_video.py`保留兼容入口，其余引用使用新路径。代码仍是本地Python与原生JS，不增加框架。
+- `config/video-export.json`统一配置本机导出位置，根目录`编辑完整版字幕.bat`通过`--full`读取它；后续脚本不要再解析批处理文本来猜路径。
+- 样片草稿、字号偏好和最近视频指针移到`local/video-export/`，不上传GitHub。当前完整版仍使用`output/video-export/ravel-full-001/captions-editable.json`，未搬动用户正在编辑的JSON或导出包。
+- 拉威尔后两个模块名为“声部关系与复调”“曲式与主题发展”。JSON直接存新名称，读取兼容旧键；不要保存后退回旧名。和声、配器、四宫格及其他作品保持独立。
+- 文件整理不能重新安排字幕时间或重算分析。原始媒体、激活与冻结快照、人工校正、历史OMR及未提交工作不因目录整理删除。根目录拉威尔同步数据仍保留原位置。
+- 发布保留现有媒体排除规则；`local/`与`output/video-export/`均为本机资料。按第7节检查实际Git索引后，才在用户授权的范围提交和推送。

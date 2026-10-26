@@ -115,11 +115,13 @@ def spans_for(item, pages, regions):
             require(start < end, '谱面段落必须前闭后开且正向')
 
 
-def load_research(root=ROOT, data_root=None):
+def load_research(root=ROOT, data_root=None, track_id='ravel-left-hand'):
     root = root.resolve()
     directory = (data_root or root).resolve()
     require(directory.is_relative_to(root), '研究目录越界')
-    files = [directory / 'analysis/structural-events.json', directory / 'analysis/hermeneutic-essays.json']
+    from review_library import score_directory
+    shared = score_directory(root,directory)
+    files = [shared / 'analysis/structural-events.json', shared / 'analysis/hermeneutic-essays.json']
     empty = {'schema_version': '1.0.0', 'available': False, 'events': [], 'essays': [], 'sources': [], 'edition': None}
     if not any(path.exists() for path in files):
         return empty
@@ -130,7 +132,7 @@ def load_research(root=ROOT, data_root=None):
         require(hashlib.file_digest(stream, 'sha256').hexdigest() == mapping['pdf_sha256'], '当前 PDF 内容与研究版次不匹配')
     guide = load_analysis(root, directory)
     sources = {s['source_id']: dict(s) for s in guide.get('references', [])}
-    registry = directory / 'analysis/sources.json'
+    registry = shared / 'analysis/sources.json'
     if registry.exists():
         for source in read(registry)['sources']:
             require(source.get('source_id') not in sources, '研究来源标识重复')
@@ -147,7 +149,7 @@ def load_research(root=ROOT, data_root=None):
     from backend.structure_analysis.store import load_bundle
     engine=None;engine_error=None
     try:
-        engine = load_bundle(root,directory,mapping)
+        engine = load_bundle(root,shared,mapping)
         if engine:
             require(engine['manifest']['work_id']==metadata['work']['work_id'], '分析引擎作品不匹配')
             symbolic=read(directory/'alignment.json')['symbolic_reference']
@@ -184,7 +186,7 @@ def load_research(root=ROOT, data_root=None):
     # unmatched-note count. A damaged study must not hide existing essays.
     from backend.score_studies import load_studies
     try:
-        study=load_studies(root,directory,mapping)
+        study=load_studies(root,shared,mapping)
         if study:
             require(study['document']['work_id']==metadata['work']['work_id'],'谱面研究作品不匹配')
             documents[0]={**documents[0],'events':documents[0].get('events',[])+study['events']}
@@ -196,7 +198,7 @@ def load_research(root=ROOT, data_root=None):
     # MIDI/PDF candidate engine is not a prerequisite for this loader.
     from backend.musicxml_analysis.store import load_bundle as load_xml, research_events as xml_events
     try:
-        xml=load_xml(root,directory,mapping)
+        xml=load_xml(root,shared,mapping)
         if xml:
             require(xml['manifest']['work_id']==metadata['work']['work_id'],'MusicXML作品不匹配')
             sources['ravel-musicxml-score']={'source_id':'ravel-musicxml-score','title':'用户提供的拉威尔完整管弦乐MusicXML',
@@ -204,9 +206,15 @@ def load_research(root=ROOT, data_root=None):
                 'reading_note':'music21全谱解析；关键谱例与PDF布局核查，逐音人工签核待完成。隐藏记谱事件隔离保留。',
                 **xml['manifest']['source']}
             result['sources']=list(sources.values())
-            documents[0]={**documents[0],'events':documents[0].get('events',[])+xml_events(xml)}
+            documents[0]={**documents[0],'events':documents[0].get('events',[])+xml_events(xml,track_id)}
             result['musicxml']={'summary':xml['tables']['summary'],'source':xml['manifest']['source'],
                 'measures':xml['tables']['measures']['measures'],'review_status':xml['manifest']['review_status']}
+            from backend.musicxml_analysis.ravel_development import load_profile
+            try:
+                profile=load_profile(root,shared,xml)
+                if profile:result['module_profile']=profile
+            except (OSError,ValueError,KeyError,TypeError) as error:
+                result['module_profile_error']=str(error)
     except (OSError,ValueError,KeyError,TypeError) as error:result['musicxml_error']=str(error)
     if engine_error:result['engine_error']=engine_error
     if engine:

@@ -2,7 +2,7 @@
 
 日期：2026-10-24（Asia/Shanghai）。状态：**素材可读；作品与版本兼容性仍待逐段复核**。
 
-执行依据为 `WORKFLOW_Ravel_Left_Hand_Concerto.md`。本阶段只审查输入与工具，不表示已经完成 PDF 识谱、音频解码试听、全曲对齐或 MVP。
+执行依据为 `docs/workflows/ravel-left-hand-original.md`。本阶段只审查输入与工具，不表示已经完成 PDF 识谱、音频解码试听、全曲对齐或 MVP。
 
 ## 工作区与输入
 

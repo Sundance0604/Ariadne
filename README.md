@@ -1,16 +1,30 @@
 # Ariadne · 曲谱同步与导聆
 
+**从这里开始：** [项目导航](项目导航.md) · [文档目录](docs/README.md) · [视频制作流程](docs/workflows/video-production.md) · [分析撰写流程](docs/workflows/analysis-writing.md)。
+
+日常继续使用根目录的“启动播放器.bat”和“编辑完整版字幕.bat”。视频脚本集中在 `scripts/video_export/`，本机草稿与字号偏好在 `local/video-export/`，当前完整版JSON仍在 `output/video-export/ravel-full-001/captions-editable.json`。位置配置统一见 `config/video-export.json`。演出视频和本机资源包不上传GitHub。
+
+拉威尔当前四个模块为**和声、配器与织体、声部关系与复调、曲式与主题发展**；动机关系为共享数据，不新增第五个面板。其他作品的已有模块和数据保持独立，以下历史记录保留当时的称谓与验证范围。
+
 材料如何选择、如何为新作品生成同步，以及各处理环节的适用范围，见 **[AGENTS.md](AGENTS.md)**。本轮成果与限制见 [工作总结](docs/WORK_SUMMARY.md)。
 
 **马勒演出视频不随 GitHub 仓库分发。** 使用马四预计算同步需自行在本机放置清单对应的视频；没有该视频时，一键启动会选择材料齐全的曲目。原有两首音频示例可独立使用。
 
+## 拉威尔独立视频版
+
+曲目菜单新增“拉威尔 · 左手钢琴协奏曲（艾马尔视频）”，入口为 `/?track=ravel-left-hand-video`。原齐默尔曼音频版保留。视频使用自身音轨重新对齐，复用原总谱、导聆、5篇研究文章及MusicXML证据；不会把两场演出的录音时间混用。片头和谢幕可继续观看，音乐窗口外停用和声／活跃乐器及谱面播放线。
+
+视频仅存本机，不提交Git。其他机器需按 `works/ravel-left-hand-video/media-sync.json` 的路径、字节数和SHA-256恢复同一视频；缺失时启动器继续选择可播放曲目。视频版通过HTTP与模拟DOM／媒体联调，本轮浏览器控制被Work设置禁用，未声称已真实浏览器实播验收。[同步与检查报告](reports/ravel-video-20261026.md)。
+
 ## 当前研究路线：先形成音乐判断
 
-**研究版已完成真实浏览器验收。** 谱面上方直接显示当前估计位置的和声／调性并列读法，以及同时活跃的多个乐器。文章保持独立滚动，XML查阅可只翻页而不跳录音。见[验收记录与实际截图](reports/ravel-acceptance-20261026.md)。
+谱面上方现只有一套四维HUD：**和声、配器与织体、对位、曲式**。和声区分当前记谱音响与具有独立范围的背景分析；配器区分活跃分部和职责候选。宽度足够时单排四卡，较窄时两列，移动端可折叠。分析区域已加高，支持拖动右下角调整高度；和弦、并列层读法及全部活跃分部不再截断，曲式显示段落范围与已有模型说明。内容较多时各卡片可独立滚动。点击卡片，在右侧“技术证据”查源音符及研究来源，一键返回正在播放的谱页。完整小节阅读器也移到该面板，默认折叠，不跳录音。
+
+此次整合的自动测试与实际HTTP／模拟DOM联调已通过；浏览器控制被Work设置禁用，**本轮真实布局与实播未运行**。[统一HUD与四组音乐案例报告](reports/musicxml-hud-integration-20261026.md)。原音频版此前的真实浏览器检查保留为[历史验收记录](reports/ravel-acceptance-20261026.md)，不代替本轮验收。
 
 拉威尔完整管弦乐MusicXML已接入主要符号流程：music21解析37个分部、535小节，生成逐音事件、6,660个和声窗口、转位、声部音程和全谱乐器活动；XML小节与PDF区域独立关联。录音同步继续使用原有结果，音乐分析不再以MIDI—PDF匹配清零为门槛。默认技术卡片并列展示逐谱研究与XML证据，旧自动候选可勾选查看。
 
-谱面上方的“完整管弦乐MusicXML”可独立选择全部535小节，查看和声、配器、声部与逐音底稿；该选择不跳转录音。全谱自动计算与人工签核分别记录，罗马数字是局部调性条件下的候选，尚非全曲最终和声归约。
+“技术证据”中的完整小节数据可独立选择全部535小节，查看和声、配器、声部与逐音底稿；该选择不跳转录音。源音符ID可点开核查。罗马数字以指定局部调性为条件；重建音集不一致时显示“条件性级数待审查”，冻结原输出仍保留。全谱自动计算与人工签核分别记录，尚非全曲最终和声归约。
 
 [MusicXML接入与实际分析报告](reports/ravel-musicxml-analysis-20261026.md) · [逐音表](output/research/ravel-musicxml/note-events.csv) · [全谱和声台账](output/research/ravel-musicxml/harmonic-ledger.csv) · [乐器活动](output/research/ravel-musicxml/instrument-activity.csv)。重算可选安装`requirements-analysis.txt`，预计算播放仍仅需原最小依赖。
 
@@ -18,11 +32,11 @@
 
 ## 拉威尔研究范式试验
 
-谱面上方新增可折叠的“谱面技术分析”：和声、对位、曲式和配器按各自范围独立更新，缺数据时显示“待分析”。左列为和声／对位，右列为曲式／配器。既有35条研究事件，本轮另加入第1–3、10–15页的离线算法候选；**不是已人工核验的逐音分析**。点击卡片可查看原始音符、乐器、PDF音头位置、时值来源及理论推导；手动翻页时会分别标明播放位置和浏览页。
+可折叠的“谱面技术分析”按各自范围更新四张卡，缺少背景归约时显示“待分析”，不会把上一瞬间的和弦继承为背景。既有35条研究事件、直接读谱记录及第1–3、10–15页的旧离线候选均保留；旧PDF/MIDI候选在技术证据面板按需勾选，**不是已人工核验的逐音分析**。同一主张的不同来源在详情并列，XML小节索引不再重复生成四个主按钮。手动翻页会分别标明播放位置和浏览页。
 
 右侧新增“诠释研究”，提供5篇可独立滚动的跨区间文章。默认阅读不随播放、翻页或seek重置；可开启“自动跟随相关诠释”。文章的相关乐段按钮目前仅打开谱页，提示音频位置待核查，不把粗页码直接当成可信的音频起点。《云雀高飞》和马四没有新研究数据时显示空状态，原导聆与媒体播放继续使用。
 
-数据放在 `analysis/structural-events.json`、`hermeneutic-essays.json` 与 `essays/`，接口为 `/api/research?track=ravel-left-hand`。录音秒数在运行时投影，不永久写进作品分析。版次与PDF指纹错误会拒绝套用；原15段短导聆、同步、谱面映射及录音资料保持不变。方法、数据规范和测试范围见 [研究范式](docs/ARIADNE_RESEARCH_PARADIGM.md) 与 [拉威尔试验报告](docs/RAVEL_PILOT_REPORT.md)。
+数据放在 `analysis/structural-events.json`、`hermeneutic-essays.json` 与 `essays/`，接口为 `/api/research?track=ravel-left-hand`。录音秒数在运行时投影，不永久写进作品分析。版次与PDF指纹错误会拒绝套用；原15段短导聆、同步、谱面映射及录音资料保持不变。方法、数据规范和测试范围见 [研究范式](docs/design/research-paradigm.md) 与 [拉威尔试验报告](docs/archive/ravel-pilot-report.md)。
 
 ## 早期PDF＋MIDI辅助引擎（保留为可选证据）
 
@@ -37,7 +51,7 @@ python -m backend.structure_analysis validate analysis/engine/ravel-pilot/round1
 
 旧自动引擎快照保留为**辅助候选**。其局部逐音实验的范围不再阻塞独立配器和全曲结构研究；完整节奏、声部、踏板与曲式功能仍分别核查。`/api/structure` 提供统计，`/api/structure-evidence` 提供逐音证据。版次或冻结文件损坏会拒绝该轮自动结果，并保留既有文章及播放器。
 
-使用、数据格式、两轮研究与重建边界见[引擎说明](docs/MUSIC_STRUCTURE_ENGINE.md)，实际音乐内容、逐维统计和未通过的验收项见[本轮报告](reports/ravel-structure-engine.md)。
+使用、数据格式、两轮研究与重建边界见[引擎说明](docs/design/music-structure-engine.md)，实际音乐内容、逐维统计和未通过的验收项见[本轮报告](reports/ravel-structure-engine.md)。
 
 第二轮记谱核查修复八度归属、临时记号与震音展开，增加8组可展开的代理读谱记录；剩余分歧与实际音乐判断见[续轮报告](reports/ravel-ab-notation-review.md)。
 
@@ -167,7 +181,7 @@ python scripts/align_recording.py --anchors review-anchors.json --output alignme
 ./scripts/convert_score.ps1
 ```
 
-默认仅转换马勒第七第 1 页，450 DPI，重复执行会验证并复用缓存。可用 `-Pages '1,3-5'`、`-Pdf '其他乐谱.pdf'`、`-Output 'output/omr/其他作品'` 指定输入，用 `-MuseScore 'MuseScore4.exe 的实际路径'` 生成重排 PNG。各页独立输出 `.omr`、`.mxl`、`.musicxml` 和日志，不会自动合并为全曲。详细 API、依赖及失败恢复见 [接口说明](docs/pdf-to-musicxml.md)。
+默认仅转换马勒第七第 1 页，450 DPI，重复执行会验证并复用缓存。可用 `-Pages '1,3-5'`、`-Pdf '其他乐谱.pdf'`、`-Output 'output/omr/其他作品'` 指定输入，用 `-MuseScore 'MuseScore4.exe 的实际路径'` 生成重排 PNG。各页独立输出 `.omr`、`.mxl`、`.musicxml` 和日志，不会自动合并为全曲。详细 API、依赖及失败恢复见 [接口说明](docs/guides/pdf-to-musicxml.md)。
 
 已在 `.tools/` 解包官方 Audiveris 5.11.0，未作为系统应用安装；英文 OCR 模型来自官方 Tesseract 仓库。运行样本：
 
@@ -181,7 +195,7 @@ python scripts/align_recording.py --anchors review-anchors.json --output alignme
 python scripts/map_pdf.py
 ```
 
-该几何提取器针对已提供的矢量 PDF，不是通用 PDF 识谱工具。原工作流仍是 `WORKFLOW_Ravel_Left_Hand_Concerto.md`；历史输入审查见 `reports/input-audit.md`，后续实测状态以本次测试报告为准。
+该几何提取器针对已提供的矢量 PDF，不是通用 PDF 识谱工具。原工作流仍是 `docs/workflows/ravel-left-hand-original.md`；历史输入审查见 `reports/input-audit.md`，后续实测状态以本次测试报告为准。
 
 ## 暂缓事项
 
