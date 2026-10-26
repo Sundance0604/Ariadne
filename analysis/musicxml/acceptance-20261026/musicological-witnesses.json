@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "id": "harp-enharmonic-unison",
+      "measure_id": "xml-m0007",
+      "pdf_page": 2,
+      "claim": "E1 and Fb1 are distinct notations at one sounding height, not a semitone dissonance.",
+      "event_ids": [
+        "P22-xml-m0007-n0003",
+        "P22-xml-m0007-n0004"
+      ],
+      "agent_visual_review": true
+    },
+    {
+      "id": "f-sharp-area",
+      "measure_id": "xml-m0083",
+      "pdf_page": 23,
+      "window_id": "xml-h-001493",
+      "claim": "F# major over F#1 forms a regional support distinct from the earlier D/A arrival.",
+      "event_ids": [
+        "P24-xml-m0083-n0001",
+        "P27-xml-m0083-n0001",
+        "P30-xml-m0083-n0001",
+        "P32-xml-m0083-n0001",
+        "P32-xml-m0083-n0002",
+        "P35-xml-m0083-n0001",
+        "P6-xml-m0083-n0001",
+        "P6-xml-m0083-n0002",
+        "P7-xml-m0083-n0001",
+        "P8-xml-m0083-n0001",
+        "P9-xml-m0083-n0001"
+      ],
+      "agent_visual_review": true
+    }
+  ],
+  "human_signoffs": 0,
+  "expert_reviews": 0
+}

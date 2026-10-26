@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "engine_version": "0.1.0",
+  "work_id": "ravel-left-hand-concerto",
+  "run_id": "0b80fb2654179afd",
+  "source_code_sha256": "609d6caa767118d423f21d20479984a0d8074c4b23b388444a555e8effa00664",
+  "profile_sha256": "0d32fb106502f8fb7364e2c8bab61394c36780d222672281414dc6204223060c",
+  "sources": {
+    "pdf": {
+      "path": "resource/ravel left hand piano concerto/maurice-ravel-piano-concerto-for-the-left-hand.pdf",
+      "sha256": "67aa60cc89160ea7e475fd7fa45352ec6e0c45f6cd3557421d8caafc18531083"
+    },
+    "midi": {
+      "path": "resource/ravel left hand piano concerto/maurice-ravel-piano-concerto-for-the-left-hand.mid",
+      "sha256": "f9ba8d12d461fa9f869ae4e083d2f47f58f4d87a5ad85fbfc4b84f9d5649a8a3"
+    }
+  },
+  "independent_inputs": [
+    "fingerprint-bound vector PDF",
+    "auxiliary MIDI",
+    "staff/transposition adapter",
+    "general theory rules"
+  ],
+  "excluded_inputs": [
+    "recording seconds",
+    "existing structural-events/essays",
+    "literature text"
+  ],
+  "files": {
+    "profile.json": "77f1090c3984685ff6dfe76aa529ec644fe9b0cb1eec212c09e37d47b476bb5f",
+    "pdf-observations.json": "3f068e5d642d0279f5191a110828d2e4b6e1a95df96c8cf01c0d776051ce1db9",
+    "notes.json": "883616fbf3b10738a150b5b7d733b2f14f167209e2eea08ea887a5bf6606bcb8",
+    "correspondence.json": "573896c3e43f03df3e93b3aa0facbbf8aee0a65c992eb01c3b0f78018401b3c5",
+    "harmony.json": "01c420f7bd4018c3748e059c66680a86a5cf636777e37f8d49e5b5045b740b60",
+    "counterpoint.json": "1fff68abbd46c11562968765b3473ca31a760ba4785da2955c01c6f7ca4107ba",
+    "instrument-activity.json": "ba2771e04eb190660351c689f9de80c8a6dbe648fd51aca60251a45c45bfe708",
+    "theme-identities.json": "c0151f892b01262548ec94b9419596276f3f36e636403a56aee6f2633154ea18",
+    "form.json": "3ee146e677a7aa2e0ab4720462771cf7d4e805a56b965402a9811f086eeb561e",
+    "hud-events.json": "ad310c0c1e14039cea3331e014a5da8d9bbca7fcb7864328477a6311812732c0",
+    "validation.json": "93567e237d4fb446c7e4cdbf0e5ad33966be1da775311652108612ed3e6a13ff"
+  }
+}

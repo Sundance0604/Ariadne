@@ -27,6 +27,14 @@
       "path": "resource/ravel left hand piano concerto/maurice-ravel-piano-concerto-for-the-left-hand.mid",
       "bytes": 629776,
       "sha256": "f9ba8d12d461fa9f869ae4e083d2f47f58f4d87a5ad85fbfc4b84f9d5649a8a3"
+    },
+    {
+      "kind": "musicxml",
+      "path": "resource/ravel left hand piano concerto/maurice-ravel-piano-concerto-for-the-left-hand.mxl",
+      "bytes": 784297,
+      "sha256": "ee62a04480c56cd9b18b7dbcc00083fcfe26de064e591c0bd6079c98c9513043",
+      "role": "primary_symbolic_score",
+      "review_status": "layout_and_key_windows_checked_full_note_human_review_pending"
     }
   ],
   "privacy": {
@@ -38,7 +46,11 @@
     "measure_map": "measure-map.json",
     "input_audit": "reports/input-audit.json",
     "recording_metadata": "metadata/recording.json",
-    "analysis_annotations": "analysis/annotations.json"
+    "analysis_annotations": "analysis/annotations.json",
+    "musicxml_analysis": "analysis/musicxml/current.json",
+    "musicxml_analysis_report": "reports/ravel-musicxml-analysis-20261026.md",
+    "musicxml_interpretation": "analysis/musicxml/interpretation-current.json",
+    "musicxml_acceptance": "analysis/musicxml/acceptance-20261026/acceptance.json"
   },
   "processing_status": {
     "input_audit": "complete",
@@ -49,12 +61,16 @@
     "human_listening_review": "pending",
     "musicological_analysis": "listener_prose_revised_key_pages_and_selected_sources_checked",
     "final_react_player": "not_implemented",
-    "m4a": "suspended_by_user"
+    "m4a": "suspended_by_user",
+    "musicxml_symbolic_analysis": "full_score_first_pass_ready_human_signoff_pending",
+    "musicxml_research_release": "agent_acceptance_passed_explicit_alternatives_estimated_recording_projection",
+    "real_browser_xml_player": "passed_playback_navigation_and_reading_checks"
   },
   "review_counts": {
     "needs_review": 33,
     "unreviewed": 502,
     "verified": 0,
     "corrected": 0
-  }
+  },
+  "primary_symbolic_source": "musicxml"
 }

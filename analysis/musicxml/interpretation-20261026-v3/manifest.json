@@ -1,0 +1,36 @@
+{
+  "base_run": "analysis/musicxml/ravel-20261026-v5",
+  "base_manifest_sha256": "e4618399060a21f11eb2a1c7b3466ebd5f8d25b72565591d11dad367e3eafcdb",
+  "source": {
+    "path": "resource/ravel left hand piano concerto/maurice-ravel-piano-concerto-for-the-left-hand.mxl",
+    "sha256": "ee62a04480c56cd9b18b7dbcc00083fcfe26de064e591c0bd6079c98c9513043",
+    "bytes": 784297
+  },
+  "analysis_code_sha256": "0e54f171284334ed7c9804edc08f9f1d889f68fd6dc3c9bd510dff0dae6ec3c2",
+  "files": {
+    "harmonic-readings.json": {
+      "sha256": "7041be6930cb65e6c794648c898b72b9a6f58fc412a4d158c5155d8fde46df1a",
+      "bytes": 7676763
+    },
+    "activation.json": {
+      "sha256": "b2f946d4a79cde9ef8e970e9e38ec431d66335bd3048dde8fb9c26f81723a980",
+      "bytes": 8555459
+    },
+    "recording-projection.json": {
+      "sha256": "84638d8588592f79c483f9a6c3b12a5633f008f9bca08b0176c84b3b51c01ec2",
+      "bytes": 44735
+    },
+    "form-synthesis.json": {
+      "sha256": "e67decf3208fe009d2fc571c54720057cc5a1e254e9aa4bdd38607fe5b5b8e4d",
+      "bytes": 10153
+    }
+  },
+  "summary": {
+    "harmonic_windows": 6660,
+    "ambiguous_windows": 2793,
+    "activation_frames": 6801,
+    "formal_sections": 8,
+    "human_signoffs": 0
+  },
+  "review_status": "agent_rule_reviewed_with_explicit_alternatives; human_expert_signoff_not_claimed"
+}

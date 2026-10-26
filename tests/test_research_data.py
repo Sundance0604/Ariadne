@@ -143,9 +143,16 @@ class ResearchDataTests(unittest.TestCase):
 
 
 class RavelResearchTests(unittest.TestCase):
+    def test_invalid_optional_engine_is_rejected_without_hiding_existing_essays(self):
+        with patch('backend.structure_analysis.store.load_bundle',side_effect=ValueError('fingerprint mismatch')):
+            data=load_research(ROOT)
+        self.assertEqual(len(data['essays']),5);self.assertEqual(len([e for e in data['events'] if e.get('analysis_origin') not in {'score_study','musicxml_analysis'}]),35)
+        self.assertTrue(data['score_study'])
+        self.assertIn('fingerprint mismatch',data['engine_error']);self.assertNotIn('reference_clock',data)
+
     def test_real_pilot_is_conservative_and_legacy_guides_unchanged(self):
         data = load_research(ROOT)
-        self.assertEqual(len(data['events']), 35)
+        self.assertEqual(len([e for e in data['events'] if e.get('analysis_origin') not in {'engine_candidate','score_study','musicxml_analysis'}]), 35)
         self.assertEqual(len(data['essays']), 5)
         self.assertGreaterEqual(len(data['essays'][0]['score_spans']), 3)
         self.assertTrue(all(e['verification']['timing'] == 'candidate_alignment' for e in data['events']))

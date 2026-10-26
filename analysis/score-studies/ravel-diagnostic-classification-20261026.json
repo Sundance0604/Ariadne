@@ -1,0 +1,4426 @@
+{
+  "categories": {
+    "percussion": "打击乐",
+    "tremolo": "震音记谱／展开",
+    "octave": "八度",
+    "transposition": "移调疑点",
+    "rhythm": "节奏、延续或装饰展开",
+    "pedal": "踏板／发声延续疑点",
+    "confirmed_error": "已证实错误",
+    "unresolved": "证据不足，保留未分类"
+  },
+  "counts": {
+    "percussion": 147,
+    "tremolo": 0,
+    "octave": 8,
+    "transposition": 5,
+    "rhythm": 224,
+    "pedal": 1,
+    "confirmed_error": 0,
+    "unresolved": 54
+  },
+  "records": [
+    {
+      "id": "midi-t00-0092580-086-00043",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "flute",
+      "pitched": true
+    },
+    {
+      "id": "midi-t05-0093000-086-02577",
+      "record_kind": "midi_note",
+      "category": "transposition",
+      "basis": "Written-pitch candidate equals reference while concert pitch differs; hypothesis only.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "clarinet-a",
+      "pitched": true
+    },
+    {
+      "id": "midi-t11-0092640-078-06729",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "trumpet",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0037440-052-08243",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0037469-053-08244",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0037499-052-08245",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0037529-053-08246",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0037560-052-08247",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0037589-053-08248",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0037619-052-08249",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0037649-053-08250",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0037680-052-08251",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0037709-053-08252",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0037739-052-08253",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0037769-053-08254",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0037800-052-08255",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0037829-053-08256",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0037859-052-08257",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0037889-053-08258",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0037920-052-08259",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0037949-053-08260",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0037979-052-08261",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0038009-053-08262",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0038040-052-08263",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0038069-053-08264",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0038099-052-08265",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0038129-053-08266",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0038160-052-08267",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0038189-053-08268",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0038219-052-08269",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0038249-053-08270",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0038280-052-08271",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0038309-053-08272",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t15-0038369-053-08275",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "pitched": true
+    },
+    {
+      "id": "midi-t17-0008640-052-08948",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0019680-035-08949",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0019709-035-08950",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0019739-035-08951",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0019769-035-08952",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0019799-035-08953",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0019828-035-08954",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0019858-035-08955",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0019888-035-08956",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0019918-035-08957",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0019947-035-08958",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0019977-035-08959",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0020007-035-08960",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0020037-035-08961",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0020066-035-08962",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0020096-035-08963",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0020126-035-08964",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0020390-035-08965",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0020419-035-08966",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0020448-035-08967",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0020476-035-08968",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0020505-035-08969",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0020534-035-08970",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0020563-035-08971",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0020592-035-08972",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0020620-035-08973",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0020649-035-08974",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0020678-035-08975",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0020707-035-08976",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0020736-035-08977",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0020764-035-08978",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0020793-035-08979",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0020822-035-08980",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0020851-035-08981",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0020880-035-08982",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0020908-035-08983",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0020937-035-08984",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0020966-035-08985",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0020995-035-08986",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0021024-035-08987",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0021052-035-08988",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0021081-035-08989",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0021110-035-08990",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0021139-035-08991",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0021168-035-08992",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0021196-035-08993",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0021225-035-08994",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0021254-035-08995",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0021283-035-08996",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0021312-035-08997",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0021340-035-08998",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0021369-035-08999",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0021398-035-09000",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0021427-035-09001",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0021456-035-09002",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0021484-035-09003",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0021513-035-09004",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0037440-038-09254",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0037469-038-09255",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0037499-038-09256",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0037529-038-09257",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0037559-038-09258",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0037588-038-09259",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0037618-038-09260",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0037648-038-09261",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0037678-038-09262",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0037707-038-09263",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0037737-038-09264",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0037767-038-09265",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0037797-038-09266",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0037826-038-09267",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0037856-038-09268",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0037886-038-09269",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0037916-038-09270",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0037945-038-09271",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0037975-038-09272",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0038005-038-09273",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0038035-038-09274",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0038064-038-09275",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0038094-038-09276",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0038124-038-09277",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0038154-038-09278",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0038184-038-09279",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0038213-038-09280",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0038243-038-09281",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0038273-038-09282",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0038303-038-09283",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0038332-038-09284",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t17-0038362-038-09285",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "tambourine",
+      "pitched": false
+    },
+    {
+      "id": "midi-t18-0037588-057-09768",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cymbal",
+      "pitched": false
+    },
+    {
+      "id": "midi-t18-0037618-057-09769",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cymbal",
+      "pitched": false
+    },
+    {
+      "id": "midi-t18-0037648-057-09770",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cymbal",
+      "pitched": false
+    },
+    {
+      "id": "midi-t18-0037678-057-09771",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cymbal",
+      "pitched": false
+    },
+    {
+      "id": "midi-t18-0037707-057-09772",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cymbal",
+      "pitched": false
+    },
+    {
+      "id": "midi-t18-0037737-057-09773",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cymbal",
+      "pitched": false
+    },
+    {
+      "id": "midi-t18-0037767-057-09774",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cymbal",
+      "pitched": false
+    },
+    {
+      "id": "midi-t18-0037797-057-09775",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cymbal",
+      "pitched": false
+    },
+    {
+      "id": "midi-t18-0037826-057-09776",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cymbal",
+      "pitched": false
+    },
+    {
+      "id": "midi-t18-0037856-057-09777",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cymbal",
+      "pitched": false
+    },
+    {
+      "id": "midi-t18-0037886-057-09778",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cymbal",
+      "pitched": false
+    },
+    {
+      "id": "midi-t18-0037916-057-09779",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cymbal",
+      "pitched": false
+    },
+    {
+      "id": "midi-t18-0037945-057-09780",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cymbal",
+      "pitched": false
+    },
+    {
+      "id": "midi-t18-0037975-057-09781",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cymbal",
+      "pitched": false
+    },
+    {
+      "id": "midi-t18-0038005-057-09782",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cymbal",
+      "pitched": false
+    },
+    {
+      "id": "midi-t18-0038035-057-09783",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cymbal",
+      "pitched": false
+    },
+    {
+      "id": "midi-t18-0038064-057-09784",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cymbal",
+      "pitched": false
+    },
+    {
+      "id": "midi-t18-0038094-057-09785",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cymbal",
+      "pitched": false
+    },
+    {
+      "id": "midi-t18-0038124-057-09786",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cymbal",
+      "pitched": false
+    },
+    {
+      "id": "midi-t18-0038154-057-09787",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cymbal",
+      "pitched": false
+    },
+    {
+      "id": "midi-t18-0038184-057-09788",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cymbal",
+      "pitched": false
+    },
+    {
+      "id": "midi-t18-0038213-057-09789",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cymbal",
+      "pitched": false
+    },
+    {
+      "id": "midi-t18-0038243-057-09790",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cymbal",
+      "pitched": false
+    },
+    {
+      "id": "midi-t18-0038273-057-09791",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cymbal",
+      "pitched": false
+    },
+    {
+      "id": "midi-t18-0038303-057-09792",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cymbal",
+      "pitched": false
+    },
+    {
+      "id": "midi-t18-0038332-057-09793",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cymbal",
+      "pitched": false
+    },
+    {
+      "id": "midi-t18-0038362-057-09794",
+      "record_kind": "midi_note",
+      "category": "percussion",
+      "basis": "Percussion: preserve pitched timpani and unpitched-channel references separately.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cymbal",
+      "pitched": false
+    },
+    {
+      "id": "midi-t23-0052080-050-10766",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0053460-062-10782",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0055320-054-10803",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0059160-050-10843",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0059280-049-10848",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0060880-050-10859",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0061560-045-10869",
+      "record_kind": "midi_note",
+      "category": "transposition",
+      "basis": "Written-pitch candidate equals reference while concert pitch differs; hypothesis only.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0064080-065-10879",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0065460-065-10888",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0071100-060-10938",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0071100-072-10941",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0071280-065-10949",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0072060-065-10954",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0072240-065-10961",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0072600-062-10965",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0072600-065-10966",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0073440-055-10978",
+      "record_kind": "midi_note",
+      "category": "octave",
+      "basis": "Decoded/source-reference octave differs; may still be a pairing error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano"
+    },
+    {
+      "id": "midi-t23-0073520-055-10982",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0073520-067-10985",
+      "record_kind": "midi_note",
+      "category": "octave",
+      "basis": "Decoded/source-reference octave differs; may still be a pairing error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano"
+    },
+    {
+      "id": "midi-t23-0085200-045-11102",
+      "record_kind": "midi_note",
+      "category": "transposition",
+      "basis": "Written-pitch candidate equals reference while concert pitch differs; hypothesis only.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0085360-055-11103",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0085360-069-11107",
+      "record_kind": "midi_note",
+      "category": "octave",
+      "basis": "Decoded/source-reference octave differs; may still be a pairing error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano"
+    },
+    {
+      "id": "midi-t23-0085520-067-11108",
+      "record_kind": "midi_note",
+      "category": "octave",
+      "basis": "Decoded/source-reference octave differs; may still be a pairing error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano"
+    },
+    {
+      "id": "midi-t23-0085520-069-11109",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0085680-091-11113",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0086020-078-11126",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0086140-078-11132",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0086160-081-11134",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0086194-076-11135",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0086640-069-11154",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0087120-057-11174",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0087227-046-11179",
+      "record_kind": "midi_note",
+      "category": "transposition",
+      "basis": "Written-pitch candidate equals reference while concert pitch differs; hypothesis only.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089460-043-11238",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089490-045-11239",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089520-045-11240",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089665-047-11241",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089667-048-11242",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089670-050-11243",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089672-052-11244",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089674-053-11245",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089677-055-11246",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089679-057-11247",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089682-059-11248",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089684-060-11249",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089686-062-11250",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089689-064-11251",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089691-065-11252",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089694-067-11253",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089696-069-11254",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089698-071-11255",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089700-072-11256",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089703-074-11257",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089705-076-11258",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089708-077-11259",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089710-079-11260",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089712-081-11261",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089715-083-11262",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089717-084-11263",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089720-086-11264",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089722-088-11265",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089724-089-11266",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089727-091-11267",
+      "record_kind": "midi_note",
+      "category": "octave",
+      "basis": "Decoded/source-reference octave differs; may still be a pairing error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano"
+    },
+    {
+      "id": "midi-t23-0089729-093-11268",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089732-095-11269",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t23-0089734-096-11270",
+      "record_kind": "midi_note",
+      "category": "rhythm",
+      "basis": "Explicit glissando and expanded reference attacks; not classified as tremolo.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t24-0049200-040-14165",
+      "record_kind": "midi_note",
+      "category": "transposition",
+      "basis": "Written-pitch candidate equals reference while concert pitch differs; hypothesis only.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t24-0049440-031-14169",
+      "record_kind": "midi_note",
+      "category": "pedal",
+      "basis": "Reference sustain extends key interval; not proof that pedal caused the missing correspondence.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "pitched": true
+    },
+    {
+      "id": "midi-t24-0049500-045-14173",
+      "record_kind": "midi_note",
+      "category": "octave",
+      "basis": "Decoded/source-reference octave differs; may still be a pairing error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano"
+    },
+    {
+      "id": "midi-t24-0049440-026-14174",
+      "record_kind": "midi_note",
+      "category": "octave",
+      "basis": "Decoded/source-reference octave differs; may still be a pairing error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano"
+    },
+    {
+      "id": "midi-t25-0092580-086-16193",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "violin-1",
+      "pitched": true
+    },
+    {
+      "id": "midi-t25-0093000-090-16199",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "violin-1",
+      "pitched": true
+    },
+    {
+      "id": "midi-t26-0038400-074-17782",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "violin-1",
+      "pitched": true
+    },
+    {
+      "id": "midi-t28-0092580-073-18199",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "violin-2",
+      "pitched": true
+    },
+    {
+      "id": "midi-t28-0093000-078-18206",
+      "record_kind": "midi_note",
+      "category": "unresolved",
+      "basis": "No sufficient notation evidence to assign a cause.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "violin-2",
+      "pitched": true
+    },
+    {
+      "id": "midi-t32-0038035-062-21596",
+      "record_kind": "midi_note",
+      "category": "octave",
+      "basis": "Decoded/source-reference octave differs; may still be a pairing error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "viola"
+    },
+    {
+      "id": "pdf-p001-staff08-head00001",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "contrabassoon",
+      "page": 1
+    },
+    {
+      "id": "pdf-p002-staff00-head00072",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "contrabassoon",
+      "page": 2
+    },
+    {
+      "id": "pdf-p002-staff00-head00078",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "contrabassoon",
+      "page": 2
+    },
+    {
+      "id": "pdf-p002-staff00-head00083",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "contrabassoon",
+      "page": 2
+    },
+    {
+      "id": "pdf-p002-staff10-head00154",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "contrabassoon",
+      "page": 2
+    },
+    {
+      "id": "pdf-p002-staff11-head00162",
+      "record_kind": "pdf_head",
+      "category": "unresolved",
+      "basis": "No sufficient duration, transposition or voice evidence; leave unassigned.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "horn",
+      "page": 2
+    },
+    {
+      "id": "pdf-p002-staff14-head00174",
+      "record_kind": "pdf_head",
+      "category": "unresolved",
+      "basis": "No sufficient duration, transposition or voice evidence; leave unassigned.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 2
+    },
+    {
+      "id": "pdf-p002-staff18-head00177",
+      "record_kind": "pdf_head",
+      "category": "unresolved",
+      "basis": "No sufficient duration, transposition or voice evidence; leave unassigned.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cello",
+      "page": 2
+    },
+    {
+      "id": "pdf-p002-staff18-head00179",
+      "record_kind": "pdf_head",
+      "category": "unresolved",
+      "basis": "No sufficient duration, transposition or voice evidence; leave unassigned.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cello",
+      "page": 2
+    },
+    {
+      "id": "pdf-p003-staff10-head00356",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "bass-clarinet-a",
+      "page": 3
+    },
+    {
+      "id": "pdf-p003-staff10-head00358",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "bass-clarinet-a",
+      "page": 3
+    },
+    {
+      "id": "pdf-p003-staff13-head00386",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "horn",
+      "page": 3
+    },
+    {
+      "id": "pdf-p003-staff13-head00387",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "horn",
+      "page": 3
+    },
+    {
+      "id": "pdf-p003-staff13-head00390",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "horn",
+      "page": 3
+    },
+    {
+      "id": "pdf-p003-staff13-head00391",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "horn",
+      "page": 3
+    },
+    {
+      "id": "pdf-p003-staff13-head00392",
+      "record_kind": "pdf_head",
+      "category": "unresolved",
+      "basis": "No sufficient duration, transposition or voice evidence; leave unassigned.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "horn",
+      "page": 3
+    },
+    {
+      "id": "pdf-p003-staff13-head00395",
+      "record_kind": "pdf_head",
+      "category": "unresolved",
+      "basis": "No sufficient duration, transposition or voice evidence; leave unassigned.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "horn",
+      "page": 3
+    },
+    {
+      "id": "pdf-p003-staff18-head00399",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cello",
+      "page": 3
+    },
+    {
+      "id": "pdf-p003-staff18-head00400",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cello",
+      "page": 3
+    },
+    {
+      "id": "pdf-p003-staff18-head00403",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cello",
+      "page": 3
+    },
+    {
+      "id": "pdf-p003-staff18-head00404",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cello",
+      "page": 3
+    },
+    {
+      "id": "pdf-p003-staff18-head00408",
+      "record_kind": "pdf_head",
+      "category": "unresolved",
+      "basis": "No sufficient duration, transposition or voice evidence; leave unassigned.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "cello",
+      "page": 3
+    },
+    {
+      "id": "pdf-p003-staff20-head00469",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "double-bass",
+      "page": 3
+    },
+    {
+      "id": "pdf-p010-staff00-head00480",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "flute",
+      "page": 10
+    },
+    {
+      "id": "pdf-p010-staff02-head00486",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "oboe",
+      "page": 10
+    },
+    {
+      "id": "pdf-p010-staff05-head00492",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "clarinet-a",
+      "page": 10
+    },
+    {
+      "id": "pdf-p010-staff11-head00511",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "trumpet",
+      "page": 10
+    },
+    {
+      "id": "pdf-p010-staff12-head00516",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "trombone",
+      "page": 10
+    },
+    {
+      "id": "pdf-p010-staff14-head00523",
+      "record_kind": "pdf_head",
+      "category": "unresolved",
+      "basis": "No sufficient duration, transposition or voice evidence; leave unassigned.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "page": 10
+    },
+    {
+      "id": "pdf-p010-staff14-head00525",
+      "record_kind": "pdf_head",
+      "category": "unresolved",
+      "basis": "No sufficient duration, transposition or voice evidence; leave unassigned.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "timpani",
+      "page": 10
+    },
+    {
+      "id": "pdf-p010-staff15-head00527",
+      "record_kind": "pdf_head",
+      "category": "unresolved",
+      "basis": "No sufficient duration, transposition or voice evidence; leave unassigned.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 10
+    },
+    {
+      "id": "pdf-p010-staff15-head00528",
+      "record_kind": "pdf_head",
+      "category": "unresolved",
+      "basis": "No sufficient duration, transposition or voice evidence; leave unassigned.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 10
+    },
+    {
+      "id": "pdf-p010-staff15-head00533",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 10
+    },
+    {
+      "id": "pdf-p010-staff15-head00535",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 10
+    },
+    {
+      "id": "pdf-p010-staff15-head00536",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 10
+    },
+    {
+      "id": "pdf-p010-staff15-head00561",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 10
+    },
+    {
+      "id": "pdf-p010-staff15-head00562",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 10
+    },
+    {
+      "id": "pdf-p010-staff15-head00563",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 10
+    },
+    {
+      "id": "pdf-p010-staff15-head00588",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 10
+    },
+    {
+      "id": "pdf-p010-staff15-head00589",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 10
+    },
+    {
+      "id": "pdf-p010-staff15-head00590",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 10
+    },
+    {
+      "id": "pdf-p010-staff17-head00643",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "violin-1",
+      "page": 10
+    },
+    {
+      "id": "pdf-p011-staff00-head00672",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff00-head00673",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff00-head00674",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff00-head00684",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff00-head00685",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff00-head00686",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff00-head00695",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff00-head00696",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff00-head00697",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff02-head00794",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff02-head00796",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff02-head00797",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff02-head00801",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff03-head00811",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff03-head00815",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff03-head00816",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff03-head00822",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff03-head00823",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff03-head00824",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff03-head00825",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff03-head00826",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff03-head00828",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff03-head00830",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff03-head00831",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff03-head00836",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff03-head00839",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff03-head00840",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff03-head00841",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff03-head00842",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff03-head00844",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff03-head00845",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff04-head00854",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff04-head00855",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff04-head00856",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff04-head00857",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff04-head00864",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff04-head00865",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff04-head00877",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff04-head00878",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff04-head00879",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff04-head00880",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff04-head00888",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff04-head00896",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff04-head00897",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff04-head00898",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff04-head00899",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff06-head00939",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff06-head00940",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff06-head00941",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff06-head00942",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff06-head00949",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff06-head00958",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff06-head00959",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff06-head00960",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff06-head00961",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff06-head00965",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff07-head00973",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p011-staff08-head00986",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 11
+    },
+    {
+      "id": "pdf-p012-staff00-head01028",
+      "record_kind": "pdf_head",
+      "category": "unresolved",
+      "basis": "No sufficient duration, transposition or voice evidence; leave unassigned.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff00-head01031",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff00-head01032",
+      "record_kind": "pdf_head",
+      "category": "unresolved",
+      "basis": "No sufficient duration, transposition or voice evidence; leave unassigned.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff00-head01033",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff00-head01034",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff00-head01041",
+      "record_kind": "pdf_head",
+      "category": "unresolved",
+      "basis": "No sufficient duration, transposition or voice evidence; leave unassigned.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff00-head01047",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff00-head01048",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff00-head01049",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff00-head01050",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff00-head01067",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff00-head01068",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff00-head01069",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff00-head01071",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff01-head01095",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff01-head01107",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff02-head01123",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff02-head01124",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff02-head01125",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff02-head01126",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff02-head01129",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff02-head01130",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff02-head01131",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff02-head01136",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff02-head01137",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff02-head01138",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff03-head01169",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff03-head01170",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff04-head01177",
+      "record_kind": "pdf_head",
+      "category": "unresolved",
+      "basis": "No sufficient duration, transposition or voice evidence; leave unassigned.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff04-head01180",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff04-head01181",
+      "record_kind": "pdf_head",
+      "category": "unresolved",
+      "basis": "No sufficient duration, transposition or voice evidence; leave unassigned.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff04-head01182",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff04-head01183",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff04-head01186",
+      "record_kind": "pdf_head",
+      "category": "unresolved",
+      "basis": "No sufficient duration, transposition or voice evidence; leave unassigned.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff04-head01193",
+      "record_kind": "pdf_head",
+      "category": "unresolved",
+      "basis": "No sufficient duration, transposition or voice evidence; leave unassigned.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff04-head01197",
+      "record_kind": "pdf_head",
+      "category": "unresolved",
+      "basis": "No sufficient duration, transposition or voice evidence; leave unassigned.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff04-head01199",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff04-head01206",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff04-head01207",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff04-head01208",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff04-head01209",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff04-head01214",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff05-head01233",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff06-head01250",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff06-head01251",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff06-head01252",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff06-head01253",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff08-head01321",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff08-head01322",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff08-head01332",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff08-head01333",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff08-head01334",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff08-head01335",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff08-head01336",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff08-head01337",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff08-head01338",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p012-staff08-head01339",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 12
+    },
+    {
+      "id": "pdf-p013-staff17-head01427",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 13
+    },
+    {
+      "id": "pdf-p013-staff17-head01428",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 13
+    },
+    {
+      "id": "pdf-p013-staff17-head01432",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 13
+    },
+    {
+      "id": "pdf-p013-staff17-head01434",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 13
+    },
+    {
+      "id": "pdf-p013-staff17-head01450",
+      "record_kind": "pdf_head",
+      "category": "unresolved",
+      "basis": "No sufficient duration, transposition or voice evidence; leave unassigned.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 13
+    },
+    {
+      "id": "pdf-p013-staff17-head01456",
+      "record_kind": "pdf_head",
+      "category": "unresolved",
+      "basis": "No sufficient duration, transposition or voice evidence; leave unassigned.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 13
+    },
+    {
+      "id": "pdf-p013-staff17-head01458",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 13
+    },
+    {
+      "id": "pdf-p013-staff17-head01459",
+      "record_kind": "pdf_head",
+      "category": "unresolved",
+      "basis": "No sufficient duration, transposition or voice evidence; leave unassigned.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 13
+    },
+    {
+      "id": "pdf-p014-staff17-head01490",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 14
+    },
+    {
+      "id": "pdf-p014-staff17-head01510",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 14
+    },
+    {
+      "id": "pdf-p014-staff17-head01515",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piano",
+      "page": 14
+    },
+    {
+      "id": "pdf-p015-staff00-head01528",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "flute",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff00-head01529",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "flute",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff00-head01538",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "flute",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff00-head01539",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "flute",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff00-head01545",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "flute",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff01-head01551",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piccolo",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff01-head01556",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "piccolo",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff02-head01563",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "oboe",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff02-head01568",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "oboe",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff03-head01575",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "clarinet-eb",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff03-head01580",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "clarinet-eb",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff04-head01588",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "clarinet-a",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff04-head01589",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "clarinet-a",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff04-head01598",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "clarinet-a",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff04-head01599",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "clarinet-a",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff04-head01609",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "clarinet-a",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff08-head01632",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "horn",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff08-head01633",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "horn",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff08-head01642",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "horn",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff08-head01643",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "horn",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff09-head01656",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "horn",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff09-head01657",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "horn",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff09-head01666",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "horn",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff09-head01667",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "horn",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff10-head01679",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "trumpet",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff10-head01684",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "trumpet",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff10-head01691",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "trumpet",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff13-head01707",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "violin-1",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff13-head01708",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "violin-1",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff13-head01709",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "violin-1",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff13-head01722",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "violin-1",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff13-head01723",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "violin-1",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff13-head01724",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "violin-1",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff13-head01733",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "violin-1",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff13-head01739",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "violin-1",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff14-head01743",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "violin-2",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff14-head01744",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "violin-2",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff14-head01745",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "violin-2",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff14-head01758",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "violin-2",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff14-head01759",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "violin-2",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff14-head01760",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "violin-2",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff14-head01769",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "violin-2",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff14-head01775",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "violin-2",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff15-head01778",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "viola",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff15-head01779",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "viola",
+      "page": 15
+    },
+    {
+      "id": "pdf-p015-staff15-head01788",
+      "record_kind": "pdf_head",
+      "category": "rhythm",
+      "basis": "Same local pitch exists; tied/repeated notation or event order is a hypothesis, not a confirmed error.",
+      "status": "diagnostic_classification_not_verified_error",
+      "automatic_action": "none",
+      "part_id": "viola",
+      "page": 15
+    }
+  ],
+  "scope": "MIDI missing/contested records and unmatched PDF heads; categories are diagnostic hypotheses, not new correspondences.",
+  "automatic_corrections": 0,
+  "research_gate": "none; meaningful score studies do not require these counts to reach zero",
+  "closed_implementation_errors": [
+    {
+      "id": "stem-as-barline",
+      "category": "confirmed_error",
+      "status": "fixed_previous_round",
+      "evidence": "tests/test_notation_rules.py"
+    },
+    {
+      "id": "bassa-staff-assignment",
+      "category": "confirmed_error",
+      "status": "fixed_previous_round",
+      "evidence": "tests/test_notation_rules.py"
+    }
+  ],
+  "error_note": "Closed implementation defects are distinct from current unclassified score/reference records. No unreviewed input error is certified.",
+  "run_path": "analysis/engine/ravel-pilot/round1-a7657439303a57e6",
+  "manifest_sha256": "86a7d0eb41a60da376d9d29df3bd9da345aa47ca424bd62e737be25f4df399fe"
+}

@@ -152,6 +152,7 @@ function updatePlayhead(){
       x_pt:position?position.leftPercent/100*box.page_width_pt:box.rect_pt[0]}:{})});
   researchPanel.update({playingPage:box?.page_number??null,browsedPage:page,time:audio.currentTime,
     referenceId:m.measure_id,regionId:box?.region_id,systemIndex:box?.system_index,
+    referenceSeconds:position?.referenceSeconds??null,
     x:position&&box?position.leftPercent/100*box.page_width_pt:null});
   line.hidden=!position||box.page_number!==page||!$('showplayhead').checked;
   if(!position){$('playheadlabel').textContent='暂无位置估计';return;}
@@ -213,7 +214,7 @@ async function loadTrack(id){
     const response=await fetch(endpoint('/api/project'),{cache:'no-store'}),data=await response.json();
     if(version!==loadVersion)return;
     if(!response.ok)throw Error(data.error||'项目读取失败');
-    project=data.alignment;mapping=new Map(data.mapping.measures.map(m=>[m.measure_id,m]));
+    project=data.alignment;mapping=new Map((data.symbolic_pdf_regions||data.mapping.measures).map(m=>[m.measure_id,m]));
     scoreMapDocument=data.mapping;scoreCorrections=data.score_region_anchors;
     scoreMeasures=data.score_measures;measureNumberPanel.load(scoreMeasures,track);
     scoreRegions=prepareScoreRegions(data.mapping,project,scoreCorrections,scoreMeasures);

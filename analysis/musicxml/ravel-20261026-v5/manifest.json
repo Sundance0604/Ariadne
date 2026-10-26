@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0.0",
+  "track_id": "ravel-left-hand",
+  "work_id": "ravel-left-hand-concerto",
+  "source": {
+    "path": "resource/ravel left hand piano concerto/maurice-ravel-piano-concerto-for-the-left-hand.mxl",
+    "sha256": "ee62a04480c56cd9b18b7dbcc00083fcfe26de064e591c0bd6079c98c9513043",
+    "bytes": 784297
+  },
+  "pdf": {
+    "path": "resource/ravel left hand piano concerto/maurice-ravel-piano-concerto-for-the-left-hand.pdf",
+    "sha256": "67aa60cc89160ea7e475fd7fa45352ec6e0c45f6cd3557421d8caafc18531083"
+  },
+  "geometry_sha256": "e1728176bafc426540601f7f0e4859b441decf33261442642da4fb4ffc2181a2",
+  "music21_version": "9.9.2",
+  "method_version": "musicxml-first-1",
+  "code_files": {
+    "backend/musicxml_analysis/ingest.py": "c65338201cb8da191a4bf6dbf0d5881b6ad10db05f82271f9b0a1681621a8b4f",
+    "backend/musicxml_analysis/analyze.py": "2b3f643027607071902156675492f48dc890e93d2a5898042a37629381a5d1fd",
+    "backend/musicxml_analysis/mapping.py": "74fdcf139293a5f44b1a8185b9c10d539d72e96f3d75a4290a6b7ec6fb04db4c",
+    "backend/musicxml_analysis/form.py": "6b024e82bd20fdbf6b9d84bfe8c31e116fbdb95b59fccc6b2a5ddb5dd2b40515",
+    "backend/musicxml_analysis/pipeline.py": "d2353b10b048e6a17836b5dbf88cbe176c0f369ed5ed521844a2512655a94cfc"
+  },
+  "ingest_reused_from": "analysis/musicxml/ravel-20261026-v4",
+  "created_at": "2026-10-26T01:00:51.539417+00:00",
+  "files": {
+    "events.json": {
+      "sha256": "3918e0b94a0c403f864251f6ea1186b6bcebb149ee7c7f333475160f519c8ea2",
+      "bytes": 56267375
+    },
+    "parts.json": {
+      "sha256": "1dc9636b84ef0c212f65acba19fd336d14ff395782752a05424c8653c75b2207",
+      "bytes": 16099
+    },
+    "measures.json": {
+      "sha256": "bda2a421bb9f8237a4bf0015c1a6842b3a02fe8154acfebf9a6c68fb76eea0d6",
+      "bytes": 102763
+    },
+    "notation.json": {
+      "sha256": "25eee7f7f0c866ec74835ab8e25c27aac13b63bc230dd130a2bdbbea2aff9546",
+      "bytes": 1813159
+    },
+    "parse-audit.json": {
+      "sha256": "298dc200a1dfd9e5a684a2f5ee926a55205804b4474b0110bbed561319c7b852",
+      "bytes": 805940
+    },
+    "pdf-map.json": {
+      "sha256": "1f55b13a294c21de5151c2fc9afcb03e3da3b53c2e21daf092d165b6755a71e2",
+      "bytes": 7430562
+    },
+    "harmony.json": {
+      "sha256": "4e674080df511045d5fbc0da1d12c8b98359d63be71db759cea54cdf44fc4a6b",
+      "bytes": 13221866
+    },
+    "orchestration.json": {
+      "sha256": "b0d58d699d617493e11ae3b99a032e622a079e334120d92dbe5fde9a3a6123ef",
+      "bytes": 2067026
+    },
+    "counterpoint.json": {
+      "sha256": "1d5e75b88260700360bb2f8e17dadf7a2af9e94f036b420681a6664066f517e5",
+      "bytes": 27481526
+    },
+    "form.json": {
+      "sha256": "6a7a963bcc8738a75bd6ff43686519c71b3ea277d4991c0618de62f222482e71",
+      "bytes": 1505796
+    },
+    "summary.json": {
+      "sha256": "d641cdbbd8bba50e9cf10102219e0e6a6be4bc22f0b1a4f9090c421e6620b289",
+      "bytes": 593
+    }
+  },
+  "protected_inputs": {
+    "alignment.json": "4c6c57fb0c240fcd77c155d2701b9f019333ba0c7a3940aee01064a2e563d701",
+    "measure-map.json": "e1728176bafc426540601f7f0e4859b441decf33261442642da4fb4ffc2181a2",
+    "metadata/recording.json": "743227726954aadc9ea0385c5ae03fb3ffc280db2ca9c1c3e4b7e4bf9adafceb",
+    "analysis/hermeneutic-essays.json": "e86f0c29f6f6b6c597190a3ec0f3fa8f23e493347c446c29535dad1b68afa1b0",
+    "analysis/score-studies/current.json": "eeb508e0b20a4835bb450db7fe98ce2511022e1307038318cd6f3b289f66a617",
+    "analysis/engine/current.json": "974d4aa6c53b4747278bf063724627d5c176901e2e76d8b61dd8fb8c34fc7311"
+  },
+  "analysis_basis": "MusicXML score events; no MIDI note correspondence required",
+  "review_status": "computed_full_score_with_agent_sample_checks_human_signoff_pending"
+}

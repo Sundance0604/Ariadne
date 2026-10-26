@@ -1,0 +1,35 @@
+{
+  "run_path": "analysis/musicxml/ravel-20261026-v5",
+  "source": {
+    "path": "resource/ravel left hand piano concerto/maurice-ravel-piano-concerto-for-the-left-hand.mxl",
+    "sha256": "ee62a04480c56cd9b18b7dbcc00083fcfe26de064e591c0bd6079c98c9513043",
+    "bytes": 784297
+  },
+  "files": {
+    "harmonic-ledger.csv": {
+      "sha256": "451f9b7df0830483db0d534bf52018b8d53cdef1582077955e97004906a17b13",
+      "bytes": 1798433
+    },
+    "instrument-activity.csv": {
+      "sha256": "1c8891be20869702d7e4eeab82531bce7aab9b345f389b3b4aabdcee0a3f6b6a",
+      "bytes": 1462405
+    },
+    "note-events.csv": {
+      "sha256": "69742c95f5b785bc6c916c385a9306154755e53ebe6f0918186e3a3ef8f41401",
+      "bytes": 4849264
+    },
+    "selected-case-evidence.json": {
+      "sha256": "c735f0753fac3ae2551c3aaad5983de05b17867bdda00feced8205cb5d65d708",
+      "bytes": 326078
+    },
+    "voice-intervals.csv": {
+      "sha256": "6c8d91c8f12a44808874a1feb695294ff01cac50e28c27c54e5c0d5748545cb0",
+      "bytes": 6104646
+    },
+    "xml-pdf-cadenza.png": {
+      "sha256": "26a8640a0ed4afcbf35aab96093173100206e228a790c7bbe57cfcaf64a6cf0e",
+      "bytes": 181333
+    }
+  },
+  "status": "computed evidence exports; not independent human review"
+}

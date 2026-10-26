@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "engine_version": "0.1.0",
+  "work_id": "ravel-left-hand-concerto",
+  "run_id": "a7657439303a57e6",
+  "created_at": "2026-10-25T15:39:10.803366+00:00",
+  "runtime_versions": {
+    "python": "3.14.6",
+    "pdfplumber": "0.11.10",
+    "pdfminer.six": "20260107",
+    "mido": "1.3.3"
+  },
+  "source_code_sha256": "0943448d15ff14e703ade9d02a1c215dcd7a6ab35c15e20556af2e3c4055d3f0",
+  "profile_sha256": "0d32fb106502f8fb7364e2c8bab61394c36780d222672281414dc6204223060c",
+  "sources": {
+    "pdf": {
+      "path": "resource/ravel left hand piano concerto/maurice-ravel-piano-concerto-for-the-left-hand.pdf",
+      "sha256": "67aa60cc89160ea7e475fd7fa45352ec6e0c45f6cd3557421d8caafc18531083"
+    },
+    "midi": {
+      "path": "resource/ravel left hand piano concerto/maurice-ravel-piano-concerto-for-the-left-hand.mid",
+      "sha256": "f9ba8d12d461fa9f869ae4e083d2f47f58f4d87a5ad85fbfc4b84f9d5649a8a3"
+    }
+  },
+  "independent_inputs": [
+    "fingerprint-bound vector PDF",
+    "auxiliary MIDI",
+    "staff/transposition adapter",
+    "general theory rules"
+  ],
+  "excluded_inputs": [
+    "recording seconds",
+    "existing structural-events/essays",
+    "literature text"
+  ],
+  "files": {
+    "profile.json": "77f1090c3984685ff6dfe76aa529ec644fe9b0cb1eec212c09e37d47b476bb5f",
+    "pdf-observations.json": "6ebf3aba295e46cf025d4f1f91854b3320c0f6192b1058d2bf166ec200e7ae96",
+    "notes.json": "eec6aa94096deba322b96c71e9f8eb531f3c02517e292b3f930488bb8108b9b4",
+    "correspondence.json": "96af259b25a3828f6502bb2b78a28c188d358a547d1a4eaa287b257fe581a06e",
+    "harmony.json": "d88ccf2ec6652a2d86809c97973e58533daec085548fb37c91d8f69d5b441c26",
+    "counterpoint.json": "1a3b46ab22ee00c70c3fe908f65e96c1bfa94910e5d779ba461477ab7bfcf283",
+    "instrument-activity.json": "dc564184a73377d6137a47e0f3571f8802f4c795b2920a09eeaef381f23493c0",
+    "theme-identities.json": "da1694730e32438b71e11864b02a2552b2639c509c9c3eb8633bd2c8658ca876",
+    "form.json": "643c7f52cf543603c60debb9e5c44378a9f3f1d33adda464eba2ea4de515f2b6",
+    "hud-events.json": "f1e37e19681c571c6ff72c387608b3f4c4b7b9e4531da20f45e614b65be4bba3",
+    "validation.json": "47665078742c20facd9e2675a508349199ac5ff6510d734786384f413b7a4efa"
+  }
+}

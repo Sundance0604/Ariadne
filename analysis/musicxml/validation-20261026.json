@@ -1,0 +1,418 @@
+{
+  "date": "2026-10-26",
+  "active_run": "analysis/musicxml/ravel-20261026-v5",
+  "manifest_sha256": "e4618399060a21f11eb2a1c7b3466ebd5f8d25b72565591d11dad367e3eafcdb",
+  "source": {
+    "path": "resource/ravel left hand piano concerto/maurice-ravel-piano-concerto-for-the-left-hand.mxl",
+    "sha256": "ee62a04480c56cd9b18b7dbcc00083fcfe26de064e591c0bd6079c98c9513043",
+    "bytes": 784297
+  },
+  "summary": {
+    "parts": 37,
+    "measures": 535,
+    "events": 47907,
+    "event_kinds": {
+      "rest": 24123,
+      "pitched": 23135,
+      "unpitched": 649
+    },
+    "eligible_pitched_events": 22475,
+    "invisible_events_quarantined": 880,
+    "harmony_windows": 6660,
+    "complete_chord_identity_windows": 1824,
+    "inversions": {
+      "1": 574,
+      "2": 306,
+      "0": 863,
+      "3": 81
+    },
+    "orchestration_measures": 535,
+    "voice_pair_intervals": 50006,
+    "voice_motions": 37000,
+    "chordal_interval_attacks": 4514,
+    "motif_comparisons": 962,
+    "cadence_candidates": 1,
+    "human_signoffs": 0,
+    "expert_reviews": 0
+  },
+  "edition_audit": {
+    "xml_measures": 535,
+    "xml_pages": 100,
+    "pdf_pages": 100,
+    "xml_systems": 164,
+    "layout_difference_count": 0,
+    "layout_differences": [],
+    "geometry_adjustments": [
+      {
+        "measure_id": "xml-m0033",
+        "xml_system": 0,
+        "legacy_system": 0,
+        "basis": "source PDF printed system number and single-staff cadenza lines",
+        "new_geometry": true
+      },
+      {
+        "measure_id": "xml-m0034",
+        "xml_system": 0,
+        "legacy_system": 0,
+        "basis": "source PDF printed system number and single-staff cadenza lines",
+        "new_geometry": true
+      },
+      {
+        "measure_id": "xml-m0035",
+        "xml_system": 1,
+        "legacy_system": 1,
+        "basis": "source PDF printed system number and single-staff cadenza lines",
+        "new_geometry": true
+      },
+      {
+        "measure_id": "xml-m0036",
+        "xml_system": 1,
+        "legacy_system": 1,
+        "basis": "source PDF printed system number and single-staff cadenza lines",
+        "new_geometry": true
+      },
+      {
+        "measure_id": "xml-m0037",
+        "xml_system": 2,
+        "legacy_system": 0,
+        "basis": "source PDF printed system number and single-staff cadenza lines",
+        "new_geometry": false
+      },
+      {
+        "measure_id": "xml-m0038",
+        "xml_system": 2,
+        "legacy_system": 0,
+        "basis": "source PDF printed system number and single-staff cadenza lines",
+        "new_geometry": false
+      },
+      {
+        "measure_id": "xml-m0039",
+        "xml_system": 2,
+        "legacy_system": 0,
+        "basis": "source PDF printed system number and single-staff cadenza lines",
+        "new_geometry": false
+      },
+      {
+        "measure_id": "xml-m0040",
+        "xml_system": 3,
+        "legacy_system": 1,
+        "basis": "source PDF printed system number and single-staff cadenza lines",
+        "new_geometry": false
+      },
+      {
+        "measure_id": "xml-m0041",
+        "xml_system": 3,
+        "legacy_system": 1,
+        "basis": "source PDF printed system number and single-staff cadenza lines",
+        "new_geometry": false
+      },
+      {
+        "measure_id": "xml-m0042",
+        "xml_system": 3,
+        "legacy_system": 1,
+        "basis": "source PDF printed system number and single-staff cadenza lines",
+        "new_geometry": false
+      },
+      {
+        "measure_id": "xml-m0043",
+        "xml_system": 4,
+        "legacy_system": 2,
+        "basis": "source PDF printed system number and single-staff cadenza lines",
+        "new_geometry": false
+      },
+      {
+        "measure_id": "xml-m0044",
+        "xml_system": 4,
+        "legacy_system": 2,
+        "basis": "source PDF printed system number and single-staff cadenza lines",
+        "new_geometry": false
+      },
+      {
+        "measure_id": "xml-m0045",
+        "xml_system": 4,
+        "legacy_system": 2,
+        "basis": "source PDF printed system number and single-staff cadenza lines",
+        "new_geometry": false
+      },
+      {
+        "measure_id": "xml-m0046",
+        "xml_system": 5,
+        "legacy_system": 3,
+        "basis": "source PDF printed system number and single-staff cadenza lines",
+        "new_geometry": false
+      },
+      {
+        "measure_id": "xml-m0047",
+        "xml_system": 5,
+        "legacy_system": 3,
+        "basis": "source PDF printed system number and single-staff cadenza lines",
+        "new_geometry": false
+      }
+    ],
+    "score_window_checks": [
+      {
+        "id": "opening-cello-D",
+        "status": "agrees",
+        "expected": {
+          "part": "P32",
+          "sequence": 1,
+          "onset_q": "0",
+          "concert_pitch": "D2"
+        },
+        "event_ids": [
+          "P32-xml-m0001-n0001"
+        ],
+        "evidence": "agent-transcribed score windows in analysis/score-studies/ravel-study-20261026.json; not human signoff"
+      },
+      {
+        "id": "opening-cello-G",
+        "status": "agrees",
+        "expected": {
+          "part": "P32",
+          "sequence": 1,
+          "onset_q": "0",
+          "concert_pitch": "G2"
+        },
+        "event_ids": [
+          "P32-xml-m0001-n0002"
+        ],
+        "evidence": "agent-transcribed score windows in analysis/score-studies/ravel-study-20261026.json; not human signoff"
+      },
+      {
+        "id": "opening-bass-E",
+        "status": "agrees",
+        "expected": {
+          "part": "P36",
+          "sequence": 1,
+          "onset_q": "0",
+          "concert_pitch": "E1"
+        },
+        "event_ids": [
+          "P36-xml-m0001-n0001"
+        ],
+        "evidence": "agent-transcribed score windows in analysis/score-studies/ravel-study-20261026.json; not human signoff"
+      },
+      {
+        "id": "opening-bass-A",
+        "status": "agrees",
+        "expected": {
+          "part": "P36",
+          "sequence": 1,
+          "onset_q": "0",
+          "concert_pitch": "A1"
+        },
+        "event_ids": [
+          "P36-xml-m0001-n0002"
+        ],
+        "evidence": "agent-transcribed score windows in analysis/score-studies/ravel-study-20261026.json; not human signoff"
+      },
+      {
+        "id": "horn-upper-10",
+        "status": "agrees",
+        "expected": {
+          "part": "P10",
+          "sequence": 10,
+          "onset_q": "0",
+          "concert_pitch": "A3"
+        },
+        "event_ids": [
+          "P10-xml-m0010-n0002"
+        ],
+        "evidence": "agent-transcribed score windows in analysis/score-studies/ravel-study-20261026.json; not human signoff"
+      },
+      {
+        "id": "horn-upper-11",
+        "status": "agrees",
+        "expected": {
+          "part": "P10",
+          "sequence": 11,
+          "onset_q": "0",
+          "concert_pitch": "E4"
+        },
+        "event_ids": [
+          "P10-xml-m0011-n0002"
+        ],
+        "evidence": "agent-transcribed score windows in analysis/score-studies/ravel-study-20261026.json; not human signoff"
+      },
+      {
+        "id": "bassoon-11",
+        "status": "agrees",
+        "expected": {
+          "part": "P8",
+          "sequence": 11,
+          "onset_q": "1",
+          "concert_pitch": "Bb2"
+        },
+        "event_ids": [
+          "P8-xml-m0011-n0004"
+        ],
+        "evidence": "agent-transcribed score windows in analysis/score-studies/ravel-study-20261026.json; not human signoff"
+      },
+      {
+        "id": "contra-E-pedal",
+        "status": "agrees",
+        "expected": {
+          "part": "P9",
+          "sequence": 11,
+          "onset_q": "0",
+          "concert_pitch": "E1"
+        },
+        "event_ids": [
+          "P9-xml-m0011-n0001"
+        ],
+        "evidence": "agent-transcribed score windows in analysis/score-studies/ravel-study-20261026.json; not human signoff"
+      },
+      {
+        "id": "violin-return-64",
+        "status": "agrees",
+        "expected": {
+          "part": "P27",
+          "sequence": 64,
+          "onset_q": "0",
+          "concert_pitch": "G#4"
+        },
+        "event_ids": [
+          "P27-xml-m0064-n0003"
+        ],
+        "evidence": "agent-transcribed score windows in analysis/score-studies/ravel-study-20261026.json; not human signoff"
+      }
+    ],
+    "checked_pdf_pages": [
+      1,
+      3,
+      15,
+      33,
+      51,
+      95,
+      100
+    ],
+    "status": "compatible_layout_with_local_content_checks_not_critical_edition_equivalence",
+    "limitations": [
+      "Full note-by-note PDF collation not performed.",
+      "MuseScore source is a transcription, not a critical edition.",
+      "Invisible notehead events are quarantined, retained in the raw event table and excluded from analysis.",
+      "XML note default-x/y remain original engraving coordinates; no fabricated PDF notehead rectangles."
+    ]
+  },
+  "agent_visual_review": {
+    "pdf_physical_pages": [
+      1,
+      3,
+      10,
+      11,
+      12,
+      15,
+      33,
+      51,
+      91,
+      92,
+      95,
+      100
+    ],
+    "scope": "selected systems and key source notes, not exhaustive note-by-note PDF collation",
+    "human_signoffs": 0,
+    "expert_reviews": 0
+  },
+  "parse_audit_counts": {
+    "music21_duration_difference": 56,
+    "music21_part_clock_difference": 4016
+  },
+  "main_server_http": {
+    "api/health": {
+      "status": 200
+    },
+    "api/project?track=ravel-left-hand": {
+      "status": 200
+    },
+    "api/musicxml?track=ravel-left-hand": {
+      "status": 200
+    },
+    "api/musicxml-evidence?track=ravel-left-hand&measure_id=xml-m0034": {
+      "status": 200
+    },
+    "api/research?track=ravel-left-hand": {
+      "status": 200
+    },
+    "PDF page 11": {
+      "status": 200,
+      "signature": "PNG"
+    },
+    "original audio byte range": {
+      "status": 206,
+      "bytes": 64,
+      "listening": false
+    }
+  },
+  "tests": {
+    "python_full": {
+      "run": 144,
+      "passed": 142,
+      "skipped": 2,
+      "runtime": "synctoolbox conda",
+      "log": "tmp/musicxml/all-python-tests.log"
+    },
+    "python_minimal_playback": {
+      "run": 13,
+      "passed": 10,
+      "skipped": 3,
+      "music21_installed": false,
+      "log": "tmp/musicxml/minimal-playback-tests.log"
+    },
+    "frontend": {
+      "run": 33,
+      "passed": 33,
+      "log": "tmp/musicxml/all-frontend-tests.log"
+    },
+    "actual_modules_and_http": {
+      "passed": true,
+      "XML_measures_in_reader": 535,
+      "independent_page_navigation_without_audio_seek": true,
+      "persistent_essay_and_scroll": true,
+      "legacy_tracks": true,
+      "log": "tmp/musicxml/module-integration.log",
+      "method": "in-memory DOM with actual app modules and HTTP, not browser playback"
+    }
+  },
+  "preservation": {
+    "protected_files": {
+      "alignment.json": true,
+      "measure-map.json": true,
+      "metadata/recording.json": true,
+      "analysis/hermeneutic-essays.json": true,
+      "analysis/score-studies/current.json": true,
+      "analysis/engine/current.json": true
+    },
+    "mahler4_user_anchors_unchanged": true,
+    "project_input_manifest_updated_for_new_XML": true,
+    "old_matching_results_recomputed": false,
+    "historical_intake_runs": "analysis/musicxml/history-20261026.json"
+  },
+  "exports": {
+    "note-events.csv": {
+      "rows": 47907,
+      "sha256": "69742c95f5b785bc6c916c385a9306154755e53ebe6f0918186e3a3ef8f41401"
+    },
+    "harmonic-ledger.csv": {
+      "rows": 6660,
+      "sha256": "451f9b7df0830483db0d534bf52018b8d53cdef1582077955e97004906a17b13"
+    },
+    "instrument-activity.csv": {
+      "rows": 19795,
+      "sha256": "1c8891be20869702d7e4eeab82531bce7aab9b345f389b3b4aabdcee0a3f6b6a"
+    },
+    "voice-intervals.csv": {
+      "rows": 50006,
+      "sha256": "6c8d91c8f12a44808874a1feb695294ff01cac50e28c27c54e5c0d5748545cb0"
+    }
+  },
+  "evidence_fingerprints_and_code": true,
+  "real_browser": {
+    "tested": false,
+    "listening_performed": false,
+    "scope": "No claim of real browser/audio playback acceptance; previous local browser control was disabled."
+  },
+  "publication": {
+    "committed_this_round": false,
+    "pushed_this_round": false
+  }
+}

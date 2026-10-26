@@ -1,0 +1,94 @@
+{
+  "prior_exposure_statement": "此前会话已经阅读部分文献，不能称为历史意义上的盲分析。本轮算法不读取论文、旧技术事件或文章。保留早期冻结稿0b80fb2654179afd；此后修复音头框、离键边界与跨谱表轮廓，形成当前快照，比较报告另存，不反写独立结果。",
+  "sources": [
+    {
+      "id": "leong-korevaar-2005",
+      "authors": [
+        "Daphne Leong",
+        "David Korevaar"
+      ],
+      "title": "The Performer’s Voice: Performance and Analysis in Ravel’s Concerto pour la main gauche",
+      "url": "https://mtosmt.org/issues/mto.05.11.3/mto.05.11.3.leong_korevaar.html",
+      "reading_status": "relevant_sections_checked",
+      "read_scope": "本轮复读§§30–40，尤其§§31–34、38–40；不升级为整篇全文核查"
+    },
+    {
+      "id": "beavers-2021",
+      "authors": [
+        "Jennifer P. Beavers"
+      ],
+      "title": "Ravel’s Sound: Timbre and Orchestration in His Late Works",
+      "doi": "10.30535/mto.27.1.2",
+      "url": "https://mtosmt.org/issues/mto.21.27.1/mto.21.27.1.beavers.html",
+      "reading_status": "relevant_sections_checked",
+      "read_scope": "§§5.2–5.3；第51页等本轮范围外内容不据此扩张算法验收"
+    },
+    {
+      "id": "hammond-2012",
+      "authors": [
+        "Clare Hammond"
+      ],
+      "title": "To Conceal or Reveal: left-hand pianism with particular reference to Ravel’s Concerto pour la main gauche and Britten’s Diversions",
+      "url": "https://openaccess.city.ac.uk/id/eprint/11671/",
+      "reading_status": "relevant_sections_checked",
+      "read_scope": "实际下载全文，本轮复读印页63–64、75（PDF64–65、76）；未逐页审读整篇论文"
+    }
+  ],
+  "agreement": [
+    {
+      "claim": "开头音集E–A–D–G含四度叠置，不能直接当作常规ii三和弦。独立输出与Leong、Korevaar §34的四度描述相容。",
+      "evidence_ids": [
+        "h-A-0000000-0000079"
+      ],
+      "source_id": "leong-korevaar-2005"
+    },
+    {
+      "claim": "低音巴松与低弦背景、后续圆号线条须分别处理。活动记录与Beavers §§5.2–5.3重视引子音色分层的观察相容，未自动验证听觉融合。",
+      "evidence_ids": [
+        "activity-A-2760"
+      ],
+      "source_id": "beavers-2021"
+    },
+    {
+      "claim": "钢琴长音与快速音型需要分层，不能由单一最高音线概括。候选层与Hammond印页63–64的平衡问题相容；职责与演奏效果仍须读谱和听辨。",
+      "evidence_ids": [
+        "compound-double-bass-0"
+      ],
+      "source_id": "hammond-2012"
+    }
+  ],
+  "disagreement": [],
+  "disagreement_note": "尚无经核验足以反驳上述文献的结论。乐队攻击层D/A与文献跨段主调到达是不同尺度；不能虚构分歧。",
+  "independent_unvalidated": [
+    {
+      "claim": "参考tick90120的按键层为D–F#–A、A3最低；CC64层仍含钢琴滑奏余音且最低A0。因此旧记录仅能限定为乐队攻击层的I6/4候选。这是符号模型的发现，不是录音踏板衰减已被验证。",
+      "evidence_ids": [
+        "h-B-0090120-0090233"
+      ]
+    },
+    {
+      "claim": "低音巴松G2–E2–B1–A1–G1与钢琴D5–B4–F#4–E4–D4有精确的半音轮廓[-3,-5,-2,-2]与起音比例1:3:1:7；移调31半音，入口不重叠。只保留材料转移／回忆候选，不据此命名主题或判严格模仿。",
+      "evidence_ids": [
+        "motif-0030"
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "claim": "原PDF完整节奏、延音线、踏板语义、部分跨谱表归属与八度对应未核清，不能将辅助MIDI全部当作经校对转录。",
+      "evidence_ids": []
+    },
+    {
+      "claim": "未独立确立全曲奏鸣性／三部性模型、完整乐句与终止类型；A/B片段不足以验收C/D、Allegro、第51页音色或后段华彩。",
+      "evidence_ids": [
+        "movement-1"
+      ]
+    },
+    {
+      "claim": "少量五音对应只支持可检查的候选，真实声部身份、严格模仿、主副旋律职责与实际听觉音色需要继续核查。",
+      "evidence_ids": [
+        "motif-0030"
+      ]
+    }
+  ]
+}

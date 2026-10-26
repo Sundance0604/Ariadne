@@ -26,5 +26,10 @@ export function createHermeneutics({onNavigate}){
       select.replaceChildren();body.replaceChildren();$('research-state').textContent='正在读取研究资料…';},
     load(payload){data=payload;for(const essay of data.essays){const option=node('option',essay.title);option.value=essay.id;select.append(option);}
       $('research-state').textContent=data.essays.length?'默认独立阅读 · 翻页和播放不会重置本文':'此曲暂无诠释研究资料，原导聆仍可使用。';
+      if(data.engine_error)$('research-state').textContent+=` · 自动分析未载入：${data.engine_error}`;
+      if(data.score_study)$('research-state').textContent+=' · 技术卡片优先展示逐谱研究；自动候选作辅助';
+      if(data.score_study_error)$('research-state').textContent+=` · 补充研究未载入：${data.score_study_error}`;
+      if(data.musicxml)$('research-state').textContent+=` · MusicXML全谱：${data.musicxml.summary.measures}小节；逐谱研究与符号证据并列`;
+      if(data.musicxml_error)$('research-state').textContent+=` · MusicXML未载入：${data.musicxml_error}`;
       if(data.essays.length)show(data.essays[0].id);},error(message){$('research-state').textContent=`研究未载入：${message}；原播放器不受影响。`;}};
 }

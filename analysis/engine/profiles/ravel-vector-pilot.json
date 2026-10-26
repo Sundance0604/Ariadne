@@ -1,0 +1,1086 @@
+{
+  "schema_version": "1.0.0",
+  "id": "ravel-vector-pilot-ab",
+  "work_id": "ravel-left-hand-concerto",
+  "pdf": {
+    "path": "resource/ravel left hand piano concerto/maurice-ravel-piano-concerto-for-the-left-hand.pdf",
+    "sha256": "67aa60cc89160ea7e475fd7fa45352ec6e0c45f6cd3557421d8caafc18531083"
+  },
+  "midi": {
+    "path": "resource/ravel left hand piano concerto/maurice-ravel-piano-concerto-for-the-left-hand.mid",
+    "sha256": "f9ba8d12d461fa9f869ae4e083d2f47f58f4d87a5ad85fbfc4b84f9d5649a8a3"
+  },
+  "parts": [
+    {
+      "id": "flute",
+      "name": "Flute",
+      "tracks": [
+        0
+      ],
+      "transpose_semitones": 0,
+      "written_key": {
+        "3": 1,
+        "0": 1
+      },
+      "identity_basis": "MIDI track plus supplied PDF staff labels, edition adapter"
+    },
+    {
+      "id": "piccolo",
+      "name": "Piccolo",
+      "tracks": [
+        1
+      ],
+      "transpose_semitones": 12,
+      "written_key": {
+        "3": 1,
+        "0": 1
+      },
+      "identity_basis": "MIDI track plus supplied PDF staff labels, edition adapter"
+    },
+    {
+      "id": "oboe",
+      "name": "Oboe",
+      "tracks": [
+        2
+      ],
+      "transpose_semitones": 0,
+      "written_key": {
+        "3": 1,
+        "0": 1
+      },
+      "identity_basis": "MIDI track plus supplied PDF staff labels, edition adapter"
+    },
+    {
+      "id": "english-horn",
+      "name": "English horn in F",
+      "tracks": [
+        3
+      ],
+      "transpose_semitones": -7,
+      "written_key": {
+        "3": 1,
+        "0": 1,
+        "4": 1
+      },
+      "identity_basis": "MIDI track plus supplied PDF staff labels, edition adapter"
+    },
+    {
+      "id": "clarinet-eb",
+      "name": "Clarinet in Eb",
+      "tracks": [
+        4
+      ],
+      "transpose_semitones": 3,
+      "written_key": {
+        "3": 1,
+        "0": 1,
+        "4": 1,
+        "1": 1,
+        "5": 1
+      },
+      "identity_basis": "MIDI track plus supplied PDF staff labels, edition adapter"
+    },
+    {
+      "id": "clarinet-a",
+      "name": "Clarinet in A",
+      "tracks": [
+        5
+      ],
+      "transpose_semitones": -3,
+      "written_key": {
+        "6": -1
+      },
+      "identity_basis": "MIDI track plus supplied PDF staff labels, edition adapter"
+    },
+    {
+      "id": "bass-clarinet-a",
+      "name": "Bass clarinet in A",
+      "tracks": [
+        6
+      ],
+      "transpose_semitones": -15,
+      "written_key": {
+        "6": -1
+      },
+      "identity_basis": "MIDI track plus supplied PDF staff labels, edition adapter"
+    },
+    {
+      "id": "bassoon",
+      "name": "Bassoon",
+      "tracks": [
+        7
+      ],
+      "transpose_semitones": 0,
+      "written_key": {
+        "3": 1,
+        "0": 1
+      },
+      "identity_basis": "MIDI track plus supplied PDF staff labels, edition adapter"
+    },
+    {
+      "id": "contrabassoon",
+      "name": "Contrabassoon",
+      "tracks": [
+        8
+      ],
+      "transpose_semitones": -12,
+      "written_key": {
+        "3": 1,
+        "0": 1
+      },
+      "identity_basis": "MIDI track plus supplied PDF staff labels, edition adapter"
+    },
+    {
+      "id": "horn",
+      "name": "Horns in F",
+      "tracks": [
+        9,
+        10
+      ],
+      "transpose_semitones": -7,
+      "written_key": {},
+      "identity_basis": "MIDI track plus supplied PDF staff labels, edition adapter"
+    },
+    {
+      "id": "trumpet",
+      "name": "Trumpets in C",
+      "tracks": [
+        11,
+        12
+      ],
+      "transpose_semitones": 0,
+      "written_key": {},
+      "identity_basis": "MIDI track plus supplied PDF staff labels, edition adapter"
+    },
+    {
+      "id": "trombone",
+      "name": "Trombones",
+      "tracks": [
+        13
+      ],
+      "transpose_semitones": 0,
+      "written_key": {
+        "3": 1,
+        "0": 1
+      },
+      "identity_basis": "MIDI track plus supplied PDF staff labels, edition adapter"
+    },
+    {
+      "id": "tuba",
+      "name": "Tuba",
+      "tracks": [
+        14
+      ],
+      "transpose_semitones": 0,
+      "written_key": {
+        "3": 1,
+        "0": 1
+      },
+      "identity_basis": "MIDI track plus supplied PDF staff labels, edition adapter"
+    },
+    {
+      "id": "timpani",
+      "name": "Timpani",
+      "tracks": [
+        15
+      ],
+      "transpose_semitones": 0,
+      "written_key": {},
+      "identity_basis": "MIDI track plus supplied PDF staff labels, edition adapter"
+    },
+    {
+      "id": "triangle",
+      "name": "triangle",
+      "tracks": [
+        16
+      ],
+      "transpose_semitones": 0,
+      "written_key": {},
+      "identity_basis": "MIDI track plus supplied PDF staff labels, edition adapter"
+    },
+    {
+      "id": "tambourine",
+      "name": "tambourine",
+      "tracks": [
+        17
+      ],
+      "transpose_semitones": 0,
+      "written_key": {},
+      "identity_basis": "MIDI track plus supplied PDF staff labels, edition adapter"
+    },
+    {
+      "id": "cymbal",
+      "name": "cymbal",
+      "tracks": [
+        18
+      ],
+      "transpose_semitones": 0,
+      "written_key": {},
+      "identity_basis": "MIDI track plus supplied PDF staff labels, edition adapter"
+    },
+    {
+      "id": "bass-drum",
+      "name": "bass-drum",
+      "tracks": [
+        19
+      ],
+      "transpose_semitones": 0,
+      "written_key": {},
+      "identity_basis": "MIDI track plus supplied PDF staff labels, edition adapter"
+    },
+    {
+      "id": "tam-tam",
+      "name": "tam-tam",
+      "tracks": [
+        20
+      ],
+      "transpose_semitones": 0,
+      "written_key": {},
+      "identity_basis": "MIDI track plus supplied PDF staff labels, edition adapter"
+    },
+    {
+      "id": "harp",
+      "name": "Harp",
+      "tracks": [
+        21,
+        22
+      ],
+      "transpose_semitones": 0,
+      "written_key": {},
+      "identity_basis": "MIDI track plus supplied PDF staff labels, edition adapter"
+    },
+    {
+      "id": "piano",
+      "name": "Piano solo",
+      "tracks": [
+        23,
+        24
+      ],
+      "transpose_semitones": 0,
+      "written_key": {
+        "3": 1,
+        "0": 1
+      },
+      "identity_basis": "MIDI track plus supplied PDF staff labels, edition adapter"
+    },
+    {
+      "id": "violin-1",
+      "name": "Violin I",
+      "tracks": [
+        25,
+        26,
+        27
+      ],
+      "transpose_semitones": 0,
+      "written_key": {
+        "3": 1,
+        "0": 1
+      },
+      "identity_basis": "MIDI track plus supplied PDF staff labels, edition adapter"
+    },
+    {
+      "id": "violin-2",
+      "name": "Violin II",
+      "tracks": [
+        28,
+        29,
+        30
+      ],
+      "transpose_semitones": 0,
+      "written_key": {
+        "3": 1,
+        "0": 1
+      },
+      "identity_basis": "MIDI track plus supplied PDF staff labels, edition adapter"
+    },
+    {
+      "id": "viola",
+      "name": "Viola",
+      "tracks": [
+        31,
+        32
+      ],
+      "transpose_semitones": 0,
+      "written_key": {
+        "3": 1,
+        "0": 1
+      },
+      "identity_basis": "MIDI track plus supplied PDF staff labels, edition adapter"
+    },
+    {
+      "id": "cello",
+      "name": "Cello",
+      "tracks": [
+        33,
+        34,
+        35
+      ],
+      "transpose_semitones": 0,
+      "written_key": {
+        "3": 1,
+        "0": 1
+      },
+      "identity_basis": "MIDI track plus supplied PDF staff labels, edition adapter"
+    },
+    {
+      "id": "double-bass",
+      "name": "Double bass",
+      "tracks": [
+        36,
+        37,
+        38
+      ],
+      "transpose_semitones": -12,
+      "written_key": {
+        "3": 1,
+        "0": 1
+      },
+      "identity_basis": "MIDI track plus supplied PDF staff labels, edition adapter"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "staves": [
+        [
+          "flute",
+          0
+        ],
+        [
+          "piccolo",
+          0
+        ],
+        [
+          "oboe",
+          0
+        ],
+        [
+          "english-horn",
+          0
+        ],
+        [
+          "clarinet-eb",
+          0
+        ],
+        [
+          "clarinet-a",
+          0
+        ],
+        [
+          "bass-clarinet-a",
+          0
+        ],
+        [
+          "bassoon",
+          0
+        ],
+        [
+          "contrabassoon",
+          0
+        ],
+        [
+          "horn",
+          0
+        ],
+        [
+          "horn",
+          0
+        ],
+        [
+          "trumpet",
+          0
+        ],
+        [
+          "trombone",
+          0
+        ],
+        [
+          "tuba",
+          0
+        ],
+        [
+          "timpani",
+          0
+        ],
+        [
+          "harp",
+          0
+        ],
+        [
+          "harp",
+          0
+        ],
+        [
+          "piano",
+          0
+        ],
+        [
+          "piano",
+          0
+        ],
+        [
+          "violin-1",
+          0
+        ],
+        [
+          "violin-2",
+          0
+        ],
+        [
+          "viola",
+          0
+        ],
+        [
+          "cello",
+          0
+        ],
+        [
+          "double-bass",
+          0
+        ],
+        [
+          "double-bass",
+          0
+        ]
+      ]
+    },
+    {
+      "page": 2,
+      "staves": [
+        [
+          "contrabassoon",
+          0
+        ],
+        [
+          "harp",
+          0
+        ],
+        [
+          "harp",
+          0
+        ],
+        [
+          "piano",
+          0
+        ],
+        [
+          "violin-1",
+          0
+        ],
+        [
+          "violin-2",
+          0
+        ],
+        [
+          "viola",
+          0
+        ],
+        [
+          "cello",
+          0
+        ],
+        [
+          "double-bass",
+          0
+        ],
+        [
+          "double-bass",
+          0
+        ],
+        [
+          "contrabassoon",
+          1
+        ],
+        [
+          "horn",
+          1
+        ],
+        [
+          "harp",
+          1
+        ],
+        [
+          "harp",
+          1
+        ],
+        [
+          "piano",
+          1
+        ],
+        [
+          "violin-1",
+          1
+        ],
+        [
+          "violin-2",
+          1
+        ],
+        [
+          "viola",
+          1
+        ],
+        [
+          "cello",
+          1
+        ],
+        [
+          "double-bass",
+          1
+        ],
+        [
+          "double-bass",
+          1
+        ]
+      ]
+    },
+    {
+      "page": 3,
+      "staves": [
+        [
+          "bassoon",
+          0
+        ],
+        [
+          "contrabassoon",
+          0
+        ],
+        [
+          "horn",
+          0
+        ],
+        [
+          "piano",
+          0
+        ],
+        [
+          "violin-1",
+          0
+        ],
+        [
+          "violin-2",
+          0
+        ],
+        [
+          "viola",
+          0
+        ],
+        [
+          "cello",
+          0
+        ],
+        [
+          "double-bass",
+          0
+        ],
+        [
+          "double-bass",
+          0
+        ],
+        [
+          "bass-clarinet-a",
+          1
+        ],
+        [
+          "bassoon",
+          1
+        ],
+        [
+          "contrabassoon",
+          1
+        ],
+        [
+          "horn",
+          1
+        ],
+        [
+          "piano",
+          1
+        ],
+        [
+          "violin-1",
+          1
+        ],
+        [
+          "violin-2",
+          1
+        ],
+        [
+          "viola",
+          1
+        ],
+        [
+          "cello",
+          1
+        ],
+        [
+          "double-bass",
+          1
+        ],
+        [
+          "double-bass",
+          1
+        ]
+      ]
+    },
+    {
+      "page": 10,
+      "staves": [
+        [
+          "flute",
+          0
+        ],
+        [
+          "piccolo",
+          0
+        ],
+        [
+          "oboe",
+          0
+        ],
+        [
+          "english-horn",
+          0
+        ],
+        [
+          "clarinet-eb",
+          0
+        ],
+        [
+          "clarinet-a",
+          0
+        ],
+        [
+          "bass-clarinet-a",
+          0
+        ],
+        [
+          "bassoon",
+          0
+        ],
+        [
+          "contrabassoon",
+          0
+        ],
+        [
+          "horn",
+          0
+        ],
+        [
+          "horn",
+          0
+        ],
+        [
+          "trumpet",
+          0
+        ],
+        [
+          "trombone",
+          0
+        ],
+        [
+          "tuba",
+          0
+        ],
+        [
+          "timpani",
+          0
+        ],
+        [
+          "piano",
+          0
+        ],
+        [
+          "violin-1",
+          0
+        ],
+        [
+          "violin-1",
+          0
+        ],
+        [
+          "violin-2",
+          0
+        ],
+        [
+          "violin-2",
+          0
+        ],
+        [
+          "viola",
+          0
+        ],
+        [
+          "viola",
+          0
+        ],
+        [
+          "cello",
+          0
+        ],
+        [
+          "cello",
+          0
+        ],
+        [
+          "double-bass",
+          0
+        ]
+      ]
+    },
+    {
+      "page": 11,
+      "staves": [
+        [
+          "piano",
+          0
+        ],
+        [
+          "piano",
+          1
+        ],
+        [
+          "piano",
+          2
+        ],
+        [
+          "piano",
+          2
+        ],
+        [
+          "piano",
+          3
+        ],
+        [
+          "piano",
+          3
+        ],
+        [
+          "piano",
+          4
+        ],
+        [
+          "piano",
+          4
+        ],
+        [
+          "piano",
+          5
+        ],
+        [
+          "piano",
+          5
+        ]
+      ]
+    },
+    {
+      "page": 12,
+      "staves": [
+        [
+          "piano",
+          0
+        ],
+        [
+          "piano",
+          0
+        ],
+        [
+          "piano",
+          1
+        ],
+        [
+          "piano",
+          1
+        ],
+        [
+          "piano",
+          2
+        ],
+        [
+          "piano",
+          2
+        ],
+        [
+          "piano",
+          3
+        ],
+        [
+          "piano",
+          3
+        ],
+        [
+          "piano",
+          4
+        ],
+        [
+          "piano",
+          4
+        ]
+      ]
+    },
+    {
+      "page": 13,
+      "staves": [
+        [
+          "flute",
+          0
+        ],
+        [
+          "piccolo",
+          0
+        ],
+        [
+          "oboe",
+          0
+        ],
+        [
+          "english-horn",
+          0
+        ],
+        [
+          "clarinet-eb",
+          0
+        ],
+        [
+          "clarinet-a",
+          0
+        ],
+        [
+          "bass-clarinet-a",
+          0
+        ],
+        [
+          "bassoon",
+          0
+        ],
+        [
+          "contrabassoon",
+          0
+        ],
+        [
+          "horn",
+          0
+        ],
+        [
+          "horn",
+          0
+        ],
+        [
+          "trumpet",
+          0
+        ],
+        [
+          "trombone",
+          0
+        ],
+        [
+          "tuba",
+          0
+        ],
+        [
+          "timpani",
+          0
+        ],
+        [
+          "harp",
+          0
+        ],
+        [
+          "harp",
+          0
+        ],
+        [
+          "piano",
+          0
+        ],
+        [
+          "piano",
+          0
+        ]
+      ]
+    },
+    {
+      "page": 14,
+      "staves": [
+        [
+          "flute",
+          0
+        ],
+        [
+          "piccolo",
+          0
+        ],
+        [
+          "oboe",
+          0
+        ],
+        [
+          "english-horn",
+          0
+        ],
+        [
+          "clarinet-eb",
+          0
+        ],
+        [
+          "clarinet-a",
+          0
+        ],
+        [
+          "bass-clarinet-a",
+          0
+        ],
+        [
+          "bassoon",
+          0
+        ],
+        [
+          "contrabassoon",
+          0
+        ],
+        [
+          "horn",
+          0
+        ],
+        [
+          "horn",
+          0
+        ],
+        [
+          "trumpet",
+          0
+        ],
+        [
+          "trombone",
+          0
+        ],
+        [
+          "tuba",
+          0
+        ],
+        [
+          "timpani",
+          0
+        ],
+        [
+          "harp",
+          0
+        ],
+        [
+          "harp",
+          0
+        ],
+        [
+          "piano",
+          0
+        ],
+        [
+          "piano",
+          0
+        ]
+      ]
+    },
+    {
+      "page": 15,
+      "staves": [
+        [
+          "flute",
+          0
+        ],
+        [
+          "piccolo",
+          0
+        ],
+        [
+          "oboe",
+          0
+        ],
+        [
+          "clarinet-eb",
+          0
+        ],
+        [
+          "clarinet-a",
+          0
+        ],
+        [
+          "bass-clarinet-a",
+          0
+        ],
+        [
+          "bassoon",
+          0
+        ],
+        [
+          "contrabassoon",
+          0
+        ],
+        [
+          "horn",
+          0
+        ],
+        [
+          "horn",
+          0
+        ],
+        [
+          "trumpet",
+          0
+        ],
+        [
+          "timpani",
+          0
+        ],
+        [
+          "piano",
+          0
+        ],
+        [
+          "violin-1",
+          0
+        ],
+        [
+          "violin-2",
+          0
+        ],
+        [
+          "viola",
+          0
+        ],
+        [
+          "cello",
+          0
+        ],
+        [
+          "double-bass",
+          0
+        ]
+      ]
+    }
+  ],
+  "excerpts": [
+    {
+      "id": "A",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "start_tick": 0,
+      "end_tick": 21600
+    },
+    {
+      "id": "B",
+      "pages": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "start_tick": 37440,
+      "end_tick": 93120
+    }
+  ],
+  "scope_note": "Excerpt bounds and MIDI metre positions are candidates until note correspondence is checked; no recording seconds. C/D are gated, not processed."
+}

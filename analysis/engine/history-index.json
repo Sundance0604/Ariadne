@@ -1,0 +1,37 @@
+{
+  "retained_project_snapshots": [
+    "analysis/engine/ravel-pilot/round1-0b80fb2654179afd",
+    "analysis/engine/ravel-pilot/round1-9bf0f07362a89fb9",
+    "analysis/engine/ravel-pilot/round1-a7657439303a57e6"
+  ],
+  "local_intermediate_snapshots": [
+    {
+      "run_path": ".tools/structure-analysis/history/round1-7e521d4648e0f64c",
+      "manifest_sha256": "0a27a89bc8e6c0c92b6b72834dab397ea9aa7756dea2862a826318c6661f7f2c"
+    },
+    {
+      "run_path": ".tools/structure-analysis/history/round1-98db7464206a9b5e",
+      "manifest_sha256": "5456313864599120b8a4305d67f2dbd8a6d3b535f0c0ca823eb51fda774be8d8"
+    },
+    {
+      "run_path": ".tools/structure-analysis/history/round1-aeece29bc2653317",
+      "manifest_sha256": "67aa5522fc1915c8e1fc2cdf4af0431fda318fc174e1861e0a63ca90bc5e9985"
+    },
+    {
+      "run_path": ".tools/structure-analysis/history/round1-ba4bb626b772cb0e",
+      "manifest_sha256": "14f3cf8b5f1b377b94c9a787c065fd0077beb3cc333532cb41b76255150e649b"
+    },
+    {
+      "run_path": ".tools/structure-analysis/history/round1-c3c0a120ea4e5fda",
+      "manifest_sha256": "5819c16bc18cc26a2cce4dd05024b993f4cb3ed131511dd786169631d3898579"
+    },
+    {
+      "run_path": ".tools/structure-analysis/history/round1-c6a64cc8a5515cf5",
+      "manifest_sha256": "02d7a9841a099f4160449b5df92f7317507d117759f8114bf7f0bf8ef9a20eae"
+    },
+    {
+      "run_path": ".tools/structure-analysis/history/round1-f2a115d9b462d20a",
+      "manifest_sha256": "f6b9b5aa2ffdb263953a667307cedc77757821abb89445b425f2930a994f432e"
+    }
+  ]
+}

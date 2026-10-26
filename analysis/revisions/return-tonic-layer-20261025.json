@@ -1,0 +1,217 @@
+{
+  "revision": "2026-10-25",
+  "previous_event": {
+    "id": "return-tonic-second-inversion",
+    "dimension": "harmony",
+    "claim_level": "theoretical_analysis",
+    "short_label": "D/A：I6/4，主和弦第二转位",
+    "detail_markdown": "印号63末弱起：木管、弦乐及圆号合成D–F♯–A，最低管弦乐音为圆号A3。钢琴已休止，低弦尚未发音。故此刻为D/A，即D大调I6/4；其位置不支持自动称作终止四六和弦。",
+    "score_spans": [
+      {
+        "pdf_page_start": 15,
+        "pdf_page_end": 15,
+        "precision": "score_segment",
+        "score_start": [
+          15,
+          0,
+          320
+        ],
+        "score_end": [
+          15,
+          0,
+          349.4
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ravel-target-score",
+        "locator": "当前PDF物理15页相关谱表",
+        "claim_attribution": "score"
+      }
+    ],
+    "verification": {
+      "score": "key_pages_checked",
+      "literature": "not_applicable",
+      "location": "score_segment",
+      "timing": "candidate_alignment"
+    },
+    "related_essay_ids": [
+      "ravel-harmonic-ledger",
+      "ravel-tonal-emergence"
+    ],
+    "harmonic_analysis": {
+      "system": "functional_tonal",
+      "key_context": "D大调",
+      "root": "D",
+      "bass": "A3",
+      "roman_numeral": "I6/4",
+      "inversion": "second",
+      "pitch_collection": [
+        "D",
+        "F#",
+        "A"
+      ],
+      "chord_tones": [
+        "D",
+        "F#",
+        "A"
+      ],
+      "omitted_tones": [],
+      "pitch_basis": "concert",
+      "temporal_scope": "当前重排谱印号63末乐队弱起至下一小节线前",
+      "voices": [
+        {
+          "instrument": "圆号组",
+          "pitches": [
+            "A3",
+            "D4",
+            "F#4",
+            "A4"
+          ],
+          "role": "实际最低音与和声填充"
+        },
+        {
+          "instrument": "长笛",
+          "pitches": [
+            "D5",
+            "F#5"
+          ],
+          "role": "上层旋律与和声"
+        },
+        {
+          "instrument": "A调单簧管",
+          "pitches": [
+            "A4",
+            "D5"
+          ],
+          "role": "和声及音区加倍"
+        },
+        {
+          "instrument": "第一小提琴",
+          "pitches": [
+            "A4",
+            "D5",
+            "F#5"
+          ],
+          "role": "上层和弦"
+        },
+        {
+          "instrument": "第二小提琴",
+          "pitches": [
+            "A3",
+            "D4",
+            "F#4"
+          ],
+          "role": "较低和弦排列"
+        },
+        {
+          "instrument": "中提琴",
+          "pitches": [
+            "A3",
+            "A4"
+          ],
+          "role": "五音八度加倍"
+        }
+      ],
+      "voice_leading": "上层主和弦先进入，深低音D随后才到达。",
+      "nonchord_tones": "当前短窗口无须把D或F♯解释为V和弦上的挂留；后续音响另列。"
+    }
+  },
+  "previous_essay_excerpt": "## 第15页：合看乐队之后，转位才显现\n\n重排谱印号63末的乐队弱起，上方声部给出D、F♯、A；最低正在发声的管弦乐音是圆号A3。此刻钢琴已经休止，低弦尚未进入。以下是这一短时刻的实音分工，八度加倍省略或另注：\n\n| 声部 | 实音与职责 |\n|---|---|\n| 长笛 | D5、F♯5，旋律与和弦上层 |\n| 短笛、双簧管、降E调单簧管 | F♯的音区加倍；移调后归并，不能把记谱音直接相加 |\n| A调单簧管 | A4、D5，补齐五音与根音 |\n| 圆号 | A3、D4、F♯4、A4，A3构成实际最低音 |\n| 第一、第二小提琴 | 分别以较高、较低的D大三和弦排列加强和声 |\n| 中提琴 | A的八度加倍 |\n\n因此和弦是D/A，在D大调中写作I6/4，主三和弦第二转位。这里的“6/4”说明最低音上方的音程构造，不自动意味着“终止四六和弦”。它的具体功能是主调到达的上层先行呈示，而非典型的I6/4–V终止装饰。\n\n重排谱印号64开头，上方三和弦移至E–G♯–B，圆号A仍保留，先形成E/A的复合音响；随后低弦、低音木管及定音鼓的深低音D到达，纵向集合成为D–E–G♯–A–B。把上方E大三和弦单独看成V/V，会漏掉持续A和迟到的D，也会预设尚未证明的向A解决。这里保留“平行三和弦上层＋持续音／延后低音”解释。若取E为根音，可以讨论带附加A的E7/D；但这只是另一种归约，不能无条件宣布是规范V4/2/V。\n\n这正说明功能、和弦形态、实际低音和织体层次必须分别记录。文献把这个重入过程概括为主调确立，并不意味着其间每个垂直切片都是原位I。\n\n",
+  "reason": "辅助MIDI的CC64模型在管弦乐弱起保留钢琴滑奏余音，D/A只能直接描述乐队攻击层。踏板模型不能证明录音实际余响。",
+  "independent_evidence_run": "analysis/engine/ravel-pilot/round1-0b80fb2654179afd",
+  "reference_tick": 90120,
+  "previous_related_event": {
+    "id": "return-layered-harmony",
+    "dimension": "harmony",
+    "claim_level": "theoretical_analysis",
+    "short_label": "E/A与迟到D：分层和声",
+    "detail_markdown": "印号64起，上方为E–G♯–B，圆号保留A；随后深低音D进入。先有{A,B,E,G♯}，再有{D,E,G♯,A,B}。上层三和弦平移、A持续与D低音到达应分别记录，不能仅凭E大三和弦就宣布转到A调。",
+    "score_spans": [
+      {
+        "pdf_page_start": 15,
+        "pdf_page_end": 15,
+        "precision": "score_segment",
+        "score_start": [
+          15,
+          0,
+          349.4
+        ],
+        "score_end": [
+          15,
+          0,
+          581.4
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "ravel-target-score",
+        "locator": "当前PDF物理15页相关谱表",
+        "claim_attribution": "score"
+      }
+    ],
+    "verification": {
+      "score": "key_pages_checked",
+      "literature": "not_applicable",
+      "location": "score_segment",
+      "timing": "candidate_alignment"
+    },
+    "related_essay_ids": [
+      "ravel-harmonic-ledger",
+      "ravel-tonal-emergence"
+    ],
+    "alternatives": [
+      "若取E为根音，D到达后可描述为带附加A的E7/D；规范V4/2/V的功能仍需向A解决的证据。"
+    ],
+    "harmonic_analysis": {
+      "system": "layered_pedal",
+      "key_context": "D主调到达过程中的上层平移",
+      "root": null,
+      "bass": "A3 → D1",
+      "roman_numeral": null,
+      "inversion": "undetermined",
+      "pitch_collection": [
+        "A",
+        "B",
+        "D",
+        "E",
+        "G#"
+      ],
+      "chord_tones": [],
+      "omitted_tones": [],
+      "pitch_basis": "concert",
+      "temporal_scope": "先按印号64上层起音取样，再记录深低音D加入；五音集合非从起点同时存在",
+      "voices": [
+        {
+          "instrument": "上层木管／弦乐",
+          "pitches": [
+            "E",
+            "G#",
+            "B"
+          ],
+          "role": "E大三和弦层"
+        },
+        {
+          "instrument": "圆号／中提琴",
+          "pitches": [
+            "A3",
+            "A4"
+          ],
+          "role": "保留音层"
+        },
+        {
+          "instrument": "低弦／低音木管",
+          "pitches": [
+            "A",
+            "D"
+          ],
+          "role": "延后低音动作；D到达后改变实际最低音"
+        }
+      ],
+      "voice_leading": "D/F♯/A上层转为E/G♯/B，A保留，低层另行A→D。",
+      "nonchord_tones": "G♯是上层E大三和弦组成音，不能无证据一律命名为D调的倚音。"
+    }
+  }
+}

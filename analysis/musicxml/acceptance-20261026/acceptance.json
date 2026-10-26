@@ -1,0 +1,116 @@
+{
+  "release_status": "agent_acceptance_passed_with_explicit_alternatives_and_estimated_projection",
+  "base_run": "analysis/musicxml/ravel-20261026-v5",
+  "base_manifest_sha256": "e4618399060a21f11eb2a1c7b3466ebd5f8d25b72565591d11dad367e3eafcdb",
+  "interpretation_run": "analysis/musicxml/interpretation-20261026-v3",
+  "interpretation_manifest_sha256": "28db7ad23ea19cbd090bbd7ac738e7d625c859ab4cd82aaeb546203975bd3dc8",
+  "full_data_checks": {
+    "harmonic_windows_with_traceable_readings": 6660,
+    "activation_frames_checked": 6801,
+    "sections_with_evidence": 8,
+    "all_source_inputs_preserved": {
+      "alignment.json": true,
+      "measure-map.json": true,
+      "metadata/recording.json": true,
+      "analysis/hermeneutic-essays.json": true,
+      "analysis/score-studies/current.json": true,
+      "analysis/engine/current.json": true
+    }
+  },
+  "musical_review_scope": "Full-score rule/evidence audit plus selected direct score checks; not exhaustive expert note-by-note adjudication.",
+  "browser_artifacts": {
+    "output/research/ravel-acceptance/live-m64.jpg": {
+      "sha256": "ae057b25929cb78d089f957c18e0e7f67a372a2a900a0d0bdf8480bc125fe0d2",
+      "bytes": 35115
+    },
+    "output/research/ravel-acceptance/essay-scroll.jpg": {
+      "sha256": "a911ce195eeacd9d2b49a2dd37e38d10f0deb0d2c7204d1f86c141d664d4d4a9",
+      "bytes": 33063
+    },
+    "output/research/ravel-acceptance/browser-acceptance.json": {
+      "sha256": "2f2c2aaa716e150bfb6ccba015aff5d6463a70238d9b61ce072b5fab68fa229f",
+      "bytes": 1580
+    }
+  },
+  "human_signoffs": 0,
+  "expert_reviews": 0,
+  "browser_record": {
+    "date": "2026-10-26",
+    "browser": "ChatGPT in-app browser",
+    "url": "http://127.0.0.1:8766/?track=ravel-left-hand",
+    "viewport": "default narrow in-app pane",
+    "actual_media": {
+      "start_seconds": 0,
+      "observed_seconds": 41.15287,
+      "paused_during_observation": false,
+      "readyState": 4,
+      "error": null,
+      "interpretation": "browser media advanced; no claim of human auditory judgement"
+    },
+    "checks": {
+      "module_delivery": true,
+      "m1_multiple_active_parts": 3,
+      "m64_parallel_readings": 2,
+      "m64_active_parts": 11,
+      "m34_automatic_pdf_page": 11,
+      "xml_selector_measures": 535,
+      "independent_pdf_navigation": {
+        "audio_before": 155.288219,
+        "audio_after": 155.288219,
+        "pdf_page": 95
+      },
+      "article_scroll": {
+        "before": {
+          "title": "和声、低音与转位：V7、I6/4与C/E",
+          "top": 167.3333282470703
+        },
+        "after": {
+          "title": "和声、低音与转位：V7、I6/4与C/E",
+          "top": 167.3333282470703
+        }
+      },
+      "old_tracks": [
+        "lark-ascending",
+        "mahler-4"
+      ],
+      "stale_XML_cleared_on_old_tracks": true,
+      "rate_0_6_playback_tested_and_restored_to_1": true,
+      "final_pause": true,
+      "console_errors": []
+    },
+    "screenshots": [
+      "output/research/ravel-acceptance/live-m64.jpg",
+      "output/research/ravel-acceptance/essay-scroll.jpg"
+    ],
+    "limitations": [
+      "Playback projection remains an estimate.",
+      "No full-score expert or human signature is claimed.",
+      "The final uncovered 0.4 XML quarters are not extrapolated."
+    ]
+  },
+  "tests": {
+    "python": {
+      "run": 150,
+      "passed": 148,
+      "skipped": 2,
+      "log": "tmp/musicxml/acceptance-python.log"
+    },
+    "frontend": {
+      "run": 37,
+      "passed": 37,
+      "log": "tmp/musicxml/acceptance-frontend.log"
+    },
+    "module_and_HTTP": "tmp/musicxml/acceptance-module-integration.log"
+  },
+  "revised_articles": {
+    "analysis/essays/ravel-harmonic-ledger.md": "cdf0bab6e72723f7c9aa1fe75decd5d231c30338e8b451b97f5060bade2993db",
+    "analysis/essays/ravel-form-functions.md": "67353a00e7168620c9942e998a421682c91e8f18a100e3daa470a9420d2a524b",
+    "analysis/essays/ravel-texture-counterpoint.md": "d98b2afc7a219c2e59c7b40ba4781ea4a596cbe6a79a066a9597c0a11128ecf8"
+  },
+  "limitations": [
+    "Recording projection remains a DTW-based estimate.",
+    "The final uncovered 0.4 XML quarters are not extrapolated.",
+    "Orchestral layer hypotheses and local tonal interpretations may coexist.",
+    "An agent release acceptance is not a human/expert signature."
+  ]
+}

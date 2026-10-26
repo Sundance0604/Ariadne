@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-26",
+  "browser": "ChatGPT in-app browser",
+  "url": "http://127.0.0.1:8766/?track=ravel-left-hand",
+  "viewport": "default narrow in-app pane",
+  "actual_media": {
+    "start_seconds": 0,
+    "observed_seconds": 41.15287,
+    "paused_during_observation": false,
+    "readyState": 4,
+    "error": null,
+    "interpretation": "browser media advanced; no claim of human auditory judgement"
+  },
+  "checks": {
+    "module_delivery": true,
+    "m1_multiple_active_parts": 3,
+    "m64_parallel_readings": 2,
+    "m64_active_parts": 11,
+    "m34_automatic_pdf_page": 11,
+    "xml_selector_measures": 535,
+    "independent_pdf_navigation": {
+      "audio_before": 155.288219,
+      "audio_after": 155.288219,
+      "pdf_page": 95
+    },
+    "article_scroll": {
+      "before": {
+        "title": "和声、低音与转位：V7、I6/4与C/E",
+        "top": 167.3333282470703
+      },
+      "after": {
+        "title": "和声、低音与转位：V7、I6/4与C/E",
+        "top": 167.3333282470703
+      }
+    },
+    "old_tracks": [
+      "lark-ascending",
+      "mahler-4"
+    ],
+    "stale_XML_cleared_on_old_tracks": true,
+    "rate_0_6_playback_tested_and_restored_to_1": true,
+    "final_pause": true,
+    "console_errors": []
+  },
+  "screenshots": [
+    "output/research/ravel-acceptance/live-m64.jpg",
+    "output/research/ravel-acceptance/essay-scroll.jpg"
+  ],
+  "limitations": [
+    "Playback projection remains an estimate.",
+    "No full-score expert or human signature is claimed.",
+    "The final uncovered 0.4 XML quarters are not extrapolated."
+  ]
+}

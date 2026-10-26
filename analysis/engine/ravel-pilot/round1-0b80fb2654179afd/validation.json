@@ -1,0 +1,74 @@
+{
+  "algorithm_version": "0.1.0",
+  "dimensions": {
+    "harmony": {
+      "events": 1326,
+      "reference_interval_candidates": 1326,
+      "precise_verified_score_events": 0,
+      "page_only_events": 0,
+      "with_raw_note_evidence": 1326,
+      "human_checked": 0,
+      "expert_checked": 0,
+      "candidate_or_undetermined": 1326,
+      "covered_excerpt_ids": [
+        "A",
+        "B"
+      ]
+    },
+    "counterpoint": {
+      "events": 51,
+      "reference_interval_candidates": 51,
+      "precise_verified_score_events": 0,
+      "page_only_events": 0,
+      "with_raw_note_evidence": 51,
+      "human_checked": 0,
+      "expert_checked": 0,
+      "candidate_or_undetermined": 51,
+      "covered_excerpt_ids": [
+        "A",
+        "B"
+      ]
+    },
+    "orchestration": {
+      "events": 495,
+      "reference_interval_candidates": 495,
+      "precise_verified_score_events": 0,
+      "page_only_events": 0,
+      "with_raw_note_evidence": 495,
+      "human_checked": 0,
+      "expert_checked": 0,
+      "candidate_or_undetermined": 495,
+      "covered_excerpt_ids": [
+        "A",
+        "B"
+      ]
+    },
+    "form": {
+      "events": 24,
+      "reference_interval_candidates": 24,
+      "precise_verified_score_events": 0,
+      "page_only_events": 0,
+      "with_raw_note_evidence": 24,
+      "human_checked": 0,
+      "expert_checked": 0,
+      "candidate_or_undetermined": 24,
+      "covered_excerpt_ids": [
+        "A",
+        "B"
+      ]
+    }
+  },
+  "pdf_noteheads": 1810,
+  "midi_notes": 2021,
+  "unlocated_midi_notes": 406,
+  "octave_disputed_notes": 59,
+  "unmatched_pdf_heads": 308,
+  "software_validation": "referential integrity checked separately; no musicological certification",
+  "human_review_count": 0,
+  "expert_review_count": 0,
+  "expansion_gate": {
+    "C_D_enabled": false,
+    "reason": "A/B contain pitch/rhythm/voice uncertainties; require recorded content review before expansion."
+  },
+  "prior_exposure_note": "Earlier discussion already used literature. This round is input-independent and frozen before comparison, not historically blind."
+}

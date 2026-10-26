@@ -11,7 +11,7 @@ from review_library import page_count
 DIMENSIONS = {'harmony', 'counterpoint', 'form', 'orchestration', 'motif'}
 HARMONIC_SYSTEMS = {'functional_tonal', 'modal_pentatonic', 'quartal', 'layered_pedal'}
 CLAIMS = {'score_observation', 'theoretical_analysis', 'hermeneutic_interpretation'}
-PRECISIONS = {'page_range', 'score_segment', 'score_segment_candidate', 'unlocated'}
+PRECISIONS = {'page_range', 'score_segment', 'score_segment_candidate', 'reference_interval_candidate', 'unlocated'}
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -96,6 +96,12 @@ def spans_for(item, pages, regions):
         require(isinstance(ids, list) and all(isinstance(i, str) and i in regions for i in ids),
                 '研究条目引用未知谱面区域')
         require(all(first <= regions[i]['page_number'] <= last for i in ids), '谱面区域与页码不匹配')
+        if precision == 'reference_interval_candidate':
+            start,end=span.get('reference_start_tick'),span.get('reference_end_tick')
+            require(all(isinstance(v,(int,float)) and not isinstance(v,bool) for v in [start,end])
+                    and 0<=start<end, '参考音符窗口无效')
+            require(isinstance(span.get('reference_sha256'),str) and
+                    re.fullmatch(r'[a-f0-9]{64}',span['reference_sha256']), '参考音符窗口缺少源指纹')
         if precision == 'score_segment_candidate':
             require(ids, '候选区域定位必须引用实际区域')
         if precision == 'score_segment':
@@ -137,6 +143,23 @@ def load_research(root=ROOT, data_root=None):
             require(all(urlparse(url).scheme in {'http', 'https'} and urlparse(url).netloc
                         for url in source.get('urls', [])), '研究来源链接无效')
             sources[source['source_id']] = source
+    # Optional precomputed engine: playback does not import PDF or MIDI libraries.
+    from backend.structure_analysis.store import load_bundle
+    engine=None;engine_error=None
+    try:
+        engine = load_bundle(root,directory,mapping)
+        if engine:
+            require(engine['manifest']['work_id']==metadata['work']['work_id'], '分析引擎作品不匹配')
+            symbolic=read(directory/'alignment.json')['symbolic_reference']
+            require(engine['manifest']['sources']['midi']['sha256']==symbolic['sha256'], '分析引擎参考MIDI与播放时间轴不匹配')
+    except (OSError,ValueError,KeyError,TypeError) as error:
+        # Reject the invalid generated run while retaining independent essays
+        # and previously curated research. Never relax fingerprint validation.
+        engine=None;engine_error=str(error)
+    if engine:
+        sources['engine-methods-v1']={'source_id':'engine-methods-v1','title':'Ariadne 独立结构分析引擎：规则与证据',
+            'kind':'project_method','reading_status':'not_applicable','urls':[],
+            'reading_note':'原始PDF观测、辅助MIDI时值与候选对应分别保存；算法结果不能自行升级成人工核查。'}
     regions = {r.get('region_id', r.get('measure_id')): r for key in ['measures', 'score_regions', 'bar_regions']
                for r in mapping.get(key, [])}
     edition = None
@@ -157,6 +180,40 @@ def load_research(root=ROOT, data_root=None):
         documents.append(document)
     result = {**empty, 'available': True, 'work_id': metadata['work']['work_id'], 'edition': edition,
               'sources': list(sources.values())}
+    # Score studies are independent of the automatic candidate engine and its
+    # unmatched-note count. A damaged study must not hide existing essays.
+    from backend.score_studies import load_studies
+    try:
+        study=load_studies(root,directory,mapping)
+        if study:
+            require(study['document']['work_id']==metadata['work']['work_id'],'谱面研究作品不匹配')
+            documents[0]={**documents[0],'events':documents[0].get('events',[])+study['events']}
+            result['score_study']={'path':study['path'],'policy':study['document']['research_policy'],
+                'window_ids':[w['id'] for w in study['document']['windows']],
+                'form':study['document']['form']}
+    except (OSError,ValueError,KeyError,TypeError) as error:result['score_study_error']=str(error)
+    # MusicXML is the primary full-score symbolic source. The optional older
+    # MIDI/PDF candidate engine is not a prerequisite for this loader.
+    from backend.musicxml_analysis.store import load_bundle as load_xml, research_events as xml_events
+    try:
+        xml=load_xml(root,directory,mapping)
+        if xml:
+            require(xml['manifest']['work_id']==metadata['work']['work_id'],'MusicXML作品不匹配')
+            sources['ravel-musicxml-score']={'source_id':'ravel-musicxml-score','title':'用户提供的拉威尔完整管弦乐MusicXML',
+                'kind':'score','reading_status':'key_pages_checked','urls':[],
+                'reading_note':'music21全谱解析；关键谱例与PDF布局核查，逐音人工签核待完成。隐藏记谱事件隔离保留。',
+                **xml['manifest']['source']}
+            result['sources']=list(sources.values())
+            documents[0]={**documents[0],'events':documents[0].get('events',[])+xml_events(xml)}
+            result['musicxml']={'summary':xml['tables']['summary'],'source':xml['manifest']['source'],
+                'measures':xml['tables']['measures']['measures'],'review_status':xml['manifest']['review_status']}
+    except (OSError,ValueError,KeyError,TypeError) as error:result['musicxml_error']=str(error)
+    if engine_error:result['engine_error']=engine_error
+    if engine:
+        documents[0] = {**documents[0],'events':documents[0].get('events',[])+engine['events']}
+        result['engine']={'run_id':engine['manifest']['run_id'],'summary':engine['summary'],
+                          'reference_sha256':engine['manifest']['sources']['midi']['sha256']}
+        result['reference_clock']=engine['reference_clock']
     for key, document in zip(['events', 'essays'], documents):
         items = document.get(key, [])
         require(isinstance(items, list), '研究条目必须为数组')
@@ -178,7 +235,7 @@ def load_research(root=ROOT, data_root=None):
             require(all(isinstance(verification.get(k), str) and verification[k] for k in
                         ['score', 'literature', 'location', 'timing']), '缺少独立核查状态')
             allowed = {
-                'score': {'verified','pending','disputed','not_applicable','key_pages_checked'},
+                'score': {'verified','pending','disputed','not_applicable','key_pages_checked','agent_score_checked'},
                 'literature': {'verified','pending','disputed','not_applicable','relevant_sections_checked',
                                'full_text_checked','abstract_checked','not_read'},
                 'location': {'verified','pending','disputed','not_applicable',*PRECISIONS},

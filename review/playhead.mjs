@@ -48,5 +48,5 @@ export function playheadPosition(timeMap, audioSeconds, box, region) {
       || !Number.isFinite(region.end) || region.end <= region.start) return null;
   const fraction = Math.max(0, Math.min(1, (referenceTime - region.start) / (region.end - region.start)));
   const [left, , width] = box.rect_pt;
-  return { fraction, leftPercent: (left + width * fraction) / box.page_width_pt * 100 };
+  return { fraction, leftPercent: (left + width * fraction) / box.page_width_pt * 100, referenceSeconds:referenceTime };
 }

@@ -1,0 +1,17 @@
+{
+  "audit_code_sha256": "4381ea12c1e430d5ce9a238b064b06b8f6a4fbd559fd0f7f197e5e0cea84b0b4",
+  "files": {
+    "musicological-witnesses.json": {
+      "sha256": "60aedb2b26a44a6abc9bc27ad25db2f42c186fd0438544cd798be5b8545b9778",
+      "bytes": 1029
+    },
+    "section-evidence.json": {
+      "sha256": "bb8e333b1b3aff3ae6d49812856ed7baba184e57a15691fc3bc4a4f2b8d9dd2e",
+      "bytes": 187202
+    },
+    "acceptance.json": {
+      "sha256": "deea7c19623a0eb10bad6792433f273a0b61bd88eae75797979f7ec7eba4a63f",
+      "bytes": 4318
+    }
+  }
+}

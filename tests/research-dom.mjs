@@ -10,7 +10,7 @@ export class Element {
   setAttribute(key,value){this.attributes[key]=value;}
 }
 export function makeDOM(){
-  const ids=['structural-hud','hud-position','hud-detail','essay-select','essay-body','essay-follow','research-state'];
+  const ids=['structural-hud','hud-position','hud-detail','hud-auto-candidates','essay-select','essay-body','essay-follow','research-state'];
   const nodes=new Map(ids.map(id=>[id,new Element()]));
   globalThis.document={getElementById:id=>nodes.get(id),createElement:tag=>new Element(tag)};
   return id=>nodes.get(id);

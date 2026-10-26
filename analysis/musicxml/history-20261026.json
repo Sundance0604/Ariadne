@@ -1,0 +1,223 @@
+{
+  "records": [
+    {
+      "original_path": "analysis/musicxml/ravel-20261026-v1",
+      "archive_path": ".tools/musicxml-history/ravel-20261026-v1",
+      "manifest_sha256": null,
+      "files": [
+        {
+          "name": "intake-rejected.json",
+          "sha256": "65741089943415047751bb62251b12857d4ae7cc1be11aa943aa84de97b28075",
+          "bytes": 8232095
+        }
+      ],
+      "status": "superseded_intake_or_development_build_not_active"
+    },
+    {
+      "original_path": "analysis/musicxml/ravel-20261026-v2",
+      "archive_path": ".tools/musicxml-history/ravel-20261026-v2",
+      "manifest_sha256": "658f6036f090f5ddb10c8cc07fc91151f587632cb15e0f4ea8923d11ce399c51",
+      "files": [
+        {
+          "name": "counterpoint.json",
+          "sha256": "8fcbd9b1e0bd9ace02fc91bb36303be5c046a31a1f3bd10945d591672752f1c4",
+          "bytes": 27481526
+        },
+        {
+          "name": "events.json",
+          "sha256": "831821a77088ce9a837697616b87955b35b770df8fdc79dc206d845756defc4f",
+          "bytes": 47265415
+        },
+        {
+          "name": "form.json",
+          "sha256": "6a7a963bcc8738a75bd6ff43686519c71b3ea277d4991c0618de62f222482e71",
+          "bytes": 1505796
+        },
+        {
+          "name": "harmony.json",
+          "sha256": "4e674080df511045d5fbc0da1d12c8b98359d63be71db759cea54cdf44fc4a6b",
+          "bytes": 13221866
+        },
+        {
+          "name": "manifest.json",
+          "sha256": "658f6036f090f5ddb10c8cc07fc91151f587632cb15e0f4ea8923d11ce399c51",
+          "bytes": 3070
+        },
+        {
+          "name": "measures.json",
+          "sha256": "bda2a421bb9f8237a4bf0015c1a6842b3a02fe8154acfebf9a6c68fb76eea0d6",
+          "bytes": 102763
+        },
+        {
+          "name": "notation.json",
+          "sha256": "25eee7f7f0c866ec74835ab8e25c27aac13b63bc230dd130a2bdbbea2aff9546",
+          "bytes": 1813159
+        },
+        {
+          "name": "orchestration.json",
+          "sha256": "3a1fcc21ff52caece5424aa18f8b00dff67e76e63ed1ebc32f92ea2a54937272",
+          "bytes": 1949813
+        },
+        {
+          "name": "parse-audit.json",
+          "sha256": "298dc200a1dfd9e5a684a2f5ee926a55205804b4474b0110bbed561319c7b852",
+          "bytes": 805940
+        },
+        {
+          "name": "parts.json",
+          "sha256": "1dc9636b84ef0c212f65acba19fd336d14ff395782752a05424c8653c75b2207",
+          "bytes": 16099
+        },
+        {
+          "name": "pdf-map.json",
+          "sha256": "1f55b13a294c21de5151c2fc9afcb03e3da3b53c2e21daf092d165b6755a71e2",
+          "bytes": 7430562
+        },
+        {
+          "name": "summary.json",
+          "sha256": "d641cdbbd8bba50e9cf10102219e0e6a6be4bc22f0b1a4f9090c421e6620b289",
+          "bytes": 593
+        }
+      ],
+      "status": "superseded_intake_or_development_build_not_active"
+    },
+    {
+      "original_path": "analysis/musicxml/ravel-20261026-v3",
+      "archive_path": ".tools/musicxml-history/ravel-20261026-v3",
+      "manifest_sha256": "5be4f05f06d7f8a2a4a51df54b48cac7be866b1e864fa2677b629ef5985ab34f",
+      "files": [
+        {
+          "name": "counterpoint.json",
+          "sha256": "1d5e75b88260700360bb2f8e17dadf7a2af9e94f036b420681a6664066f517e5",
+          "bytes": 27481526
+        },
+        {
+          "name": "events.json",
+          "sha256": "831821a77088ce9a837697616b87955b35b770df8fdc79dc206d845756defc4f",
+          "bytes": 47265415
+        },
+        {
+          "name": "form.json",
+          "sha256": "6a7a963bcc8738a75bd6ff43686519c71b3ea277d4991c0618de62f222482e71",
+          "bytes": 1505796
+        },
+        {
+          "name": "harmony.json",
+          "sha256": "4e674080df511045d5fbc0da1d12c8b98359d63be71db759cea54cdf44fc4a6b",
+          "bytes": 13221866
+        },
+        {
+          "name": "manifest.json",
+          "sha256": "5be4f05f06d7f8a2a4a51df54b48cac7be866b1e864fa2677b629ef5985ab34f",
+          "bytes": 3712
+        },
+        {
+          "name": "measures.json",
+          "sha256": "bda2a421bb9f8237a4bf0015c1a6842b3a02fe8154acfebf9a6c68fb76eea0d6",
+          "bytes": 102763
+        },
+        {
+          "name": "notation.json",
+          "sha256": "25eee7f7f0c866ec74835ab8e25c27aac13b63bc230dd130a2bdbbea2aff9546",
+          "bytes": 1813159
+        },
+        {
+          "name": "orchestration.json",
+          "sha256": "3a1fcc21ff52caece5424aa18f8b00dff67e76e63ed1ebc32f92ea2a54937272",
+          "bytes": 1949813
+        },
+        {
+          "name": "parse-audit.json",
+          "sha256": "298dc200a1dfd9e5a684a2f5ee926a55205804b4474b0110bbed561319c7b852",
+          "bytes": 805940
+        },
+        {
+          "name": "parts.json",
+          "sha256": "1dc9636b84ef0c212f65acba19fd336d14ff395782752a05424c8653c75b2207",
+          "bytes": 16099
+        },
+        {
+          "name": "pdf-map.json",
+          "sha256": "1f55b13a294c21de5151c2fc9afcb03e3da3b53c2e21daf092d165b6755a71e2",
+          "bytes": 7430562
+        },
+        {
+          "name": "summary.json",
+          "sha256": "d641cdbbd8bba50e9cf10102219e0e6a6be4bc22f0b1a4f9090c421e6620b289",
+          "bytes": 593
+        }
+      ],
+      "status": "superseded_intake_or_development_build_not_active"
+    },
+    {
+      "original_path": "analysis/musicxml/ravel-20261026-v4",
+      "archive_path": ".tools/musicxml-history/ravel-20261026-v4",
+      "manifest_sha256": "9b63df360c756886ba1e9502fa31da0206c49dbef3871640c1ed6223415d3967",
+      "files": [
+        {
+          "name": "counterpoint.json",
+          "sha256": "1d5e75b88260700360bb2f8e17dadf7a2af9e94f036b420681a6664066f517e5",
+          "bytes": 27481526
+        },
+        {
+          "name": "events.json",
+          "sha256": "d6106eba327fa64ac10bb33996159b85b1fd5f9f0459ec32ee659a7b88e7eafb",
+          "bytes": 47267058
+        },
+        {
+          "name": "form.json",
+          "sha256": "6a7a963bcc8738a75bd6ff43686519c71b3ea277d4991c0618de62f222482e71",
+          "bytes": 1505796
+        },
+        {
+          "name": "harmony.json",
+          "sha256": "4e674080df511045d5fbc0da1d12c8b98359d63be71db759cea54cdf44fc4a6b",
+          "bytes": 13221866
+        },
+        {
+          "name": "manifest.json",
+          "sha256": "9b63df360c756886ba1e9502fa31da0206c49dbef3871640c1ed6223415d3967",
+          "bytes": 3712
+        },
+        {
+          "name": "measures.json",
+          "sha256": "bda2a421bb9f8237a4bf0015c1a6842b3a02fe8154acfebf9a6c68fb76eea0d6",
+          "bytes": 102763
+        },
+        {
+          "name": "notation.json",
+          "sha256": "25eee7f7f0c866ec74835ab8e25c27aac13b63bc230dd130a2bdbbea2aff9546",
+          "bytes": 1813159
+        },
+        {
+          "name": "orchestration.json",
+          "sha256": "3a1fcc21ff52caece5424aa18f8b00dff67e76e63ed1ebc32f92ea2a54937272",
+          "bytes": 1949813
+        },
+        {
+          "name": "parse-audit.json",
+          "sha256": "298dc200a1dfd9e5a684a2f5ee926a55205804b4474b0110bbed561319c7b852",
+          "bytes": 805940
+        },
+        {
+          "name": "parts.json",
+          "sha256": "1dc9636b84ef0c212f65acba19fd336d14ff395782752a05424c8653c75b2207",
+          "bytes": 16099
+        },
+        {
+          "name": "pdf-map.json",
+          "sha256": "1f55b13a294c21de5151c2fc9afcb03e3da3b53c2e21daf092d165b6755a71e2",
+          "bytes": 7430562
+        },
+        {
+          "name": "summary.json",
+          "sha256": "d641cdbbd8bba50e9cf10102219e0e6a6be4bc22f0b1a4f9090c421e6620b289",
+          "bytes": 593
+        }
+      ],
+      "status": "superseded_intake_or_development_build_not_active"
+    }
+  ],
+  "active_run": "analysis/musicxml/ravel-20261026-v5",
+  "note": "All current musical evidence is self-contained in the active run. Historical local intake runs are retained, not required for playback or rebuilding from original MusicXML."
+}

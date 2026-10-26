@@ -10,13 +10,21 @@ from pathlib import Path
 import re
 import shutil
 import socket
+import sys
 import threading
 from urllib.parse import urlparse,parse_qs
+
+# Direct script and one-click launches put scripts/, not the repository, on
+# sys.path. Resolve from this file so package imports also work outside the
+# repository and without PYTHONPATH (the playback environment needs no music21).
+ROOT=Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0,str(ROOT))
+
 from review_library import library,track_context,page_count
 from pdf_render import render_page
 from score_measure_data import load_score_measures,update_numbering
 
-ROOT=Path(__file__).resolve().parents[1]
 LOCK=threading.Lock()
 MEDIA_FINGERPRINTS={}
 
@@ -92,7 +100,7 @@ class Handler(BaseHTTPRequestHandler):
         if route=='/score-follow.mjs': return self.send_file(ROOT/'review/score-follow.mjs','text/javascript; charset=utf-8')
         if route=='/movements.mjs': return self.send_file(ROOT/'review/movements.mjs','text/javascript; charset=utf-8')
         if route=='/measure-numbers.mjs': return self.send_file(ROOT/'review/measure-numbers.mjs','text/javascript; charset=utf-8')
-        if route in {'/research.mjs','/research-model.mjs','/research-ui.mjs','/structural-hud.mjs','/hermeneutics.mjs'}:
+        if route in {'/research.mjs','/research-model.mjs','/research-ui.mjs','/structural-hud.mjs','/hermeneutics.mjs','/engine-evidence.mjs','/musicxml-evidence.mjs','/musicxml-live.mjs'}:
             return self.send_file(ROOT/'review'/route[1:],'text/javascript; charset=utf-8')
         if route=='/api/library':
             catalog=library(ROOT)
@@ -118,6 +126,56 @@ class Handler(BaseHTTPRequestHandler):
                 return self.send_json(load_research(ROOT,directory))
             except (OSError,ValueError,KeyError,TypeError,ImportError) as error:
                 return self.send_json({'error':str(error)},422)
+        if route in {'/api/musicxml','/api/musicxml-evidence','/api/musicxml-artifact','/api/musicxml-live'}:
+            try:
+                from backend.musicxml_analysis.store import load_bundle,measure_evidence
+                from backend.structure_analysis.common import bounded_path
+                bundle=load_bundle(ROOT,directory)
+                if bundle is None:return self.send_json({'available':False})
+                if route=='/api/musicxml-live':
+                    from backend.musicxml_analysis.live_store import load_live
+                    live=load_live(ROOT,directory,bundle)
+                    return self.send_json({'available':False} if not live else {'available':True,
+                        'summary':live['manifest']['summary'],'projection':live['tables']['recording-projection'],
+                        'frames':[{**f,'active_instruments':[{k:v for k,v in p.items() if k!='event_ids'} for p in f['active_instruments']]} for f in live['tables']['activation']['frames']],
+                        'readings':{id:[{k:r[k] for k in ['id','kind','label','functions','basis']} for r in rs] for id,rs in live['tables']['harmonic-readings']['readings'].items()},
+                        'form':live['tables']['form-synthesis']})
+                if route=='/api/musicxml-evidence':
+                    document=measure_evidence(bundle,query.get('measure_id',[''])[0])
+                    from backend.musicxml_analysis.live_store import load_live
+                    live=load_live(ROOT,directory,bundle)
+                    if live:document['harmonic_readings']={w['id']:live['tables']['harmonic-readings']['readings'][w['id']] for w in document['harmony']}
+                    return self.send_json(document)
+                if route=='/api/musicxml-artifact':
+                    name=query.get('name',[''])[0]
+                    if name not in bundle['manifest']['files']:return self.send_json({'error':'Unknown artifact'},404)
+                    return self.send_file(bounded_path(ROOT,bundle['run_path'])/name,'application/json; charset=utf-8')
+                return self.send_json({'available':True,'manifest':bundle['manifest'],'summary':bundle['tables']['summary'],
+                    'measures':bundle['tables']['measures']['measures'],'edition_audit':bundle['tables']['pdf-map']['edition_audit']})
+            except (OSError,ValueError,KeyError,TypeError) as error:
+                return self.send_json({'error':str(error)},422)
+        if route in {'/api/score-studies','/api/score-study-image'}:
+            try:
+                from backend.score_studies import load_studies
+                study=load_studies(ROOT,directory)
+                if route=='/api/score-study-image':
+                    from backend.structure_analysis.common import bounded_path
+                    window=next((w for w in study['document']['windows'] if w['id']==query.get('window_id',[''])[0]),None) if study else None
+                    if not window or not window.get('evidence_image'):return self.send_json({'error':'Unknown score-study image'},404)
+                    return self.send_file(bounded_path(ROOT,window['evidence_image']['path']),'image/png')
+                return self.send_json({'available':False} if not study else {'available':True,**study})
+            except (OSError,ValueError,KeyError,TypeError) as error:
+                return self.send_json({'error':str(error)},422)
+        if route in {'/api/structure','/api/structure-evidence'}:
+            try:
+                from backend.structure_analysis.store import load_bundle,event_evidence
+                if route=='/api/structure-evidence':
+                    return self.send_json(event_evidence(ROOT,directory,query.get('event_id',[''])[0]))
+                bundle=load_bundle(ROOT,directory)
+                return self.send_json({'available':False} if bundle is None else
+                    {'available':True,'manifest':bundle['manifest'],'summary':bundle['summary']})
+            except (OSError,ValueError,KeyError,TypeError,ImportError) as error:
+                return self.send_json({'error':str(error)},422)
         if route=='/api/project':
             try:
                 anchors=directory/'review-anchors.json'
@@ -134,9 +192,27 @@ class Handler(BaseHTTPRequestHandler):
                 if saved and (saved.get('audio_sha256')!=alignment['audio']['sha256'] or
                               saved.get('score_sha256')!=alignment['symbolic_reference']['sha256']):
                     raise ValueError('已保存锚点与当前素材不匹配，请先检查')
+                xml_regions=None;xml_navigation_error=None
+                try:
+                    from backend.musicxml_analysis.store import load_bundle as load_xml
+                    from backend.musicxml_analysis.live_store import load_live
+                    xml=load_xml(ROOT,directory,mapping)
+                    live=load_live(ROOT,directory,xml) if xml else None
+                    if live:
+                        # Runtime geometry adapter only. Source alignment and
+                        # the older on-disk PDF map remain untouched.
+                        by_id={m['measure_id']:m for m in xml['tables']['measures']['measures']}
+                        xml_regions=[]
+                        for region in xml['tables']['pdf-map']['measures']:
+                            m=by_id[region['measure_id']];reference=alignment['measures'][m['sequence']-1]
+                            xml_regions.append({**region,'xml_measure_id':m['measure_id'],
+                                'measure_id':reference['measure_id'],'resolution':'bar' if region['precision']=='measure_region_not_notehead' else 'shared_xml_system',
+                                'coordinate_origin':'top_left','review_status':'agent_layout_checked_human_pending'})
+                except (OSError,ValueError,KeyError,TypeError) as error:xml_navigation_error=str(error)
                 return self.send_json({'track':{'id':track['id'],'title':track['title']},
                     'page_count':page_count(mapping),'alignment':alignment,'mapping':mapping,'anchors':saved,'media':media,
-                    'score_region_anchors':score_anchors,'score_measures':load_score_measures(directory,mapping)})
+                    'score_region_anchors':score_anchors,'score_measures':load_score_measures(directory,mapping),
+                    'symbolic_pdf_regions':xml_regions,'xml_navigation_error':xml_navigation_error})
             except (OSError,ValueError,KeyError) as error:
                 return self.send_json({'error':str(error)},422)
         if route in {'/audio','/video'}:

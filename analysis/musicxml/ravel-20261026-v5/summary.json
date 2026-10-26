@@ -1,0 +1,28 @@
+{
+  "parts": 37,
+  "measures": 535,
+  "events": 47907,
+  "event_kinds": {
+    "rest": 24123,
+    "pitched": 23135,
+    "unpitched": 649
+  },
+  "eligible_pitched_events": 22475,
+  "invisible_events_quarantined": 880,
+  "harmony_windows": 6660,
+  "complete_chord_identity_windows": 1824,
+  "inversions": {
+    "1": 574,
+    "2": 306,
+    "0": 863,
+    "3": 81
+  },
+  "orchestration_measures": 535,
+  "voice_pair_intervals": 50006,
+  "voice_motions": 37000,
+  "chordal_interval_attacks": 4514,
+  "motif_comparisons": 962,
+  "cadence_candidates": 1,
+  "human_signoffs": 0,
+  "expert_reviews": 0
+}

@@ -365,8 +365,8 @@
       "id": "cadenza-dominant",
       "dimension": "harmony",
       "claim_level": "theoretical_analysis",
-      "short_label": "A7(no5) → A7：原位属七",
-      "detail_markdown": "Strepitoso入口的A低音与随后G–A–C♯和弦确立属七骨架，首个密集攻击省略E，随后E出现在分解音型中。功能为D大调V7，转位为原位；本卡定位整个结束姿态，不把装饰音全算在最初的垂直和弦中。",
+      "short_label": "A7(no5)：属七归约，低音音区待核",
+      "detail_markdown": "Strepitoso入口的A低音与随后G–A–C♯和弦确立属七骨架，首个密集攻击省略E，随后E出现在分解音型中。功能为D大调V7，转位为原位；本卡定位整个结束姿态，不把装饰音全算在最初的垂直和弦中。 本轮发现低音音区分歧：重排谱8 bassa解码与辅助MIDI相差一个八度。V7在此是跨时功能归约候选，不是每个攻击切片均已证实为原位属七。",
       "score_spans": [
         {
           "pdf_page_start": 13,
@@ -392,7 +392,7 @@
         }
       ],
       "verification": {
-        "score": "key_pages_checked",
+        "score": "disputed",
         "literature": "not_applicable",
         "location": "score_segment",
         "timing": "candidate_alignment"
@@ -446,15 +446,16 @@
           }
         ],
         "voice_leading": "C♯与G建立属七三全音；跨段趋向D主调。实际表面经快速音型及滑奏。",
-        "nonchord_tones": "后续B♭可参与降九色彩或经过；必须逐位置判断，不覆盖整页。"
+        "nonchord_tones": "后续B♭可参与降九色彩或经过；必须逐位置判断，不覆盖整页。",
+        "analysis_layer": "跨时的辅助MIDI归约层：低音A1、A2与重排谱8 bassa解码的A0、A1存在分歧。此处保留级数候选，不能把该表当作源谱音区或瞬时转位已经核定。"
       }
     },
     {
       "id": "return-tonic-second-inversion",
       "dimension": "harmony",
       "claim_level": "theoretical_analysis",
-      "short_label": "D/A：I6/4，主和弦第二转位",
-      "detail_markdown": "印号63末弱起：木管、弦乐及圆号合成D–F♯–A，最低管弦乐音为圆号A3。钢琴已休止，低弦尚未发音。故此刻为D/A，即D大调I6/4；其位置不支持自动称作终止四六和弦。",
+      "short_label": "D/A：乐队攻击层的I6/4候选",
+      "detail_markdown": "印号63末弱起：木管、弦乐及圆号的攻击层合成D–F♯–A，圆号A3为这一层最低音，低弦尚未进入。在D大调语境下，该层可归约为D/A、I6/4，不自动等于终止四六和弦。钢琴已结束按键攻击，但辅助MIDI的CC64模型仍保留滑奏余音（低至A0）；其记谱踏板与录音衰减须另核，不能把A3称为整体音响实际最低音。",
       "score_spans": [
         {
           "pdf_page_start": 15,
@@ -508,7 +509,7 @@
         ],
         "omitted_tones": [],
         "pitch_basis": "concert",
-        "temporal_scope": "当前重排谱印号63末乐队弱起至下一小节线前",
+        "temporal_scope": "重排谱印号63末乐队弱起的攻击层；不含钢琴滑奏的踏板余响。",
         "voices": [
           {
             "instrument": "圆号组",
@@ -564,15 +565,19 @@
           }
         ],
         "voice_leading": "上层主和弦先进入，深低音D随后才到达。",
-        "nonchord_tones": "当前短窗口无须把D或F♯解释为V和弦上的挂留；后续音响另列。"
-      }
+        "nonchord_tones": "当前短窗口无须把D或F♯解释为V和弦上的挂留；后续音响另列。",
+        "analysis_layer": "仅分析管弦乐攻击层；排除钢琴CC64延音模型余音。该模型最低音为A0，尚未以原谱完整踏板及实际录音逐音核验。"
+      },
+      "alternatives": [
+        "若计入钢琴踏板余音，整体集合并非单一D大三和弦，整体最低音与A3不同。"
+      ]
     },
     {
       "id": "return-layered-harmony",
       "dimension": "harmony",
       "claim_level": "theoretical_analysis",
       "short_label": "E/A与迟到D：分层和声",
-      "detail_markdown": "印号64起，上方为E–G♯–B，圆号保留A；随后深低音D进入。先有{A,B,E,G♯}，再有{D,E,G♯,A,B}。上层三和弦平移、A持续与D低音到达应分别记录，不能仅凭E大三和弦就宣布转到A调。",
+      "detail_markdown": "印号64起，上方为E–G♯–B，圆号保留A；随后深低音D进入。先有{A,B,E,G♯}，再有{D,E,G♯,A,B}。上层三和弦平移、A持续与D低音到达应分别记录，不能仅凭E大三和弦就宣布转到A调。 以上音集限定管弦乐层；钢琴延音余响未计入此归约。",
       "score_spans": [
         {
           "pdf_page_start": 15,
@@ -656,7 +661,8 @@
           }
         ],
         "voice_leading": "D/F♯/A上层转为E/G♯/B，A保留，低层另行A→D。",
-        "nonchord_tones": "G♯是上层E大三和弦组成音，不能无证据一律命名为D调的倚音。"
+        "nonchord_tones": "G♯是上层E大三和弦组成音，不能无证据一律命名为D调的倚音。",
+        "analysis_layer": "管弦乐攻击与持续层；钢琴滑奏踏板余音另计，不把圆号A3直接称为整体最低音。"
       }
     },
     {

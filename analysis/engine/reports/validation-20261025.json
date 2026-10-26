@@ -1,0 +1,67 @@
+{
+  "active_run": {
+    "run_path": "analysis/engine/ravel-pilot/round1-9bf0f07362a89fb9",
+    "manifest_sha256": "3045d359cb12602815167c7c2ba2f9885e3687d9c57f26b9818e9b921758e01f"
+  },
+  "baseline_preservation": {
+    "alignment.json": {
+      "previous_sha256": "4c6c57fb0c240fcd77c155d2701b9f019333ba0c7a3940aee01064a2e563d701",
+      "current_sha256": "4c6c57fb0c240fcd77c155d2701b9f019333ba0c7a3940aee01064a2e563d701",
+      "unchanged": true
+    },
+    "measure-map.json": {
+      "previous_sha256": "e1728176bafc426540601f7f0e4859b441decf33261442642da4fb4ffc2181a2",
+      "current_sha256": "e1728176bafc426540601f7f0e4859b441decf33261442642da4fb4ffc2181a2",
+      "unchanged": true
+    },
+    "metadata/recording.json": {
+      "previous_sha256": "743227726954aadc9ea0385c5ae03fb3ffc280db2ca9c1c3e4b7e4bf9adafceb",
+      "current_sha256": "743227726954aadc9ea0385c5ae03fb3ffc280db2ca9c1c3e4b7e4bf9adafceb",
+      "unchanged": true
+    },
+    "analysis/structural-events.json": {
+      "previous_sha256": "2a14119bbc11f27e0b3ea670c68a91b48cfadee2106dcef50f9d3b1b39568dd6",
+      "current_sha256": "10f48672a0524ffe349256e446525b59501ecfa4b47b8fc65e6c2f34cd8f3bdf",
+      "unchanged": false
+    },
+    "analysis/hermeneutic-essays.json": {
+      "previous_sha256": "e86f0c29f6f6b6c597190a3ec0f3fa8f23e493347c446c29535dad1b68afa1b0",
+      "current_sha256": "e86f0c29f6f6b6c597190a3ec0f3fa8f23e493347c446c29535dad1b68afa1b0",
+      "unchanged": true
+    },
+    "works/mahler-4/review-anchors.json": {
+      "previous_sha256": "3211c1c4dcba1ae8c010bfee58b6648a6958a5beeca8afe6169ffa2f40b17f96",
+      "current_sha256": "3211c1c4dcba1ae8c010bfee58b6648a6958a5beeca8afe6169ffa2f40b17f96",
+      "unchanged": true
+    }
+  },
+  "changed_legacy_event_ids": [
+    "return-tonic-second-inversion",
+    "return-layered-harmony"
+  ],
+  "legacy_event_count": 35,
+  "essay_count": 5,
+  "audio_original_fingerprint_verified": true,
+  "python_tests": {
+    "run": 108,
+    "passed": 106,
+    "skipped": 2,
+    "failed": 0
+  },
+  "frontend_tests": {
+    "run": 27,
+    "passed": 27,
+    "failed": 0
+  },
+  "module_http_integration": "passed_in_memory_DOM_not_browser",
+  "minimum_playback_environment_actual_HTTP_evidence": "200_with_native_noteheads",
+  "image_check": "agent_spot_checks_only",
+  "human_music_review": 0,
+  "expert_music_review": 0,
+  "real_browser": {
+    "status": "not_executed",
+    "reason": "Local browser use is disabled in Work settings"
+  },
+  "listening_review": "not_executed",
+  "C_D_expansion": false
+}

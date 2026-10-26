@@ -1,0 +1,1587 @@
+{
+  "schema_version": "1.0.0",
+  "work_id": "ravel-left-hand-concerto",
+  "title": "拉威尔：以谱面窗口生产音乐理论分析",
+  "edition": {
+    "edition_id": "ravel-reengraving-100p",
+    "pdf_sha256": "67aa60cc89160ea7e475fd7fa45352ec6e0c45f6cd3557421d8caafc18531083"
+  },
+  "score_sources": [
+    {
+      "id": "ravel-target-score",
+      "path": "resource/ravel left hand piano concerto/maurice-ravel-piano-concerto-for-the-left-hand.pdf",
+      "page_count": 100,
+      "sha256": "67aa60cc89160ea7e475fd7fa45352ec6e0c45f6cd3557421d8caafc18531083"
+    },
+    {
+      "id": "ravel-durand-score",
+      "path": "resource/ravel left hand piano concerto/IMSLP01581-Ravel_-_Piano_Concerto_for_the_Left_Hand_(Orchestral_Score).pdf",
+      "page_count": 99,
+      "sha256": "4ef405bb68ad16fbd8011af6a3e9f19de104b1631accfbd8661bd59fa3b4e149"
+    }
+  ],
+  "windows": [
+    {
+      "id": "opening-bar-1",
+      "title": "首小节：持续层与六连音分解层",
+      "mode": "metric",
+      "meter": [
+        3,
+        4
+      ],
+      "duration_q": "3",
+      "scope": "只转录首小节的低弦分部；跨小节延音以延续标志记录，不把它截断为真实离键。",
+      "review": {
+        "method": "direct_score_transcription",
+        "agent": "Codex",
+        "human_status": "pending",
+        "scope": "所列音名、记谱时值与局部声部；不包括录音同步或全曲校勘"
+      },
+      "evidence_regions": [
+        {
+          "source_id": "ravel-target-score",
+          "page": 1,
+          "rect_pt": [
+            100,
+            1010,
+            295,
+            125
+          ]
+        },
+        {
+          "source_id": "ravel-durand-score",
+          "page": 3,
+          "rect_pt": [
+            135,
+            705,
+            185,
+            110
+          ]
+        }
+      ],
+      "voices": [
+        {
+          "id": "cello-D",
+          "label": "大提琴分部D2",
+          "transpose_semitones": 0,
+          "notes": [
+            {
+              "written": "D2",
+              "concert": "D2",
+              "onset_q": "0",
+              "duration_q": "3",
+              "continues_after_window": true
+            }
+          ]
+        },
+        {
+          "id": "cello-G",
+          "label": "大提琴分部G2",
+          "transpose_semitones": 0,
+          "notes": [
+            {
+              "written": "G2",
+              "concert": "G2",
+              "onset_q": "0",
+              "duration_q": "3",
+              "continues_after_window": true
+            }
+          ]
+        },
+        {
+          "id": "db-E",
+          "label": "低音提琴持续E1",
+          "transpose_semitones": -12,
+          "notes": [
+            {
+              "written": "E2",
+              "concert": "E1",
+              "onset_q": "0",
+              "duration_q": "3",
+              "continues_after_window": true
+            }
+          ]
+        },
+        {
+          "id": "db-A",
+          "label": "低音提琴持续A1",
+          "transpose_semitones": -12,
+          "notes": [
+            {
+              "written": "A2",
+              "concert": "A1",
+              "onset_q": "0",
+              "duration_q": "3",
+              "continues_after_window": true
+            }
+          ]
+        },
+        {
+          "id": "db-moving",
+          "label": "低音提琴六连音层",
+          "transpose_semitones": -12,
+          "notes": [
+            {
+              "written": "E2",
+              "concert": "E1",
+              "onset_q": "0",
+              "duration_q": "1/6",
+              "tuplet": "6 notes in one quarter"
+            },
+            {
+              "written": "A2",
+              "concert": "A1",
+              "onset_q": "1/6",
+              "duration_q": "1/6",
+              "tuplet": "6 notes in one quarter"
+            },
+            {
+              "written": "D3",
+              "concert": "D2",
+              "onset_q": "1/3",
+              "duration_q": "1/6",
+              "tuplet": "6 notes in one quarter"
+            },
+            {
+              "written": "A2",
+              "concert": "A1",
+              "onset_q": "1/2",
+              "duration_q": "1/6",
+              "tuplet": "6 notes in one quarter"
+            },
+            {
+              "written": "D3",
+              "concert": "D2",
+              "onset_q": "2/3",
+              "duration_q": "1/6",
+              "tuplet": "6 notes in one quarter"
+            },
+            {
+              "written": "G3",
+              "concert": "G2",
+              "onset_q": "5/6",
+              "duration_q": "1/6",
+              "tuplet": "6 notes in one quarter"
+            },
+            {
+              "written": "G3",
+              "concert": "G2",
+              "onset_q": "1",
+              "duration_q": "1/6",
+              "tuplet": "6 notes in one quarter"
+            },
+            {
+              "written": "D3",
+              "concert": "D2",
+              "onset_q": "7/6",
+              "duration_q": "1/6",
+              "tuplet": "6 notes in one quarter"
+            },
+            {
+              "written": "A2",
+              "concert": "A1",
+              "onset_q": "4/3",
+              "duration_q": "1/6",
+              "tuplet": "6 notes in one quarter"
+            },
+            {
+              "written": "D3",
+              "concert": "D2",
+              "onset_q": "3/2",
+              "duration_q": "1/6",
+              "tuplet": "6 notes in one quarter"
+            },
+            {
+              "written": "A2",
+              "concert": "A1",
+              "onset_q": "5/3",
+              "duration_q": "1/6",
+              "tuplet": "6 notes in one quarter"
+            },
+            {
+              "written": "E2",
+              "concert": "E1",
+              "onset_q": "11/6",
+              "duration_q": "1/6",
+              "tuplet": "6 notes in one quarter"
+            },
+            {
+              "written": "E2",
+              "concert": "E1",
+              "onset_q": "2",
+              "duration_q": "1/6",
+              "tuplet": "6 notes in one quarter"
+            },
+            {
+              "written": "A2",
+              "concert": "A1",
+              "onset_q": "13/6",
+              "duration_q": "1/6",
+              "tuplet": "6 notes in one quarter"
+            },
+            {
+              "written": "D3",
+              "concert": "D2",
+              "onset_q": "7/3",
+              "duration_q": "1/6",
+              "tuplet": "6 notes in one quarter"
+            },
+            {
+              "written": "A2",
+              "concert": "A1",
+              "onset_q": "5/2",
+              "duration_q": "1/6",
+              "tuplet": "6 notes in one quarter"
+            },
+            {
+              "written": "D3",
+              "concert": "D2",
+              "onset_q": "8/3",
+              "duration_q": "1/6",
+              "tuplet": "6 notes in one quarter"
+            },
+            {
+              "written": "G3",
+              "concert": "G2",
+              "onset_q": "17/6",
+              "duration_q": "1/6",
+              "tuplet": "6 notes in one quarter"
+            }
+          ]
+        }
+      ],
+      "compare_voices": [
+        [
+          "cello-G",
+          "cello-D"
+        ]
+      ],
+      "evidence_image": {
+        "path": "output/research/score-studies/opening-bar-1.png",
+        "sha256": "7e8fdefa96adb915f860c8d6dc190bbf245f50095371131ed55532f6e3db67aa"
+      }
+    },
+    {
+      "id": "horn-bassoon-bars-10-11",
+      "title": "第10–11号：圆号、巴松与E持续音",
+      "mode": "metric",
+      "meter": [
+        3,
+        4
+      ],
+      "duration_q": "6",
+      "scope": "谱面标号10、11两小节；圆号按F调乐器降纯五度转为实音，低音巴松降八度。末尾保持开放，不据两小节认定完整乐句终止。",
+      "review": {
+        "method": "direct_score_transcription",
+        "agent": "Codex",
+        "human_status": "pending",
+        "scope": "所列音名、记谱时值与局部声部；不包括录音同步或全曲校勘"
+      },
+      "evidence_regions": [
+        {
+          "source_id": "ravel-target-score",
+          "page": 3,
+          "rect_pt": [
+            100,
+            55,
+            456,
+            165
+          ]
+        },
+        {
+          "source_id": "ravel-durand-score",
+          "page": 5,
+          "rect_pt": [
+            100,
+            40,
+            340,
+            125
+          ]
+        }
+      ],
+      "voices": [
+        {
+          "id": "horn-upper",
+          "label": "圆号上层",
+          "transpose_semitones": -7,
+          "notes": [
+            {
+              "written": "E4",
+              "concert": "A3",
+              "onset_q": "0",
+              "duration_q": "1/2"
+            },
+            {
+              "written": "D4",
+              "concert": "G3",
+              "onset_q": "1/2",
+              "duration_q": "1"
+            },
+            {
+              "written": "A4",
+              "concert": "D4",
+              "onset_q": "3/2",
+              "duration_q": "1"
+            },
+            {
+              "written": "C5",
+              "concert": "F4",
+              "onset_q": "5/2",
+              "duration_q": "1/2"
+            },
+            {
+              "written": "B4",
+              "concert": "E4",
+              "onset_q": "3",
+              "duration_q": "1/2"
+            },
+            {
+              "written": "A4",
+              "concert": "D4",
+              "onset_q": "7/2",
+              "duration_q": "1/2"
+            },
+            {
+              "written": "C5",
+              "concert": "F4",
+              "onset_q": "4",
+              "duration_q": "1/2"
+            },
+            {
+              "written": "B4",
+              "concert": "E4",
+              "onset_q": "9/2",
+              "duration_q": "1/2"
+            },
+            {
+              "written": "A4",
+              "concert": "D4",
+              "onset_q": "5",
+              "duration_q": "1/2"
+            },
+            {
+              "written": "C5",
+              "concert": "F4",
+              "onset_q": "11/2",
+              "duration_q": "1/2"
+            }
+          ]
+        },
+        {
+          "id": "horn-lower",
+          "label": "圆号下层",
+          "transpose_semitones": -7,
+          "notes": [
+            {
+              "written": "E3",
+              "concert": "A2",
+              "onset_q": "0",
+              "duration_q": "1/2"
+            },
+            {
+              "written": "D3",
+              "concert": "G2",
+              "onset_q": "1/2",
+              "duration_q": "1"
+            },
+            {
+              "written": "A3",
+              "concert": "D3",
+              "onset_q": "3/2",
+              "duration_q": "1"
+            },
+            {
+              "written": "C4",
+              "concert": "F3",
+              "onset_q": "5/2",
+              "duration_q": "1/2"
+            },
+            {
+              "written": "B3",
+              "concert": "E3",
+              "onset_q": "3",
+              "duration_q": "1/2"
+            },
+            {
+              "written": "A3",
+              "concert": "D3",
+              "onset_q": "7/2",
+              "duration_q": "1/2"
+            },
+            {
+              "written": "C4",
+              "concert": "F3",
+              "onset_q": "4",
+              "duration_q": "1/2"
+            },
+            {
+              "written": "B3",
+              "concert": "E3",
+              "onset_q": "9/2",
+              "duration_q": "1/2"
+            },
+            {
+              "written": "A3",
+              "concert": "D3",
+              "onset_q": "5",
+              "duration_q": "1/2"
+            },
+            {
+              "written": "C4",
+              "concert": "F3",
+              "onset_q": "11/2",
+              "duration_q": "1/2"
+            }
+          ]
+        },
+        {
+          "id": "bassoon-upper",
+          "label": "巴松上层",
+          "transpose_semitones": 0,
+          "notes": [
+            {
+              "written": null,
+              "concert": null,
+              "onset_q": "0",
+              "duration_q": "1"
+            },
+            {
+              "written": null,
+              "concert": null,
+              "onset_q": "1",
+              "duration_q": "1"
+            },
+            {
+              "written": "G2",
+              "concert": "G2",
+              "onset_q": "2",
+              "duration_q": "1"
+            },
+            {
+              "written": "A2",
+              "concert": "A2",
+              "onset_q": "3",
+              "duration_q": "1"
+            },
+            {
+              "written": "Bb2",
+              "concert": "Bb2",
+              "onset_q": "4",
+              "duration_q": "2"
+            }
+          ]
+        },
+        {
+          "id": "bassoon-lower",
+          "label": "巴松下层",
+          "transpose_semitones": 0,
+          "notes": [
+            {
+              "written": null,
+              "concert": null,
+              "onset_q": "0",
+              "duration_q": "1"
+            },
+            {
+              "written": null,
+              "concert": null,
+              "onset_q": "1",
+              "duration_q": "1"
+            },
+            {
+              "written": "Bb1",
+              "concert": "Bb1",
+              "onset_q": "2",
+              "duration_q": "1"
+            },
+            {
+              "written": "C2",
+              "concert": "C2",
+              "onset_q": "3",
+              "duration_q": "1"
+            },
+            {
+              "written": "D2",
+              "concert": "D2",
+              "onset_q": "4",
+              "duration_q": "2"
+            }
+          ]
+        },
+        {
+          "id": "contra-pedal",
+          "label": "低音巴松E持续音",
+          "transpose_semitones": -12,
+          "notes": [
+            {
+              "written": null,
+              "concert": null,
+              "onset_q": "0",
+              "duration_q": "1"
+            },
+            {
+              "written": null,
+              "concert": null,
+              "onset_q": "1",
+              "duration_q": "1"
+            },
+            {
+              "written": "E2",
+              "concert": "E1",
+              "onset_q": "2",
+              "duration_q": "4",
+              "tie_segments": [
+                "1",
+                "3"
+              ],
+              "continues_after_window": true
+            }
+          ]
+        }
+      ],
+      "compare_voices": [
+        [
+          "horn-upper",
+          "horn-lower"
+        ],
+        [
+          "bassoon-upper",
+          "bassoon-lower"
+        ],
+        [
+          "horn-upper",
+          "bassoon-upper"
+        ],
+        [
+          "horn-upper",
+          "contra-pedal"
+        ]
+      ],
+      "evidence_image": {
+        "path": "output/research/score-studies/horn-bassoon-bars-10-11.png",
+        "sha256": "60930e2552849c1cc5b78eef51c3e8ac01e9eb3f85175c20f7d181c2fbd242f0"
+      }
+    },
+    {
+      "id": "strings-return-two-attacks",
+      "title": "乐队重入：弦乐攻击层的D/A与E/A",
+      "mode": "attack_snapshots",
+      "attacks": [
+        "印号63末十六分弱起",
+        "印号64首个攻击"
+      ],
+      "scope": "只比较第二小提琴三音排列与中提琴低A；排除钢琴余响，不能当作全体实际音响。仅转录两个攻击切片，不推定第二个攻击的完整时值。",
+      "review": {
+        "method": "direct_score_transcription",
+        "agent": "Codex",
+        "human_status": "pending",
+        "scope": "所列音名、记谱时值与局部声部；不包括录音同步或全曲校勘"
+      },
+      "evidence_regions": [
+        {
+          "source_id": "ravel-target-score",
+          "page": 15,
+          "rect_pt": [
+            310,
+            840,
+            100,
+            235
+          ]
+        },
+        {
+          "source_id": "ravel-durand-score",
+          "page": 15,
+          "rect_pt": [
+            245,
+            585,
+            90,
+            145
+          ]
+        }
+      ],
+      "voices": [
+        {
+          "id": "vln2-low",
+          "label": "第二小提琴低层",
+          "transpose_semitones": 0,
+          "samples": [
+            {
+              "written": "A3",
+              "concert": "A3"
+            },
+            {
+              "written": "B3",
+              "concert": "B3"
+            }
+          ]
+        },
+        {
+          "id": "vln2-middle",
+          "label": "第二小提琴中层",
+          "transpose_semitones": 0,
+          "samples": [
+            {
+              "written": "D4",
+              "concert": "D4"
+            },
+            {
+              "written": "E4",
+              "concert": "E4"
+            }
+          ]
+        },
+        {
+          "id": "vln2-high",
+          "label": "第二小提琴高层",
+          "transpose_semitones": 0,
+          "samples": [
+            {
+              "written": "F#4",
+              "concert": "F#4"
+            },
+            {
+              "written": "G#4",
+              "concert": "G#4"
+            }
+          ]
+        },
+        {
+          "id": "viola-pedal",
+          "label": "中提琴低A层",
+          "transpose_semitones": 0,
+          "samples": [
+            {
+              "written": "A3",
+              "concert": "A3"
+            },
+            {
+              "written": "A3",
+              "concert": "A3"
+            }
+          ]
+        }
+      ],
+      "evidence_image": {
+        "path": "output/research/score-studies/strings-return-two-attacks.png",
+        "sha256": "ee54232f051f3c7fb7275c5d6924648d94b8b090342601d5e6247051731f86db"
+      }
+    }
+  ],
+  "form": {
+    "model_status": "revisable_working_hierarchy_not_fixed_sonata_template",
+    "materials": [
+      {
+        "id": "alpha",
+        "title": "低音巴松初始材料",
+        "identity_status": "provisional",
+        "anchor_pages": [
+          1,
+          2
+        ],
+        "definition": "以低音巴松的初次旋律进入为起点；后续同主题身份须逐次比较。"
+      },
+      {
+        "id": "beta",
+        "title": "圆号材料",
+        "identity_status": "local_signature_transcribed",
+        "anchor_pages": [
+          2,
+          3
+        ],
+        "definition": "已录入第10–11号的音程与节奏；两层圆号先按八度加倍合并。"
+      },
+      {
+        "id": "lyric",
+        "title": "慢段歌唱材料",
+        "identity_status": "provisional",
+        "anchor_pages": [
+          24,
+          25
+        ],
+        "definition": "以歌唱层与流动伴奏的对置为导航；不直接等同奏鸣曲副部。"
+      },
+      {
+        "id": "fast",
+        "title": "6/8快段材料",
+        "identity_status": "provisional",
+        "anchor_pages": [
+          33
+        ],
+        "definition": "速度、节拍与短音型形成对比；未据速度词断定主题身份。"
+      },
+      {
+        "id": "late-cantabile",
+        "title": "后华彩旋律层",
+        "identity_status": "provisional",
+        "anchor_pages": [
+          91,
+          95
+        ],
+        "definition": "与开头华彩的联系先列为待检验关系，不自动合并同主题。"
+      }
+    ],
+    "units": [
+      {
+        "id": "work",
+        "parent_id": null,
+        "level": "work",
+        "title": "单乐章协奏曲",
+        "pages": [
+          1,
+          100
+        ],
+        "argument": "用呈示、对比、发展、返回和收束等功能作工作解释，不预设唯一奏鸣或三部曲式。",
+        "cadence": {
+          "status": "not_yet_adjudicated",
+          "type": null,
+          "evidence": []
+        },
+        "revision_rule": "以材料身份、终止、配器及调性证据修订；不以MIDI未匹配数量或单一速度词作为边界门槛。"
+      },
+      {
+        "id": "intro",
+        "parent_id": "work",
+        "level": "section",
+        "title": "管弦乐引子／材料预呈示",
+        "pages": [
+          1,
+          10
+        ],
+        "material_ids": [
+          "alpha",
+          "beta"
+        ],
+        "argument": "低音区持续层、低音巴松与圆号材料先后进入；段尾与独奏交接需按实际入口区分。",
+        "boundary_status": "working_navigation_ranges_not_verified_formal_cuts",
+        "cadence": {
+          "status": "not_yet_adjudicated",
+          "type": null,
+          "evidence": []
+        },
+        "revision_rule": "以材料身份、终止、配器及调性证据修订；不以MIDI未匹配数量或单一速度词作为边界门槛。"
+      },
+      {
+        "id": "cad1",
+        "parent_id": "work",
+        "level": "section",
+        "title": "首次独奏华彩／呈示性空间",
+        "pages": [
+          10,
+          15
+        ],
+        "argument": "独奏接管音区与时间；内部自由姿态、歌唱层与强化运动需分别划分乐句。",
+        "boundary_status": "working_navigation_ranges_not_verified_formal_cuts",
+        "candidate_material_ids": [
+          "alpha",
+          "beta"
+        ],
+        "material_ids": [],
+        "cadence": {
+          "status": "not_yet_adjudicated",
+          "type": null,
+          "evidence": []
+        },
+        "revision_rule": "以材料身份、终止、配器及调性证据修订；不以MIDI未匹配数量或单一速度词作为边界门槛。"
+      },
+      {
+        "id": "orch1",
+        "parent_id": "work",
+        "level": "section",
+        "title": "管弦乐主题确认",
+        "pages": [
+          15,
+          24
+        ],
+        "material_ids": [],
+        "argument": "弦乐攻击层先呈D/A，深低音随后进入；到达是分阶段过程。",
+        "boundary_status": "working_navigation_ranges_not_verified_formal_cuts",
+        "cadence": {
+          "status": "tonic_arrival_candidate_not_cadential_64",
+          "type": null,
+          "evidence": [
+            "strings-return-two-attacks"
+          ]
+        },
+        "revision_rule": "以材料身份、终止、配器及调性证据修订；不以MIDI未匹配数量或单一速度词作为边界门槛。"
+      },
+      {
+        "id": "lyric-area",
+        "parent_id": "work",
+        "level": "section",
+        "title": "抒情对比与连接候选",
+        "pages": [
+          24,
+          33
+        ],
+        "material_ids": [
+          "lyric"
+        ],
+        "argument": "Più lento、Andante、歌唱层及英国管进入提供证据；副部功能未确立。",
+        "boundary_status": "working_navigation_ranges_not_verified_formal_cuts",
+        "cadence": {
+          "status": "not_yet_adjudicated",
+          "type": null,
+          "evidence": []
+        },
+        "revision_rule": "以材料身份、终止、配器及调性证据修订；不以MIDI未匹配数量或单一速度词作为边界门槛。"
+      },
+      {
+        "id": "fast-area",
+        "parent_id": "work",
+        "level": "section",
+        "title": "快段及发展空间",
+        "pages": [
+          33,
+          91
+        ],
+        "material_ids": [
+          "fast"
+        ],
+        "argument": "Allegro与6/8构成强对比；内部51、82页只作进一步修订节点，不以页码定独立分部。",
+        "boundary_status": "working_navigation_ranges_not_verified_formal_cuts",
+        "cadence": {
+          "status": "not_yet_adjudicated",
+          "type": null,
+          "evidence": []
+        },
+        "revision_rule": "以材料身份、终止、配器及调性证据修订；不以MIDI未匹配数量或单一速度词作为边界门槛。"
+      },
+      {
+        "id": "cad2",
+        "parent_id": "work",
+        "level": "section",
+        "title": "后段华彩／回忆与重组候选",
+        "pages": [
+          91,
+          95
+        ],
+        "material_ids": [
+          "late-cantabile"
+        ],
+        "argument": "Cadenza标记与独奏复合层明确；是否重述原主题须保留音程与节奏见证。",
+        "boundary_status": "working_navigation_ranges_not_verified_formal_cuts",
+        "cadence": {
+          "status": "not_yet_adjudicated",
+          "type": null,
+          "evidence": []
+        },
+        "revision_rule": "以材料身份、终止、配器及调性证据修订；不以MIDI未匹配数量或单一速度词作为边界门槛。"
+      },
+      {
+        "id": "overlap",
+        "parent_id": "work",
+        "level": "section",
+        "title": "重叠式管弦乐重建",
+        "pages": [
+          95,
+          100
+        ],
+        "material_ids": [],
+        "argument": "低弦及低音木管进入仍持续的钢琴，边界不是齐奏式截断。",
+        "boundary_status": "working_navigation_ranges_not_verified_formal_cuts",
+        "cadence": {
+          "status": "not_yet_adjudicated",
+          "type": null,
+          "evidence": []
+        },
+        "revision_rule": "以材料身份、终止、配器及调性证据修订；不以MIDI未匹配数量或单一速度词作为边界门槛。"
+      },
+      {
+        "id": "coda",
+        "parent_id": "work",
+        "level": "section",
+        "title": "末尾Allegro／压缩收束",
+        "pages": [
+          100,
+          100
+        ],
+        "argument": "速度性格回返与结尾D中心支持收束；不未经进行核验就标正格终止。",
+        "boundary_status": "working_navigation_ranges_not_verified_formal_cuts",
+        "candidate_material_ids": [
+          "fast"
+        ],
+        "material_ids": [],
+        "cadence": {
+          "status": "closing_tonic_sonority_observed_progression_unclassified",
+          "type": null,
+          "evidence": [
+            "navigation-score-page-100"
+          ]
+        },
+        "revision_rule": "以材料身份、终止、配器及调性证据修订；不以MIDI未匹配数量或单一速度词作为边界门槛。"
+      },
+      {
+        "id": "p-low",
+        "parent_id": "intro",
+        "level": "phrase",
+        "title": "低弦开端单元",
+        "pages": [
+          1,
+          1
+        ],
+        "material_ids": [],
+        "argument": "一个小节的织体底稿，不称完整乐句。",
+        "boundary_status": "phrase_excerpt_or_hypothesis_not_certified_complete_phrase",
+        "cadence": {
+          "status": "not_yet_adjudicated",
+          "type": null,
+          "evidence": []
+        },
+        "revision_rule": "以材料身份、终止、配器及调性证据修订；不以MIDI未匹配数量或单一速度词作为边界门槛。"
+      },
+      {
+        "id": "p-horn",
+        "parent_id": "intro",
+        "level": "phrase",
+        "title": "圆号—巴松乐句片段",
+        "pages": [
+          3,
+          3
+        ],
+        "material_ids": [
+          "beta"
+        ],
+        "argument": "两小节有可检查的音程与节奏；末尾开放，完整句界另定。",
+        "boundary_status": "phrase_excerpt_or_hypothesis_not_certified_complete_phrase",
+        "cadence": {
+          "status": "not_yet_adjudicated",
+          "type": null,
+          "evidence": []
+        },
+        "revision_rule": "以材料身份、终止、配器及调性证据修订；不以MIDI未匹配数量或单一速度词作为边界门槛。"
+      },
+      {
+        "id": "p-cad-open",
+        "parent_id": "cad1",
+        "level": "phrase",
+        "title": "华彩开场与接续候选",
+        "pages": [
+          10,
+          11
+        ],
+        "material_ids": [],
+        "argument": "自由速度姿态与稳定歌唱层之间需检查低音、节奏及材料转换。",
+        "boundary_status": "phrase_excerpt_or_hypothesis_not_certified_complete_phrase",
+        "cadence": {
+          "status": "not_yet_adjudicated",
+          "type": null,
+          "evidence": []
+        },
+        "revision_rule": "以材料身份、终止、配器及调性证据修订；不以MIDI未匹配数量或单一速度词作为边界门槛。"
+      },
+      {
+        "id": "p-lyric",
+        "parent_id": "lyric-area",
+        "level": "phrase",
+        "title": "歌唱层与伴奏层的交接",
+        "pages": [
+          24,
+          25
+        ],
+        "material_ids": [
+          "lyric"
+        ],
+        "argument": "声部职责变化可先确认，标准前后句及终止强弱待核。",
+        "boundary_status": "phrase_excerpt_or_hypothesis_not_certified_complete_phrase",
+        "cadence": {
+          "status": "not_yet_adjudicated",
+          "type": null,
+          "evidence": []
+        },
+        "revision_rule": "以材料身份、终止、配器及调性证据修订；不以MIDI未匹配数量或单一速度词作为边界门槛。"
+      },
+      {
+        "id": "p-late",
+        "parent_id": "cad2",
+        "level": "phrase",
+        "title": "后华彩的旋律—装饰复合层",
+        "pages": [
+          91,
+          95
+        ],
+        "material_ids": [
+          "late-cantabile"
+        ],
+        "argument": "按旋律的开始、延续和结束建立局部句法，当前不套固定4+4。",
+        "boundary_status": "phrase_excerpt_or_hypothesis_not_certified_complete_phrase",
+        "cadence": {
+          "status": "not_yet_adjudicated",
+          "type": null,
+          "evidence": []
+        },
+        "revision_rule": "以材料身份、终止、配器及调性证据修订；不以MIDI未匹配数量或单一速度词作为边界门槛。"
+      },
+      {
+        "id": "texture-51",
+        "parent_id": "fast-area",
+        "level": "subsection",
+        "title": "高音区透明织体节点",
+        "pages": [
+          51,
+          51
+        ],
+        "argument": "木管／竖琴短音、钢琴流动与拨弦的分层改变密度和低音重量；是否构成独立分部须更多信号。",
+        "cadence": {
+          "status": "not_yet_adjudicated",
+          "type": null,
+          "evidence": []
+        },
+        "revision_rule": "以材料身份、终止、配器及调性证据修订；不以MIDI未匹配数量或单一速度词作为边界门槛。"
+      }
+    ],
+    "material_links": [
+      {
+        "from": "alpha",
+        "to": "cad1",
+        "status": "auxiliary_comparison_only",
+        "argument": "既有五音比较提供候选，未自动确认为同主题。"
+      },
+      {
+        "from": "fast-area",
+        "to": "coda",
+        "status": "tempo_character_return",
+        "argument": "Allegro标记与性格返回，不等于已核验全段主题相同。"
+      }
+    ]
+  },
+  "events": [
+    {
+      "id": "study-quartal",
+      "dimension": "harmony",
+      "title": "E–A–D–G：持续低音上的四度骨架",
+      "pages": [
+        1,
+        1
+      ],
+      "observations": [
+        "大提琴D2、G2持续；低音提琴持续层为实音E1、A1，活动层以六连音展开E、A、D、G。"
+      ],
+      "reasoning": [
+        "按E–A–D–G排列形成连续纯四度；集合缺B，不能写成完整E小三和弦或机械标D大调ii。",
+        "四度骨架由不同分部共同构成；分解层改变攻击密度，首小节音级集合并未因每次攻击而更换。"
+      ],
+      "limits": [
+        "E是低音支点，不等于已确定三度和弦根音。"
+      ],
+      "window_ids": [
+        "opening-bar-1"
+      ],
+      "unit_ids": [],
+      "source_ids": [
+        "ravel-target-score",
+        "ravel-durand-score"
+      ],
+      "source_locator": "所列物理页与符号底稿；物理页、印号和排练号分别记录",
+      "framework": "直接总谱观察 → 声部／音集归约 → 句法与形式论证；人工签核待完成"
+    },
+    {
+      "id": "study-arpeggio-layers",
+      "dimension": "counterpoint",
+      "title": "持续层＋分解层：先辨织体，再谈对位",
+      "pages": [
+        1,
+        1
+      ],
+      "observations": [
+        "大提琴两层持续，低音提琴活动层使用同一四度骨架。"
+      ],
+      "reasoning": [
+        "持续音与六连音具有节奏差异，但活动层主要展开背景音集；本窗口不支持把各分部称为独立模仿声部。",
+        "保留持续层、运动层的分工，避免把“多件乐器同时演奏”直接算作严格对位。"
+      ],
+      "limits": [
+        "这不否认后续旋律能在背景上构成自由对位；本窗口只覆盖首小节。"
+      ],
+      "window_ids": [
+        "opening-bar-1"
+      ],
+      "unit_ids": [],
+      "source_ids": [
+        "ravel-target-score",
+        "ravel-durand-score"
+      ],
+      "source_locator": "所列物理页与符号底稿；物理页、印号和排练号分别记录",
+      "framework": "直接总谱观察 → 声部／音集归约 → 句法与形式论证；人工签核待完成"
+    },
+    {
+      "id": "study-passing",
+      "dimension": "counterpoint",
+      "title": "先合并加倍：圆号与巴松的异节奏进行",
+      "pages": [
+        3,
+        3
+      ],
+      "observations": [
+        "圆号两层始终相距八度；巴松双音由B♭1/G2、C2/A2、D2/B♭2构成平行六度层。"
+      ],
+      "reasoning": [
+        "先把圆号八度加倍与巴松平行六度分别视为层，再比较层间关系。圆号八分运动与巴松四分／二分时值形成独立节奏与斜向运动。",
+        "第二小节圆号实音F4–E4–D4下行，巴松B♭2保持：复音程为纯十二度→增十一度→大十度。弱八分的E4在这对声部中是经过性不协和。",
+        "低音巴松同时维持E1，故不能把这个局部经过音判断直接扩大为全织体的和弦外音。这里是分层的自由声部关系，不是卡农或赋格。"
+      ],
+      "limits": [
+        "局部严格音程检查不等于整段采用严格对位法；句末及完整调性功能不在该两小节内确证。"
+      ],
+      "window_ids": [
+        "horn-bassoon-bars-10-11"
+      ],
+      "unit_ids": [],
+      "source_ids": [
+        "ravel-target-score",
+        "ravel-durand-score"
+      ],
+      "source_locator": "所列物理页与符号底稿；物理页、印号和排练号分别记录",
+      "framework": "直接总谱观察 → 声部／音集归约 → 句法与形式论证；人工签核待完成"
+    },
+    {
+      "id": "study-return-harmony",
+      "dimension": "harmony",
+      "title": "弦乐D/A → E/A：相邻攻击不呈终止四六解决",
+      "pages": [
+        15,
+        15
+      ],
+      "observations": [
+        "弱起中第二小提琴为A3–D4–F♯4，中提琴有低A3；下一攻击小提琴移至B3–E4–G♯4，A持续。"
+      ],
+      "reasoning": [
+        "所取攻击层第一切片为D大三和弦第二转位；在D语境中可标I6/4。",
+        "规范终止四六在A低音上通常涉及D→C♯、F♯→E；这里观察到D→E、F♯→G♯的上行，与该解决模式不符。",
+        "更合适的局部解释是上层三和弦平移与A持续层叠合；不能把第二切片仅凭E大三和弦就宣布为向A解决的V/V。"
+      ],
+      "limits": [
+        "仅针对选取的弦乐攻击层，不包含钢琴踏板余响；全体最低音、后续D到达和终止功能需另论。"
+      ],
+      "window_ids": [
+        "strings-return-two-attacks"
+      ],
+      "unit_ids": [],
+      "source_ids": [
+        "ravel-target-score",
+        "ravel-durand-score"
+      ],
+      "source_locator": "所列物理页与符号底稿；物理页、印号和排练号分别记录",
+      "framework": "直接总谱观察 → 声部／音集归约 → 句法与形式论证；人工签核待完成"
+    },
+    {
+      "id": "study-opening-orch",
+      "dimension": "orchestration",
+      "title": "低弦三层配置：用持续与运动分配职责",
+      "pages": [
+        1,
+        3
+      ],
+      "observations": [
+        "首小节仅低弦建立背景；大提琴长音、低音提琴长音与六连音分层；低音巴松在其后进入。"
+      ],
+      "reasoning": [
+        "低音支撑与内部流动先分配给同族不同分部，随后以低音木管形成旋律前景；音区接近不等于职责相同。",
+        "圆号加入后应把八度加倍旋律视为一个音色层，不能仅按乐器数量计算声部独立性。"
+      ],
+      "limits": [
+        "此事件按页显示配器背景，不伪装成当前拍所有乐器的活动清单。"
+      ],
+      "window_ids": [
+        "opening-bar-1"
+      ],
+      "unit_ids": [],
+      "source_ids": [
+        "ravel-target-score",
+        "ravel-durand-score"
+      ],
+      "source_locator": "所列物理页与符号底稿；物理页、印号和排练号分别记录",
+      "framework": "直接总谱观察 → 声部／音集归约 → 句法与形式论证；人工签核待完成",
+      "instrument_activity": [
+        {
+          "group": "大提琴持续分部",
+          "concert_range": [
+            "D2",
+            "G2"
+          ],
+          "range_scope": "首小节",
+          "role": "持续和声层"
+        },
+        {
+          "group": "低音提琴持续分部",
+          "concert_range": [
+            "E1",
+            "A1"
+          ],
+          "range_scope": "首小节",
+          "role": "低音支点"
+        },
+        {
+          "group": "低音提琴活动分部",
+          "concert_range": [
+            "E1",
+            "G2"
+          ],
+          "range_scope": "首小节",
+          "role": "六连音分解运动"
+        }
+      ]
+    },
+    {
+      "id": "study-orch-51",
+      "dimension": "orchestration",
+      "title": "第51页：木管／竖琴短音与钢琴流动层",
+      "pages": [
+        51,
+        51
+      ],
+      "observations": [
+        "上方长笛、短笛与竖琴以短音组织；竖琴上谱表有8度标记。钢琴连续十六分音型。",
+        "小提琴、中提琴标有pizz.；本页所查两个系统的大提琴、低音提琴休止。"
+      ],
+      "reasoning": [
+        "高音短音层、连续流动层与拨弦支点形成三种攻击／衰减方式；低弦退出减少持续低音重量，透明度来自职责配置。",
+        "这是配器改变结构连续性的可见证据，不必等全页MIDI逐音匹配。"
+      ],
+      "limits": [
+        "未把视觉配置当作已测得的听觉融合；精确最高最低实音未逐音录入。"
+      ],
+      "window_ids": [],
+      "unit_ids": [
+        "texture-51"
+      ],
+      "source_ids": [
+        "ravel-target-score"
+      ],
+      "source_locator": "所列物理页与符号底稿；物理页、印号和排练号分别记录",
+      "framework": "直接总谱观察 → 声部／音集归约 → 句法与形式论证；人工签核待完成",
+      "instrument_activity": [
+        {
+          "group": "长笛／短笛／竖琴",
+          "range_scope": "高音区，未作逐音极值统计",
+          "notation": "短音、竖琴八度标记",
+          "role_hypothesis": "短音前景与色彩组合"
+        },
+        {
+          "group": "钢琴",
+          "range_scope": "中高音流动层，未作逐音极值统计",
+          "notation": "连续十六分音型",
+          "role_hypothesis": "连续运动层"
+        },
+        {
+          "group": "小提琴／中提琴",
+          "notation": "pizz.",
+          "role_hypothesis": "拨弦支点"
+        },
+        {
+          "group": "大提琴／低音提琴",
+          "notation": "所查两个系统休止",
+          "role_hypothesis": "当前不承担持续低音层"
+        }
+      ]
+    },
+    {
+      "id": "study-orch-overlap",
+      "dimension": "orchestration",
+      "title": "第95页：低弦先入，低音单簧管随后弱起",
+      "pages": [
+        95,
+        96
+      ],
+      "observations": [
+        "第95页末系统，钢琴复合层继续；中提琴、大提琴分部及低音提琴以p长音进入，低音单簧管稍后弱起。",
+        "同一系统上方多组木管、圆号与小提琴仍有休止，不是全乐队同时重入。"
+      ],
+      "reasoning": [
+        "配器从独奏内部多层逐步扩展为独奏—乐队叠层，入口跨越华彩末尾；形式边界因重叠而展开，而非在新页齐截。"
+      ],
+      "limits": [
+        "这里记录实际入口先后；尚未对进入各音逐一判和声功能或同主题身份。"
+      ],
+      "window_ids": [],
+      "unit_ids": [
+        "overlap"
+      ],
+      "source_ids": [
+        "ravel-target-score"
+      ],
+      "source_locator": "所列物理页与符号底稿；物理页、印号和排练号分别记录",
+      "framework": "直接总谱观察 → 声部／音集归约 → 句法与形式论证；人工签核待完成",
+      "instrument_activity": [
+        {
+          "group": "中提琴／大提琴／低音提琴",
+          "notation": "p长音先入",
+          "role_hypothesis": "支撑层逐步重建"
+        },
+        {
+          "group": "低音单簧管",
+          "notation": "稍后弱起进入",
+          "role_hypothesis": "低音木管线条"
+        },
+        {
+          "group": "钢琴",
+          "notation": "旋律与装饰层继续",
+          "role_hypothesis": "保留独奏连续性"
+        }
+      ]
+    },
+    {
+      "id": "study-form-intro",
+      "dimension": "form",
+      "title": "材料预呈示：引子与独奏的边界",
+      "pages": [
+        1,
+        10
+      ],
+      "observations": [
+        "低音区持续层、低音巴松与圆号材料先后进入；段尾与独奏交接需按实际入口区分。"
+      ],
+      "reasoning": [
+        "主题材料先于独奏出现，第一华彩可承担呈示性功能，而非单纯插入炫技。"
+      ],
+      "limits": [
+        "这些是可修订的导航范围，页界不是已核定的乐句或曲式边界；主题身份、终止类型另记证据。"
+      ],
+      "window_ids": [],
+      "unit_ids": [
+        "work",
+        "intro",
+        "p-low",
+        "p-horn"
+      ],
+      "source_ids": [
+        "ravel-target-score"
+      ],
+      "source_locator": "所列物理页与符号底稿；物理页、印号和排练号分别记录",
+      "framework": "直接总谱观察 → 声部／音集归约 → 句法与形式论证；人工签核待完成"
+    },
+    {
+      "id": "study-form-cad1",
+      "dimension": "form",
+      "title": "首次华彩：开场、接续与强化的工作层级",
+      "pages": [
+        10,
+        15
+      ],
+      "observations": [
+        "独奏接管音区与时间；内部自由姿态、歌唱层与强化运动需分别划分乐句。"
+      ],
+      "reasoning": [
+        "以低音支点、旋律持续音、装饰密度及结束姿态划分内部功能；不能把每次a Tempo都当作新部。"
+      ],
+      "limits": [
+        "这些是可修订的导航范围，页界不是已核定的乐句或曲式边界；主题身份、终止类型另记证据。"
+      ],
+      "window_ids": [],
+      "unit_ids": [
+        "work",
+        "cad1",
+        "p-cad-open"
+      ],
+      "source_ids": [
+        "ravel-target-score"
+      ],
+      "source_locator": "所列物理页与符号底稿；物理页、印号和排练号分别记录",
+      "framework": "直接总谱观察 → 声部／音集归约 → 句法与形式论证；人工签核待完成"
+    },
+    {
+      "id": "study-form-orch1",
+      "dimension": "form",
+      "title": "重入：主题确认与低音到达分阶段",
+      "pages": [
+        15,
+        24
+      ],
+      "observations": [
+        "弦乐攻击层先呈D/A，深低音随后进入；到达是分阶段过程。"
+      ],
+      "reasoning": [
+        "所取弦乐I6/4与深低音后置说明到达不是一颗静止的原位I；用配器和低音共同检验形式功能。"
+      ],
+      "limits": [
+        "这些是可修订的导航范围，页界不是已核定的乐句或曲式边界；主题身份、终止类型另记证据。"
+      ],
+      "window_ids": [],
+      "unit_ids": [
+        "work",
+        "orch1"
+      ],
+      "source_ids": [
+        "ravel-target-score"
+      ],
+      "source_locator": "所列物理页与符号底稿；物理页、印号和排练号分别记录",
+      "framework": "直接总谱观察 → 声部／音集归约 → 句法与形式论证；人工签核待完成"
+    },
+    {
+      "id": "study-form-lyric-area",
+      "dimension": "form",
+      "title": "抒情对比：句法先于副部命名",
+      "pages": [
+        24,
+        32
+      ],
+      "observations": [
+        "Più lento、Andante、歌唱层及英国管进入提供证据；副部功能未确立。"
+      ],
+      "reasoning": [
+        "Più lento与Andante、歌唱层与流动伴奏形成对比；是否承担副部功能须继续检查终止、调性及主题对应。"
+      ],
+      "limits": [
+        "这些是可修订的导航范围，页界不是已核定的乐句或曲式边界；主题身份、终止类型另记证据。"
+      ],
+      "window_ids": [],
+      "unit_ids": [
+        "work",
+        "lyric-area",
+        "p-lyric"
+      ],
+      "source_ids": [
+        "ravel-target-score"
+      ],
+      "source_locator": "所列物理页与符号底稿；物理页、印号和排练号分别记录",
+      "framework": "直接总谱观察 → 声部／音集归约 → 句法与形式论证；人工签核待完成"
+    },
+    {
+      "id": "study-form-fast-area",
+      "dimension": "form",
+      "title": "快段：对比区与发展空间",
+      "pages": [
+        33,
+        90
+      ],
+      "observations": [
+        "Allegro与6/8构成强对比；内部51、82页只作进一步修订节点，不以页码定独立分部。"
+      ],
+      "reasoning": [
+        "Allegro及6/8提供强对比；51页的织体转折是内部节点，不因变配器自动独立成部。"
+      ],
+      "limits": [
+        "这些是可修订的导航范围，页界不是已核定的乐句或曲式边界；主题身份、终止类型另记证据。"
+      ],
+      "window_ids": [],
+      "unit_ids": [
+        "work",
+        "fast-area",
+        "texture-51"
+      ],
+      "source_ids": [
+        "ravel-target-score"
+      ],
+      "source_locator": "所列物理页与符号底稿；物理页、印号和排练号分别记录",
+      "framework": "直接总谱观察 → 声部／音集归约 → 句法与形式论证；人工签核待完成"
+    },
+    {
+      "id": "study-form-cad2",
+      "dimension": "form",
+      "title": "后华彩：重组与回忆的检验空间",
+      "pages": [
+        91,
+        94
+      ],
+      "observations": [
+        "Cadenza标记与独奏复合层明确；是否重述原主题须保留音程与节奏见证。"
+      ],
+      "reasoning": [
+        "先比较主题轮廓与乐句功能，再讨论与首次华彩的关系；目前不把同为华彩当作同一主题或严格再现。"
+      ],
+      "limits": [
+        "这些是可修订的导航范围，页界不是已核定的乐句或曲式边界；主题身份、终止类型另记证据。"
+      ],
+      "window_ids": [],
+      "unit_ids": [
+        "work",
+        "cad2",
+        "p-late"
+      ],
+      "source_ids": [
+        "ravel-target-score"
+      ],
+      "source_locator": "所列物理页与符号底稿；物理页、印号和排练号分别记录",
+      "framework": "直接总谱观察 → 声部／音集归约 → 句法与形式论证；人工签核待完成"
+    },
+    {
+      "id": "study-form-overlap",
+      "dimension": "form",
+      "title": "华彩末尾：重叠式返回／收束",
+      "pages": [
+        95,
+        99
+      ],
+      "observations": [
+        "低弦及低音木管进入仍持续的钢琴，边界不是齐奏式截断。"
+      ],
+      "reasoning": [
+        "低弦与低音单簧管在钢琴尚未终止时进入，配器证据支持渐进的管弦乐重建。"
+      ],
+      "limits": [
+        "这些是可修订的导航范围，页界不是已核定的乐句或曲式边界；主题身份、终止类型另记证据。"
+      ],
+      "window_ids": [],
+      "unit_ids": [
+        "work",
+        "overlap"
+      ],
+      "source_ids": [
+        "ravel-target-score"
+      ],
+      "source_locator": "所列物理页与符号底稿；物理页、印号和排练号分别记录",
+      "framework": "直接总谱观察 → 声部／音集归约 → 句法与形式论证；人工签核待完成"
+    },
+    {
+      "id": "study-form-coda",
+      "dimension": "form",
+      "title": "末尾Allegro：压缩收束",
+      "pages": [
+        100,
+        100
+      ],
+      "observations": [
+        "速度性格回返与结尾D中心支持收束；不未经进行核验就标正格终止。"
+      ],
+      "reasoning": [
+        "速度性格回返与结尾D中心支持尾声读法；未核清的属—主进行不标作已证实正格终止。"
+      ],
+      "limits": [
+        "这些是可修订的导航范围，页界不是已核定的乐句或曲式边界；主题身份、终止类型另记证据。"
+      ],
+      "window_ids": [],
+      "unit_ids": [
+        "work",
+        "coda"
+      ],
+      "source_ids": [
+        "ravel-target-score"
+      ],
+      "source_locator": "所列物理页与符号底稿；物理页、印号和排练号分别记录",
+      "framework": "直接总谱观察 → 声部／音集归约 → 句法与形式论证；人工签核待完成"
+    }
+  ],
+  "research_policy": {
+    "primary_goal": "产生有证据的音乐理论判断",
+    "global_match_clearance_required": false,
+    "harmony_and_counterpoint": "只在直接录入并可人工签核的窗口上作精细判断",
+    "orchestration": "直接总谱核查，可独立于MIDI覆盖",
+    "form": "主题—乐句—段落—全曲的可修订层级",
+    "human_review_count": 0,
+    "expert_review_count": 0,
+    "scope_rule": "旧自动引擎的A/B与C/D开关只约束其自动逐音实验；直接配器和全曲结构研究独立开展，不以未匹配数量作门槛。",
+    "success_criteria": [
+      "局部音名／时值底稿可核查，签核状态明确",
+      "理论结论给出声部与音程证据及适用范围",
+      "配器的事实与职责解释分开",
+      "主题与形式关系可修订，未决边界不伪装确定",
+      "诊断不承担研究准入门槛"
+    ]
+  },
+  "diagnostics_report": "analysis/score-studies/ravel-diagnostic-classification-20261026.json",
+  "track_id": "ravel-left-hand",
+  "method_sources": [
+    {
+      "title": "Open Music Theory — Strengthening Endings with Cadential 6/4",
+      "url": "https://viva.pressbooks.pub/openmusictheory/chapter/cadential-64/",
+      "reading_status": "relevant_sections_checked",
+      "scope": "Resolution：同声部6–5、4–3的规范；仅用于检验，不代替拉威尔谱面。"
+    },
+    {
+      "title": "Music Theory for the 21st-Century Classroom — Passing Tones",
+      "url": "https://musictheory.pugetsound.edu/mt21c/PassingTones.html",
+      "reading_status": "relevant_sections_checked",
+      "scope": "10.2经过音的级进填充；局部判定不自动决定全织体和弦外音。"
+    }
+  ],
+  "revision": "2026-10-26-v1"
+}

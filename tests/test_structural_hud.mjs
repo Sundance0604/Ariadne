@@ -26,7 +26,7 @@ test('HUD discloses page background and does not rebuild unchanged dimensions',(
   hud.update({playingPage:2,browsedPage:8,time:11});
   assert.equal(orchestration.replacements,count);
   assert.doesNotMatch($('structural-hud').textContent,/hypothesis A/);
-  hud.update({playingPage:null,browsedPage:1});assert.match($('structural-hud').textContent,/暂无可靠分析/);
+  hud.update({playingPage:null,browsedPage:1});assert.match($('structural-hud').textContent,/待分析/);
   hud.reset();assert.doesNotMatch($('structural-hud').textContent,/instrument C/);
 });
 test('navigation never turns page precision or candidate times into exact seeking',()=>{

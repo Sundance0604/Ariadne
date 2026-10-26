@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-26",
+  "track_id": "ravel-left-hand",
+  "study_path": "analysis/score-studies/ravel-study-20261026.json",
+  "study_sha256": "6763a6720d4a72ce327259e314c8bd3b6647d30600293e1342c3db8690e4421c",
+  "scope": {
+    "windows": 3,
+    "window_modes": {
+      "metric": 2,
+      "attack_snapshots": 1
+    },
+    "study_events": 15,
+    "event_dimensions": {
+      "harmony": 2,
+      "counterpoint": 2,
+      "orchestration": 3,
+      "form": 8
+    },
+    "form_units": 15,
+    "materials": 5,
+    "form_status": "revisable_working_hierarchy_not_fixed_sonata_template",
+    "human_signoffs": 0,
+    "expert_reviews": 0,
+    "transcription_status": "agent entered and image checked; human sign-off pending; not a full-score transcription"
+  },
+  "source_scores": [
+    {
+      "id": "ravel-target-score",
+      "path": "resource/ravel left hand piano concerto/maurice-ravel-piano-concerto-for-the-left-hand.pdf",
+      "page_count": 100,
+      "sha256": "67aa60cc89160ea7e475fd7fa45352ec6e0c45f6cd3557421d8caafc18531083"
+    },
+    {
+      "id": "ravel-durand-score",
+      "path": "resource/ravel left hand piano concerto/IMSLP01581-Ravel_-_Piano_Concerto_for_the_Left_Hand_(Orchestral_Score).pdf",
+      "page_count": 99,
+      "sha256": "4ef405bb68ad16fbd8011af6a3e9f19de104b1631accfbd8661bd59fa3b4e149"
+    }
+  ],
+  "tests": {
+    "python": {
+      "run": 131,
+      "passed": 129,
+      "skipped": 2,
+      "log": "tmp/score-studies/all-python-tests.log",
+      "runtime": "conda synctoolbox"
+    },
+    "frontend": {
+      "run": 30,
+      "passed": 30,
+      "log": "tmp/score-studies/all-frontend-tests.log"
+    },
+    "actual_modules_and_http": {
+      "passed": true,
+      "log": "tmp/score-studies/module-integration.log",
+      "method": "in-memory DOM with actual modules and local HTTP; not browser playback"
+    },
+    "main_server_http": {
+      "research": {
+        "status": 200,
+        "study_events": 15
+      },
+      "score-studies": {
+        "status": 200,
+        "study_events": 15
+      },
+      "opening-bar-1": {
+        "status": 200,
+        "image_sha256": "7e8fdefa96adb915f860c8d6dc190bbf245f50095371131ed55532f6e3db67aa"
+      },
+      "horn-bassoon-bars-10-11": {
+        "status": 200,
+        "image_sha256": "60930e2552849c1cc5b78eef51c3e8ac01e9eb3f85175c20f7d181c2fbd242f0"
+      },
+      "strings-return-two-attacks": {
+        "status": 200,
+        "image_sha256": "ee54232f051f3c7fb7275c5d6924648d94b8b090342601d5e6247051731f86db"
+      }
+    }
+  },
+  "preservation": {
+    "protected_inputs": {
+      "alignment.json": true,
+      "measure-map.json": true,
+      "metadata/recording.json": true,
+      "analysis/hermeneutic-essays.json": true,
+      "works/mahler-4/review-anchors.json": true
+    },
+    "engine_manifest_unchanged": true,
+    "engine_run": "analysis/engine/ravel-pilot/round1-a7657439303a57e6",
+    "engine_manifest_sha256": "86a7d0eb41a60da376d9d29df3bd9da345aa47ca424bd62e737be25f4df399fe",
+    "matching_or_transcription_automatically_changed": false
+  },
+  "diagnostics": {
+    "record_count": 439,
+    "counts": {
+      "percussion": 147,
+      "tremolo": 0,
+      "octave": 8,
+      "transposition": 5,
+      "rhythm": 224,
+      "pedal": 1,
+      "confirmed_error": 0,
+      "unresolved": 54
+    },
+    "automatic_corrections": 0,
+    "research_gate": "none",
+    "status": "classification hypotheses; not certified mismatch causes"
+  },
+  "browser": {
+    "real_browser_tested": false,
+    "reason": "Local browser use is disabled in Work settings",
+    "actual_playback_or_listening_done": false
+  },
+  "publication": {
+    "committed_this_round": false,
+    "pushed_this_round": false
+  }
+}
