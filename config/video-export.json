@@ -4,10 +4,20 @@
   "sample_document": "local/video-export/ravel-sample.json",
   "font_settings": "local/video-export/font-sizes.json",
   "latest_video": "local/video-export/latest-video.txt",
+  "visual_panel_settings": "local/video-export/prokofiev2-visual-panels.json",
+  "visual_parts": "works/prokofiev-piano-concerto-2/metadata/visual-parts.json",
+  "visual_latest": "local/video-export/prokofiev2-visual-latest.json",
+  "visual_sample_root": "output/video-export",
   "full_package": "output/video-export/ravel-full-001",
   "full_document": "output/video-export/ravel-full-001/captions-editable.json",
-  "editor_default_project": "mother-goose",
+  "editor_default_project": "prokofiev2-full",
   "editor_projects": [
+    {
+      "id": "prokofiev2-full",
+      "title": "普罗第二钢协 · 王羽佳／雅尔维完整版",
+      "package": "output/video-export/prokofiev2-full-001",
+      "document": "works/prokofiev-piano-concerto-2/video-export/captions-editable.json"
+    },
     {
       "id": "mother-goose",
       "title": "拉威尔鹅妈妈 · 完整芭蕾七章",

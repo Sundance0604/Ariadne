@@ -28,7 +28,7 @@ export function createExportRenderer(input){
   function dimensions(box){
     const scale=Math.min(viewport.w/box.page_width_pt,viewport.h/box.page_height_pt)*zoom;
     const width=box.page_width_pt*scale,height=box.page_height_pt*scale;
-    return {scale,width,height,x:Math.max(0,(viewport.w-width)/2),y:Math.max(0,(viewport.h-height)/2)};
+    return {scale,width,height,x:Math.max(0,(viewport.w-width)/(viewport.align==='right'?1:2)),y:Math.max(0,(viewport.h-height)/2)};
   }
   const follows=[];let last=null,scroll={top:0,left:0},page=null;
   for(const t of times){
@@ -51,7 +51,7 @@ export function createExportRenderer(input){
     const {box,region,m}=locate(videoTime);
     const follow=follows.findLast(f=>f.time<=videoTime),page=box?.page_number??follow?.page??1;
     const covered=scoreTimeCovered(alignment.score_time_coverage,videoTime)&&musicTime>=0;
-    const interpretation=(input.annotations||[]).some(e=>e.slot==='interpretation'&&e.phase!=='intro'&&videoTime>=e.video_start&&videoTime<e.video_end);
+    const interpretation=config.interpretation_hides_score!==false&&(input.annotations||[]).some(e=>e.slot==='interpretation'&&e.phase!=='intro'&&videoTime>=e.video_start&&videoTime<e.video_end);
     const visible=covered&&!interpretation;
     const d=box||follow?.box?dimensions(box||follow.box):null,scroll=follow?.scroll||{top:0,left:0};
     const percent=box?highlightPercent(box):null;
@@ -63,7 +63,7 @@ export function createExportRenderer(input){
     const position=box&&covered&&!unreliable&&!invalid?playheadPosition(alignment.time_map,videoTime,box,region):null;
     return {outputTime,videoTime,musicTime,viewport:{...viewport},visible,page,measureId:m?.measure_id,
       pageGeometry:d?{...d,scroll}:null,highlight:visible&&!invalid&&!unreliable?rect:null,
-      playhead:visible&&position?{x:viewport.x+d.x+position.leftPercent/100*d.width-scroll.left,
+      playhead:visible&&position&&!box.suppress_playhead?{x:viewport.x+d.x+position.leftPercent/100*d.width-scroll.left,
         y:regions.length?rect[1]:viewport.y+d.y-scroll.top,height:regions.length?rect[3]:d.height}:null,
       issue:covered&&!box?'unlocated_score_interval_page_only':invalid?'invalid_or_whole_page_highlight':unreliable?'low_confidence_location_hidden':null};
   }
@@ -72,6 +72,7 @@ export function createExportRenderer(input){
     const videoTimes=[...times,...regions.map(r=>r.audioEnd),
       ...alignment.time_map.map(p=>p.audio_seconds),config.music_start_video,
       alignment.score_time_coverage?.end_seconds,
+      ...(alignment.score_time_coverage?.segments||[]).flatMap(s=>[s.start_seconds,s.end_seconds]),
       ...(input.annotations||[]).flatMap(e=>[e.video_start,e.video_end])].filter(Number.isFinite);
     for(const s of segments){boundaries.add(s.output_start);boundaries.add(s.output_end);
       for(const v of videoTimes)if(v>s.video_start&&v<s.video_end)boundaries.add(s.output_start+v-s.video_start);}

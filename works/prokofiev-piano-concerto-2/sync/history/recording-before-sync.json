@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "work": {
+    "id": "prokofiev-piano-concerto-2",
+    "composer": "Sergei Prokofiev",
+    "title": "Piano Concerto No. 2 in G minor, Op.16"
+  },
+  "recording": {
+    "id": "horobets-wang-jarvi-berlin-reference",
+    "soloist": "Yuja Wang / 王羽佳",
+    "conductor": "Paavo Järvi / 帕沃·雅尔维",
+    "orchestra": "Berliner Philharmoniker / 柏林爱乐乐团",
+    "selection_status": "user_selected_literature_version; download_in_progress",
+    "identity_status": "intended_performance_selected; local_file_not_bound",
+    "identity_sources": [
+      {
+        "type": "user_statement",
+        "date": "2026-10-27",
+        "value": "User found the Wang/Paavo Järvi version discussed above, is downloading it and will add it to the folder."
+      },
+      {
+        "type": "literature_reference",
+        "source_id": "G",
+        "printed_page": 115
+      }
+    ],
+    "reference_url": "https://www.youtube.com/watch?v=vB6Hz-VQSKw",
+    "source_url": null,
+    "official_related_event_year": 2015,
+    "paper_reported_year": 2017,
+    "concert_date": null,
+    "date_status": "Official relevant event is May 2015; paper footnote says 2017; exact incoming clip not inspected.",
+    "media": null,
+    "auditory_review": {
+      "status": "not_performed",
+      "reviewed_intervals": []
+    },
+    "score_alignment": null,
+    "human_signoff": null
+  },
+  "analysis_document": "works/prokofiev-piano-concerto-2/analysis/full-analysis.md",
+  "score": {
+    "path": "resource/PROKOFIEV PIANO CONCERTO 2/IMSLP66128-PMLP04521-Prokofiev_-_Piano_Concerto_No._2,_Op._16_(orch._score).pdf",
+    "sha256": "ab89aa71fc4e29d9305b43302e9013d0b8715d7bdfa2ab826f83ada3533dc26a"
+  },
+  "recording_projection": null,
+  "expert_review": null,
+  "previous_recording_metadata": "works/prokofiev-piano-concerto-2/metadata/recording-bringuier-tonhalle.json"
+}

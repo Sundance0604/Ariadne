@@ -102,10 +102,11 @@ export function createStructuralHUD({onEssay,onEvidence,onOpen=()=>{},onMeasure=
       detail.append(node('h4','跨时背景 · 独立有效区间'),node('p',h.contextual.length?h.contextual.map(c=>`${c.label} · XML四分音符[${c.start_q}, ${c.end_q})`).join('；'):'背景和声待结合前后文归约；不继承上一瞬时和弦。'));
     }else if(dimension==='orchestration'){
       detail.append(node('h4','谱面事实 · 当前活跃分部'),node('p',`${v.orchestration.activeParts.length}个XML分部；不是乐器种类、演奏员或独立旋律条数。`));
+      for(const warning of v.orchestration.uncertainty)detail.append(node('p',warning));
       for(const family of ['木管','铜管','打击乐','键盘／拨弦','弦乐','其他分部']){
         const parts=v.orchestration.activeParts.filter(p=>(p.family||partFamily(p.part_id))===family);if(!parts.length)continue;
         detail.append(node('h4',family));
-        for(const part of parts)detail.append(node('p',`${part.label}（${part.part_id}）· ${part.pitches.join('、')||'非定音'} · 规则职责候选：${part.roles.join('／')}。实际instrument_ref、奏法和起止见音符底稿。`));
+        for(const part of parts)detail.append(node('p',`${part.label}（${part.part_id}）· ${part.pitches.join('、')||'非定音'} · ${part.roles.length?'规则职责候选：'+part.roles.join('／'):'织体职责见本段分析'}。实际instrument_ref、奏法和起止见音符底稿。`));
       }
       detail.append(node('p',`与前一记谱帧比较，进入：${v.orchestration.transitions.entered.map(p=>p.label).join('、')||'无'}；退出：${v.orchestration.transitions.exited.map(p=>p.label).join('、')||'无'}。`),
         node('h4','理论分析 · 织体与交接'),node('p','最高音不自动等于主旋律；同一钢琴分部可含多个谱表与声部，不按左／右手虚构分工。未核验的职责保留候选。'));

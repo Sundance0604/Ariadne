@@ -116,3 +116,18 @@
 先取 Dmytrenko 与 Marzec 的核心章节，核对华彩和曲式模型；Horobets 用于演奏诠释比较。和声与乐句边界再参考 Rifkin、Pedersen，始终将文献判断落回明确的谱页与声部。Akalın 保留为待取得原文的线索。XML 局部编码问题不妨碍这一步文献与直接读谱研究，但不应进入自动化精细分析后再被误认为音乐事实。
 
 视频、本地素材与原XML均未上传；没有提交或推送Git。
+
+## 同日补充：用户取得的两份 PDF
+
+原先“只读摘要／未取得原文”的记录描述初次检索范围。用户随后提供了以下本地文件，原件保留；不再需要为这两项取得原文而使用大学网络。本次补充没有把它们标为全文已通读，也没有将出版商页数与本地 PDF 物理页数混用。
+
+| 文件 | 本地状态与实际阅读范围 |
+|---|---|
+| `resource/PROKOFIEV PIANO CONCERTO 2/research/Prokofiev’s Second Piano Concerto Its Genesis, Form, and Narrative Structure.pdf` | 149物理页，文字可提取；已读题名页、摘要、目录与谱例目录（物理1–9页），正文分析未通读。目录中第五至八章分别讨论四个乐章，可先将其作为本协奏曲的主要研究文献。SHA-256：`1086aca27e800b72a1adc836fff20d5025937f1f2b28862d9c8d3719d5392364`。 |
+| `resource/PROKOFIEV PIANO CONCERTO 2/research/A_Theory_of_Motives_for_Prokof.pdf` | 27物理页，文字可提取；已检查前3物理页，尚未通读全文。可先作为动机及半音语言的方法参照，不能据此宣称它逐小节研究了第二协奏曲。SHA-256：`69a31a383725a7a84b2c637f1d5145ad068835e0a89d0815cbb83b2e59fa8659`。 |
+
+这两份材料足以启动下一步章节阅读与谱例核查，其余五项仍作为补充来源；不以凑齐所有PDF作为研究门槛。新增的本地论文文件未提交或上传。
+
+### 同日继续的章节阅读与分析
+
+随后已选读Marzec的四章分析、总结与相关历史段落，以及Rifkin的方法和结论，并完成[四乐章分析正文](../works/prokofiev-piano-concerto-2/analysis/full-analysis.md)。上面的摘要／开头阅读状态保留为初次检索与收件时记录；本轮最新物理页范围、实际用途和限制见[分析来源台账](../works/prokofiev-piano-concerto-2/analysis/sources.json)。仍未将两篇文献标为全篇通读，也未把作者的叙事判断变成作曲家指定的情节。

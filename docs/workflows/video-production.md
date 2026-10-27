@@ -4,10 +4,12 @@
 
 ## 1. 先确认要修改的文件
 
-唯一日常入口是根目录的 `编辑视频字幕.bat`，启动后选择鹅妈妈完整芭蕾、拉威尔左手钢协完整版或95秒样片。项目的资源包与字幕文稿成对保存在 `config/video-export.json` 的 `editor_projects` 中，默认选中 `editor_default_project`，不会把另一部作品的文稿写入当前项目：
+唯一日常入口是根目录的 `编辑视频字幕.bat`，启动后选择普罗第二钢协完整版、鹅妈妈完整芭蕾、拉威尔左手钢协完整版或95秒样片。项目的资源包与字幕文稿成对保存在 `config/video-export.json` 的 `editor_projects` 中，默认选中 `editor_default_project`，不会把另一部作品的文稿写入当前项目：
 
 | 内容 | 当前位置 |
 |---|---|
+| 普二完整版资源包 | `output/video-export/prokofiev2-full-001/` |
+| 普二可编辑字幕 | `works/prokofiev-piano-concerto-2/video-export/captions-editable.json` |
 | 鹅妈妈资源包 | `output/video-export/mother-goose-full-001/` |
 | 鹅妈妈编辑文稿 | `works/ravel-mother-goose-video/video-export/captions-optimized.json` |
 | 完整版资源包 | `output/video-export/ravel-full-001/` |
@@ -17,6 +19,8 @@
 | 最近成功视频的位置 | `local/video-export/latest-video.txt` |
 
 不要从旧MP4反推当前字幕。用户编辑后的JSON是下一次制作的输入，旧 `edits-XXX/editing.json`只是那一次成片的快照。
+
+普二当前有218条字幕、原PDF和双可视化。2026-10-27根据用户成片反馈收紧四栏，普通分析读完渐隐，乐谱纸张贴右；诠释改为宽幅缓升长文，显示期间暂时让出分析区与PDF，随后恢复当前谱页。之后为十段长空白增加18条（3长、15短），按已有谱面事件进入，保留阅读间隔及乐章停顿。只更新JSON、ASS与同步计划，用户自行生成和核查。详见[普二完整版指南](../guides/prokofiev2-full-video.md)。其他曲目未启用的新呈现规则保持原行为。
 
 ## 2. 只修改现有视频字幕
 

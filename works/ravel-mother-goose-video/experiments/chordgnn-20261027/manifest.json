@@ -1,0 +1,688 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-27",
+  "status": "successor_inferred_original_model_weights_unavailable",
+  "cases": [
+    {
+      "id": "prelude",
+      "title": "前奏：三和弦与半音织体",
+      "movement": 1,
+      "bars": [
+        1,
+        12
+      ],
+      "context_bars": [
+        1,
+        16
+      ],
+      "start_q": "0",
+      "end_q": "48",
+      "context_start_q": "0",
+      "context_end_q": "64",
+      "recording_start_seconds": 28.6,
+      "recording_end_seconds": 86.80000000000001,
+      "note_count": 537,
+      "input_basis": "Derived concert-pitch note intervals from current canonical ballet reference, not raw re-parsed alternate XML; explicit ties joined and clipping recorded."
+    },
+    {
+      "id": "spinning",
+      "title": "纺车舞：快速运动",
+      "movement": 2,
+      "bars": [
+        1,
+        16
+      ],
+      "context_bars": [
+        1,
+        20
+      ],
+      "start_q": "180",
+      "end_q": "228",
+      "context_start_q": "180",
+      "context_end_q": "240",
+      "recording_start_seconds": 231.2,
+      "recording_end_seconds": 250.98,
+      "note_count": 739,
+      "input_basis": "Derived concert-pitch note intervals from current canonical ballet reference, not raw re-parsed alternate XML; explicit ties joined and clipping recorded."
+    },
+    {
+      "id": "pavane",
+      "title": "帕凡舞：旋律与持续背景",
+      "movement": 3,
+      "bars": [
+        1,
+        12
+      ],
+      "context_bars": [
+        1,
+        16
+      ],
+      "start_q": "541",
+      "end_q": "589",
+      "context_start_q": "541",
+      "context_end_q": "605",
+      "recording_start_seconds": 441.0,
+      "recording_end_seconds": 488.54,
+      "note_count": 332,
+      "input_basis": "Derived concert-pitch note intervals from current canonical ballet reference, not raw re-parsed alternate XML; explicit ties joined and clipping recorded."
+    },
+    {
+      "id": "beauty",
+      "title": "美女与野兽：声部与和声",
+      "movement": 4,
+      "bars": [
+        1,
+        16
+      ],
+      "context_bars": [
+        1,
+        20
+      ],
+      "start_q": "706",
+      "end_q": "754",
+      "context_start_q": "706",
+      "context_end_q": "766",
+      "recording_start_seconds": 580.2,
+      "recording_end_seconds": 597.58,
+      "note_count": 325,
+      "input_basis": "Derived concert-pitch note intervals from current canonical ballet reference, not raw re-parsed alternate XML; explicit ties joined and clipping recorded."
+    },
+    {
+      "id": "poucet",
+      "title": "小拇指：流动弦乐",
+      "movement": 5,
+      "bars": [
+        1,
+        16
+      ],
+      "context_bars": [
+        1,
+        20
+      ],
+      "start_q": "1274",
+      "end_q": "1314",
+      "context_start_q": "1274",
+      "context_end_q": "1323",
+      "recording_start_seconds": 870.6,
+      "recording_end_seconds": 907.98,
+      "note_count": 751,
+      "input_basis": "Derived concert-pitch note intervals from current canonical ballet reference, not raw re-parsed alternate XML; explicit ties joined and clipping recorded."
+    },
+    {
+      "id": "pagodes",
+      "title": "宝塔女皇：五声音响",
+      "movement": 6,
+      "bars": [
+        1,
+        16
+      ],
+      "context_bars": [
+        1,
+        20
+      ],
+      "start_q": "1454",
+      "end_q": "1486",
+      "context_start_q": "1454",
+      "context_end_q": "1494",
+      "recording_start_seconds": 1147.0,
+      "recording_end_seconds": 1163.44,
+      "note_count": 725,
+      "input_basis": "Derived concert-pitch note intervals from current canonical ballet reference, not raw re-parsed alternate XML; explicit ties joined and clipping recorded."
+    },
+    {
+      "id": "garden",
+      "title": "花园：慢速和声",
+      "movement": 7,
+      "bars": [
+        1,
+        16
+      ],
+      "context_bars": [
+        1,
+        20
+      ],
+      "start_q": "1862",
+      "end_q": "1910",
+      "context_start_q": "1862",
+      "context_end_q": "1922",
+      "recording_start_seconds": 1448.8,
+      "recording_end_seconds": 1507.04,
+      "note_count": 655,
+      "input_basis": "Derived concert-pitch note intervals from current canonical ballet reference, not raw re-parsed alternate XML; explicit ties joined and clipping recorded."
+    },
+    {
+      "id": "garden-climax",
+      "title": "花园结尾：密集配器",
+      "movement": 7,
+      "bars": [
+        41,
+        56
+      ],
+      "context_bars": [
+        37,
+        56
+      ],
+      "start_q": "1982",
+      "end_q": "2030",
+      "context_start_q": "1970",
+      "context_end_q": "2030",
+      "recording_start_seconds": 1586.1799999999998,
+      "recording_end_seconds": 1635.8,
+      "note_count": 1739,
+      "input_basis": "Derived concert-pitch note intervals from current canonical ballet reference, not raw re-parsed alternate XML; explicit ties joined and clipping recorded."
+    }
+  ],
+  "protected_inputs": [
+    {
+      "path": "resource/mother goose/ma-mere-loye-maurice-ravel.mxl",
+      "sha256": "01ecfe7b3703db80cbc6bdb469fc611b9889c7dbed89662f674afa5e2b142ff3",
+      "bytes": 486948
+    },
+    {
+      "path": "resource/mother goose/new/ma-mere-loye-ii-danse-du-rouet-et-scene.mxl",
+      "sha256": "3f90bbd6d6da72dec211f5894991995626e9cb454263f122cc9a32fe307ff9e5",
+      "bytes": 71174
+    },
+    {
+      "path": "resource/mother goose/new/ma-mere-loye-iii-pavane-de-la-belle-au-bois-dormant.mxl",
+      "sha256": "a3bd296ad0c39f9760b611db39ef34f23625d5bff1a3f179bc7417956edfb3b7",
+      "bytes": 19732
+    },
+    {
+      "path": "resource/mother goose/new/mamerurowa-di7qu-yao-jingno-yuan.mxl",
+      "sha256": "02815c458a65952f16a0a50a0a9b3f1a94140f55dcc727cb2556e9894be2b810",
+      "bytes": 24952
+    },
+    {
+      "path": "resource/mother goose/new/mamerurowa-i-qian-zou-qu.mxl",
+      "sha256": "a5bc8c9d47d8dbf6a6f5afe91952c7a9f04870c98277d90a16bd27eb3cfb5664",
+      "bytes": 34567
+    },
+    {
+      "path": "resource/mother goose/new/mamerurowa-iv-mei-nuto-ye-shouno-dui-hua.mxl",
+      "sha256": "515e8056d64a3da1d750e71065c5e92db5446309963a5fffe8a709a12dc8a0d5",
+      "bytes": 67433
+    },
+    {
+      "path": "works/ravel-mother-goose-video/alignment.json",
+      "sha256": "5f781f0b13e425bf3ac99b04e3a2995a2edc8d003b15b9ab95248f49af93f20d",
+      "bytes": 2453098
+    },
+    {
+      "path": "works/ravel-mother-goose-video/measure-map.json",
+      "sha256": "7b464d4d4ac46defc988a77bc1ed1e6b276559c149e1b9e440e4d5e3d7e7d445",
+      "bytes": 1539796
+    },
+    {
+      "path": "works/ravel-mother-goose-video/media-sync.json",
+      "sha256": "0d573046a3910de2a50a259d1bc86031266478ab7428f371f3f8f7df4a102ed0",
+      "bytes": 5344
+    },
+    {
+      "path": "works/ravel-mother-goose-video/playback/ballet-20261026-v2/analysis.json",
+      "sha256": "a551659b9f0acb5b81145b01adfff727d8ab2a7fd16b255b5370c5b0f2141325",
+      "bytes": 158305
+    },
+    {
+      "path": "works/ravel-mother-goose-video/playback/ballet-20261026-v2/evidence.json",
+      "sha256": "3366886966eacef6a6e397003d439ae89199ff33e8b28d715ca95b7455688ca2",
+      "bytes": 70908783
+    },
+    {
+      "path": "works/ravel-mother-goose-video/playback/ballet-20261026-v2/live.json",
+      "sha256": "4047454be6409faa2bc7af3002a00174073dc533c229928c699a546be1b0bc70",
+      "bytes": 22944815
+    },
+    {
+      "path": "works/ravel-mother-goose-video/playback/ballet-20261026-v2/manifest.json",
+      "sha256": "62105866519080fe9d3e9b6362c999c1d4822f1c8ec1b0e979ec5df52a476ea8",
+      "bytes": 4168
+    },
+    {
+      "path": "works/ravel-mother-goose-video/playback/ballet-20261026-v2/research.json",
+      "sha256": "897f24ef62606e9de0c2890cd67a86c067844a271fdc411becf4adcb5de9b902",
+      "bytes": 990253
+    },
+    {
+      "path": "works/ravel-mother-goose-video/playback/current.json",
+      "sha256": "a4325e1c0a2e10a63765f70fbf7839bbcecc4723c44d498b0aba0375033afe7f",
+      "bytes": 168
+    },
+    {
+      "path": "works/ravel-mother-goose-video/reference/written.json",
+      "sha256": "3b3e9358a02513babb89f1525ad537e2bbe556ad0d438c666eac77fed2ef8d0e",
+      "bytes": 30074170
+    },
+    {
+      "path": "works/ravel-mother-goose-video/video-export/captions-optimized.json",
+      "sha256": "76123c1a84f4b8b502a287e40e300bf1b7596b7e960ba35364f0a562569da916",
+      "bytes": 6336805
+    },
+    {
+      "path": "works/ravel-mother-goose-video/video-export/captions-reviewed.json",
+      "sha256": "74e8229fc990bbdc896c1c992da8216c6aeb77970d24051c669f7c532950b83e",
+      "bytes": 435316
+    },
+    {
+      "path": "works/ravel-mother-goose-video/video-export/full-profile.json",
+      "sha256": "8551df9efa4f44fac25466191446951b205649138b11816f62c20f909775d16a",
+      "bytes": 2694
+    }
+  ],
+  "human_signoff": null,
+  "expert_review": null,
+  "activation": "No player pointers, alignment, captions or original scores changed.",
+  "limitations": [
+    "No unreferenced interludes are inferred.",
+    "Model candidates and pitch support checks are not harmonic truth or an accuracy rate."
+  ],
+  "graph_checks": [
+    {
+      "id": "prelude",
+      "status": "graph_features_passed_no_prediction",
+      "divisions": 48,
+      "notes": 537,
+      "parts": 17,
+      "all_context_onsets": 193,
+      "target_onsets": 168,
+      "feature_dimensions": [
+        537,
+        83
+      ],
+      "edge_counts": {
+        "0": 3466,
+        "1": 3502,
+        "2": 3998,
+        "3": 61
+      },
+      "pitch_and_rational_time_multiset_exact": true,
+      "feature_values_finite": true,
+      "torch_version": "2.5.1+cpu",
+      "xml_meter_checks_passed": true,
+      "upstream_first_bar_feature_disagreements": 0,
+      "model_predictions": null,
+      "limitations": [
+        "Input validation is not a harmonic accuracy test.",
+        "Notation durations exclude acoustic pedal and reverberation.",
+        "Existing synchronization is reused and is not independently revalidated."
+      ],
+      "input": {
+        "path": "works/ravel-mother-goose-video/experiments/chordgnn-20261027/inputs/prelude.json",
+        "sha256": "de5ef06b6953376acc16e12893a3da1dabe9bef3915186e997886b83c94b7ba9",
+        "bytes": 515636
+      }
+    },
+    {
+      "id": "spinning",
+      "status": "graph_features_passed_no_prediction",
+      "divisions": 4,
+      "notes": 739,
+      "parts": 20,
+      "all_context_onsets": 143,
+      "target_onsets": 108,
+      "feature_dimensions": [
+        739,
+        83
+      ],
+      "edge_counts": {
+        "0": 6932,
+        "1": 3052,
+        "2": 1798,
+        "3": 4009
+      },
+      "pitch_and_rational_time_multiset_exact": true,
+      "feature_values_finite": true,
+      "torch_version": "2.5.1+cpu",
+      "xml_meter_checks_passed": true,
+      "upstream_first_bar_feature_disagreements": 0,
+      "model_predictions": null,
+      "limitations": [
+        "Input validation is not a harmonic accuracy test.",
+        "Notation durations exclude acoustic pedal and reverberation.",
+        "Existing synchronization is reused and is not independently revalidated."
+      ],
+      "input": {
+        "path": "works/ravel-mother-goose-video/experiments/chordgnn-20261027/inputs/spinning.json",
+        "sha256": "cbdff3035e6826c3688f372ead1c7e302a0c850f9032c897bf328cdb652f24c3",
+        "bytes": 728355
+      }
+    },
+    {
+      "id": "pavane",
+      "status": "graph_features_passed_no_prediction",
+      "divisions": 2,
+      "notes": 332,
+      "parts": 19,
+      "all_context_onsets": 103,
+      "target_onsets": 78,
+      "feature_dimensions": [
+        332,
+        83
+      ],
+      "edge_counts": {
+        "0": 1866,
+        "1": 1376,
+        "2": 723,
+        "3": 11
+      },
+      "pitch_and_rational_time_multiset_exact": true,
+      "feature_values_finite": true,
+      "torch_version": "2.5.1+cpu",
+      "xml_meter_checks_passed": true,
+      "upstream_first_bar_feature_disagreements": 0,
+      "model_predictions": null,
+      "limitations": [
+        "Input validation is not a harmonic accuracy test.",
+        "Notation durations exclude acoustic pedal and reverberation.",
+        "Existing synchronization is reused and is not independently revalidated."
+      ],
+      "input": {
+        "path": "works/ravel-mother-goose-video/experiments/chordgnn-20261027/inputs/pavane.json",
+        "sha256": "5cce9a4e37cf8d0ecc2ca0334447ad737be5c58755d163024aec38757d478ddc",
+        "bytes": 478398
+      }
+    },
+    {
+      "id": "beauty",
+      "status": "graph_features_passed_no_prediction",
+      "divisions": 2,
+      "notes": 325,
+      "parts": 24,
+      "all_context_onsets": 55,
+      "target_onsets": 43,
+      "feature_dimensions": [
+        325,
+        83
+      ],
+      "edge_counts": {
+        "0": 2540,
+        "1": 2673,
+        "2": 1426,
+        "3": 80
+      },
+      "pitch_and_rational_time_multiset_exact": true,
+      "feature_values_finite": true,
+      "torch_version": "2.5.1+cpu",
+      "xml_meter_checks_passed": true,
+      "upstream_first_bar_feature_disagreements": 0,
+      "model_predictions": null,
+      "limitations": [
+        "Input validation is not a harmonic accuracy test.",
+        "Notation durations exclude acoustic pedal and reverberation.",
+        "Existing synchronization is reused and is not independently revalidated."
+      ],
+      "input": {
+        "path": "works/ravel-mother-goose-video/experiments/chordgnn-20261027/inputs/beauty.json",
+        "sha256": "6a810e9b58d62c97c1c2a7a23c5a114daa2d6d3935d1c2f88796521dece314bf",
+        "bytes": 483187
+      }
+    },
+    {
+      "id": "poucet",
+      "status": "graph_features_passed_no_prediction",
+      "divisions": 6,
+      "notes": 751,
+      "parts": 19,
+      "all_context_onsets": 100,
+      "target_onsets": 80,
+      "feature_dimensions": [
+        751,
+        83
+      ],
+      "edge_counts": {
+        "0": 5090,
+        "1": 5709,
+        "2": 251
+      },
+      "pitch_and_rational_time_multiset_exact": true,
+      "feature_values_finite": true,
+      "torch_version": "2.5.1+cpu",
+      "xml_meter_checks_passed": true,
+      "upstream_first_bar_feature_disagreements": 152,
+      "model_predictions": null,
+      "limitations": [
+        "Input validation is not a harmonic accuracy test.",
+        "Notation durations exclude acoustic pedal and reverberation.",
+        "Existing synchronization is reused and is not independently revalidated."
+      ],
+      "input": {
+        "path": "works/ravel-mother-goose-video/experiments/chordgnn-20261027/inputs/poucet.json",
+        "sha256": "d5c40272323487a0e61157f1c8b42f67fd8e425e8967e828447cc7464d8690ed",
+        "bytes": 1089144
+      }
+    },
+    {
+      "id": "pagodes",
+      "status": "graph_features_passed_no_prediction",
+      "divisions": 4,
+      "notes": 725,
+      "parts": 22,
+      "all_context_onsets": 109,
+      "target_onsets": 81,
+      "feature_dimensions": [
+        725,
+        83
+      ],
+      "edge_counts": {
+        "0": 6604,
+        "1": 7310,
+        "2": 4716,
+        "3": 7
+      },
+      "pitch_and_rational_time_multiset_exact": true,
+      "feature_values_finite": true,
+      "torch_version": "2.5.1+cpu",
+      "xml_meter_checks_passed": true,
+      "upstream_first_bar_feature_disagreements": 0,
+      "model_predictions": null,
+      "limitations": [
+        "Input validation is not a harmonic accuracy test.",
+        "Notation durations exclude acoustic pedal and reverberation.",
+        "Existing synchronization is reused and is not independently revalidated."
+      ],
+      "input": {
+        "path": "works/ravel-mother-goose-video/experiments/chordgnn-20261027/inputs/pagodes.json",
+        "sha256": "3582a9f5f9a182785b8412452cd47bfb1d1ea24fb5ba2d96d594034ddd1408d7",
+        "bytes": 1058286
+      }
+    },
+    {
+      "id": "garden",
+      "status": "graph_features_passed_no_prediction",
+      "divisions": 2,
+      "notes": 655,
+      "parts": 26,
+      "all_context_onsets": 72,
+      "target_onsets": 58,
+      "feature_dimensions": [
+        655,
+        83
+      ],
+      "edge_counts": {
+        "0": 8150,
+        "1": 7985,
+        "2": 2520,
+        "3": 116
+      },
+      "pitch_and_rational_time_multiset_exact": true,
+      "feature_values_finite": true,
+      "torch_version": "2.5.1+cpu",
+      "xml_meter_checks_passed": true,
+      "upstream_first_bar_feature_disagreements": 0,
+      "model_predictions": null,
+      "limitations": [
+        "Input validation is not a harmonic accuracy test.",
+        "Notation durations exclude acoustic pedal and reverberation.",
+        "Existing synchronization is reused and is not independently revalidated."
+      ],
+      "input": {
+        "path": "works/ravel-mother-goose-video/experiments/chordgnn-20261027/inputs/garden.json",
+        "sha256": "36b64dbd010e2522b04cf0efdf428190ab8fb977e4ce7163184254c715d512e3",
+        "bytes": 951226
+      }
+    },
+    {
+      "id": "garden-climax",
+      "status": "graph_features_passed_no_prediction",
+      "divisions": 8,
+      "notes": 1739,
+      "parts": 30,
+      "all_context_onsets": 120,
+      "target_onsets": 101,
+      "feature_dimensions": [
+        1739,
+        83
+      ],
+      "edge_counts": {
+        "0": 40964,
+        "1": 40054,
+        "2": 25590,
+        "3": 102
+      },
+      "pitch_and_rational_time_multiset_exact": true,
+      "feature_values_finite": true,
+      "torch_version": "2.5.1+cpu",
+      "xml_meter_checks_passed": true,
+      "upstream_first_bar_feature_disagreements": 0,
+      "model_predictions": null,
+      "limitations": [
+        "Input validation is not a harmonic accuracy test.",
+        "Notation durations exclude acoustic pedal and reverberation.",
+        "Existing synchronization is reused and is not independently revalidated."
+      ],
+      "input": {
+        "path": "works/ravel-mother-goose-video/experiments/chordgnn-20261027/inputs/garden-climax.json",
+        "sha256": "f966be492176352e13c882a446b4b49f2d35e1d3b53b2282cbc3fd8c8fbfd0e2",
+        "bytes": 2549258
+      }
+    }
+  ],
+  "analysisgnn": {
+    "status": "inferred_candidate_only",
+    "checkpoint": {
+      "path": ".tools/chordgnn/analysisgnn-checkpoint/model.ckpt",
+      "sha256": "53d106038fea6a5ab3d4c0a19617736dff5f0299deffaf240ebd484c11f91c67",
+      "bytes": 126890023
+    },
+    "summary": [
+      {
+        "id": "prelude",
+        "onsets": 168,
+        "candidate_onsets": 141,
+        "no_chord_tone_onsets": 27,
+        "supported_pcset_onsets": 5,
+        "unsupported_pcset_onsets": 136,
+        "unknown_pcset_onsets": 0,
+        "existing_unnamed_onsets": 108,
+        "attacked_notes": 431,
+        "model_non_chord_tone_notes": 83
+      },
+      {
+        "id": "spinning",
+        "onsets": 108,
+        "candidate_onsets": 92,
+        "no_chord_tone_onsets": 16,
+        "supported_pcset_onsets": 6,
+        "unsupported_pcset_onsets": 84,
+        "unknown_pcset_onsets": 2,
+        "existing_unnamed_onsets": 105,
+        "attacked_notes": 586,
+        "model_non_chord_tone_notes": 119
+      },
+      {
+        "id": "pavane",
+        "onsets": 78,
+        "candidate_onsets": 64,
+        "no_chord_tone_onsets": 14,
+        "supported_pcset_onsets": 1,
+        "unsupported_pcset_onsets": 63,
+        "unknown_pcset_onsets": 0,
+        "existing_unnamed_onsets": 68,
+        "attacked_notes": 219,
+        "model_non_chord_tone_notes": 32
+      },
+      {
+        "id": "beauty",
+        "onsets": 43,
+        "candidate_onsets": 40,
+        "no_chord_tone_onsets": 3,
+        "supported_pcset_onsets": 1,
+        "unsupported_pcset_onsets": 39,
+        "unknown_pcset_onsets": 0,
+        "existing_unnamed_onsets": 36,
+        "attacked_notes": 251,
+        "model_non_chord_tone_notes": 23
+      },
+      {
+        "id": "poucet",
+        "onsets": 80,
+        "candidate_onsets": 71,
+        "no_chord_tone_onsets": 9,
+        "supported_pcset_onsets": 0,
+        "unsupported_pcset_onsets": 69,
+        "unknown_pcset_onsets": 2,
+        "existing_unnamed_onsets": 37,
+        "attacked_notes": 613,
+        "model_non_chord_tone_notes": 83
+      },
+      {
+        "id": "pagodes",
+        "onsets": 81,
+        "candidate_onsets": 73,
+        "no_chord_tone_onsets": 8,
+        "supported_pcset_onsets": 2,
+        "unsupported_pcset_onsets": 71,
+        "unknown_pcset_onsets": 0,
+        "existing_unnamed_onsets": 81,
+        "attacked_notes": 559,
+        "model_non_chord_tone_notes": 109
+      },
+      {
+        "id": "garden",
+        "onsets": 58,
+        "candidate_onsets": 53,
+        "no_chord_tone_onsets": 5,
+        "supported_pcset_onsets": 0,
+        "unsupported_pcset_onsets": 53,
+        "unknown_pcset_onsets": 0,
+        "existing_unnamed_onsets": 26,
+        "attacked_notes": 448,
+        "model_non_chord_tone_notes": 58
+      },
+      {
+        "id": "garden-climax",
+        "onsets": 101,
+        "candidate_onsets": 98,
+        "no_chord_tone_onsets": 3,
+        "supported_pcset_onsets": 3,
+        "unsupported_pcset_onsets": 95,
+        "unknown_pcset_onsets": 0,
+        "existing_unnamed_onsets": 39,
+        "attacked_notes": 1476,
+        "model_non_chord_tone_notes": 158
+      }
+    ],
+    "feature_type": "voice",
+    "strict_checkpoint_load": true,
+    "decoder_mismatches": {
+      "quality": {
+        "checkpoint_classes": 15,
+        "source_vocabulary_classes": 16,
+        "status": "decoding_disabled"
+      },
+      "romanNumeral": {
+        "checkpoint_classes": 185,
+        "source_vocabulary_classes": 184,
+        "status": "decoding_disabled"
+      }
+    },
+    "activation": false,
+    "human_signoff": null,
+    "expert_review": null
+  },
+  "provenance": {
+    "path": "works/ravel-mother-goose-video/experiments/chordgnn-20261027/provenance.json",
+    "sha256": "c3bed69e4bc571ae10183f95a66647684954427ac7067a077a71369d6f212fd8",
+    "bytes": 5029
+  }
+}

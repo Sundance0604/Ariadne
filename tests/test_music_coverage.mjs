@@ -9,3 +9,11 @@ test('video applause and intro do not activate score-time evidence; old tracks r
   assert.equal(scoreTimeCovered(undefined,0),true);
   assert.equal(scoreTimeCovered(undefined,1090),true);
 });
+
+test('independent movement coverage excludes pauses inside the complete recording',()=>{
+  const coverage={start_seconds:40,end_seconds:1900,segments:[
+    {start_seconds:40,end_seconds:700},{start_seconds:725,end_seconds:860},
+    {start_seconds:875,end_seconds:1265},{start_seconds:1285,end_seconds:1900}]};
+  for(const t of [0,39.9,700,710,724.99,860,870,1265,1284.99,1900,2100])assert.equal(scoreTimeCovered(coverage,t),false,t);
+  for(const t of [40,699.9,725,859.99,875,1264.99,1285,1899.99])assert.equal(scoreTimeCovered(coverage,t),true,t);
+});

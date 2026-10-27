@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-27",
+  "purpose": "Version-control snapshots; active local editing paths unchanged.",
+  "documents": [
+    {
+      "project": "prokofiev2-full",
+      "path": "works/prokofiev-piano-concerto-2/video-export/captions-editable.json",
+      "sha256": "01cbb502844091777b558abd04200ea24889f26ec13d92f0114f362e33fcf0b7",
+      "caption_count": 218,
+      "published_path": "works/prokofiev-piano-concerto-2/video-export/captions-editable.json"
+    },
+    {
+      "project": "mother-goose",
+      "path": "works/ravel-mother-goose-video/video-export/captions-optimized.json",
+      "sha256": "76123c1a84f4b8b502a287e40e300bf1b7596b7e960ba35364f0a562569da916",
+      "caption_count": 6588,
+      "published_path": "works/ravel-mother-goose-video/video-export/captions-optimized.json"
+    },
+    {
+      "project": "ravel-full",
+      "path": "output/video-export/ravel-full-001/captions-editable.json",
+      "sha256": "0061f0d24025bafb6998f46c5f76608a0b428cc90beb728ae5f6cd75a8c3bb92",
+      "caption_count": 8473,
+      "published_path": "works/ravel-left-hand-video/video-export/captions-final.json"
+    }
+  ]
+}

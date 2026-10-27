@@ -11,6 +11,7 @@ from .content import FORBIDDEN, normalized, read, write
 from .media import ffmpeg
 from .subtitles import analysis_ass, score_ass
 from .paths import configured_path
+from .presentation import presentation_config,display_events
 
 ROOT = Path(__file__).resolve().parents[2]
 PACKAGE = configured_path('sample_package')
@@ -26,7 +27,11 @@ STYLE_FIELDS={'横坐标':'x','纵坐标':'y','宽度':'w','高度':'h','字体'
 
 def package_config(package):
     legacy=package/'export-config-kaiti.json'
-    return read(legacy if legacy.exists() else package/'export-config.json')
+    config=read(legacy if legacy.exists() else package/'export-config.json')
+    if config.get('visualization'):
+        from .visual_full import refreshed_config
+        config=refreshed_config(package,config)
+    return config
 
 
 def validate_style(style,base,config):
@@ -110,7 +115,7 @@ def load_document(path=DOCUMENT, package=PACKAGE):
 
 
 def prepare(document, package=PACKAGE):
-    config = package_config(package)
+    config = presentation_config(package_config(package),document.get('呈现规则',{}))
     segment = config['segments'][0]
     duration = segment['video_end'] - segment['video_start']
     events, excluded, identifiers = [], [], set()
@@ -167,8 +172,11 @@ def prepare(document, package=PACKAGE):
             event['research_reading_id'] = row['研究条目']
             event['relation_ids'] = list(row.get('关系依据', []))
         events.append(event)
+    # Source ranges may span a whole musical section after its short card has
+    # faded. Check actual on-screen lifetimes so a later card can use that slot.
+    visible_events=display_events(events,config)
     for slot in SLOTS.values():
-        rows = sorted((e for e in events if ('intro' if e['phase'] == 'intro' else e['slot']) == slot),
+        rows = sorted((e for e in visible_events if ('intro' if e['phase'] == 'intro' else e['slot']) == slot),
                       key=lambda e: e['output_start'])
         for a, b in zip(rows, rows[1:]):
             if a['output_end'] > b['output_start'] + 1e-7:
@@ -272,6 +280,9 @@ def export(document, package=PACKAGE, progress=None, ass_only=False):
         return folder / 'analysis.ass'
     emit(0, '正在复用乐谱缓存，并按新的诠释时间更新乐谱隐藏与恢复……')
     score_resources(package, folder, config, events)
+    if config.get('visualization'):
+        from .visual_full import export_visual_revision
+        return export_visual_revision(package,folder,config,emit)
     relative = folder.name
     v = config['layout']['score']
     graph = (f'[0:v]settb=AVTB[base];[1:v]format=rgba[paper];'

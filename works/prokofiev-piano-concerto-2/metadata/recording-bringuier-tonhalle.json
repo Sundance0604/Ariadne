@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "work": {
+    "id": "prokofiev-piano-concerto-2",
+    "composer": "Sergei Prokofiev",
+    "title": "Piano Concerto No. 2 in G minor, Op.16"
+  },
+  "recording": {
+    "id": "yuja-wang-bringuier-tonhalle-local-video",
+    "soloist": "Yuja Wang / 王羽佳",
+    "conductor": "Lionel Bringuier / 利昂内尔·布兰吉耶",
+    "orchestra": "Tonhalle-Orchester Zürich / 苏黎世音乐厅管弦乐团",
+    "reported_year": 2015,
+    "reported_city": "Zürich",
+    "concert_date": null,
+    "identity_status": "soloist_user_identified; ensemble_year_city_reported_in_embedded_description",
+    "identity_sources": [
+      {
+        "type": "user_statement",
+        "date": "2026-10-27",
+        "supports": [
+          "soloist"
+        ]
+      },
+      {
+        "type": "embedded_mp4_description",
+        "supports": [
+          "soloist",
+          "conductor",
+          "orchestra",
+          "reported_year",
+          "reported_city"
+        ],
+        "value": "2015 Zurich, Swiss; Yuja Wang / Lionel Bringuier / Tonhalle Orchester Zürich"
+      }
+    ],
+    "uploader": "Epinerf",
+    "source_url": "https://www.youtube.com/watch?v=yr1pFv5QzPc",
+    "embedded_date": "20230417",
+    "embedded_date_is_concert_date": false,
+    "media": {
+      "path": "resource/PROKOFIEV PIANO CONCERTO 2/Yuja Wang - Prokofiev： Piano concerto no.2 op.16 [yr1pFv5QzPc] (1920x1080).mp4",
+      "sha256": "6e3fc5270dc822d4b8a240d26110cffde11ba45a08947f5b4cc02d468f211613",
+      "bytes": 570994715,
+      "duration_seconds": 1925.584399,
+      "local_only": true,
+      "publish_video": false
+    },
+    "visual_inspection": {
+      "frame_seconds": [
+        4,
+        12,
+        30
+      ],
+      "scope": "Opening stage images; no credit text establishing date or orchestra; no identity inferred from faces."
+    },
+    "auditory_review": {
+      "status": "not_performed",
+      "reviewed_intervals": []
+    },
+    "chapter_metadata_status": "not_activated; malformed zero-length introduction and duplicate Scherzo entry at zero",
+    "score_alignment": null,
+    "human_signoff": null
+  },
+  "analysis_document": "works/prokofiev-piano-concerto-2/analysis/full-analysis.md",
+  "score": {
+    "path": "resource/PROKOFIEV PIANO CONCERTO 2/IMSLP66128-PMLP04521-Prokofiev_-_Piano_Concerto_No._2,_Op._16_(orch._score).pdf",
+    "sha256": "ab89aa71fc4e29d9305b43302e9013d0b8715d7bdfa2ab826f83ada3533dc26a"
+  },
+  "recording_projection": null,
+  "expert_review": null
+}

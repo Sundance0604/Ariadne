@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-27",
+  "status": "score_draft_with_unheard_performer_comparison",
+  "sections": 38,
+  "sections_by_movement": {
+    "1": 12,
+    "2": 7,
+    "3": 8,
+    "4": 11
+  },
+  "characters": 24658,
+  "xml_measures": 864,
+  "local_studies": 22,
+  "inputs": [
+    {
+      "id": "S",
+      "kind": "score",
+      "author": "Sergei Prokofiev",
+      "title": "Piano Concerto No. 2, Op.16, orchestral score",
+      "path": "resource/PROKOFIEV PIANO CONCERTO 2/IMSLP66128-PMLP04521-Prokofiev_-_Piano_Concerto_No._2,_Op._16_(orch._score).pdf",
+      "sha256": "ab89aa71fc4e29d9305b43302e9013d0b8715d7bdfa2ab826f83ada3533dc26a",
+      "bytes": 15019165,
+      "physical_pages": 168,
+      "printed_page_range": [
+        99,
+        266
+      ],
+      "read_scope": "Selected page images; chapter boundaries cross-checked against prior source audit.",
+      "examined_physical_pages_this_round": [
+        1,
+        38,
+        48,
+        50,
+        54,
+        70,
+        81,
+        82,
+        85,
+        88,
+        109,
+        125,
+        139,
+        140,
+        143,
+        153,
+        167,
+        168
+      ],
+      "not_claimed": "Complete all-note proofreading or independent verification of every paragraph location."
+    },
+    {
+      "id": "X",
+      "kind": "symbolic_source",
+      "author": "Sergei Prokofiev; transcription provenance unverified",
+      "path": "resource/PROKOFIEV PIANO CONCERTO 2/piano-concerto-no2-op16-s-prokofiev.mxl",
+      "sha256": "6a9893ed48c7d57bf336adb02751e86ccfdf595200ab008daef493e6468ebc8f",
+      "bytes": 1137375,
+      "reading": "Complete structural/event inventory; selected local pitch/timing studies; not full all-note score proofreading.",
+      "measures": 864,
+      "large_timing_issues": [
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "layout_pdf": {
+        "path": "resource/PROKOFIEV PIANO CONCERTO 2/piano-concerto-no2-op16-s-prokofiev.pdf",
+        "sha256": "97ed54cd305cee8974083ee15aa2fa1d3745142b2f8d040fbfd34ec9e8a4e596",
+        "bytes": 2945098
+      },
+      "cautions": [
+        "P14 Ossia and hidden pitched events excluded from principal sonorities.",
+        "The X1 continuation is not an extra printed numbered bar.",
+        "XML layout pages are not independent original-PDF note geometry."
+      ]
+    },
+    {
+      "id": "M",
+      "kind": "dissertation",
+      "author": "Katarzyna Marzec",
+      "year": 2013,
+      "title": "Prokofiev’s Second Piano Concerto: Its Genesis, Form, and Narrative Structure",
+      "institution": "Temple University",
+      "degree": "DMA",
+      "path": "resource/PROKOFIEV PIANO CONCERTO 2/research/Prokofiev’s Second Piano Concerto Its Genesis, Form, and Narrative Structure.pdf",
+      "sha256": "1086aca27e800b72a1adc836fff20d5025937f1f2b28862d9c8d3719d5392364",
+      "bytes": 10584111,
+      "physical_pages": 149,
+      "url": "https://digital.library.temple.edu/digital/collection/p245801coll10/id/238190",
+      "read_scope": "Selected front matter, analytical chapters 5–9, and historical passages; not the entire dissertation.",
+      "text_read_physical_page_ranges": [
+        [
+          1,
+          9
+        ],
+        [
+          37,
+          40
+        ],
+        [
+          49,
+          53
+        ],
+        [
+          70,
+          133
+        ]
+      ],
+      "partial_text_page": 54,
+      "music_examples_visually_examined": [
+        96,
+        129
+      ],
+      "analytical_chapter_page_map": {
+        "I": {
+          "printed": [
+            61,
+            74
+          ],
+          "physical": [
+            71,
+            84
+          ]
+        },
+        "II": {
+          "printed": [
+            75,
+            89
+          ],
+          "physical": [
+            85,
+            99
+          ]
+        },
+        "III": {
+          "printed": [
+            90,
+            107
+          ],
+          "physical": [
+            100,
+            117
+          ]
+        },
+        "IV": {
+          "printed": [
+            108,
+            120
+          ],
+          "physical": [
+            118,
+            130
+          ]
+        }
+      },
+      "uses": [
+        "Four-movement form and thematic interpretation",
+        "Topic and narrative readings with attribution",
+        "Historical cautions concerning dedication and revision"
+      ],
+      "cautions": [
+        "Her theoretical readings and cultural associations are not composer-supplied programmatic facts.",
+        "Her 66-bar cadenza count differs from the 68 XML elements between R20 and R21; actual orchestral exit is separately checked.",
+        "Printed pages and physical pages differ by 10 in the analytical chapters.",
+        "Avoid attributing every contrapuntal detail to the 1923 revision without the lost version."
+      ]
+    },
+    {
+      "id": "R",
+      "kind": "journal_article",
+      "author": "Deborah Rifkin",
+      "year": 2004,
+      "title": "A Theory of Motives for Prokofiev’s Music",
+      "journal": "Music Theory Spectrum",
+      "volume": 26,
+      "issue": 2,
+      "printed_pages": [
+        265,
+        289
+      ],
+      "doi": "10.1525/mts.2004.26.2.265",
+      "url": "https://doi.org/10.1525/mts.2004.26.2.265",
+      "path": "resource/PROKOFIEV PIANO CONCERTO 2/research/A_Theory_of_Motives_for_Prokof.pdf",
+      "sha256": "69a31a383725a7a84b2c637f1d5145ad068835e0a89d0815cbb83b2e59fa8659",
+      "bytes": 352922,
+      "physical_pages": 27,
+      "read_scope": "Selected method definitions, examples and conclusion; not every example graph or full article verified.",
+      "selected_text_physical_page_ranges": [
+        [
+          1,
+          4
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          25
+        ]
+      ],
+      "partial_text_pages": [
+        5
+      ],
+      "uses": [
+        "Distinguish harmonic function from ordered pitch-class association",
+        "Keep surface prominence and structural importance separate"
+      ],
+      "cautions": [
+        "Her Second Violin Concerto example is not this Second Piano Concerto.",
+        "No automatic assignment of all concerto motives to her three categories."
+      ]
+    },
+    {
+      "id": "V",
+      "kind": "local_media_identity",
+      "title": "王羽佳／布兰吉耶／苏黎世音乐厅管弦乐团，本地视频",
+      "path": "resource/PROKOFIEV PIANO CONCERTO 2/Yuja Wang - Prokofiev： Piano concerto no.2 op.16 [yr1pFv5QzPc] (1920x1080).mp4",
+      "sha256": "6e3fc5270dc822d4b8a240d26110cffde11ba45a08947f5b4cc02d468f211613",
+      "bytes": 570994715,
+      "duration_seconds": 1925.584399,
+      "local_only": true,
+      "publish_video": false,
+      "metadata": "works/prokofiev-piano-concerto-2/metadata/recording-bringuier-tonhalle.json",
+      "source_url": "https://www.youtube.com/watch?v=yr1pFv5QzPc",
+      "read_scope": "User soloist identification; embedded metadata and opening frames; no auditory review.",
+      "cautions": [
+        "Conductor, orchestra, city and year reported by embedded description; exact concert date not independently verified.",
+        "MP4 artist is uploader Epinerf, not soloist credit; embedded date is not treated as concert date.",
+        "Chapter metadata is malformed and not used for score synchronization."
+      ],
+      "role": "previous_local_performance; not current analysis target"
+    }
+  ],
+  "performance_context_cases": 9,
+  "performance_metadata": {
+    "path": "works/prokofiev-piano-concerto-2/metadata/recording.json",
+    "sha256": "6216be8b76dff12de2bd2bfebe0268906402fbdf8488c279c13492c3a66726b0",
+    "bytes": 4853
+  },
+  "previous_recording_metadata": {
+    "path": "works/prokofiev-piano-concerto-2/metadata/recording-bringuier-tonhalle.json",
+    "sha256": "a4d35859b6f71767d6628f0d72fe811274ad76643e75b23bc3e9e7e15eac7145",
+    "bytes": 2564
+  },
+  "editorial_packager": {
+    "path": "scripts/package_prokofiev2_analysis.py",
+    "sha256": "cc91d478bb394dc0352faa0686b1c60e9869add9f78c679a7524d56dc291bb23",
+    "bytes": 12993
+  },
+  "files": {
+    "build-audit.json": {
+      "path": "works/prokofiev-piano-concerto-2/analysis/build-audit.json",
+      "sha256": "a6150f99aa6b04d634210e3494b73bf4c8a0388d1ee04f776832399dbcdaec93",
+      "bytes": 2243
+    },
+    "full-analysis.md": {
+      "path": "works/prokofiev-piano-concerto-2/analysis/full-analysis.md",
+      "sha256": "0434ae398d8e029a54c5ddf186031917a4c57d9c166509922a5e404f757b5f33",
+      "bytes": 63100
+    },
+    "material-relations.json": {
+      "path": "works/prokofiev-piano-concerto-2/analysis/material-relations.json",
+      "sha256": "9773726939143b6a358288571e4f4c5b1c94e5daed8a6584a01c60dc6b5dcac2",
+      "bytes": 2259
+    },
+    "measure-index.json": {
+      "path": "works/prokofiev-piano-concerto-2/analysis/measure-index.json",
+      "sha256": "1aa7cbb96b5da6365df010969e32fb86b5f3c0ae8cd040bd19d4874428d02bd0",
+      "bytes": 682767
+    },
+    "performance-context.json": {
+      "path": "works/prokofiev-piano-concerto-2/analysis/performance-context.json",
+      "sha256": "49480422b8d18b021a36117ddab8e1c3fd9f00e610640871c52772ef597f4d74",
+      "bytes": 14726
+    },
+    "score-studies.json": {
+      "path": "works/prokofiev-piano-concerto-2/analysis/score-studies.json",
+      "sha256": "53a9ff376dc5ada1f481ee5641557900f4382690113454f98fbdb5f8a6230dcb",
+      "bytes": 276133
+    },
+    "sections.json": {
+      "path": "works/prokofiev-piano-concerto-2/analysis/sections.json",
+      "sha256": "deaaf251ca66d6dde4f7eba432244eb8a3257edbd45812485abf1fd194fbd4ab",
+      "bytes": 107720
+    },
+    "sources.json": {
+      "path": "works/prokofiev-piano-concerto-2/analysis/sources.json",
+      "sha256": "a52d4f5939a784c4af12dac8302fcfe78fcce3a06e1246d9aa6c29509a4faafa",
+      "bytes": 15452
+    },
+    "symbolic-source-summary.json": {
+      "path": "works/prokofiev-piano-concerto-2/analysis/symbolic-source-summary.json",
+      "sha256": "af2ff7778381e2ee7f5e6e968e83d62465a39768345c2ef3e1864e3af7a2cde9",
+      "bytes": 4494
+    }
+  },
+  "audio": null,
+  "alignment": null,
+  "player_activation": false,
+  "human_signoff": null,
+  "expert_review": null
+}

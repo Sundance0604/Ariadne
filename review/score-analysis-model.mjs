@@ -62,7 +62,7 @@ export function createScoreAnalysisModel(){
         {id:'no-pitched',label:'无有效定音音符；非定音活动另列配器',noteIds:[],pitches:[],bass:null,chord:null}:null,
         contextual:contexts,alternatives:frame?live.readings[frame.harmony_window_id]||[]:[],contextualEvents:events('harmony')};
       const orchestration={activeParts:parts,transitions,observedRoles:cases.filter(c=>c.dimensions?.includes('orchestration')),
-        contextualEvents:events('orchestration')};
+        contextualEvents:events('orchestration'),activityLocated:Boolean(frame),uncertainty:frame?.activity_uncertainty||[]};
       const counterpoint={localRelations:cases.flatMap(c=>c.interval_ids||[]),contextualEvents:events('counterpoint'),
         moduleProfileEnabled:Boolean(profile),moduleEntries:moduleEntries('counterpoint')};
       const form={activeHierarchy:sections,models:live?.form?.models||[],contextualEvents:events('form'),
@@ -71,7 +71,7 @@ export function createScoreAnalysisModel(){
       return {...common,harmony,orchestration,counterpoint,form,moduleRelations:profile?.relations||[],signatures:{
         harmony:JSON.stringify([w?.id||(noPitched?'no-pitched':'unlocated'),contexts.map(c=>c.id),ids(harmony.contextualEvents)]),
         orchestration:JSON.stringify([parts.map(p=>[p.part_id,p.pitches,p.roles]),orchestration.observedRoles.map(c=>c.id),
-          transitions.entered.map(p=>p.part_id),transitions.exited.map(p=>p.part_id),ids(orchestration.contextualEvents)]),
+          transitions.entered.map(p=>p.part_id),transitions.exited.map(p=>p.part_id),ids(orchestration.contextualEvents),orchestration.uncertainty,Boolean(frame)]),
         counterpoint:JSON.stringify([counterpoint.localRelations,ids(counterpoint.contextualEvents),counterpoint.moduleEntries.map(e=>e.id)]),
         form:JSON.stringify([sections.map(s=>s.id),ids(form.contextualEvents),form.moduleEntries.map(e=>e.id)])}};
     }

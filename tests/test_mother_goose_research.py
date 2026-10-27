@@ -68,10 +68,10 @@ class MotherGooseEvidence(unittest.TestCase):
                 self.assertEqual(hashlib.sha256(p.read_bytes()).hexdigest(), meta['sha256'])
         for rel, expected in self.manifest['protected_inputs'].items():
             if rel=='library.json':
-                # The later authorized ballet-video task adds exactly one
-                # independent track; the frozen score-only audit stays intact.
+                # Later authorized ballet-video and Prokofiev tasks add two
+                # independent tracks; the frozen score-only audit stays intact.
                 catalog=read(ROOT/rel)
-                catalog['tracks']=[t for t in catalog['tracks'] if t['id']!='ravel-mother-goose-video']
+                catalog['tracks']=[t for t in catalog['tracks'] if t['id'] not in {'ravel-mother-goose-video','prokofiev-piano-concerto-2'}]
                 self.assertEqual(hashlib.sha256((json.dumps(catalog,ensure_ascii=False,indent=2)+'\n').encode()).hexdigest(),expected)
                 continue
             self.assertEqual(hashlib.sha256((ROOT/rel).read_bytes()).hexdigest(), expected)

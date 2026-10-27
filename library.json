@@ -28,6 +28,12 @@
       "title": "拉威尔 · 鹅妈妈（完整芭蕾视频）",
       "data_root": "works/ravel-mother-goose-video",
       "analysis_adapter": "mother-goose-ballet-v1"
+    },
+    {
+      "id": "prokofiev-piano-concerto-2",
+      "title": "普罗科菲耶夫 · 第二钢琴协奏曲（王羽佳／雅尔维）",
+      "data_root": "works/prokofiev-piano-concerto-2",
+      "analysis_adapter": "prokofiev2-score-review-v1"
     }
   ]
 }

@@ -1,0 +1,109 @@
+{
+  "cases": [
+    {
+      "id": "prelude",
+      "onsets": 168,
+      "raw_pc_count_min": 3,
+      "raw_pc_count_max": 9,
+      "over_three_raw_pcs": 120,
+      "no_candidate": 27,
+      "supported_candidate": 5,
+      "unsupported_candidate": 136,
+      "baseline_unnamed": 108,
+      "attacked_notes": 431,
+      "model_excluded_attacks": 83
+    },
+    {
+      "id": "spinning",
+      "onsets": 108,
+      "raw_pc_count_min": 1,
+      "raw_pc_count_max": 9,
+      "over_three_raw_pcs": 70,
+      "no_candidate": 16,
+      "supported_candidate": 6,
+      "unsupported_candidate": 84,
+      "baseline_unnamed": 105,
+      "attacked_notes": 586,
+      "model_excluded_attacks": 119
+    },
+    {
+      "id": "pavane",
+      "onsets": 78,
+      "raw_pc_count_min": 1,
+      "raw_pc_count_max": 4,
+      "over_three_raw_pcs": 15,
+      "no_candidate": 14,
+      "supported_candidate": 1,
+      "unsupported_candidate": 63,
+      "baseline_unnamed": 68,
+      "attacked_notes": 219,
+      "model_excluded_attacks": 32
+    },
+    {
+      "id": "beauty",
+      "onsets": 43,
+      "raw_pc_count_min": 1,
+      "raw_pc_count_max": 5,
+      "over_three_raw_pcs": 27,
+      "no_candidate": 3,
+      "supported_candidate": 1,
+      "unsupported_candidate": 39,
+      "baseline_unnamed": 36,
+      "attacked_notes": 251,
+      "model_excluded_attacks": 23
+    },
+    {
+      "id": "poucet",
+      "onsets": 80,
+      "raw_pc_count_min": 2,
+      "raw_pc_count_max": 4,
+      "over_three_raw_pcs": 2,
+      "no_candidate": 9,
+      "supported_candidate": 0,
+      "unsupported_candidate": 69,
+      "baseline_unnamed": 37,
+      "attacked_notes": 613,
+      "model_excluded_attacks": 83
+    },
+    {
+      "id": "pagodes",
+      "onsets": 81,
+      "raw_pc_count_min": 1,
+      "raw_pc_count_max": 6,
+      "over_three_raw_pcs": 79,
+      "no_candidate": 8,
+      "supported_candidate": 2,
+      "unsupported_candidate": 71,
+      "baseline_unnamed": 81,
+      "attacked_notes": 559,
+      "model_excluded_attacks": 109
+    },
+    {
+      "id": "garden",
+      "onsets": 58,
+      "raw_pc_count_min": 2,
+      "raw_pc_count_max": 5,
+      "over_three_raw_pcs": 28,
+      "no_candidate": 5,
+      "supported_candidate": 0,
+      "unsupported_candidate": 53,
+      "baseline_unnamed": 26,
+      "attacked_notes": 448,
+      "model_excluded_attacks": 58
+    },
+    {
+      "id": "garden-climax",
+      "onsets": 101,
+      "raw_pc_count_min": 3,
+      "raw_pc_count_max": 6,
+      "over_three_raw_pcs": 73,
+      "no_candidate": 3,
+      "supported_candidate": 3,
+      "unsupported_candidate": 95,
+      "baseline_unnamed": 39,
+      "attacked_notes": 1476,
+      "model_excluded_attacks": 158
+    }
+  ],
+  "scope": "Model candidates and raw pitch support; no accuracy claim or player activation."
+}

@@ -1,0 +1,67 @@
+{
+  "source": {
+    "path": "resource/PROKOFIEV PIANO CONCERTO 2/piano-concerto-no2-op16-s-prokofiev.mxl",
+    "sha256": "6a9893ed48c7d57bf336adb02751e86ccfdf595200ab008daef493e6468ebc8f",
+    "bytes": 1137375
+  },
+  "protected_files": [
+    {
+      "path": "library.json",
+      "sha256": "314b6848ebf54545758b37b63c08cd5d5dee59fb97d581415d1ba744e0543345",
+      "bytes": 943
+    },
+    {
+      "path": "alignment.json",
+      "sha256": "4c6c57fb0c240fcd77c155d2701b9f019333ba0c7a3940aee01064a2e563d701",
+      "bytes": 1284276
+    },
+    {
+      "path": "measure-map.json",
+      "sha256": "e1728176bafc426540601f7f0e4859b441decf33261442642da4fb4ffc2181a2",
+      "bytes": 487075
+    },
+    {
+      "path": "works/ravel-mother-goose-video/playback/current.json",
+      "sha256": "a4325e1c0a2e10a63765f70fbf7839bbcecc4723c44d498b0aba0375033afe7f",
+      "bytes": 168
+    },
+    {
+      "path": "works/ravel-mother-goose-video/alignment.json",
+      "sha256": "5f781f0b13e425bf3ac99b04e3a2995a2edc8d003b15b9ab95248f49af93f20d",
+      "bytes": 2453098
+    },
+    {
+      "path": "works/ravel-mother-goose-video/video-export/captions-optimized.json",
+      "sha256": "76123c1a84f4b8b502a287e40e300bf1b7596b7e960ba35364f0a562569da916",
+      "bytes": 6336805
+    }
+  ],
+  "code": [
+    {
+      "path": "scripts/build_prokofiev2_research.py",
+      "sha256": "6b1dc827f7793943f8a94d2003d23f6c950ca35b66f527d7afcac4b2c535d32b",
+      "bytes": 9605
+    },
+    {
+      "path": "scripts/compare_mother_goose_sources.py",
+      "sha256": "22a97b319568702de414b5dbbef19e809a282b3ae9e6de7761bfb26942b69df4",
+      "bytes": 11269
+    },
+    {
+      "path": "backend/musicxml_analysis/ingest.py",
+      "sha256": "c65338201cb8da191a4bf6dbf0d5881b6ad10db05f82271f9b0a1681621a8b4f",
+      "bytes": 16309
+    },
+    {
+      "path": "backend/musicxml_analysis/analyze.py",
+      "sha256": "2b3f643027607071902156675492f48dc890e93d2a5898042a37629381a5d1fd",
+      "bytes": 16872
+    }
+  ],
+  "music21_version": "9.9.2",
+  "harmony_method": "existing chord_description unchanged",
+  "clock": "measure-local only",
+  "player_activation": false,
+  "human_signoff": null,
+  "expert_review": null
+}

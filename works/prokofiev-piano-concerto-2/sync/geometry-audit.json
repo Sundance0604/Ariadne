@@ -1,0 +1,2899 @@
+{
+  "pdf_sha256": "ab89aa71fc4e29d9305b43302e9013d0b8715d7bdfa2ab826f83ada3533dc26a",
+  "raw_geometry": {
+    "path": ".tools/prokofiev2-sync/geometry.raw.json",
+    "sha256": "ff4b8fe94f3496eab7b2db33e131bb51da0f34293905021c8879940463f3d00c",
+    "bytes": 235948
+  },
+  "corrected_pages": [
+    {
+      "page": 9,
+      "before": [
+        {
+          "top": 85,
+          "bottom": 834,
+          "left": 128,
+          "right": 1160,
+          "boundaries": [
+            128,
+            407,
+            658,
+            908,
+            1154
+          ],
+          "staff_count": 11,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 9,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            45,
+            46,
+            47,
+            48
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "45",
+            "46",
+            "47",
+            "48"
+          ]
+        },
+        {
+          "top": 907,
+          "bottom": 1022,
+          "left": 135,
+          "right": 1161,
+          "boundaries": [
+            135,
+            326,
+            494,
+            673,
+            916,
+            1154
+          ],
+          "staff_count": 2,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 9,
+          "system_index": 1,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            49,
+            50,
+            51,
+            52,
+            53
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "49",
+            "50",
+            "51",
+            "52",
+            "53"
+          ]
+        },
+        {
+          "top": 1100,
+          "bottom": 1505,
+          "left": 129,
+          "right": 1161,
+          "boundaries": [
+            129,
+            400,
+            636,
+            839,
+            1154
+          ],
+          "staff_count": 6,
+          "system_detection": "uncovered_observed_staff_group; system_count_crosscheck",
+          "boundary_support": [
+            0.8333,
+            1.0,
+            1.0,
+            0.8333
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 9,
+          "system_index": 2,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            54,
+            55,
+            56,
+            57
+          ],
+          "count_status": "needs_review",
+          "reference_local_numbers": [
+            "54",
+            "55",
+            "56",
+            "57"
+          ],
+          "geometry_status": "agent_image_checked_human_pending"
+        }
+      ],
+      "after": [
+        {
+          "top": 85,
+          "bottom": 834,
+          "left": 128,
+          "right": 1160,
+          "boundaries": [
+            128,
+            407,
+            658,
+            908,
+            1154
+          ],
+          "staff_count": 11,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 9,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            45,
+            46,
+            47,
+            48
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "45",
+            "46",
+            "47",
+            "48"
+          ]
+        },
+        {
+          "top": 907,
+          "bottom": 1022,
+          "left": 135,
+          "right": 1161,
+          "boundaries": [
+            135,
+            326,
+            494,
+            673,
+            916,
+            1154
+          ],
+          "staff_count": 2,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 9,
+          "system_index": 1,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            49,
+            50,
+            51,
+            52,
+            53
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "49",
+            "50",
+            "51",
+            "52",
+            "53"
+          ]
+        },
+        {
+          "top": 1100,
+          "bottom": 1505,
+          "left": 129,
+          "right": 1161,
+          "boundaries": [
+            129,
+            400,
+            636,
+            839,
+            1154
+          ],
+          "staff_count": 6,
+          "system_detection": "uncovered_observed_staff_group; system_count_crosscheck",
+          "boundary_support": [
+            0.8333,
+            1.0,
+            1.0,
+            0.8333
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 9,
+          "system_index": 2,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            54,
+            55,
+            56,
+            57
+          ],
+          "count_status": "needs_review",
+          "reference_local_numbers": [
+            "54",
+            "55",
+            "56",
+            "57"
+          ],
+          "geometry_status": "agent_image_checked_human_pending"
+        }
+      ],
+      "reason": "Agent image review of original scan and observed staff/bar connections: restore missed/slanted lines or remove aligned stems. Page 30 final signature is outside its final bar. No human numbering/timing signature.",
+      "human_signoff": null
+    },
+    {
+      "page": 23,
+      "before": [
+        {
+          "top": 123,
+          "bottom": 343,
+          "left": 144,
+          "right": 1158,
+          "boundaries": [
+            144,
+            516,
+            802,
+            1151
+          ],
+          "staff_count": 3,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 23,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            116,
+            117,
+            118
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "116",
+            "117",
+            "118"
+          ]
+        },
+        {
+          "top": 464,
+          "bottom": 682,
+          "left": 143,
+          "right": 1159,
+          "boundaries": [
+            143,
+            653,
+            1152
+          ],
+          "staff_count": 3,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 23,
+          "system_index": 1,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            119,
+            120
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "119",
+            "120"
+          ]
+        },
+        {
+          "top": 803,
+          "bottom": 939,
+          "left": 143,
+          "right": 1160,
+          "boundaries": [
+            143,
+            668,
+            1154
+          ],
+          "staff_count": 2,
+          "system_detection": "uncovered_observed_staff_group; system_count_crosscheck",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 23,
+          "system_index": 2,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            121,
+            122
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "121",
+            "122"
+          ]
+        },
+        {
+          "top": 1082,
+          "bottom": 1210,
+          "left": 143,
+          "right": 1160,
+          "boundaries": [
+            143,
+            707,
+            1154
+          ],
+          "staff_count": 2,
+          "system_detection": "uncovered_observed_staff_group; system_count_crosscheck",
+          "boundary_support": [
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 23,
+          "system_index": 3,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            123,
+            124
+          ],
+          "count_status": "needs_review",
+          "reference_local_numbers": [
+            "123",
+            "124"
+          ],
+          "geometry_status": "agent_image_checked_human_pending"
+        },
+        {
+          "top": 1337,
+          "bottom": 1469,
+          "left": 143,
+          "right": 1162,
+          "boundaries": [
+            143,
+            663,
+            1156
+          ],
+          "staff_count": 2,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 23,
+          "system_index": 4,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            125,
+            126
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "125",
+            "126"
+          ]
+        }
+      ],
+      "after": [
+        {
+          "top": 123,
+          "bottom": 343,
+          "left": 144,
+          "right": 1158,
+          "boundaries": [
+            144,
+            516,
+            802,
+            1151
+          ],
+          "staff_count": 3,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 23,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            116,
+            117,
+            118
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "116",
+            "117",
+            "118"
+          ]
+        },
+        {
+          "top": 464,
+          "bottom": 682,
+          "left": 143,
+          "right": 1159,
+          "boundaries": [
+            143,
+            653,
+            1152
+          ],
+          "staff_count": 3,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 23,
+          "system_index": 1,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            119,
+            120
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "119",
+            "120"
+          ]
+        },
+        {
+          "top": 803,
+          "bottom": 939,
+          "left": 143,
+          "right": 1160,
+          "boundaries": [
+            143,
+            668,
+            1154
+          ],
+          "staff_count": 2,
+          "system_detection": "uncovered_observed_staff_group; system_count_crosscheck",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 23,
+          "system_index": 2,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            121,
+            122
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "121",
+            "122"
+          ]
+        },
+        {
+          "top": 1082,
+          "bottom": 1210,
+          "left": 143,
+          "right": 1160,
+          "boundaries": [
+            143,
+            707,
+            1154
+          ],
+          "staff_count": 2,
+          "system_detection": "uncovered_observed_staff_group; system_count_crosscheck",
+          "boundary_support": [
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 23,
+          "system_index": 3,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            123,
+            124
+          ],
+          "count_status": "needs_review",
+          "reference_local_numbers": [
+            "123",
+            "124"
+          ],
+          "geometry_status": "agent_image_checked_human_pending"
+        },
+        {
+          "top": 1337,
+          "bottom": 1469,
+          "left": 143,
+          "right": 1162,
+          "boundaries": [
+            143,
+            663,
+            1156
+          ],
+          "staff_count": 2,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 23,
+          "system_index": 4,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            125,
+            126
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "125",
+            "126"
+          ]
+        }
+      ],
+      "reason": "Agent image review of original scan and observed staff/bar connections: restore missed/slanted lines or remove aligned stems. Page 30 final signature is outside its final bar. No human numbering/timing signature.",
+      "human_signoff": null
+    },
+    {
+      "page": 25,
+      "before": [
+        {
+          "top": 161,
+          "bottom": 303,
+          "left": 154,
+          "right": 1150,
+          "boundaries": [
+            154,
+            650,
+            1143
+          ],
+          "staff_count": 2,
+          "system_detection": "uncovered_observed_staff_group; system_count_crosscheck",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 25,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            139,
+            140
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "139",
+            "140"
+          ]
+        },
+        {
+          "top": 420,
+          "bottom": 538,
+          "left": 156,
+          "right": 1153,
+          "boundaries": [
+            156,
+            1153
+          ],
+          "staff_count": 2,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 25,
+          "system_index": 1,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            141
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "141"
+          ]
+        },
+        {
+          "top": 659,
+          "bottom": 785,
+          "left": 157,
+          "right": 1156,
+          "boundaries": [
+            157,
+            692,
+            1150
+          ],
+          "staff_count": 2,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 25,
+          "system_index": 2,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            142,
+            143
+          ],
+          "count_status": "needs_review",
+          "reference_local_numbers": [
+            "142",
+            "143"
+          ],
+          "geometry_status": "agent_image_checked_human_pending"
+        },
+        {
+          "top": 895,
+          "bottom": 1107,
+          "left": 157,
+          "right": 1160,
+          "boundaries": [
+            157,
+            674,
+            1154
+          ],
+          "staff_count": 3,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 25,
+          "system_index": 3,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            144,
+            145
+          ],
+          "count_status": "needs_review",
+          "reference_local_numbers": [
+            "144",
+            "145"
+          ],
+          "geometry_status": "agent_image_checked_human_pending"
+        },
+        {
+          "top": 1224,
+          "bottom": 1474,
+          "left": 160,
+          "right": 1164,
+          "boundaries": [
+            160,
+            658,
+            1157
+          ],
+          "staff_count": 3,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 25,
+          "system_index": 4,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            146,
+            147
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "146",
+            "147"
+          ]
+        }
+      ],
+      "after": [
+        {
+          "top": 161,
+          "bottom": 303,
+          "left": 154,
+          "right": 1150,
+          "boundaries": [
+            154,
+            650,
+            1143
+          ],
+          "staff_count": 2,
+          "system_detection": "uncovered_observed_staff_group; system_count_crosscheck",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 25,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            139,
+            140
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "139",
+            "140"
+          ]
+        },
+        {
+          "top": 420,
+          "bottom": 538,
+          "left": 156,
+          "right": 1153,
+          "boundaries": [
+            156,
+            1153
+          ],
+          "staff_count": 2,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 25,
+          "system_index": 1,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            141
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "141"
+          ]
+        },
+        {
+          "top": 659,
+          "bottom": 785,
+          "left": 157,
+          "right": 1156,
+          "boundaries": [
+            157,
+            692,
+            1150
+          ],
+          "staff_count": 2,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 25,
+          "system_index": 2,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            142,
+            143
+          ],
+          "count_status": "needs_review",
+          "reference_local_numbers": [
+            "142",
+            "143"
+          ],
+          "geometry_status": "agent_image_checked_human_pending"
+        },
+        {
+          "top": 895,
+          "bottom": 1107,
+          "left": 157,
+          "right": 1160,
+          "boundaries": [
+            157,
+            674,
+            1154
+          ],
+          "staff_count": 3,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 25,
+          "system_index": 3,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            144,
+            145
+          ],
+          "count_status": "needs_review",
+          "reference_local_numbers": [
+            "144",
+            "145"
+          ],
+          "geometry_status": "agent_image_checked_human_pending"
+        },
+        {
+          "top": 1224,
+          "bottom": 1474,
+          "left": 160,
+          "right": 1164,
+          "boundaries": [
+            160,
+            658,
+            1157
+          ],
+          "staff_count": 3,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 25,
+          "system_index": 4,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            146,
+            147
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "146",
+            "147"
+          ]
+        }
+      ],
+      "reason": "Agent image review of original scan and observed staff/bar connections: restore missed/slanted lines or remove aligned stems. Page 30 final signature is outside its final bar. No human numbering/timing signature.",
+      "human_signoff": null
+    },
+    {
+      "page": 30,
+      "before": [
+        {
+          "top": 142,
+          "bottom": 273,
+          "left": 151,
+          "right": 1156,
+          "boundaries": [
+            151,
+            1150
+          ],
+          "staff_count": 2,
+          "system_detection": "uncovered_observed_staff_group; system_count_crosscheck",
+          "boundary_support": [
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 30,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            176
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "176"
+          ]
+        },
+        {
+          "top": 464,
+          "bottom": 597,
+          "left": 151,
+          "right": 1157,
+          "boundaries": [
+            151,
+            1121
+          ],
+          "staff_count": 2,
+          "system_detection": "uncovered_observed_staff_group; system_count_crosscheck",
+          "boundary_support": [
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 30,
+          "system_index": 1,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            177
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "177"
+          ]
+        },
+        {
+          "top": 733,
+          "bottom": 888,
+          "left": 153,
+          "right": 1159,
+          "boundaries": [
+            153,
+            1152
+          ],
+          "staff_count": 2,
+          "system_detection": "uncovered_observed_staff_group; system_count_crosscheck",
+          "boundary_support": [
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 30,
+          "system_index": 2,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            178
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "178"
+          ]
+        },
+        {
+          "top": 1054,
+          "bottom": 1192,
+          "left": 152,
+          "right": 1159,
+          "boundaries": [
+            152,
+            1128
+          ],
+          "staff_count": 2,
+          "system_detection": "uncovered_observed_staff_group; system_count_crosscheck",
+          "boundary_support": [
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 30,
+          "system_index": 3,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            179
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "179"
+          ]
+        },
+        {
+          "top": 1326,
+          "bottom": 1468,
+          "left": 152,
+          "right": 1159,
+          "boundaries": [
+            152,
+            1078
+          ],
+          "staff_count": 2,
+          "system_detection": "uncovered_observed_staff_group; system_count_crosscheck",
+          "boundary_support": [
+            1.0,
+            1.0,
+            0.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 30,
+          "system_index": 4,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            180
+          ],
+          "count_status": "needs_review",
+          "reference_local_numbers": [
+            "180"
+          ],
+          "geometry_status": "agent_image_checked_human_pending"
+        }
+      ],
+      "after": [
+        {
+          "top": 142,
+          "bottom": 273,
+          "left": 151,
+          "right": 1156,
+          "boundaries": [
+            151,
+            1150
+          ],
+          "staff_count": 2,
+          "system_detection": "uncovered_observed_staff_group; system_count_crosscheck",
+          "boundary_support": [
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 30,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            176
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "176"
+          ]
+        },
+        {
+          "top": 464,
+          "bottom": 597,
+          "left": 151,
+          "right": 1157,
+          "boundaries": [
+            151,
+            1121
+          ],
+          "staff_count": 2,
+          "system_detection": "uncovered_observed_staff_group; system_count_crosscheck",
+          "boundary_support": [
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 30,
+          "system_index": 1,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            177
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "177"
+          ]
+        },
+        {
+          "top": 733,
+          "bottom": 888,
+          "left": 153,
+          "right": 1159,
+          "boundaries": [
+            153,
+            1152
+          ],
+          "staff_count": 2,
+          "system_detection": "uncovered_observed_staff_group; system_count_crosscheck",
+          "boundary_support": [
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 30,
+          "system_index": 2,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            178
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "178"
+          ]
+        },
+        {
+          "top": 1054,
+          "bottom": 1192,
+          "left": 152,
+          "right": 1159,
+          "boundaries": [
+            152,
+            1128
+          ],
+          "staff_count": 2,
+          "system_detection": "uncovered_observed_staff_group; system_count_crosscheck",
+          "boundary_support": [
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 30,
+          "system_index": 3,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            179
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "179"
+          ]
+        },
+        {
+          "top": 1326,
+          "bottom": 1468,
+          "left": 152,
+          "right": 1159,
+          "boundaries": [
+            152,
+            1078
+          ],
+          "staff_count": 2,
+          "system_detection": "uncovered_observed_staff_group; system_count_crosscheck",
+          "boundary_support": [
+            1.0,
+            1.0,
+            0.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 30,
+          "system_index": 4,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            180
+          ],
+          "count_status": "needs_review",
+          "reference_local_numbers": [
+            "180"
+          ],
+          "geometry_status": "agent_image_checked_human_pending"
+        }
+      ],
+      "reason": "Agent image review of original scan and observed staff/bar connections: restore missed/slanted lines or remove aligned stems. Page 30 final signature is outside its final bar. No human numbering/timing signature.",
+      "human_signoff": null
+    },
+    {
+      "page": 34,
+      "before": [
+        {
+          "top": 102,
+          "bottom": 1508,
+          "left": 163,
+          "right": 1168,
+          "boundaries": [
+            163,
+            651,
+            1152
+          ],
+          "staff_count": 20,
+          "system_detection": "all_observed_staffs_on_single_system_page",
+          "boundary_support": [
+            0.85,
+            0.35
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 34,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            187,
+            188
+          ],
+          "count_status": "needs_review",
+          "reference_local_numbers": [
+            "187",
+            "188"
+          ],
+          "geometry_status": "agent_image_checked_human_pending"
+        }
+      ],
+      "after": [
+        {
+          "top": 102,
+          "bottom": 1508,
+          "left": 163,
+          "right": 1168,
+          "boundaries": [
+            163,
+            651,
+            1152
+          ],
+          "staff_count": 20,
+          "system_detection": "all_observed_staffs_on_single_system_page",
+          "boundary_support": [
+            0.85,
+            0.35
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 34,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            187,
+            188
+          ],
+          "count_status": "needs_review",
+          "reference_local_numbers": [
+            "187",
+            "188"
+          ],
+          "geometry_status": "agent_image_checked_human_pending"
+        }
+      ],
+      "reason": "Agent image review of original scan and observed staff/bar connections: restore missed/slanted lines or remove aligned stems. Page 30 final signature is outside its final bar. No human numbering/timing signature.",
+      "human_signoff": null
+    },
+    {
+      "page": 35,
+      "before": [
+        {
+          "top": 107,
+          "bottom": 1498,
+          "left": 148,
+          "right": 1150,
+          "boundaries": [
+            148,
+            524,
+            802,
+            1150
+          ],
+          "staff_count": 17,
+          "system_detection": "all_observed_staffs_on_single_system_page",
+          "boundary_support": [
+            0.9412,
+            0.9412,
+            0.6471
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 35,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            189,
+            190,
+            191
+          ],
+          "count_status": "needs_review",
+          "reference_local_numbers": [
+            "189",
+            "190",
+            "191"
+          ],
+          "geometry_status": "agent_image_checked_human_pending"
+        }
+      ],
+      "after": [
+        {
+          "top": 107,
+          "bottom": 1498,
+          "left": 148,
+          "right": 1150,
+          "boundaries": [
+            148,
+            524,
+            802,
+            1150
+          ],
+          "staff_count": 17,
+          "system_detection": "all_observed_staffs_on_single_system_page",
+          "boundary_support": [
+            0.9412,
+            0.9412,
+            0.6471
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 35,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            189,
+            190,
+            191
+          ],
+          "count_status": "needs_review",
+          "reference_local_numbers": [
+            "189",
+            "190",
+            "191"
+          ],
+          "geometry_status": "agent_image_checked_human_pending"
+        }
+      ],
+      "reason": "Agent image review of original scan and observed staff/bar connections: restore missed/slanted lines or remove aligned stems. Page 30 final signature is outside its final bar. No human numbering/timing signature.",
+      "human_signoff": null
+    },
+    {
+      "page": 57,
+      "before": [
+        {
+          "top": 118,
+          "bottom": 1498,
+          "left": 143,
+          "right": 1159,
+          "boundaries": [
+            143,
+            407,
+            637,
+            889,
+            1155
+          ],
+          "staff_count": 15,
+          "system_detection": "all_observed_staffs_on_single_system_page",
+          "boundary_support": [
+            1.0,
+            0.9333,
+            0.8667,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 57,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            321,
+            322,
+            323,
+            324
+          ],
+          "count_status": "needs_review",
+          "reference_local_numbers": [
+            "121",
+            "122",
+            "123",
+            "124"
+          ],
+          "geometry_status": "agent_image_checked_human_pending"
+        }
+      ],
+      "after": [
+        {
+          "top": 118,
+          "bottom": 1498,
+          "left": 143,
+          "right": 1159,
+          "boundaries": [
+            143,
+            407,
+            637,
+            889,
+            1155
+          ],
+          "staff_count": 15,
+          "system_detection": "all_observed_staffs_on_single_system_page",
+          "boundary_support": [
+            1.0,
+            0.9333,
+            0.8667,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 57,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            321,
+            322,
+            323,
+            324
+          ],
+          "count_status": "needs_review",
+          "reference_local_numbers": [
+            "121",
+            "122",
+            "123",
+            "124"
+          ],
+          "geometry_status": "agent_image_checked_human_pending"
+        }
+      ],
+      "reason": "Agent image review of original scan and observed staff/bar connections: restore missed/slanted lines or remove aligned stems. Page 30 final signature is outside its final bar. No human numbering/timing signature.",
+      "human_signoff": null
+    },
+    {
+      "page": 62,
+      "before": [
+        {
+          "top": 114,
+          "bottom": 1515,
+          "left": 146,
+          "right": 1162,
+          "boundaries": [
+            146,
+            387,
+            590,
+            773,
+            948,
+            1135
+          ],
+          "staff_count": 17,
+          "system_detection": "all_observed_staffs_on_single_system_page",
+          "boundary_support": [
+            0.8824,
+            1.0,
+            0.9412,
+            0.9412
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 62,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            350,
+            351,
+            352,
+            353,
+            354
+          ],
+          "count_status": "needs_review",
+          "reference_local_numbers": [
+            "150",
+            "151",
+            "152",
+            "153",
+            "154"
+          ],
+          "geometry_status": "agent_image_checked_human_pending"
+        }
+      ],
+      "after": [
+        {
+          "top": 114,
+          "bottom": 1515,
+          "left": 146,
+          "right": 1162,
+          "boundaries": [
+            146,
+            387,
+            590,
+            773,
+            948,
+            1135
+          ],
+          "staff_count": 17,
+          "system_detection": "all_observed_staffs_on_single_system_page",
+          "boundary_support": [
+            0.8824,
+            1.0,
+            0.9412,
+            0.9412
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 62,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            350,
+            351,
+            352,
+            353,
+            354
+          ],
+          "count_status": "needs_review",
+          "reference_local_numbers": [
+            "150",
+            "151",
+            "152",
+            "153",
+            "154"
+          ],
+          "geometry_status": "agent_image_checked_human_pending"
+        }
+      ],
+      "reason": "Agent image review of original scan and observed staff/bar connections: restore missed/slanted lines or remove aligned stems. Page 30 final signature is outside its final bar. No human numbering/timing signature.",
+      "human_signoff": null
+    },
+    {
+      "page": 67,
+      "before": [
+        {
+          "top": 116,
+          "bottom": 1515,
+          "left": 132,
+          "right": 1157,
+          "boundaries": [
+            132,
+            434,
+            658,
+            924,
+            1153
+          ],
+          "staff_count": 16,
+          "system_detection": "all_observed_staffs_on_single_system_page",
+          "boundary_support": [
+            0.9375,
+            1.0,
+            0.9375,
+            0.875
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 67,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            376,
+            377,
+            378,
+            379
+          ],
+          "count_status": "needs_review",
+          "reference_local_numbers": [
+            "176",
+            "177",
+            "178",
+            "179"
+          ],
+          "geometry_status": "agent_image_checked_human_pending"
+        }
+      ],
+      "after": [
+        {
+          "top": 116,
+          "bottom": 1515,
+          "left": 132,
+          "right": 1157,
+          "boundaries": [
+            132,
+            434,
+            658,
+            924,
+            1153
+          ],
+          "staff_count": 16,
+          "system_detection": "all_observed_staffs_on_single_system_page",
+          "boundary_support": [
+            0.9375,
+            1.0,
+            0.9375,
+            0.875
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 67,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            376,
+            377,
+            378,
+            379
+          ],
+          "count_status": "needs_review",
+          "reference_local_numbers": [
+            "176",
+            "177",
+            "178",
+            "179"
+          ],
+          "geometry_status": "agent_image_checked_human_pending"
+        }
+      ],
+      "reason": "Agent image review of original scan and observed staff/bar connections: restore missed/slanted lines or remove aligned stems. Page 30 final signature is outside its final bar. No human numbering/timing signature.",
+      "human_signoff": null
+    },
+    {
+      "page": 116,
+      "before": [
+        {
+          "top": 85,
+          "bottom": 1465,
+          "left": 165,
+          "right": 1134,
+          "boundaries": [
+            165,
+            452,
+            705,
+            926,
+            1134
+          ],
+          "staff_count": 16,
+          "system_detection": "all_observed_staffs_on_single_system_page",
+          "boundary_support": [
+            0.875,
+            1.0,
+            0.5625
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 116,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            582,
+            583,
+            584,
+            585
+          ],
+          "count_status": "needs_review",
+          "reference_local_numbers": [
+            "36",
+            "37",
+            "38",
+            "39"
+          ],
+          "geometry_status": "agent_image_checked_human_pending"
+        }
+      ],
+      "after": [
+        {
+          "top": 85,
+          "bottom": 1465,
+          "left": 165,
+          "right": 1134,
+          "boundaries": [
+            165,
+            452,
+            705,
+            926,
+            1134
+          ],
+          "staff_count": 16,
+          "system_detection": "all_observed_staffs_on_single_system_page",
+          "boundary_support": [
+            0.875,
+            1.0,
+            0.5625
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 116,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            582,
+            583,
+            584,
+            585
+          ],
+          "count_status": "needs_review",
+          "reference_local_numbers": [
+            "36",
+            "37",
+            "38",
+            "39"
+          ],
+          "geometry_status": "agent_image_checked_human_pending"
+        }
+      ],
+      "reason": "Agent image review of original scan and observed staff/bar connections: restore missed/slanted lines or remove aligned stems. Page 30 final signature is outside its final bar. No human numbering/timing signature.",
+      "human_signoff": null
+    },
+    {
+      "page": 119,
+      "before": [
+        {
+          "top": 132,
+          "bottom": 1481,
+          "left": 149,
+          "right": 1150,
+          "boundaries": [
+            149,
+            459,
+            761,
+            1150
+          ],
+          "staff_count": 15,
+          "system_detection": "all_observed_staffs_on_single_system_page",
+          "boundary_support": [
+            0.8667,
+            0.6
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 119,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            593,
+            594,
+            595
+          ],
+          "count_status": "needs_review",
+          "reference_local_numbers": [
+            "47",
+            "48",
+            "49"
+          ],
+          "geometry_status": "agent_image_checked_human_pending"
+        }
+      ],
+      "after": [
+        {
+          "top": 132,
+          "bottom": 1481,
+          "left": 149,
+          "right": 1150,
+          "boundaries": [
+            149,
+            459,
+            761,
+            1150
+          ],
+          "staff_count": 15,
+          "system_detection": "all_observed_staffs_on_single_system_page",
+          "boundary_support": [
+            0.8667,
+            0.6
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 119,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            593,
+            594,
+            595
+          ],
+          "count_status": "needs_review",
+          "reference_local_numbers": [
+            "47",
+            "48",
+            "49"
+          ],
+          "geometry_status": "agent_image_checked_human_pending"
+        }
+      ],
+      "reason": "Agent image review of original scan and observed staff/bar connections: restore missed/slanted lines or remove aligned stems. Page 30 final signature is outside its final bar. No human numbering/timing signature.",
+      "human_signoff": null
+    },
+    {
+      "page": 120,
+      "before": [
+        {
+          "top": 100,
+          "bottom": 1476,
+          "left": 154,
+          "right": 1152,
+          "boundaries": [
+            154,
+            505,
+            828,
+            1152
+          ],
+          "staff_count": 15,
+          "system_detection": "all_observed_staffs_on_single_system_page",
+          "boundary_support": [
+            1.0,
+            0.6667
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 120,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            596,
+            597,
+            598
+          ],
+          "count_status": "needs_review",
+          "reference_local_numbers": [
+            "50",
+            "51",
+            "52"
+          ],
+          "geometry_status": "agent_image_checked_human_pending"
+        }
+      ],
+      "after": [
+        {
+          "top": 100,
+          "bottom": 1476,
+          "left": 154,
+          "right": 1152,
+          "boundaries": [
+            154,
+            505,
+            828,
+            1152
+          ],
+          "staff_count": 15,
+          "system_detection": "all_observed_staffs_on_single_system_page",
+          "boundary_support": [
+            1.0,
+            0.6667
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 120,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            596,
+            597,
+            598
+          ],
+          "count_status": "needs_review",
+          "reference_local_numbers": [
+            "50",
+            "51",
+            "52"
+          ],
+          "geometry_status": "agent_image_checked_human_pending"
+        }
+      ],
+      "reason": "Agent image review of original scan and observed staff/bar connections: restore missed/slanted lines or remove aligned stems. Page 30 final signature is outside its final bar. No human numbering/timing signature.",
+      "human_signoff": null
+    },
+    {
+      "page": 126,
+      "before": [
+        {
+          "top": 1150,
+          "bottom": 1522,
+          "left": 152,
+          "right": 1161,
+          "boundaries": [
+            152,
+            508,
+            839,
+            1153
+          ],
+          "staff_count": 5,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            0.8,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 126,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [],
+          "count_status": "needs_review",
+          "reference_local_numbers": []
+        }
+      ],
+      "after": [
+        {
+          "top": 79,
+          "bottom": 210,
+          "left": 149,
+          "right": 1154,
+          "boundaries": [
+            149,
+            316,
+            439,
+            570,
+            708,
+            859,
+            983,
+            1154
+          ],
+          "staff_count": 2,
+          "system_detection": "agent image checked staff bands plus full-grand-staff connecting columns",
+          "boundary_support": [
+            0.8,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 126,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [],
+          "count_status": "needs_review",
+          "reference_local_numbers": [],
+          "geometry_status": "agent_image_checked_human_pending"
+        },
+        {
+          "top": 305,
+          "bottom": 437,
+          "left": 149,
+          "right": 1156,
+          "boundaries": [
+            149,
+            344,
+            496,
+            653,
+            812,
+            997,
+            1156
+          ],
+          "staff_count": 2,
+          "system_detection": "agent image checked staff bands plus full-grand-staff connecting columns",
+          "boundary_support": [
+            0.8,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 126,
+          "system_index": 1,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [],
+          "count_status": "needs_review",
+          "reference_local_numbers": [],
+          "geometry_status": "agent_image_checked_human_pending"
+        },
+        {
+          "top": 502,
+          "bottom": 630,
+          "left": 149,
+          "right": 1157,
+          "boundaries": [
+            149,
+            365,
+            548,
+            727,
+            942,
+            1157
+          ],
+          "staff_count": 2,
+          "system_detection": "agent image checked staff bands plus full-grand-staff connecting columns",
+          "boundary_support": [
+            0.8,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 126,
+          "system_index": 2,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [],
+          "count_status": "needs_review",
+          "reference_local_numbers": [],
+          "geometry_status": "agent_image_checked_human_pending"
+        },
+        {
+          "top": 715,
+          "bottom": 847,
+          "left": 149,
+          "right": 1155,
+          "boundaries": [
+            149,
+            430,
+            671,
+            905,
+            1155
+          ],
+          "staff_count": 2,
+          "system_detection": "agent image checked staff bands plus full-grand-staff connecting columns",
+          "boundary_support": [
+            0.8,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 126,
+          "system_index": 3,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [],
+          "count_status": "needs_review",
+          "reference_local_numbers": [],
+          "geometry_status": "agent_image_checked_human_pending"
+        },
+        {
+          "top": 913,
+          "bottom": 1043,
+          "left": 149,
+          "right": 1155,
+          "boundaries": [
+            149,
+            375,
+            576,
+            705,
+            862,
+            998,
+            1155
+          ],
+          "staff_count": 2,
+          "system_detection": "agent image checked staff bands plus full-grand-staff connecting columns",
+          "boundary_support": [
+            0.8,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 126,
+          "system_index": 4,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [],
+          "count_status": "needs_review",
+          "reference_local_numbers": [],
+          "geometry_status": "agent_image_checked_human_pending"
+        },
+        {
+          "top": 1150,
+          "bottom": 1522,
+          "left": 152,
+          "right": 1161,
+          "boundaries": [
+            152,
+            508,
+            839,
+            1153
+          ],
+          "staff_count": 5,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            0.8,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 126,
+          "system_index": 5,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [],
+          "count_status": "needs_review",
+          "reference_local_numbers": [],
+          "geometry_status": "agent_image_checked_human_pending"
+        }
+      ],
+      "reason": "Five solo-piano systems were absent from the brace detector. Their ten actual horizontal staff bands were measured; bar boundaries independently detected across the full grand staff and count-checked against layout. No equal-width splitting.",
+      "human_signoff": null
+    },
+    {
+      "page": 141,
+      "before": [
+        {
+          "top": 736,
+          "bottom": 889,
+          "left": 143,
+          "right": 1158,
+          "boundaries": [
+            143,
+            651,
+            1149
+          ],
+          "staff_count": 2,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 141,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [],
+          "count_status": "needs_review",
+          "reference_local_numbers": []
+        },
+        {
+          "top": 1028,
+          "bottom": 1192,
+          "left": 142,
+          "right": 1157,
+          "boundaries": [
+            142,
+            668,
+            1151
+          ],
+          "staff_count": 2,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 141,
+          "system_index": 1,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [],
+          "count_status": "needs_review",
+          "reference_local_numbers": []
+        },
+        {
+          "top": 1328,
+          "bottom": 1495,
+          "left": 140,
+          "right": 1161,
+          "boundaries": [
+            140,
+            629,
+            1153
+          ],
+          "staff_count": 2,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 141,
+          "system_index": 2,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [],
+          "count_status": "needs_review",
+          "reference_local_numbers": []
+        }
+      ],
+      "after": [
+        {
+          "top": 156,
+          "bottom": 307,
+          "left": 143,
+          "right": 1150,
+          "boundaries": [
+            143,
+            657,
+            1150
+          ],
+          "staff_count": 2,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 141,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [],
+          "count_status": "needs_review",
+          "reference_local_numbers": [],
+          "geometry_status": "agent_image_checked_human_pending"
+        },
+        {
+          "top": 448,
+          "bottom": 601,
+          "left": 143,
+          "right": 1151,
+          "boundaries": [
+            143,
+            693,
+            1151
+          ],
+          "staff_count": 2,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 141,
+          "system_index": 1,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [],
+          "count_status": "needs_review",
+          "reference_local_numbers": [],
+          "geometry_status": "agent_image_checked_human_pending"
+        },
+        {
+          "top": 736,
+          "bottom": 889,
+          "left": 143,
+          "right": 1158,
+          "boundaries": [
+            143,
+            651,
+            1149
+          ],
+          "staff_count": 2,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 141,
+          "system_index": 2,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [],
+          "count_status": "needs_review",
+          "reference_local_numbers": [],
+          "geometry_status": "agent_image_checked_human_pending"
+        },
+        {
+          "top": 1028,
+          "bottom": 1192,
+          "left": 142,
+          "right": 1157,
+          "boundaries": [
+            142,
+            668,
+            1151
+          ],
+          "staff_count": 2,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 141,
+          "system_index": 3,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [],
+          "count_status": "needs_review",
+          "reference_local_numbers": [],
+          "geometry_status": "agent_image_checked_human_pending"
+        },
+        {
+          "top": 1328,
+          "bottom": 1495,
+          "left": 140,
+          "right": 1161,
+          "boundaries": [
+            140,
+            629,
+            1153
+          ],
+          "staff_count": 2,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 141,
+          "system_index": 4,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [],
+          "count_status": "needs_review",
+          "reference_local_numbers": [],
+          "geometry_status": "agent_image_checked_human_pending"
+        }
+      ],
+      "reason": "Two tilted solo-piano systems missing from the left-brace detector; full-width staff bands and connecting bar columns separately observed and image checked.",
+      "human_signoff": null
+    },
+    {
+      "page": 140,
+      "before": [
+        {
+          "top": 119,
+          "bottom": 325,
+          "left": 145,
+          "right": 1158,
+          "boundaries": [
+            145,
+            1158
+          ],
+          "staff_count": 3,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.6667
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 140,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            739,
+            740,
+            741,
+            742,
+            743,
+            744,
+            745,
+            746,
+            747
+          ],
+          "count_status": "needs_review",
+          "reference_local_numbers": [
+            "193",
+            "194",
+            "195",
+            "196",
+            "197",
+            "198",
+            "199",
+            "200",
+            "201"
+          ],
+          "force_shared_system": true,
+          "geometry_status": "agent_image_checked_human_pending"
+        },
+        {
+          "top": 450,
+          "bottom": 592,
+          "left": 145,
+          "right": 1159,
+          "boundaries": [
+            145,
+            429,
+            658,
+            892,
+            1152
+          ],
+          "staff_count": 2,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 140,
+          "system_index": 1,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            748,
+            749,
+            750,
+            751
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "202",
+            "203",
+            "204",
+            "205"
+          ]
+        },
+        {
+          "top": 714,
+          "bottom": 857,
+          "left": 140,
+          "right": 1159,
+          "boundaries": [
+            140,
+            456,
+            721,
+            1133
+          ],
+          "staff_count": 2,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 140,
+          "system_index": 2,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            752,
+            753,
+            754
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "206",
+            "207",
+            "208"
+          ]
+        },
+        {
+          "top": 944,
+          "bottom": 1071,
+          "left": 147,
+          "right": 1160,
+          "boundaries": [
+            147,
+            685,
+            1153
+          ],
+          "staff_count": 2,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 140,
+          "system_index": 3,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            755,
+            756
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "209",
+            "210"
+          ]
+        },
+        {
+          "top": 1163,
+          "bottom": 1304,
+          "left": 148,
+          "right": 1161,
+          "boundaries": [
+            148,
+            702,
+            1154
+          ],
+          "staff_count": 2,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 140,
+          "system_index": 4,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            757,
+            758
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "211",
+            "212"
+          ]
+        },
+        {
+          "top": 1400,
+          "bottom": 1514,
+          "left": 149,
+          "right": 1162,
+          "boundaries": [
+            149,
+            673,
+            1155
+          ],
+          "staff_count": 2,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 140,
+          "system_index": 5,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            759,
+            760
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "213",
+            "214"
+          ]
+        }
+      ],
+      "after": [
+        {
+          "top": 119,
+          "bottom": 325,
+          "left": 145,
+          "right": 1158,
+          "boundaries": [
+            145,
+            1158
+          ],
+          "staff_count": 3,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.6667
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 140,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            739,
+            740,
+            741,
+            742,
+            743,
+            744,
+            745,
+            746,
+            747
+          ],
+          "count_status": "needs_review",
+          "reference_local_numbers": [
+            "193",
+            "194",
+            "195",
+            "196",
+            "197",
+            "198",
+            "199",
+            "200",
+            "201"
+          ],
+          "force_shared_system": true,
+          "geometry_status": "agent_image_checked_human_pending"
+        },
+        {
+          "top": 450,
+          "bottom": 592,
+          "left": 145,
+          "right": 1159,
+          "boundaries": [
+            145,
+            429,
+            658,
+            892,
+            1152
+          ],
+          "staff_count": 2,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 140,
+          "system_index": 1,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            748,
+            749,
+            750,
+            751
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "202",
+            "203",
+            "204",
+            "205"
+          ]
+        },
+        {
+          "top": 714,
+          "bottom": 857,
+          "left": 140,
+          "right": 1159,
+          "boundaries": [
+            140,
+            456,
+            721,
+            1133
+          ],
+          "staff_count": 2,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 140,
+          "system_index": 2,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            752,
+            753,
+            754
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "206",
+            "207",
+            "208"
+          ]
+        },
+        {
+          "top": 944,
+          "bottom": 1071,
+          "left": 147,
+          "right": 1160,
+          "boundaries": [
+            147,
+            685,
+            1153
+          ],
+          "staff_count": 2,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 140,
+          "system_index": 3,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            755,
+            756
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "209",
+            "210"
+          ]
+        },
+        {
+          "top": 1163,
+          "bottom": 1304,
+          "left": 148,
+          "right": 1161,
+          "boundaries": [
+            148,
+            702,
+            1154
+          ],
+          "staff_count": 2,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 140,
+          "system_index": 4,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            757,
+            758
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "211",
+            "212"
+          ]
+        },
+        {
+          "top": 1400,
+          "bottom": 1514,
+          "left": 149,
+          "right": 1162,
+          "boundaries": [
+            149,
+            673,
+            1155
+          ],
+          "staff_count": 2,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 140,
+          "system_index": 5,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [
+            759,
+            760
+          ],
+          "count_status": "observed_and_reference_counts_agree",
+          "reference_local_numbers": [
+            "213",
+            "214"
+          ]
+        }
+      ],
+      "reason": "First cadenza system contains changing staff extents, meters and rests. Keep nine XML intervals in one observed system; do not force guessed bar rectangles or a moving line.",
+      "human_signoff": null
+    }
+  ],
+  "remaining_shared_regions": [
+    {
+      "page": 140,
+      "system": 0,
+      "kind": "shared_observed_system",
+      "source_intervals": 9,
+      "observed_bar_candidates": 1
+    }
+  ],
+  "observed_fine_boxes": 855,
+  "systems": 294,
+  "source_intervals": 864,
+  "human_signoff": null
+}

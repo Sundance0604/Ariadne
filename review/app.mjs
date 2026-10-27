@@ -165,8 +165,9 @@ function updatePlayhead(){
     referenceId:m.measure_id,regionId:box?.region_id,systemIndex:box?.system_index,
     referenceSeconds:position?.referenceSeconds??null,
     x:position&&box?position.leftPercent/100*box.page_width_pt:null});
-  line.hidden=!position||box.page_number!==page||!$('showplayhead').checked;
+  line.hidden=!position||box.page_number!==page||Boolean(box.suppress_playhead)||!$('showplayhead').checked;
   if(!position){$('playheadlabel').textContent='暂无位置估计';return;}
+  if(box.suppress_playhead){$('playheadlabel').textContent='使用系统区域高亮 · 未估计页内播放线';return;}
   if(!line.hidden){
     line.style.left=`${position.leftPercent}%`;
     line.style.top=scoreRegions.length?`${box.rect_pt[1]/box.page_height_pt*100}%`:'0';

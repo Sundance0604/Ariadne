@@ -13,10 +13,11 @@ if(dimension==='harmony'){
   if(layers.length)surface+='\n'+layers.map(r=>`并列层读法：${r.label}${r.chord&&!r.label.includes('转位')?`（层内${['原位','第一转位','第二转位','第三转位'][r.chord.inversion]}，最低${r.layer_bass?.name||'待核'}）`:''}`).join('\n');
   background=v.contextual.length?`背景：${v.contextual.map(c=>c.label).join('；')}`:'背景和声：待分析';
 }else if(dimension==='orchestration'){
-  surface=v.activeParts.length?`${v.activeParts.length}个活跃分部 · ${v.activeParts.map(p=>p.label).join('、')}`:labels.length?`谱面研究（非实时时点）：${labels.join('；')}`:'当前分部活动未定位';
+  surface=v.activeParts.length?`${v.activeParts.length}个活跃分部 · ${v.activeParts.map(p=>p.label).join('、')}`:v.activityLocated?'当前无已知有效记谱活动':labels.length?`谱面研究（非实时时点）：${labels.join('；')}`:'当前分部活动未定位';
   background=v.observedRoles.length?v.observedRoles.map(c=>c.label).join('；'):'织体职责：候选／待核查';
   if(v.transitions.entered.length)background+='\n此时进入：'+v.transitions.entered.map(p=>p.label).join('、');
   if(v.transitions.exited.length)background+='\n此时退出：'+v.transitions.exited.map(p=>p.label).join('、');
+  if(v.uncertainty?.length)background+='\n'+v.uncertainty.join('；');
 }else if(dimension==='counterpoint'){
   surface=v.localRelations.length?`${v.localRelations.length}条音程见证 · 非严格对位认定`:labels.join('；')||'当前重要声部关系：待分析';
   background=es.length?`${es.length}项研究 · ${eventScope(es[0],context)}`:'声部独立性与模仿：待核查';

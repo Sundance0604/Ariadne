@@ -1,0 +1,97 @@
+{
+  "id": "prokofiev-piano-concerto-2",
+  "title": "普罗科菲耶夫 第二钢琴协奏曲",
+  "stage": "web_written_activity_candidate_user_review_pending",
+  "movements": [
+    {
+      "movement": 1,
+      "title": "Andantino",
+      "first_sequence": 1,
+      "last_sequence": 200,
+      "source_measure_count": 200,
+      "score_pdf_page_range": [
+        1,
+        37
+      ]
+    },
+    {
+      "movement": 2,
+      "title": "Scherzo Vivace",
+      "first_sequence": 201,
+      "last_sequence": 387,
+      "source_measure_count": 187,
+      "score_pdf_page_range": [
+        38,
+        69
+      ]
+    },
+    {
+      "movement": 3,
+      "title": "Intermezzo Allegro moderato",
+      "first_sequence": 388,
+      "last_sequence": 546,
+      "source_measure_count": 159,
+      "score_pdf_page_range": [
+        70,
+        108
+      ]
+    },
+    {
+      "movement": 4,
+      "title": "Finale Allegro tempestoso",
+      "first_sequence": 547,
+      "last_sequence": 864,
+      "source_measure_count": 318,
+      "score_pdf_page_range": [
+        109,
+        168
+      ]
+    }
+  ],
+  "analysis_document": "works/prokofiev-piano-concerto-2/analysis/full-analysis.md",
+  "sources": "works/prokofiev-piano-concerto-2/analysis/sources.json",
+  "audio": null,
+  "video": {
+    "path": "resource/PROKOFIEV PIANO CONCERTO 2/[普二钢协 王羽佳 小雅尔维 ]Yuja Wang Prokofiev Piano Concerto No  2  Paavo Järvi [BV1j741177rT] 720p.mp4",
+    "sha256": "f2f8b76044249c9c25d00ab917b52188fa5f34e93bef951f00ee75bc333b976c",
+    "bytes": 234894922,
+    "method": "ffmpeg_diagnostic_fallback",
+    "duration_seconds": 2399.64,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "description": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720 [SAR 1:1 DAR 16:9], 647 kb/s, 30 fps, 30 tbr, 16k tbn (default)"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "description": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 125 kb/s (default)"
+      }
+    ],
+    "diagnostic": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'D:\\mycodelife\\workshop\\AI\\classicMusic\\resource\\PROKOFIEV PIANO CONCERTO 2\\[普二钢协 王羽佳 小雅尔维 ]Yuja Wang Prokofiev Piano Concerto No  2  Paavo Järvi [BV1j741177rT] 720p.mp4':\r\n  Metadata:\r\n    major_brand     : isom\r\n    minor_version   : 512\r\n    compatible_brands: isomiso2avc1mp41\r\n    title           : [普二钢协 王羽佳 小雅尔维 ]Yuja Wang Prokofiev Piano Concerto No  2  Paavo Järvi\r\n    artist          : xszgreat\r\n    date            : 20200218\r\n    encoder         : Lavf63.17.100\r\n    comment         : https://www.bilibili.com/video/BV1j741177rT/\r\n    genre           : 发现《Piano Concerto No. 2 in G Minor, Op. 16 - I. Andantino - Allegretto》, 古典音乐, 普罗科菲耶夫, 音乐现场, 现场, 欧美现场\r\n    description     : https://www.youtube.com/watch?v=Il95HXvCdH4&amp;t=714s\r\n    synopsis        : https://www.youtube.com/watch?v=Il95HXvCdH4&amp;t=714s\r\n  Duration: 00:39:59.64, start: 0.000000, bitrate: 783 kb/s\r\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720 [SAR 1:1 DAR 16:9], 647 kb/s, 30 fps, 30 tbr, 16k tbn (default)\r\n      Metadata:\r\n        handler_name    : VideoHandler\r\n        vendor_id       : [0][0][0][0]\r\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 125 kb/s (default)\r\n      Metadata:\r\n        handler_name    : SoundHandler\r\n        vendor_id       : [0][0][0][0]\r\nAt least one output file must be specified\r\n",
+    "warning": "ffprobe 未安装；当前轨道信息来自 FFmpeg，精细的轨道时间轴待 ffprobe 复核。"
+  },
+  "recording_metadata": "works/prokofiev-piano-concerto-2/metadata/recording.json",
+  "performance_target_recording_id": "horobets-wang-jarvi-berlin-reference",
+  "performance_context": "works/prokofiev-piano-concerto-2/analysis/performance-context.json",
+  "alignment": "works/prokofiev-piano-concerto-2/alignment.json",
+  "recording_projection": {
+    "path": "works/prokofiev-piano-concerto-2/playback/yuja-jarvi-20261027-live-v1/live.json",
+    "field": "projection",
+    "status": "existing_DTW_candidate"
+  },
+  "player_registration": true,
+  "harmony_method": "existing_local_sonority_method",
+  "human_signoff": null,
+  "expert_review": null,
+  "measure_map": "works/prokofiev-piano-concerto-2/measure-map.json",
+  "processing_status": {
+    "alignment": "four independent video-audio movement DTWs",
+    "score_geometry": "original scanned PDF; observed regions with explicit shared systems",
+    "human_listening_review": "pending",
+    "video_export": "authorized 45-second harmonic-flow sample; no PDF insertion",
+    "live_activity": "written half-open note intervals and unpitched activity; timing exclusions explicit"
+  },
+  "live_musicxml": "works/prokofiev-piano-concerto-2/playback/yuja-jarvi-20261027-live-v1/live.json"
+}

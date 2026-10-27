@@ -55,10 +55,15 @@ def inspect_frames(binary,path,start,duration,log=None):
         # showinfo observes actual frames, including variable-rate sources.
         result=run([binary,'-hide_banner','-nostdin','-copyts','-ss',str(start),'-i',path,'-t',str(start+duration),
             '-map','0:v:0','-vf','showinfo','-an','-fps_mode','passthrough','-f','null','-'],log)
-        frames=[(float(p),float(d)) for p,d in re.findall(r'\bn:\s*\d+\s+pts:\s*-?\d+\s+pts_time:([\d.eE+\-]+)\s+duration:\s*-?\d+\s+duration_time:([\d.eE+\-]+)',result.stderr)]
+        time_base=re.search(r'config in time_base:\s*(\d+)/(\d+)',result.stderr)
+        if time_base:
+            unit=int(time_base[1])/int(time_base[2])
+            frames=[(int(p)*unit,int(d)*unit) for p,d in re.findall(r'\bn:\s*\d+\s+pts:\s*(-?\d+)\s+pts_time:[\d.eE+\-]+\s+duration:\s*(-?\d+)',result.stderr)]
+        else:frames=[(float(p),float(d)) for p,d in re.findall(r'\bn:\s*\d+\s+pts:\s*-?\d+\s+pts_time:([\d.eE+\-]+)\s+duration:\s*-?\d+\s+duration_time:([\d.eE+\-]+)',result.stderr)]
         sizes=re.findall(r'\bs:(\d+)x(\d+)\b',result.stderr)
         if not frames or not sizes:raise ValueError('No decoded video timestamps')
         width,height=map(int,sizes[0]);stream={'width':width,'height':height}
+        if time_base:stream['time_base']=f'{time_base[1]}/{time_base[2]}'
         method='ffmpeg_decoded_showinfo'
     frames=[f for f in frames if start-1e-6<=f[0]<start+duration-1e-6]
     pts=[f[0] for f in frames]

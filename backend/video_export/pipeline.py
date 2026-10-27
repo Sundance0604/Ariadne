@@ -44,7 +44,9 @@ def validate_config(config):
         for other in names[i+1:]:
             if overlap(config['layout'][name],config['layout'][other]):raise ValueError('Fixed slots overlap: '+name+'/'+other)
     for name in names[:-1]:
-        if overlap(config['layout'][name],config['layout']['interpretation']):raise ValueError('Interpretation overlaps regular subtitle')
+        if name not in config.get('interpretation_suppresses_slots',['guide','form']) and overlap(config['layout'][name],config['layout']['interpretation']):raise ValueError('Interpretation overlaps regular subtitle')
+    if not config.get('interpretation_hides_score',True) and overlap(config['layout']['score'],config['layout']['interpretation']):
+        raise ValueError('Interpretation overlaps a visible score')
     if config.get('score_zoom',1)<1:raise ValueError('Invalid score zoom')
 
 
@@ -257,7 +259,7 @@ def prepare_score(root,package):
     write(package/'score/page-events.json',page_events)
     report=read(package/'review-report.json');report['score_issues']=list({json.dumps(i,sort_keys=True):i for i in issues}.values())
     report['checks'].update({'fixed_score_viewport':True,'original_js_modules_used':plan['reuse'],
-        'interpretation_hides_score':all(not e['visible'] for e in plan['events'] if any(a['slot']=='interpretation' and a.get('phase')!='intro' and a['video_start']<=e['videoTime']<a['video_end'] for a in annotations)),
+        'interpretation_hides_score':config.get('interpretation_hides_score',True) and all(not e['visible'] for e in plan['events'] if any(a['slot']=='interpretation' and a.get('phase')!='intro' and a['video_start']<=e['videoTime']<a['video_end'] for a in annotations)),
         'no_unexpected_page_regression':not any(i['reason']=='page_regression' for i in issues)})
     report['performance']={'score_prepare_seconds':time.perf_counter()-start,'cached_view_count':len(pages),
         'event_count':len(plan['events']),'page_switch_events':len(page_events),'browser_frames_rendered':0}

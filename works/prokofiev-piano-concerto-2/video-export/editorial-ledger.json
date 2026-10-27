@@ -1,0 +1,1347 @@
+{
+  "decisions": [
+    {
+      "id": "prokofiev2-1-01-harmony",
+      "section": "prokofiev2-1-01",
+      "source_text": "音乐先留出空白，再以F的八度同音进入，第二小节起点换成C的八度。这里尚无足以独立确定G小三和弦的完整音响。G小调是作品的背景参照，开头的几次攻击却把三音与稳定终止暂时留在远处。[H：I-initial-rest、I-first-sounding-attack、I-second-intro-bar]",
+      "video_text": "音乐先留出空白，再以F的八度同音进入，第二小节起点换成C的八度。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-01-orchestration",
+      "section": "prokofiev2-1-01",
+      "source_text": "单簧管与加弱音器的弦乐拨奏相互贴合，弦乐低处的同音、八度为短句留下清楚而稀疏的轮廓。它不像一场协奏曲常见的开场合奏，更像一句被放在门口的话。",
+      "video_text": "单簧管与加弱音器的弦乐拨奏相互贴合，弦乐低处的同音、八度为短句留下清楚而稀疏的轮廓。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-01-counterpoint",
+      "section": "prokofiev2-1-01",
+      "source_text": "多个谱表在这里共同描出少数线条。音色的重叠会放大攻击与停顿，却不自动增加独立旋律的数量；应先记住短句的方向和断续节奏。",
+      "video_text": "多个谱表在这里共同描出少数线条。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-01-form",
+      "section": "prokofiev2-1-01",
+      "source_text": "Marzec把这组引子材料称作“动机x”。它随后会在华彩危机与乐队返回中获得远大于开头的重量。她将其联系到“幽异”的解释，建立在后来的变形与回忆上，而不是说这两个小节已经讲明了全部故事。",
+      "video_text": "Marzec把这组引子材料称作“动机x”。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-01-guide",
+      "section": "prokofiev2-1-01",
+      "source_text": "不急着寻找主旋律，先把休止和几次低声的攻击一起记住；后面最强烈的合奏会让它们重新变得可辨。",
+      "video_text": "不急着寻找主旋律，先把休止和几次低声的攻击一起记住；后面最强烈的合奏会让它们重新变得可辨。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-02-harmony",
+      "section": "prokofiev2-1-02",
+      "source_text": "钢琴左手以G–D的开放支撑进入，分解音型在其上不断转动；右手到第4小节末段才以八度旋律加入。整体G小调的歌唱性来自连续语境，不能把第3小节进入的一瞬间直接补成已经同时奏出的G–B♭–D。[H：I-piano-accompaniment-entry、I-narrante-right-hand-entry]",
+      "video_text": "钢琴左手以G–D的开放支撑进入，分解音型在其上不断转动；右手到第4小节末段才以八度旋律加入。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-02-orchestration",
+      "section": "prokofiev2-1-02",
+      "source_text": "钢琴起初接过了音响空间，乐队逐渐提供衬托。左手的三连运动与右手附点节奏具有不同的重心：一边流动，一边像带着停顿和重音说话。谱上的 narrante 把“讲述”的要求直接交给旋律。",
+      "video_text": "钢琴起初接过了音响空间，乐队逐渐提供衬托。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-02-counterpoint",
+      "section": "prokofiev2-1-02",
+      "source_text": "右手八度主要加强一条旋律；左手分解音型同时提供低层支点和流动背景。两手并非一条节奏线的简单加厚。Marzec所说的夜曲性伴奏与号角性旋律的并置，可以从这种节奏和音区分工中听出来。",
+      "video_text": "右手八度主要加强一条旋律；左手分解音型同时提供低层支点和流动背景。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-02-form",
+      "section": "prokofiev2-1-02",
+      "source_text": "主部的身份逐渐建立，却从一开始就含有两种时间感。后来的热烈扩张并不是另换一首音乐，而是让这段看似平静的讲述显露更强的冲动。",
+      "video_text": "主部的身份逐渐建立，却从一开始就含有两种时间感。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-02-guide",
+      "section": "prokofiev2-1-02",
+      "source_text": "左手不停地转，右手却不顺着它的细分轻轻滑过去；留意附点和跳进怎样让旋律带着棱角。",
+      "video_text": "左手不停地转，右手却不顺着它的细分轻轻滑过去；留意附点和跳进怎样让旋律带着棱角。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-03-harmony",
+      "section": "prokofiev2-1-03",
+      "source_text": "音乐不再只围绕开头的支点徘徊，半音化的和弦与上行线条把局部重心推远。Marzec将这次短暂高潮联系到B小调；这个调性判断属于她对整段的归约，而不是每个密集和弦都具有同一功能。",
+      "video_text": "音乐不再只围绕开头的支点徘徊，半音化的和弦与上行线条把局部重心推远。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-03-orchestration",
+      "section": "prokofiev2-1-03",
+      "source_text": "钢琴的和弦层与旋律层加厚，caloroso con gran espressione 的要求将前段的克制改成外向的发言。音量增长之外，重要的是旋律不再像悬在伴奏上，而与支撑层一起向前推。",
+      "video_text": "钢琴的和弦层与旋律层加厚，caloroso con gran espressione 的要求将前段的克制改成外向的发言。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-03-counterpoint",
+      "section": "prokofiev2-1-03",
+      "source_text": "向上的长线条与反复的较短单元相互牵制。达到较高位置后，三度性片段的重复让前进感暂时受阻；重复在这里改变的是方向感，不只是增加音符数量。",
+      "video_text": "向上的长线条与反复的较短单元相互牵制。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-03-form",
+      "section": "prokofiev2-1-03",
+      "source_text": "这构成第一主题群内部的扩展和第一次受挫。若将开头与热烈段简单视作两个毫不相干的主题，会听不到它们如何在华彩中重新结合。",
+      "video_text": "这构成第一主题群内部的扩展和第一次受挫。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-03-guide",
+      "section": "prokofiev2-1-03",
+      "source_text": "先听旋律怎样争取一个更高的落点，再听它怎样被短小重复留在原地。",
+      "video_text": "先听旋律怎样争取一个更高的落点，再听它怎样被短小重复留在原地。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-04-harmony",
+      "section": "prokofiev2-1-04",
+      "source_text": "较柔和的段落暂时拉开前段半音挤压形成的密度，随后热烈材料又推动重心移动。这里的回转需要放在句与句之间理解：局部和缓没有消除前面已经出现的上行欲望。",
+      "video_text": "较柔和的段落暂时拉开前段半音挤压形成的密度，随后热烈材料又推动重心移动。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-04-orchestration",
+      "section": "prokofiev2-1-04",
+      "source_text": "长笛、单簧管等木管带来较轻的音色，钢琴的密集发言暂时得到回应；后一次扩张中，乐队更积极地参与钢琴此前提出的材料。相同的旋律姿态因此取得了更大的公共音响。",
+      "video_text": "长笛、单簧管等木管带来较轻的音色，钢琴的密集发言暂时得到回应；后一次扩张中，乐队更积极地参与钢琴此前提出的材料。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-04-counterpoint",
+      "section": "prokofiev2-1-04",
+      "source_text": "木管与钢琴之间可以听作安抚与再度争辩，也可以更中性地听作材料的交接。关键在于前景更换后，原有线条是否延续，以及乐队在重述时增加了哪些支撑。",
+      "video_text": "木管与钢琴之间可以听作安抚与再度争辩，也可以更中性地听作材料的交接。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-04-form",
+      "section": "prokofiev2-1-04",
+      "source_text": "第一主题群借“退回—再出发”的过程扩大规模。Marzec把第二次热烈陈述理解为钢琴终于说服乐队加入；这是对实际参与关系的一种叙事读法。",
+      "video_text": "第一主题群借“退回—再出发”的过程扩大规模。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-04-guide",
+      "section": "prokofiev2-1-04",
+      "source_text": "记住木管暂时把声音放轻的那一刻，再比较热烈旋律回归时是否比第一次更有支撑。",
+      "video_text": "记住木管暂时把声音放轻的那一刻，再比较热烈旋律回归时是否比第一次更有支撑。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-05-harmony",
+      "section": "prokofiev2-1-05",
+      "source_text": "连接段的C♯持续支点使G小调的熟悉关系暂时松开。它首先是一种低层定位和持续作用，未必需要立即被纳入一条顺畅的属主进行。",
+      "video_text": "连接段的C♯持续支点使G小调的熟悉关系暂时松开。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-05-orchestration",
+      "section": "prokofiev2-1-05",
+      "source_text": "音响由前一轮共同高潮转向衔接，钢琴的流动与乐队较集中的支撑分开，给下一种节奏姿态腾出空间。",
+      "video_text": "音响由前一轮共同高潮转向衔接，钢琴的流动与乐队较集中的支撑分开，给下一种节奏姿态腾出空间。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-05-counterpoint",
+      "section": "prokofiev2-1-05",
+      "source_text": "持续层与移动线条承担不同任务：低层固定住一个异质位置，上方继续改变。这种“一层不动、另一层在找路”的组织，比逐个命名经过的和弦更容易把握。",
+      "video_text": "持续层与移动线条承担不同任务：低层固定住一个异质位置，上方继续改变。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-05-form",
+      "section": "prokofiev2-1-05",
+      "source_text": "它把主部的热烈语言与副部的舞曲语汇隔开，同时保留不安。新段落将获得新的步态，却并非抵达一个没有阻力的安全地带。",
+      "video_text": "它把主部的热烈语言与副部的舞曲语汇隔开，同时保留不安。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-05-guide",
+      "section": "prokofiev2-1-05",
+      "source_text": "注意上方的运动改变时，下方那个持续位置怎样让转场始终带着一点陌生感。",
+      "video_text": "注意上方的运动改变时，下方那个持续位置怎样让转场始终带着一点陌生感。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-06-harmony",
+      "section": "prokofiev2-1-06",
+      "source_text": "副部进入A小调区域，改变了与G小调背景的关系；不能把它预先听成古典小调奏鸣曲中必然出现的关系大调。清楚的舞步与不那么常规的调性路线并置，使轻快表面仍保留张力。",
+      "video_text": "副部进入A小调区域，改变了与G小调背景的关系；不能把它预先听成古典小调奏鸣曲中必然出现的关系大调。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-06-orchestration",
+      "section": "prokofiev2-1-06",
+      "source_text": "Allegretto 之后，钢琴在第49小节标出 con eleganza。节奏变得更有步态，乐队接住部分主题轮廓，钢琴又能在主题周围加入更快的装饰。",
+      "video_text": "Allegretto 之后，钢琴在第49小节标出 con eleganza。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-06-counterpoint",
+      "section": "prokofiev2-1-06",
+      "source_text": "舞曲主题与快速音型可以同时存在。主题的身份依靠重音、短句和收束保持，而不取决于此刻钢琴最高、最快的音是不是它。",
+      "video_text": "舞曲主题与快速音型可以同时存在。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-06-form",
+      "section": "prokofiev2-1-06",
+      "source_text": "Marzec将这一主题联系到加沃特。它与第一主题形成明显对照，却逐步暴露重音的错置和下行音型的叹息感，因此不是一段单纯排解前文的插曲。",
+      "video_text": "Marzec将这一主题联系到加沃特。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-06-guide",
+      "section": "prokofiev2-1-06",
+      "source_text": "跟着较有礼貌的舞步走，同时听那些突然加重、偏离整齐步点的声音。",
+      "video_text": "跟着较有礼貌的舞步走，同时听那些突然加重、偏离整齐步点的声音。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-07-harmony",
+      "section": "prokofiev2-1-07",
+      "source_text": "半音经过、局部支点与扩展音响加剧了副部内部的摩擦。快速扫动的音群不能整体当作一个同时和弦；和声的持续骨架与掠过它的音应分别听。",
+      "video_text": "半音经过、局部支点与扩展音响加剧了副部内部的摩擦。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-07-orchestration",
+      "section": "prokofiev2-1-07",
+      "source_text": "木管和弦乐承担主题或应答，钢琴以越来越显眼的快速线条穿过其间。这里的华丽并没有让舞步更平稳，反而不断改变它的重心与边缘。",
+      "video_text": "木管和弦乐承担主题或应答，钢琴以越来越显眼的快速线条穿过其间。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-07-counterpoint",
+      "section": "prokofiev2-1-07",
+      "source_text": "较慢的主题层与急速装饰层相互覆盖。Marzec特别注意R14附近滑行音型与叹息姿态的结合：同一段音乐既保持舞蹈外形，也显露出不协调的表情。",
+      "video_text": "较慢的主题层与急速装饰层相互覆盖。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-07-form",
+      "section": "prokofiev2-1-07",
+      "source_text": "第二主题的重述和扩张逐渐脱离最初的优雅姿态。它没有成为与主部等量发展的另一支力量，随后让位给收束和华彩的准备。",
+      "video_text": "第二主题的重述和扩张逐渐脱离最初的优雅姿态。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-07-guide",
+      "section": "prokofiev2-1-07",
+      "source_text": "不要只追最快的音；尝试在它们后面继续听见那条较慢的舞曲线，感受它怎样被装饰挤压。",
+      "video_text": "不要只追最快的音；尝试在它们后面继续听见那条较慢的舞曲线，感受它怎样被装饰挤压。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-08-harmony",
+      "section": "prokofiev2-1-08",
+      "source_text": "Poco meno mosso 使前面的冲力减弱，和声更像延宕中的停留，而非迅速兑现的圆满终止。低层的方向与短小材料的重复比表面音数更值得注意。",
+      "video_text": "Poco meno mosso 使前面的冲力减弱，和声更像延宕中的停留，而非迅速兑现的圆满终止。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-08-orchestration",
+      "section": "prokofiev2-1-08",
+      "source_text": "乐队的活动逐步收拢，钢琴以较柔和的语气准备接管整个空间。第112小节的 dolce 已经预告随后独奏段落的发音方式。",
+      "video_text": "乐队的活动逐步收拢，钢琴以较柔和的语气准备接管整个空间。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-08-counterpoint",
+      "section": "prokofiev2-1-08",
+      "source_text": "此前交由不同音色承担的材料，开始向钢琴内部集中。听觉重心由合奏中谁接谁，转向一件乐器怎样同时保留几个层次。",
+      "video_text": "此前交由不同音色承担的材料，开始向钢琴内部集中。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-08-form",
+      "section": "prokofiev2-1-08",
+      "source_text": "这是呈示与华彩之间的门槛。R20附近仍有短暂乐队收尾，不能把排练号所在小节的每个时点都直接叫作完全独奏。",
+      "video_text": "这是呈示与华彩之间的门槛。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-08-guide",
+      "section": "prokofiev2-1-08",
+      "source_text": "留意声音怎样变少，以及钢琴怎样在音量还不大时获得越来越多的叙述空间。",
+      "video_text": "留意声音怎样变少，以及钢琴怎样在音量还不大时获得越来越多的叙述空间。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-09-harmony",
+      "section": "prokofiev2-1-09",
+      "source_text": "熟悉的材料在独奏中重新铺开，调性和声部的支撑逐步扩充。Marzec指出主题在这一过程中获得大调化的抬升；其重要性在于此前的歌唱似乎找到更有力的说法，而非单纯“转大调所以快乐”。",
+      "video_text": "熟悉的材料在独奏中重新铺开，调性和声部的支撑逐步扩充。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-09-orchestration",
+      "section": "prokofiev2-1-09",
+      "source_text": "乐队收尾后长时间退出，钢琴以不同音区分配旋律、内声、低音和装饰。多谱表使这些任务在纸面上更清楚，也提示演奏者不能把所有音奏成同样的前景。",
+      "video_text": "乐队收尾后长时间退出，钢琴以不同音区分配旋律、内声、低音和装饰。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-09-counterpoint",
+      "section": "prokofiev2-1-09",
+      "source_text": "华彩的难处包含层次之间的竞争。主要旋律可以位于密集音群的中间，低音保留方向，上方运动又不断遮盖和重新照亮它。多层写作在此具有结构作用。",
+      "video_text": "华彩的难处包含层次之间的竞争。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-09-form",
+      "section": "prokofiev2-1-09",
+      "source_text": "华彩承担发展的中心，回忆第一主题群，并把此前分由独奏与合奏承担的角色压入钢琴。它的巨大规模改变了整个乐章的比例。",
+      "video_text": "华彩承担发展的中心，回忆第一主题群，并把此前分由独奏与合奏承担的角色压入钢琴。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-09-guide",
+      "section": "prokofiev2-1-09",
+      "source_text": "在快速经过的音里寻找一条能够继续哼唱的旋律；比较它与最初 narrante 的语气和承托。",
+      "video_text": "在快速经过的音里寻找一条能够继续哼唱的旋律；比较它与最初 narrante 的语气和承托。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-10-harmony",
+      "section": "prokofiev2-1-10",
+      "source_text": "期待中的解决受到偏转，连续和弦的下坠将音乐带入新的危机。随后低层支点与较大跨度的和声推进重新组织增长。Marzec把 colossale 的核心陈述联系到E小调，将其看作此前迟疑获得暂时突破的一刻。",
+      "video_text": "期待中的解决受到偏转，连续和弦的下坠将音乐带入新的危机。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-10-orchestration",
+      "section": "prokofiev2-1-10",
+      "source_text": "虽然仍以钢琴独奏为主，音区对比、重击、反复音与厚重和弦已经产生近似合奏的重量。第154小节的 colossale 提示这里需要整体规模与长线条，不能只有局部强音。",
+      "video_text": "虽然仍以钢琴独奏为主，音区对比、重击、反复音与厚重和弦已经产生近似合奏的重量。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-10-counterpoint",
+      "section": "prokofiev2-1-10",
+      "source_text": "主部材料与反复的钟声性手势相互叠合。Marzec还把它们联系到引子动机的三度轮廓；这是一种跨语境的材料追踪，不等于各次陈述逐音同形。",
+      "video_text": "主部材料与反复的钟声性手势相互叠合。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-10-form",
+      "section": "prokofiev2-1-10",
+      "source_text": "华彩并不一路直线上升，而经历坠落、碎裂和重新聚合。正因为此前的材料屡次受阻，这一段的完整发言才显得格外有力。",
+      "video_text": "华彩并不一路直线上升，而经历坠落、碎裂和重新聚合。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-10-guide",
+      "section": "prokofiev2-1-10",
+      "source_text": "从下坠的音群里听出重音怎样变成持续回荡的节奏，再追踪较长旋律如何从中站起来。",
+      "video_text": "从下坠的音群里听出重音怎样变成持续回荡的节奏，再追踪较长旋律如何从中站起来。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-11-harmony",
+      "section": "prokofiev2-1-11",
+      "source_text": "和弦与低音不断加重对下一次大规模进入的期待。支点、重复和半音推进共同积累压力，局部的刺耳音并不能脱离这条增长线逐个判断为新的调性。",
+      "video_text": "和弦与低音不断加重对下一次大规模进入的期待。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-11-orchestration",
+      "section": "prokofiev2-1-11",
+      "source_text": "钢琴的密集重复、宽音区与强烈动态把独奏推向承受极限。乐队此时的沉默也是配器的一部分：它把真正的合奏力量留到下一次进入才兑现。",
+      "video_text": "钢琴的密集重复、宽音区与强烈动态把独奏推向承受极限。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-11-counterpoint",
+      "section": "prokofiev2-1-11",
+      "source_text": "几个材料的辨识度可能在高密度织体中逐渐合拢，形成更大节奏单位。听者可以暂时从内声细部转向低音、重击周期和整体上行，仍不丢失发展方向。",
+      "video_text": "几个材料的辨识度可能在高密度织体中逐渐合拢，形成更大节奏单位。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-11-form",
+      "section": "prokofiev2-1-11",
+      "source_text": "这一增长使华彩从独奏展示变成不可轻易移走的结构段。接下来出现的乐队不是礼貌地陪伴独奏收尾，而要改变开头材料的尺度。",
+      "video_text": "这一增长使华彩从独奏展示变成不可轻易移走的结构段。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-11-guide",
+      "section": "prokofiev2-1-11",
+      "source_text": "听越来越密的钢琴运动怎样累积为一个长的吸气，并把注意力留给合奏进入时的低音铜管。",
+      "video_text": "听越来越密的钢琴运动怎样累积为一个长的吸气，并把注意力留给合奏进入时的低音铜管。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-12-harmony",
+      "section": "prokofiev2-1-12",
+      "source_text": "乐队进入后，熟悉材料获得比开头明确得多的和声支撑。Marzec强调属和声此刻在归约中的作用；这说明引子材料的再次出现，同时也是其调性语境的改变。",
+      "video_text": "乐队进入后，熟悉材料获得比开头明确得多的和声支撑。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-12-orchestration",
+      "section": "prokofiev2-1-12",
+      "source_text": "长号、大号及整体合奏把开头的稀疏轮廓扩成厚重的宣告，钢琴并未就此退出，而以自身和声和旋律继续回应。后段音响再度收窄，使返回不止于一次巨响。",
+      "video_text": "长号、大号及整体合奏把开头的稀疏轮廓扩成厚重的宣告，钢琴并未就此退出，而以自身和声和旋律继续回应。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-12-counterpoint",
+      "section": "prokofiev2-1-12",
+      "source_text": "最初由单簧管与拨弦承载的材料，如今与钢琴长期发展的主部材料相遇。要分别听见材料的身份与承担它的乐器怎样改变，才能理解这次返回的分量。",
+      "video_text": "最初由单簧管与拨弦承载的材料，如今与钢琴长期发展的主部材料相遇。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-12-form",
+      "section": "prokofiev2-1-12",
+      "source_text": "高度压缩的再现主要围绕引子与第一主题群组织，第二主题没有按呈示时的规模重新展开。Marzec提及《末日经》式联想，但也指出这里并非直接引用；听觉上的肃厉与一首圣咏的逐音引文是两件事。",
+      "video_text": "高度压缩的再现主要围绕引子与第一主题群组织，第二主题没有按呈示时的规模重新展开。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-1-12-guide",
+      "section": "prokofiev2-1-12",
+      "source_text": "认出开头那句短话，再听钢琴怎样与它共处，而不只是等待乐队把它压倒。",
+      "video_text": "认出开头那句短话，再听钢琴怎样与它共处，而不只是等待乐队把它压倒。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-01-harmony",
+      "section": "prokofiev2-2-01",
+      "source_text": "较长语境确立D小调，低层的D与A提供坚实参照；单个攻击仍包含短暂的非三和弦音。第1小节起点可取到D、A与B♭，下一次攻击只余D与A，正好说明整句的调性不等于每个十六分音符的和弦身份。[H：II-opening-attack、II-opening-second-attack]",
+      "video_text": "较长语境确立D小调，低层的D与A提供坚实参照；单个攻击仍包含短暂的非三和弦音。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-01-orchestration",
+      "section": "prokofiev2-2-01",
+      "source_text": "钢琴双手的八度运动构成连续前景，弦乐拨奏提供短而清楚的支点，木管的重复音和短句在其间闪现。钢琴的连贯运动与乐队颗粒分明的发音相互衬托。",
+      "video_text": "钢琴双手的八度运动构成连续前景，弦乐拨奏提供短而清楚的支点，木管的重复音和短句在其间闪现。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-01-counterpoint",
+      "section": "prokofiev2-2-01",
+      "source_text": "双手经常合为一条被八度放大的快速线，而非两支独立主题。真正值得分开听的是它与拨弦节拍、木管短句之间的关系。",
+      "video_text": "双手经常合为一条被八度放大的快速线，而非两支独立主题。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-01-form",
+      "section": "prokofiev2-2-01",
+      "source_text": "开头建立全章的运动规则。Marzec把这种写法与肖邦降B小调奏鸣曲终曲联系起来，却强调普罗科菲耶夫较清楚的调性支撑和更鲜明的攻击性；这是互文比较，不能当作直接引用的证明。",
+      "video_text": "开头建立全章的运动规则。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-01-guide",
+      "section": "prokofiev2-2-01",
+      "source_text": "在钢琴的密集音符下面找到稳定的两拍感，再听木管怎样让这条运动时而轻巧、时而尖锐。",
+      "video_text": "在钢琴的密集音符下面找到稳定的两拍感，再听木管怎样让这条运动时而轻巧、时而尖锐。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-02-harmony",
+      "section": "prokofiev2-2-02",
+      "source_text": "调性支撑在不同片段之间移转，半音化的局部线条更活跃；快速经过音仍需要放在前后方向中理解。即使速度和细分不变，低音改变也会让相同的音型获得不同倾向。",
+      "video_text": "调性支撑在不同片段之间移转，半音化的局部线条更活跃；快速经过音仍需要放在前后方向中理解。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-02-orchestration",
+      "section": "prokofiev2-2-02",
+      "source_text": "乐队用重复、短促应答与动态变化使连续的钢琴纹理出现层次。较少乐器的轻盈片段与较满的强调交替，形成一连串变化，而非同一种大声炫技。",
+      "video_text": "乐队用重复、短促应答与动态变化使连续的钢琴纹理出现层次。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-02-counterpoint",
+      "section": "prokofiev2-2-02",
+      "source_text": "乐队有时与钢琴同向，有时用较长音值或固定节奏与之错开。听觉上的主次会变化：钢琴保持运动，句子的标点却可能由别的乐器给出。",
+      "video_text": "乐队有时与钢琴同向，有时用较长音值或固定节奏与之错开。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-02-form",
+      "section": "prokofiev2-2-02",
+      "source_text": "外段的材料通过局部伸展和接力继续发展。这里的分句不依赖钢琴停顿，因而需要从重音、低音和乐队的短句边界辨认。",
+      "video_text": "外段的材料通过局部伸展和接力继续发展。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-02-guide",
+      "section": "prokofiev2-2-02",
+      "source_text": "保持对钢琴流动的感知，同时问自己：这一句的重音和结尾，是由钢琴还是乐队说出来的？",
+      "video_text": "保持对钢琴流动的感知，同时问自己：这一句的重音和结尾，是由钢琴还是乐队说出来的？",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-03-harmony",
+      "section": "prokofiev2-2-03",
+      "source_text": "反复音、较集中的和弦支撑与随后的下行拉开对照。连续运动看似维持旧规则，实际已经在为下一次低音与色彩的改变准备入口。",
+      "video_text": "反复音、较集中的和弦支撑与随后的下行拉开对照。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-03-orchestration",
+      "section": "prokofiev2-2-03",
+      "source_text": "R34的突强和钢琴高音区增加了亮度，木管和拨弦的攻击让增长具有清楚的边沿。随后音量退回，运动向较低音区滑落。",
+      "video_text": "R34的突强和钢琴高音区增加了亮度，木管和拨弦的攻击让增长具有清楚的边沿。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-03-counterpoint",
+      "section": "prokofiev2-2-03",
+      "source_text": "重复音提供局部轴心，较短的木管或弦乐轮廓使材料从“持续旋转”转向有方向的转场。乐队的发言长度逐步变得比一个瞬间的点缀更重要。",
+      "video_text": "重复音提供局部轴心，较短的木管或弦乐轮廓使材料从“持续旋转”转向有方向的转场。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-03-form",
+      "section": "prokofiev2-2-03",
+      "source_text": "这是进入中央Trio之前的一轮集中与退让。乐章的对比没有靠更换速度来宣布，而通过音区、动态和伴奏结构逐项发生。",
+      "video_text": "这是进入中央Trio之前的一轮集中与退让。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-03-guide",
+      "section": "prokofiev2-2-03",
+      "source_text": "注意高处反复的亮音怎样先被放大、再失去高度；下一段的不同步态会从这个退让中显现。",
+      "video_text": "注意高处反复的亮音怎样先被放大、再失去高度；下一段的不同步态会从这个退让中显现。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-04-harmony",
+      "section": "prokofiev2-2-04",
+      "source_text": "R37的低音和八度先给出B♭支点，随后语境继续展开；一个单音起点不足以概括整段的调性。比逐次扫描钢琴的经过音更重要的，是乐队和声支点与句尾怎样组织。",
+      "video_text": "R37的低音和八度先给出B♭支点，随后语境继续展开；一个单音起点不足以概括整段的调性。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-04-orchestration",
+      "section": "prokofiev2-2-04",
+      "source_text": "乐队的短句、长短音对比和弦乐特殊发音，使连续钢琴背后出现更鲜明的舞曲轮廓。R37的总谱与Marzec所引双钢琴缩谱能够对照出这一入口。",
+      "video_text": "乐队的短句、长短音对比和弦乐特殊发音，使连续钢琴背后出现更鲜明的舞曲轮廓。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-04-counterpoint",
+      "section": "prokofiev2-2-04",
+      "source_text": "钢琴维持快速层，木管、铜管及弦乐逐步接手较慢的节奏轮廓。分工的改变比音符总量的改变更能揭示Trio已经开始。",
+      "video_text": "钢琴维持快速层，木管、铜管及弦乐逐步接手较慢的节奏轮廓。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-04-form",
+      "section": "prokofiev2-2-04",
+      "source_text": "Marzec将乐队的舞步联系到里戈东，并把短促泛音效果与《安塔尔》的“箭声”作历史比较。谱面的发音对比可以直接追踪，狩猎意象则保留为她的文献解释。",
+      "video_text": "Marzec将乐队的舞步联系到里戈东，并把短促泛音效果与《安塔尔》的“箭声”作历史比较。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-04-guide",
+      "section": "prokofiev2-2-04",
+      "source_text": "让钢琴退到注意力的第二层，听乐队怎样在它后面建立一个更清楚的舞句。",
+      "video_text": "让钢琴退到注意力的第二层，听乐队怎样在它后面建立一个更清楚的舞句。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-05-harmony",
+      "section": "prokofiev2-2-05",
+      "source_text": "降A区域的出现，使中央段与原D小调参照拉开距离。第104小节起点仍有上方D♭与下方A♭、C的摩擦；沿线条听它向C靠近，比把第一击硬写成静止的降A大三和弦更合适。",
+      "video_text": "降A区域的出现，使中央段与原D小调参照拉开距离。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-05-orchestration",
+      "section": "prokofiev2-2-05",
+      "source_text": "木管和弦乐较完整的短句相互呼应，钢琴继续以八度运动穿行。调性颜色的改变没有带来速度上的休息，反而使乐队的细节更值得注意。",
+      "video_text": "木管和弦乐较完整的短句相互呼应，钢琴继续以八度运动穿行。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-05-counterpoint",
+      "section": "prokofiev2-2-05",
+      "source_text": "Marzec指出中央内部还有模仿式交换。这里应听材料先后由谁接续，而非把所有同时活动的谱表一律算成对位；几次较慢的进入能在快速背景上清楚地被记住。",
+      "video_text": "Marzec指出中央内部还有模仿式交换。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-05-form",
+      "section": "prokofiev2-2-05",
+      "source_text": "这一内层对比，使Trio本身也有中心和外缘。所谓全章“一口气冲到底”，只是钢琴表面的连续感，不能代替对内部层次的判断。",
+      "video_text": "这一内层对比，使Trio本身也有中心和外缘。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-05-guide",
+      "section": "prokofiev2-2-05",
+      "source_text": "先认出降号增多后较温和的颜色，再听同一短句如何换一个乐器继续说。",
+      "video_text": "先认出降号增多后较温和的颜色，再听同一短句如何换一个乐器继续说。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-06-harmony",
+      "section": "prokofiev2-2-06",
+      "source_text": "中央的远关系色彩逐渐让位于外段的支撑和方向。半音线路仍然活跃，返回的可辨识性还依靠节奏与音型，不只依靠某一个主和弦。",
+      "video_text": "中央的远关系色彩逐渐让位于外段的支撑和方向。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-06-orchestration",
+      "section": "prokofiev2-2-06",
+      "source_text": "乐队恢复更有冲击力的短句，音响的轻重对照再次突出。钢琴始终没有停，因而返回听起来像运动内部突然认出了旧路。",
+      "video_text": "乐队恢复更有冲击力的短句，音响的轻重对照再次突出。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-06-counterpoint",
+      "section": "prokofiev2-2-06",
+      "source_text": "外段与Trio的材料被压缩、穿插，伴奏轮廓和短动机可能在相邻位置接替前景。保持对较慢轮廓的记忆，才能分辨这种交错。",
+      "video_text": "外段与Trio的材料被压缩、穿插，伴奏轮廓和短动机可能在相邻位置接替前景。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-06-form",
+      "section": "prokofiev2-2-06",
+      "source_text": "Marzec称再现经过缩短，并混入两类材料。它并非把前半章依序复制，而是以更经济的长度重新组合熟悉的姿态。",
+      "video_text": "Marzec称再现经过缩短，并混入两类材料。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-06-guide",
+      "section": "prokofiev2-2-06",
+      "source_text": "在钢琴同样快的情况下，找出乐队哪一处让你认出“这句话以前听过”。",
+      "video_text": "在钢琴同样快的情况下，找出乐队哪一处让你认出“这句话以前听过”。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-07-harmony",
+      "section": "prokofiev2-2-07",
+      "source_text": "后段重新强化收束的方向，但仍借半音与强调制造棱角。终止的力量来自低层归结、重复的累积和最后的切断，共同作用而非只靠一个和弦名称。",
+      "video_text": "后段重新强化收束的方向，但仍借半音与强调制造棱角。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-07-orchestration",
+      "section": "prokofiev2-2-07",
+      "source_text": "钢琴的连续流动与乐队的加重逐步集中。强奏的效力有赖于前面轻重变化的记忆；若整章都以同一种重量呈现，结尾的突然性就会减弱。",
+      "video_text": "钢琴的连续流动与乐队的加重逐步集中。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-07-counterpoint",
+      "section": "prokofiev2-2-07",
+      "source_text": "随着结束临近，独立的短句交换逐渐让位于共同冲向终点的节奏。前面维持主副关系的层次，此刻收成更直接的合奏动作。",
+      "video_text": "随着结束临近，独立的短句交换逐渐让位于共同冲向终点的节奏。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-07-form",
+      "section": "prokofiev2-2-07",
+      "source_text": "作为全曲最紧凑的一章，谐谑曲没有展开为首乐章式的大结论。它以骤然结束保留敏捷和戏谑，也使第三乐章低音的沉重格外突兀。",
+      "video_text": "作为全曲最紧凑的一章，谐谑曲没有展开为首乐章式的大结论。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-2-07-guide",
+      "section": "prokofiev2-2-07",
+      "source_text": "感受最后的强音怎样把持续运动截住；随后进入间奏曲时，比较“快”与“重”在身体感受上的差异。",
+      "video_text": "感受最后的强音怎样把持续运动截住；随后进入间奏曲时，比较“快”与“重”在身体感受上的差异。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-01-harmony",
+      "section": "prokofiev2-3-01",
+      "source_text": "第一击首先集中在低处的G八度，随后大跨度线条与半音变化逐步填入。G小调的背景并不意味着每一步都由完整的G小三和弦支撑；低音的反复与位置转换才是最先能听见的骨架。[H：III-march-onset]",
+      "video_text": "第一击首先集中在低处的G八度，随后大跨度线条与半音变化逐步填入。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-01-orchestration",
+      "section": "prokofiev2-3-01",
+      "source_text": "大管、低弦、大号与定音鼓、大鼓形成低重心。长号、加弱音器的小号等陆续加入，音色由沉暗的步伐扩成具有棱角的合奏；钢琴起初保持沉默。",
+      "video_text": "大管、低弦、大号与定音鼓、大鼓形成低重心。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-01-counterpoint",
+      "section": "prokofiev2-3-01",
+      "source_text": "乐器之间存在同度、八度的加强，也有错开攻击和延长的线条。低层重复提供步点，上方突出的音与持续音使每一步的压力发生变化。",
+      "video_text": "乐器之间存在同度、八度的加强，也有错开攻击和延长的线条。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-01-form",
+      "section": "prokofiev2-3-01",
+      "source_text": "这里建立整章不断返回的进行材料。它与谐谑曲的轻快流动形成强烈重量对比，但其内部仍有推进，不宜把“沉重”自动等同于“静止”。",
+      "video_text": "这里建立整章不断返回的进行材料。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-01-guide",
+      "section": "prokofiev2-3-01",
+      "source_text": "先听最低层踩出的步点，再听铜管和大管的大跳怎样使行进变得不平顺。",
+      "video_text": "先听最低层踩出的步点，再听铜管和大管的大跳怎样使行进变得不平顺。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-02-harmony",
+      "section": "prokofiev2-3-02",
+      "source_text": "钢琴的快速经过、七和弦性音响与低层支撑不断摩擦。上行的小型扫动和整个乐句的方向可以相反；一个向上飞出的手势，并不保证和声或段落也随之上扬。",
+      "video_text": "钢琴的快速经过、七和弦性音响与低层支撑不断摩擦。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-02-orchestration",
+      "section": "prokofiev2-3-02",
+      "source_text": "钢琴进入后没有立即用宽阔歌唱融化乐队，而以短促、跳跃、突然伸缩的音型加入。较稀疏的乐队背景让钢琴的每次起落都显得有形。",
+      "video_text": "钢琴进入后没有立即用宽阔歌唱融化乐队，而以短促、跳跃、突然伸缩的音型加入。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-02-counterpoint",
+      "section": "prokofiev2-3-02",
+      "source_text": "大跳和停顿把钢琴拆成互相追赶的小单元，低层进行又保留原有节奏记忆。两者之间的错位，是这一段带有戏剧性的主要原因。",
+      "video_text": "大跳和停顿把钢琴拆成互相追赶的小单元，低层进行又保留原有节奏记忆。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-02-form",
+      "section": "prokofiev2-3-02",
+      "source_text": "Marzec把钢琴入口与舒曼《预言鸟》作对照，强调同类装饰姿态在不同节奏与配器下发生了性格转变。这是可供比较的互文解释，不是指定的情节。",
+      "video_text": "Marzec把钢琴入口与舒曼《预言鸟》作对照，强调同类装饰姿态在不同节奏与配器下发生了性格转变。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-02-guide",
+      "section": "prokofiev2-3-02",
+      "source_text": "听钢琴的每次短跃之后留下多长空隙，以及乐队原来的步伐是否仍在下面继续。",
+      "video_text": "听钢琴的每次短跃之后留下多长空隙，以及乐队原来的步伐是否仍在下面继续。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-03-harmony",
+      "section": "prokofiev2-3-03",
+      "source_text": "重复和弦、空八度与未立即解决的七和弦性音响，使局部增长一再被悬置。它们可以制造强烈的推进感，却不一定形成清楚的属主终止。",
+      "video_text": "重复和弦、空八度与未立即解决的七和弦性音响，使局部增长一再被悬置。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-03-orchestration",
+      "section": "prokofiev2-3-03",
+      "source_text": "钢琴在扫动、断奏与和弦之间改变发音，乐队保留较短的行进单元。细分的三连运动带来更流动的表面，低处仍可以保持分量。",
+      "video_text": "钢琴在扫动、断奏与和弦之间改变发音，乐队保留较短的行进单元。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-03-counterpoint",
+      "section": "prokofiev2-3-03",
+      "source_text": "上层动作的敏捷与低层节奏的固执形成两种尺度。反复有时增强方向，有时把材料锁在同一位置；两种效果应通过低音是否真正移动来区分。",
+      "video_text": "上层动作的敏捷与低层节奏的固执形成两种尺度。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-03-form",
+      "section": "prokofiev2-3-03",
+      "source_text": "这一组变形把开头的步伐扩成更长的活动范围。Marzec将三连律动联系到骑行话题；在聆听层面，首先可把握的是步点与复合细分怎样相互牵引。",
+      "video_text": "这一组变形把开头的步伐扩成更长的活动范围。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-03-guide",
+      "section": "prokofiev2-3-03",
+      "source_text": "当音符突然变得更流动时，继续跟住较慢的低音，辨别音乐是在换路还是仍绕着同一位置转。",
+      "video_text": "当音符突然变得更流动时，继续跟住较慢的低音，辨别音乐是在换路还是仍绕着同一位置转。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-04-harmony",
+      "section": "prokofiev2-3-04",
+      "source_text": "半音化的和弦继续移动，音响的疏密和重心转换逐步削弱原有行进的封闭感。局部持续位置为新的旋律呼吸准备空间，变化并不是一条突然切换的调性标签。",
+      "video_text": "半音化的和弦继续移动，音响的疏密和重心转换逐步削弱原有行进的封闭感。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-04-orchestration",
+      "section": "prokofiev2-3-04",
+      "source_text": "钢琴与弦乐的和弦性重音仍有分量，单簧管、大管、圆号等短句在较疏的地方露出。接近中央段时，较长线条开始取得更多空间。",
+      "video_text": "钢琴与弦乐的和弦性重音仍有分量，单簧管、大管、圆号等短句在较疏的地方露出。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-04-counterpoint",
+      "section": "prokofiev2-3-04",
+      "source_text": "短促步伐与较长的旋律倾向交替出现。听觉前景逐步从“每一步怎样落下”，移向“一个句子怎样越过这些步点”。",
+      "video_text": "短促步伐与较长的旋律倾向交替出现。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-04-form",
+      "section": "prokofiev2-3-04",
+      "source_text": "这段连接保留旧材料，同时准备Trio的另一种音色与时间感。它体现了全章的渐进转化，不能只用速度标记或换页来决定严格段界。",
+      "video_text": "这段连接保留旧材料，同时准备Trio的另一种音色与时间感。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-04-guide",
+      "section": "prokofiev2-3-04",
+      "source_text": "留意哪一条线开始不再每拍重重落地，而能够把声音牵得更长。",
+      "video_text": "留意哪一条线开始不再每拍重重落地，而能够把声音牵得更长。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-05-harmony",
+      "section": "prokofiev2-3-05",
+      "source_text": "中央段围绕D小调语境展开，旋律中的相邻半音带来持续摆动。R71起点可同时取到D–F–A；之后旋律与装饰继续变化，不能把这个起点的三和弦名称延长到整段。[H：III-central-melody]",
+      "video_text": "中央段围绕D小调语境展开，旋律中的相邻半音带来持续摆动。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-05-orchestration",
+      "section": "prokofiev2-3-05",
+      "source_text": "R70由双簧管、大管等承托较宽的旋律，长笛保持流动；R71时较长旋律移到第一长笛与第一小提琴等声部。钢琴以大范围琶音、滑奏和音区铺展形成类似竖琴的背景，铃鼓加入轻微而鲜明的颗粒。",
+      "video_text": "R70由双簧管、大管等承托较宽的旋律，长笛保持流动；R71时较长旋律移到第一长笛与第一小提琴等声部。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-05-counterpoint",
+      "section": "prokofiev2-3-05",
+      "source_text": "前景旋律、快速装饰与低层节拍明显分层。谁在唱长句、谁在维持流动，不能依据最高音或最快的音来判断；有些同时加倍承担的是同一旋律身份。",
+      "video_text": "前景旋律、快速装饰与低层节拍明显分层。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-05-form",
+      "section": "prokofiev2-3-05",
+      "source_text": "Marzec把这一段联系到俄罗斯音乐中历史性的“东方”话题与 nega 半音模式。这是在讨论特定传统如何塑造异域想象，并不等于音乐真实描绘了某种地域或民族。",
+      "video_text": "Marzec把这一段联系到俄罗斯音乐中历史性的“东方”话题与 nega 半音模式。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-05-guide",
+      "section": "prokofiev2-3-05",
+      "source_text": "在钢琴闪动的背景上追住较慢的木管和弦乐旋律；再听R71前后，钢琴扫动的方向怎样改变。",
+      "video_text": "在钢琴闪动的背景上追住较慢的木管和弦乐旋律；再听R71前后，钢琴扫动的方向怎样改变。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-06-harmony",
+      "section": "prokofiev2-3-06",
+      "source_text": "中央段的持续感被更有棱角的运动替换，局部重复和向前的支撑再次突出。半音不再只像旋律的摆动，也参与重新制造压力。",
+      "video_text": "中央段的持续感被更有棱角的运动替换，局部重复和向前的支撑再次突出。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-06-orchestration",
+      "section": "prokofiev2-3-06",
+      "source_text": "钢琴的轮廓更直接，干燥的攻击和较强的发音把此前的轻盈流动变成有分量的动作。乐队逐步重建能承接外段行进的支点。",
+      "video_text": "钢琴的轮廓更直接，干燥的攻击和较强的发音把此前的轻盈流动变成有分量的动作。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-06-counterpoint",
+      "section": "prokofiev2-3-06",
+      "source_text": "伴奏性的钢琴运动重新争取前景，主旋律与装饰的比例随之变化。前面可以分开的三层，开始收束成更集中的节奏推进。",
+      "video_text": "伴奏性的钢琴运动重新争取前景，主旋律与装饰的比例随之变化。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-06-form",
+      "section": "prokofiev2-3-06",
+      "source_text": "Marzec把这里的钢琴独奏与此前三连律动联系起来，视为中央段结束和进行材料回归的桥梁。其结构作用来自旧动作换了一种重量。",
+      "video_text": "Marzec把这里的钢琴独奏与此前三连律动联系起来，视为中央段结束和进行材料回归的桥梁。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-06-guide",
+      "section": "prokofiev2-3-06",
+      "source_text": "比较相似的快速音型：先前是在衬托歌唱，现在是否已经变成主导的节奏力量？",
+      "video_text": "比较相似的快速音型：先前是在衬托歌唱，现在是否已经变成主导的节奏力量？",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-07-harmony",
+      "section": "prokofiev2-3-07",
+      "source_text": "G小调参照和外段材料重新取得主导，和弦的堆积、半音碰撞和低层重复共同扩展高潮。所谓回到旧地，并不意味着不协和已经被清除。",
+      "video_text": "G小调参照和外段材料重新取得主导，和弦的堆积、半音碰撞和低层重复共同扩展高潮。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-07-orchestration",
+      "section": "prokofiev2-3-07",
+      "source_text": "乐队的参与更充分，钢琴的和弦性瀑流与合奏相互叠加。低音铜管、弦乐和打击乐的重量，已经远超中央段的轻声歌唱。",
+      "video_text": "乐队的参与更充分，钢琴的和弦性瀑流与合奏相互叠加。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-07-counterpoint",
+      "section": "prokofiev2-3-07",
+      "source_text": "钢琴不再只是装饰乐队的行进，乐队也不只是支撑钢琴。两种大块运动同时争取注意力，形成拥挤、互相挤压的听觉空间。",
+      "video_text": "钢琴不再只是装饰乐队的行进，乐队也不只是支撑钢琴。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-07-form",
+      "section": "prokofiev2-3-07",
+      "source_text": "开头的材料以扩大后的力量回返，构成全章后半的高点。Marzec把这种夸张与不相容的层次结合视为“怪诞”的核心；它首先有可听的织体依据。",
+      "video_text": "开头的材料以扩大后的力量回返，构成全章后半的高点。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-07-guide",
+      "section": "prokofiev2-3-07",
+      "source_text": "不必试着逐个抓住所有和弦，先听低层步伐怎样在钢琴的密集攻击下仍保持自己的节奏。",
+      "video_text": "不必试着逐个抓住所有和弦，先听低层步伐怎样在钢琴的密集攻击下仍保持自己的节奏。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-08-harmony",
+      "section": "prokofiev2-3-08",
+      "source_text": "半音化的下降与逐步收拢的低层，把此前膨胀的音响重新拉向G。终点的集中与弱化是一个过程，不能只看末音就抹去此前复杂的和声路径。",
+      "video_text": "半音化的下降与逐步收拢的低层，把此前膨胀的音响重新拉向G。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-08-orchestration",
+      "section": "prokofiev2-3-08",
+      "source_text": "声音由较满的合奏退向稀疏、较低的发音，钢琴与乐队的巨大块面不再占据同等空间。结尾的安静因与前面相距甚远而尤其明显。",
+      "video_text": "声音由较满的合奏退向稀疏、较低的发音，钢琴与乐队的巨大块面不再占据同等空间。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-08-counterpoint",
+      "section": "prokofiev2-3-08",
+      "source_text": "原先互相挤压的层次逐渐退出，能被清楚分辨的线条减少。材料的下行、音色变薄与动态退后，共同改变了结束感。",
+      "video_text": "原先互相挤压的层次逐渐退出，能被清楚分辨的线条减少。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-08-form",
+      "section": "prokofiev2-3-08",
+      "source_text": "这一回落呼应作曲家关于后半由高向低、由强转弱的整体构想。它把巨大的间奏曲收成低处的余影，给终曲的突然启动留下空间。",
+      "video_text": "这一回落呼应作曲家关于后半由高向低、由强转弱的整体构想。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-3-08-guide",
+      "section": "prokofiev2-3-08",
+      "source_text": "把注意力从最高、最响的音移向最后仍留在低处的线条，听音乐怎样一点点减去自身的重量。",
+      "video_text": "把注意力从最高、最响的音移向最后仍留在低处的线条，听音乐怎样一点点减去自身的重量。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-01-harmony",
+      "section": "prokofiev2-4-01",
+      "source_text": "首次攻击集中在多个音区的G，随后半音邻接和跨音区的线条迅速展开。不能把“以G开始”直接等同于每拍都听到完整G小三和弦；锐利的局部音程与原调参照之间的拉扯，是这一主题的重要性格。[H：IV-opening-attack]",
+      "video_text": "首次攻击集中在多个音区的G，随后半音邻接和跨音区的线条迅速展开。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-01-orchestration",
+      "section": "prokofiev2-4-01",
+      "source_text": "钢琴与木管、弦乐共同抛出断续的轮廓，铜管和打击乐并非从第一拍就全部铺满。音区和攻击的反差使钢琴的跳跃听来格外醒目。",
+      "video_text": "钢琴与木管、弦乐共同抛出断续的轮廓，铜管和打击乐并非从第一拍就全部铺满。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-01-counterpoint",
+      "section": "prokofiev2-4-01",
+      "source_text": "两手互相穿插、错开，大跳把较短的半音材料分布到不同高度。分析时既要保留实际音区的冲击，也可以抽出其邻接运动，比较“手势很大”与“音级距离很小”之间的关系。",
+      "video_text": "两手互相穿插、错开，大跳把较短的半音材料分布到不同高度。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-01-form",
+      "section": "prokofiev2-4-01",
+      "source_text": "Marzec把这种托卡塔性姿态联系到机械和自动装置的意象，并将其中半音摆动与间奏曲中央段作对照。相似材料在柔和歌唱和尖锐跳跃中具有不同性格，是这一读法的核心。",
+      "video_text": "Marzec把这种托卡塔性姿态联系到机械和自动装置的意象，并将其中半音摆动与间奏曲中央段作对照。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-01-guide",
+      "section": "prokofiev2-4-01",
+      "source_text": "听大跳两端的音怎样被休止切开，再试着辨认巨大距离之间是否藏着相邻半音的细小变化。",
+      "video_text": "听大跳两端的音怎样被休止切开，再试着辨认巨大距离之间是否藏着相邻半音的细小变化。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-02-harmony",
+      "section": "prokofiev2-4-02",
+      "source_text": "反复、半音接近与相对紧密的音区使段落产生压迫感。这里的重复不再像谐谑曲那样轻快，和声支撑与配器一起改变了它的方向。",
+      "video_text": "反复、半音接近与相对紧密的音区使段落产生压迫感。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-02-orchestration",
+      "section": "prokofiev2-4-02",
+      "source_text": "弦乐弓奏与低音铜管的加入，使相似节奏获得更厚的质地。钢琴的快速动作仍然活跃，乐队却提供了另一种不易摆脱的持续性。",
+      "video_text": "弦乐弓奏与低音铜管的加入，使相似节奏获得更厚的质地。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-02-counterpoint",
+      "section": "prokofiev2-4-02",
+      "source_text": "可将较快的钢琴线与较执拗的乐队重复分开听。一个材料由拨弦换成弓奏、由轻声短句进入较低厚音色时，身份和表情不会同时保持不变。",
+      "video_text": "可将较快的钢琴线与较执拗的乐队重复分开听。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-02-form",
+      "section": "prokofiev2-4-02",
+      "source_text": "Marzec把R94–R95、R97附近的材料与第二乐章Trio联系起来。她所用谱例允许比较其节奏和轮廓；这条跨乐章关系在本文保留为有归属的分析线索，不把所有重复都统称为同一主题。",
+      "video_text": "Marzec把R94–R95、R97附近的材料与第二乐章Trio联系起来。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-02-guide",
+      "section": "prokofiev2-4-02",
+      "source_text": "回想谐谑曲中央较有舞步的乐队短句，比较此刻同类重复为什么失去了轻盈感。",
+      "video_text": "回想谐谑曲中央较有舞步的乐队短句，比较此刻同类重复为什么失去了轻盈感。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-03-harmony",
+      "section": "prokofiev2-4-03",
+      "source_text": "D小调区域逐步取得稳定性，较简单、反复的句子与前面的半音跳跃形成对照。这里先建立后续歌唱能够倚靠的背景，而非突然消除全章的紧张。",
+      "video_text": "D小调区域逐步取得稳定性，较简单、反复的句子与前面的半音跳跃形成对照。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-03-orchestration",
+      "section": "prokofiev2-4-03",
+      "source_text": "Meno mosso 让较低木管与弦乐的短句、持续和重复变得显眼。钢琴在这一转场中由退出到短暂点染，乐队先说出另一种呼吸。",
+      "video_text": "Meno mosso 让较低木管与弦乐的短句、持续和重复变得显眼。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-03-counterpoint",
+      "section": "prokofiev2-4-03",
+      "source_text": "背景不再每次都被大跳打断，重复可以延续为一个较完整的句法单位。乐队与钢琴在这里的区别首先是交替发言，而非两个完整主题同时对抗。",
+      "video_text": "背景不再每次都被大跳打断，重复可以延续为一个较完整的句法单位。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-03-form",
+      "section": "prokofiev2-4-03",
+      "source_text": "这是第二主题的准备。稍后的独奏歌唱与此处有连续关系，但“乐队放缓”与“钢琴完整唱出主题”仍是两个可以分别辨认的事件。",
+      "video_text": "这是第二主题的准备。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-03-guide",
+      "section": "prokofiev2-4-03",
+      "source_text": "注意乐队何时开始把短句重复得较安定；先等候那条旋律，而不急着把每个过渡音型都当成主题本身。",
+      "video_text": "注意乐队何时开始把短句重复得较安定；先等候那条旋律，而不急着把每个过渡音型都当成主题本身。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-04-harmony",
+      "section": "prokofiev2-4-04",
+      "source_text": "钢琴入口的D–F–A给出明确的D小三和弦。随后旋律反复、局部变化音和低音的安排共同维持歌唱；宽一些的调式组织与大小调色彩，需要放在整个句子中理解。[H：IV-lullaby-solo-entry]",
+      "video_text": "钢琴入口的D–F–A给出明确的D小三和弦。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-04-orchestration",
+      "section": "prokofiev2-4-04",
+      "source_text": "乐队在主题进入时退出，独奏钢琴以中低音区、较柔和的声音承担旋律与伴奏。前面的大跳让这份紧密、可持续的音响显得尤其亲近。",
+      "video_text": "乐队在主题进入时退出，独奏钢琴以中低音区、较柔和的声音承担旋律与伴奏。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-04-counterpoint",
+      "section": "prokofiev2-4-04",
+      "source_text": "旋律与下方支撑保持清楚分工。此时最值得跟随的是句子的呼吸、下行音程和回到起点的方式，而非把伴奏中每次位置变化都听成新的主题。",
+      "video_text": "旋律与下方支撑保持清楚分工。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-04-form",
+      "section": "prokofiev2-4-04",
+      "source_text": "Marzec称它为俄罗斯摇篮曲，并强调下行四度、五度和调式的可变性。这里的俄罗斯风格是一种音乐语言的分析，不等于已经找到某首具体民歌作为直接原型。",
+      "video_text": "Marzec称它为俄罗斯摇篮曲，并强调下行四度、五度和调式的可变性。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-04-guide",
+      "section": "prokofiev2-4-04",
+      "source_text": "尝试完整记住这一长句，尤其是它怎样回落；后面的发展会把它交给乐队，让钢琴在外面继续活动。",
+      "video_text": "尝试完整记住这一长句，尤其是它怎样回落；后面的发展会把它交给乐队，让钢琴在外面继续活动。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-05-harmony",
+      "section": "prokofiev2-4-05",
+      "source_text": "歌唱主题的支撑被扩展，句尾与增长方向比独奏时更有分量。音符密度增大并不意味着旋律已离开原有语境；要辨别的是哪些音承托主题，哪些音围绕它流动。",
+      "video_text": "歌唱主题的支撑被扩展，句尾与增长方向比独奏时更有分量。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-05-orchestration",
+      "section": "prokofiev2-4-05",
+      "source_text": "主题从钢琴转向乐队，钢琴以越来越宽的音型和音区包围它。独奏与合奏在此第一次把终曲的歌唱扩大为共同的高潮，而非仅作一段安静的对照。",
+      "video_text": "主题从钢琴转向乐队，钢琴以越来越宽的音型和音区包围它。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-05-counterpoint",
+      "section": "prokofiev2-4-05",
+      "source_text": "乐队的较慢旋律与钢琴快速层并存。旋律身份的连续不依赖钢琴始终拥有主线，钢琴也可以在转为装饰和推动层后继续保持强烈存在感。",
+      "video_text": "乐队的较慢旋律与钢琴快速层并存。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-05-form",
+      "section": "prokofiev2-4-05",
+      "source_text": "第二主题完成从私密陈述到较大尺度合奏的扩张。它取得的结构重量，使后来同时出现两类材料时具有真正的辨识基础。",
+      "video_text": "第二主题完成从私密陈述到较大尺度合奏的扩张。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-05-guide",
+      "section": "prokofiev2-4-05",
+      "source_text": "在钢琴变得更繁复时，把刚才记住的旋律移交给乐队来听；比较它在不同音色里是否变得更有支撑。",
+      "video_text": "在钢琴变得更繁复时，把刚才记住的旋律移交给乐队来听；比较它在不同音色里是否变得更有支撑。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-06-harmony",
+      "section": "prokofiev2-4-06",
+      "source_text": "D小调附近的新托卡塔段落带来更集中的运动，整音与半音线条不断改变局部张力。和声要结合各层的行进方向理解，不能把两种材料一同出现时的全部音压成一个静止标签。",
+      "video_text": "D小调附近的新托卡塔段落带来更集中的运动，整音与半音线条不断改变局部张力。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-06-orchestration",
+      "section": "prokofiev2-4-06",
+      "source_text": "Più mosso 之后，钢琴与乐队维持更强的推进；双簧管、大管等把第二主题的动机带入快速背景，随后圆号使它更鲜明。第163小节附近的 tempestoso 加大了两层之间的压力。",
+      "video_text": "Più mosso 之后，钢琴与乐队维持更强的推进；双簧管、大管等把第二主题的动机带入快速背景，随后圆号使它更鲜明。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-06-counterpoint",
+      "section": "prokofiev2-4-06",
+      "source_text": "这里开始适合谈真正的主题叠置：快速层保持自身动作，较慢的歌唱材料又在其中继续。要逐层辨认它们的进入、延续和突出时刻，而不是只数有多少乐器活动。",
+      "video_text": "这里开始适合谈真正的主题叠置：快速层保持自身动作，较慢的歌唱材料又在其中继续。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-06-form",
+      "section": "prokofiev2-4-06",
+      "source_text": "Marzec把这一段置于发展部。对比材料由先后陈述转为并存，是发展成立的重要依据；速度与音量的增长只是这场相遇的外部形态。",
+      "video_text": "Marzec把这一段置于发展部。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-06-guide",
+      "section": "prokofiev2-4-06",
+      "source_text": "在最有冲力的段落中，寻找低速的主题片段，听它怎样从木管逐渐取得更强的声音。",
+      "video_text": "在最有冲力的段落中，寻找低速的主题片段，听它怎样从木管逐渐取得更强的声音。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-07-harmony",
+      "section": "prokofiev2-4-07",
+      "source_text": "R116起点钢琴仍是C大三和弦，随后低层收向D与A；不能把整段都提前写成同一个D持续音。第191小节第三拍的E♭–G♭–B♭，与下一小节D的同音、八度形成鲜明的半音下移对照。在D的语境中，Marzec将前者读作小型那不勒斯侧的和声。[H：IV-R116-start、IV-low-pulse、IV-flat-side-chord、IV-unison-after-flat-side]",
+      "video_text": "R116起点钢琴仍是C大三和弦，随后低层收向D与A；不能把整段都提前写成同一个D持续音。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-07-orchestration",
+      "section": "prokofiev2-4-07",
+      "source_text": "钢琴先退场，大管、低弦与拨弦保留稀疏活动，乐队的突然强调随后打破减弱。进入R117，钢琴在低音持续和停顿中重新承担独奏叙述，pensieroso 的语气与开头的猛冲相距很远。",
+      "video_text": "钢琴先退场，大管、低弦与拨弦保留稀疏活动，乐队的突然强调随后打破减弱。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-07-counterpoint",
+      "section": "prokofiev2-4-07",
+      "source_text": "快速层的消退让低层重复变得可听；华彩开始后，旋律、延长的低音与和弦性思考重新集中于钢琴。留白和音的持续，与弹出的音同样参与组织。",
+      "video_text": "快速层的消退让低层重复变得可听；华彩开始后，旋律、延长的低音与和弦性思考重新集中于钢琴。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-07-form",
+      "section": "prokofiev2-4-07",
+      "source_text": "第二次华彩并非首乐章规模的复刻。它首先中断发展中的对抗，随后在新的调性路径上寻找重启的方式；停顿改变了主题再次进入的意义。",
+      "video_text": "第二次华彩并非首乐章规模的复刻。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-07-guide",
+      "section": "prokofiev2-4-07",
+      "source_text": "先听繁忙运动怎样只留下低处的脉搏，再听降E音响转向D的收缩；钢琴重新开口时，句子已经换了速度和重量。",
+      "video_text": "先听繁忙运动怎样只留下低处的脉搏，再听降E音响转向D的收缩；钢琴重新开口时，句子已经换了速度和重量。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-08-harmony",
+      "section": "prokofiev2-4-08",
+      "source_text": "华彩后的快速材料在升F小调语境中重新获得轮廓，乐队歌唱材料进入时又转向A小调；这是Marzec对段落的调性阅读。主题返回并不自动构成主调的再现，材料身份与调性位置需要分别追踪。",
+      "video_text": "华彩后的快速材料在升F小调语境中重新获得轮廓，乐队歌唱材料进入时又转向A小调；这是Marzec对段落的调性阅读。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-08-orchestration",
+      "section": "prokofiev2-4-08",
+      "source_text": "钢琴保留快速、宽跨度的运动，乐队继续较完整的第二主题。R119附近，双簧管的歌唱可以在钢琴流动与较慢的弦乐支撑之上被清楚辨认。",
+      "video_text": "钢琴保留快速、宽跨度的运动，乐队继续较完整的第二主题。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-08-counterpoint",
+      "section": "prokofiev2-4-08",
+      "source_text": "两类材料的连续时间不同：钢琴的片段趋于分散，乐队的句子仍能保持相对完整。前景的归属因此不断改变，不是每次钢琴变快都意味着它赢得了叙述。",
+      "video_text": "两类材料的连续时间不同：钢琴的片段趋于分散，乐队的句子仍能保持相对完整。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-08-form",
+      "section": "prokofiev2-4-08",
+      "source_text": "发展继续拆分、结合两种材料，直到后段再次消退。Marzec特别强调钢琴最后独自留下的主题碎片，说明一条长旋律也能逐渐失去继续下去的能力。",
+      "video_text": "发展继续拆分、结合两种材料，直到后段再次消退。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-08-guide",
+      "section": "prokofiev2-4-08",
+      "source_text": "同时保留两条记忆：钢琴的尖锐动作和乐队的摇篮曲。听哪一条还能唱成完整句子，哪一条已经变成短片段。",
+      "video_text": "同时保留两条记忆：钢琴的尖锐动作和乐队的摇篮曲。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-09-harmony",
+      "section": "prokofiev2-4-09",
+      "source_text": "Andante 的持续音与反复背景把和声变化放在更长的呼吸中。此处的音符顺序和延续范围比常规小节长度更重要，不能为了得到整齐的分析格子而把它按平均拍数切分。",
+      "video_text": "Andante 的持续音与反复背景把和声变化放在更长的呼吸中。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-09-orchestration",
+      "section": "prokofiev2-4-09",
+      "source_text": "钢琴以较细弱的旋律和重复型背景保留余声，单簧管及低弦的长音构成稀薄的外框。音量减弱、延长与停留，使这段成为全章极显著的听觉门槛。",
+      "video_text": "钢琴以较细弱的旋律和重复型背景保留余声，单簧管及低弦的长音构成稀薄的外框。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-09-counterpoint",
+      "section": "prokofiev2-4-09",
+      "source_text": "活动线与几乎不动的背景之间，留出了此前拥挤织体中少见的空间。重复在这里不再主要表示机械推进，而使一句话难以结束的停留变得可听。",
+      "video_text": "活动线与几乎不动的背景之间，留出了此前拥挤织体中少见的空间。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-09-form",
+      "section": "prokofiev2-4-09",
+      "source_text": "这可视为发展后缘与最后返回之间的临界段。本地XML以第265小节及隐含延续元素X1保存它；X1不是额外的印刷编号小节，也不是可独立分配录音时长的现成单位。",
+      "video_text": "这可视为发展后缘与最后返回之间的临界段。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-09-guide",
+      "section": "prokofiev2-4-09",
+      "source_text": "听不断重复的背景如何维持声音，而旋律的呼吸逐渐放慢；随后的突然重启将打破这份悬置。",
+      "video_text": "听不断重复的背景如何维持声音，而旋律的呼吸逐渐放慢；随后的突然重启将打破这份悬置。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-10-harmony",
+      "section": "prokofiev2-4-10",
+      "source_text": "G小调的总体参照重新取得更大力量，局部却继续保留尖锐的半音关系。返回的确定性主要在大范围内建立，不能用一个起始和弦概括全部重述过程。",
+      "video_text": "G小调的总体参照重新取得更大力量，局部却继续保留尖锐的半音关系。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-10-orchestration",
+      "section": "prokofiev2-4-10",
+      "source_text": "Allegro tempestoso 恢复开头的冲力，钢琴的大跳与乐队的短促攻击重新占据前景。先前长时间减弱和停留的记忆，使这次重新启动显得更猛烈。",
+      "video_text": "Allegro tempestoso 恢复开头的冲力，钢琴的大跳与乐队的短促攻击重新占据前景。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-10-counterpoint",
+      "section": "prokofiev2-4-10",
+      "source_text": "第一主题的动作特征仍在，具体旋律轮廓却已改写。Marzec注意到十度、九度等跨度参与新的上行组织；这是比较材料时需要同时保留的两面：姿态被认出，音符并非原样复制。",
+      "video_text": "第一主题的动作特征仍在，具体旋律轮廓却已改写。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-10-form",
+      "section": "prokofiev2-4-10",
+      "source_text": "这一压缩的再现不再把两个主题依照呈示次序、等量铺开。发展中的相遇与消散，已经改变了最终能够回来的内容。",
+      "video_text": "这一压缩的再现不再把两个主题依照呈示次序、等量铺开。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-10-guide",
+      "section": "prokofiev2-4-10",
+      "source_text": "先辨认熟悉的大跳和休止，再比较旋律是不是仍照开头的方向弯折。",
+      "video_text": "先辨认熟悉的大跳和休止，再比较旋律是不是仍照开头的方向弯折。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-11-harmony",
+      "section": "prokofiev2-4-11",
+      "source_text": "尾声的锐利叠置与最终落在G上，是两个需要先后分辨的事件。Marzec把其中一处音响读作G小调与A大调材料的叠置；最后三小节的局部核查则显示，倒数两小节保留C与G的开放音响，末小节的写定音集中为G1、G2、G3。前者可依她的读法理解为省三音、带下属侧色彩的支撑，后者明确给出终音，却没有补奏一个完整G小三和弦。[H：IV-penultimate-page-chord、IV-last-full-ensemble-bar、IV-last-bar]",
+      "video_text": "尾声的锐利叠置与最终落在G上，是两个需要先后分辨的事件。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-11-orchestration",
+      "section": "prokofiev2-4-11",
+      "source_text": "钢琴与弦乐的急速奔流、铜管的支撑和打击乐的强调，推动最后一轮增长。最终低处的G使庞大的音响集中成短促的终点，结束感还来自音区归结、重音与切断。",
+      "video_text": "钢琴与弦乐的急速奔流、铜管的支撑和打击乐的强调，推动最后一轮增长。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-11-counterpoint",
+      "section": "prokofiev2-4-11",
+      "source_text": "两种主题此前能够相互覆盖，尾声却逐步把复杂交谈收成共同动作。材料不是全部得到温柔的和解，而是在节奏和音色的集中中停止。",
+      "video_text": "两种主题此前能够相互覆盖，尾声却逐步把复杂交谈收成共同动作。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-11-form",
+      "section": "prokofiev2-4-11",
+      "source_text": "尾声承接发展中的托卡塔性冲力，没有把摇篮曲安排成最后的宽广颂歌。因而可以听到明确终结，也可以继续感到和声中的棱角：作品结束了，先前的矛盾没有被一个常规的圆满终止全部抹平。",
+      "video_text": "尾声承接发展中的托卡塔性冲力，没有把摇篮曲安排成最后的宽广颂歌。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    },
+    {
+      "id": "prokofiev2-4-11-guide",
+      "section": "prokofiev2-4-11",
+      "source_text": "把最后的刺耳叠置、开放C–G和最后一击G分开听；比较“已经结束”与“所有问题都已解决”在听觉上是否完全相同。",
+      "video_text": "把最后的刺耳叠置、开放C–G和最后一击G分开听；比较“已经结束”与“所有问题都已解决”在听觉上是否完全相同。",
+      "method": "first complete sentence; citations retained in editable provenance"
+    }
+  ],
+  "events": 200,
+  "sections": 38,
+  "counts": {
+    "片头": 1,
+    "和弦": 38,
+    "配器": 38,
+    "声部关系与复调": 38,
+    "曲式与主题发展": 38,
+    "导聆": 38,
+    "诠释": 9
+  },
+  "full_video_encoded": false,
+  "human_signoff": null
+}

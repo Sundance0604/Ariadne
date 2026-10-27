@@ -1,0 +1,9 @@
+{
+  "package": "output/video-export/prokofiev2-full-001",
+  "document": "works/prokofiev-piano-concerto-2/video-export/captions-editable.json",
+  "frame_count": 58446,
+  "duration_seconds": 1948.2,
+  "pdf_pages": 168,
+  "video_generated": false,
+  "user_will_render_and_review": true
+}

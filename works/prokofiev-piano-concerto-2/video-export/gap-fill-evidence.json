@@ -1,0 +1,1053 @@
+{
+  "date": "2026-10-27",
+  "plan_id": "prokofiev2-ten-gaps-20261027",
+  "original_document_sha256": "c23eb68727c24aa5045dff0303e26d64d9f22b8b05e3c8085f954750ff5baacb",
+  "plan_sha256": "6ca36921e429387c704286f6cf0f27171e9e7644371935fc8f187656a5679ebe",
+  "original_entries": 200,
+  "added_entries": 18,
+  "total_entries": 218,
+  "counts": {
+    "片头": 1,
+    "和弦": 39,
+    "配器": 41,
+    "声部关系与复调": 42,
+    "曲式与主题发展": 42,
+    "导聆": 41,
+    "诠释": 12
+  },
+  "before": {
+    "music_seconds": 1844.0,
+    "blank_seconds": 1090.02,
+    "blank_percent": 59.11,
+    "blank_count": 37,
+    "largest_music_blank_seconds": 98.55
+  },
+  "after": {
+    "music_seconds": 1844.0,
+    "blank_seconds": 774.09,
+    "blank_percent": 41.98,
+    "blank_count": 55,
+    "largest_music_blank_seconds": 45.56
+  },
+  "gaps": [
+    {
+      "rank": 1,
+      "start_seconds": 1638.64,
+      "end_seconds": 1737.19,
+      "tail_silence_seconds": 3,
+      "music_end_seconds": 1737.19,
+      "music_seconds": 98.55,
+      "added_ids": [
+        "prok2-gap01-interpretation",
+        "prok2-gap01-voices"
+      ],
+      "remaining_music_blank_seconds": 37.51,
+      "remaining_music_intervals": [
+        [
+          1638.64,
+          1645.24
+        ],
+        [
+          1692.28,
+          1704.22
+        ],
+        [
+          1718.22,
+          1737.19
+        ]
+      ],
+      "longest_remaining_music_blank_seconds": 18.97,
+      "music_text_coverage_percent": 61.94
+    },
+    {
+      "rank": 2,
+      "start_seconds": 1751.39,
+      "end_seconds": 1840.12,
+      "tail_silence_seconds": 3,
+      "music_end_seconds": 1840.12,
+      "music_seconds": 88.73,
+      "added_ids": [
+        "prok2-gap02-interpretation",
+        "prok2-gap02-form"
+      ],
+      "remaining_music_blank_seconds": 33.45,
+      "remaining_music_intervals": [
+        [
+          1751.39,
+          1768.56
+        ],
+        [
+          1809.24,
+          1821.04
+        ],
+        [
+          1835.64,
+          1840.12
+        ]
+      ],
+      "longest_remaining_music_blank_seconds": 17.17,
+      "music_text_coverage_percent": 62.3
+    },
+    {
+      "rank": 3,
+      "start_seconds": 418.67,
+      "end_seconds": 484.3,
+      "tail_silence_seconds": 3,
+      "music_end_seconds": 484.3,
+      "music_seconds": 65.63,
+      "added_ids": [
+        "prok2-gap03-voices",
+        "prok2-gap03-interpretation"
+      ],
+      "remaining_music_blank_seconds": 23.21,
+      "remaining_music_intervals": [
+        [
+          418.67,
+          427.28
+        ],
+        [
+          439.48,
+          445.2
+        ],
+        [
+          475.42,
+          484.3
+        ]
+      ],
+      "longest_remaining_music_blank_seconds": 8.88,
+      "music_text_coverage_percent": 64.64
+    },
+    {
+      "rank": 4,
+      "start_seconds": 1376.72,
+      "end_seconds": 1431.54,
+      "tail_silence_seconds": 3,
+      "music_end_seconds": 1431.54,
+      "music_seconds": 54.82,
+      "added_ids": [
+        "prok2-gap04-orchestration",
+        "prok2-gap04-guide"
+      ],
+      "remaining_music_blank_seconds": 28.22,
+      "remaining_music_intervals": [
+        [
+          1376.72,
+          1385.78
+        ],
+        [
+          1398.38,
+          1413.42
+        ],
+        [
+          1427.42,
+          1431.54
+        ]
+      ],
+      "longest_remaining_music_blank_seconds": 15.04,
+      "music_text_coverage_percent": 48.52
+    },
+    {
+      "rank": 5,
+      "start_seconds": 143.07,
+      "end_seconds": 196.8,
+      "tail_silence_seconds": 3,
+      "music_end_seconds": 196.8,
+      "music_seconds": 53.73,
+      "added_ids": [
+        "prok2-gap05-orchestration",
+        "prok2-gap05-form"
+      ],
+      "remaining_music_blank_seconds": 29.53,
+      "remaining_music_intervals": [
+        [
+          143.07,
+          151.21
+        ],
+        [
+          161.21,
+          166.77
+        ],
+        [
+          180.97,
+          196.8
+        ]
+      ],
+      "longest_remaining_music_blank_seconds": 15.83,
+      "music_text_coverage_percent": 45.04
+    },
+    {
+      "rank": 6,
+      "start_seconds": 673.28,
+      "end_seconds": 726.4,
+      "tail_silence_seconds": 7,
+      "music_end_seconds": 705.6,
+      "music_seconds": 32.32,
+      "added_ids": [
+        "prok2-gap06-guide"
+      ],
+      "remaining_music_blank_seconds": 18.92,
+      "remaining_music_intervals": [
+        [
+          673.28,
+          682.0
+        ],
+        [
+          695.4,
+          705.6
+        ]
+      ],
+      "longest_remaining_music_blank_seconds": 10.2,
+      "music_text_coverage_percent": 41.46
+    },
+    {
+      "rank": 7,
+      "start_seconds": 1236.21,
+      "end_seconds": 1286.6,
+      "tail_silence_seconds": 4,
+      "music_end_seconds": 1266.6,
+      "music_seconds": 30.39,
+      "added_ids": [
+        "prok2-gap07-guide"
+      ],
+      "remaining_music_blank_seconds": 16.39,
+      "remaining_music_intervals": [
+        [
+          1236.21,
+          1248.46
+        ],
+        [
+          1262.46,
+          1266.6
+        ]
+      ],
+      "longest_remaining_music_blank_seconds": 12.25,
+      "music_text_coverage_percent": 46.07
+    },
+    {
+      "rank": 8,
+      "start_seconds": 266.1,
+      "end_seconds": 316.46,
+      "tail_silence_seconds": 3,
+      "music_end_seconds": 316.46,
+      "music_seconds": 50.36,
+      "added_ids": [
+        "prok2-gap08-voices",
+        "prok2-gap08-harmony"
+      ],
+      "remaining_music_blank_seconds": 24.96,
+      "remaining_music_intervals": [
+        [
+          266.1,
+          271.32
+        ],
+        [
+          284.32,
+          291.24
+        ],
+        [
+          303.64,
+          316.46
+        ]
+      ],
+      "longest_remaining_music_blank_seconds": 12.82,
+      "music_text_coverage_percent": 50.44
+    },
+    {
+      "rank": 9,
+      "start_seconds": 1175.16,
+      "end_seconds": 1225.01,
+      "tail_silence_seconds": 3,
+      "music_end_seconds": 1225.01,
+      "music_seconds": 49.85,
+      "added_ids": [
+        "prok2-gap09-orchestration",
+        "prok2-gap09-form"
+      ],
+      "remaining_music_blank_seconds": 21.5,
+      "remaining_music_intervals": [
+        [
+          1175.16,
+          1183.36
+        ],
+        [
+          1196.36,
+          1206.66
+        ],
+        [
+          1222.01,
+          1225.01
+        ]
+      ],
+      "longest_remaining_music_blank_seconds": 10.3,
+      "music_text_coverage_percent": 56.87
+    },
+    {
+      "rank": 10,
+      "start_seconds": 987.88,
+      "end_seconds": 1035.19,
+      "tail_silence_seconds": 3,
+      "music_end_seconds": 1035.19,
+      "music_seconds": 47.31,
+      "added_ids": [
+        "prok2-gap10-voices",
+        "prok2-gap10-form"
+      ],
+      "remaining_music_blank_seconds": 22.07,
+      "remaining_music_intervals": [
+        [
+          987.88,
+          1000.64
+        ],
+        [
+          1014.04,
+          1020.35
+        ],
+        [
+          1032.19,
+          1035.19
+        ]
+      ],
+      "longest_remaining_music_blank_seconds": 12.76,
+      "music_text_coverage_percent": 53.35
+    }
+  ],
+  "entries": [
+    {
+      "id": "prok2-gap01-interpretation",
+      "gap_rank": 1,
+      "column": "诠释",
+      "title": "诠释 · 停顿中的重新出发",
+      "start_sequence": 741,
+      "last_sequence": 754,
+      "source_section": "prokofiev2-4-07",
+      "source_fields": [
+        "voices",
+        "form",
+        "orchestration"
+      ],
+      "anchor_reason": "R117内的低音延长和和弦性独奏已经开始；随后连接legatissimo e pesante及流动音型，原谱物理140页。",
+      "score_pages_checked": [
+        140
+      ],
+      "text": "终曲在这里停下来，钢琴重新取得独自说话的空间。低音延长，上方和弦缓缓更替，停顿让前一个音的重量留在记忆里。谱面的pensieroso提示一种沉思的语气；随后legatissimo e pesante又让连贯与分量同时进入。与首乐章那段不断扩大的华彩相比，这一次独奏先把声音聚拢，在停留与重新流动之间寻找继续前行的方式。听句子怎样获得下一次呼吸，也是在听终曲怎样准备重新出发。",
+      "start_seconds": 1645.24,
+      "end_seconds": 1692.285,
+      "reading_characters": 185,
+      "characters_per_second": 3.932,
+      "anchor_movement": 4,
+      "anchor_local_number": "195",
+      "anchor_rehearsals": [],
+      "anchor_pdf_page": 140,
+      "source_text": {
+        "voices": "快速层的消退让低层重复变得可听；华彩开始后，旋律、延长的低音与和弦性思考重新集中于钢琴。留白和音的持续，与弹出的音同样参与组织。",
+        "form": "第二次华彩并非首乐章规模的复刻。它首先中断发展中的对抗，随后在新的调性路径上寻找重启的方式；停顿改变了主题再次进入的意义。",
+        "orchestration": "钢琴先退场，大管、低弦与拨弦保留稀疏活动，乐队的突然强调随后打破减弱。进入R117，钢琴在低音持续和停顿中重新承担独奏叙述，pensieroso 的语气与开头的猛冲相距很远。"
+      },
+      "source_locator": "定位：X第四乐章188–215小节，R116–R117，重排谱物理139–140页；S物理139–140页；M印刷116–117页。",
+      "human_signoff": null,
+      "scope": "Selected score images, XML directions and existing analysis; not independently heard performance timing."
+    },
+    {
+      "id": "prok2-gap01-voices",
+      "gap_rank": 1,
+      "column": "声部关系与复调",
+      "title": "流动重新组织起来",
+      "start_sequence": 755,
+      "last_sequence": 758,
+      "source_section": "prokofiev2-4-07",
+      "source_fields": [
+        "voices",
+        "listening"
+      ],
+      "anchor_reason": "华彩后半重新出现两手流动音型，随后渐强并接逐渐加速；原谱140页中下部。",
+      "score_pages_checked": [
+        140
+      ],
+      "text": "两手重新形成流动的线条，低处的方向仍可追踪。听音型怎样接续、重音怎样聚拢，便能感到停顿之后的运动正在重新成形。",
+      "start_seconds": 1704.22,
+      "end_seconds": 1718.22,
+      "reading_characters": 55,
+      "characters_per_second": 3.929,
+      "anchor_movement": 4,
+      "anchor_local_number": "209",
+      "anchor_rehearsals": [],
+      "anchor_pdf_page": 140,
+      "source_text": {
+        "voices": "快速层的消退让低层重复变得可听；华彩开始后，旋律、延长的低音与和弦性思考重新集中于钢琴。留白和音的持续，与弹出的音同样参与组织。",
+        "listening": "先听繁忙运动怎样只留下低处的脉搏，再听降E音响转向D的收缩；钢琴重新开口时，句子已经换了速度和重量。"
+      },
+      "source_locator": "定位：X第四乐章188–215小节，R116–R117，重排谱物理139–140页；S物理139–140页；M印刷116–117页。",
+      "human_signoff": null,
+      "scope": "Selected score images, XML directions and existing analysis; not independently heard performance timing."
+    },
+    {
+      "id": "prok2-gap02-interpretation",
+      "gap_rank": 2,
+      "column": "诠释",
+      "title": "诠释 · 并肩展开的两种时间",
+      "start_sequence": 775,
+      "last_sequence": 798,
+      "source_section": "prokofiev2-4-08",
+      "source_fields": [
+        "orchestration",
+        "voices",
+        "form"
+      ],
+      "anchor_reason": "R119双簧管长句位于钢琴快速音型和较慢弦乐之上；随后继续两类材料的发展。",
+      "score_pages_checked": [
+        143,
+        152
+      ],
+      "text": "同一段音乐里，两种时间并肩展开。双簧管把歌唱连成长句，钢琴的快速音型围绕它起伏，弦乐则维持较慢的支撑。沿着乐队的旋律听，可以保留摇篮曲的记忆；转向钢琴，又会感到片段和音区不断变化。旋律的身份与承担它的乐器，于是需要分开辨认。独奏与合奏在这里轮流占据前景，终曲的发展也继续由这两种力量的相遇、让位与重新组合向前展开。",
+      "start_seconds": 1768.56,
+      "end_seconds": 1809.242,
+      "reading_characters": 157,
+      "characters_per_second": 3.859,
+      "anchor_movement": 4,
+      "anchor_local_number": "229",
+      "anchor_rehearsals": [
+        "119"
+      ],
+      "anchor_pdf_page": 143,
+      "source_text": {
+        "orchestration": "钢琴保留快速、宽跨度的运动，乐队继续较完整的第二主题。R119附近，双簧管的歌唱可以在钢琴流动与较慢的弦乐支撑之上被清楚辨认。",
+        "voices": "两类材料的连续时间不同：钢琴的片段趋于分散，乐队的句子仍能保持相对完整。前景的归属因此不断改变，不是每次钢琴变快都意味着它赢得了叙述。",
+        "form": "发展继续拆分、结合两种材料，直到后段再次消退。Marzec特别强调钢琴最后独自留下的主题碎片，说明一条长旋律也能逐渐失去继续下去的能力。"
+      },
+      "source_locator": "定位：X第四乐章216–264小节，R118–R126，重排谱物理141–153页；S物理143页；M印刷116–117页。",
+      "human_signoff": null,
+      "scope": "Selected score images, XML directions and existing analysis; not independently heard performance timing."
+    },
+    {
+      "id": "prok2-gap02-form",
+      "gap_rank": 2,
+      "column": "曲式与主题发展",
+      "title": "长句逐渐成为片段",
+      "start_sequence": 803,
+      "last_sequence": 810,
+      "source_section": "prokofiev2-4-08",
+      "source_fields": [
+        "form",
+        "voices"
+      ],
+      "anchor_reason": "R125起继续分散与减弱，向R126后钢琴独自留下片段过渡；原谱152页可见dim.。",
+      "score_pages_checked": [
+        152
+      ],
+      "text": "旋律与伴随音型继续拆分，渐弱又改变了它们的距离。留意哪些声音仍能连成长句，哪些已只留下片段，便能听见这轮发展的退潮。",
+      "start_seconds": 1821.04,
+      "end_seconds": 1835.64,
+      "reading_characters": 58,
+      "characters_per_second": 3.973,
+      "anchor_movement": 4,
+      "anchor_local_number": "257",
+      "anchor_rehearsals": [
+        "125"
+      ],
+      "anchor_pdf_page": 152,
+      "source_text": {
+        "form": "发展继续拆分、结合两种材料，直到后段再次消退。Marzec特别强调钢琴最后独自留下的主题碎片，说明一条长旋律也能逐渐失去继续下去的能力。",
+        "voices": "两类材料的连续时间不同：钢琴的片段趋于分散，乐队的句子仍能保持相对完整。前景的归属因此不断改变，不是每次钢琴变快都意味着它赢得了叙述。"
+      },
+      "source_locator": "定位：X第四乐章216–264小节，R118–R126，重排谱物理141–153页；S物理143页；M印刷116–117页。",
+      "human_signoff": null,
+      "scope": "Selected score images, XML directions and existing analysis; not independently heard performance timing."
+    },
+    {
+      "id": "prok2-gap03-voices",
+      "gap_rank": 3,
+      "column": "声部关系与复调",
+      "title": "在密集音群中保留长线",
+      "start_sequence": 127,
+      "last_sequence": 130,
+      "source_section": "prokofiev2-1-09",
+      "source_fields": [
+        "voices",
+        "listening"
+      ],
+      "anchor_reason": "华彩的弱音与rit.至a tempo一带，上下层的持续与流动分别可见，原谱24页上部。",
+      "score_pages_checked": [
+        24
+      ],
+      "text": "先沿较长的旋律音倾听，再辨认它周围的快速音型。低音与歌唱的接续，能让密集的表面保有一条长线。",
+      "start_seconds": 427.28,
+      "end_seconds": 439.48,
+      "reading_characters": 46,
+      "characters_per_second": 3.77,
+      "anchor_movement": 1,
+      "anchor_local_number": "127",
+      "anchor_rehearsals": [],
+      "anchor_pdf_page": 24,
+      "source_text": {
+        "voices": "华彩的难处包含层次之间的竞争。主要旋律可以位于密集音群的中间，低音保留方向，上方运动又不断遮盖和重新照亮它。多层写作在此具有结构作用。",
+        "listening": "在快速经过的音里寻找一条能够继续哼唱的旋律；比较它与最初 narrante 的语气和承托。"
+      },
+      "source_locator": "定位：X第一乐章113–138小节，R20之后，重排谱物理22–24页；M印刷70–71页。论文的华彩长度计数与本地XML元素数分别保留。",
+      "human_signoff": null,
+      "scope": "Selected score images, XML directions and existing analysis; not independently heard performance timing."
+    },
+    {
+      "id": "prok2-gap03-interpretation",
+      "gap_rank": 3,
+      "column": "诠释",
+      "title": "诠释 · 回忆获得新的分量",
+      "start_sequence": 130,
+      "last_sequence": 138,
+      "source_section": "prokofiev2-1-09",
+      "source_fields": [
+        "harmony",
+        "form",
+        "voices"
+      ],
+      "anchor_reason": "a tempo后的弱音继续生长，接molto cresc.及更强动态；原谱24页，不提前放入后段colossale。",
+      "score_pages_checked": [
+        24
+      ],
+      "text": "主题的回忆逐渐获得新的分量。上方歌唱仍可辨认，低音支撑与和弦重音却一再加厚；谱面接连要求增强，声音走向更强烈的陈述。沿着能够哼唱的线条继续听，便能把这一轮增长接回开头的叙述：曾经轻声说出的话，正在密集织体中争取更大的空间。",
+      "start_seconds": 445.2,
+      "end_seconds": 475.427,
+      "reading_characters": 111,
+      "characters_per_second": 3.672,
+      "anchor_movement": 1,
+      "anchor_local_number": "130",
+      "anchor_rehearsals": [],
+      "anchor_pdf_page": 24,
+      "source_text": {
+        "harmony": "熟悉的材料在独奏中重新铺开，调性和声部的支撑逐步扩充。Marzec指出主题在这一过程中获得大调化的抬升；其重要性在于此前的歌唱似乎找到更有力的说法，而非单纯“转大调所以快乐”。",
+        "form": "华彩承担发展的中心，回忆第一主题群，并把此前分由独奏与合奏承担的角色压入钢琴。它的巨大规模改变了整个乐章的比例。",
+        "voices": "华彩的难处包含层次之间的竞争。主要旋律可以位于密集音群的中间，低音保留方向，上方运动又不断遮盖和重新照亮它。多层写作在此具有结构作用。"
+      },
+      "source_locator": "定位：X第一乐章113–138小节，R20之后，重排谱物理22–24页；M印刷70–71页。论文的华彩长度计数与本地XML元素数分别保留。",
+      "human_signoff": null,
+      "scope": "Selected score images, XML directions and existing analysis; not independently heard performance timing."
+    },
+    {
+      "id": "prok2-gap04-orchestration",
+      "gap_rank": 4,
+      "column": "配器",
+      "title": "长音与低处的短句",
+      "start_sequence": 613,
+      "last_sequence": 615,
+      "source_section": "prokofiev2-4-03",
+      "source_fields": [
+        "orchestration",
+        "voices"
+      ],
+      "anchor_reason": "R97后钢琴延长和弦与低弦短句并置，低弦由拨奏到拉奏的转换见原谱124页。",
+      "score_pages_checked": [
+        124
+      ],
+      "text": "钢琴把和弦延长，低弦在下方续上短句。持续的背景与较慢的起伏并置，让此前断续的大跳转入另一种呼吸。",
+      "start_seconds": 1385.78,
+      "end_seconds": 1398.38,
+      "reading_characters": 48,
+      "characters_per_second": 3.81,
+      "anchor_movement": 4,
+      "anchor_local_number": "67",
+      "anchor_rehearsals": [],
+      "anchor_pdf_page": 124,
+      "source_text": {
+        "orchestration": "Meno mosso 让较低木管与弦乐的短句、持续和重复变得显眼。钢琴在这一转场中由退出到短暂点染，乐队先说出另一种呼吸。",
+        "voices": "背景不再每次都被大跳打断，重复可以延续为一个较完整的句法单位。乐队与钢琴在这里的区别首先是交替发言，而非两个完整主题同时对抗。"
+      },
+      "source_locator": "定位：X第四乐章62–82小节，R97–R99，重排谱物理124–125页；S物理124–125页；M印刷113–115页。",
+      "human_signoff": null,
+      "scope": "Selected score images, XML directions and existing analysis; not independently heard performance timing."
+    },
+    {
+      "id": "prok2-gap04-guide",
+      "gap_rank": 4,
+      "column": "导聆",
+      "title": "等待歌唱的入口",
+      "start_sequence": 621,
+      "last_sequence": 627,
+      "source_section": "prokofiev2-4-03",
+      "source_fields": [
+        "form",
+        "listening"
+      ],
+      "anchor_reason": "R99单簧管、大管与弦乐的重复短句，连接随后R100独奏歌唱，原谱125页。",
+      "score_pages_checked": [
+        125
+      ],
+      "text": "木管和弦乐把短句重复得较安定，钢琴暂时退后。记住这层摇曳的背景，接下来独奏唱出的长句，会从它留下的空间里展开。",
+      "start_seconds": 1413.42,
+      "end_seconds": 1427.42,
+      "reading_characters": 55,
+      "characters_per_second": 3.929,
+      "anchor_movement": 4,
+      "anchor_local_number": "75",
+      "anchor_rehearsals": [
+        "99"
+      ],
+      "anchor_pdf_page": 125,
+      "source_text": {
+        "form": "这是第二主题的准备。稍后的独奏歌唱与此处有连续关系，但“乐队放缓”与“钢琴完整唱出主题”仍是两个可以分别辨认的事件。",
+        "listening": "注意乐队何时开始把短句重复得较安定；先等候那条旋律，而不急着把每个过渡音型都当成主题本身。"
+      },
+      "source_locator": "定位：X第四乐章62–82小节，R97–R99，重排谱物理124–125页；S物理124–125页；M印刷113–115页。",
+      "human_signoff": null,
+      "scope": "Selected score images, XML directions and existing analysis; not independently heard performance timing."
+    },
+    {
+      "id": "prok2-gap05-orchestration",
+      "gap_rank": 5,
+      "column": "配器",
+      "title": "弦乐加入声音的增长",
+      "start_sequence": 29,
+      "last_sequence": 31,
+      "source_section": "prokofiev2-1-04",
+      "source_fields": [
+        "orchestration"
+      ],
+      "anchor_reason": "R4之前，弦乐由轻声拉奏加入渐强，原谱5页上部。",
+      "score_pages_checked": [
+        5
+      ],
+      "text": "弦乐从轻声的背景加入渐强，钢琴上方的旋律获得了更厚的承托。",
+      "start_seconds": 151.21,
+      "end_seconds": 161.21,
+      "reading_characters": 29,
+      "characters_per_second": 2.9,
+      "anchor_movement": 1,
+      "anchor_local_number": "29",
+      "anchor_rehearsals": [],
+      "anchor_pdf_page": 5,
+      "source_text": {
+        "orchestration": "长笛、单簧管等木管带来较轻的音色，钢琴的密集发言暂时得到回应；后一次扩张中，乐队更积极地参与钢琴此前提出的材料。相同的旋律姿态因此取得了更大的公共音响。"
+      },
+      "source_locator": "定位：X第一乐章23–40小节，R3–R5，重排谱物理4–7页；M印刷66页。",
+      "human_signoff": null,
+      "scope": "Selected score images, XML directions and existing analysis; not independently heard performance timing."
+    },
+    {
+      "id": "prok2-gap05-form",
+      "gap_rank": 5,
+      "column": "曲式与主题发展",
+      "title": "同一材料取得更大的尺度",
+      "start_sequence": 33,
+      "last_sequence": 36,
+      "source_section": "prokofiev2-1-04",
+      "source_fields": [
+        "form",
+        "orchestration"
+      ],
+      "anchor_reason": "R4后木管、圆号、弦乐与钢琴共同参与热烈陈述，随后收向R5，原谱5页下部。",
+      "score_pages_checked": [
+        5
+      ],
+      "text": "热烈的姿态如今有更多乐器共同承接。把这次扩张与前一次钢琴陈述比较，第一主题群怎样通过回返扩大规模，就会更加清楚。",
+      "start_seconds": 166.77,
+      "end_seconds": 180.97,
+      "reading_characters": 56,
+      "characters_per_second": 3.944,
+      "anchor_movement": 1,
+      "anchor_local_number": "33",
+      "anchor_rehearsals": [],
+      "anchor_pdf_page": 5,
+      "source_text": {
+        "form": "第一主题群借“退回—再出发”的过程扩大规模。Marzec把第二次热烈陈述理解为钢琴终于说服乐队加入；这是对实际参与关系的一种叙事读法。",
+        "orchestration": "长笛、单簧管等木管带来较轻的音色，钢琴的密集发言暂时得到回应；后一次扩张中，乐队更积极地参与钢琴此前提出的材料。相同的旋律姿态因此取得了更大的公共音响。"
+      },
+      "source_locator": "定位：X第一乐章23–40小节，R3–R5，重排谱物理4–7页；M印刷66页。",
+      "human_signoff": null,
+      "scope": "Selected score images, XML directions and existing analysis; not independently heard performance timing."
+    },
+    {
+      "id": "prok2-gap06-guide",
+      "gap_rank": 6,
+      "column": "导聆",
+      "title": "把巨响收成句尾",
+      "start_sequence": 195,
+      "last_sequence": 199,
+      "source_section": "prokofiev2-1-12",
+      "source_fields": [
+        "orchestration",
+        "listening"
+      ],
+      "anchor_reason": "R24附近已转入尾声收拢，原谱37页可见较薄织体与末尾pp；文案在最后弱音前结束。",
+      "score_pages_checked": [
+        37
+      ],
+      "text": "合奏的重量逐渐收回，钢琴与弦乐留下较细的线条。把耳朵放在反复的低处音型上，听最后的弱音怎样为这一章收口。",
+      "start_seconds": 682.0,
+      "end_seconds": 695.4,
+      "reading_characters": 52,
+      "characters_per_second": 3.881,
+      "anchor_movement": 1,
+      "anchor_local_number": "195",
+      "anchor_rehearsals": [
+        "24"
+      ],
+      "anchor_pdf_page": 36,
+      "source_text": {
+        "orchestration": "长号、大号及整体合奏把开头的稀疏轮廓扩成厚重的宣告，钢琴并未就此退出，而以自身和声和旋律继续回应。后段音响再度收窄，使返回不止于一次巨响。",
+        "listening": "认出开头那句短话，再听钢琴怎样与它共处，而不只是等待乐队把它压倒。"
+      },
+      "source_locator": "定位：X第一乐章181–200小节，R21–R24，重排谱物理31–37页；S物理31页；M印刷72–74页。",
+      "human_signoff": null,
+      "scope": "Selected score images, XML directions and existing analysis; not independently heard performance timing."
+    },
+    {
+      "id": "prok2-gap07-guide",
+      "gap_rank": 7,
+      "column": "导聆",
+      "title": "一层层减去重量",
+      "start_sequence": 539,
+      "last_sequence": 544,
+      "source_section": "prokofiev2-3-08",
+      "source_fields": [
+        "orchestration",
+        "voices",
+        "listening"
+      ],
+      "anchor_reason": "R83之后强音依次转f、mp、p，R84留下低处断续线条；原谱108页。",
+      "score_pages_checked": [
+        108
+      ],
+      "text": "最后一轮强音之后，声音逐层减弱，低处的断续线条渐渐显露。跟住仍在继续的步伐，听这一章怎样一点点减去自身的重量。",
+      "start_seconds": 1248.46,
+      "end_seconds": 1262.46,
+      "reading_characters": 55,
+      "characters_per_second": 3.929,
+      "anchor_movement": 3,
+      "anchor_local_number": "152",
+      "anchor_rehearsals": [
+        "83"
+      ],
+      "anchor_pdf_page": 107,
+      "source_text": {
+        "orchestration": "声音由较满的合奏退向稀疏、较低的发音，钢琴与乐队的巨大块面不再占据同等空间。结尾的安静因与前面相距甚远而尤其明显。",
+        "voices": "原先互相挤压的层次逐渐退出，能被清楚分辨的线条减少。材料的下行、音色变薄与动态退后，共同改变了结束感。",
+        "listening": "把注意力从最高、最响的音移向最后仍留在低处的线条，听音乐怎样一点点减去自身的重量。"
+      },
+      "source_locator": "定位：X第三乐章142–159小节，R81–R84，重排谱物理102–108页；S物理107页；M印刷97、107页。",
+      "human_signoff": null,
+      "scope": "Selected score images, XML directions and existing analysis; not independently heard performance timing."
+    },
+    {
+      "id": "prok2-gap08-voices",
+      "gap_rank": 8,
+      "column": "声部关系与复调",
+      "title": "慢线条与快装饰的距离",
+      "start_sequence": 77,
+      "last_sequence": 84,
+      "source_section": "prokofiev2-1-07",
+      "source_fields": [
+        "voices",
+        "orchestration"
+      ],
+      "anchor_reason": "R12至R13附近舞曲线条与快速钢琴装饰的延续；后面的R14原谱17页提供可回查的音型对照。",
+      "score_pages_checked": [
+        17
+      ],
+      "text": "先保留较慢的舞曲线条，再听钢琴的快速装饰怎样穿过它。两种运动相互覆盖，熟悉的步态也因此不断改变重心。",
+      "start_seconds": 271.32,
+      "end_seconds": 284.32,
+      "reading_characters": 50,
+      "characters_per_second": 3.846,
+      "anchor_movement": 1,
+      "anchor_local_number": "77",
+      "anchor_rehearsals": [
+        "12"
+      ],
+      "anchor_pdf_page": 14,
+      "source_text": {
+        "voices": "较慢的主题层与急速装饰层相互覆盖。Marzec特别注意R14附近滑行音型与叹息姿态的结合：同一段音乐既保持舞蹈外形，也显露出不协调的表情。",
+        "orchestration": "木管和弦乐承担主题或应答，钢琴以越来越显眼的快速线条穿过其间。这里的华丽并没有让舞步更平稳，反而不断改变它的重心与边缘。"
+      },
+      "source_locator": "定位：X第一乐章68–100小节，R10–R16，重排谱物理12–20页；M印刷67–70页、谱例5.5。",
+      "human_signoff": null,
+      "scope": "Selected score images, XML directions and existing analysis; not independently heard performance timing."
+    },
+    {
+      "id": "prok2-gap08-harmony",
+      "gap_rank": 8,
+      "column": "和弦",
+      "title": "从装饰中听出支点",
+      "start_sequence": 88,
+      "last_sequence": 95,
+      "source_section": "prokofiev2-1-07",
+      "source_fields": [
+        "harmony",
+        "listening"
+      ],
+      "anchor_reason": "R14附近短促重音与快速滑行，原谱17页。沿用已有骨架与经过音区分，不新增逐和弦功能判定。",
+      "score_pages_checked": [
+        17
+      ],
+      "text": "快速经过的音擦过较持久的支点。听低音与较慢的和弦支撑，能把和声的方向从钢琴的装饰线中分辨出来。",
+      "start_seconds": 291.24,
+      "end_seconds": 303.64,
+      "reading_characters": 47,
+      "characters_per_second": 3.79,
+      "anchor_movement": 1,
+      "anchor_local_number": "88",
+      "anchor_rehearsals": [
+        "14"
+      ],
+      "anchor_pdf_page": 17,
+      "source_text": {
+        "harmony": "半音经过、局部支点与扩展音响加剧了副部内部的摩擦。快速扫动的音群不能整体当作一个同时和弦；和声的持续骨架与掠过它的音应分别听。",
+        "listening": "不要只追最快的音；尝试在它们后面继续听见那条较慢的舞曲线，感受它怎样被装饰挤压。"
+      },
+      "source_locator": "定位：X第一乐章68–100小节，R10–R16，重排谱物理12–20页；M印刷67–70页、谱例5.5。",
+      "human_signoff": null,
+      "scope": "Selected score images, XML directions and existing analysis; not independently heard performance timing."
+    },
+    {
+      "id": "prok2-gap09-orchestration",
+      "gap_rank": 9,
+      "column": "配器",
+      "title": "前景在进入与退让中转移",
+      "start_sequence": 511,
+      "last_sequence": 517,
+      "source_section": "prokofiev2-3-07",
+      "source_fields": [
+        "orchestration",
+        "voices"
+      ],
+      "anchor_reason": "R77钢琴与弦乐并行，至R78钢琴短暂退让，木管运动浮现；原谱97、98页。",
+      "score_pages_checked": [
+        97,
+        98
+      ],
+      "text": "钢琴的发言与短暂退让交替，木管的细分运动和弦乐步伐随之前移。留意每次进入与退出，前景的归属也在改变。",
+      "start_seconds": 1183.36,
+      "end_seconds": 1196.36,
+      "reading_characters": 50,
+      "characters_per_second": 3.846,
+      "anchor_movement": 3,
+      "anchor_local_number": "124",
+      "anchor_rehearsals": [
+        "77"
+      ],
+      "anchor_pdf_page": 97,
+      "source_text": {
+        "orchestration": "乐队的参与更充分，钢琴的和弦性瀑流与合奏相互叠加。低音铜管、弦乐和打击乐的重量，已经远超中央段的轻声歌唱。",
+        "voices": "钢琴不再只是装饰乐队的行进，乐队也不只是支撑钢琴。两种大块运动同时争取注意力，形成拥挤、互相挤压的听觉空间。"
+      },
+      "source_locator": "定位：X第三乐章116–141小节，R75–R80，重排谱物理95–102页；M印刷107页。",
+      "human_signoff": null,
+      "scope": "Selected score images, XML directions and existing analysis; not independently heard performance timing."
+    },
+    {
+      "id": "prok2-gap09-form",
+      "gap_rank": 9,
+      "column": "曲式与主题发展",
+      "title": "扩大后的返回",
+      "start_sequence": 521,
+      "last_sequence": 527,
+      "source_section": "prokofiev2-3-07",
+      "source_fields": [
+        "form",
+        "voices"
+      ],
+      "anchor_reason": "R79以后继续扩大的返回，钢琴和弦与乐队步伐并置见原谱100页。怪诞读法归于Marzec。",
+      "score_pages_checked": [
+        100
+      ],
+      "text": "Marzec把层次的夸张与不相容联系到怪诞。此处可以从具体声音理解这种读法：钢琴的密集发言与乐队步伐并置，返回也有了拥挤的尺度。",
+      "start_seconds": 1206.66,
+      "end_seconds": 1222.01,
+      "reading_characters": 64,
+      "characters_per_second": 4.169,
+      "anchor_movement": 3,
+      "anchor_local_number": "134",
+      "anchor_rehearsals": [
+        "79"
+      ],
+      "anchor_pdf_page": 100,
+      "source_text": {
+        "form": "开头的材料以扩大后的力量回返，构成全章后半的高点。Marzec把这种夸张与不相容的层次结合视为“怪诞”的核心；它首先有可听的织体依据。",
+        "voices": "钢琴不再只是装饰乐队的行进，乐队也不只是支撑钢琴。两种大块运动同时争取注意力，形成拥挤、互相挤压的听觉空间。"
+      },
+      "source_locator": "定位：X第三乐章116–141小节，R75–R80，重排谱物理95–102页；M印刷107页。",
+      "human_signoff": null,
+      "scope": "Selected score images, XML directions and existing analysis; not independently heard performance timing."
+    },
+    {
+      "id": "prok2-gap10-voices",
+      "gap_rank": 10,
+      "column": "声部关系与复调",
+      "title": "流动表面与较慢步伐",
+      "start_sequence": 435,
+      "last_sequence": 440,
+      "source_section": "prokofiev2-3-03",
+      "source_fields": [
+        "voices",
+        "orchestration"
+      ],
+      "anchor_reason": "R62到R63附近钢琴流动线条与较慢支撑并置，原谱79页可见后续。",
+      "score_pages_checked": [
+        79
+      ],
+      "text": "钢琴的流动音型让表面更加灵活，弦乐与低层仍保留较慢的步伐。跟住这两种尺度，能听见敏捷与重量怎样同时存在。",
+      "start_seconds": 1000.64,
+      "end_seconds": 1014.04,
+      "reading_characters": 52,
+      "characters_per_second": 3.881,
+      "anchor_movement": 3,
+      "anchor_local_number": "48",
+      "anchor_rehearsals": [
+        "62"
+      ],
+      "anchor_pdf_page": 78,
+      "source_text": {
+        "voices": "上层动作的敏捷与低层节奏的固执形成两种尺度。反复有时增强方向，有时把材料锁在同一位置；两种效果应通过低音是否真正移动来区分。",
+        "orchestration": "钢琴在扫动、断奏与和弦之间改变发音，乐队保留较短的行进单元。细分的三连运动带来更流动的表面，低处仍可以保持分量。"
+      },
+      "source_locator": "定位：X第三乐章39–61小节，R61–R64，重排谱物理77–80页；M印刷99–102页。文献的12/8话题与本地XML的4/4记谱、三连细分分别保留。",
+      "human_signoff": null,
+      "scope": "Selected score images, XML directions and existing analysis; not independently heard performance timing."
+    },
+    {
+      "id": "prok2-gap10-form",
+      "gap_rank": 10,
+      "column": "曲式与主题发展",
+      "title": "重复怎样改变方向感",
+      "start_sequence": 443,
+      "last_sequence": 447,
+      "source_section": "prokofiev2-3-03",
+      "source_fields": [
+        "form",
+        "listening"
+      ],
+      "anchor_reason": "R64反复单元继续与三连细分相结合，原谱79页下部；以听觉比较提示而非新增终止判定。",
+      "score_pages_checked": [
+        79
+      ],
+      "text": "反复的单元继续牵引音乐。听较慢的线条是否换了落点，就能体会重复怎样同时制造推进与盘旋的感觉。",
+      "start_seconds": 1020.35,
+      "end_seconds": 1032.19,
+      "reading_characters": 46,
+      "characters_per_second": 3.885,
+      "anchor_movement": 3,
+      "anchor_local_number": "56",
+      "anchor_rehearsals": [
+        "64"
+      ],
+      "anchor_pdf_page": 79,
+      "source_text": {
+        "form": "这一组变形把开头的步伐扩成更长的活动范围。Marzec将三连律动联系到骑行话题；在聆听层面，首先可把握的是步点与复合细分怎样相互牵引。",
+        "listening": "当音符突然变得更流动时，继续跟住较慢的低音，辨别音乐是在换路还是仍绕着同一位置转。"
+      },
+      "source_locator": "定位：X第三乐章39–61小节，R61–R64，重排谱物理77–80页；M印刷99–102页。文献的12/8话题与本地XML的4/4记谱、三连细分分别保留。",
+      "human_signoff": null,
+      "scope": "Selected score images, XML directions and existing analysis; not independently heard performance timing."
+    }
+  ],
+  "sources": [
+    {
+      "path": "works/prokofiev-piano-concerto-2/alignment.json",
+      "sha256": "b1c9e14047bffec41f5960121c6cfdd8de8c484d608ecf794bb9f2e001d3ff33"
+    },
+    {
+      "path": "works/prokofiev-piano-concerto-2/analysis/sections.json",
+      "sha256": "deaaf251ca66d6dde4f7eba432244eb8a3257edbd45812485abf1fd194fbd4ab"
+    },
+    {
+      "path": "works/prokofiev-piano-concerto-2/analysis/material-relations.json",
+      "sha256": "9773726939143b6a358288571e4f4c5b1c94e5daed8a6584a01c60dc6b5dcac2"
+    },
+    {
+      "path": "works/prokofiev-piano-concerto-2/analysis/sources.json",
+      "sha256": "a52d4f5939a784c4af12dac8302fcfe78fcce3a06e1246d9aa6c29509a4faafa"
+    },
+    {
+      "path": "resource/PROKOFIEV PIANO CONCERTO 2/piano-concerto-no2-op16-s-prokofiev.mxl",
+      "sha256": "6a9893ed48c7d57bf336adb02751e86ccfdf595200ab008daef493e6468ebc8f"
+    },
+    {
+      "path": "resource/PROKOFIEV PIANO CONCERTO 2/IMSLP66128-PMLP04521-Prokofiev_-_Piano_Concerto_No._2,_Op._16_(orch._score).pdf",
+      "sha256": "ab89aa71fc4e29d9305b43302e9013d0b8715d7bdfa2ab826f83ada3533dc26a"
+    }
+  ],
+  "validation": [
+    "Original caption rows preserved exactly",
+    "Added starts taken from existing XML measure recording times",
+    "All ten gaps filled inside music; movement pauses and tail silence protected",
+    "Actual ASS display intervals and same-slot non-overlap checked",
+    "Earlier visible text coverage retained",
+    "Full paragraphs fit interpretation rectangle; wrapped widths checked",
+    "All 12 interpretation intervals restore current PDF page after hiding",
+    "All three inter-movement pauses remain entirely free of analysis text",
+    "Unchanged 200 original caption rows rechecked against backup"
+  ],
+  "video_generated": false,
+  "human_signoff": null,
+  "expert_signoff": null,
+  "document_sha256": "01cbb502844091777b558abd04200ea24889f26ec13d92f0114f362e33fcf0b7",
+  "revision": "output/video-export/prokofiev2-full-001/edits-006",
+  "backup": "local/video-export/backups/prokofiev2-gaps-20261027-201355",
+  "existing_user_movies_preserved": {
+    "edits-003\\导聆视频-含章节.mp4": 796811200,
+    "edits-003\\导聆视频.mp4": 796810260,
+    "edits-005\\导聆视频-含章节.mp4": 871547555,
+    "edits-005\\导聆视频.mp4": 871546615
+  },
+  "score_restores": [
+    {
+      "id": "prokofiev2-1-02-interpretation",
+      "restored_at": 91.4000001,
+      "page": 3
+    },
+    {
+      "id": "prokofiev2-1-09-interpretation",
+      "restored_at": 418.6730001,
+      "page": 23
+    },
+    {
+      "id": "prok2-gap03-interpretation",
+      "restored_at": 475.42700010000004,
+      "page": 24
+    },
+    {
+      "id": "prokofiev2-1-10-interpretation",
+      "restored_at": 538.3450001,
+      "page": 26
+    },
+    {
+      "id": "prokofiev2-1-12-interpretation",
+      "restored_at": 673.2810000999999,
+      "page": 36
+    },
+    {
+      "id": "prokofiev2-2-04-interpretation",
+      "restored_at": 816.6600000999999,
+      "page": 58
+    },
+    {
+      "id": "prokofiev2-3-02-interpretation",
+      "restored_at": 976.6800000999999,
+      "page": 77
+    },
+    {
+      "id": "prokofiev2-4-04-interpretation",
+      "restored_at": 1485.1310001000002,
+      "page": 126
+    },
+    {
+      "id": "prokofiev2-4-05-interpretation",
+      "restored_at": 1563.4780001000001,
+      "page": 130
+    },
+    {
+      "id": "prok2-gap01-interpretation",
+      "restored_at": 1692.2850001000002,
+      "page": 140
+    },
+    {
+      "id": "prok2-gap02-interpretation",
+      "restored_at": 1809.2420001,
+      "page": 149
+    },
+    {
+      "id": "prokofiev2-4-11-interpretation",
+      "restored_at": 1944.1700001000002,
+      "page": 168
+    }
+  ],
+  "largest_targeted_music_blank_seconds": 18.97,
+  "all_targeted_music_text_densities_within_soft_target": true
+}

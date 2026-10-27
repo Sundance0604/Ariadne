@@ -1,0 +1,9 @@
+{
+  "revision": "output/video-export/prokofiev2-full-001/edits-006",
+  "document": "works/prokofiev-piano-concerto-2/video-export/captions-editable.json",
+  "ass": "output/video-export/prokofiev2-full-001/edits-006/analysis.ass",
+  "score_plan": "output/video-export/prokofiev2-full-001/edits-006/score-plan.json",
+  "caption_count": 218,
+  "video_encoded": false,
+  "instructions": "关闭旧字幕编辑窗口后重新打开普二完整版，再由用户自行生成。"
+}

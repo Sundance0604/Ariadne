@@ -1,0 +1,13 @@
+{
+  "video_sha256": "f2f8b76044249c9c25d00ab917b52188fa5f34e93bef951f00ee75bc333b976c",
+  "method": "agent review of independent DTW locators, original-MIDI first-movement check, 50-ms waveform energy and video transition frames",
+  "movements": [
+    {"movement":1,"start":43.2,"end":705.6,"basis":"Original MIDI open-end match 44.4–701.0; initial written rest and soft onset retained; final music decays by 705–706 seconds; failed XML locator retained separately.","edge_uncertainty_seconds":2.0},
+    {"movement":2,"start":726.4,"end":859.6,"basis":"Independent whole-movement and prefix/suffix matches; strong onset at 726.5; final attack/decay before 860.","edge_uncertainty_seconds":0.8},
+    {"movement":3,"start":875.8,"end":1266.6,"basis":"Whole-movement locator retained over a repeated-march prefix ambiguity; energy onset near 876; final soft decay before 1267.","edge_uncertainty_seconds":1.0},
+    {"movement":4,"start":1286.6,"end":1944.2,"basis":"Independent whole/prefix match near 1286.8, first strong attack 1287.25; end extended through final chord before applause grows around 1945.","edge_uncertainty_seconds":1.5}
+  ],
+  "review_status": "agent_boundary_estimates_for_user_listening_review",
+  "human_signoff": null,
+  "expert_review": null
+}

@@ -1,0 +1,28 @@
+# Optional successor-model experiment. Linux x86_64 / Python 3.12 / CPU.
+# Install separately from both the player and the original ChordGNN environment.
+--extra-index-url https://download.pytorch.org/whl/cpu
+--find-links https://data.pyg.org/whl/torch-2.5.0+cpu.html
+torch==2.5.1+cpu
+torch-scatter==2.1.2+pt25cpu
+torch-sparse==0.6.18+pt25cpu
+pyg-lib==0.4.0+pt25cpu
+torch-cluster==1.6.3+pt25cpu
+torch-geometric==2.6.1
+# The PyPI 0.0.5 Python interface is too old for the default checkpoint.
+# A normal source build needs a C compiler; see the experiment report for the
+# tested fallback that reuses the same release's compiled sampler extension.
+graphmuse @ git+https://github.com/manoskary/graphmuse.git@acd464f0cf11c65bda38f0d32a31e078f7941d78
+pytorch-lightning==2.5.0.post0
+torchmetrics==1.6.1
+numpy==1.26.4
+scipy==1.14.1
+pandas==2.2.3
+partitura==1.9.0
+music21==9.9.2
+scikit-learn==1.5.2
+imbalanced-learn==0.13.0
+wandb==0.19.11
+rotograd==0.1.6.0
+geotorch==0.3.0
+seaborn==0.13.2
+GitPython>=3.1.27,<4

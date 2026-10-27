@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-27",
+  "sources": [
+    {
+      "id": "S",
+      "kind": "score",
+      "author": "Sergei Prokofiev",
+      "title": "Piano Concerto No. 2, Op.16, orchestral score",
+      "path": "resource/PROKOFIEV PIANO CONCERTO 2/IMSLP66128-PMLP04521-Prokofiev_-_Piano_Concerto_No._2,_Op._16_(orch._score).pdf",
+      "sha256": "ab89aa71fc4e29d9305b43302e9013d0b8715d7bdfa2ab826f83ada3533dc26a",
+      "bytes": 15019165,
+      "physical_pages": 168,
+      "printed_page_range": [
+        99,
+        266
+      ],
+      "read_scope": "Selected page images; chapter boundaries cross-checked against prior source audit.",
+      "examined_physical_pages_this_round": [
+        1,
+        38,
+        48,
+        50,
+        54,
+        70,
+        81,
+        82,
+        85,
+        88,
+        109,
+        125,
+        139,
+        140,
+        143,
+        153,
+        167,
+        168
+      ],
+      "not_claimed": "Complete all-note proofreading or independent verification of every paragraph location."
+    },
+    {
+      "id": "X",
+      "kind": "symbolic_source",
+      "author": "Sergei Prokofiev; transcription provenance unverified",
+      "path": "resource/PROKOFIEV PIANO CONCERTO 2/piano-concerto-no2-op16-s-prokofiev.mxl",
+      "sha256": "6a9893ed48c7d57bf336adb02751e86ccfdf595200ab008daef493e6468ebc8f",
+      "bytes": 1137375,
+      "reading": "Complete structural/event inventory; selected local pitch/timing studies; not full all-note score proofreading.",
+      "measures": 864,
+      "large_timing_issues": [
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "layout_pdf": {
+        "path": "resource/PROKOFIEV PIANO CONCERTO 2/piano-concerto-no2-op16-s-prokofiev.pdf",
+        "sha256": "97ed54cd305cee8974083ee15aa2fa1d3745142b2f8d040fbfd34ec9e8a4e596",
+        "bytes": 2945098
+      },
+      "cautions": [
+        "P14 Ossia and hidden pitched events excluded from principal sonorities.",
+        "The X1 continuation is not an extra printed numbered bar.",
+        "XML layout pages are not independent original-PDF note geometry."
+      ]
+    },
+    {
+      "id": "M",
+      "kind": "dissertation",
+      "author": "Katarzyna Marzec",
+      "year": 2013,
+      "title": "Prokofiev’s Second Piano Concerto: Its Genesis, Form, and Narrative Structure",
+      "institution": "Temple University",
+      "degree": "DMA",
+      "path": "resource/PROKOFIEV PIANO CONCERTO 2/research/Prokofiev’s Second Piano Concerto Its Genesis, Form, and Narrative Structure.pdf",
+      "sha256": "1086aca27e800b72a1adc836fff20d5025937f1f2b28862d9c8d3719d5392364",
+      "bytes": 10584111,
+      "physical_pages": 149,
+      "url": "https://digital.library.temple.edu/digital/collection/p245801coll10/id/238190",
+      "read_scope": "Selected front matter, analytical chapters 5–9, and historical passages; not the entire dissertation.",
+      "text_read_physical_page_ranges": [
+        [
+          1,
+          9
+        ],
+        [
+          37,
+          40
+        ],
+        [
+          49,
+          53
+        ],
+        [
+          70,
+          133
+        ]
+      ],
+      "partial_text_page": 54,
+      "music_examples_visually_examined": [
+        96,
+        129
+      ],
+      "analytical_chapter_page_map": {
+        "I": {
+          "printed": [
+            61,
+            74
+          ],
+          "physical": [
+            71,
+            84
+          ]
+        },
+        "II": {
+          "printed": [
+            75,
+            89
+          ],
+          "physical": [
+            85,
+            99
+          ]
+        },
+        "III": {
+          "printed": [
+            90,
+            107
+          ],
+          "physical": [
+            100,
+            117
+          ]
+        },
+        "IV": {
+          "printed": [
+            108,
+            120
+          ],
+          "physical": [
+            118,
+            130
+          ]
+        }
+      },
+      "uses": [
+        "Four-movement form and thematic interpretation",
+        "Topic and narrative readings with attribution",
+        "Historical cautions concerning dedication and revision"
+      ],
+      "cautions": [
+        "Her theoretical readings and cultural associations are not composer-supplied programmatic facts.",
+        "Her 66-bar cadenza count differs from the 68 XML elements between R20 and R21; actual orchestral exit is separately checked.",
+        "Printed pages and physical pages differ by 10 in the analytical chapters.",
+        "Avoid attributing every contrapuntal detail to the 1923 revision without the lost version."
+      ]
+    },
+    {
+      "id": "R",
+      "kind": "journal_article",
+      "author": "Deborah Rifkin",
+      "year": 2004,
+      "title": "A Theory of Motives for Prokofiev’s Music",
+      "journal": "Music Theory Spectrum",
+      "volume": 26,
+      "issue": 2,
+      "printed_pages": [
+        265,
+        289
+      ],
+      "doi": "10.1525/mts.2004.26.2.265",
+      "url": "https://doi.org/10.1525/mts.2004.26.2.265",
+      "path": "resource/PROKOFIEV PIANO CONCERTO 2/research/A_Theory_of_Motives_for_Prokof.pdf",
+      "sha256": "69a31a383725a7a84b2c637f1d5145ad068835e0a89d0815cbb83b2e59fa8659",
+      "bytes": 352922,
+      "physical_pages": 27,
+      "read_scope": "Selected method definitions, examples and conclusion; not every example graph or full article verified.",
+      "selected_text_physical_page_ranges": [
+        [
+          1,
+          4
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          23,
+          25
+        ]
+      ],
+      "partial_text_pages": [
+        5
+      ],
+      "uses": [
+        "Distinguish harmonic function from ordered pitch-class association",
+        "Keep surface prominence and structural importance separate"
+      ],
+      "cautions": [
+        "Her Second Violin Concerto example is not this Second Piano Concerto.",
+        "No automatic assignment of all concerto motives to her three categories."
+      ]
+    },
+    {
+      "id": "H",
+      "kind": "computed_score_evidence",
+      "title": "22 local written-time windows",
+      "path": "works/prokofiev-piano-concerto-2/analysis/score-studies.json",
+      "method": "Existing backend.musicxml_analysis.analyze.chord_description unchanged; no GNN.",
+      "cautions": [
+        "No calibrated accuracy claim, inferred audio time, or automatic full-score functional harmony."
+      ]
+    },
+    {
+      "id": "B",
+      "kind": "publisher_catalogue",
+      "author": "Boosey & Hawkes",
+      "title": "Piano Concerto No.2 in G minor, op.16",
+      "url": "https://www.boosey.com/cr/music/Serge-Prokofieff-Piano-Concerto-No-2-in-G-minor/2194",
+      "accessed": "2026-10-27",
+      "read_scope": "Publisher title, opus and composition/revision years",
+      "uses": [
+        "1913, revised 1923"
+      ],
+      "cautions": [
+        "Not used for specific notes or harmonic/function judgements."
+      ]
+    },
+    {
+      "id": "G",
+      "kind": "journal_article",
+      "author": "Hanna Horobets / Ганна Горобець",
+      "year": 2019,
+      "title": "Piano concerto №2 by Sergey Prokofiev: multiple images and meanings in its music",
+      "journal": "Київське музикознавство / Kyiv Musicology",
+      "volume": 59,
+      "printed_pages": [
+        112,
+        128
+      ],
+      "doi": "10.33643/kmus.2019.59.09",
+      "url": "https://kyivmusicology.com/index.php/journal/article/view/101",
+      "pdf_url": "https://kyivmusicology.com/index.php/journal/article/download/101/91",
+      "accessed": "2026-10-27",
+      "read_scope": "Selected full-text web PDF passages, not abstract-only and not a full verification of every reference or example.",
+      "text_read_printed_page_ranges": [
+        [
+          115,
+          126
+        ]
+      ],
+      "text_read_physical_page_ranges": [
+        [
+          4,
+          15
+        ]
+      ],
+      "performance_analysis_printed_pages": [
+        119,
+        125
+      ],
+      "local_pdf": null,
+      "download_status": "Direct download failed at website browser challenge; selected full text read through web PDF access.",
+      "recording_discussed": {
+        "id": "horobets-wang-jarvi-berlin-reference",
+        "soloist": "Yuja Wang",
+        "conductor": "Paavo Järvi",
+        "orchestra": "Berliner Philharmoniker",
+        "paper_reported_year": 2017,
+        "source_printed_page": 115,
+        "youtube_url": "https://www.youtube.com/watch?v=vB6Hz-VQSKw",
+        "exact_youtube_to_official_archive_equivalence_verified": false
+      },
+      "uses": [
+        "Attributed performer interpretation of the user-selected Wang/Järvi/Berlin reference",
+        "Score-based explanation of interpretative consequences; no independent auditory review claimed"
+      ],
+      "cautions": [
+        "This article is by Horobets, not by Yuja Wang.",
+        "User has selected this cited performance as the new target; the incoming local file has not been inspected. Previous Bringuier/Tonhalle media remains a separate version.",
+        "The paper footnote says 2017; official artist/orchestra pages document a relevant Wang/Järvi concerto in May 2015. Preserve the discrepancy; exact clip equivalence not verified.",
+        "Dies irae and narrative associations remain the author’s interpretative proposals, not certified literal quotations or composer-supplied programme.",
+        "No particular pedalling, touch, local tempo or balance claimed for the user video without auditory review."
+      ]
+    },
+    {
+      "id": "VB",
+      "kind": "official_performance_catalogue",
+      "author": "Berliner Philharmoniker / Yuja Wang",
+      "url": "https://www.digitalconcerthall.com/en/concert/20432",
+      "artist_url": "https://yujawang.com/yuja-wang-debuts-with-berliner-philharmoniker/",
+      "accessed": "2026-10-27",
+      "read_scope": "Concert personnel, work and May 2015 debut dates only; not a hearing of the performance.",
+      "uses": [
+        "Flag the year discrepancy in G; keep the official event distinct from both the cited YouTube clip and local video."
+      ]
+    },
+    {
+      "id": "V",
+      "kind": "local_media_identity",
+      "title": "王羽佳／布兰吉耶／苏黎世音乐厅管弦乐团，本地视频",
+      "path": "resource/PROKOFIEV PIANO CONCERTO 2/Yuja Wang - Prokofiev： Piano concerto no.2 op.16 [yr1pFv5QzPc] (1920x1080).mp4",
+      "sha256": "6e3fc5270dc822d4b8a240d26110cffde11ba45a08947f5b4cc02d468f211613",
+      "bytes": 570994715,
+      "duration_seconds": 1925.584399,
+      "local_only": true,
+      "publish_video": false,
+      "metadata": "works/prokofiev-piano-concerto-2/metadata/recording-bringuier-tonhalle.json",
+      "source_url": "https://www.youtube.com/watch?v=yr1pFv5QzPc",
+      "read_scope": "User soloist identification; embedded metadata and opening frames; no auditory review.",
+      "cautions": [
+        "Conductor, orchestra, city and year reported by embedded description; exact concert date not independently verified.",
+        "MP4 artist is uploader Epinerf, not soloist credit; embedded date is not treated as concert date.",
+        "Chapter metadata is malformed and not used for score synchronization."
+      ],
+      "role": "previous_local_performance; not current analysis target"
+    },
+    {
+      "id": "VT",
+      "kind": "selected_performance_reference",
+      "title": "王羽佳／帕沃·雅尔维／柏林爱乐，当前诠释目标版本",
+      "url": "https://www.youtube.com/watch?v=vB6Hz-VQSKw",
+      "metadata": "works/prokofiev-piano-concerto-2/metadata/recording.json",
+      "selection_basis": "User selected the literature-cited version; download in progress.",
+      "local_media": {
+        "path": "resource/PROKOFIEV PIANO CONCERTO 2/[普二钢协 王羽佳 小雅尔维 ]Yuja Wang Prokofiev Piano Concerto No  2  Paavo Järvi [BV1j741177rT] 720p.mp4",
+        "sha256": "f2f8b76044249c9c25d00ab917b52188fa5f34e93bef951f00ee75bc333b976c",
+        "bytes": 234894922,
+        "method": "ffmpeg_diagnostic_fallback",
+        "duration_seconds": 2399.64,
+        "streams": [
+          {
+            "codec_type": "video",
+            "codec_name": "h264",
+            "description": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720 [SAR 1:1 DAR 16:9], 647 kb/s, 30 fps, 30 tbr, 16k tbn (default)"
+          },
+          {
+            "codec_type": "audio",
+            "codec_name": "aac",
+            "description": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 125 kb/s (default)"
+          }
+        ],
+        "diagnostic": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'D:\\mycodelife\\workshop\\AI\\classicMusic\\resource\\PROKOFIEV PIANO CONCERTO 2\\[普二钢协 王羽佳 小雅尔维 ]Yuja Wang Prokofiev Piano Concerto No  2  Paavo Järvi [BV1j741177rT] 720p.mp4':\r\n  Metadata:\r\n    major_brand     : isom\r\n    minor_version   : 512\r\n    compatible_brands: isomiso2avc1mp41\r\n    title           : [普二钢协 王羽佳 小雅尔维 ]Yuja Wang Prokofiev Piano Concerto No  2  Paavo Järvi\r\n    artist          : xszgreat\r\n    date            : 20200218\r\n    encoder         : Lavf63.17.100\r\n    comment         : https://www.bilibili.com/video/BV1j741177rT/\r\n    genre           : 发现《Piano Concerto No. 2 in G Minor, Op. 16 - I. Andantino - Allegretto》, 古典音乐, 普罗科菲耶夫, 音乐现场, 现场, 欧美现场\r\n    description     : https://www.youtube.com/watch?v=Il95HXvCdH4&amp;t=714s\r\n    synopsis        : https://www.youtube.com/watch?v=Il95HXvCdH4&amp;t=714s\r\n  Duration: 00:39:59.64, start: 0.000000, bitrate: 783 kb/s\r\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720 [SAR 1:1 DAR 16:9], 647 kb/s, 30 fps, 30 tbr, 16k tbn (default)\r\n      Metadata:\r\n        handler_name    : VideoHandler\r\n        vendor_id       : [0][0][0][0]\r\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 125 kb/s (default)\r\n      Metadata:\r\n        handler_name    : SoundHandler\r\n        vendor_id       : [0][0][0][0]\r\nAt least one output file must be specified\r\n",
+        "warning": "ffprobe 未安装；当前轨道信息来自 FFmpeg，精细的轨道时间轴待 ffprobe 复核。"
+      },
+      "local_file_verified": true,
+      "auditory_review": "not_performed",
+      "cautions": [
+        "No file path, hash, duration or recording projection assigned before the incoming file is inspected."
+      ],
+      "identity_verification_scope": "actual file fingerprint, embedded title, opening Berlin venue text; paper upload/year equivalence remains unverified"
+    }
+  ],
+  "earlier_research_catalogue": "reports/prokofiev2-sources-and-research-20261027.md",
+  "policy": "Selected passages read are distinguished from full-text possession; interpretation is attributed.",
+  "human_signoff": null,
+  "expert_review": null
+}

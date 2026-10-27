@@ -1,0 +1,543 @@
+{
+  "source": {
+    "path": "resource/PROKOFIEV PIANO CONCERTO 2/piano-concerto-no2-op16-s-prokofiev.mxl",
+    "sha256": "6a9893ed48c7d57bf336adb02751e86ccfdf595200ab008daef493e6468ebc8f",
+    "bytes": 1137375
+  },
+  "events": 45557,
+  "pitched": 45313,
+  "unpitched": 244,
+  "activation_frames": 11541,
+  "chord_cache_entries": 8052,
+  "tied_segments_joined": 342,
+  "quarantine": {
+    "piano_part": "P15",
+    "sequences": [
+      6,
+      7,
+      8,
+      10,
+      11,
+      12
+    ]
+  },
+  "clipped_reference_ends": [
+    {
+      "event_id": "P15-xml-m0057-n0031",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0058-n0029",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0059-n0029",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0060-n0029",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0061-n0029",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0062-n0029",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0064-n0032",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0065-n0029",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0066-n0029",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0088-n0019",
+      "encoded_end_q": "641/160",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0088-n0028",
+      "encoded_end_q": "641/160",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0092-n0018",
+      "encoded_end_q": "641/160",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0092-n0027",
+      "encoded_end_q": "641/160",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0094-n0018",
+      "encoded_end_q": "641/160",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0094-n0027",
+      "encoded_end_q": "641/160",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0095-n0020",
+      "encoded_end_q": "961/160",
+      "auxiliary_end_q": "6"
+    },
+    {
+      "event_id": "P15-xml-m0150-n0031",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0150-n0040",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0150-n0041",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0150-n0042",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0150-n0043",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0151-n0027",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0151-n0039",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0151-n0040",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0151-n0041",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0151-n0042",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0152-n0033",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0152-n0051",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0153-n0038",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0153-n0039",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0179-n0055",
+      "encoded_end_q": "289/48",
+      "auxiliary_end_q": "6"
+    },
+    {
+      "event_id": "P15-xml-m0179-n0056",
+      "encoded_end_q": "289/48",
+      "auxiliary_end_q": "6"
+    },
+    {
+      "event_id": "P15-xml-m0179-n0057",
+      "encoded_end_q": "289/48",
+      "auxiliary_end_q": "6"
+    },
+    {
+      "event_id": "P15-xml-m0179-n0103",
+      "encoded_end_q": "289/48",
+      "auxiliary_end_q": "6"
+    },
+    {
+      "event_id": "P15-xml-m0179-n0104",
+      "encoded_end_q": "289/48",
+      "auxiliary_end_q": "6"
+    },
+    {
+      "event_id": "P15-xml-m0179-n0105",
+      "encoded_end_q": "289/48",
+      "auxiliary_end_q": "6"
+    },
+    {
+      "event_id": "P15-xml-m0412-n0022",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0413-n0022",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0413-n0023",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0413-n0035",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0413-n0036",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0414-n0026",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0416-n0022",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0417-n0022",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0417-n0023",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0417-n0035",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0417-n0036",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0418-n0026",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0449-n0022",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0450-n0022",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0450-n0023",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0450-n0035",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0450-n0036",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0451-n0026",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0473-n0020",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0473-n0033",
+      "encoded_end_q": "385/96",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0474-n0020",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0474-n0033",
+      "encoded_end_q": "385/96",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0475-n0020",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0475-n0033",
+      "encoded_end_q": "385/96",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0482-n0020",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0482-n0033",
+      "encoded_end_q": "385/96",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0483-n0020",
+      "encoded_end_q": "481/120",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0483-n0033",
+      "encoded_end_q": "385/96",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0485-n0031",
+      "encoded_end_q": "1921/480",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0517-n0013",
+      "encoded_end_q": "641/160",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0517-n0026",
+      "encoded_end_q": "321/80",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0518-n0015",
+      "encoded_end_q": "641/160",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0518-n0030",
+      "encoded_end_q": "321/80",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0519-n0015",
+      "encoded_end_q": "641/160",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0519-n0016",
+      "encoded_end_q": "641/160",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0519-n0031",
+      "encoded_end_q": "321/80",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0519-n0032",
+      "encoded_end_q": "321/80",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0861-n0016",
+      "encoded_end_q": "641/160",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0861-n0017",
+      "encoded_end_q": "641/160",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0862-n0011",
+      "encoded_end_q": "641/160",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0862-n0015",
+      "encoded_end_q": "641/160",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P15-xml-m0863-n0017",
+      "encoded_end_q": "641/160",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P16-xml-m0007-n0005",
+      "encoded_end_q": "9/2",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P16-xml-m0007-n0010",
+      "encoded_end_q": "9/2",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P16-xml-m0008-n0002",
+      "encoded_end_q": "9/2",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P16-xml-m0008-n0004",
+      "encoded_end_q": "9/2",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P16-xml-m0011-n0005",
+      "encoded_end_q": "9/2",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P16-xml-m0011-n0010",
+      "encoded_end_q": "9/2",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P16-xml-m0012-n0005",
+      "encoded_end_q": "9/2",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P16-xml-m0012-n0011",
+      "encoded_end_q": "25/6",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P17-xml-m0007-n0005",
+      "encoded_end_q": "9/2",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P17-xml-m0007-n0011",
+      "encoded_end_q": "9/2",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P17-xml-m0008-n0004",
+      "encoded_end_q": "9/2",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P17-xml-m0011-n0005",
+      "encoded_end_q": "9/2",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P17-xml-m0011-n0011",
+      "encoded_end_q": "9/2",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P17-xml-m0012-n0003",
+      "encoded_end_q": "9/2",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P17-xml-m0012-n0008",
+      "encoded_end_q": "14/3",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P17-xml-m0012-n0013",
+      "encoded_end_q": "29/6",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P18-xml-m0007-n0005",
+      "encoded_end_q": "9/2",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P18-xml-m0007-n0011",
+      "encoded_end_q": "9/2",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P18-xml-m0008-n0004",
+      "encoded_end_q": "9/2",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P18-xml-m0011-n0005",
+      "encoded_end_q": "9/2",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P18-xml-m0011-n0011",
+      "encoded_end_q": "9/2",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P18-xml-m0012-n0003",
+      "encoded_end_q": "9/2",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P18-xml-m0012-n0008",
+      "encoded_end_q": "25/6",
+      "auxiliary_end_q": "4"
+    },
+    {
+      "event_id": "P18-xml-m0012-n0014",
+      "encoded_end_q": "29/6",
+      "auxiliary_end_q": "4"
+    }
+  ],
+  "unpitched_audit": [],
+  "old_snapshot": {
+    "path": "works/prokofiev-piano-concerto-2/playback/yuja-jarvi-20261027-v1",
+    "manifest_sha256": "6bacd599484139b2d6073d7fbdf9a2062a6d600bd90c27828b11a71a223b774d"
+  },
+  "human_signoff": null,
+  "expert_review": null
+}

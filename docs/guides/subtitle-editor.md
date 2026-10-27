@@ -18,6 +18,8 @@
 
 改变演奏中诠释的时间后，乐谱会按新时间隐藏和恢复；内部位置仍由原有JavaScript同步算法计算。默认使用黄色楷体，用户可调整字幕字体及位置，完整乐谱尺寸和原演奏音频保留。滚动1.5表示比原速快一半，2表示两倍；移动更早结束并停留，不修改字幕起止时间。
 
+正文放得下时保持静止；长文字滚动结束后只保留完整的末尾几行，并留上下空隙，避免停止在半行文字上。标题保持固定。若调整字号或高度后连一整行正文也放不下，生成时会提示增大区域或减小字号。此规则用于新生成的视频，已有MP4需重新生成才会更新。
+
 《鹅妈妈》在同一入口选择对应项目，打开独立的 `works/ravel-mother-goose-video/video-export/captions-optimized.json`，默认滚动1.5倍，另存一部包含七个章节的新视频。要切换项目，保存并关闭编辑窗口后重新打开入口选择。
 
 各项目的文稿位置由 **config/video-export.json** 中的 **editor_projects** 配置。95秒样片保存在 **local/video-export/ravel-sample.json**，拉威尔完整版保存在 **output/video-export/ravel-full-001/captions-editable.json**，鹅妈妈使用上面的独立JSON。重复打开读取已有文稿，不从网页覆盖自己的修改。拉威尔项目还保留 **local/video-export/font-sizes.json** 字号偏好。

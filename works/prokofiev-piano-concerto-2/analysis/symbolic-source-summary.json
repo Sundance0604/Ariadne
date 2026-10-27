@@ -1,0 +1,246 @@
+{
+  "source": {
+    "path": "resource/PROKOFIEV PIANO CONCERTO 2/piano-concerto-no2-op16-s-prokofiev.mxl",
+    "sha256": "6a9893ed48c7d57bf336adb02751e86ccfdf595200ab008daef493e6468ebc8f",
+    "bytes": 1137375
+  },
+  "parts": [
+    {
+      "id": "P1",
+      "name": "2 Flauti"
+    },
+    {
+      "id": "P2",
+      "name": "2 Oboi"
+    },
+    {
+      "id": "P3",
+      "name": "2 Clarinetti"
+    },
+    {
+      "id": "P4",
+      "name": "2 Fagotti"
+    },
+    {
+      "id": "P5",
+      "name": "2 Trombe"
+    },
+    {
+      "id": "P6",
+      "name": "4 Corni"
+    },
+    {
+      "id": "P7",
+      "name": "3 Tromboni"
+    },
+    {
+      "id": "P8",
+      "name": "Tuba"
+    },
+    {
+      "id": "P9",
+      "name": "Timpani"
+    },
+    {
+      "id": "P10",
+      "name": "Tambourino"
+    },
+    {
+      "id": "P11",
+      "name": "Tamburo"
+    },
+    {
+      "id": "P12",
+      "name": "Piatti"
+    },
+    {
+      "id": "P13",
+      "name": "Gran Cassa"
+    },
+    {
+      "id": "P14",
+      "name": "Ossia"
+    },
+    {
+      "id": "P15",
+      "name": "Piano"
+    },
+    {
+      "id": "P16",
+      "name": "Violini I"
+    },
+    {
+      "id": "P17",
+      "name": "Violini II"
+    },
+    {
+      "id": "P18",
+      "name": "Viole"
+    },
+    {
+      "id": "P19",
+      "name": "Violoncelli"
+    },
+    {
+      "id": "P20",
+      "name": "Contrabassi"
+    }
+  ],
+  "pitched_events": 47586,
+  "eligible_non_ossia_events": 45659,
+  "excluded_pitched_events": 1927,
+  "parser_anomalies": [
+    {
+      "kind": "negative_xml_cursor",
+      "part_id": "P14",
+      "sequence": 477,
+      "cursor_q": "-1/160",
+      "cursor_source_units": null
+    },
+    {
+      "kind": "negative_xml_cursor",
+      "part_id": "P14",
+      "sequence": 484,
+      "cursor_q": "-1/160",
+      "cursor_source_units": null
+    },
+    {
+      "kind": "negative_xml_cursor",
+      "part_id": "P15",
+      "sequence": 174,
+      "cursor_q": "-1/480",
+      "cursor_source_units": null
+    },
+    {
+      "kind": "negative_xml_cursor",
+      "part_id": "P15",
+      "sequence": 174,
+      "cursor_q": "-1/480",
+      "cursor_source_units": null
+    },
+    {
+      "kind": "negative_xml_cursor",
+      "part_id": "P15",
+      "sequence": 174,
+      "cursor_q": "-1/480",
+      "cursor_source_units": null
+    },
+    {
+      "kind": "negative_xml_cursor",
+      "part_id": "P15",
+      "sequence": 177,
+      "cursor_q": "-1/120",
+      "cursor_source_units": null
+    },
+    {
+      "kind": "negative_xml_cursor",
+      "part_id": "P15",
+      "sequence": 177,
+      "cursor_q": "-1/120",
+      "cursor_source_units": null
+    },
+    {
+      "kind": "negative_xml_cursor",
+      "part_id": "P15",
+      "sequence": 177,
+      "cursor_q": "-1/120",
+      "cursor_source_units": null
+    },
+    {
+      "kind": "negative_xml_cursor",
+      "part_id": "P15",
+      "sequence": 177,
+      "cursor_q": "-1/120",
+      "cursor_source_units": null
+    },
+    {
+      "kind": "negative_xml_cursor",
+      "part_id": "P15",
+      "sequence": 177,
+      "cursor_q": "-1/120",
+      "cursor_source_units": null
+    },
+    {
+      "kind": "negative_xml_cursor",
+      "part_id": "P15",
+      "sequence": 481,
+      "cursor_q": "-1/160",
+      "cursor_source_units": null
+    },
+    {
+      "kind": "negative_xml_cursor",
+      "part_id": "P15",
+      "sequence": 481,
+      "cursor_q": "-1/160",
+      "cursor_source_units": null
+    }
+  ],
+  "large_timing_quarantine_sequences": [
+    6,
+    7,
+    8,
+    10,
+    11,
+    12
+  ],
+  "small_rounding_review_sequences": [
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    64,
+    65,
+    66,
+    88,
+    92,
+    94,
+    95,
+    150,
+    151,
+    152,
+    153,
+    174,
+    177,
+    179,
+    412,
+    413,
+    414,
+    416,
+    417,
+    418,
+    449,
+    450,
+    451,
+    469,
+    470,
+    471,
+    472,
+    473,
+    474,
+    475,
+    477,
+    478,
+    479,
+    480,
+    481,
+    482,
+    483,
+    484,
+    485,
+    517,
+    518,
+    519,
+    861,
+    862,
+    863
+  ],
+  "existing_audit": {
+    "path": "works/prokofiev-piano-concerto-2/reports/source-audit-20261027.json",
+    "sha256": "64c47fd6941ec2b794ffb14420d8ecca6f49094281e99773f5dbd52d140dfcac",
+    "bytes": 309144
+  },
+  "global_score_time": null,
+  "audio_projection": null
+}

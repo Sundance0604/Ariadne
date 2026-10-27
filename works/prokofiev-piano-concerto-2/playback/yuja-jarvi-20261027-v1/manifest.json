@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "work_id": "prokofiev-piano-concerto-2",
+  "scope": "Web score synchronization and existing analytical prose; no video production",
+  "inputs": [
+    {
+      "path": "works/prokofiev-piano-concerto-2/alignment.json",
+      "sha256": "b1c9e14047bffec41f5960121c6cfdd8de8c484d608ecf794bb9f2e001d3ff33",
+      "bytes": 3807841
+    },
+    {
+      "path": "works/prokofiev-piano-concerto-2/measure-map.json",
+      "sha256": "173271e3b6f088c20040197995746451b62e8c6f3b14d04b7703f97924800aeb",
+      "bytes": 2281675
+    },
+    {
+      "path": "works/prokofiev-piano-concerto-2/media-sync.json",
+      "sha256": "948cf185db16d7927699ceffe1339cf1d284983d117725bff315d944590d3a32",
+      "bytes": 3176
+    },
+    {
+      "path": "works/prokofiev-piano-concerto-2/sync/reference/written.json",
+      "sha256": "ea33c0b7a82e276e143a4f2b8007db5ffb096b86aaff11dd45d93c5cb8dd4543",
+      "bytes": 27463376
+    },
+    {
+      "path": "works/prokofiev-piano-concerto-2/sync/geometry-audit.json",
+      "sha256": "62d59032c1b4cf5232aee14013e040cc33bec6ca747d91bfefea2c8074984702",
+      "bytes": 80451
+    },
+    {
+      "path": "works/prokofiev-piano-concerto-2/sync/boundary-review.json",
+      "sha256": "359331c42d13bb9754127d2bb09b0426a944c9909573e0568295fb76eba40b1b",
+      "bytes": 1270
+    },
+    {
+      "path": "works/prokofiev-piano-concerto-2/analysis/full-analysis.md",
+      "sha256": "0434ae398d8e029a54c5ddf186031917a4c57d9c166509922a5e404f757b5f33",
+      "bytes": 63100
+    },
+    {
+      "path": "works/prokofiev-piano-concerto-2/analysis/sections.json",
+      "sha256": "deaaf251ca66d6dde4f7eba432244eb8a3257edbd45812485abf1fd194fbd4ab",
+      "bytes": 107720
+    },
+    {
+      "path": "works/prokofiev-piano-concerto-2/analysis/sources.json",
+      "sha256": "a52d4f5939a784c4af12dac8302fcfe78fcce3a06e1246d9aa6c29509a4faafa",
+      "bytes": 15452
+    },
+    {
+      "path": "works/prokofiev-piano-concerto-2/metadata/recording.json",
+      "sha256": "6216be8b76dff12de2bd2bfebe0268906402fbdf8488c279c13492c3a66726b0",
+      "bytes": 4853
+    },
+    {
+      "path": "resource/PROKOFIEV PIANO CONCERTO 2/IMSLP66128-PMLP04521-Prokofiev_-_Piano_Concerto_No._2,_Op._16_(orch._score).pdf",
+      "sha256": "ab89aa71fc4e29d9305b43302e9013d0b8715d7bdfa2ab826f83ada3533dc26a",
+      "bytes": 15019165
+    },
+    {
+      "path": "resource/PROKOFIEV PIANO CONCERTO 2/piano-concerto-no2-op16-s-prokofiev.mxl",
+      "sha256": "6a9893ed48c7d57bf336adb02751e86ccfdf595200ab008daef493e6468ebc8f",
+      "bytes": 1137375
+    },
+    {
+      "path": "scripts/prokofiev2_sync.py",
+      "sha256": "a99fefe15d1c15b6f527928548414aa58d6da8a895c14a2e73548b9182da5923",
+      "bytes": 30059
+    },
+    {
+      "path": "scripts/build_prokofiev2_playback.py",
+      "sha256": "47d51be2c98fdc2f6bba5461f15123f4b1c77590f01d2d4830c331429dfe12fa",
+      "bytes": 22764
+    },
+    {
+      "path": "resource/PROKOFIEV PIANO CONCERTO 2/[普二钢协 王羽佳 小雅尔维 ]Yuja Wang Prokofiev Piano Concerto No  2  Paavo Järvi [BV1j741177rT] 720p.mp4",
+      "sha256": "f2f8b76044249c9c25d00ab917b52188fa5f34e93bef951f00ee75bc333b976c",
+      "bytes": 234894922
+    }
+  ],
+  "files": {
+    "analysis.json": {
+      "sha256": "9d83fbe6bad330caf130e8ee6ae6a7ebe1a53e41a1ab3a652e5a0610a0bc0667",
+      "bytes": 202921
+    },
+    "research.json": {
+      "sha256": "dd6aabb36ac4a3f024217228e034bb962f3d16541ad6510860d591c45aa63b4f",
+      "bytes": 534913
+    }
+  },
+  "human_signoff": null,
+  "expert_review": null
+}

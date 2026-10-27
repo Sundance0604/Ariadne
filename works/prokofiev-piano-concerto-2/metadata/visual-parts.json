@@ -1,0 +1,33 @@
+{
+  "work_id": "prokofiev-piano-concerto-2",
+  "xml_sha256": "6a9893ed48c7d57bf336adb02751e86ccfdf595200ab008daef493e6468ebc8f",
+  "scope": "One module per source part; grouped players are not split without source evidence. Ossia excluded.",
+  "harmony_groups": [
+    {"id":"piano","label":"钢琴","color":"#FFDF42","part_ids":["P15"]},
+    {"id":"strings","label":"弦乐","color":"#F27943","part_ids":["P16","P17","P18","P19","P20"]},
+    {"id":"woodwinds","label":"木管","color":"#77CBB1","part_ids":["P1","P2","P3","P4"]},
+    {"id":"brass","label":"铜管","color":"#F9AC43","part_ids":["P5","P6","P7","P8"]},
+    {"id":"percussion","label":"打击乐","color":"#BBD579","part_ids":["P9","P10","P11","P12","P13"]}
+  ],
+  "parts": [
+    {"id":"P1","name":"2 Flauti","label":"长笛","family":"木管"},
+    {"id":"P2","name":"2 Oboi","label":"双簧管","family":"木管"},
+    {"id":"P3","name":"2 Clarinetti","label":"单簧管","family":"木管"},
+    {"id":"P4","name":"2 Fagotti","label":"巴松","family":"木管"},
+    {"id":"P5","name":"2 Trombe","label":"小号","family":"铜管"},
+    {"id":"P6","name":"4 Corni","label":"圆号","family":"铜管"},
+    {"id":"P7","name":"3 Tromboni","label":"长号","family":"铜管"},
+    {"id":"P8","name":"Tuba","label":"大号","family":"铜管"},
+    {"id":"P9","name":"Timpani","label":"定音鼓","family":"打击乐"},
+    {"id":"P10","name":"Tambourino","label":"铃鼓","family":"打击乐"},
+    {"id":"P11","name":"Tamburo","label":"小鼓","family":"打击乐"},
+    {"id":"P12","name":"Piatti","label":"钹","family":"打击乐"},
+    {"id":"P13","name":"Gran Cassa","label":"大鼓","family":"打击乐"},
+    {"id":"P15","name":"Piano","label":"钢琴","family":"键盘／拨弦","role":"solo"},
+    {"id":"P16","name":"Violini I","label":"第一小提琴","family":"弦乐"},
+    {"id":"P17","name":"Violini II","label":"第二小提琴","family":"弦乐"},
+    {"id":"P18","name":"Viole","label":"中提琴","family":"弦乐"},
+    {"id":"P19","name":"Violoncelli","label":"大提琴","family":"弦乐"},
+    {"id":"P20","name":"Contrabassi","label":"低音提琴","family":"弦乐"}
+  ]
+}

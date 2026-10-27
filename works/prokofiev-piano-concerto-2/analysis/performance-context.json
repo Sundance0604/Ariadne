@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-27",
+  "work_id": "prokofiev-piano-concerto-2",
+  "local_recording_id": "horobets-wang-jarvi-berlin-reference",
+  "literature_recording_id": "horobets-wang-jarvi-berlin-reference",
+  "same_performance": null,
+  "sources": [
+    {
+      "id": "G",
+      "kind": "journal_article",
+      "author": "Hanna Horobets / Ганна Горобець",
+      "year": 2019,
+      "title": "Piano concerto №2 by Sergey Prokofiev: multiple images and meanings in its music",
+      "journal": "Київське музикознавство / Kyiv Musicology",
+      "volume": 59,
+      "printed_pages": [
+        112,
+        128
+      ],
+      "doi": "10.33643/kmus.2019.59.09",
+      "url": "https://kyivmusicology.com/index.php/journal/article/view/101",
+      "pdf_url": "https://kyivmusicology.com/index.php/journal/article/download/101/91",
+      "accessed": "2026-10-27",
+      "read_scope": "Selected full-text web PDF passages, not abstract-only and not a full verification of every reference or example.",
+      "text_read_printed_page_ranges": [
+        [
+          115,
+          126
+        ]
+      ],
+      "text_read_physical_page_ranges": [
+        [
+          4,
+          15
+        ]
+      ],
+      "performance_analysis_printed_pages": [
+        119,
+        125
+      ],
+      "local_pdf": null,
+      "download_status": "Direct download failed at website browser challenge; selected full text read through web PDF access.",
+      "recording_discussed": {
+        "id": "horobets-wang-jarvi-berlin-reference",
+        "soloist": "Yuja Wang",
+        "conductor": "Paavo Järvi",
+        "orchestra": "Berliner Philharmoniker",
+        "paper_reported_year": 2017,
+        "source_printed_page": 115,
+        "youtube_url": "https://www.youtube.com/watch?v=vB6Hz-VQSKw",
+        "exact_youtube_to_official_archive_equivalence_verified": false
+      },
+      "uses": [
+        "Attributed performer interpretation of the user-selected Wang/Järvi/Berlin reference",
+        "Score-based explanation of interpretative consequences; no independent auditory review claimed"
+      ],
+      "cautions": [
+        "This article is by Horobets, not by Yuja Wang.",
+        "User has selected this cited performance as the new target; the incoming local file has not been inspected. Previous Bringuier/Tonhalle media remains a separate version.",
+        "The paper footnote says 2017; official artist/orchestra pages document a relevant Wang/Järvi concerto in May 2015. Preserve the discrepancy; exact clip equivalence not verified.",
+        "Dies irae and narrative associations remain the author’s interpretative proposals, not certified literal quotations or composer-supplied programme.",
+        "No particular pedalling, touch, local tempo or balance claimed for the user video without auditory review."
+      ]
+    },
+    {
+      "id": "VB",
+      "kind": "official_performance_catalogue",
+      "author": "Berliner Philharmoniker / Yuja Wang",
+      "url": "https://www.digitalconcerthall.com/en/concert/20432",
+      "artist_url": "https://yujawang.com/yuja-wang-debuts-with-berliner-philharmoniker/",
+      "accessed": "2026-10-27",
+      "read_scope": "Concert personnel, work and May 2015 debut dates only; not a hearing of the performance.",
+      "uses": [
+        "Flag the year discrepancy in G; keep the official event distinct from both the cited YouTube clip and local video."
+      ]
+    },
+    {
+      "id": "V",
+      "kind": "local_media_identity",
+      "title": "王羽佳／布兰吉耶／苏黎世音乐厅管弦乐团，本地视频",
+      "path": "resource/PROKOFIEV PIANO CONCERTO 2/Yuja Wang - Prokofiev： Piano concerto no.2 op.16 [yr1pFv5QzPc] (1920x1080).mp4",
+      "sha256": "6e3fc5270dc822d4b8a240d26110cffde11ba45a08947f5b4cc02d468f211613",
+      "bytes": 570994715,
+      "duration_seconds": 1925.584399,
+      "local_only": true,
+      "publish_video": false,
+      "metadata": "works/prokofiev-piano-concerto-2/metadata/recording-bringuier-tonhalle.json",
+      "source_url": "https://www.youtube.com/watch?v=yr1pFv5QzPc",
+      "read_scope": "User soloist identification; embedded metadata and opening frames; no auditory review.",
+      "cautions": [
+        "Conductor, orchestra, city and year reported by embedded description; exact concert date not independently verified.",
+        "MP4 artist is uploader Epinerf, not soloist credit; embedded date is not treated as concert date.",
+        "Chapter metadata is malformed and not used for score synchronization."
+      ],
+      "role": "previous_local_performance; not current analysis target"
+    },
+    {
+      "id": "VT",
+      "kind": "selected_performance_reference",
+      "title": "王羽佳／帕沃·雅尔维／柏林爱乐，当前诠释目标版本",
+      "url": "https://www.youtube.com/watch?v=vB6Hz-VQSKw",
+      "metadata": "works/prokofiev-piano-concerto-2/metadata/recording.json",
+      "selection_basis": "User selected the literature-cited version; download in progress.",
+      "local_media": {
+        "path": "resource/PROKOFIEV PIANO CONCERTO 2/[普二钢协 王羽佳 小雅尔维 ]Yuja Wang Prokofiev Piano Concerto No  2  Paavo Järvi [BV1j741177rT] 720p.mp4",
+        "sha256": "f2f8b76044249c9c25d00ab917b52188fa5f34e93bef951f00ee75bc333b976c",
+        "bytes": 234894922,
+        "method": "ffmpeg_diagnostic_fallback",
+        "duration_seconds": 2399.64,
+        "streams": [
+          {
+            "codec_type": "video",
+            "codec_name": "h264",
+            "description": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720 [SAR 1:1 DAR 16:9], 647 kb/s, 30 fps, 30 tbr, 16k tbn (default)"
+          },
+          {
+            "codec_type": "audio",
+            "codec_name": "aac",
+            "description": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 125 kb/s (default)"
+          }
+        ],
+        "diagnostic": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'D:\\mycodelife\\workshop\\AI\\classicMusic\\resource\\PROKOFIEV PIANO CONCERTO 2\\[普二钢协 王羽佳 小雅尔维 ]Yuja Wang Prokofiev Piano Concerto No  2  Paavo Järvi [BV1j741177rT] 720p.mp4':\r\n  Metadata:\r\n    major_brand     : isom\r\n    minor_version   : 512\r\n    compatible_brands: isomiso2avc1mp41\r\n    title           : [普二钢协 王羽佳 小雅尔维 ]Yuja Wang Prokofiev Piano Concerto No  2  Paavo Järvi\r\n    artist          : xszgreat\r\n    date            : 20200218\r\n    encoder         : Lavf63.17.100\r\n    comment         : https://www.bilibili.com/video/BV1j741177rT/\r\n    genre           : 发现《Piano Concerto No. 2 in G Minor, Op. 16 - I. Andantino - Allegretto》, 古典音乐, 普罗科菲耶夫, 音乐现场, 现场, 欧美现场\r\n    description     : https://www.youtube.com/watch?v=Il95HXvCdH4&amp;t=714s\r\n    synopsis        : https://www.youtube.com/watch?v=Il95HXvCdH4&amp;t=714s\r\n  Duration: 00:39:59.64, start: 0.000000, bitrate: 783 kb/s\r\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720 [SAR 1:1 DAR 16:9], 647 kb/s, 30 fps, 30 tbr, 16k tbn (default)\r\n      Metadata:\r\n        handler_name    : VideoHandler\r\n        vendor_id       : [0][0][0][0]\r\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 125 kb/s (default)\r\n      Metadata:\r\n        handler_name    : SoundHandler\r\n        vendor_id       : [0][0][0][0]\r\nAt least one output file must be specified\r\n",
+        "warning": "ffprobe 未安装；当前轨道信息来自 FFmpeg，精细的轨道时间轴待 ffprobe 复核。"
+      },
+      "local_file_verified": true,
+      "auditory_review": "not_performed",
+      "cautions": [
+        "No file path, hash, duration or recording projection assigned before the incoming file is inspected."
+      ],
+      "identity_verification_scope": "actual file fingerprint, embedded title, opening Berlin venue text; paper upload/year equivalence remains unverified"
+    }
+  ],
+  "cases": [
+    {
+      "section_id": "prokofiev2-1-02",
+      "movement": 1,
+      "first_local_measure": 3,
+      "focus": "叙述旋律与伴奏的距离",
+      "dimensions": [
+        "harmony",
+        "voices"
+      ],
+      "literature_source_ids": [
+        "G"
+      ],
+      "literature_printed_pages": [
+        119,
+        120
+      ],
+      "claim_type": "attributed_performer_reading_with_score_elaboration",
+      "local_recording_observation": null,
+      "auditory_review_status": "pending",
+      "audio_projection": null,
+      "human_signoff": null,
+      "target_recording_id": "horobets-wang-jarvi-berlin-reference"
+    },
+    {
+      "section_id": "prokofiev2-1-09",
+      "movement": 1,
+      "first_local_measure": 113,
+      "focus": "华彩中的左手旋律",
+      "dimensions": [
+        "orchestration",
+        "voices",
+        "form"
+      ],
+      "literature_source_ids": [
+        "G"
+      ],
+      "literature_printed_pages": [
+        123,
+        123
+      ],
+      "claim_type": "attributed_performer_reading_with_score_elaboration",
+      "local_recording_observation": null,
+      "auditory_review_status": "pending",
+      "audio_projection": null,
+      "human_signoff": null,
+      "target_recording_id": "horobets-wang-jarvi-berlin-reference"
+    },
+    {
+      "section_id": "prokofiev2-1-10",
+      "movement": 1,
+      "first_local_measure": 139,
+      "focus": "华彩的高潮如何留出层级",
+      "dimensions": [
+        "orchestration",
+        "form"
+      ],
+      "literature_source_ids": [],
+      "literature_printed_pages": null,
+      "claim_type": "score_based_performance_interpretation",
+      "local_recording_observation": null,
+      "auditory_review_status": "pending",
+      "audio_projection": null,
+      "human_signoff": null,
+      "target_recording_id": "horobets-wang-jarvi-berlin-reference"
+    },
+    {
+      "section_id": "prokofiev2-1-12",
+      "movement": 1,
+      "first_local_measure": 181,
+      "focus": "返回的主题怎样带着前文回来",
+      "dimensions": [
+        "voices",
+        "form"
+      ],
+      "literature_source_ids": [
+        "G"
+      ],
+      "literature_printed_pages": [
+        120,
+        120
+      ],
+      "claim_type": "attributed_performer_reading_with_score_elaboration",
+      "local_recording_observation": null,
+      "auditory_review_status": "pending",
+      "audio_projection": null,
+      "human_signoff": null,
+      "target_recording_id": "horobets-wang-jarvi-berlin-reference"
+    },
+    {
+      "section_id": "prokofiev2-2-04",
+      "movement": 2,
+      "first_local_measure": 80,
+      "focus": "不停的钢琴与乐队舞步",
+      "dimensions": [
+        "orchestration",
+        "voices"
+      ],
+      "literature_source_ids": [],
+      "literature_printed_pages": null,
+      "claim_type": "score_based_performance_interpretation",
+      "local_recording_observation": null,
+      "auditory_review_status": "pending",
+      "audio_projection": null,
+      "human_signoff": null,
+      "target_recording_id": "horobets-wang-jarvi-berlin-reference"
+    },
+    {
+      "section_id": "prokofiev2-3-02",
+      "movement": 3,
+      "first_local_measure": 19,
+      "focus": "沉重步伐中的音色角色",
+      "dimensions": [
+        "orchestration",
+        "voices"
+      ],
+      "literature_source_ids": [
+        "G"
+      ],
+      "literature_printed_pages": [
+        123,
+        124
+      ],
+      "claim_type": "attributed_performer_reading_with_score_elaboration",
+      "local_recording_observation": null,
+      "auditory_review_status": "pending",
+      "audio_projection": null,
+      "human_signoff": null,
+      "target_recording_id": "horobets-wang-jarvi-berlin-reference"
+    },
+    {
+      "section_id": "prokofiev2-4-04",
+      "movement": 4,
+      "first_local_measure": 83,
+      "focus": "摇篮曲怎样保有生命感",
+      "dimensions": [
+        "harmony",
+        "voices",
+        "form"
+      ],
+      "literature_source_ids": [
+        "G"
+      ],
+      "literature_printed_pages": [
+        124,
+        125
+      ],
+      "claim_type": "attributed_performer_reading_with_score_elaboration",
+      "local_recording_observation": null,
+      "auditory_review_status": "pending",
+      "audio_projection": null,
+      "human_signoff": null,
+      "target_recording_id": "horobets-wang-jarvi-berlin-reference"
+    },
+    {
+      "section_id": "prokofiev2-4-05",
+      "movement": 4,
+      "first_local_measure": 115,
+      "focus": "旋律交给乐队之后的独奏角色",
+      "dimensions": [
+        "orchestration",
+        "voices",
+        "form"
+      ],
+      "literature_source_ids": [],
+      "literature_printed_pages": null,
+      "claim_type": "score_based_performance_interpretation",
+      "local_recording_observation": null,
+      "auditory_review_status": "pending",
+      "audio_projection": null,
+      "human_signoff": null,
+      "target_recording_id": "horobets-wang-jarvi-berlin-reference"
+    },
+    {
+      "section_id": "prokofiev2-4-11",
+      "movement": 4,
+      "first_local_measure": 295,
+      "focus": "最后的切断与全曲结论",
+      "dimensions": [
+        "harmony",
+        "form"
+      ],
+      "literature_source_ids": [],
+      "literature_printed_pages": null,
+      "claim_type": "score_based_performance_interpretation",
+      "local_recording_observation": null,
+      "auditory_review_status": "pending",
+      "audio_projection": null,
+      "human_signoff": null,
+      "target_recording_id": "horobets-wang-jarvi-berlin-reference"
+    }
+  ],
+  "rule": "Performer analysis now targets the literature-cited Wang/Järvi/Berlin performance by user selection. Literature observations are attributed; incoming-file identity and independent auditory observations remain pending.",
+  "alignment": null,
+  "harmony_method": "existing_local_sonority_method",
+  "human_signoff": null,
+  "expert_review": null,
+  "previous_local_recording_id": "yuja-wang-bringuier-tonhalle-local-video",
+  "target_recording_id": "horobets-wang-jarvi-berlin-reference",
+  "target_matches_literature_by_user_selection": true,
+  "local_file_verification_status": "fingerprint_bound; user selection, embedded title and Berlin venue checked; exact paper-upload equivalence not certified"
+}

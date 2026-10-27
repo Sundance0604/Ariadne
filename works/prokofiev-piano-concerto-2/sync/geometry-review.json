@@ -1,0 +1,441 @@
+{
+  "pdf_sha256": "ab89aa71fc4e29d9305b43302e9013d0b8715d7bdfa2ab826f83ada3533dc26a",
+  "raw_geometry_sha256": "ff4b8fe94f3496eab7b2db33e131bb51da0f34293905021c8879940463f3d00c",
+  "review_type": "agent visual geometry corrections; source numbering and recording time separately pending",
+  "pages": [
+    {
+      "page": 9,
+      "systems": [
+        {
+          "system": 2,
+          "boundaries": [
+            129,
+            400,
+            636,
+            839,
+            1154
+          ]
+        }
+      ],
+      "reason": "Agent image review of original scan and observed staff/bar connections: restore missed/slanted lines or remove aligned stems. Page 30 final signature is outside its final bar. No human numbering/timing signature."
+    },
+    {
+      "page": 23,
+      "systems": [
+        {
+          "system": 3,
+          "boundaries": [
+            143,
+            707,
+            1154
+          ]
+        }
+      ],
+      "reason": "Agent image review of original scan and observed staff/bar connections: restore missed/slanted lines or remove aligned stems. Page 30 final signature is outside its final bar. No human numbering/timing signature."
+    },
+    {
+      "page": 25,
+      "systems": [
+        {
+          "system": 2,
+          "boundaries": [
+            157,
+            692,
+            1150
+          ]
+        },
+        {
+          "system": 3,
+          "boundaries": [
+            157,
+            674,
+            1154
+          ]
+        }
+      ],
+      "reason": "Agent image review of original scan and observed staff/bar connections: restore missed/slanted lines or remove aligned stems. Page 30 final signature is outside its final bar. No human numbering/timing signature."
+    },
+    {
+      "page": 30,
+      "systems": [
+        {
+          "system": 4,
+          "boundaries": [
+            152,
+            1078
+          ]
+        }
+      ],
+      "reason": "Agent image review of original scan and observed staff/bar connections: restore missed/slanted lines or remove aligned stems. Page 30 final signature is outside its final bar. No human numbering/timing signature."
+    },
+    {
+      "page": 34,
+      "systems": [
+        {
+          "system": 0,
+          "boundaries": [
+            163,
+            651,
+            1152
+          ]
+        }
+      ],
+      "reason": "Agent image review of original scan and observed staff/bar connections: restore missed/slanted lines or remove aligned stems. Page 30 final signature is outside its final bar. No human numbering/timing signature."
+    },
+    {
+      "page": 35,
+      "systems": [
+        {
+          "system": 0,
+          "boundaries": [
+            148,
+            524,
+            802,
+            1150
+          ]
+        }
+      ],
+      "reason": "Agent image review of original scan and observed staff/bar connections: restore missed/slanted lines or remove aligned stems. Page 30 final signature is outside its final bar. No human numbering/timing signature."
+    },
+    {
+      "page": 57,
+      "systems": [
+        {
+          "system": 0,
+          "boundaries": [
+            143,
+            407,
+            637,
+            889,
+            1155
+          ]
+        }
+      ],
+      "reason": "Agent image review of original scan and observed staff/bar connections: restore missed/slanted lines or remove aligned stems. Page 30 final signature is outside its final bar. No human numbering/timing signature."
+    },
+    {
+      "page": 62,
+      "systems": [
+        {
+          "system": 0,
+          "boundaries": [
+            146,
+            387,
+            590,
+            773,
+            948,
+            1135
+          ]
+        }
+      ],
+      "reason": "Agent image review of original scan and observed staff/bar connections: restore missed/slanted lines or remove aligned stems. Page 30 final signature is outside its final bar. No human numbering/timing signature."
+    },
+    {
+      "page": 67,
+      "systems": [
+        {
+          "system": 0,
+          "boundaries": [
+            132,
+            434,
+            658,
+            924,
+            1153
+          ]
+        }
+      ],
+      "reason": "Agent image review of original scan and observed staff/bar connections: restore missed/slanted lines or remove aligned stems. Page 30 final signature is outside its final bar. No human numbering/timing signature."
+    },
+    {
+      "page": 116,
+      "systems": [
+        {
+          "system": 0,
+          "boundaries": [
+            165,
+            452,
+            705,
+            926,
+            1134
+          ]
+        }
+      ],
+      "reason": "Agent image review of original scan and observed staff/bar connections: restore missed/slanted lines or remove aligned stems. Page 30 final signature is outside its final bar. No human numbering/timing signature."
+    },
+    {
+      "page": 119,
+      "systems": [
+        {
+          "system": 0,
+          "boundaries": [
+            149,
+            459,
+            761,
+            1150
+          ]
+        }
+      ],
+      "reason": "Agent image review of original scan and observed staff/bar connections: restore missed/slanted lines or remove aligned stems. Page 30 final signature is outside its final bar. No human numbering/timing signature."
+    },
+    {
+      "page": 120,
+      "systems": [
+        {
+          "system": 0,
+          "boundaries": [
+            154,
+            505,
+            828,
+            1152
+          ]
+        }
+      ],
+      "reason": "Agent image review of original scan and observed staff/bar connections: restore missed/slanted lines or remove aligned stems. Page 30 final signature is outside its final bar. No human numbering/timing signature."
+    },
+    {
+      "page": 126,
+      "replace_systems": [
+        {
+          "top": 79,
+          "bottom": 210,
+          "left": 149,
+          "right": 1154,
+          "boundaries": [
+            149,
+            316,
+            439,
+            570,
+            708,
+            859,
+            983,
+            1154
+          ],
+          "staff_count": 2,
+          "system_detection": "agent image checked staff bands plus full-grand-staff connecting columns"
+        },
+        {
+          "top": 305,
+          "bottom": 437,
+          "left": 149,
+          "right": 1156,
+          "boundaries": [
+            149,
+            344,
+            496,
+            653,
+            812,
+            997,
+            1156
+          ],
+          "staff_count": 2,
+          "system_detection": "agent image checked staff bands plus full-grand-staff connecting columns"
+        },
+        {
+          "top": 502,
+          "bottom": 630,
+          "left": 149,
+          "right": 1157,
+          "boundaries": [
+            149,
+            365,
+            548,
+            727,
+            942,
+            1157
+          ],
+          "staff_count": 2,
+          "system_detection": "agent image checked staff bands plus full-grand-staff connecting columns"
+        },
+        {
+          "top": 715,
+          "bottom": 847,
+          "left": 149,
+          "right": 1155,
+          "boundaries": [
+            149,
+            430,
+            671,
+            905,
+            1155
+          ],
+          "staff_count": 2,
+          "system_detection": "agent image checked staff bands plus full-grand-staff connecting columns"
+        },
+        {
+          "top": 913,
+          "bottom": 1043,
+          "left": 149,
+          "right": 1155,
+          "boundaries": [
+            149,
+            375,
+            576,
+            705,
+            862,
+            998,
+            1155
+          ],
+          "staff_count": 2,
+          "system_detection": "agent image checked staff bands plus full-grand-staff connecting columns"
+        },
+        {
+          "top": 1150,
+          "bottom": 1522,
+          "left": 152,
+          "right": 1161,
+          "boundaries": [
+            152,
+            508,
+            839,
+            1153
+          ],
+          "staff_count": 5,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            0.8,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 126,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [],
+          "count_status": "needs_review",
+          "reference_local_numbers": []
+        }
+      ],
+      "reason": "Five solo-piano systems were absent from the brace detector. Their ten actual horizontal staff bands were measured; bar boundaries independently detected across the full grand staff and count-checked against layout. No equal-width splitting."
+    },
+    {
+      "page": 141,
+      "replace_systems": [
+        {
+          "top": 156,
+          "bottom": 307,
+          "left": 143,
+          "right": 1150,
+          "boundaries": [
+            143,
+            657,
+            1150
+          ],
+          "staff_count": 2
+        },
+        {
+          "top": 448,
+          "bottom": 601,
+          "left": 143,
+          "right": 1151,
+          "boundaries": [
+            143,
+            693,
+            1151
+          ],
+          "staff_count": 2
+        },
+        {
+          "top": 736,
+          "bottom": 889,
+          "left": 143,
+          "right": 1158,
+          "boundaries": [
+            143,
+            651,
+            1149
+          ],
+          "staff_count": 2,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 141,
+          "system_index": 0,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [],
+          "count_status": "needs_review",
+          "reference_local_numbers": []
+        },
+        {
+          "top": 1028,
+          "bottom": 1192,
+          "left": 142,
+          "right": 1157,
+          "boundaries": [
+            142,
+            668,
+            1151
+          ],
+          "staff_count": 2,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 141,
+          "system_index": 1,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [],
+          "count_status": "needs_review",
+          "reference_local_numbers": []
+        },
+        {
+          "top": 1328,
+          "bottom": 1495,
+          "left": 140,
+          "right": 1161,
+          "boundaries": [
+            140,
+            629,
+            1153
+          ],
+          "staff_count": 2,
+          "system_detection": "observed_left_brace_verticals",
+          "boundary_support": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "coordinate_scale": 2,
+          "coordinate_origin": "top_left",
+          "page_number": 141,
+          "system_index": 2,
+          "page_width_pt": 619.2000122070312,
+          "page_height_pt": 800.6400146484375,
+          "reference_sequences": [],
+          "count_status": "needs_review",
+          "reference_local_numbers": []
+        }
+      ],
+      "reason": "Two tilted solo-piano systems missing from the left-brace detector; full-width staff bands and connecting bar columns separately observed and image checked."
+    },
+    {
+      "page": 140,
+      "systems": [
+        {
+          "system": 0,
+          "boundaries": [
+            145,
+            1158
+          ],
+          "force_shared_system": true
+        }
+      ],
+      "reason": "First cadenza system contains changing staff extents, meters and rests. Keep nine XML intervals in one observed system; do not force guessed bar rectangles or a moving line."
+    }
+  ],
+  "human_signoff": null,
+  "expert_review": null
+}

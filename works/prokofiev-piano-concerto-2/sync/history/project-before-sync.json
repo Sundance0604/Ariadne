@@ -1,0 +1,64 @@
+{
+  "id": "prokofiev-piano-concerto-2",
+  "title": "普罗科菲耶夫 第二钢琴协奏曲",
+  "stage": "score_and_literature_analysis_draft",
+  "movements": [
+    {
+      "movement": 1,
+      "title": "Andantino",
+      "first_sequence": 1,
+      "last_sequence": 200,
+      "source_measure_count": 200,
+      "score_pdf_page_range": [
+        1,
+        37
+      ]
+    },
+    {
+      "movement": 2,
+      "title": "Scherzo Vivace",
+      "first_sequence": 201,
+      "last_sequence": 387,
+      "source_measure_count": 187,
+      "score_pdf_page_range": [
+        38,
+        69
+      ]
+    },
+    {
+      "movement": 3,
+      "title": "Intermezzo Allegro moderato",
+      "first_sequence": 388,
+      "last_sequence": 546,
+      "source_measure_count": 159,
+      "score_pdf_page_range": [
+        70,
+        108
+      ]
+    },
+    {
+      "movement": 4,
+      "title": "Finale Allegro tempestoso",
+      "first_sequence": 547,
+      "last_sequence": 864,
+      "source_measure_count": 318,
+      "score_pdf_page_range": [
+        109,
+        168
+      ]
+    }
+  ],
+  "analysis_document": "works/prokofiev-piano-concerto-2/analysis/full-analysis.md",
+  "sources": "works/prokofiev-piano-concerto-2/analysis/sources.json",
+  "audio": null,
+  "video": null,
+  "recording_metadata": "works/prokofiev-piano-concerto-2/metadata/recording.json",
+  "performance_target_recording_id": "horobets-wang-jarvi-berlin-reference",
+  "performance_context": "works/prokofiev-piano-concerto-2/analysis/performance-context.json",
+  "alignment": null,
+  "recording_projection": null,
+  "player_registration": false,
+  "harmony_method": "existing_local_sonority_method",
+  "human_signoff": null,
+  "expert_review": null
+}

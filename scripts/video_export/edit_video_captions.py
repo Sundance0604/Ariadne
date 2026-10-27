@@ -12,6 +12,7 @@ import uuid
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 from backend.video_export.content import read, write
+from backend.video_export.presentation import presentation_config
 from backend.video_export.editor import (DOCUMENT, PACKAGE, SLOTS, STYLE_FIELDS, package_config, validate_style, export, load_document, prepare,
     column_key, document_names, normalized_sizes, stored_column, stored_sizes)
 from backend.video_export.paths import configured_path,full_paths,editor_projects,settings
@@ -65,6 +66,8 @@ def choose_project(root):
         result.append((project['package'],project['document']))
         dialog.destroy()
     buttons=ttk.Frame(outer);buttons.pack(fill='x',side='bottom')
+    def open_panels():result.append('panels');dialog.destroy()
+    ttk.Button(buttons,text='和声／配器面板设置',command=open_panels).pack(side='left')
     ttk.Button(buttons,text='打开编辑器',command=open_selected).pack(side='right')
     ttk.Button(buttons,text='取消',command=dialog.destroy).pack(side='right',padx=8)
     dialog.bind('<Return>',lambda _:open_selected())
@@ -72,6 +75,134 @@ def choose_project(root):
     dialog.protocol('WM_DELETE_WINDOW',dialog.destroy)
     root.wait_window(dialog)
     return result[0] if result else None
+
+
+class PanelEditor:
+    """Visual settings in the existing editor, never a second subtitle editor."""
+    def __init__(self,root):
+        import tkinter as tk
+        from tkinter import ttk,messagebox,colorchooser
+        from backend.video_export.visual_panels import load_settings,part_registry,panel_layout
+        self.root=root;self.tk=tk;self.ttk=ttk;self.messagebox=messagebox;self.colorchooser=colorchooser
+        self.value=load_settings();self.busy=False;self.result=None;self.messages=queue.Queue()
+        registry_doc=read(configured_path('visual_parts'));self.parts=registry_doc['parts'];self.flow_groups=registry_doc.get('harmony_groups')
+        root.title('普罗第二钢协 · 和声与配器面板');root.geometry('880x790');root.minsize(780,720)
+        body=ttk.Frame(root,padding=20);body.pack(fill='both',expand=True)
+        ttk.Label(body,text='和声瀑布图与配器激活',font=('Microsoft YaHei UI',16)).pack(anchor='w')
+        ttk.Label(body,text='和声图按五类配色，配器面板逐件激活；大小与颜色分别设置，复用现有同步。').pack(anchor='w',pady=(8,16))
+        controls=ttk.Frame(body);controls.pack(fill='x');self.scales={};self.enabled={};self.dimensions={}
+        sizes=panel_layout({},parts=part_registry(self.parts),flow_groups=self.flow_groups);orchestra_size=sizes['panels']['orchestration'];flow_size=sizes['panels']['flow']
+        for row,(key,label,w,h) in enumerate([('flow','和声瀑布图',flow_size['width'],flow_size['height']),('orchestration','配器激活面板',orchestra_size['width'],orchestra_size['height'])]):
+            self.enabled[key]=tk.BooleanVar(value=self.value[key]['enabled']);self.scales[key]=tk.IntVar(value=round(self.value[key]['scale']*100))
+            ttk.Checkbutton(controls,text=label,variable=self.enabled[key]).grid(row=row,column=0,sticky='w',padx=(0,16),pady=8)
+            ttk.Spinbox(controls,from_=60,to=150,increment=5,textvariable=self.scales[key],width=7).grid(row=row,column=1)
+            ttk.Label(controls,text='%').grid(row=row,column=2,padx=8)
+            self.dimensions[key]=tk.StringVar();ttk.Label(controls,textvariable=self.dimensions[key]).grid(row=row,column=3,sticky='w')
+            self.scales[key].trace_add('write',lambda *_,k=key,bw=w,bh=h:self.dimension(k,bw,bh));self.dimension(key,w,h)
+        self.clip=tk.StringVar(value='全奏 · 10:15起，含打击乐' if self.value['sample_start']==615 else '抒情 · 01:31起')
+        clips=ttk.Frame(body);clips.pack(fill='x',pady=12)
+        ttk.Label(clips,text='45秒样片片段：').pack(side='left')
+        ttk.Combobox(clips,state='readonly',textvariable=self.clip,values=['全奏 · 10:15起，含打击乐','抒情 · 01:31起'],width=30).pack(side='left')
+        ttk.Label(body,text='和声五类颜色／配器逐件颜色').pack(anchor='w',pady=(8,6))
+        tree_frame=ttk.Frame(body);tree_frame.pack(fill='both',expand=True)
+        self.tree=ttk.Treeview(tree_frame,columns=('family','color'),height=16,selectmode='browse')
+        self.tree.heading('#0',text='乐器模块');self.tree.heading('family',text='分组');self.tree.heading('color',text='颜色')
+        self.tree.column('#0',width=330);self.tree.column('family',width=170);self.tree.column('color',width=160)
+        scrollbar=ttk.Scrollbar(tree_frame,orient='vertical',command=self.tree.yview);self.tree.configure(yscrollcommand=scrollbar.set)
+        scrollbar.pack(side='right',fill='y');self.tree.pack(side='left',fill='both',expand=True)
+        row=ttk.Frame(body);row.pack(fill='x',pady=9)
+        ttk.Button(row,text='更改所选乐器颜色',command=self.change_color).pack(side='left')
+        ttk.Button(row,text='恢复高区分配色与默认大小',command=self.defaults).pack(side='left',padx=10)
+        self.status=tk.StringVar(value='设置用于普二样片及完整版；保存后在对应项目生成新视频时生效，已有视频保留。')
+        ttk.Label(body,textvariable=self.status,wraplength=810).pack(anchor='w',pady=6)
+        self.percent=tk.DoubleVar();ttk.Progressbar(body,variable=self.percent,maximum=100).pack(fill='x',pady=5)
+        buttons=ttk.Frame(body);buttons.pack(fill='x',pady=(8,0))
+        self.save_button=ttk.Button(buttons,text='保存设置',command=self.save);self.save_button.pack(side='left')
+        self.render_button=ttk.Button(buttons,text='保存并生成45秒样片',command=self.render);self.render_button.pack(side='left',padx=10)
+        ttk.Button(buttons,text='打开最近样片',command=self.open_latest).pack(side='right')
+        self.refresh_colors();root.after(150,self.poll)
+
+    def dimension(self,key,w,h):
+        try:self.dimensions[key].set(f'{round(w*self.scales[key].get()/100)} × {round(h*self.scales[key].get()/100)} 像素')
+        except Exception:self.dimensions[key].set('请输入60至150')
+
+    def refresh_colors(self):
+        from backend.video_export.visual_panels import part_registry
+        self.tree.delete(*self.tree.get_children())
+        if self.flow_groups:
+            self.tree.insert('','end',iid='flow-root',text='和声图 · 五类',open=True)
+            for g in self.flow_groups:
+                identity='flow:'+g['id'];color=self.value['group_colors'].get(g['id'],g['color'])
+                self.tree.insert('flow-root','end',iid=identity,text=g['label'],values=('和声分类',color),tags=(identity,))
+                self.tree.tag_configure(identity,foreground=color,background='#18160e')
+        self.tree.insert('','end',iid='instrument-root',text='配器 · 乐器模块',open=True)
+        for p in part_registry(self.parts,colors=self.value['part_colors']):
+            self.tree.insert('instrument-root', 'end',iid=p['id'],text=('独奏 · ' if p['role']=='solo' else '')+p['label'],
+                values=(p['family'],p['color']),tags=(p['id'],));self.tree.tag_configure(p['id'],foreground=p['color'],background='#18160e')
+
+    def change_color(self):
+        if self.busy:return
+        selection=self.tree.selection()
+        if not selection:return
+        pid=selection[0]
+        if pid in ('flow-root','instrument-root'):return
+        current=self.tree.item(pid,'values')[1]
+        color=self.colorchooser.askcolor(color=current,title='选择声部颜色',parent=self.root)[1]
+        if color:
+            if pid.startswith('flow:'):self.value['group_colors'][pid[5:]]=color
+            else:self.value['part_colors'][pid]=color
+            self.refresh_colors();self.tree.selection_set(pid)
+
+    def defaults(self):
+        if self.busy:return
+        from backend.video_export.visual_panels import DEFAULTS
+        self.value=copy.deepcopy(DEFAULTS)
+        for key in self.scales:self.scales[key].set(100);self.enabled[key].set(True)
+        self.clip.set('全奏 · 10:15起，含打击乐');self.refresh_colors()
+
+    def save(self):
+        from backend.video_export.visual_panels import save_settings
+        try:
+            value=copy.deepcopy(self.value)
+            for key in self.scales:value[key]={'enabled':self.enabled[key].get(),'scale':self.scales[key].get()/100}
+            value['sample_start']=615.0 if self.clip.get().startswith('全奏') else 91.4
+            self.value=save_settings(value);self.status.set('设置已保存；生成新样片时生效。');return True
+        except Exception as error:self.messagebox.showerror('设置无效',str(error),parent=self.root);return False
+
+    def render(self):
+        if self.busy or not self.save():return
+        self.busy=True;self.save_button.configure(state='disabled');self.render_button.configure(state='disabled');snapshot=copy.deepcopy(self.value)
+        def worker():
+            try:self.messages.put(('done',render_visual_sample(snapshot,lambda p,m:self.messages.put(('progress',p,m)))))
+            except Exception as error:self.messages.put(('error',str(error)))
+        threading.Thread(target=worker,daemon=True).start()
+
+    def poll(self):
+        try:
+            while True:
+                item=self.messages.get_nowait()
+                if item[0]=='progress':self.percent.set(item[1]);self.status.set(item[2]);continue
+                self.busy=False;self.save_button.configure(state='normal');self.render_button.configure(state='normal')
+                if item[0]=='done':self.result=item[1];self.status.set('已生成：'+str(self.result))
+                else:self.status.set('生成失败，已有样片保留。');self.messagebox.showerror('生成失败',item[1],parent=self.root)
+        except queue.Empty:pass
+        self.root.after(150,self.poll)
+
+    def open_latest(self):
+        pointer=configured_path('visual_latest')
+        path=self.result or (ROOT/read(pointer)['path'] if pointer.exists() else None)
+        if path and path.is_file():os.startfile(path)
+        else:self.messagebox.showinfo('尚无样片','先保存并生成一个样片。',parent=self.root)
+
+
+def render_visual_sample(value,progress=None):
+    from backend.video_export.visual_panels import validate_settings
+    from scripts.video_export.build_prokofiev2_flow_sample import build
+    value=validate_settings(value);base=configured_path('visual_sample_root');index=1
+    while (base/f'prokofiev2-visual-sample-{index:03d}').exists():index+=1
+    path=build(base/f'prokofiev2-visual-sample-{index:03d}',start=value['sample_start'],panels=value,progress=progress)
+    write(configured_path('visual_latest'),{'path':path.relative_to(ROOT).as_posix()})
+    return path
 
 
 def import_document(path, current, config):
@@ -136,7 +267,7 @@ class Editor:
         self.data = load_document(document, package)
         self.names = {name:document_names(self.data).get(name,name) for name in SLOTS}
         self.internal_names = {label:name for name,label in self.names.items()}
-        config = package_config(package)
+        config = presentation_config(package_config(package),self.data.get('呈现规则',{}))
         self.config = config
         segment = config['segments'][0]
         duration = segment['video_end'] - segment['video_start']
@@ -217,7 +348,8 @@ class Editor:
         for variable in (self.slot, self.start, self.end, self.visible, self.title):
             variable.trace_add('write', lambda *_: self.changed())
         self.text.bind('<<Modified>>', self.text_changed)
-        ttk.Label(page, text=f'片头须在{config.get("intro_clear_video",config["music_start_video"]-3):g}秒前结束；常规字幕从{config["music_start_video"]:g}秒开始。诠释显示时乐谱自动隐藏，结束后恢复。', wraplength=1000).pack(anchor='w')
+        score_behavior='诠释显示时保留右侧谱面。' if config.get('interpretation_hides_score') is False else '诠释显示时乐谱自动隐藏，结束后恢复。'
+        ttk.Label(page, text=f'片头须在{config.get("intro_clear_video",config["music_start_video"]-3):g}秒前结束；常规字幕从{config["music_start_video"]:g}秒开始。'+score_behavior, wraplength=1000).pack(anchor='w')
         self.fonts = {}
         self.font_labels = {}
         self.styles={}
@@ -497,18 +629,23 @@ def main():
     target=parser.add_mutually_exclusive_group()
     target.add_argument('--full',action='store_true',help='使用配置中的拉威尔左手钢协完整版（兼容参数）')
     target.add_argument('--project',help='选择配置中的项目ID，例如mother-goose、ravel-full、ravel-sample')
+    target.add_argument('--panels',action='store_true',help='调整普二和声／配器面板的整体大小和声部颜色')
     parser.add_argument('--fonts', action='store_true')
     parser.add_argument('--render', action='store_true', help='直接按保存的文稿生成视频，不打开窗口')
     parser.add_argument('--ass-only', action='store_true')
     args = parser.parse_args()
-    explicit_target=bool(args.project or args.full or args.package or args.document)
+    explicit_target=bool(args.project or args.full or args.package or args.document or args.panels)
     try:
         args.package,args.document=resolve_target(args)
     except ValueError as error:
         parser.error(str(error))
     if args.render or args.ass_only:
         try:
-            export(load_document(args.document, args.package), args.package, ass_only=args.ass_only)
+            if args.panels:
+                if args.ass_only:raise ValueError('可视化面板不使用ASS；请生成样片')
+                from backend.video_export.visual_panels import load_settings
+                render_visual_sample(load_settings())
+            else:export(load_document(args.document, args.package), args.package, ass_only=args.ass_only)
         except Exception as error:
             print(f'生成失败：{error}', file=sys.stderr)
             raise SystemExit(1)
@@ -523,9 +660,11 @@ def main():
                 if chosen is None:
                     root.destroy()
                     return
-                args.package,args.document=chosen
+                if chosen=='panels':args.panels=True
+                else:args.package,args.document=chosen
             root.deiconify()
-            Editor(root, args.package, args.document, args.fonts)
+            if args.panels:PanelEditor(root)
+            else:Editor(root, args.package, args.document, args.fonts)
         except Exception as error:
             messagebox.showerror('字幕编辑器无法启动', str(error))
             root.destroy()

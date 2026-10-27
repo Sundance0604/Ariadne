@@ -55,3 +55,17 @@ test('enlarged score follows a later system without changing viewport size or ac
   assert.ok(late.pageGeometry.scroll.top>0);assert.equal(late.viewport.h,200);
   r.renderAt(6);r.renderAt(18);assert.deepEqual(r.renderAt(15),late);
 });
+test('a shared cadenza suppresses the horizontal line without hiding its real score region',()=>{
+  const data=input();data.project.mapping.measures[1].suppress_playhead=true;
+  const r=createExportRenderer(data);assert.equal(r.renderAt(15).playhead,null);assert.ok(r.renderAt(15).highlight);
+});
+test('separately placed interpretation may keep PDF and the current score page visible',()=>{
+  const data=input();data.config.interpretation_hides_score=false;
+  assert.equal(createExportRenderer(data).renderAt(11).visible,true);
+});
+
+test('right aligned score paper reaches the viewport edge even when fitted by height',()=>{
+  const data=input();data.config.layout.score={x:1320,y:320,w:600,h:736,align:'right'};
+  const state=createExportRenderer(data).renderAt(15),g=state.pageGeometry;
+  assert.equal(state.viewport.x+g.x+g.width,1920);
+});

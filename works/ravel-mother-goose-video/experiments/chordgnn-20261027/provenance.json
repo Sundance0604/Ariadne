@@ -1,0 +1,127 @@
+{
+  "original_chordgnn": {
+    "commit": "2a38dee737a1cb07791c3f66d3c98dab68ced7dd",
+    "default_artifact": "melkisedeath/chord_rec/model-kvd0jic5:v0",
+    "public_api_observation": {
+      "data": {
+        "project": null
+      }
+    },
+    "prediction_executed": false,
+    "issue": "https://github.com/manoskary/ChordGNN/issues/2"
+  },
+  "analysisgnn": {
+    "commit": "e115182fb29b74bdcb6bf3547ed427d967580947",
+    "artifact": "melkisedeath/AnalysisGNN/model-uvj2ddun:v1",
+    "artifact_id": "QXJ0aWZhY3Q6MTgzNjc5MzA1Ng==",
+    "artifact_digest": "e7b809d926830d5495dde7db241ad568",
+    "checkpoint": {
+      "path": ".tools/chordgnn/analysisgnn-checkpoint/model.ckpt",
+      "sha256": "53d106038fea6a5ab3d4c0a19617736dff5f0299deffaf240ebd484c11f91c67",
+      "bytes": 126890023
+    },
+    "prediction_executed": true,
+    "strict_state_dict_load": true,
+    "decoder_mismatches": {
+      "quality": {
+        "checkpoint_classes": 15,
+        "source_vocabulary_classes": 16,
+        "status": "decoding_disabled"
+      },
+      "romanNumeral": {
+        "checkpoint_classes": 185,
+        "source_vocabulary_classes": 184,
+        "status": "decoding_disabled"
+      }
+    },
+    "full_training_vocabulary_alignment": "Not independently established; incompatible heads remain undecoded."
+  },
+  "graphmuse": {
+    "commit": "acd464f0cf11c65bda38f0d32a31e078f7941d78",
+    "runtime": "Current Python source plus unmodified C sampler extension from graphmuse 0.0.5 cp312 manylinux wheel.",
+    "reason": "PyPI Python API rejects metadata argument; source build lacks cc on this Ubuntu.",
+    "checks": "Note order and all onset/consecutive/during edge relations verified on every excerpt."
+  },
+  "environment": {
+    "inference": "WSL Ubuntu / Python 3.12.16 / Torch 2.5.1+cpu",
+    "input_graph_probe": "Windows Python 3.12.14 / Torch 2.5.1+cpu",
+    "lockfile": {
+      "path": "works/ravel-mother-goose-video/experiments/chordgnn-20261027/environment-linux.txt",
+      "sha256": "3c4ef52d495ace0d06217b3863b9b5d7f6b917a2954e7c1f57824837f965b359",
+      "bytes": 1604
+    }
+  },
+  "code": [
+    {
+      "path": "backend/chordgnn_experiment.py",
+      "sha256": "a9b1c2be3fc1e63481b683d8634879462271d7150d61f85285432201b334b65a",
+      "bytes": 10999
+    },
+    {
+      "path": "scripts/probe_chordgnn.py",
+      "sha256": "63c0200ca36b45efa21deeaa13067979bdf5e864ab712b6d2c5733e686357e9e",
+      "bytes": 9077
+    },
+    {
+      "path": "scripts/probe_analysisgnn.py",
+      "sha256": "573d55063f961e96eb755e273ab696d34a6d953cec86b808eb81f70c711bd27a",
+      "bytes": 10352
+    },
+    {
+      "path": "scripts/summarize_chordgnn_probe.py",
+      "sha256": "f2ab9dd8a0e3ea0d0a725589a9c1390eccf3033a0718ee086c3c731d1ad559ea",
+      "bytes": 3004
+    },
+    {
+      "path": "requirements-chordgnn.txt",
+      "sha256": "a9f32c997cb4e79c166a60f868d97f5c846d222c06529dbe7be6499f270f3fb7",
+      "bytes": 541
+    },
+    {
+      "path": "requirements-analysisgnn-linux.txt",
+      "sha256": "eb9ab5e364242ad7294ea98f8b382cc867151bdfd7d2e861e02441507afea4aa",
+      "bytes": 1002
+    },
+    {
+      "path": ".tools/chordgnn/analysisgnn/analysisgnn/models/analysis.py",
+      "sha256": "f2a034cff28e08d7bba33ccafd08e51687f0c3a3e8904be3b0d00584cf197f2b",
+      "bytes": 78717
+    },
+    {
+      "path": ".tools/chordgnn/analysisgnn/analysisgnn/utils/chord_representations.py",
+      "sha256": "469c2d9574a39c4e17cf07c0cecc0c76f4f69b3e08cd8643b5de99504a41150f",
+      "bytes": 27619
+    },
+    {
+      "path": ".tools/chordgnn/analysisgnn/analysisgnn/utils/globals.py",
+      "sha256": "e8cd8360350817272479e4c3f257cd076dd245f91b2d528975f2e891d0c246f0",
+      "bytes": 82039
+    },
+    {
+      "path": ".tools/chordgnn/analysisgnn/analysisgnn/descriptors/utils/note_features.py",
+      "sha256": "da0f037156850233e4512c6c14d3b08307aa37e1d929e9a887837c9d61716a22",
+      "bytes": 18470
+    },
+    {
+      "path": ".tools/chordgnn/graphmuse/graphmuse/utils/graph.py",
+      "sha256": "9a3d3cad01e2662800b7eedbb5470d9c8259822f71fd326465b8ff0411ada602",
+      "bytes": 12841
+    },
+    {
+      "path": ".tools/chordgnn/graphmuse/graphmuse/nn/models/metrical_gnn.py",
+      "sha256": "8aedcb6bc8b89e3b43a1873f0060e4debed525d21f9f049e372578ee2d670a47",
+      "bytes": 25104
+    },
+    {
+      "path": ".tools/chordgnn/graphmuse/graphmuse/samplers/csamplers.cpython-312-x86_64-linux-gnu.so",
+      "sha256": "1d5015846e1bb3491ff113345820e3a1270e9baf99e1ce288e5759a614f0368e",
+      "bytes": 53896
+    }
+  ],
+  "additional_source_files_verified_unchanged_against_HEAD": [],
+  "input_validation": "Concert pitch multiset, rational timing, XML meters and key signatures; not full score proofreading.",
+  "reading": "Only prelude PDF physical page 3 visually checked for opening pitch collections; not all 8 excerpts visually signed off.",
+  "activation": false,
+  "human_signoff": null,
+  "expert_review": null
+}

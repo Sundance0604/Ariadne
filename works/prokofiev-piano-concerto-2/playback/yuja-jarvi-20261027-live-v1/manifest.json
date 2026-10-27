@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "work_id": "prokofiev-piano-concerto-2",
+  "scope": "Existing web synchronization plus written activity; sample export reads the same flow notes.",
+  "inputs": [
+    {
+      "path": "works/prokofiev-piano-concerto-2/alignment.json",
+      "sha256": "b1c9e14047bffec41f5960121c6cfdd8de8c484d608ecf794bb9f2e001d3ff33",
+      "bytes": 3807841
+    },
+    {
+      "path": "works/prokofiev-piano-concerto-2/measure-map.json",
+      "sha256": "173271e3b6f088c20040197995746451b62e8c6f3b14d04b7703f97924800aeb",
+      "bytes": 2281675
+    },
+    {
+      "path": "works/prokofiev-piano-concerto-2/media-sync.json",
+      "sha256": "948cf185db16d7927699ceffe1339cf1d284983d117725bff315d944590d3a32",
+      "bytes": 3176
+    },
+    {
+      "path": "works/prokofiev-piano-concerto-2/sync/reference/written.json",
+      "sha256": "ea33c0b7a82e276e143a4f2b8007db5ffb096b86aaff11dd45d93c5cb8dd4543",
+      "bytes": 27463376
+    },
+    {
+      "path": "resource/PROKOFIEV PIANO CONCERTO 2/piano-concerto-no2-op16-s-prokofiev.mxl",
+      "sha256": "6a9893ed48c7d57bf336adb02751e86ccfdf595200ab008daef493e6468ebc8f",
+      "bytes": 1137375
+    },
+    {
+      "path": "scripts/build_prokofiev2_live.py",
+      "sha256": "31114e33eb3ce1df808ccab6cb28777c9aaa4598b5387f2424d1ca68c127e2cb",
+      "bytes": 15422
+    },
+    {
+      "path": "backend/musicxml_analysis/analyze.py",
+      "sha256": "2b3f643027607071902156675492f48dc890e93d2a5898042a37629381a5d1fd",
+      "bytes": 16872
+    },
+    {
+      "path": "works/prokofiev-piano-concerto-2/playback/yuja-jarvi-20261027-v1/analysis.json",
+      "sha256": "9d83fbe6bad330caf130e8ee6ae6a7ebe1a53e41a1ab3a652e5a0610a0bc0667",
+      "bytes": 202921
+    },
+    {
+      "path": "works/prokofiev-piano-concerto-2/playback/yuja-jarvi-20261027-v1/research.json",
+      "sha256": "dd6aabb36ac4a3f024217228e034bb962f3d16541ad6510860d591c45aa63b4f",
+      "bytes": 534913
+    },
+    {
+      "path": "works/prokofiev-piano-concerto-2/analysis/sections.json",
+      "sha256": "deaaf251ca66d6dde4f7eba432244eb8a3257edbd45812485abf1fd194fbd4ab",
+      "bytes": 107720
+    }
+  ],
+  "files": {
+    "analysis.json": {
+      "sha256": "aaa5d2de54ddcdb5e8472a5bd678360f72e404b48156dcdeea0bb5439141284f",
+      "bytes": 194613
+    },
+    "audit.json": {
+      "sha256": "278c192078c078c216609b3f09f330b6086f3d77a598d554c6c8e719d9e38ea0",
+      "bytes": 13172
+    },
+    "evidence.json": {
+      "sha256": "ef3113a2ac71eca73fe4bafbfcdb984d55880fa66b25c6900556a30dd8ae03c9",
+      "bytes": 63664241
+    },
+    "flow.json": {
+      "sha256": "6de7b139f38a7152dc10ecb129579ecf2ac5e9639cc05281d14df70d18aa05a6",
+      "bytes": 12519893
+    },
+    "live.json": {
+      "sha256": "72ca3ec79847d757e041e9afa531d6127a9eeeee15624fce0e642bd576f67b48",
+      "bytes": 21066978
+    },
+    "research.json": {
+      "sha256": "063581b82f2ba0a1c6abeec22ddce59c4639eb4668e082df0cd28f0bae12414d",
+      "bytes": 742649
+    }
+  },
+  "human_signoff": null,
+  "expert_review": null
+}

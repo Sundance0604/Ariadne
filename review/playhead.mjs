@@ -1,7 +1,9 @@
 // The DTW map locates reference time, not individual noteheads on the PDF.
 // The final horizontal projection is an estimate inside an observed score region.
 export function scoreTimeCovered(coverage,seconds){
-  return !coverage||Number.isFinite(seconds)&&seconds>=coverage.start_seconds&&seconds<coverage.end_seconds;
+  if(!coverage)return true;
+  if(!Number.isFinite(seconds)||seconds<coverage.start_seconds||seconds>=coverage.end_seconds)return false;
+  return !Array.isArray(coverage.segments)||coverage.segments.some(s=>seconds>=s.start_seconds&&seconds<s.end_seconds);
 }
 
 export function referenceTimeAt(timeMap, audioSeconds) {

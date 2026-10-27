@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "work": {
+    "id": "prokofiev-piano-concerto-2",
+    "composer": "Sergei Prokofiev",
+    "title": "Piano Concerto No. 2 in G minor, Op.16"
+  },
+  "recording": {
+    "id": "horobets-wang-jarvi-berlin-reference",
+    "soloist": "Yuja Wang / 王羽佳",
+    "conductor": "Paavo Järvi / 帕沃·雅尔维",
+    "orchestra": "Berliner Philharmoniker / 柏林爱乐乐团",
+    "selection_status": "user_selected_file_bound_for_web_review",
+    "identity_status": "user_selected_performance; embedded title and Berlin venue opening text checked",
+    "identity_sources": [
+      {
+        "type": "user_statement",
+        "date": "2026-10-27",
+        "value": "User found the Wang/Paavo Järvi version discussed above, is downloading it and will add it to the folder."
+      },
+      {
+        "type": "literature_reference",
+        "source_id": "G",
+        "printed_page": 115
+      }
+    ],
+    "reference_url": "https://www.youtube.com/watch?v=vB6Hz-VQSKw",
+    "source_url": "https://www.bilibili.com/video/BV1j741177rT/",
+    "official_related_event_year": 2015,
+    "paper_reported_year": 2017,
+    "concert_date": null,
+    "date_status": "Official relevant event is May 2015; paper footnote says 2017; exact incoming clip not inspected.",
+    "media": {
+      "path": "resource/PROKOFIEV PIANO CONCERTO 2/[普二钢协 王羽佳 小雅尔维 ]Yuja Wang Prokofiev Piano Concerto No  2  Paavo Järvi [BV1j741177rT] 720p.mp4",
+      "sha256": "f2f8b76044249c9c25d00ab917b52188fa5f34e93bef951f00ee75bc333b976c",
+      "bytes": 234894922,
+      "method": "ffmpeg_diagnostic_fallback",
+      "duration_seconds": 2399.64,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "description": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720 [SAR 1:1 DAR 16:9], 647 kb/s, 30 fps, 30 tbr, 16k tbn (default)"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "description": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 125 kb/s (default)"
+        }
+      ],
+      "diagnostic": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'D:\\mycodelife\\workshop\\AI\\classicMusic\\resource\\PROKOFIEV PIANO CONCERTO 2\\[普二钢协 王羽佳 小雅尔维 ]Yuja Wang Prokofiev Piano Concerto No  2  Paavo Järvi [BV1j741177rT] 720p.mp4':\r\n  Metadata:\r\n    major_brand     : isom\r\n    minor_version   : 512\r\n    compatible_brands: isomiso2avc1mp41\r\n    title           : [普二钢协 王羽佳 小雅尔维 ]Yuja Wang Prokofiev Piano Concerto No  2  Paavo Järvi\r\n    artist          : xszgreat\r\n    date            : 20200218\r\n    encoder         : Lavf63.17.100\r\n    comment         : https://www.bilibili.com/video/BV1j741177rT/\r\n    genre           : 发现《Piano Concerto No. 2 in G Minor, Op. 16 - I. Andantino - Allegretto》, 古典音乐, 普罗科菲耶夫, 音乐现场, 现场, 欧美现场\r\n    description     : https://www.youtube.com/watch?v=Il95HXvCdH4&amp;t=714s\r\n    synopsis        : https://www.youtube.com/watch?v=Il95HXvCdH4&amp;t=714s\r\n  Duration: 00:39:59.64, start: 0.000000, bitrate: 783 kb/s\r\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1280x720 [SAR 1:1 DAR 16:9], 647 kb/s, 30 fps, 30 tbr, 16k tbn (default)\r\n      Metadata:\r\n        handler_name    : VideoHandler\r\n        vendor_id       : [0][0][0][0]\r\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 125 kb/s (default)\r\n      Metadata:\r\n        handler_name    : SoundHandler\r\n        vendor_id       : [0][0][0][0]\r\nAt least one output file must be specified\r\n",
+      "warning": "ffprobe 未安装；当前轨道信息来自 FFmpeg，精细的轨道时间轴待 ffprobe 复核。"
+    },
+    "auditory_review": {
+      "status": "not_performed",
+      "reviewed_intervals": []
+    },
+    "score_alignment": "works/prokofiev-piano-concerto-2/alignment.json",
+    "human_signoff": null,
+    "embedded_upstream_url": "https://www.youtube.com/watch?v=Il95HXvCdH4&t=714s",
+    "audio_sha256": "f2f8b76044249c9c25d00ab917b52188fa5f34e93bef951f00ee75bc333b976c",
+    "duration_seconds": 2399.64
+  },
+  "analysis_document": "works/prokofiev-piano-concerto-2/analysis/full-analysis.md",
+  "score": {
+    "path": "resource/PROKOFIEV PIANO CONCERTO 2/IMSLP66128-PMLP04521-Prokofiev_-_Piano_Concerto_No._2,_Op._16_(orch._score).pdf",
+    "sha256": "ab89aa71fc4e29d9305b43302e9013d0b8715d7bdfa2ab826f83ada3533dc26a"
+  },
+  "recording_projection": null,
+  "expert_review": null,
+  "previous_recording_metadata": "works/prokofiev-piano-concerto-2/metadata/recording-bringuier-tonhalle.json"
+}

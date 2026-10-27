@@ -118,6 +118,12 @@ class Handler(BaseHTTPRequestHandler):
             return self.send_json({'error':str(error)},404)
         except (OSError,KeyError,TypeError) as error:
             return self.send_json({'error':str(error)},422)
+        if track.get('analysis_adapter')=='prokofiev2-score-review-v1' and route in {'/api/analysis','/api/research','/api/musicxml','/api/musicxml-evidence','/api/musicxml-artifact','/api/musicxml-live'}:
+            try:
+                from backend.prokofiev2 import endpoint
+                return self.send_json(endpoint(ROOT,directory,route,query))
+            except (OSError,ValueError,KeyError,TypeError) as error:
+                return self.send_json({'error':str(error)},422)
         if track.get('analysis_adapter')=='mother-goose-ballet-v1' and route in {'/api/analysis','/api/research','/api/musicxml','/api/musicxml-evidence','/api/musicxml-artifact','/api/musicxml-live'}:
             try:
                 from backend.mother_goose import endpoint
