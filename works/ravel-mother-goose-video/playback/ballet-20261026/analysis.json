@@ -1,0 +1,1276 @@
+{
+  "format_version": "1.1.0",
+  "work": {
+    "work_id": "ravel-mother-goose-ballet",
+    "title": "鹅妈妈：完整芭蕾版",
+    "original_title": "Ma mère l’Oye — Ballet",
+    "composer": {
+      "name": "莫里斯·拉威尔",
+      "original_name": "Maurice Ravel"
+    },
+    "instrumentation": "管弦乐；前奏、五场及终曲，保留四段间奏"
+  },
+  "recording": {
+    "recording_id": "mother-goose-benjamin-radio-france-20211210",
+    "audio_sha256": "0dfac83e05efe9eb7b213f5d12ba6c84f7f25c01e9845d04327e0d8295740095",
+    "soloists": [],
+    "conductor": {
+      "name": "乔治·本杰明",
+      "original_name": "George Benjamin"
+    },
+    "ensemble": {
+      "name": "法国广播爱乐乐团",
+      "original_name": "Orchestre philharmonique de Radio France",
+      "abbreviation": "Radio France"
+    },
+    "duration_seconds": 1678.66,
+    "artist_information_note": "阵容、地点与2021年12月10日演出日期来自用户视频内嵌的France Musique说明；同一视频的音轨用于同步。"
+  },
+  "audio_sha256": "0dfac83e05efe9eb7b213f5d12ba6c84f7f25c01e9845d04327e0d8295740095",
+  "pdf_sha256": "dcd459e83b05e89bf273725009bf8651ef41d8052603653a85b966e5c1812052",
+  "source_document": {
+    "path": "works/ravel-mother-goose-video/analysis/ballet-guide.json",
+    "title": "鹅妈妈完整芭蕾导聆",
+    "review_status": "editorially_revised"
+  },
+  "annotations": [
+    {
+      "annotation_id": "ballet-extra-1-1",
+      "movement": 1,
+      "title": "从两条管乐线打开帷幕",
+      "start_measure_id": "ballet-1-m001",
+      "end_measure_id": "ballet-1-m007",
+      "start_sequence_index": 1,
+      "end_sequence_index": 7,
+      "start_seconds": 28.6,
+      "end_seconds": 69.66,
+      "start_pdf_page": 3,
+      "end_pdf_page": 4,
+      "markdown": "**和声**\n\n开头长笛与巴松的音程和具体低音逐时点列在音符证据中；三连音圆号材料属于另一个进入层。\n\n**配器与织体**\n\n两支长笛同奏与第一巴松相隔音区，第三小节加入加弱音器的圆号，随后弱音弦乐接入。\n\n**声部关系与复调**\n\n管乐的附点长短节奏、圆号的细碎三连音与弦乐长时值形成不同层级。\n\n**曲式与主题发展**\n\n起始材料以后还会被回忆；先辨认音程轮廓与节奏，再判断相似程度。\n\n**听什么**\n\n听柔和的管乐开场，留意圆号进入后背景怎样开始流动。",
+      "html": "<p><strong>和声</strong></p>\n<p>开头长笛与巴松的音程和具体低音逐时点列在音符证据中；三连音圆号材料属于另一个进入层。</p>\n<p><strong>配器与织体</strong></p>\n<p>两支长笛同奏与第一巴松相隔音区，第三小节加入加弱音器的圆号，随后弱音弦乐接入。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>管乐的附点长短节奏、圆号的细碎三连音与弦乐长时值形成不同层级。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>起始材料以后还会被回忆；先辨认音程轮廓与节奏，再判断相似程度。</p>\n<p><strong>听什么</strong></p>\n<p>听柔和的管乐开场，留意圆号进入后背景怎样开始流动。</p>\n",
+      "source_ids": [
+        "B",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-extra-1-8",
+      "movement": 1,
+      "title": "鸟鸣式短句与开头材料交错",
+      "start_measure_id": "ballet-1-m008",
+      "end_measure_id": "ballet-1-m019",
+      "start_sequence_index": 8,
+      "end_sequence_index": 19,
+      "start_seconds": 69.66,
+      "end_seconds": 125.1,
+      "start_pdf_page": 5,
+      "end_pdf_page": 7,
+      "markdown": "**和声**\n\n片段的半音与变化音扩大音集，音高集合不自动成为功能和弦。\n\n**配器与织体**\n\n短笛和长笛交错出现短小装饰音型；回到原速时，音区与材料重新分层。\n\n**声部关系与复调**\n\n短句的接续与持续背景并存；鸟鸣式模仿是音响比喻，不是严格卡农。\n\n**曲式与主题发展**\n\n排练号1的短句与排练号2的返回，形成可回访的材料关系。\n\n**听什么**\n\n把短促、高处的呼应与较长的背景线分开听。",
+      "html": "<p><strong>和声</strong></p>\n<p>片段的半音与变化音扩大音集，音高集合不自动成为功能和弦。</p>\n<p><strong>配器与织体</strong></p>\n<p>短笛和长笛交错出现短小装饰音型；回到原速时，音区与材料重新分层。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>短句的接续与持续背景并存；鸟鸣式模仿是音响比喻，不是严格卡农。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>排练号1的短句与排练号2的返回，形成可回访的材料关系。</p>\n<p><strong>听什么</strong></p>\n<p>把短促、高处的呼应与较长的背景线分开听。</p>\n",
+      "source_ids": [
+        "B",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-extra-1-20",
+      "movement": 1,
+      "title": "钟状音色让时间伸缩",
+      "start_measure_id": "ballet-1-m020",
+      "end_measure_id": "ballet-1-m031",
+      "start_sequence_index": 20,
+      "end_sequence_index": 31,
+      "start_seconds": 125.1,
+      "end_seconds": 160.57999999999998,
+      "start_pdf_page": 8,
+      "end_pdf_page": 8,
+      "markdown": "**和声**\n\n此处分析按独立记谱窗口取音，长时段集合不合并成一个同时和弦。\n\n**配器与织体**\n\n木管逐渐退后，钢片琴形成清楚的钟状攻击；谱面有渐快与渐慢的文字。\n\n**声部关系与复调**\n\n短攻击和乐器之间的空隙也是组织线条的手段。\n\n**曲式与主题发展**\n\n动作密度与速度文字共同塑造过渡，不能只把乐器更换当作新主题。\n\n**听什么**\n\n留意钢片琴每次发音之间的空间，感受速度的伸缩。",
+      "html": "<p><strong>和声</strong></p>\n<p>此处分析按独立记谱窗口取音，长时段集合不合并成一个同时和弦。</p>\n<p><strong>配器与织体</strong></p>\n<p>木管逐渐退后，钢片琴形成清楚的钟状攻击；谱面有渐快与渐慢的文字。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>短攻击和乐器之间的空隙也是组织线条的手段。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>动作密度与速度文字共同塑造过渡，不能只把乐器更换当作新主题。</p>\n<p><strong>听什么</strong></p>\n<p>留意钢片琴每次发音之间的空间，感受速度的伸缩。</p>\n",
+      "source_ids": [
+        "B",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-extra-1-32",
+      "movement": 1,
+      "title": "材料回返并积聚成开场的亮度",
+      "start_measure_id": "ballet-1-m032",
+      "end_measure_id": "ballet-1-m050",
+      "start_sequence_index": 32,
+      "end_sequence_index": 50,
+      "start_seconds": 160.57999999999998,
+      "end_seconds": 231.18,
+      "start_pdf_page": 9,
+      "end_pdf_page": 12,
+      "markdown": "**和声**\n\n各层的持续音与快速经过音并列保存；高潮音集不追溯覆盖前面的静止音响。\n\n**配器与织体**\n\n木管短句逐步密集，竖琴滑奏、弦乐震音和打击乐共同扩展声音。\n\n**声部关系与复调**\n\n长时值的低层与快速音型可同时存在，密度增加不等于所有声部同节奏。\n\n**曲式与主题发展**\n\n前奏以增密过程指向纺车舞；完整芭蕾总谱在下一页进入6/8。\n\n**听什么**\n\n听熟悉的短句如何被越来越多的音色包围。",
+      "html": "<p><strong>和声</strong></p>\n<p>各层的持续音与快速经过音并列保存；高潮音集不追溯覆盖前面的静止音响。</p>\n<p><strong>配器与织体</strong></p>\n<p>木管短句逐步密集，竖琴滑奏、弦乐震音和打击乐共同扩展声音。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>长时值的低层与快速音型可同时存在，密度增加不等于所有声部同节奏。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>前奏以增密过程指向纺车舞；完整芭蕾总谱在下一页进入6/8。</p>\n<p><strong>听什么</strong></p>\n<p>听熟悉的短句如何被越来越多的音色包围。</p>\n",
+      "source_ids": [
+        "B",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-extra-2-1",
+      "movement": 2,
+      "title": "纺车的旋转与跳跃",
+      "start_measure_id": "ballet-2-m001",
+      "end_measure_id": "ballet-2-m016",
+      "start_sequence_index": 51,
+      "end_sequence_index": 66,
+      "start_seconds": 231.2,
+      "end_seconds": 250.98,
+      "start_pdf_page": 13,
+      "end_pdf_page": 14,
+      "markdown": "**和声**\n\n半音运动和低层支点分别记录，不将经过音逐个强加功能名称。\n\n**配器与织体**\n\n开头合奏之后，单簧管和第一小提琴的快速音型突出；随后木管的短音与拨弦相呼应。\n\n**声部关系与复调**\n\n连续快速线条与间断的舞步攻击构成两层。\n\n**曲式与主题发展**\n\n6/8的运动从开场强奏中抽离，转向轻巧的局部交接。\n\n**听什么**\n\n先抓住快速旋转的音型，再听短促的木管与拨弦。",
+      "html": "<p><strong>和声</strong></p>\n<p>半音运动和低层支点分别记录，不将经过音逐个强加功能名称。</p>\n<p><strong>配器与织体</strong></p>\n<p>开头合奏之后，单簧管和第一小提琴的快速音型突出；随后木管的短音与拨弦相呼应。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>连续快速线条与间断的舞步攻击构成两层。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>6/8的运动从开场强奏中抽离，转向轻巧的局部交接。</p>\n<p><strong>听什么</strong></p>\n<p>先抓住快速旋转的音型，再听短促的木管与拨弦。</p>\n",
+      "source_ids": [
+        "B",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-extra-2-17",
+      "movement": 2,
+      "title": "独奏线条从合奏中浮现",
+      "start_measure_id": "ballet-2-m017",
+      "end_measure_id": "ballet-2-m037",
+      "start_sequence_index": 67,
+      "end_sequence_index": 87,
+      "start_seconds": 250.98,
+      "end_seconds": 278.08,
+      "start_pdf_page": 15,
+      "end_pdf_page": 17,
+      "markdown": "**和声**\n\n旋律与支撑音的时点分开取样；和声事实可在上方实时窗口查阅。\n\n**配器与织体**\n\n木管独奏与弦乐背景交替，音色和音区的接力使线条保持清晰。\n\n**声部关系与复调**\n\n乐器交接有时继续同一条线，有时形成回应，须同时看攻击和节奏。\n\n**曲式与主题发展**\n\n排练号12至14提供回访地标；这些地标不自动等于严格曲式边界。\n\n**听什么**\n\n把注意力从背景的运动移向正在独奏的木管。",
+      "html": "<p><strong>和声</strong></p>\n<p>旋律与支撑音的时点分开取样；和声事实可在上方实时窗口查阅。</p>\n<p><strong>配器与织体</strong></p>\n<p>木管独奏与弦乐背景交替，音色和音区的接力使线条保持清晰。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>乐器交接有时继续同一条线，有时形成回应，须同时看攻击和节奏。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>排练号12至14提供回访地标；这些地标不自动等于严格曲式边界。</p>\n<p><strong>听什么</strong></p>\n<p>把注意力从背景的运动移向正在独奏的木管。</p>\n",
+      "source_ids": [
+        "B",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-extra-2-38",
+      "movement": 2,
+      "title": "步伐与流动背景交替",
+      "start_measure_id": "ballet-2-m038",
+      "end_measure_id": "ballet-2-m064",
+      "start_sequence_index": 88,
+      "end_sequence_index": 114,
+      "start_seconds": 278.08,
+      "end_seconds": 314.65999999999997,
+      "start_pdf_page": 18,
+      "end_pdf_page": 22,
+      "markdown": "**和声**\n\n反复音、变化音与背景支点并存，局部和声应按窗口查看。\n\n**配器与织体**\n\n短音的管乐组合与弦乐的运动互相照应，重音的轮廓比长音更显眼。\n\n**声部关系与复调**\n\n成组的加倍可合为一个层；不同攻击时间才支持新的活动层。\n\n**曲式与主题发展**\n\n既有步态反复出现，同时以音色和力度改变方向。\n\n**听什么**\n\n听重音如何从一组乐器移到另一组。",
+      "html": "<p><strong>和声</strong></p>\n<p>反复音、变化音与背景支点并存，局部和声应按窗口查看。</p>\n<p><strong>配器与织体</strong></p>\n<p>短音的管乐组合与弦乐的运动互相照应，重音的轮廓比长音更显眼。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>成组的加倍可合为一个层；不同攻击时间才支持新的活动层。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>既有步态反复出现，同时以音色和力度改变方向。</p>\n<p><strong>听什么</strong></p>\n<p>听重音如何从一组乐器移到另一组。</p>\n",
+      "source_ids": [
+        "B",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-extra-2-65",
+      "movement": 2,
+      "title": "短句接续与音色换景",
+      "start_measure_id": "ballet-2-m065",
+      "end_measure_id": "ballet-2-m097",
+      "start_sequence_index": 115,
+      "end_sequence_index": 147,
+      "start_seconds": 314.65999999999997,
+      "end_seconds": 359.73,
+      "start_pdf_page": 22,
+      "end_pdf_page": 26,
+      "markdown": "**和声**\n\n移动的内声与持续层分别观察，调性归属需要前后句法支持。\n\n**配器与织体**\n\n双簧管等木管的线条先后出现，弦乐由拨奏、弓奏及不同音区参与。\n\n**声部关系与复调**\n\n上下两层可以延续不同长度的句子，不机械以小节线截断。\n\n**曲式与主题发展**\n\n材料的接续使舞蹈保持连续；排练号19至23便于对照。\n\n**听什么**\n\n循着木管的长线，听背景的步伐怎样继续。",
+      "html": "<p><strong>和声</strong></p>\n<p>移动的内声与持续层分别观察，调性归属需要前后句法支持。</p>\n<p><strong>配器与织体</strong></p>\n<p>双簧管等木管的线条先后出现，弦乐由拨奏、弓奏及不同音区参与。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>上下两层可以延续不同长度的句子，不机械以小节线截断。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>材料的接续使舞蹈保持连续；排练号19至23便于对照。</p>\n<p><strong>听什么</strong></p>\n<p>循着木管的长线，听背景的步伐怎样继续。</p>\n",
+      "source_ids": [
+        "B",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-extra-2-98",
+      "movement": 2,
+      "title": "跌倒的场景与漫长睡眠",
+      "start_measure_id": "ballet-2-m098",
+      "end_measure_id": "ballet-2-m121",
+      "start_sequence_index": 148,
+      "end_sequence_index": 171,
+      "start_seconds": 359.73,
+      "end_seconds": 440.61,
+      "start_pdf_page": 27,
+      "end_pdf_page": 30,
+      "markdown": "**和声**\n\n色彩性和声转向较静止的背景；低音与上方移动音仍需分别观察。\n\n**配器与织体**\n\n从稍慢转入很慢；弱奏弦乐、低音、竖琴和木管短句取代先前的密集运动。\n\n**声部关系与复调**\n\n攻击密度降低，持续音与零星入口之间形成更宽的间隔。\n\n**曲式与主题发展**\n\n总谱的舞台文字写出公主受伤及入睡，随后衔接帕凡舞。叙事解释以这些文字为依据。\n\n**听什么**\n\n在速度放缓后，留意细小的木管入口和低声部的支点。",
+      "html": "<p><strong>和声</strong></p>\n<p>色彩性和声转向较静止的背景；低音与上方移动音仍需分别观察。</p>\n<p><strong>配器与织体</strong></p>\n<p>从稍慢转入很慢；弱奏弦乐、低音、竖琴和木管短句取代先前的密集运动。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>攻击密度降低，持续音与零星入口之间形成更宽的间隔。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>总谱的舞台文字写出公主受伤及入睡，随后衔接帕凡舞。叙事解释以这些文字为依据。</p>\n<p><strong>听什么</strong></p>\n<p>在速度放缓后，留意细小的木管入口和低声部的支点。</p>\n",
+      "source_ids": [
+        "B",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-I-a",
+      "movement": 3,
+      "title": "两条线打开童话空间",
+      "start_measure_id": "ballet-3-m001",
+      "end_measure_id": "ballet-3-m004",
+      "start_sequence_index": 172,
+      "end_sequence_index": 175,
+      "start_seconds": 441.0,
+      "end_seconds": 456.54,
+      "start_pdf_page": 31,
+      "end_pdf_page": 31,
+      "markdown": "**和声**\n\n长笛首小节的A–C–E–E–D–G形成无半音五声音列的局部材料；下方F等音使全织体超出这个集合。旋律的五声组织与全曲A调式背景可以并存。\n\n**配器与织体**\n\n第二长笛在中低音区独奏；弱奏、加弱音器的圆号与中提琴拨弦支撑下线。长音与短促拨弦的发音方式形成细小的明暗差。\n\n**声部关系与复调**\n\n圆号与中提琴局部同度加倍，合为一条支撑线；与长笛不同的攻击节奏才构成这里的两层关系。XML中的三份中提琴副本不等于三条额外对位。\n\n**曲式与主题发展**\n\n四小节内先重复一小节单元，再以下行收束；它是开头八小节的前半句。Vlitakis的周期性读法与梅西安的前句命名在这里相容。\n\n**听什么**\n\n先记住长笛的短句，再听下方拨弦怎样给较柔和的圆号线条加上轮廓。",
+      "html": "<p><strong>和声</strong></p>\n<p>长笛首小节的A–C–E–E–D–G形成无半音五声音列的局部材料；下方F等音使全织体超出这个集合。旋律的五声组织与全曲A调式背景可以并存。</p>\n<p><strong>配器与织体</strong></p>\n<p>第二长笛在中低音区独奏；弱奏、加弱音器的圆号与中提琴拨弦支撑下线。长音与短促拨弦的发音方式形成细小的明暗差。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>圆号与中提琴局部同度加倍，合为一条支撑线；与长笛不同的攻击节奏才构成这里的两层关系。XML中的三份中提琴副本不等于三条额外对位。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>四小节内先重复一小节单元，再以下行收束；它是开头八小节的前半句。Vlitakis的周期性读法与梅西安的前句命名在这里相容。</p>\n<p><strong>听什么</strong></p>\n<p>先记住长笛的短句，再听下方拨弦怎样给较柔和的圆号线条加上轮廓。</p>\n",
+      "source_ids": [
+        "M05",
+        "A",
+        "V",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-I-b",
+      "movement": 3,
+      "title": "固定低音中的半音内声",
+      "start_measure_id": "ballet-3-m005",
+      "end_measure_id": "ballet-3-m008",
+      "start_sequence_index": 176,
+      "end_sequence_index": 179,
+      "start_seconds": 456.54,
+      "end_seconds": 472.92,
+      "start_pdf_page": 31,
+      "end_pdf_page": 32,
+      "markdown": "**和声**\n\nE低音与D持续层维持背景，F–F♯–G–F♯的半音内声改变垂直音响。宜分开写持续层和移动音，不把整小节所有音当作一个同时和弦。\n\n**配器与织体**\n\n主句转入第一长笛较高音区，第二长笛承担内声；双簧管、单簧管、竖琴及低弦构成持续背景，弦乐泛音的实响另需按奏法核对。\n\n**声部关系与复调**\n\n快速主旋律、四分音符内声与长音背景有不同时间尺度；它们之间存在独立分工，但持续音的乐器加倍仍只算同一层。\n\n**曲式与主题发展**\n\n后半句与前四小节节奏相近而轮廓改变。半音内声以后在17–19小节转到第二小提琴，形成可直接核对的局部返回。\n\n**听什么**\n\n高处的旋律继续歌唱，较低处却有一条缓慢上行又折回的半音线。",
+      "html": "<p><strong>和声</strong></p>\n<p>E低音与D持续层维持背景，F–F♯–G–F♯的半音内声改变垂直音响。宜分开写持续层和移动音，不把整小节所有音当作一个同时和弦。</p>\n<p><strong>配器与织体</strong></p>\n<p>主句转入第一长笛较高音区，第二长笛承担内声；双簧管、单簧管、竖琴及低弦构成持续背景，弦乐泛音的实响另需按奏法核对。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>快速主旋律、四分音符内声与长音背景有不同时间尺度；它们之间存在独立分工，但持续音的乐器加倍仍只算同一层。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>后半句与前四小节节奏相近而轮廓改变。半音内声以后在17–19小节转到第二小提琴，形成可直接核对的局部返回。</p>\n<p><strong>听什么</strong></p>\n<p>高处的旋律继续歌唱，较低处却有一条缓慢上行又折回的半音线。</p>\n",
+      "source_ids": [
+        "M05",
+        "A",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-I-c",
+      "movement": 3,
+      "title": "评论段让线条逐层接力",
+      "start_measure_id": "ballet-3-m009",
+      "end_measure_id": "ballet-3-m012",
+      "start_sequence_index": 180,
+      "end_sequence_index": 183,
+      "start_seconds": 472.92,
+      "end_seconds": 488.54,
+      "start_pdf_page": 32,
+      "end_pdf_page": 32,
+      "markdown": "**和声**\n\n相较前段的固定背景，这里低声部与内声移动更频繁。文献中的C大调或相对大调区域读法用于较大语境，不能替代每个时点的低音与经过音检查。\n\n**配器与织体**\n\n单簧管接过上层旋律，英国管承担另一条线；拨弦声部在小提琴、中提琴和大提琴之间转换，使同一织体内部不断换色。\n\n**声部关系与复调**\n\n旋律、英国管线及低音接力需要分别追踪；拨弦有时支撑已有线条，有时接续下一段，不宜把每次乐器加入都叫新主题。\n\n**曲式与主题发展**\n\n梅西安称其为评论段，Vlitakis将9–12视为中部B；两者均指出它与1–8及13–20的框架关系。\n\n**听什么**\n\n听单簧管保持句子连续，同时把注意力分给下方依次接话的拨弦。",
+      "html": "<p><strong>和声</strong></p>\n<p>相较前段的固定背景，这里低声部与内声移动更频繁。文献中的C大调或相对大调区域读法用于较大语境，不能替代每个时点的低音与经过音检查。</p>\n<p><strong>配器与织体</strong></p>\n<p>单簧管接过上层旋律，英国管承担另一条线；拨弦声部在小提琴、中提琴和大提琴之间转换，使同一织体内部不断换色。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>旋律、英国管线及低音接力需要分别追踪；拨弦有时支撑已有线条，有时接续下一段，不宜把每次乐器加入都叫新主题。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>梅西安称其为评论段，Vlitakis将9–12视为中部B；两者均指出它与1–8及13–20的框架关系。</p>\n<p><strong>听什么</strong></p>\n<p>听单簧管保持句子连续，同时把注意力分给下方依次接话的拨弦。</p>\n",
+      "source_ids": [
+        "M05",
+        "A",
+        "V",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-I-d",
+      "movement": 3,
+      "title": "熟悉旋律换了支点",
+      "start_measure_id": "ballet-3-m013",
+      "end_measure_id": "ballet-3-m016",
+      "start_sequence_index": 184,
+      "end_sequence_index": 187,
+      "start_seconds": 488.54,
+      "end_seconds": 506.04,
+      "start_pdf_page": 32,
+      "end_pdf_page": 33,
+      "markdown": "**和声**\n\nD、F持续层改变了开头旋律的和声支点；梅西安将其联系到带降低三音的D九和弦背景。这是带归属的归约，具体音响仍按各拍取音。\n\n**配器与织体**\n\n第一长笛重述开头，英国管与拨弦线相配，单簧管和圆号填入长音。中提琴的多音攻击与开头的单线拨弦区别明显。\n\n**声部关系与复调**\n\n上方旋律可与1–2小节逐音比较；下方持续层与活动线已改写，因此旋律重复并不表示整体织体重复。\n\n**曲式与主题发展**\n\nA′开始；1–2与13–14的音高、攻击位置和时值对应已存入局部比较。返回既恢复记忆，也积累音色变化。\n\n**听什么**\n\n认出开头的句子，然后留意它现在靠着不同的低音和内声展开。",
+      "html": "<p><strong>和声</strong></p>\n<p>D、F持续层改变了开头旋律的和声支点；梅西安将其联系到带降低三音的D九和弦背景。这是带归属的归约，具体音响仍按各拍取音。</p>\n<p><strong>配器与织体</strong></p>\n<p>第一长笛重述开头，英国管与拨弦线相配，单簧管和圆号填入长音。中提琴的多音攻击与开头的单线拨弦区别明显。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>上方旋律可与1–2小节逐音比较；下方持续层与活动线已改写，因此旋律重复并不表示整体织体重复。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>A′开始；1–2与13–14的音高、攻击位置和时值对应已存入局部比较。返回既恢复记忆，也积累音色变化。</p>\n<p><strong>听什么</strong></p>\n<p>认出开头的句子，然后留意它现在靠着不同的低音和内声展开。</p>\n",
+      "source_ids": [
+        "M05",
+        "A",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-I-e",
+      "movement": 3,
+      "title": "弦乐收拢前面的记忆",
+      "start_measure_id": "ballet-3-m017",
+      "end_measure_id": "ballet-3-m020",
+      "start_sequence_index": 188,
+      "end_sequence_index": 191,
+      "start_seconds": 506.04,
+      "end_seconds": 528.38,
+      "start_pdf_page": 33,
+      "end_pdf_page": 33,
+      "markdown": "**和声**\n\nE背景再次承托后半句，第二小提琴复现此前的半音内声。结尾在调式语境中收束，不能仅据末音A就把整段化约成单一功能终止。\n\n**配器与织体**\n\n主旋律转给加弱音器的小提琴，竖琴和分奏低弦补足长音、泛音与拨弦。木管的余留延音与弦乐主体应按时点区分。\n\n**声部关系与复调**\n\n第二小提琴的半音线与第一小提琴旋律并行存在；加倍与泛音补色不自动增加独立声部数量。\n\n**曲式与主题发展**\n\n完成五个四小节单位。Kilpatrick把结尾G–A与第二曲开头相联系，这属于跨曲动机读法，不等于二者使用相同和声。\n\n**听什么**\n\n同一句后半段由弦乐说出后，留意最后的短小音程怎样留下未尽的余味。",
+      "html": "<p><strong>和声</strong></p>\n<p>E背景再次承托后半句，第二小提琴复现此前的半音内声。结尾在调式语境中收束，不能仅据末音A就把整段化约成单一功能终止。</p>\n<p><strong>配器与织体</strong></p>\n<p>主旋律转给加弱音器的小提琴，竖琴和分奏低弦补足长音、泛音与拨弦。木管的余留延音与弦乐主体应按时点区分。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>第二小提琴的半音线与第一小提琴旋律并行存在；加倍与泛音补色不自动增加独立声部数量。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>完成五个四小节单位。Kilpatrick把结尾G–A与第二曲开头相联系，这属于跨曲动机读法，不等于二者使用相同和声。</p>\n<p><strong>听什么</strong></p>\n<p>同一句后半段由弦乐说出后，留意最后的短小音程怎样留下未尽的余味。</p>\n",
+      "source_ids": [
+        "M05",
+        "A",
+        "K",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-extra-3-21",
+      "movement": 3,
+      "title": "帕凡舞后的舞台转换",
+      "start_measure_id": "ballet-3-m021",
+      "end_measure_id": "ballet-3-m045",
+      "start_sequence_index": 192,
+      "end_sequence_index": 216,
+      "start_seconds": 528.38,
+      "end_seconds": 580.1800000000001,
+      "start_pdf_page": 34,
+      "end_pdf_page": 37,
+      "markdown": "**和声**\n\n持续层与半音移动分开看；过渡材料的音集不直接移用帕凡舞的功能标签。\n\n**配器与织体**\n\n短笛的强奏上行、钢片琴和打击乐的突入，与后段竖琴和独奏小提琴形成对照。\n\n**声部关系与复调**\n\n密集的共同攻击先打断前景，随后让独奏线条浮在长音之上。\n\n**曲式与主题发展**\n\n总谱先后写出Allegro、Plus lent、Allegro及圆舞曲速度；间奏最终准备下一场。\n\n**听什么**\n\n听突出的短笛和闪光音色退下之后，圆舞曲的空间如何出现。",
+      "html": "<p><strong>和声</strong></p>\n<p>持续层与半音移动分开看；过渡材料的音集不直接移用帕凡舞的功能标签。</p>\n<p><strong>配器与织体</strong></p>\n<p>短笛的强奏上行、钢片琴和打击乐的突入，与后段竖琴和独奏小提琴形成对照。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>密集的共同攻击先打断前景，随后让独奏线条浮在长音之上。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>总谱先后写出Allegro、Plus lent、Allegro及圆舞曲速度；间奏最终准备下一场。</p>\n<p><strong>听什么</strong></p>\n<p>听突出的短笛和闪光音色退下之后，圆舞曲的空间如何出现。</p>\n",
+      "source_ids": [
+        "B",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-IV-a",
+      "movement": 4,
+      "title": "圆舞曲中的温柔与偏离",
+      "start_measure_id": "ballet-4-m001",
+      "end_measure_id": "ballet-4-m048",
+      "start_sequence_index": 217,
+      "end_sequence_index": 264,
+      "start_seconds": 580.2,
+      "end_seconds": 639.98,
+      "start_pdf_page": 38,
+      "end_pdf_page": 40,
+      "markdown": "**和声**\n\nF大调及升四级的局部色彩构成背景。17–20的低音和半音和声使常规终止预期转向；Kaminsky称其为越界动机，其心理阐释属于作者模型。\n\n**配器与织体**\n\n单簧管演唱前景，竖琴及弱奏弦木管分担三拍舞步。实际旋律在第二小节进入，第一小节已建立伴奏。\n\n**声部关系与复调**\n\n旋律与圆舞曲支撑分层；内部低音和线条偏离可以预示后续关系，不表示野兽已以完整主题出现。\n\n**曲式与主题发展**\n\n多次陈述与评论组成美女的大段。梅西安按主题和评论分段，Kaminsky将它纳入第一轮转，二者观察尺度不同。\n\n**听什么**\n\n先听平稳的舞步与单簧管，再留意中途那些让句子无法按预期落定的半音转向。",
+      "html": "<p><strong>和声</strong></p>\n<p>F大调及升四级的局部色彩构成背景。17–20的低音和半音和声使常规终止预期转向；Kaminsky称其为越界动机，其心理阐释属于作者模型。</p>\n<p><strong>配器与织体</strong></p>\n<p>单簧管演唱前景，竖琴及弱奏弦木管分担三拍舞步。实际旋律在第二小节进入，第一小节已建立伴奏。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>旋律与圆舞曲支撑分层；内部低音和线条偏离可以预示后续关系，不表示野兽已以完整主题出现。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>多次陈述与评论组成美女的大段。梅西安按主题和评论分段，Kaminsky将它纳入第一轮转，二者观察尺度不同。</p>\n<p><strong>听什么</strong></p>\n<p>先听平稳的舞步与单簧管，再留意中途那些让句子无法按预期落定的半音转向。</p>\n",
+      "source_ids": [
+        "M05",
+        "K",
+        "P",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-IV-b",
+      "movement": 4,
+      "title": "低音角色带来另一套音程语言",
+      "start_measure_id": "ballet-4-m049",
+      "end_measure_id": "ballet-4-m068",
+      "start_sequence_index": 265,
+      "end_sequence_index": 284,
+      "start_seconds": 639.98,
+      "end_seconds": 663.3800000000001,
+      "start_pdf_page": 41,
+      "end_pdf_page": 42,
+      "markdown": "**和声**\n\n全音、八音等对称音集与持续低音形成较粗砺的色彩；Alexander的变化属和弦读法是另一种分层归约，不强求与调式标签互相排除。\n\n**配器与织体**\n\n低音巴松的极低音旋律与低弦震音、拨弦及竖琴形成显著反差。\n\n**声部关系与复调**\n\n低声部49–52与60–63有完整的局部移调对应，上移大二度且攻击节奏一致；此结果不认证周围所有和声读法。\n\n**曲式与主题发展**\n\n角色对比由音区、音程、奏法与句法共同建立。两次陈述之间有延长，不简单按八小节模板切齐。\n\n**听什么**\n\n听低音巴松的下行线条，再留意第二次出现时整个形状怎样抬高一步。",
+      "html": "<p><strong>和声</strong></p>\n<p>全音、八音等对称音集与持续低音形成较粗砺的色彩；Alexander的变化属和弦读法是另一种分层归约，不强求与调式标签互相排除。</p>\n<p><strong>配器与织体</strong></p>\n<p>低音巴松的极低音旋律与低弦震音、拨弦及竖琴形成显著反差。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>低声部49–52与60–63有完整的局部移调对应，上移大二度且攻击节奏一致；此结果不认证周围所有和声读法。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>角色对比由音区、音程、奏法与句法共同建立。两次陈述之间有延长，不简单按八小节模板切齐。</p>\n<p><strong>听什么</strong></p>\n<p>听低音巴松的下行线条，再留意第二次出现时整个形状怎样抬高一步。</p>\n",
+      "source_ids": [
+        "M05",
+        "P",
+        "A",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-IV-c",
+      "movement": 4,
+      "title": "两种材料开始彼此渗入",
+      "start_measure_id": "ballet-4-m069",
+      "end_measure_id": "ballet-4-m084",
+      "start_sequence_index": 285,
+      "end_sequence_index": 300,
+      "start_seconds": 663.3800000000001,
+      "end_seconds": 682.0400000000001,
+      "start_pdf_page": 42,
+      "end_pdf_page": 43,
+      "markdown": "**和声**\n\nF♯持续支点与上方改变的旋律构成复合关系，宜把低音、和声层和旋律变音分别说明。\n\n**配器与织体**\n\n高音旋律与低音巴松继续保持鲜明音色差，同时乐队开始把两者置于共同织体。\n\n**声部关系与复调**\n\nKaminsky与梅西安均讨论69以后主题材料的结合。因此不能把106写成全曲第一次任何形式的主题同现；它是更完整的返回节点。\n\n**曲式与主题发展**\n\n角色独立展示转向交互发展。局部的叹息、重复及三连音上行，使陈述变成逐步紧迫的对话。\n\n**听什么**\n\n现在试着同时追踪上方较柔和的句子和下方越来越坚持的上行动作。",
+      "html": "<p><strong>和声</strong></p>\n<p>F♯持续支点与上方改变的旋律构成复合关系，宜把低音、和声层和旋律变音分别说明。</p>\n<p><strong>配器与织体</strong></p>\n<p>高音旋律与低音巴松继续保持鲜明音色差，同时乐队开始把两者置于共同织体。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>Kaminsky与梅西安均讨论69以后主题材料的结合。因此不能把106写成全曲第一次任何形式的主题同现；它是更完整的返回节点。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>角色独立展示转向交互发展。局部的叹息、重复及三连音上行，使陈述变成逐步紧迫的对话。</p>\n<p><strong>听什么</strong></p>\n<p>现在试着同时追踪上方较柔和的句子和下方越来越坚持的上行动作。</p>\n",
+      "source_ids": [
+        "M05",
+        "P",
+        "K",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-IV-d",
+      "movement": 4,
+      "title": "句子缩短并逼近第一次高潮",
+      "start_measure_id": "ballet-4-m085",
+      "end_measure_id": "ballet-4-m105",
+      "start_sequence_index": 301,
+      "end_sequence_index": 321,
+      "start_seconds": 682.0400000000001,
+      "end_seconds": 704.76,
+      "start_pdf_page": 43,
+      "end_pdf_page": 45,
+      "markdown": "**和声**\n\n半音低音与紧张音程关系推动终止延迟；Kaminsky以G–C♯等关系解释前后呼应，属于有取音范围的读法。\n\n**配器与织体**\n\n音区、力度和合奏参与共同增长，前景不再是单一独奏的封闭陈述。\n\n**声部关系与复调**\n\n旋律碎片与低声部上行形成不同方向和节奏的推进，局部加倍需要合并到相应层次。\n\n**曲式与主题发展**\n\n较长单位逐渐缩成短单位，配合速度与力度增长形成高潮。这里与128以后构成两轮有差异的推进。\n\n**听什么**\n\n听每次重说的句子怎样越来越短，仿佛来不及把话完整说完。",
+      "html": "<p><strong>和声</strong></p>\n<p>半音低音与紧张音程关系推动终止延迟；Kaminsky以G–C♯等关系解释前后呼应，属于有取音范围的读法。</p>\n<p><strong>配器与织体</strong></p>\n<p>音区、力度和合奏参与共同增长，前景不再是单一独奏的封闭陈述。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>旋律碎片与低声部上行形成不同方向和节奏的推进，局部加倍需要合并到相应层次。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>较长单位逐渐缩成短单位，配合速度与力度增长形成高潮。这里与128以后构成两轮有差异的推进。</p>\n<p><strong>听什么</strong></p>\n<p>听每次重说的句子怎样越来越短，仿佛来不及把话完整说完。</p>\n",
+      "source_ids": [
+        "K",
+        "M05",
+        "P",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-IV-e",
+      "movement": 4,
+      "title": "返回不再是独自陈述",
+      "start_measure_id": "ballet-4-m106",
+      "end_measure_id": "ballet-4-m127",
+      "start_sequence_index": 322,
+      "end_sequence_index": 343,
+      "start_seconds": 704.76,
+      "end_seconds": 732.6600000000001,
+      "start_pdf_page": 45,
+      "end_pdf_page": 47,
+      "markdown": "**和声**\n\n美女材料返回时，低层仍保留野兽材料及其半音张力；上层轮廓的恢复不表示和声回到开头原状。\n\n**配器与织体**\n\n单簧管与低音角色在共享织体中并存，音色差维持人物身份。\n\n**声部关系与复调**\n\n两种主题材料的结合是此段重点；相互制约的音程与句法需按各条线理解，不能只看和弦标签。\n\n**曲式与主题发展**\n\n梅西安的再现与Kaminsky第二轮转都可从此区域观察；该区包含106的衔接，XML明确的第一速度文字落在107，保留两种定位尺度。\n\n**听什么**\n\n认出单簧管熟悉的旋律，同时听它现在必须与哪一条低声线共处。",
+      "html": "<p><strong>和声</strong></p>\n<p>美女材料返回时，低层仍保留野兽材料及其半音张力；上层轮廓的恢复不表示和声回到开头原状。</p>\n<p><strong>配器与织体</strong></p>\n<p>单簧管与低音角色在共享织体中并存，音色差维持人物身份。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>两种主题材料的结合是此段重点；相互制约的音程与句法需按各条线理解，不能只看和弦标签。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>梅西安的再现与Kaminsky第二轮转都可从此区域观察；该区包含106的衔接，XML明确的第一速度文字落在107，保留两种定位尺度。</p>\n<p><strong>听什么</strong></p>\n<p>认出单簧管熟悉的旋律，同时听它现在必须与哪一条低声线共处。</p>\n",
+      "source_ids": [
+        "M05",
+        "K",
+        "P",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-IV-f",
+      "movement": 4,
+      "title": "再次压缩之后突然留下空白",
+      "start_measure_id": "ballet-4-m128",
+      "end_measure_id": "ballet-4-m147",
+      "start_sequence_index": 344,
+      "end_sequence_index": 363,
+      "start_seconds": 732.6600000000001,
+      "end_seconds": 756.52,
+      "start_pdf_page": 47,
+      "end_pdf_page": 49,
+      "markdown": "**和声**\n\n紧张和声、上行低层与旋律音程次序的改变共同推动高潮；功能、调式与动机读法分别保存，不强行压成一条罗马数字链。\n\n**配器与织体**\n\n合奏推至强音后骤停，竖琴滑奏等音色转换标记新的空间。具体滑奏节点须按管弦乐谱和XML核对，文献146为参考而非预设录音时刻。\n\n**声部关系与复调**\n\n材料继续缩减，局部声部移交与方向变化增加紧迫感；休止成为关系中的真实断点，不延长为虚构持续音。\n\n**曲式与主题发展**\n\n与85–105相应的第二轮增长达到转折。童话变身与音乐转折可以对应，但心理层含义是作者解释。\n\n**听什么**\n\n关注高潮后真正的停顿，再听新音色怎样从这段空白中浮出。",
+      "html": "<p><strong>和声</strong></p>\n<p>紧张和声、上行低层与旋律音程次序的改变共同推动高潮；功能、调式与动机读法分别保存，不强行压成一条罗马数字链。</p>\n<p><strong>配器与织体</strong></p>\n<p>合奏推至强音后骤停，竖琴滑奏等音色转换标记新的空间。具体滑奏节点须按管弦乐谱和XML核对，文献146为参考而非预设录音时刻。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>材料继续缩减，局部声部移交与方向变化增加紧迫感；休止成为关系中的真实断点，不延长为虚构持续音。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>与85–105相应的第二轮增长达到转折。童话变身与音乐转折可以对应，但心理层含义是作者解释。</p>\n<p><strong>听什么</strong></p>\n<p>关注高潮后真正的停顿，再听新音色怎样从这段空白中浮出。</p>\n",
+      "source_ids": [
+        "K",
+        "M05",
+        "P",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-IV-g",
+      "movement": 4,
+      "title": "角色换了音区却保留记忆",
+      "start_measure_id": "ballet-4-m148",
+      "end_measure_id": "ballet-4-m172",
+      "start_sequence_index": 364,
+      "end_sequence_index": 388,
+      "start_seconds": 756.52,
+      "end_seconds": 819.36,
+      "start_pdf_page": 49,
+      "end_pdf_page": 50,
+      "markdown": "**和声**\n\nF的终局支点并未消除所有变音。Kaminsky据末段残留的对称音集讨论结局的复杂性，梅西安更强调爱带来的转化；两种解释各有归属。\n\n**配器与织体**\n\n独奏小提琴的高音泛音改变野兽材料的音色身份，随后高低层逐步合流。泛音记谱与实际发声音高须单独核对。\n\n**声部关系与复调**\n\n148–151与低音巴松60–63的音高顺序相隔五个八度，但内部时值已经改写；主题转化有局部证据，不能称为逐音原样复制。\n\n**曲式与主题发展**\n\n尾声以材料重组完成戏剧转化；变成王子并非更换一条毫无关联的新旋律。\n\n**听什么**\n\n把高处的小提琴与此前低音巴松的轮廓相认，再听两种人物材料怎样共同结束。",
+      "html": "<p><strong>和声</strong></p>\n<p>F的终局支点并未消除所有变音。Kaminsky据末段残留的对称音集讨论结局的复杂性，梅西安更强调爱带来的转化；两种解释各有归属。</p>\n<p><strong>配器与织体</strong></p>\n<p>独奏小提琴的高音泛音改变野兽材料的音色身份，随后高低层逐步合流。泛音记谱与实际发声音高须单独核对。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>148–151与低音巴松60–63的音高顺序相隔五个八度，但内部时值已经改写；主题转化有局部证据，不能称为逐音原样复制。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>尾声以材料重组完成戏剧转化；变成王子并非更换一条毫无关联的新旋律。</p>\n<p><strong>听什么</strong></p>\n<p>把高处的小提琴与此前低音巴松的轮廓相认，再听两种人物材料怎样共同结束。</p>\n",
+      "source_ids": [
+        "M05",
+        "P",
+        "K",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-extra-4-173",
+      "movement": 4,
+      "title": "对话之后的柔和过渡",
+      "start_measure_id": "ballet-4-m173",
+      "end_measure_id": "ballet-4-m191",
+      "start_sequence_index": 389,
+      "end_sequence_index": 407,
+      "start_seconds": 819.36,
+      "end_seconds": 870.58,
+      "start_pdf_page": 51,
+      "end_pdf_page": 53,
+      "markdown": "**和声**\n\n木管的级进线与弦乐背景分开观察，色彩变化承接前景的收束。\n\n**配器与织体**\n\n长笛、双簧管等木管短句相继出现，弱奏弦乐维持过渡。\n\n**声部关系与复调**\n\n短句接力与持续层共同形成连续性。\n\n**曲式与主题发展**\n\n此段属于芭蕾版衔接，接向小拇指的不规则步伐。\n\n**听什么**\n\n听清接话的木管，再感受下一场弦乐脚步的变化。",
+      "html": "<p><strong>和声</strong></p>\n<p>木管的级进线与弦乐背景分开观察，色彩变化承接前景的收束。</p>\n<p><strong>配器与织体</strong></p>\n<p>长笛、双簧管等木管短句相继出现，弱奏弦乐维持过渡。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>短句接力与持续层共同形成连续性。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>此段属于芭蕾版衔接，接向小拇指的不规则步伐。</p>\n<p><strong>听什么</strong></p>\n<p>听清接话的木管，再感受下一场弦乐脚步的变化。</p>\n",
+      "source_ids": [
+        "B",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-II-a",
+      "movement": 5,
+      "title": "脚步先于人物出现",
+      "start_measure_id": "ballet-5-m001",
+      "end_measure_id": "ballet-5-m004",
+      "start_sequence_index": 408,
+      "end_sequence_index": 411,
+      "start_seconds": 870.6,
+      "end_seconds": 883.9200000000001,
+      "start_pdf_page": 54,
+      "end_pdf_page": 54,
+      "markdown": "**和声**\n\n流动三度与变化的调式音构成道路般的背景；C小调是整体参照，逐次经过的音集不宜逐个强行命名功能和弦。\n\n**配器与织体**\n\n加弱音器的小提琴持续八分音符运动；双簧管旋律在第4小节末的弱起进入，故段界不应截断它的入口。\n\n**声部关系与复调**\n\n平行三度可作为两条记谱线观察，也可在听觉组织中合为一层移动伴奏；两种分析层级需说明。\n\n**曲式与主题发展**\n\n2/4、3/4、4/4、5/4等换拍使路途延长和缩短。四小节引子与主题弱起重叠，不按机械整小节切开句法。\n\n**听什么**\n\n先跟住连续的八分音符，感受每小节长度改变时脚步怎样失去整齐的落点。",
+      "html": "<p><strong>和声</strong></p>\n<p>流动三度与变化的调式音构成道路般的背景；C小调是整体参照，逐次经过的音集不宜逐个强行命名功能和弦。</p>\n<p><strong>配器与织体</strong></p>\n<p>加弱音器的小提琴持续八分音符运动；双簧管旋律在第4小节末的弱起进入，故段界不应截断它的入口。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>平行三度可作为两条记谱线观察，也可在听觉组织中合为一层移动伴奏；两种分析层级需说明。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>2/4、3/4、4/4、5/4等换拍使路途延长和缩短。四小节引子与主题弱起重叠，不按机械整小节切开句法。</p>\n<p><strong>听什么</strong></p>\n<p>先跟住连续的八分音符，感受每小节长度改变时脚步怎样失去整齐的落点。</p>\n",
+      "source_ids": [
+        "M05",
+        "K",
+        "D",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-II-b",
+      "movement": 5,
+      "title": "短句在不规则步伐上徘徊",
+      "start_measure_id": "ballet-5-m005",
+      "end_measure_id": "ballet-5-m011",
+      "start_sequence_index": 412,
+      "end_sequence_index": 418,
+      "start_seconds": 883.9200000000001,
+      "end_seconds": 898.74,
+      "start_pdf_page": 54,
+      "end_pdf_page": 54,
+      "markdown": "**和声**\n\n围绕C的旋律与伴奏呈调式色彩，临时变化音逐步打开降E区域。下行五度与向上的级进共同构成旋律，不宜仅以音阶标签解释句子。\n\n**配器与织体**\n\n双簧管独奏浮在弱奏弦乐之上，音色集中而背景不断流动。\n\n**声部关系与复调**\n\n长一些的独奏旋律跨越伴奏的拍格；主旋律与三度背景是主要的两层听觉分工。\n\n**曲式与主题发展**\n\n短动机重述后延长成连接，导向12小节。Alexander的“忧惧”是其自拟名称，可作导聆提示，不能标成拉威尔原注。\n\n**听什么**\n\n听双簧管试探着说出短句，而脚下的线条始终没有停下来。",
+      "html": "<p><strong>和声</strong></p>\n<p>围绕C的旋律与伴奏呈调式色彩，临时变化音逐步打开降E区域。下行五度与向上的级进共同构成旋律，不宜仅以音阶标签解释句子。</p>\n<p><strong>配器与织体</strong></p>\n<p>双簧管独奏浮在弱奏弦乐之上，音色集中而背景不断流动。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>长一些的独奏旋律跨越伴奏的拍格；主旋律与三度背景是主要的两层听觉分工。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>短动机重述后延长成连接，导向12小节。Alexander的“忧惧”是其自拟名称，可作导聆提示，不能标成拉威尔原注。</p>\n<p><strong>听什么</strong></p>\n<p>听双簧管试探着说出短句，而脚下的线条始终没有停下来。</p>\n",
+      "source_ids": [
+        "M05",
+        "K",
+        "A",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-II-c",
+      "movement": 5,
+      "title": "较宽的回答暂时照亮道路",
+      "start_measure_id": "ballet-5-m012",
+      "end_measure_id": "ballet-5-m022",
+      "start_sequence_index": 419,
+      "end_sequence_index": 429,
+      "start_seconds": 898.74,
+      "end_seconds": 920.32,
+      "start_pdf_page": 55,
+      "end_pdf_page": 55,
+      "markdown": "**和声**\n\n梅西安将这轮陈述联系到降E大调，旋律扩大到三度和更宽的音程。调性较明亮并不意味着下方道路音型已停止。\n\n**配器与织体**\n\n英国管接替双簧管，中提琴与大提琴保持流动，个别低音由木管和拨弦共同着色。\n\n**声部关系与复调**\n\n主句的较长呼吸与伴奏的连续八分音符相互覆盖；交接前后仍可追踪同一材料的身份。\n\n**曲式与主题发展**\n\n作为第二轮较宽陈述，与开头短句形成回答；Kilpatrick同时指出其与前材料共享下行五度等骨架。\n\n**听什么**\n\n英国管把句子拉长，仿佛暂时找到了方向；下面的脚步却没有得到终点。",
+      "html": "<p><strong>和声</strong></p>\n<p>梅西安将这轮陈述联系到降E大调，旋律扩大到三度和更宽的音程。调性较明亮并不意味着下方道路音型已停止。</p>\n<p><strong>配器与织体</strong></p>\n<p>英国管接替双簧管，中提琴与大提琴保持流动，个别低音由木管和拨弦共同着色。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>主句的较长呼吸与伴奏的连续八分音符相互覆盖；交接前后仍可追踪同一材料的身份。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>作为第二轮较宽陈述，与开头短句形成回答；Kilpatrick同时指出其与前材料共享下行五度等骨架。</p>\n<p><strong>听什么</strong></p>\n<p>英国管把句子拉长，仿佛暂时找到了方向；下面的脚步却没有得到终点。</p>\n",
+      "source_ids": [
+        "M05",
+        "K",
+        "A",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-II-d",
+      "movement": 5,
+      "title": "旧动机在固定低音上重新出发",
+      "start_measure_id": "ballet-5-m023",
+      "end_measure_id": "ballet-5-m026",
+      "start_sequence_index": 430,
+      "end_sequence_index": 433,
+      "start_seconds": 920.32,
+      "end_seconds": 930.1,
+      "start_pdf_page": 55,
+      "end_pdf_page": 55,
+      "markdown": "**和声**\n\nG持续低音支持第一类材料的回归；持续支点与上方半音化背景共同制造局部不稳定。\n\n**配器与织体**\n\n旋律由单簧管转交长笛，短促交替使前景颜色迅速变化。\n\n**声部关系与复调**\n\n固定低音、移动伴奏与旋律片段分别承担稳定、流动及陈述功能。\n\n**曲式与主题发展**\n\n既是开头材料的返回，也是下一轮增长的过渡；不能因为主题重现就提前宣告完整再现部。\n\n**听什么**\n\n认出熟悉的短句，看它怎样在不同木管之间接力并准备上行。",
+      "html": "<p><strong>和声</strong></p>\n<p>G持续低音支持第一类材料的回归；持续支点与上方半音化背景共同制造局部不稳定。</p>\n<p><strong>配器与织体</strong></p>\n<p>旋律由单簧管转交长笛，短促交替使前景颜色迅速变化。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>固定低音、移动伴奏与旋律片段分别承担稳定、流动及陈述功能。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>既是开头材料的返回，也是下一轮增长的过渡；不能因为主题重现就提前宣告完整再现部。</p>\n<p><strong>听什么</strong></p>\n<p>认出熟悉的短句，看它怎样在不同木管之间接力并准备上行。</p>\n",
+      "source_ids": [
+        "M05",
+        "A",
+        "D",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-II-e",
+      "movement": 5,
+      "title": "上行模进使迷途变得紧迫",
+      "start_measure_id": "ballet-5-m027",
+      "end_measure_id": "ballet-5-m039",
+      "start_sequence_index": 434,
+      "end_sequence_index": 446,
+      "start_seconds": 930.1,
+      "end_seconds": 957.82,
+      "start_pdf_page": 56,
+      "end_pdf_page": 56,
+      "markdown": "**和声**\n\n低音支点之上的半音化与模进逐步增加张力；33小节的C小调回归可按梅西安读作假再现，尚未恢复终局稳定。\n\n**配器与织体**\n\n弦乐推动增长，木管随后加入或加倍，力度与音区扩张共同形成高潮。\n\n**声部关系与复调**\n\n旋律线、切分内声与低声部保持不同节奏，局部的六度或八度加倍要与这些独立层分开。\n\n**曲式与主题发展**\n\n上行小细胞的重复、扩大与高潮后回落构成一轮推进。33–38还混合了前两类材料的特征，不必把每种表面变化命名为新主题。\n\n**听什么**\n\n听短小的上行动作怎样越推越高，再在高潮后重新回落到熟悉的道路。",
+      "html": "<p><strong>和声</strong></p>\n<p>低音支点之上的半音化与模进逐步增加张力；33小节的C小调回归可按梅西安读作假再现，尚未恢复终局稳定。</p>\n<p><strong>配器与织体</strong></p>\n<p>弦乐推动增长，木管随后加入或加倍，力度与音区扩张共同形成高潮。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>旋律线、切分内声与低声部保持不同节奏，局部的六度或八度加倍要与这些独立层分开。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>上行小细胞的重复、扩大与高潮后回落构成一轮推进。33–38还混合了前两类材料的特征，不必把每种表面变化命名为新主题。</p>\n<p><strong>听什么</strong></p>\n<p>听短小的上行动作怎样越推越高，再在高潮后重新回落到熟悉的道路。</p>\n",
+      "source_ids": [
+        "K",
+        "M05",
+        "A",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-II-f",
+      "movement": 5,
+      "title": "宽句返回但支点改变",
+      "start_measure_id": "ballet-5-m040",
+      "end_measure_id": "ballet-5-m050",
+      "start_sequence_index": 447,
+      "end_sequence_index": 457,
+      "start_seconds": 957.82,
+      "end_seconds": 979.8000000000001,
+      "start_pdf_page": 56,
+      "end_pdf_page": 57,
+      "markdown": "**和声**\n\n梅西安将第二类材料的这次返回置于降A区域。辨认相同旋律轮廓与改变的和声支撑，比仅按调名划界更能说明返回中的变化。\n\n**配器与织体**\n\n英国管重新居前，中低弦提供移动背景，高潮后的透明度恢复。\n\n**声部关系与复调**\n\n前景的长句和背景的连续运动继续并存；回到同类织体不表示每一条内声都照搬前段。\n\n**曲式与主题发展**\n\n较宽材料的第二轮呈现与12–22相互照应，为后面的鸟鸣场景留出反差。\n\n**听什么**\n\n英国管的声音再次带来暂时安定，同时听出它已落在新的和声光线中。",
+      "html": "<p><strong>和声</strong></p>\n<p>梅西安将第二类材料的这次返回置于降A区域。辨认相同旋律轮廓与改变的和声支撑，比仅按调名划界更能说明返回中的变化。</p>\n<p><strong>配器与织体</strong></p>\n<p>英国管重新居前，中低弦提供移动背景，高潮后的透明度恢复。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>前景的长句和背景的连续运动继续并存；回到同类织体不表示每一条内声都照搬前段。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>较宽材料的第二轮呈现与12–22相互照应，为后面的鸟鸣场景留出反差。</p>\n<p><strong>听什么</strong></p>\n<p>英国管的声音再次带来暂时安定，同时听出它已落在新的和声光线中。</p>\n",
+      "source_ids": [
+        "M05",
+        "A",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-II-g",
+      "movement": 5,
+      "title": "鸟鸣闯入原有织体",
+      "start_measure_id": "ballet-5-m051",
+      "end_measure_id": "ballet-5-m059",
+      "start_sequence_index": 458,
+      "end_sequence_index": 466,
+      "start_seconds": 979.8000000000001,
+      "end_seconds": 999.82,
+      "start_pdf_page": 57,
+      "end_pdf_page": 58,
+      "markdown": "**和声**\n\n持续音与较短的鸟鸣事件需要分开描述；滑音中间的离散XML音符不能直接当作每个瞬间都清楚发声的和弦成员。\n\n**配器与织体**\n\n独奏小提琴的泛音、滑音、颤音与短笛、长笛形成细碎音色；中低音旋律仍在延续。\n\n**声部关系与复调**\n\n装饰性鸟鸣与主要旋律背景处于不同层级，不因事件密集就认定严格模仿。\n\n**曲式与主题发展**\n\n这里改变了空间感和前景组织，随后继续增长再转入60小节。XML全局71、73即本曲51、53的独奏小提琴时值各短1/240四分音符，保持原样并在计算中采用共同小节时轴。\n\n**听什么**\n\n让耳朵暂时离开主旋律，听高处零散的鸟叫怎样遮蔽或打断道路的方向感。",
+      "html": "<p><strong>和声</strong></p>\n<p>持续音与较短的鸟鸣事件需要分开描述；滑音中间的离散XML音符不能直接当作每个瞬间都清楚发声的和弦成员。</p>\n<p><strong>配器与织体</strong></p>\n<p>独奏小提琴的泛音、滑音、颤音与短笛、长笛形成细碎音色；中低音旋律仍在延续。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>装饰性鸟鸣与主要旋律背景处于不同层级，不因事件密集就认定严格模仿。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>这里改变了空间感和前景组织，随后继续增长再转入60小节。XML全局71、73即本曲51、53的独奏小提琴时值各短1/240四分音符，保持原样并在计算中采用共同小节时轴。</p>\n<p><strong>听什么</strong></p>\n<p>让耳朵暂时离开主旋律，听高处零散的鸟叫怎样遮蔽或打断道路的方向感。</p>\n",
+      "source_ids": [
+        "M05",
+        "A",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-II-h",
+      "movement": 5,
+      "title": "同一旋律跨越两个八度",
+      "start_measure_id": "ballet-5-m060",
+      "end_measure_id": "ballet-5-m066",
+      "start_sequence_index": 467,
+      "end_sequence_index": 473,
+      "start_seconds": 999.82,
+      "end_seconds": 1015.24,
+      "start_pdf_page": 58,
+      "end_pdf_page": 58,
+      "markdown": "**和声**\n\nC小调材料回归，透明而分离的音区使原旋律更容易辨认；音区改变本身不构成转调。\n\n**配器与织体**\n\n短笛与独奏大提琴相隔两个八度，内声流动处于其间。\n\n**声部关系与复调**\n\n已核对60–63的音高、时值和入口：这是同时八度加倍的一条旋律，不是两次先后主题进入。64以后仍需逐段核查，不能把局部结果外推整段。\n\n**曲式与主题发展**\n\n梅西安将60视为主要回归点。与33的较早返回并列比较，可以说明假再现与后续恢复的不同作用。\n\n**听什么**\n\n试着把最高的短笛和较低的大提琴听成同一条相距很远的旋律。",
+      "html": "<p><strong>和声</strong></p>\n<p>C小调材料回归，透明而分离的音区使原旋律更容易辨认；音区改变本身不构成转调。</p>\n<p><strong>配器与织体</strong></p>\n<p>短笛与独奏大提琴相隔两个八度，内声流动处于其间。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>已核对60–63的音高、时值和入口：这是同时八度加倍的一条旋律，不是两次先后主题进入。64以后仍需逐段核查，不能把局部结果外推整段。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>梅西安将60视为主要回归点。与33的较早返回并列比较，可以说明假再现与后续恢复的不同作用。</p>\n<p><strong>听什么</strong></p>\n<p>试着把最高的短笛和较低的大提琴听成同一条相距很远的旋律。</p>\n",
+      "source_ids": [
+        "M05",
+        "A",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-II-i",
+      "movement": 5,
+      "title": "旋律逐步只留下骨架",
+      "start_measure_id": "ballet-5-m067",
+      "end_measure_id": "ballet-5-m074",
+      "start_sequence_index": 474,
+      "end_sequence_index": 481,
+      "start_seconds": 1015.24,
+      "end_seconds": 1032.1200000000001,
+      "start_pdf_page": 59,
+      "end_pdf_page": 59,
+      "markdown": "**和声**\n\nF上带色彩的和声与半音内声支撑较宽音程；梅西安强调五度、二度与四度的组合，不宜把这些旋律音程混同为单一和弦类别。\n\n**配器与织体**\n\n长笛旋律、圆号长音和弦乐活动层逐渐疏开，低音拨弦保持轻微步伐。\n\n**声部关系与复调**\n\n前景越来越简约，内声仍有运动，形成旋律减缩与背景延续的不同步。\n\n**曲式与主题发展**\n\nKilpatrick把这里理解为材料逐步剥离；Alexander则自拟“走出森林”的戏剧标签。后者不是乐谱给出的唯一情节。\n\n**听什么**\n\n听旋律怎样从完整句子退成几次相互衔接的较大跳进。",
+      "html": "<p><strong>和声</strong></p>\n<p>F上带色彩的和声与半音内声支撑较宽音程；梅西安强调五度、二度与四度的组合，不宜把这些旋律音程混同为单一和弦类别。</p>\n<p><strong>配器与织体</strong></p>\n<p>长笛旋律、圆号长音和弦乐活动层逐渐疏开，低音拨弦保持轻微步伐。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>前景越来越简约，内声仍有运动，形成旋律减缩与背景延续的不同步。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>Kilpatrick把这里理解为材料逐步剥离；Alexander则自拟“走出森林”的戏剧标签。后者不是乐谱给出的唯一情节。</p>\n<p><strong>听什么</strong></p>\n<p>听旋律怎样从完整句子退成几次相互衔接的较大跳进。</p>\n",
+      "source_ids": [
+        "M05",
+        "K",
+        "A",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-II-j",
+      "movement": 5,
+      "title": "道路延续到画面之外",
+      "start_measure_id": "ballet-5-m075",
+      "end_measure_id": "ballet-5-m079",
+      "start_sequence_index": 482,
+      "end_sequence_index": 486,
+      "start_seconds": 1032.1200000000001,
+      "end_seconds": 1045.18,
+      "start_pdf_page": 59,
+      "end_pdf_page": 59,
+      "markdown": "**和声**\n\n末尾的大三度改变收束的色彩，但开头的道路运动仍被回忆。结尾明暗与叙事情节不能简单一一对应。\n\n**配器与织体**\n\n加弱音器的弦乐回到前景，双簧管以短片段回应，终止音响由低弦等共同维持。\n\n**声部关系与复调**\n\n织体从人物旋律重新缩回背景；尾声的和声补色不构成新对位主题。\n\n**曲式与主题发展**\n\n与开头构成框架。梅西安强调最后的明亮一瞥，Kilpatrick强调绕行返回，可并列说明而不强制归一。\n\n**听什么**\n\n熟悉的脚步又出现了，结尾的一点明亮并没有抹去整段徘徊的记忆。",
+      "html": "<p><strong>和声</strong></p>\n<p>末尾的大三度改变收束的色彩，但开头的道路运动仍被回忆。结尾明暗与叙事情节不能简单一一对应。</p>\n<p><strong>配器与织体</strong></p>\n<p>加弱音器的弦乐回到前景，双簧管以短片段回应，终止音响由低弦等共同维持。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>织体从人物旋律重新缩回背景；尾声的和声补色不构成新对位主题。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>与开头构成框架。梅西安强调最后的明亮一瞥，Kilpatrick强调绕行返回，可并列说明而不强制归一。</p>\n<p><strong>听什么</strong></p>\n<p>熟悉的脚步又出现了，结尾的一点明亮并没有抹去整段徘徊的记忆。</p>\n",
+      "source_ids": [
+        "M05",
+        "K",
+        "A",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-III-a",
+      "movement": 6,
+      "title": "细小音响搭起新的世界",
+      "start_measure_id": "ballet-6-m001",
+      "end_measure_id": "ballet-6-m008",
+      "start_sequence_index": 487,
+      "end_sequence_index": 494,
+      "start_seconds": 1147.0,
+      "end_seconds": 1155.04,
+      "start_pdf_page": 64,
+      "end_pdf_page": 65,
+      "markdown": "**和声**\n\nF♯五声语汇先由缺省的局部音集与相邻二度显出；完整五声音阶是材料范围，不等于每一拍都出现五个音。\n\n**配器与织体**\n\n短小线条拆到木管、拨弦与键盘色彩之间；短发音与持续或震音背景相互衬托。\n\n**声部关系与复调**\n\n线条被分配给多种乐器，仍可能只构成接力的一层；先区分分配与独立旋律。\n\n**曲式与主题发展**\n\n八小节引入建立音色与音型，9小节才出现较完整的快旋律。这里采用管弦乐本地编号。\n\n**听什么**\n\n先听零碎的音色互相闪现，再等待高处的连续旋律成形。",
+      "html": "<p><strong>和声</strong></p>\n<p>F♯五声语汇先由缺省的局部音集与相邻二度显出；完整五声音阶是材料范围，不等于每一拍都出现五个音。</p>\n<p><strong>配器与织体</strong></p>\n<p>短小线条拆到木管、拨弦与键盘色彩之间；短发音与持续或震音背景相互衬托。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>线条被分配给多种乐器，仍可能只构成接力的一层；先区分分配与独立旋律。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>八小节引入建立音色与音型，9小节才出现较完整的快旋律。这里采用管弦乐本地编号。</p>\n<p><strong>听什么</strong></p>\n<p>先听零碎的音色互相闪现，再等待高处的连续旋律成形。</p>\n",
+      "source_ids": [
+        "A",
+        "M05",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-III-b",
+      "movement": 6,
+      "title": "短笛把五声材料织成花纹",
+      "start_measure_id": "ballet-6-m009",
+      "end_measure_id": "ballet-6-m023",
+      "start_sequence_index": 495,
+      "end_sequence_index": 509,
+      "start_seconds": 1155.04,
+      "end_seconds": 1170.66,
+      "start_pdf_page": 65,
+      "end_pdf_page": 67,
+      "markdown": "**和声**\n\n短笛开头实际包含F♯、D♯、C♯、A♯等音；以F♯为支点的五声框架解释连贯性，局部非集合音另看其位置。\n\n**配器与织体**\n\n短笛主奏，后段由长笛接续，轻盈伴奏保持透明。\n\n**声部关系与复调**\n\n快速装饰、背景音型与和声支点分层；不能把每个高音型都认作另一主题。\n\n**曲式与主题发展**\n\n两轮相关陈述把同一材料向不同方向打开。Kilpatrick据钢琴版提出F♯–C♯–D♯骨架，此处保留为取音归约模型，不冒充全部攻击顺序。\n\n**听什么**\n\n在快速花纹中抓住几个反复回来的支点，而不必追逐每颗装饰音。",
+      "html": "<p><strong>和声</strong></p>\n<p>短笛开头实际包含F♯、D♯、C♯、A♯等音；以F♯为支点的五声框架解释连贯性，局部非集合音另看其位置。</p>\n<p><strong>配器与织体</strong></p>\n<p>短笛主奏，后段由长笛接续，轻盈伴奏保持透明。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>快速装饰、背景音型与和声支点分层；不能把每个高音型都认作另一主题。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>两轮相关陈述把同一材料向不同方向打开。Kilpatrick据钢琴版提出F♯–C♯–D♯骨架，此处保留为取音归约模型，不冒充全部攻击顺序。</p>\n<p><strong>听什么</strong></p>\n<p>在快速花纹中抓住几个反复回来的支点，而不必追逐每颗装饰音。</p>\n",
+      "source_ids": [
+        "M05",
+        "K",
+        "A",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-III-c",
+      "movement": 6,
+      "title": "短促合奏造成体积反差",
+      "start_measure_id": "ballet-6-m024",
+      "end_measure_id": "ballet-6-m031",
+      "start_sequence_index": 510,
+      "end_sequence_index": 517,
+      "start_seconds": 1170.66,
+      "end_seconds": 1178.92,
+      "start_pdf_page": 67,
+      "end_pdf_page": 68,
+      "markdown": "**和声**\n\n相邻二度和较厚的垂直音响强调撞击感；应以实际同时窗分辨音集，不把前后音型相加成一个和弦。\n\n**配器与织体**\n\n高音木管、键盘打击色彩与中低音加倍短时汇聚，再迅速退弱，形成大小悬殊的听觉反差。\n\n**声部关系与复调**\n\n大部分新增乐器加强既有线或和声层，厚度增长不等于复调密度同比增加。\n\n**曲式与主题发展**\n\n短小合奏插段分隔两组材料。Alexander的角色命名可作教学比喻，不能当作拉威尔指定的场景动作。\n\n**听什么**\n\n注意微小世界怎样忽然变得响亮，又立刻收回原先的尺寸。",
+      "html": "<p><strong>和声</strong></p>\n<p>相邻二度和较厚的垂直音响强调撞击感；应以实际同时窗分辨音集，不把前后音型相加成一个和弦。</p>\n<p><strong>配器与织体</strong></p>\n<p>高音木管、键盘打击色彩与中低音加倍短时汇聚，再迅速退弱，形成大小悬殊的听觉反差。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>大部分新增乐器加强既有线或和声层，厚度增长不等于复调密度同比增加。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>短小合奏插段分隔两组材料。Alexander的角色命名可作教学比喻，不能当作拉威尔指定的场景动作。</p>\n<p><strong>听什么</strong></p>\n<p>注意微小世界怎样忽然变得响亮，又立刻收回原先的尺寸。</p>\n",
+      "source_ids": [
+        "A",
+        "M05",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-III-d",
+      "movement": 6,
+      "title": "木管接力与半音内声",
+      "start_measure_id": "ballet-6-m032",
+      "end_measure_id": "ballet-6-m055",
+      "start_sequence_index": 518,
+      "end_sequence_index": 541,
+      "start_seconds": 1178.92,
+      "end_seconds": 1204.18,
+      "start_pdf_page": 68,
+      "end_pdf_page": 71,
+      "markdown": "**和声**\n\n文献区分C♯多利亚、B大调、全音与半音内声等局部语汇；它们说明材料转换的几种层次，不应强行统一成一种调式。\n\n**配器与织体**\n\n旋律从双簧管经长笛到英国管，交换愈发紧密；乐器换色与旋律连续性同时成立。\n\n**声部关系与复调**\n\n46附近的半音内声与上层旋律分开追踪。跨曲相似的摇摆音型可作为比较线索，主题身份需要额外证据。\n\n**曲式与主题发展**\n\n多次短陈述与评论构成局部链条，为56之后的增长积累动能；这一大段含多个次级边界。\n\n**听什么**\n\n沿同一条旋律追踪换乐器的瞬间，再留意里面缓慢摆动的半音。",
+      "html": "<p><strong>和声</strong></p>\n<p>文献区分C♯多利亚、B大调、全音与半音内声等局部语汇；它们说明材料转换的几种层次，不应强行统一成一种调式。</p>\n<p><strong>配器与织体</strong></p>\n<p>旋律从双簧管经长笛到英国管，交换愈发紧密；乐器换色与旋律连续性同时成立。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>46附近的半音内声与上层旋律分开追踪。跨曲相似的摇摆音型可作为比较线索，主题身份需要额外证据。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>多次短陈述与评论构成局部链条，为56之后的增长积累动能；这一大段含多个次级边界。</p>\n<p><strong>听什么</strong></p>\n<p>沿同一条旋律追踪换乐器的瞬间，再留意里面缓慢摆动的半音。</p>\n",
+      "source_ids": [
+        "M05",
+        "A",
+        "K",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-III-e",
+      "movement": 6,
+      "title": "高音色彩逐步聚合",
+      "start_measure_id": "ballet-6-m056",
+      "end_measure_id": "ballet-6-m068",
+      "start_sequence_index": 542,
+      "end_sequence_index": 554,
+      "start_seconds": 1204.18,
+      "end_seconds": 1217.1,
+      "start_pdf_page": 72,
+      "end_pdf_page": 73,
+      "markdown": "**和声**\n\n五声材料与带E自然音的局部色彩可以先后或分层出现，不能把全段平均成纯F♯大调。\n\n**配器与织体**\n\n木琴、钢片琴与高音木管汇聚，中音区拨弦提供轮廓；加倍和渐强共同扩大音响。\n\n**声部关系与复调**\n\n若干乐器按八度或同节奏合为共同前景，背景保持不同发音；这是音色组合问题，未据此认证严格卡农。\n\n**曲式与主题发展**\n\n这里是向慢性格区域的增长与转折。钢琴文献的65小节不能直接替代本管弦乐版的69等地标。\n\n**听什么**\n\n听高处的线条怎样逐渐由一种颜色变成多种颜色叠合的整体。",
+      "html": "<p><strong>和声</strong></p>\n<p>五声材料与带E自然音的局部色彩可以先后或分层出现，不能把全段平均成纯F♯大调。</p>\n<p><strong>配器与织体</strong></p>\n<p>木琴、钢片琴与高音木管汇聚，中音区拨弦提供轮廓；加倍和渐强共同扩大音响。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>若干乐器按八度或同节奏合为共同前景，背景保持不同发音；这是音色组合问题，未据此认证严格卡农。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>这里是向慢性格区域的增长与转折。钢琴文献的65小节不能直接替代本管弦乐版的69等地标。</p>\n<p><strong>听什么</strong></p>\n<p>听高处的线条怎样逐渐由一种颜色变成多种颜色叠合的整体。</p>\n",
+      "source_ids": [
+        "A",
+        "M05",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-III-f",
+      "movement": 6,
+      "title": "长音把快速花纹压缩成轮廓",
+      "start_measure_id": "ballet-6-m069",
+      "end_measure_id": "ballet-6-m082",
+      "start_sequence_index": 555,
+      "end_sequence_index": 568,
+      "start_seconds": 1217.1,
+      "end_seconds": 1233.18,
+      "start_pdf_page": 73,
+      "end_pdf_page": 75,
+      "markdown": "**和声**\n\nF♯、C♯、D♯等支点以更长时值呈现，音集相近而时间组织完全改变；不能因材料相同就忽略和声经过与低音配置。\n\n**配器与织体**\n\n木管与圆号的持续音形成宽阔前景，竖琴、钢片琴等接续或补充其色彩。\n\n**声部关系与复调**\n\n已核查70–76长笛与钢片琴低谱表的局部同度对应；同时加倍应与后文错开进入分开。\n\n**曲式与主题发展**\n\nAlexander称这里为号角性插段，Kilpatrick的剥离模型可解释快花纹与慢轮廓的关系；二者采用不同分段目的。\n\n**听什么**\n\n把现在的长音当成前面快速花纹被放大后的轮廓来听。",
+      "html": "<p><strong>和声</strong></p>\n<p>F♯、C♯、D♯等支点以更长时值呈现，音集相近而时间组织完全改变；不能因材料相同就忽略和声经过与低音配置。</p>\n<p><strong>配器与织体</strong></p>\n<p>木管与圆号的持续音形成宽阔前景，竖琴、钢片琴等接续或补充其色彩。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>已核查70–76长笛与钢片琴低谱表的局部同度对应；同时加倍应与后文错开进入分开。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>Alexander称这里为号角性插段，Kilpatrick的剥离模型可解释快花纹与慢轮廓的关系；二者采用不同分段目的。</p>\n<p><strong>听什么</strong></p>\n<p>把现在的长音当成前面快速花纹被放大后的轮廓来听。</p>\n",
+      "source_ids": [
+        "A",
+        "K",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-III-g",
+      "movement": 6,
+      "title": "低处的旋律与错开的回应",
+      "start_measure_id": "ballet-6-m083",
+      "end_measure_id": "ballet-6-m108",
+      "start_sequence_index": 569,
+      "end_sequence_index": 594,
+      "start_seconds": 1233.18,
+      "end_seconds": 1263.38,
+      "start_pdf_page": 75,
+      "end_pdf_page": 76,
+      "markdown": "**和声**\n\n低音区仍保留五声支点，持续音改变段落的重心。不要以单簧管的移调记谱音直接判断实音调性。\n\n**配器与织体**\n\nA调单簧管在低音区突出，钢片琴后来于更高音区参与，低沉与清亮之间有明显距离。\n\n**声部关系与复调**\n\n93小节钢片琴F♯–C♯–D♯的进入与此前低声部材料可作模仿候选。当前只确认入口与音高次序，完整卡农的延迟、全句节奏及例外仍待逐段核对。\n\n**曲式与主题发展**\n\n慢性格区域继续展开，后续进入形成内部层次；不能用文献钢琴编号自动生成这一版的精确对应。\n\n**听什么**\n\n记住低处的三个支点，再听清亮的钢片琴怎样从另一层空间回应。",
+      "html": "<p><strong>和声</strong></p>\n<p>低音区仍保留五声支点，持续音改变段落的重心。不要以单簧管的移调记谱音直接判断实音调性。</p>\n<p><strong>配器与织体</strong></p>\n<p>A调单簧管在低音区突出，钢片琴后来于更高音区参与，低沉与清亮之间有明显距离。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>93小节钢片琴F♯–C♯–D♯的进入与此前低声部材料可作模仿候选。当前只确认入口与音高次序，完整卡农的延迟、全句节奏及例外仍待逐段核对。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>慢性格区域继续展开，后续进入形成内部层次；不能用文献钢琴编号自动生成这一版的精确对应。</p>\n<p><strong>听什么</strong></p>\n<p>记住低处的三个支点，再听清亮的钢片琴怎样从另一层空间回应。</p>\n",
+      "source_ids": [
+        "A",
+        "M05",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-III-h",
+      "movement": 6,
+      "title": "抒情线从较平静的背景升起",
+      "start_measure_id": "ballet-6-m109",
+      "end_measure_id": "ballet-6-m136",
+      "start_sequence_index": 595,
+      "end_sequence_index": 622,
+      "start_seconds": 1263.38,
+      "end_seconds": 1294.42,
+      "start_pdf_page": 76,
+      "end_pdf_page": 77,
+      "markdown": "**和声**\n\n持续支点与平行和声层支持新的抒情轮廓；文献的D♯属持续音及平行和弦读法保留在钢琴版语境，需按管弦乐实际窗核对后才可逐点使用。\n\n**配器与织体**\n\n较柔和的独奏音色替代先前的合奏轮廓，键盘与竖琴把背景分开为细小层次。\n\n**声部关系与复调**\n\n旋律的长线、内层平行运动及低音持续各有职责；分解和声不等于持续存在的同一垂直和弦。\n\n**曲式与主题发展**\n\n可作为慢区的评论性段落。与第一曲材料的联系是文献提出的动机比较，不预设为已经证实的完整主题引用。\n\n**听什么**\n\n听旋律从明亮的装饰转成更长的呼吸，背景仍在轻轻变化。",
+      "html": "<p><strong>和声</strong></p>\n<p>持续支点与平行和声层支持新的抒情轮廓；文献的D♯属持续音及平行和弦读法保留在钢琴版语境，需按管弦乐实际窗核对后才可逐点使用。</p>\n<p><strong>配器与织体</strong></p>\n<p>较柔和的独奏音色替代先前的合奏轮廓，键盘与竖琴把背景分开为细小层次。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>旋律的长线、内层平行运动及低音持续各有职责；分解和声不等于持续存在的同一垂直和弦。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>可作为慢区的评论性段落。与第一曲材料的联系是文献提出的动机比较，不预设为已经证实的完整主题引用。</p>\n<p><strong>听什么</strong></p>\n<p>听旋律从明亮的装饰转成更长的呼吸，背景仍在轻轻变化。</p>\n",
+      "source_ids": [
+        "A",
+        "M05",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-III-i",
+      "movement": 6,
+      "title": "旧材料开始重新组合",
+      "start_measure_id": "ballet-6-m137",
+      "end_measure_id": "ballet-6-m164",
+      "start_sequence_index": 623,
+      "end_sequence_index": 650,
+      "start_seconds": 1294.42,
+      "end_seconds": 1322.24,
+      "start_pdf_page": 77,
+      "end_pdf_page": 81,
+      "markdown": "**和声**\n\n五声支点继续维持统一性，局部半音和声与装饰依照各自入口分析；共享音集不使所有材料承担相同结构功能。\n\n**配器与织体**\n\n低声部回忆与上方快材料并置，独奏和短合奏交替恢复前部的活跃度。\n\n**声部关系与复调**\n\n可讨论快慢材料在不同层次的并置，完整同现范围仍以事件表和实际谱面为依据，不宣称整段严格双主题对位。\n\n**曲式与主题发展**\n\n梅西安的两主题组合再现与Alexander的角色段落表可并列使用，但钢琴版133与本版段界不自动同号。\n\n**听什么**\n\n留意快的花纹回来时，低处是否仍保留刚才较慢的记忆。",
+      "html": "<p><strong>和声</strong></p>\n<p>五声支点继续维持统一性，局部半音和声与装饰依照各自入口分析；共享音集不使所有材料承担相同结构功能。</p>\n<p><strong>配器与织体</strong></p>\n<p>低声部回忆与上方快材料并置，独奏和短合奏交替恢复前部的活跃度。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>可讨论快慢材料在不同层次的并置，完整同现范围仍以事件表和实际谱面为依据，不宣称整段严格双主题对位。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>梅西安的两主题组合再现与Alexander的角色段落表可并列使用，但钢琴版133与本版段界不自动同号。</p>\n<p><strong>听什么</strong></p>\n<p>留意快的花纹回来时，低处是否仍保留刚才较慢的记忆。</p>\n",
+      "source_ids": [
+        "A",
+        "M05",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-III-j",
+      "movement": 6,
+      "title": "熟悉的音色链条走向终止",
+      "start_measure_id": "ballet-6-m165",
+      "end_measure_id": "ballet-6-m204",
+      "start_sequence_index": 651,
+      "end_sequence_index": 690,
+      "start_seconds": 1322.24,
+      "end_seconds": 1361.58,
+      "start_pdf_page": 81,
+      "end_pdf_page": 86,
+      "markdown": "**和声**\n\n最终的五声性终止可按含六音、九音的主和弦读法理解；具体同时音集与经过装饰分开记录，不把整段集合说成持续和弦。\n\n**配器与织体**\n\n短笛、长笛、英国管和键盘打击色彩接续，最后以紧凑的合奏收拢。\n\n**声部关系与复调**\n\n反复的旋律角色与音色加倍交织；快速入口多不等于每次都产生独立主题。\n\n**曲式与主题发展**\n\n189–201恢复较早的合奏材料，202–204形成短尾声。整曲204小节与钢琴版文献的差异单列，留待专门版次对照。\n\n**听什么**\n\n沿已经熟悉的换色顺序辨认返回，再听最后几个和声怎样把微型世界收起来。",
+      "html": "<p><strong>和声</strong></p>\n<p>最终的五声性终止可按含六音、九音的主和弦读法理解；具体同时音集与经过装饰分开记录，不把整段集合说成持续和弦。</p>\n<p><strong>配器与织体</strong></p>\n<p>短笛、长笛、英国管和键盘打击色彩接续，最后以紧凑的合奏收拢。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>反复的旋律角色与音色加倍交织；快速入口多不等于每次都产生独立主题。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>189–201恢复较早的合奏材料，202–204形成短尾声。整曲204小节与钢琴版文献的差异单列，留待专门版次对照。</p>\n<p><strong>听什么</strong></p>\n<p>沿已经熟悉的换色顺序辨认返回，再听最后几个和声怎样把微型世界收起来。</p>\n",
+      "source_ids": [
+        "A",
+        "M05",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-V-a",
+      "movement": 7,
+      "title": "缓慢弦乐把终曲置于内心",
+      "start_measure_id": "ballet-7-m001",
+      "end_measure_id": "ballet-7-m013",
+      "start_sequence_index": 691,
+      "end_sequence_index": 703,
+      "start_seconds": 1448.8,
+      "end_seconds": 1497.58,
+      "start_pdf_page": 91,
+      "end_pdf_page": 92,
+      "markdown": "**和声**\n\nC是整体中心，但长线与二度、七度、九度等垂直关系使音响并非连续纯三和弦。第一小节先有C、E等支撑，旋律D在第二拍进入，不能把整小节集合当作起始和弦。\n\n**配器与织体**\n\n弱奏弦乐以较集中的中音区铺开，低音提琴开头并非一直参与。\n\n**声部关系与复调**\n\n上层旋律、内声延留和低音各自移动；四声部式听觉组织与XML导出的多份分奏分部不是同一计数。\n\n**曲式与主题发展**\n\n缓慢开端与第一曲的停驻感构成外部框架，二度、四度的联系由文献作为跨曲模型提出。\n\n**听什么**\n\n先听弦乐长线怎样缓慢展开，再注意旋律与低音并不总朝同一方向。",
+      "html": "<p><strong>和声</strong></p>\n<p>C是整体中心，但长线与二度、七度、九度等垂直关系使音响并非连续纯三和弦。第一小节先有C、E等支撑，旋律D在第二拍进入，不能把整小节集合当作起始和弦。</p>\n<p><strong>配器与织体</strong></p>\n<p>弱奏弦乐以较集中的中音区铺开，低音提琴开头并非一直参与。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>上层旋律、内声延留和低音各自移动；四声部式听觉组织与XML导出的多份分奏分部不是同一计数。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>缓慢开端与第一曲的停驻感构成外部框架，二度、四度的联系由文献作为跨曲模型提出。</p>\n<p><strong>听什么</strong></p>\n<p>先听弦乐长线怎样缓慢展开，再注意旋律与低音并不总朝同一方向。</p>\n",
+      "source_ids": [
+        "M05",
+        "A",
+        "K",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-V-b",
+      "movement": 7,
+      "title": "上行材料在乐队中逐次展开",
+      "start_measure_id": "ballet-7-m014",
+      "end_measure_id": "ballet-7-m022",
+      "start_sequence_index": 704,
+      "end_sequence_index": 712,
+      "start_seconds": 1497.58,
+      "end_seconds": 1526.6799999999998,
+      "start_pdf_page": 92,
+      "end_pdf_page": 92,
+      "markdown": "**和声**\n\n上行过程改变局部调式与低音支点，梅西安将它联系到E区域。逐拍的和声变换与跨句的方向感需要分层描述。\n\n**配器与织体**\n\n旋律在中提琴、大提琴与木管等之间移动，再由更厚的弦木管组合支撑。\n\n**声部关系与复调**\n\n材料先后进入与同时八度加倍都存在；模仿关系需按入口延迟与旋律证据认定，不用乐器数代替。\n\n**曲式与主题发展**\n\n第一轮上升既扩展开头，也将音区推向中央段；它不是最终高潮的提前复制。\n\n**听什么**\n\n跟着上行的短形状换乐器，听它怎样从内部逐步撑开整个乐队。",
+      "html": "<p><strong>和声</strong></p>\n<p>上行过程改变局部调式与低音支点，梅西安将它联系到E区域。逐拍的和声变换与跨句的方向感需要分层描述。</p>\n<p><strong>配器与织体</strong></p>\n<p>旋律在中提琴、大提琴与木管等之间移动，再由更厚的弦木管组合支撑。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>材料先后进入与同时八度加倍都存在；模仿关系需按入口延迟与旋律证据认定，不用乐器数代替。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>第一轮上升既扩展开头，也将音区推向中央段；它不是最终高潮的提前复制。</p>\n<p><strong>听什么</strong></p>\n<p>跟着上行的短形状换乐器，听它怎样从内部逐步撑开整个乐队。</p>\n",
+      "source_ids": [
+        "M05",
+        "A",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-V-c",
+      "movement": 7,
+      "title": "高音独奏与分解背景分离",
+      "start_measure_id": "ballet-7-m023",
+      "end_measure_id": "ballet-7-m035",
+      "start_sequence_index": 713,
+      "end_sequence_index": 725,
+      "start_seconds": 1526.6799999999998,
+      "end_seconds": 1565.7,
+      "start_pdf_page": 93,
+      "end_pdf_page": 94,
+      "markdown": "**和声**\n\nE区域及其调式变化、分解和弦与较长旋律并存。梅西安分别提出多利亚、混合利底亚等局部读法，不能把整段混成一种固定音阶。\n\n**配器与织体**\n\n独奏小提琴与钢片琴在高处相配，部分位置有独奏中提琴的八度支撑；竖琴和高音木管组织透明背景。\n\n**声部关系与复调**\n\n主线与背景的入口、时值不同。分解和声的音不能在尚未发声时提前算入垂直和弦。\n\n**曲式与主题发展**\n\n中央段通过音区与奏法形成新视角，长线仍与此前材料有联系。不同配器段界不必等于新的主题边界。\n\n**听什么**\n\n听高处旋律怎样悬在竖琴和木管之上，让前景与背景保持不同的呼吸。",
+      "html": "<p><strong>和声</strong></p>\n<p>E区域及其调式变化、分解和弦与较长旋律并存。梅西安分别提出多利亚、混合利底亚等局部读法，不能把整段混成一种固定音阶。</p>\n<p><strong>配器与织体</strong></p>\n<p>独奏小提琴与钢片琴在高处相配，部分位置有独奏中提琴的八度支撑；竖琴和高音木管组织透明背景。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>主线与背景的入口、时值不同。分解和声的音不能在尚未发声时提前算入垂直和弦。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>中央段通过音区与奏法形成新视角，长线仍与此前材料有联系。不同配器段界不必等于新的主题边界。</p>\n<p><strong>听什么</strong></p>\n<p>听高处旋律怎样悬在竖琴和木管之上，让前景与背景保持不同的呼吸。</p>\n",
+      "source_ids": [
+        "M05",
+        "A",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-V-d",
+      "movement": 7,
+      "title": "上升反而把声音带远",
+      "start_measure_id": "ballet-7-m036",
+      "end_measure_id": "ballet-7-m039",
+      "start_sequence_index": 726,
+      "end_sequence_index": 729,
+      "start_seconds": 1565.7,
+      "end_seconds": 1582.2,
+      "start_pdf_page": 95,
+      "end_pdf_page": 95,
+      "markdown": "**和声**\n\n音阶性上升伴随分解音响向两端展开，动态却减弱；音高上升不自动表示张力或力度增加。\n\n**配器与织体**\n\n旋律在木管和弦乐间转移，透明度增加，为返回留出空间。\n\n**声部关系与复调**\n\n线条扩展与渐弱共同作用，声部之间可有交接，不能以最高音瞬间更换自动推断主旋律身份。\n\n**曲式与主题发展**\n\n它是中央区向40小节附近回归的连接，不必独立命名为完整发展部。\n\n**听什么**\n\n留意越往高处，声音却越像退到远处，形成与一般渐强上行不同的效果。",
+      "html": "<p><strong>和声</strong></p>\n<p>音阶性上升伴随分解音响向两端展开，动态却减弱；音高上升不自动表示张力或力度增加。</p>\n<p><strong>配器与织体</strong></p>\n<p>旋律在木管和弦乐间转移，透明度增加，为返回留出空间。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>线条扩展与渐弱共同作用，声部之间可有交接，不能以最高音瞬间更换自动推断主旋律身份。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>它是中央区向40小节附近回归的连接，不必独立命名为完整发展部。</p>\n<p><strong>听什么</strong></p>\n<p>留意越往高处，声音却越像退到远处，形成与一般渐强上行不同的效果。</p>\n",
+      "source_ids": [
+        "M05",
+        "A",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-V-e",
+      "movement": 7,
+      "title": "调性返回与钟声式积累",
+      "start_measure_id": "ballet-7-m040",
+      "end_measure_id": "ballet-7-m049",
+      "start_sequence_index": 730,
+      "end_sequence_index": 739,
+      "start_seconds": 1582.2,
+      "end_seconds": 1619.6399999999999,
+      "start_pdf_page": 95,
+      "end_pdf_page": 96,
+      "markdown": "**和声**\n\nC区域恢复后，F–C等持续支撑参与后续上升；梅西安将此称为调性的返回，未必是开头主题原样再现。\n\n**配器与织体**\n\n弦乐多音区与木管加倍逐渐扩大，圆号的钟声式节奏从内部显出。没有小号或长号，仍能形成有力的庆典轮廓。\n\n**声部关系与复调**\n\n先后上升、八度加倍和持续低层分别描述。局部模仿与和声化线条可同时存在，不互相排斥。\n\n**曲式与主题发展**\n\n第二轮上升朝50小节终局推进；跨曲二度、四度联系在这里被集中唤回。\n\n**听什么**\n\n听旋律一层层升高，圆号的钟声式音型怎样从背景变成庆典的一部分。",
+      "html": "<p><strong>和声</strong></p>\n<p>C区域恢复后，F–C等持续支撑参与后续上升；梅西安将此称为调性的返回，未必是开头主题原样再现。</p>\n<p><strong>配器与织体</strong></p>\n<p>弦乐多音区与木管加倍逐渐扩大，圆号的钟声式节奏从内部显出。没有小号或长号，仍能形成有力的庆典轮廓。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>先后上升、八度加倍和持续低层分别描述。局部模仿与和声化线条可同时存在，不互相排斥。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>第二轮上升朝50小节终局推进；跨曲二度、四度联系在这里被集中唤回。</p>\n<p><strong>听什么</strong></p>\n<p>听旋律一层层升高，圆号的钟声式音型怎样从背景变成庆典的一部分。</p>\n",
+      "source_ids": [
+        "M05",
+        "K",
+        "A",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    },
+    {
+      "annotation_id": "ballet-V-f",
+      "movement": 7,
+      "title": "有限编制形成最后的辉光",
+      "start_measure_id": "ballet-7-m050",
+      "end_measure_id": "ballet-7-m056",
+      "start_sequence_index": 740,
+      "end_sequence_index": 746,
+      "start_seconds": 1619.6399999999999,
+      "end_seconds": 1635.78,
+      "start_pdf_page": 97,
+      "end_pdf_page": 98,
+      "markdown": "**和声**\n\nC的终局支点以开放音区和色彩音型铺开；持续主音、上层和声与装饰分开记，竖琴、钢片琴滑奏不能按离散XML音符穷尽实响。\n\n**配器与织体**\n\n木管、钟琴、钢片琴、竖琴及弦乐震音汇成复合效果，力度与配器共同完成扩张。编制里没有小号、长号和大号。\n\n**声部关系与复调**\n\n多件乐器在同一辉光层中融合；有独立记谱分部，不代表每一部都作为可辨的复调旋律出现。\n\n**曲式与主题发展**\n\nAlexander的庆典性结尾、梅西安的内心花园与Kilpatrick的叙事结束读法可以并列。音符证据支持音响如何汇聚，不能独自裁定唯一隐喻。\n\n**听什么**\n\n在最后的辉光中辨认钟声、滑奏与长线，听它们怎样汇到共同的终点。",
+      "html": "<p><strong>和声</strong></p>\n<p>C的终局支点以开放音区和色彩音型铺开；持续主音、上层和声与装饰分开记，竖琴、钢片琴滑奏不能按离散XML音符穷尽实响。</p>\n<p><strong>配器与织体</strong></p>\n<p>木管、钟琴、钢片琴、竖琴及弦乐震音汇成复合效果，力度与配器共同完成扩张。编制里没有小号、长号和大号。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>多件乐器在同一辉光层中融合；有独立记谱分部，不代表每一部都作为可辨的复调旋律出现。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>Alexander的庆典性结尾、梅西安的内心花园与Kilpatrick的叙事结束读法可以并列。音符证据支持音响如何汇聚，不能独自裁定唯一隐喻。</p>\n<p><strong>听什么</strong></p>\n<p>在最后的辉光中辨认钟声、滑奏与长线，听它们怎样汇到共同的终点。</p>\n",
+      "source_ids": [
+        "M05",
+        "K",
+        "A",
+        "B"
+      ],
+      "review_status": "agent_revised_human_pending",
+      "locator_precision": "bar_sequence_candidate"
+    }
+  ],
+  "movement_essays": [],
+  "navigation_mode": "bar_sequence_candidate",
+  "event_candidates": [],
+  "references": [
+    {
+      "source_id": "S",
+      "title": "Ma mère l’Oye — 5 pièces enfantines，管弦乐总谱",
+      "citation_label": "Ma mère l’Oye — 5 pièces enfantines，管弦乐总谱",
+      "kind": "research_article",
+      "reading_status": "relevant_sections_checked",
+      "reading_note": "全谱缩略图确认乐章页界；关键页图像抽查；版本、编制、主题位置与关键奏法；没有生成全谱逐小节框",
+      "urls": [],
+      "html": "<p>Ma mère l’Oye — 5 pièces enfantines，管弦乐总谱</p>\n<p>全谱缩略图确认乐章页界；关键页图像抽查</p>\n",
+      "verification_evidence": "全谱缩略图确认乐章页界；关键页图像抽查"
+    },
+    {
+      "source_id": "X",
+      "title": "Ma mère l’Oye，用户提供MusicXML",
+      "citation_label": "Ma mère l’Oye，用户提供MusicXML",
+      "kind": "research_article",
+      "reading_status": "relevant_sections_checked",
+      "reading_note": "全文件结构与音符解析；代理局部核对；五曲组曲的主要候选符号来源；不是校勘版",
+      "urls": [],
+      "html": "<p>Ma mère l’Oye，用户提供MusicXML</p>\n<p>全文件结构与音符解析；代理局部核对</p>\n",
+      "verification_evidence": "全文件结构与音符解析；代理局部核对"
+    },
+    {
+      "source_id": "M05",
+      "title": "Analyses of the Piano Works of Maurice Ravel",
+      "citation_label": "Analyses of the Piano Works of Maurice Ravel",
+      "kind": "book",
+      "reading_status": "relevant_sections_checked",
+      "reading_note": "相关章节文字阅读及关键谱例抽查；不是整本阅读；调式、动机、分段及解释；钢琴版编号单独保存",
+      "urls": [
+        "https://www.halleonard.com/product/50564763/analyses-of-the-piano-works-of-maurice-ravel"
+      ],
+      "html": "<p>Analyses of the Piano Works of Maurice Ravel</p>\n<p>相关章节文字阅读及关键谱例抽查；不是整本阅读</p>\n",
+      "verification_evidence": "相关章节文字阅读及关键谱例抽查；不是整本阅读"
+    },
+    {
+      "source_id": "K",
+      "title": "‘Therein Lies a Tale’: Musical and Literary Structure in Ravel’s Ma mère l’Oye",
+      "citation_label": "‘Therein Lies a Tale’: Musical and Literary Structure in Ravel’s Ma mère l’Oye",
+      "kind": "research_article",
+      "reading_status": "relevant_sections_checked",
+      "reading_note": "相关段落阅读；未宣称全文逐字核验；精简写法、动机关系、童话叙事与五曲整体框架",
+      "urls": [
+        "https://cpb-ap-se2.wpmucdn.com/blogs.unimelb.edu.au/dist/6/184/files/2016/09/34_Kilpatrick-246zr6w.pdf"
+      ],
+      "html": "<p>‘Therein Lies a Tale’: Musical and Literary Structure in Ravel’s Ma mère l’Oye</p>\n<p>相关段落阅读；未宣称全文逐字核验</p>\n",
+      "verification_evidence": "相关段落阅读；未宣称全文逐字核验"
+    },
+    {
+      "source_id": "D",
+      "title": "An Analysis and Comparison of the Original Piano Duet and the Orchestral Version of Maurice Ravel’s Ma Mère L’Oye",
+      "citation_label": "An Analysis and Comparison of the Original Piano Duet and the Orchestral Version of Maurice Ravel’s Ma Mère L’Oye",
+      "kind": "research_article",
+      "reading_status": "relevant_sections_checked",
+      "reading_note": "目录、绪论与相关章节选读；版本比较方法，第一、二曲曲式与换拍讨论",
+      "urls": [
+        "https://hdl.handle.net/2144/11268"
+      ],
+      "html": "<p>An Analysis and Comparison of the Original Piano Duet and the Orchestral Version of Maurice Ravel’s Ma Mère L’Oye</p>\n<p>目录、绪论与相关章节选读</p>\n",
+      "verification_evidence": "目录、绪论与相关章节选读"
+    },
+    {
+      "source_id": "A",
+      "title": "How Ravel Orchestrated: Mother Goose Suite",
+      "citation_label": "How Ravel Orchestrated: Mother Goose Suite",
+      "kind": "book",
+      "reading_status": "relevant_sections_checked",
+      "reading_note": "目录及配器分析相关页选读；另看重排总谱与底部钢琴缩谱；未阅读全部童话、附录及全书；旋律交接、分奏、加倍、力度及第三曲管弦乐版段落表；第四曲49–59、第五曲29–35的重排谱与原扫描谱对照",
+      "urls": [
+        "https://www.alexanderpublishing.com/Departments/Orchestration/How-Ravel-Orchestrated-Mother-Goose-Suite.aspx"
+      ],
+      "html": "<p>How Ravel Orchestrated: Mother Goose Suite</p>\n<p>目录及配器分析相关页选读；另看重排总谱与底部钢琴缩谱；未阅读全部童话、附录及全书</p>\n",
+      "verification_evidence": "目录及配器分析相关页选读；另看重排总谱与底部钢琴缩谱；未阅读全部童话、附录及全书"
+    },
+    {
+      "source_id": "V",
+      "title": "Klang als Poetik und Form. Instrumentatorische Beobachtungen und Adornos ›unendliche Streicherperspektive‹ in Maurice Ravels Pavane de la Belle au bois dormant aus Ma mère l’oye",
+      "citation_label": "Klang als Poetik und Form. Instrumentatorische Beobachtungen und Adornos ›unendliche Streicherperspektive‹ in Maurice Ravels Pavane de la Belle au bois dormant aus Ma mère l’oye",
+      "kind": "research_article",
+      "reading_status": "relevant_sections_checked",
+      "reading_note": "引言、开头及曲式/配器相关段落选读；网页与本地PDF交叉查看；第一曲两声部、周期性、音色与形式关系",
+      "urls": [
+        "https://www.gmth.de/zeitschrift/artikel/880.aspx"
+      ],
+      "html": "<p>Klang als Poetik und Form. Instrumentatorische Beobachtungen und Adornos ›unendliche Streicherperspektive‹ in Maurice Ravels Pavane de la Belle au bois dormant aus Ma mère l’oye</p>\n<p>引言、开头及曲式/配器相关段落选读；网页与本地PDF交叉查看</p>\n",
+      "verification_evidence": "引言、开头及曲式/配器相关段落选读；网页与本地PDF交叉查看"
+    },
+    {
+      "source_id": "P",
+      "title": "Ravel’s Programmatic Impulse",
+      "citation_label": "Ravel’s Programmatic Impulse",
+      "kind": "research_article",
+      "reading_status": "relevant_sections_checked",
+      "reading_note": "网上正文相关段落和谱例说明阅读；未下载全文副本；第四曲两轮转、主题结合与并列的心理叙事解释",
+      "urls": [
+        "https://www.gmth.de/zeitschrift/artikel/271.aspx"
+      ],
+      "html": "<p>Ravel’s Programmatic Impulse</p>\n<p>网上正文相关段落和谱例说明阅读；未下载全文副本</p>\n",
+      "verification_evidence": "网上正文相关段落和谱例说明阅读；未下载全文副本"
+    },
+    {
+      "source_id": "KT",
+      "title": "The Language of Enchantment: Childhood and Fairytale in the Music of Maurice Ravel",
+      "citation_label": "The Language of Enchantment: Childhood and Fairytale in the Music of Maurice Ravel",
+      "kind": "research_article",
+      "reading_status": "abstract_checked",
+      "reading_note": "书目与摘要；未阅读论文章节；后续扩展研究线索；不作为新增具体和声或小节结论依据",
+      "urls": [
+        "https://digital.library.adelaide.edu.au/items/b86dd154-6652-455e-91d2-437abec0c415"
+      ],
+      "html": "<p>The Language of Enchantment: Childhood and Fairytale in the Music of Maurice Ravel</p>\n<p>书目与摘要；未阅读论文章节</p>\n",
+      "verification_evidence": "书目与摘要；未阅读论文章节"
+    },
+    {
+      "source_id": "N",
+      "title": "new目录中的五组PDF、MIDI与MusicXML",
+      "citation_label": "new目录中的五组PDF、MIDI与MusicXML",
+      "kind": "research_article",
+      "reading_status": "relevant_sections_checked",
+      "reading_note": "全文件结构、来源元数据、重叠片段与记谱对照审查；不是全谱音符校勘；芭蕾版候选参照；不替换五曲组曲原谱",
+      "urls": [],
+      "html": "<p>new目录中的五组PDF、MIDI与MusicXML</p>\n<p>全文件结构、来源元数据、重叠片段与记谱对照审查；不是全谱音符校勘</p>\n",
+      "verification_evidence": "全文件结构、来源元数据、重叠片段与记谱对照审查；不是全谱音符校勘"
+    },
+    {
+      "source_id": "B",
+      "title": "Ravel · Ma mère l’Oye, complete ballet, Durand full score (98 physical pages)",
+      "kind": "score",
+      "reading_status": "key_pages_checked",
+      "reading_note": "全谱系统与小节线图像检查；关键奏法与乐章页界核对。没有人类或专家逐音签核。",
+      "urls": [
+        "https://imslp.org/wiki/Special:ReverseLookup/62635"
+      ],
+      "html": "<p>完整芭蕾总谱；98个物理页，音乐为第3–98页。</p>\n"
+    }
+  ],
+  "full_html": "<h1>鹅妈妈：完整芭蕾导聆</h1><h2>从两条管乐线打开帷幕</h2><p><strong>和声</strong></p>\n<p>开头长笛与巴松的音程和具体低音逐时点列在音符证据中；三连音圆号材料属于另一个进入层。</p>\n<p><strong>配器与织体</strong></p>\n<p>两支长笛同奏与第一巴松相隔音区，第三小节加入加弱音器的圆号，随后弱音弦乐接入。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>管乐的附点长短节奏、圆号的细碎三连音与弦乐长时值形成不同层级。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>起始材料以后还会被回忆；先辨认音程轮廓与节奏，再判断相似程度。</p>\n<p><strong>听什么</strong></p>\n<p>听柔和的管乐开场，留意圆号进入后背景怎样开始流动。</p>\n<h2>鸟鸣式短句与开头材料交错</h2><p><strong>和声</strong></p>\n<p>片段的半音与变化音扩大音集，音高集合不自动成为功能和弦。</p>\n<p><strong>配器与织体</strong></p>\n<p>短笛和长笛交错出现短小装饰音型；回到原速时，音区与材料重新分层。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>短句的接续与持续背景并存；鸟鸣式模仿是音响比喻，不是严格卡农。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>排练号1的短句与排练号2的返回，形成可回访的材料关系。</p>\n<p><strong>听什么</strong></p>\n<p>把短促、高处的呼应与较长的背景线分开听。</p>\n<h2>钟状音色让时间伸缩</h2><p><strong>和声</strong></p>\n<p>此处分析按独立记谱窗口取音，长时段集合不合并成一个同时和弦。</p>\n<p><strong>配器与织体</strong></p>\n<p>木管逐渐退后，钢片琴形成清楚的钟状攻击；谱面有渐快与渐慢的文字。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>短攻击和乐器之间的空隙也是组织线条的手段。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>动作密度与速度文字共同塑造过渡，不能只把乐器更换当作新主题。</p>\n<p><strong>听什么</strong></p>\n<p>留意钢片琴每次发音之间的空间，感受速度的伸缩。</p>\n<h2>材料回返并积聚成开场的亮度</h2><p><strong>和声</strong></p>\n<p>各层的持续音与快速经过音并列保存；高潮音集不追溯覆盖前面的静止音响。</p>\n<p><strong>配器与织体</strong></p>\n<p>木管短句逐步密集，竖琴滑奏、弦乐震音和打击乐共同扩展声音。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>长时值的低层与快速音型可同时存在，密度增加不等于所有声部同节奏。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>前奏以增密过程指向纺车舞；完整芭蕾总谱在下一页进入6/8。</p>\n<p><strong>听什么</strong></p>\n<p>听熟悉的短句如何被越来越多的音色包围。</p>\n<h2>纺车的旋转与跳跃</h2><p><strong>和声</strong></p>\n<p>半音运动和低层支点分别记录，不将经过音逐个强加功能名称。</p>\n<p><strong>配器与织体</strong></p>\n<p>开头合奏之后，单簧管和第一小提琴的快速音型突出；随后木管的短音与拨弦相呼应。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>连续快速线条与间断的舞步攻击构成两层。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>6/8的运动从开场强奏中抽离，转向轻巧的局部交接。</p>\n<p><strong>听什么</strong></p>\n<p>先抓住快速旋转的音型，再听短促的木管与拨弦。</p>\n<h2>独奏线条从合奏中浮现</h2><p><strong>和声</strong></p>\n<p>旋律与支撑音的时点分开取样；和声事实可在上方实时窗口查阅。</p>\n<p><strong>配器与织体</strong></p>\n<p>木管独奏与弦乐背景交替，音色和音区的接力使线条保持清晰。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>乐器交接有时继续同一条线，有时形成回应，须同时看攻击和节奏。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>排练号12至14提供回访地标；这些地标不自动等于严格曲式边界。</p>\n<p><strong>听什么</strong></p>\n<p>把注意力从背景的运动移向正在独奏的木管。</p>\n<h2>步伐与流动背景交替</h2><p><strong>和声</strong></p>\n<p>反复音、变化音与背景支点并存，局部和声应按窗口查看。</p>\n<p><strong>配器与织体</strong></p>\n<p>短音的管乐组合与弦乐的运动互相照应，重音的轮廓比长音更显眼。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>成组的加倍可合为一个层；不同攻击时间才支持新的活动层。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>既有步态反复出现，同时以音色和力度改变方向。</p>\n<p><strong>听什么</strong></p>\n<p>听重音如何从一组乐器移到另一组。</p>\n<h2>短句接续与音色换景</h2><p><strong>和声</strong></p>\n<p>移动的内声与持续层分别观察，调性归属需要前后句法支持。</p>\n<p><strong>配器与织体</strong></p>\n<p>双簧管等木管的线条先后出现，弦乐由拨奏、弓奏及不同音区参与。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>上下两层可以延续不同长度的句子，不机械以小节线截断。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>材料的接续使舞蹈保持连续；排练号19至23便于对照。</p>\n<p><strong>听什么</strong></p>\n<p>循着木管的长线，听背景的步伐怎样继续。</p>\n<h2>跌倒的场景与漫长睡眠</h2><p><strong>和声</strong></p>\n<p>色彩性和声转向较静止的背景；低音与上方移动音仍需分别观察。</p>\n<p><strong>配器与织体</strong></p>\n<p>从稍慢转入很慢；弱奏弦乐、低音、竖琴和木管短句取代先前的密集运动。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>攻击密度降低，持续音与零星入口之间形成更宽的间隔。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>总谱的舞台文字写出公主受伤及入睡，随后衔接帕凡舞。叙事解释以这些文字为依据。</p>\n<p><strong>听什么</strong></p>\n<p>在速度放缓后，留意细小的木管入口和低声部的支点。</p>\n<h2>两条线打开童话空间</h2><p><strong>和声</strong></p>\n<p>长笛首小节的A–C–E–E–D–G形成无半音五声音列的局部材料；下方F等音使全织体超出这个集合。旋律的五声组织与全曲A调式背景可以并存。</p>\n<p><strong>配器与织体</strong></p>\n<p>第二长笛在中低音区独奏；弱奏、加弱音器的圆号与中提琴拨弦支撑下线。长音与短促拨弦的发音方式形成细小的明暗差。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>圆号与中提琴局部同度加倍，合为一条支撑线；与长笛不同的攻击节奏才构成这里的两层关系。XML中的三份中提琴副本不等于三条额外对位。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>四小节内先重复一小节单元，再以下行收束；它是开头八小节的前半句。Vlitakis的周期性读法与梅西安的前句命名在这里相容。</p>\n<p><strong>听什么</strong></p>\n<p>先记住长笛的短句，再听下方拨弦怎样给较柔和的圆号线条加上轮廓。</p>\n<h2>固定低音中的半音内声</h2><p><strong>和声</strong></p>\n<p>E低音与D持续层维持背景，F–F♯–G–F♯的半音内声改变垂直音响。宜分开写持续层和移动音，不把整小节所有音当作一个同时和弦。</p>\n<p><strong>配器与织体</strong></p>\n<p>主句转入第一长笛较高音区，第二长笛承担内声；双簧管、单簧管、竖琴及低弦构成持续背景，弦乐泛音的实响另需按奏法核对。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>快速主旋律、四分音符内声与长音背景有不同时间尺度；它们之间存在独立分工，但持续音的乐器加倍仍只算同一层。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>后半句与前四小节节奏相近而轮廓改变。半音内声以后在17–19小节转到第二小提琴，形成可直接核对的局部返回。</p>\n<p><strong>听什么</strong></p>\n<p>高处的旋律继续歌唱，较低处却有一条缓慢上行又折回的半音线。</p>\n<h2>评论段让线条逐层接力</h2><p><strong>和声</strong></p>\n<p>相较前段的固定背景，这里低声部与内声移动更频繁。文献中的C大调或相对大调区域读法用于较大语境，不能替代每个时点的低音与经过音检查。</p>\n<p><strong>配器与织体</strong></p>\n<p>单簧管接过上层旋律，英国管承担另一条线；拨弦声部在小提琴、中提琴和大提琴之间转换，使同一织体内部不断换色。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>旋律、英国管线及低音接力需要分别追踪；拨弦有时支撑已有线条，有时接续下一段，不宜把每次乐器加入都叫新主题。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>梅西安称其为评论段，Vlitakis将9–12视为中部B；两者均指出它与1–8及13–20的框架关系。</p>\n<p><strong>听什么</strong></p>\n<p>听单簧管保持句子连续，同时把注意力分给下方依次接话的拨弦。</p>\n<h2>熟悉旋律换了支点</h2><p><strong>和声</strong></p>\n<p>D、F持续层改变了开头旋律的和声支点；梅西安将其联系到带降低三音的D九和弦背景。这是带归属的归约，具体音响仍按各拍取音。</p>\n<p><strong>配器与织体</strong></p>\n<p>第一长笛重述开头，英国管与拨弦线相配，单簧管和圆号填入长音。中提琴的多音攻击与开头的单线拨弦区别明显。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>上方旋律可与1–2小节逐音比较；下方持续层与活动线已改写，因此旋律重复并不表示整体织体重复。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>A′开始；1–2与13–14的音高、攻击位置和时值对应已存入局部比较。返回既恢复记忆，也积累音色变化。</p>\n<p><strong>听什么</strong></p>\n<p>认出开头的句子，然后留意它现在靠着不同的低音和内声展开。</p>\n<h2>弦乐收拢前面的记忆</h2><p><strong>和声</strong></p>\n<p>E背景再次承托后半句，第二小提琴复现此前的半音内声。结尾在调式语境中收束，不能仅据末音A就把整段化约成单一功能终止。</p>\n<p><strong>配器与织体</strong></p>\n<p>主旋律转给加弱音器的小提琴，竖琴和分奏低弦补足长音、泛音与拨弦。木管的余留延音与弦乐主体应按时点区分。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>第二小提琴的半音线与第一小提琴旋律并行存在；加倍与泛音补色不自动增加独立声部数量。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>完成五个四小节单位。Kilpatrick把结尾G–A与第二曲开头相联系，这属于跨曲动机读法，不等于二者使用相同和声。</p>\n<p><strong>听什么</strong></p>\n<p>同一句后半段由弦乐说出后，留意最后的短小音程怎样留下未尽的余味。</p>\n<h2>帕凡舞后的舞台转换</h2><p><strong>和声</strong></p>\n<p>持续层与半音移动分开看；过渡材料的音集不直接移用帕凡舞的功能标签。</p>\n<p><strong>配器与织体</strong></p>\n<p>短笛的强奏上行、钢片琴和打击乐的突入，与后段竖琴和独奏小提琴形成对照。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>密集的共同攻击先打断前景，随后让独奏线条浮在长音之上。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>总谱先后写出Allegro、Plus lent、Allegro及圆舞曲速度；间奏最终准备下一场。</p>\n<p><strong>听什么</strong></p>\n<p>听突出的短笛和闪光音色退下之后，圆舞曲的空间如何出现。</p>\n<h2>圆舞曲中的温柔与偏离</h2><p><strong>和声</strong></p>\n<p>F大调及升四级的局部色彩构成背景。17–20的低音和半音和声使常规终止预期转向；Kaminsky称其为越界动机，其心理阐释属于作者模型。</p>\n<p><strong>配器与织体</strong></p>\n<p>单簧管演唱前景，竖琴及弱奏弦木管分担三拍舞步。实际旋律在第二小节进入，第一小节已建立伴奏。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>旋律与圆舞曲支撑分层；内部低音和线条偏离可以预示后续关系，不表示野兽已以完整主题出现。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>多次陈述与评论组成美女的大段。梅西安按主题和评论分段，Kaminsky将它纳入第一轮转，二者观察尺度不同。</p>\n<p><strong>听什么</strong></p>\n<p>先听平稳的舞步与单簧管，再留意中途那些让句子无法按预期落定的半音转向。</p>\n<h2>低音角色带来另一套音程语言</h2><p><strong>和声</strong></p>\n<p>全音、八音等对称音集与持续低音形成较粗砺的色彩；Alexander的变化属和弦读法是另一种分层归约，不强求与调式标签互相排除。</p>\n<p><strong>配器与织体</strong></p>\n<p>低音巴松的极低音旋律与低弦震音、拨弦及竖琴形成显著反差。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>低声部49–52与60–63有完整的局部移调对应，上移大二度且攻击节奏一致；此结果不认证周围所有和声读法。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>角色对比由音区、音程、奏法与句法共同建立。两次陈述之间有延长，不简单按八小节模板切齐。</p>\n<p><strong>听什么</strong></p>\n<p>听低音巴松的下行线条，再留意第二次出现时整个形状怎样抬高一步。</p>\n<h2>两种材料开始彼此渗入</h2><p><strong>和声</strong></p>\n<p>F♯持续支点与上方改变的旋律构成复合关系，宜把低音、和声层和旋律变音分别说明。</p>\n<p><strong>配器与织体</strong></p>\n<p>高音旋律与低音巴松继续保持鲜明音色差，同时乐队开始把两者置于共同织体。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>Kaminsky与梅西安均讨论69以后主题材料的结合。因此不能把106写成全曲第一次任何形式的主题同现；它是更完整的返回节点。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>角色独立展示转向交互发展。局部的叹息、重复及三连音上行，使陈述变成逐步紧迫的对话。</p>\n<p><strong>听什么</strong></p>\n<p>现在试着同时追踪上方较柔和的句子和下方越来越坚持的上行动作。</p>\n<h2>句子缩短并逼近第一次高潮</h2><p><strong>和声</strong></p>\n<p>半音低音与紧张音程关系推动终止延迟；Kaminsky以G–C♯等关系解释前后呼应，属于有取音范围的读法。</p>\n<p><strong>配器与织体</strong></p>\n<p>音区、力度和合奏参与共同增长，前景不再是单一独奏的封闭陈述。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>旋律碎片与低声部上行形成不同方向和节奏的推进，局部加倍需要合并到相应层次。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>较长单位逐渐缩成短单位，配合速度与力度增长形成高潮。这里与128以后构成两轮有差异的推进。</p>\n<p><strong>听什么</strong></p>\n<p>听每次重说的句子怎样越来越短，仿佛来不及把话完整说完。</p>\n<h2>返回不再是独自陈述</h2><p><strong>和声</strong></p>\n<p>美女材料返回时，低层仍保留野兽材料及其半音张力；上层轮廓的恢复不表示和声回到开头原状。</p>\n<p><strong>配器与织体</strong></p>\n<p>单簧管与低音角色在共享织体中并存，音色差维持人物身份。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>两种主题材料的结合是此段重点；相互制约的音程与句法需按各条线理解，不能只看和弦标签。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>梅西安的再现与Kaminsky第二轮转都可从此区域观察；该区包含106的衔接，XML明确的第一速度文字落在107，保留两种定位尺度。</p>\n<p><strong>听什么</strong></p>\n<p>认出单簧管熟悉的旋律，同时听它现在必须与哪一条低声线共处。</p>\n<h2>再次压缩之后突然留下空白</h2><p><strong>和声</strong></p>\n<p>紧张和声、上行低层与旋律音程次序的改变共同推动高潮；功能、调式与动机读法分别保存，不强行压成一条罗马数字链。</p>\n<p><strong>配器与织体</strong></p>\n<p>合奏推至强音后骤停，竖琴滑奏等音色转换标记新的空间。具体滑奏节点须按管弦乐谱和XML核对，文献146为参考而非预设录音时刻。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>材料继续缩减，局部声部移交与方向变化增加紧迫感；休止成为关系中的真实断点，不延长为虚构持续音。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>与85–105相应的第二轮增长达到转折。童话变身与音乐转折可以对应，但心理层含义是作者解释。</p>\n<p><strong>听什么</strong></p>\n<p>关注高潮后真正的停顿，再听新音色怎样从这段空白中浮出。</p>\n<h2>角色换了音区却保留记忆</h2><p><strong>和声</strong></p>\n<p>F的终局支点并未消除所有变音。Kaminsky据末段残留的对称音集讨论结局的复杂性，梅西安更强调爱带来的转化；两种解释各有归属。</p>\n<p><strong>配器与织体</strong></p>\n<p>独奏小提琴的高音泛音改变野兽材料的音色身份，随后高低层逐步合流。泛音记谱与实际发声音高须单独核对。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>148–151与低音巴松60–63的音高顺序相隔五个八度，但内部时值已经改写；主题转化有局部证据，不能称为逐音原样复制。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>尾声以材料重组完成戏剧转化；变成王子并非更换一条毫无关联的新旋律。</p>\n<p><strong>听什么</strong></p>\n<p>把高处的小提琴与此前低音巴松的轮廓相认，再听两种人物材料怎样共同结束。</p>\n<h2>对话之后的柔和过渡</h2><p><strong>和声</strong></p>\n<p>木管的级进线与弦乐背景分开观察，色彩变化承接前景的收束。</p>\n<p><strong>配器与织体</strong></p>\n<p>长笛、双簧管等木管短句相继出现，弱奏弦乐维持过渡。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>短句接力与持续层共同形成连续性。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>此段属于芭蕾版衔接，接向小拇指的不规则步伐。</p>\n<p><strong>听什么</strong></p>\n<p>听清接话的木管，再感受下一场弦乐脚步的变化。</p>\n<h2>脚步先于人物出现</h2><p><strong>和声</strong></p>\n<p>流动三度与变化的调式音构成道路般的背景；C小调是整体参照，逐次经过的音集不宜逐个强行命名功能和弦。</p>\n<p><strong>配器与织体</strong></p>\n<p>加弱音器的小提琴持续八分音符运动；双簧管旋律在第4小节末的弱起进入，故段界不应截断它的入口。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>平行三度可作为两条记谱线观察，也可在听觉组织中合为一层移动伴奏；两种分析层级需说明。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>2/4、3/4、4/4、5/4等换拍使路途延长和缩短。四小节引子与主题弱起重叠，不按机械整小节切开句法。</p>\n<p><strong>听什么</strong></p>\n<p>先跟住连续的八分音符，感受每小节长度改变时脚步怎样失去整齐的落点。</p>\n<h2>短句在不规则步伐上徘徊</h2><p><strong>和声</strong></p>\n<p>围绕C的旋律与伴奏呈调式色彩，临时变化音逐步打开降E区域。下行五度与向上的级进共同构成旋律，不宜仅以音阶标签解释句子。</p>\n<p><strong>配器与织体</strong></p>\n<p>双簧管独奏浮在弱奏弦乐之上，音色集中而背景不断流动。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>长一些的独奏旋律跨越伴奏的拍格；主旋律与三度背景是主要的两层听觉分工。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>短动机重述后延长成连接，导向12小节。Alexander的“忧惧”是其自拟名称，可作导聆提示，不能标成拉威尔原注。</p>\n<p><strong>听什么</strong></p>\n<p>听双簧管试探着说出短句，而脚下的线条始终没有停下来。</p>\n<h2>较宽的回答暂时照亮道路</h2><p><strong>和声</strong></p>\n<p>梅西安将这轮陈述联系到降E大调，旋律扩大到三度和更宽的音程。调性较明亮并不意味着下方道路音型已停止。</p>\n<p><strong>配器与织体</strong></p>\n<p>英国管接替双簧管，中提琴与大提琴保持流动，个别低音由木管和拨弦共同着色。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>主句的较长呼吸与伴奏的连续八分音符相互覆盖；交接前后仍可追踪同一材料的身份。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>作为第二轮较宽陈述，与开头短句形成回答；Kilpatrick同时指出其与前材料共享下行五度等骨架。</p>\n<p><strong>听什么</strong></p>\n<p>英国管把句子拉长，仿佛暂时找到了方向；下面的脚步却没有得到终点。</p>\n<h2>旧动机在固定低音上重新出发</h2><p><strong>和声</strong></p>\n<p>G持续低音支持第一类材料的回归；持续支点与上方半音化背景共同制造局部不稳定。</p>\n<p><strong>配器与织体</strong></p>\n<p>旋律由单簧管转交长笛，短促交替使前景颜色迅速变化。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>固定低音、移动伴奏与旋律片段分别承担稳定、流动及陈述功能。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>既是开头材料的返回，也是下一轮增长的过渡；不能因为主题重现就提前宣告完整再现部。</p>\n<p><strong>听什么</strong></p>\n<p>认出熟悉的短句，看它怎样在不同木管之间接力并准备上行。</p>\n<h2>上行模进使迷途变得紧迫</h2><p><strong>和声</strong></p>\n<p>低音支点之上的半音化与模进逐步增加张力；33小节的C小调回归可按梅西安读作假再现，尚未恢复终局稳定。</p>\n<p><strong>配器与织体</strong></p>\n<p>弦乐推动增长，木管随后加入或加倍，力度与音区扩张共同形成高潮。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>旋律线、切分内声与低声部保持不同节奏，局部的六度或八度加倍要与这些独立层分开。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>上行小细胞的重复、扩大与高潮后回落构成一轮推进。33–38还混合了前两类材料的特征，不必把每种表面变化命名为新主题。</p>\n<p><strong>听什么</strong></p>\n<p>听短小的上行动作怎样越推越高，再在高潮后重新回落到熟悉的道路。</p>\n<h2>宽句返回但支点改变</h2><p><strong>和声</strong></p>\n<p>梅西安将第二类材料的这次返回置于降A区域。辨认相同旋律轮廓与改变的和声支撑，比仅按调名划界更能说明返回中的变化。</p>\n<p><strong>配器与织体</strong></p>\n<p>英国管重新居前，中低弦提供移动背景，高潮后的透明度恢复。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>前景的长句和背景的连续运动继续并存；回到同类织体不表示每一条内声都照搬前段。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>较宽材料的第二轮呈现与12–22相互照应，为后面的鸟鸣场景留出反差。</p>\n<p><strong>听什么</strong></p>\n<p>英国管的声音再次带来暂时安定，同时听出它已落在新的和声光线中。</p>\n<h2>鸟鸣闯入原有织体</h2><p><strong>和声</strong></p>\n<p>持续音与较短的鸟鸣事件需要分开描述；滑音中间的离散XML音符不能直接当作每个瞬间都清楚发声的和弦成员。</p>\n<p><strong>配器与织体</strong></p>\n<p>独奏小提琴的泛音、滑音、颤音与短笛、长笛形成细碎音色；中低音旋律仍在延续。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>装饰性鸟鸣与主要旋律背景处于不同层级，不因事件密集就认定严格模仿。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>这里改变了空间感和前景组织，随后继续增长再转入60小节。XML全局71、73即本曲51、53的独奏小提琴时值各短1/240四分音符，保持原样并在计算中采用共同小节时轴。</p>\n<p><strong>听什么</strong></p>\n<p>让耳朵暂时离开主旋律，听高处零散的鸟叫怎样遮蔽或打断道路的方向感。</p>\n<h2>同一旋律跨越两个八度</h2><p><strong>和声</strong></p>\n<p>C小调材料回归，透明而分离的音区使原旋律更容易辨认；音区改变本身不构成转调。</p>\n<p><strong>配器与织体</strong></p>\n<p>短笛与独奏大提琴相隔两个八度，内声流动处于其间。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>已核对60–63的音高、时值和入口：这是同时八度加倍的一条旋律，不是两次先后主题进入。64以后仍需逐段核查，不能把局部结果外推整段。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>梅西安将60视为主要回归点。与33的较早返回并列比较，可以说明假再现与后续恢复的不同作用。</p>\n<p><strong>听什么</strong></p>\n<p>试着把最高的短笛和较低的大提琴听成同一条相距很远的旋律。</p>\n<h2>旋律逐步只留下骨架</h2><p><strong>和声</strong></p>\n<p>F上带色彩的和声与半音内声支撑较宽音程；梅西安强调五度、二度与四度的组合，不宜把这些旋律音程混同为单一和弦类别。</p>\n<p><strong>配器与织体</strong></p>\n<p>长笛旋律、圆号长音和弦乐活动层逐渐疏开，低音拨弦保持轻微步伐。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>前景越来越简约，内声仍有运动，形成旋律减缩与背景延续的不同步。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>Kilpatrick把这里理解为材料逐步剥离；Alexander则自拟“走出森林”的戏剧标签。后者不是乐谱给出的唯一情节。</p>\n<p><strong>听什么</strong></p>\n<p>听旋律怎样从完整句子退成几次相互衔接的较大跳进。</p>\n<h2>道路延续到画面之外</h2><p><strong>和声</strong></p>\n<p>末尾的大三度改变收束的色彩，但开头的道路运动仍被回忆。结尾明暗与叙事情节不能简单一一对应。</p>\n<p><strong>配器与织体</strong></p>\n<p>加弱音器的弦乐回到前景，双簧管以短片段回应，终止音响由低弦等共同维持。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>织体从人物旋律重新缩回背景；尾声的和声补色不构成新对位主题。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>与开头构成框架。梅西安强调最后的明亮一瞥，Kilpatrick强调绕行返回，可并列说明而不强制归一。</p>\n<p><strong>听什么</strong></p>\n<p>熟悉的脚步又出现了，结尾的一点明亮并没有抹去整段徘徊的记忆。</p>\n<h2>细小音响搭起新的世界</h2><p><strong>和声</strong></p>\n<p>F♯五声语汇先由缺省的局部音集与相邻二度显出；完整五声音阶是材料范围，不等于每一拍都出现五个音。</p>\n<p><strong>配器与织体</strong></p>\n<p>短小线条拆到木管、拨弦与键盘色彩之间；短发音与持续或震音背景相互衬托。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>线条被分配给多种乐器，仍可能只构成接力的一层；先区分分配与独立旋律。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>八小节引入建立音色与音型，9小节才出现较完整的快旋律。这里采用管弦乐本地编号。</p>\n<p><strong>听什么</strong></p>\n<p>先听零碎的音色互相闪现，再等待高处的连续旋律成形。</p>\n<h2>短笛把五声材料织成花纹</h2><p><strong>和声</strong></p>\n<p>短笛开头实际包含F♯、D♯、C♯、A♯等音；以F♯为支点的五声框架解释连贯性，局部非集合音另看其位置。</p>\n<p><strong>配器与织体</strong></p>\n<p>短笛主奏，后段由长笛接续，轻盈伴奏保持透明。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>快速装饰、背景音型与和声支点分层；不能把每个高音型都认作另一主题。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>两轮相关陈述把同一材料向不同方向打开。Kilpatrick据钢琴版提出F♯–C♯–D♯骨架，此处保留为取音归约模型，不冒充全部攻击顺序。</p>\n<p><strong>听什么</strong></p>\n<p>在快速花纹中抓住几个反复回来的支点，而不必追逐每颗装饰音。</p>\n<h2>短促合奏造成体积反差</h2><p><strong>和声</strong></p>\n<p>相邻二度和较厚的垂直音响强调撞击感；应以实际同时窗分辨音集，不把前后音型相加成一个和弦。</p>\n<p><strong>配器与织体</strong></p>\n<p>高音木管、键盘打击色彩与中低音加倍短时汇聚，再迅速退弱，形成大小悬殊的听觉反差。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>大部分新增乐器加强既有线或和声层，厚度增长不等于复调密度同比增加。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>短小合奏插段分隔两组材料。Alexander的角色命名可作教学比喻，不能当作拉威尔指定的场景动作。</p>\n<p><strong>听什么</strong></p>\n<p>注意微小世界怎样忽然变得响亮，又立刻收回原先的尺寸。</p>\n<h2>木管接力与半音内声</h2><p><strong>和声</strong></p>\n<p>文献区分C♯多利亚、B大调、全音与半音内声等局部语汇；它们说明材料转换的几种层次，不应强行统一成一种调式。</p>\n<p><strong>配器与织体</strong></p>\n<p>旋律从双簧管经长笛到英国管，交换愈发紧密；乐器换色与旋律连续性同时成立。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>46附近的半音内声与上层旋律分开追踪。跨曲相似的摇摆音型可作为比较线索，主题身份需要额外证据。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>多次短陈述与评论构成局部链条，为56之后的增长积累动能；这一大段含多个次级边界。</p>\n<p><strong>听什么</strong></p>\n<p>沿同一条旋律追踪换乐器的瞬间，再留意里面缓慢摆动的半音。</p>\n<h2>高音色彩逐步聚合</h2><p><strong>和声</strong></p>\n<p>五声材料与带E自然音的局部色彩可以先后或分层出现，不能把全段平均成纯F♯大调。</p>\n<p><strong>配器与织体</strong></p>\n<p>木琴、钢片琴与高音木管汇聚，中音区拨弦提供轮廓；加倍和渐强共同扩大音响。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>若干乐器按八度或同节奏合为共同前景，背景保持不同发音；这是音色组合问题，未据此认证严格卡农。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>这里是向慢性格区域的增长与转折。钢琴文献的65小节不能直接替代本管弦乐版的69等地标。</p>\n<p><strong>听什么</strong></p>\n<p>听高处的线条怎样逐渐由一种颜色变成多种颜色叠合的整体。</p>\n<h2>长音把快速花纹压缩成轮廓</h2><p><strong>和声</strong></p>\n<p>F♯、C♯、D♯等支点以更长时值呈现，音集相近而时间组织完全改变；不能因材料相同就忽略和声经过与低音配置。</p>\n<p><strong>配器与织体</strong></p>\n<p>木管与圆号的持续音形成宽阔前景，竖琴、钢片琴等接续或补充其色彩。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>已核查70–76长笛与钢片琴低谱表的局部同度对应；同时加倍应与后文错开进入分开。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>Alexander称这里为号角性插段，Kilpatrick的剥离模型可解释快花纹与慢轮廓的关系；二者采用不同分段目的。</p>\n<p><strong>听什么</strong></p>\n<p>把现在的长音当成前面快速花纹被放大后的轮廓来听。</p>\n<h2>低处的旋律与错开的回应</h2><p><strong>和声</strong></p>\n<p>低音区仍保留五声支点，持续音改变段落的重心。不要以单簧管的移调记谱音直接判断实音调性。</p>\n<p><strong>配器与织体</strong></p>\n<p>A调单簧管在低音区突出，钢片琴后来于更高音区参与，低沉与清亮之间有明显距离。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>93小节钢片琴F♯–C♯–D♯的进入与此前低声部材料可作模仿候选。当前只确认入口与音高次序，完整卡农的延迟、全句节奏及例外仍待逐段核对。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>慢性格区域继续展开，后续进入形成内部层次；不能用文献钢琴编号自动生成这一版的精确对应。</p>\n<p><strong>听什么</strong></p>\n<p>记住低处的三个支点，再听清亮的钢片琴怎样从另一层空间回应。</p>\n<h2>抒情线从较平静的背景升起</h2><p><strong>和声</strong></p>\n<p>持续支点与平行和声层支持新的抒情轮廓；文献的D♯属持续音及平行和弦读法保留在钢琴版语境，需按管弦乐实际窗核对后才可逐点使用。</p>\n<p><strong>配器与织体</strong></p>\n<p>较柔和的独奏音色替代先前的合奏轮廓，键盘与竖琴把背景分开为细小层次。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>旋律的长线、内层平行运动及低音持续各有职责；分解和声不等于持续存在的同一垂直和弦。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>可作为慢区的评论性段落。与第一曲材料的联系是文献提出的动机比较，不预设为已经证实的完整主题引用。</p>\n<p><strong>听什么</strong></p>\n<p>听旋律从明亮的装饰转成更长的呼吸，背景仍在轻轻变化。</p>\n<h2>旧材料开始重新组合</h2><p><strong>和声</strong></p>\n<p>五声支点继续维持统一性，局部半音和声与装饰依照各自入口分析；共享音集不使所有材料承担相同结构功能。</p>\n<p><strong>配器与织体</strong></p>\n<p>低声部回忆与上方快材料并置，独奏和短合奏交替恢复前部的活跃度。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>可讨论快慢材料在不同层次的并置，完整同现范围仍以事件表和实际谱面为依据，不宣称整段严格双主题对位。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>梅西安的两主题组合再现与Alexander的角色段落表可并列使用，但钢琴版133与本版段界不自动同号。</p>\n<p><strong>听什么</strong></p>\n<p>留意快的花纹回来时，低处是否仍保留刚才较慢的记忆。</p>\n<h2>熟悉的音色链条走向终止</h2><p><strong>和声</strong></p>\n<p>最终的五声性终止可按含六音、九音的主和弦读法理解；具体同时音集与经过装饰分开记录，不把整段集合说成持续和弦。</p>\n<p><strong>配器与织体</strong></p>\n<p>短笛、长笛、英国管和键盘打击色彩接续，最后以紧凑的合奏收拢。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>反复的旋律角色与音色加倍交织；快速入口多不等于每次都产生独立主题。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>189–201恢复较早的合奏材料，202–204形成短尾声。整曲204小节与钢琴版文献的差异单列，留待专门版次对照。</p>\n<p><strong>听什么</strong></p>\n<p>沿已经熟悉的换色顺序辨认返回，再听最后几个和声怎样把微型世界收起来。</p>\n<h2>缓慢弦乐把终曲置于内心</h2><p><strong>和声</strong></p>\n<p>C是整体中心，但长线与二度、七度、九度等垂直关系使音响并非连续纯三和弦。第一小节先有C、E等支撑，旋律D在第二拍进入，不能把整小节集合当作起始和弦。</p>\n<p><strong>配器与织体</strong></p>\n<p>弱奏弦乐以较集中的中音区铺开，低音提琴开头并非一直参与。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>上层旋律、内声延留和低音各自移动；四声部式听觉组织与XML导出的多份分奏分部不是同一计数。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>缓慢开端与第一曲的停驻感构成外部框架，二度、四度的联系由文献作为跨曲模型提出。</p>\n<p><strong>听什么</strong></p>\n<p>先听弦乐长线怎样缓慢展开，再注意旋律与低音并不总朝同一方向。</p>\n<h2>上行材料在乐队中逐次展开</h2><p><strong>和声</strong></p>\n<p>上行过程改变局部调式与低音支点，梅西安将它联系到E区域。逐拍的和声变换与跨句的方向感需要分层描述。</p>\n<p><strong>配器与织体</strong></p>\n<p>旋律在中提琴、大提琴与木管等之间移动，再由更厚的弦木管组合支撑。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>材料先后进入与同时八度加倍都存在；模仿关系需按入口延迟与旋律证据认定，不用乐器数代替。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>第一轮上升既扩展开头，也将音区推向中央段；它不是最终高潮的提前复制。</p>\n<p><strong>听什么</strong></p>\n<p>跟着上行的短形状换乐器，听它怎样从内部逐步撑开整个乐队。</p>\n<h2>高音独奏与分解背景分离</h2><p><strong>和声</strong></p>\n<p>E区域及其调式变化、分解和弦与较长旋律并存。梅西安分别提出多利亚、混合利底亚等局部读法，不能把整段混成一种固定音阶。</p>\n<p><strong>配器与织体</strong></p>\n<p>独奏小提琴与钢片琴在高处相配，部分位置有独奏中提琴的八度支撑；竖琴和高音木管组织透明背景。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>主线与背景的入口、时值不同。分解和声的音不能在尚未发声时提前算入垂直和弦。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>中央段通过音区与奏法形成新视角，长线仍与此前材料有联系。不同配器段界不必等于新的主题边界。</p>\n<p><strong>听什么</strong></p>\n<p>听高处旋律怎样悬在竖琴和木管之上，让前景与背景保持不同的呼吸。</p>\n<h2>上升反而把声音带远</h2><p><strong>和声</strong></p>\n<p>音阶性上升伴随分解音响向两端展开，动态却减弱；音高上升不自动表示张力或力度增加。</p>\n<p><strong>配器与织体</strong></p>\n<p>旋律在木管和弦乐间转移，透明度增加，为返回留出空间。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>线条扩展与渐弱共同作用，声部之间可有交接，不能以最高音瞬间更换自动推断主旋律身份。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>它是中央区向40小节附近回归的连接，不必独立命名为完整发展部。</p>\n<p><strong>听什么</strong></p>\n<p>留意越往高处，声音却越像退到远处，形成与一般渐强上行不同的效果。</p>\n<h2>调性返回与钟声式积累</h2><p><strong>和声</strong></p>\n<p>C区域恢复后，F–C等持续支撑参与后续上升；梅西安将此称为调性的返回，未必是开头主题原样再现。</p>\n<p><strong>配器与织体</strong></p>\n<p>弦乐多音区与木管加倍逐渐扩大，圆号的钟声式节奏从内部显出。没有小号或长号，仍能形成有力的庆典轮廓。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>先后上升、八度加倍和持续低层分别描述。局部模仿与和声化线条可同时存在，不互相排斥。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>第二轮上升朝50小节终局推进；跨曲二度、四度联系在这里被集中唤回。</p>\n<p><strong>听什么</strong></p>\n<p>听旋律一层层升高，圆号的钟声式音型怎样从背景变成庆典的一部分。</p>\n<h2>有限编制形成最后的辉光</h2><p><strong>和声</strong></p>\n<p>C的终局支点以开放音区和色彩音型铺开；持续主音、上层和声与装饰分开记，竖琴、钢片琴滑奏不能按离散XML音符穷尽实响。</p>\n<p><strong>配器与织体</strong></p>\n<p>木管、钟琴、钢片琴、竖琴及弦乐震音汇成复合效果，力度与配器共同完成扩张。编制里没有小号、长号和大号。</p>\n<p><strong>声部关系与复调</strong></p>\n<p>多件乐器在同一辉光层中融合；有独立记谱分部，不代表每一部都作为可辨的复调旋律出现。</p>\n<p><strong>曲式与主题发展</strong></p>\n<p>Alexander的庆典性结尾、梅西安的内心花园与Kilpatrick的叙事结束读法可以并列。音符证据支持音响如何汇聚，不能独自裁定唯一隐喻。</p>\n<p><strong>听什么</strong></p>\n<p>在最后的辉光中辨认钟声、滑奏与长线，听它们怎样汇到共同的终点。</p>\n",
+  "coverage": {
+    "guide_sections": 49,
+    "movement_sections": 7,
+    "pdf_pages": 98
+  },
+  "notice": "49段谱面导聆 · 七章完整演出 · 时间为代理候选同步",
+  "provenance_notice": "组曲研究保留；芭蕾新增材料及演出时间独立记录。",
+  "reference_note": "每项资料保留实际阅读范围；不把局部阅读标成全文核验。"
+}

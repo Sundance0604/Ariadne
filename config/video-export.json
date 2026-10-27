@@ -5,5 +5,26 @@
   "font_settings": "local/video-export/font-sizes.json",
   "latest_video": "local/video-export/latest-video.txt",
   "full_package": "output/video-export/ravel-full-001",
-  "full_document": "output/video-export/ravel-full-001/captions-editable.json"
+  "full_document": "output/video-export/ravel-full-001/captions-editable.json",
+  "editor_default_project": "mother-goose",
+  "editor_projects": [
+    {
+      "id": "mother-goose",
+      "title": "拉威尔鹅妈妈 · 完整芭蕾七章",
+      "package": "output/video-export/mother-goose-full-001",
+      "document": "works/ravel-mother-goose-video/video-export/captions-optimized.json"
+    },
+    {
+      "id": "ravel-full",
+      "title": "拉威尔左手钢协 · 完整版",
+      "package": "output/video-export/ravel-full-001",
+      "document": "output/video-export/ravel-full-001/captions-editable.json"
+    },
+    {
+      "id": "ravel-sample",
+      "title": "拉威尔左手钢协 · 95秒样片",
+      "package": "output/video-export/ravel-demo",
+      "document": "local/video-export/ravel-sample.json"
+    }
+  ]
 }

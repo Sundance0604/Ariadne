@@ -1,0 +1,8614 @@
+{
+  "schema_version": "1.0.0",
+  "checked_on": "2026-10-26",
+  "original": {
+    "path": "resource/mother goose/ma-mere-loye-maurice-ravel.mxl",
+    "sha256": "01ecfe7b3703db80cbc6bdb469fc611b9889c7dbed89662f674afa5e2b142ff3",
+    "bytes": 486948
+  },
+  "candidates": [
+    {
+      "source": {
+        "path": "resource/mother goose/new/ma-mere-loye-ii-danse-du-rouet-et-scene.mxl",
+        "sha256": "3f90bbd6d6da72dec211f5894991995626e9cb454263f122cc9a32fe307ff9e5",
+        "bytes": 71174
+      },
+      "title": "Ma Mère L'Oye",
+      "parts": [
+        {
+          "id": "P1",
+          "name": "1 Petite Flûte"
+        },
+        {
+          "id": "P2",
+          "name": "2 Grandes Flûtes"
+        },
+        {
+          "id": "P3",
+          "name": "2 Hautbois"
+        },
+        {
+          "id": "P4",
+          "name": "1 Cor Anglais"
+        },
+        {
+          "id": "P5",
+          "name": "2 Clarinettes en SI♭"
+        },
+        {
+          "id": "P6",
+          "name": "2 Bassons"
+        },
+        {
+          "id": "P7",
+          "name": "Contrabassoon"
+        },
+        {
+          "id": "P8",
+          "name": "2 Cors en FA\nchromatique"
+        },
+        {
+          "id": "P9",
+          "name": "Timbales"
+        },
+        {
+          "id": "P10",
+          "name": "Triangle"
+        },
+        {
+          "id": "P11",
+          "name": "Tambour"
+        },
+        {
+          "id": "P12",
+          "name": "Cymbales"
+        },
+        {
+          "id": "P13",
+          "name": "Grosse-Caisse"
+        },
+        {
+          "id": "P14",
+          "name": "Tam-Tam"
+        },
+        {
+          "id": "P15",
+          "name": "Xylophone"
+        },
+        {
+          "id": "P16",
+          "name": "Jeu de Timbres"
+        },
+        {
+          "id": "P17",
+          "name": "Celesta"
+        },
+        {
+          "id": "P18",
+          "name": "Harpe"
+        },
+        {
+          "id": "P19",
+          "name": "Violin"
+        },
+        {
+          "id": "P20",
+          "name": "\n\n\n1ers Violons"
+        },
+        {
+          "id": "P21",
+          "name": "Violins (section)"
+        },
+        {
+          "id": "P22",
+          "name": "\n\n\n2ds Violons"
+        },
+        {
+          "id": "P23",
+          "name": "Violins (section)"
+        },
+        {
+          "id": "P24",
+          "name": "Alto"
+        },
+        {
+          "id": "P25",
+          "name": "\n\n\nAltos"
+        },
+        {
+          "id": "P26",
+          "name": "Violas (section)"
+        },
+        {
+          "id": "P27",
+          "name": "Violoncelle"
+        },
+        {
+          "id": "P28",
+          "name": "\n\n\nVioloncelles"
+        },
+        {
+          "id": "P29",
+          "name": "Violoncellos (section)"
+        },
+        {
+          "id": "P30",
+          "name": "Contrabasses"
+        }
+      ],
+      "part_measure_counts": {
+        "P1": 121,
+        "P2": 121,
+        "P3": 121,
+        "P4": 121,
+        "P5": 121,
+        "P6": 121,
+        "P7": 121,
+        "P8": 121,
+        "P9": 121,
+        "P10": 121,
+        "P11": 121,
+        "P12": 121,
+        "P13": 121,
+        "P14": 121,
+        "P15": 121,
+        "P16": 121,
+        "P17": 121,
+        "P18": 121,
+        "P19": 121,
+        "P20": 121,
+        "P21": 121,
+        "P22": 121,
+        "P23": 121,
+        "P24": 121,
+        "P25": 121,
+        "P26": 121,
+        "P27": 121,
+        "P28": 121,
+        "P29": 121,
+        "P30": 121
+      },
+      "meters": [
+        {
+          "part_id": "P1",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P1",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P1",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P1",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P2",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P2",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P2",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P2",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P3",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P3",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P3",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P3",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P4",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P4",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P4",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P4",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P5",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P5",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P5",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P5",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P6",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P6",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P6",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P6",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P7",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P7",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P7",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P7",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P8",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P8",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P8",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P8",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P9",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P9",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P9",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P9",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P10",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P10",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P10",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P10",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P11",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P11",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P11",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P11",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P12",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P12",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P12",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P12",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P13",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P13",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P13",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P13",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P14",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P14",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P14",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P14",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P15",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P15",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P15",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P15",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P16",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P16",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P16",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P16",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P17",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P17",
+          "measure_sequence": 54,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P17",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P17",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P17",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P18",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P18",
+          "measure_sequence": 48,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P18",
+          "measure_sequence": 59,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P18",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P18",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P18",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P19",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P19",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P19",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P19",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P20",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P20",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P20",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P20",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P21",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P21",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P21",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P21",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P22",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P22",
+          "measure_sequence": 54,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P22",
+          "measure_sequence": 58,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P22",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P22",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P22",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P23",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P23",
+          "measure_sequence": 54,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P23",
+          "measure_sequence": 58,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P23",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P23",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P23",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P24",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P24",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P24",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P24",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P25",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P25",
+          "measure_sequence": 48,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P25",
+          "measure_sequence": 54,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P25",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P25",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P25",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P26",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P26",
+          "measure_sequence": 48,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P26",
+          "measure_sequence": 54,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P26",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P26",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P26",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P27",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P27",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P27",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P27",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P28",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P28",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P28",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P28",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P29",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P29",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P29",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P29",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P30",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P30",
+          "measure_sequence": 98,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P30",
+          "measure_sequence": 108,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P30",
+          "measure_sequence": 114,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        }
+      ],
+      "directions": [
+        {
+          "sequence": 1,
+          "xml_number": "51",
+          "words": [],
+          "rehearsal": [
+            "9"
+          ]
+        },
+        {
+          "sequence": 1,
+          "xml_number": "51",
+          "words": [
+            "Allegro"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 7,
+          "xml_number": "57",
+          "words": [],
+          "rehearsal": [
+            "10"
+          ]
+        },
+        {
+          "sequence": 13,
+          "xml_number": "63",
+          "words": [],
+          "rehearsal": [
+            "11"
+          ]
+        },
+        {
+          "sequence": 17,
+          "xml_number": "67",
+          "words": [
+            "12"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 24,
+          "xml_number": "74",
+          "words": [],
+          "rehearsal": [
+            "13"
+          ]
+        },
+        {
+          "sequence": 32,
+          "xml_number": "82",
+          "words": [],
+          "rehearsal": [
+            "14"
+          ]
+        },
+        {
+          "sequence": 38,
+          "xml_number": "88",
+          "words": [],
+          "rehearsal": [
+            "15"
+          ]
+        },
+        {
+          "sequence": 48,
+          "xml_number": "98",
+          "words": [],
+          "rehearsal": [
+            "16"
+          ]
+        },
+        {
+          "sequence": 54,
+          "xml_number": "104",
+          "words": [],
+          "rehearsal": [
+            "17"
+          ]
+        },
+        {
+          "sequence": 58,
+          "xml_number": "108",
+          "words": [],
+          "rehearsal": [
+            "18"
+          ]
+        },
+        {
+          "sequence": 65,
+          "xml_number": "115",
+          "words": [],
+          "rehearsal": [
+            "19"
+          ]
+        },
+        {
+          "sequence": 73,
+          "xml_number": "123",
+          "words": [],
+          "rehearsal": [
+            "20"
+          ]
+        },
+        {
+          "sequence": 79,
+          "xml_number": "129",
+          "words": [],
+          "rehearsal": [
+            "21"
+          ]
+        },
+        {
+          "sequence": 88,
+          "xml_number": "138",
+          "words": [],
+          "rehearsal": [
+            "22"
+          ]
+        },
+        {
+          "sequence": 92,
+          "xml_number": "142",
+          "words": [],
+          "rehearsal": [
+            "23"
+          ]
+        },
+        {
+          "sequence": 98,
+          "xml_number": "148",
+          "words": [],
+          "rehearsal": [
+            "24"
+          ]
+        },
+        {
+          "sequence": 98,
+          "xml_number": "148",
+          "words": [
+            "Un peu moins animé"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 104,
+          "xml_number": "154",
+          "words": [],
+          "rehearsal": [
+            "25"
+          ]
+        },
+        {
+          "sequence": 108,
+          "xml_number": "158",
+          "words": [],
+          "rehearsal": [
+            "26"
+          ]
+        },
+        {
+          "sequence": 113,
+          "xml_number": "163",
+          "words": [
+            "Retenu"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 114,
+          "xml_number": "164",
+          "words": [],
+          "rehearsal": [
+            "27"
+          ]
+        },
+        {
+          "sequence": 114,
+          "xml_number": "164",
+          "words": [
+            "Très lent"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 118,
+          "xml_number": "168",
+          "words": [],
+          "rehearsal": [
+            "28"
+          ]
+        }
+      ],
+      "anomalies": [
+        {
+          "kind": "missing_divisions",
+          "part_id": "P1",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        },
+        {
+          "kind": "missing_divisions",
+          "part_id": "P2",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        },
+        {
+          "kind": "missing_divisions",
+          "part_id": "P3",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        },
+        {
+          "kind": "missing_divisions",
+          "part_id": "P4",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        },
+        {
+          "kind": "missing_divisions",
+          "part_id": "P5",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        },
+        {
+          "kind": "missing_divisions",
+          "part_id": "P6",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        },
+        {
+          "kind": "missing_divisions",
+          "part_id": "P7",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        },
+        {
+          "kind": "missing_divisions",
+          "part_id": "P8",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        },
+        {
+          "kind": "missing_divisions",
+          "part_id": "P9",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        },
+        {
+          "kind": "missing_divisions",
+          "part_id": "P10",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        },
+        {
+          "kind": "missing_divisions",
+          "part_id": "P11",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        },
+        {
+          "kind": "missing_divisions",
+          "part_id": "P12",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        },
+        {
+          "kind": "missing_divisions",
+          "part_id": "P13",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        },
+        {
+          "kind": "missing_divisions",
+          "part_id": "P14",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        },
+        {
+          "kind": "missing_divisions",
+          "part_id": "P15",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        },
+        {
+          "kind": "missing_divisions",
+          "part_id": "P16",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        },
+        {
+          "kind": "missing_divisions",
+          "part_id": "P17",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        },
+        {
+          "kind": "missing_divisions",
+          "part_id": "P18",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        },
+        {
+          "kind": "negative_xml_cursor",
+          "part_id": "P18",
+          "sequence": 48,
+          "cursor_q": null,
+          "cursor_source_units": "-96"
+        },
+        {
+          "kind": "negative_xml_cursor",
+          "part_id": "P18",
+          "sequence": 49,
+          "cursor_q": null,
+          "cursor_source_units": "-96"
+        },
+        {
+          "kind": "negative_xml_cursor",
+          "part_id": "P18",
+          "sequence": 50,
+          "cursor_q": null,
+          "cursor_source_units": "-96"
+        },
+        {
+          "kind": "negative_xml_cursor",
+          "part_id": "P18",
+          "sequence": 51,
+          "cursor_q": null,
+          "cursor_source_units": "-96"
+        },
+        {
+          "kind": "negative_xml_cursor",
+          "part_id": "P18",
+          "sequence": 52,
+          "cursor_q": null,
+          "cursor_source_units": "-96"
+        },
+        {
+          "kind": "negative_xml_cursor",
+          "part_id": "P18",
+          "sequence": 53,
+          "cursor_q": null,
+          "cursor_source_units": "-96"
+        },
+        {
+          "kind": "missing_divisions",
+          "part_id": "P19",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        },
+        {
+          "kind": "missing_divisions",
+          "part_id": "P20",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        },
+        {
+          "kind": "missing_divisions",
+          "part_id": "P21",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        },
+        {
+          "kind": "missing_divisions",
+          "part_id": "P22",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        },
+        {
+          "kind": "missing_divisions",
+          "part_id": "P23",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        },
+        {
+          "kind": "missing_divisions",
+          "part_id": "P24",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        },
+        {
+          "kind": "missing_divisions",
+          "part_id": "P25",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        },
+        {
+          "kind": "missing_divisions",
+          "part_id": "P26",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        },
+        {
+          "kind": "missing_divisions",
+          "part_id": "P27",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        },
+        {
+          "kind": "missing_divisions",
+          "part_id": "P28",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        },
+        {
+          "kind": "missing_divisions",
+          "part_id": "P29",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        },
+        {
+          "kind": "missing_divisions",
+          "part_id": "P30",
+          "consequence": "duration and onset retained in unspecified source units; no quarter-note clock inferred"
+        }
+      ],
+      "declared_source": null,
+      "software": [
+        "MuseScore 4.0.2"
+      ],
+      "pitched_event_count": 3938,
+      "eligible_pitched_event_count": 0,
+      "pdf": {
+        "path": "resource/mother goose/new/ma-mere-loye-ii-danse-du-rouet-et-scene.pdf",
+        "sha256": "a018b8137fbc4e0fa93010e79645da5e91975c6b4ca1a9dca867547f78c79ed9",
+        "bytes": 495901,
+        "page_count": 14
+      },
+      "midi": {
+        "path": "resource/mother goose/new/ma-mere-loye-ii-danse-du-rouet-et-scene.mid",
+        "sha256": "93e03a909c690e6437de3bee40d83effc4ed7dd9856390447dccf9f770c0e381",
+        "bytes": 94954,
+        "tracks": 33,
+        "ticks_per_beat": 480,
+        "note_on_counts_by_channel": {
+          "0": 61,
+          "1": 306,
+          "2": 1649,
+          "3": 1,
+          "4": 422,
+          "5": 1779,
+          "6": 94,
+          "8": 1026,
+          "9": 33,
+          "10": 1,
+          "11": 5,
+          "12": 1933,
+          "15": 1750,
+          "14": 3
+        }
+      },
+      "status": "unverified_transcription; edition_scope_checked; no_activation"
+    },
+    {
+      "source": {
+        "path": "resource/mother goose/new/ma-mere-loye-iii-pavane-de-la-belle-au-bois-dormant.mxl",
+        "sha256": "a3bd296ad0c39f9760b611db39ef34f23625d5bff1a3f179bc7417956edfb3b7",
+        "bytes": 19732
+      },
+      "title": "MA MERE L'OYE",
+      "parts": [
+        {
+          "id": "P1",
+          "name": "PETITE FLUTE"
+        },
+        {
+          "id": "P2",
+          "name": "2 GRANDES FLUTES"
+        },
+        {
+          "id": "P3",
+          "name": "2 HAUTBOIS"
+        },
+        {
+          "id": "P4",
+          "name": "1 COR ANGLAIS"
+        },
+        {
+          "id": "P5",
+          "name": " 2 CLARINETTES en SI♭"
+        },
+        {
+          "id": "P6",
+          "name": "2 BASSONS"
+        },
+        {
+          "id": "P7",
+          "name": "1 Contrebasson"
+        },
+        {
+          "id": "P8",
+          "name": "2 CORS en FA\nChromatique"
+        },
+        {
+          "id": "P9",
+          "name": "2 Timbales"
+        },
+        {
+          "id": "P10",
+          "name": "Triangle"
+        },
+        {
+          "id": "P11",
+          "name": "Cymbales"
+        },
+        {
+          "id": "P12",
+          "name": "Grosse-Caisse"
+        },
+        {
+          "id": "P13",
+          "name": "Tam-Tam"
+        },
+        {
+          "id": "P14",
+          "name": "Xylophone"
+        },
+        {
+          "id": "P15",
+          "name": "Jeu de Timbres"
+        },
+        {
+          "id": "P16",
+          "name": "Celesta"
+        },
+        {
+          "id": "P17",
+          "name": "Harpe"
+        },
+        {
+          "id": "P18",
+          "name": "VIOLON"
+        },
+        {
+          "id": "P19",
+          "name": "VIOLONS"
+        },
+        {
+          "id": "P20",
+          "name": "VIOLONS"
+        },
+        {
+          "id": "P21",
+          "name": "VIOLONS"
+        },
+        {
+          "id": "P22",
+          "name": "VIOLONS"
+        },
+        {
+          "id": "P23",
+          "name": "ALTO"
+        },
+        {
+          "id": "P24",
+          "name": "ALTOS"
+        },
+        {
+          "id": "P25",
+          "name": "ALTOS"
+        },
+        {
+          "id": "P26",
+          "name": "VIOLONCELLES"
+        },
+        {
+          "id": "P27",
+          "name": "VIOLONCELLES"
+        },
+        {
+          "id": "P28",
+          "name": "CONTREBASSE"
+        },
+        {
+          "id": "P29",
+          "name": "CONTREBASSE"
+        }
+      ],
+      "part_measure_counts": {
+        "P1": 45,
+        "P2": 45,
+        "P3": 45,
+        "P4": 45,
+        "P5": 45,
+        "P6": 45,
+        "P7": 45,
+        "P8": 45,
+        "P9": 45,
+        "P10": 45,
+        "P11": 45,
+        "P12": 45,
+        "P13": 45,
+        "P14": 45,
+        "P15": 45,
+        "P16": 45,
+        "P17": 45,
+        "P18": 45,
+        "P19": 45,
+        "P20": 45,
+        "P21": 45,
+        "P22": 45,
+        "P23": 45,
+        "P24": 45,
+        "P25": 45,
+        "P26": 45,
+        "P27": 45,
+        "P28": 45,
+        "P29": 45
+      },
+      "meters": [
+        {
+          "part_id": "P1",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P1",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P1",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P1",
+          "measure_sequence": 26,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P1",
+          "measure_sequence": 31,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P1",
+          "measure_sequence": 34,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P1",
+          "measure_sequence": 38,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P2",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P2",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P2",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P2",
+          "measure_sequence": 26,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P2",
+          "measure_sequence": 31,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P2",
+          "measure_sequence": 34,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P2",
+          "measure_sequence": 38,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P3",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P3",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P3",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P3",
+          "measure_sequence": 26,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P3",
+          "measure_sequence": 31,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P3",
+          "measure_sequence": 34,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P3",
+          "measure_sequence": 38,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P4",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P4",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P4",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P4",
+          "measure_sequence": 26,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P4",
+          "measure_sequence": 31,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P4",
+          "measure_sequence": 34,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P4",
+          "measure_sequence": 38,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P5",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P5",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P5",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P5",
+          "measure_sequence": 26,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P5",
+          "measure_sequence": 31,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P5",
+          "measure_sequence": 34,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P5",
+          "measure_sequence": 38,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P6",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P6",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P6",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P6",
+          "measure_sequence": 26,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P6",
+          "measure_sequence": 31,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P6",
+          "measure_sequence": 34,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P6",
+          "measure_sequence": 38,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P7",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P7",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P7",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P7",
+          "measure_sequence": 26,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P7",
+          "measure_sequence": 31,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P7",
+          "measure_sequence": 34,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P7",
+          "measure_sequence": 38,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P8",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P8",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P8",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P8",
+          "measure_sequence": 26,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P8",
+          "measure_sequence": 31,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P8",
+          "measure_sequence": 34,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P8",
+          "measure_sequence": 38,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P9",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P9",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P9",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P9",
+          "measure_sequence": 26,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P9",
+          "measure_sequence": 31,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P9",
+          "measure_sequence": 34,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P9",
+          "measure_sequence": 38,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P10",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P10",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P10",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P10",
+          "measure_sequence": 26,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P10",
+          "measure_sequence": 31,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P10",
+          "measure_sequence": 34,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P10",
+          "measure_sequence": 38,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P11",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P11",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P11",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P11",
+          "measure_sequence": 26,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P11",
+          "measure_sequence": 31,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P11",
+          "measure_sequence": 34,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P11",
+          "measure_sequence": 38,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P12",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P12",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P12",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P12",
+          "measure_sequence": 26,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P12",
+          "measure_sequence": 31,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P12",
+          "measure_sequence": 34,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P12",
+          "measure_sequence": 38,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P13",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P13",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P13",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P13",
+          "measure_sequence": 26,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P13",
+          "measure_sequence": 31,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P13",
+          "measure_sequence": 34,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P13",
+          "measure_sequence": 38,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P14",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P14",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P14",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P14",
+          "measure_sequence": 26,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P14",
+          "measure_sequence": 31,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P14",
+          "measure_sequence": 34,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P14",
+          "measure_sequence": 38,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P15",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P15",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P15",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P15",
+          "measure_sequence": 26,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P15",
+          "measure_sequence": 31,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P15",
+          "measure_sequence": 34,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P15",
+          "measure_sequence": 38,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P16",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P16",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P16",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P16",
+          "measure_sequence": 26,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P16",
+          "measure_sequence": 31,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P16",
+          "measure_sequence": 34,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P16",
+          "measure_sequence": 38,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P17",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P17",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P17",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P17",
+          "measure_sequence": 26,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P17",
+          "measure_sequence": 31,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P17",
+          "measure_sequence": 34,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P17",
+          "measure_sequence": 38,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P18",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P18",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P18",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P18",
+          "measure_sequence": 26,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P18",
+          "measure_sequence": 31,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P18",
+          "measure_sequence": 34,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P18",
+          "measure_sequence": 38,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P19",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P19",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P19",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P19",
+          "measure_sequence": 26,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P19",
+          "measure_sequence": 31,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P19",
+          "measure_sequence": 34,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P19",
+          "measure_sequence": 38,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P20",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P20",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P20",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P20",
+          "measure_sequence": 26,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P20",
+          "measure_sequence": 31,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P20",
+          "measure_sequence": 34,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P20",
+          "measure_sequence": 38,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P21",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P21",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P21",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P21",
+          "measure_sequence": 26,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P21",
+          "measure_sequence": 31,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P21",
+          "measure_sequence": 34,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P21",
+          "measure_sequence": 38,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P22",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P22",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P22",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P22",
+          "measure_sequence": 26,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P22",
+          "measure_sequence": 31,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P22",
+          "measure_sequence": 34,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P22",
+          "measure_sequence": 38,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P23",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P23",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P23",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P23",
+          "measure_sequence": 26,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P23",
+          "measure_sequence": 31,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P23",
+          "measure_sequence": 34,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P23",
+          "measure_sequence": 38,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P24",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P24",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P24",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P24",
+          "measure_sequence": 26,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P24",
+          "measure_sequence": 31,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P24",
+          "measure_sequence": 34,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P24",
+          "measure_sequence": 38,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P25",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P25",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P25",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P25",
+          "measure_sequence": 26,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P25",
+          "measure_sequence": 31,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P25",
+          "measure_sequence": 34,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P25",
+          "measure_sequence": 38,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P26",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P26",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P26",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P26",
+          "measure_sequence": 26,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P26",
+          "measure_sequence": 31,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P26",
+          "measure_sequence": 34,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P26",
+          "measure_sequence": 38,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P27",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P27",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P27",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P27",
+          "measure_sequence": 26,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P27",
+          "measure_sequence": 31,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P27",
+          "measure_sequence": 34,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P27",
+          "measure_sequence": 38,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P28",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P28",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P28",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P28",
+          "measure_sequence": 26,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P28",
+          "measure_sequence": 31,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P28",
+          "measure_sequence": 34,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P28",
+          "measure_sequence": 38,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P29",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P29",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P29",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P29",
+          "measure_sequence": 26,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P29",
+          "measure_sequence": 31,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P29",
+          "measure_sequence": 34,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P29",
+          "measure_sequence": 38,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        }
+      ],
+      "directions": [
+        {
+          "sequence": 1,
+          "xml_number": "1",
+          "words": [
+            "MA MÈRE L'OYE\n",
+            "\n",
+            "2\n",
+            "e\n",
+            " TABLEAU\n",
+            "\n",
+            "Pavane de la Belle au bois dormant.\n"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 1,
+          "xml_number": "1",
+          "words": [
+            "Lent   "
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 13,
+          "xml_number": "13",
+          "words": [],
+          "rehearsal": [
+            "1"
+          ]
+        },
+        {
+          "sequence": 20,
+          "xml_number": "20",
+          "words": [
+            "Rall."
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 21,
+          "xml_number": "1",
+          "words": [
+            "Allegro"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 27,
+          "xml_number": "7",
+          "words": [
+            "Plus lent"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 31,
+          "xml_number": "11",
+          "words": [
+            "Allegro"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 38,
+          "xml_number": "18",
+          "words": [
+            "Mouv",
+            "t",
+            " de Valse modéré"
+          ],
+          "rehearsal": []
+        }
+      ],
+      "anomalies": [],
+      "declared_source": "https://musescore.com/user/2675376/scores/7099536",
+      "software": [
+        "MuseScore 4.0.2"
+      ],
+      "pitched_event_count": 847,
+      "eligible_pitched_event_count": 846,
+      "pdf": {
+        "path": "resource/mother goose/new/ma-mere-loye-iii-pavane-de-la-belle-au-bois-dormant.pdf",
+        "sha256": "cd76c3a21be2bef77ba7181004e5605c117ef7fbb333ef1cac358c7afefe9654",
+        "bytes": 163240,
+        "page_count": 7
+      },
+      "midi": {
+        "path": "resource/mother goose/new/ma-mere-loye-iii-pavane-de-la-belle-au-bois-dormant.mid",
+        "sha256": "15c85d914d5f45299f301769e5542013de2208b6b971cc5f1c63129a2c4e079e",
+        "bytes": 18687,
+        "tracks": 32,
+        "ticks_per_beat": 480,
+        "note_on_counts_by_channel": {
+          "0": 125,
+          "1": 93,
+          "2": 10,
+          "3": 146,
+          "4": 69,
+          "5": 11,
+          "7": 25,
+          "8": 120,
+          "9": 1,
+          "12": 8,
+          "13": 232,
+          "6": 173,
+          "10": 57
+        }
+      },
+      "status": "unverified_transcription; edition_scope_checked; no_activation"
+    },
+    {
+      "source": {
+        "path": "resource/mother goose/new/mamerurowa-di7qu-yao-jingno-yuan.mxl",
+        "sha256": "02815c458a65952f16a0a50a0a9b3f1a94140f55dcc727cb2556e9894be2b810",
+        "bytes": 24952
+      },
+      "title": "MA MERE L'OYE",
+      "parts": [
+        {
+          "id": "P1",
+          "name": "2 GRANDES FLÛTES"
+        },
+        {
+          "id": "P2",
+          "name": "1 HAUTBOIS"
+        },
+        {
+          "id": "P3",
+          "name": "1 COR ANGLAIS"
+        },
+        {
+          "id": "P4",
+          "name": " 2 CLARINETTES en SI♭"
+        },
+        {
+          "id": "P5",
+          "name": "2 BASSONS"
+        },
+        {
+          "id": "P6",
+          "name": "2 CORS en FA\nchromatiques"
+        },
+        {
+          "id": "P7",
+          "name": "\n\n\nCORS en Fa"
+        },
+        {
+          "id": "P8",
+          "name": "Cor en Fa"
+        },
+        {
+          "id": "P9",
+          "name": "TIMBALES"
+        },
+        {
+          "id": "P10",
+          "name": "TRIANGLE"
+        },
+        {
+          "id": "P11",
+          "name": "CYMBALES"
+        },
+        {
+          "id": "P12",
+          "name": "JEU DE TIMBRES"
+        },
+        {
+          "id": "P13",
+          "name": "CÉLESTA"
+        },
+        {
+          "id": "P14",
+          "name": "HARPE"
+        },
+        {
+          "id": "P15",
+          "name": "Violon "
+        },
+        {
+          "id": "P16",
+          "name": "\n\n\n\nVIOLONS"
+        },
+        {
+          "id": "P17",
+          "name": "Violons"
+        },
+        {
+          "id": "P18",
+          "name": "Altus Solo"
+        },
+        {
+          "id": "P19",
+          "name": "ALTOS"
+        },
+        {
+          "id": "P20",
+          "name": "VIOLONCELLES"
+        },
+        {
+          "id": "P21",
+          "name": "CONTREBASSES"
+        }
+      ],
+      "part_measure_counts": {
+        "P1": 56,
+        "P2": 56,
+        "P3": 56,
+        "P4": 56,
+        "P5": 56,
+        "P6": 56,
+        "P7": 56,
+        "P8": 56,
+        "P9": 56,
+        "P10": 56,
+        "P11": 56,
+        "P12": 56,
+        "P13": 56,
+        "P14": 56,
+        "P15": 56,
+        "P16": 56,
+        "P17": 56,
+        "P18": 56,
+        "P19": 56,
+        "P20": 56,
+        "P21": 56
+      },
+      "meters": [
+        {
+          "part_id": "P1",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P2",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P3",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P4",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P5",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P6",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P7",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P8",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P9",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P10",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P11",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P12",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P13",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P14",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P15",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P16",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P17",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P18",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P19",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P20",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P21",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        }
+      ],
+      "directions": [
+        {
+          "sequence": 1,
+          "xml_number": "1",
+          "words": [
+            "Lent et grave   "
+          ],
+          "rehearsal": []
+        }
+      ],
+      "anomalies": [
+        {
+          "kind": "negative_xml_cursor",
+          "part_id": "P13",
+          "sequence": 50,
+          "cursor_q": "-3/160",
+          "cursor_source_units": null
+        }
+      ],
+      "declared_source": "https://musescore.com/user/2675376/scores/7099568",
+      "software": [
+        "MuseScore 4.0.2"
+      ],
+      "pitched_event_count": 2057,
+      "eligible_pitched_event_count": 2057,
+      "pdf": {
+        "path": "resource/mother goose/new/mamerurowa-di7qu-yao-jingno-yuan.pdf",
+        "sha256": "7a161d02aae40bdc379332933706729623490c0a39cec0370303076724c29274",
+        "bytes": 184285,
+        "page_count": 6
+      },
+      "midi": {
+        "path": "resource/mother goose/new/mamerurowa-di7qu-yao-jingno-yuan.mid",
+        "sha256": "e6963fbc4c5cb952461130bfb091853522119168031092088af759d13e87f368",
+        "bytes": 60180,
+        "tracks": 24,
+        "ticks_per_beat": 480,
+        "note_on_counts_by_channel": {
+          "0": 165,
+          "1": 65,
+          "2": 404,
+          "3": 161,
+          "4": 49,
+          "5": 423,
+          "6": 6,
+          "7": 12,
+          "8": 313,
+          "9": 9,
+          "10": 104,
+          "11": 551,
+          "12": 1540,
+          "15": 176
+        }
+      },
+      "status": "unverified_transcription; edition_scope_checked; no_activation"
+    },
+    {
+      "source": {
+        "path": "resource/mother goose/new/mamerurowa-i-qian-zou-qu.mxl",
+        "sha256": "a5bc8c9d47d8dbf6a6f5afe91952c7a9f04870c98277d90a16bd27eb3cfb5664",
+        "bytes": 34567
+      },
+      "title": "MA MERE L'OYE",
+      "parts": [
+        {
+          "id": "P1",
+          "name": "PETITE FLUTE"
+        },
+        {
+          "id": "P2",
+          "name": "2 GRANDES FLUTES"
+        },
+        {
+          "id": "P3",
+          "name": "1 HAUTBOIS"
+        },
+        {
+          "id": "P4",
+          "name": "1 COR ANGLAIS"
+        },
+        {
+          "id": "P5",
+          "name": " 2 CLARINETTES en SI♭"
+        },
+        {
+          "id": "P6",
+          "name": "2 Bassons"
+        },
+        {
+          "id": "P7",
+          "name": "1 Contrebasson"
+        },
+        {
+          "id": "P8",
+          "name": "2 Cors en Fa"
+        },
+        {
+          "id": "P9",
+          "name": "2 Timbales"
+        },
+        {
+          "id": "P10",
+          "name": "Triangle"
+        },
+        {
+          "id": "P11",
+          "name": "Cymbales"
+        },
+        {
+          "id": "P12",
+          "name": "Grosse-Caisse"
+        },
+        {
+          "id": "P13",
+          "name": "Tam-Tam"
+        },
+        {
+          "id": "P14",
+          "name": "Xylophone"
+        },
+        {
+          "id": "P15",
+          "name": "Jeu de Timbres"
+        },
+        {
+          "id": "P16",
+          "name": "Celesta"
+        },
+        {
+          "id": "P17",
+          "name": "Harpe"
+        },
+        {
+          "id": "P18",
+          "name": "Violon Solo"
+        },
+        {
+          "id": "P19",
+          "name": "1er Violons"
+        },
+        {
+          "id": "P20",
+          "name": "Violins"
+        },
+        {
+          "id": "P21",
+          "name": "2ds Violons"
+        },
+        {
+          "id": "P22",
+          "name": "Violons"
+        },
+        {
+          "id": "P23",
+          "name": "Alto"
+        },
+        {
+          "id": "P24",
+          "name": "Altos"
+        },
+        {
+          "id": "P25",
+          "name": "Altos"
+        },
+        {
+          "id": "P26",
+          "name": "Violoncelle solo"
+        },
+        {
+          "id": "P27",
+          "name": "Violoncelles"
+        },
+        {
+          "id": "P28",
+          "name": "Violoncelles"
+        },
+        {
+          "id": "P29",
+          "name": "Contrebasses"
+        }
+      ],
+      "part_measure_counts": {
+        "P1": 51,
+        "P2": 51,
+        "P3": 51,
+        "P4": 51,
+        "P5": 51,
+        "P6": 51,
+        "P7": 51,
+        "P8": 51,
+        "P9": 51,
+        "P10": 51,
+        "P11": 51,
+        "P12": 51,
+        "P13": 51,
+        "P14": 51,
+        "P15": 51,
+        "P16": 51,
+        "P17": 51,
+        "P18": 51,
+        "P19": 51,
+        "P20": 51,
+        "P21": 51,
+        "P22": 51,
+        "P23": 51,
+        "P24": 51,
+        "P25": 51,
+        "P26": 51,
+        "P27": 51,
+        "P28": 51,
+        "P29": 51
+      },
+      "meters": [
+        {
+          "part_id": "P1",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P1",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P1",
+          "measure_sequence": 22,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P1",
+          "measure_sequence": 23,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P1",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P1",
+          "measure_sequence": 32,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P1",
+          "measure_sequence": 51,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P2",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P2",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P2",
+          "measure_sequence": 22,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P2",
+          "measure_sequence": 23,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P2",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P2",
+          "measure_sequence": 32,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P2",
+          "measure_sequence": 51,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P3",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P3",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P3",
+          "measure_sequence": 22,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P3",
+          "measure_sequence": 23,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P3",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P3",
+          "measure_sequence": 32,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P3",
+          "measure_sequence": 51,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P4",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P4",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P4",
+          "measure_sequence": 22,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P4",
+          "measure_sequence": 23,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P4",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P4",
+          "measure_sequence": 32,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P4",
+          "measure_sequence": 51,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P5",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P5",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P5",
+          "measure_sequence": 22,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P5",
+          "measure_sequence": 23,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P5",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P5",
+          "measure_sequence": 32,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P5",
+          "measure_sequence": 51,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P6",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P6",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P6",
+          "measure_sequence": 22,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P6",
+          "measure_sequence": 23,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P6",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P6",
+          "measure_sequence": 32,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P6",
+          "measure_sequence": 51,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P7",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P7",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P7",
+          "measure_sequence": 22,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P7",
+          "measure_sequence": 23,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P7",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P7",
+          "measure_sequence": 32,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P7",
+          "measure_sequence": 51,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P8",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P8",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P8",
+          "measure_sequence": 22,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P8",
+          "measure_sequence": 23,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P8",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P8",
+          "measure_sequence": 32,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P8",
+          "measure_sequence": 51,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P9",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P9",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P9",
+          "measure_sequence": 22,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P9",
+          "measure_sequence": 23,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P9",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P9",
+          "measure_sequence": 32,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P9",
+          "measure_sequence": 51,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P10",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P10",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P10",
+          "measure_sequence": 22,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P10",
+          "measure_sequence": 23,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P10",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P10",
+          "measure_sequence": 32,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P10",
+          "measure_sequence": 51,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P11",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P11",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P11",
+          "measure_sequence": 22,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P11",
+          "measure_sequence": 23,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P11",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P11",
+          "measure_sequence": 32,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P11",
+          "measure_sequence": 51,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P12",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P12",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P12",
+          "measure_sequence": 22,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P12",
+          "measure_sequence": 23,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P12",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P12",
+          "measure_sequence": 32,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P12",
+          "measure_sequence": 51,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P13",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P13",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P13",
+          "measure_sequence": 22,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P13",
+          "measure_sequence": 23,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P13",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P13",
+          "measure_sequence": 32,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P13",
+          "measure_sequence": 51,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P14",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P14",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P14",
+          "measure_sequence": 22,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P14",
+          "measure_sequence": 23,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P14",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P14",
+          "measure_sequence": 32,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P14",
+          "measure_sequence": 51,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P15",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P15",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P15",
+          "measure_sequence": 22,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P15",
+          "measure_sequence": 23,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P15",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P15",
+          "measure_sequence": 32,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P15",
+          "measure_sequence": 51,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P16",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P16",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P16",
+          "measure_sequence": 22,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P16",
+          "measure_sequence": 23,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P16",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P16",
+          "measure_sequence": 32,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P16",
+          "measure_sequence": 51,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P17",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P17",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P17",
+          "measure_sequence": 22,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P17",
+          "measure_sequence": 23,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P17",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P17",
+          "measure_sequence": 32,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P17",
+          "measure_sequence": 51,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P18",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P18",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P18",
+          "measure_sequence": 22,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P18",
+          "measure_sequence": 23,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P18",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P18",
+          "measure_sequence": 32,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P18",
+          "measure_sequence": 51,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P19",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P19",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P19",
+          "measure_sequence": 22,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P19",
+          "measure_sequence": 23,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P19",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P19",
+          "measure_sequence": 32,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P19",
+          "measure_sequence": 51,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P20",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P20",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P20",
+          "measure_sequence": 22,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P20",
+          "measure_sequence": 23,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P20",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P20",
+          "measure_sequence": 32,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P20",
+          "measure_sequence": 51,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P21",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P21",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P21",
+          "measure_sequence": 22,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P21",
+          "measure_sequence": 23,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P21",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P21",
+          "measure_sequence": 32,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P21",
+          "measure_sequence": 51,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P22",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P22",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P22",
+          "measure_sequence": 22,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P22",
+          "measure_sequence": 23,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P22",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P22",
+          "measure_sequence": 32,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P22",
+          "measure_sequence": 51,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P23",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P23",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P23",
+          "measure_sequence": 22,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P23",
+          "measure_sequence": 23,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P23",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P23",
+          "measure_sequence": 32,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P23",
+          "measure_sequence": 51,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P24",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P24",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P24",
+          "measure_sequence": 22,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P24",
+          "measure_sequence": 23,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P24",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P24",
+          "measure_sequence": 32,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P24",
+          "measure_sequence": 51,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P25",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P25",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P25",
+          "measure_sequence": 22,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P25",
+          "measure_sequence": 23,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P25",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P25",
+          "measure_sequence": 32,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P25",
+          "measure_sequence": 51,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P26",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P26",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P26",
+          "measure_sequence": 22,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P26",
+          "measure_sequence": 23,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P26",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P26",
+          "measure_sequence": 32,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P26",
+          "measure_sequence": 51,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P27",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P27",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P27",
+          "measure_sequence": 22,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P27",
+          "measure_sequence": 23,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P27",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P27",
+          "measure_sequence": 32,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P27",
+          "measure_sequence": 51,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P28",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P28",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P28",
+          "measure_sequence": 22,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P28",
+          "measure_sequence": 23,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P28",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P28",
+          "measure_sequence": 32,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P28",
+          "measure_sequence": 51,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        },
+        {
+          "part_id": "P29",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P29",
+          "measure_sequence": 21,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P29",
+          "measure_sequence": 22,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P29",
+          "measure_sequence": 23,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P29",
+          "measure_sequence": 24,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P29",
+          "measure_sequence": 32,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P29",
+          "measure_sequence": 51,
+          "time": {
+            "beats": "6",
+            "beat-type": "8"
+          }
+        }
+      ],
+      "directions": [
+        {
+          "sequence": 5,
+          "xml_number": "5",
+          "words": [
+            "La 2",
+            "e ",
+            " prend la P",
+            "te ",
+            "Fl."
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 5,
+          "xml_number": "5",
+          "words": [
+            " . "
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 8,
+          "xml_number": "8",
+          "words": [
+            "nviron ",
+            "",
+            " du mouv't précédent"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 8,
+          "xml_number": "8",
+          "words": [],
+          "rehearsal": [
+            "1"
+          ]
+        },
+        {
+          "sequence": 8,
+          "xml_number": "8",
+          "words": [
+            "Solo"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 8,
+          "xml_number": "8",
+          "words": [
+            "vibrato"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 8,
+          "xml_number": "8",
+          "words": [
+            "............"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 9,
+          "xml_number": "9",
+          "words": [
+            "........"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 11,
+          "xml_number": "11",
+          "words": [
+            "vibrato.  .   .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  ."
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 14,
+          "xml_number": "14",
+          "words": [],
+          "rehearsal": [
+            "2"
+          ]
+        },
+        {
+          "sequence": 14,
+          "xml_number": "14",
+          "words": [
+            "1",
+            "er ",
+            "Mouv",
+            "t"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 20,
+          "xml_number": "20",
+          "words": [],
+          "rehearsal": [
+            "3"
+          ]
+        },
+        {
+          "sequence": 24,
+          "xml_number": "24",
+          "words": [],
+          "rehearsal": [
+            "4"
+          ]
+        },
+        {
+          "sequence": 25,
+          "xml_number": "25",
+          "words": [
+            "Animez               un                        peu"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 30,
+          "xml_number": "30",
+          "words": [
+            "Ra                -                 -                  len         -                  -        "
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 32,
+          "xml_number": "32",
+          "words": [],
+          "rehearsal": [
+            "5"
+          ]
+        },
+        {
+          "sequence": 32,
+          "xml_number": "32",
+          "words": [
+            "     -           -      tis       -               -                 sez"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 37,
+          "xml_number": "37",
+          "words": [],
+          "rehearsal": [
+            "6"
+          ]
+        },
+        {
+          "sequence": 39,
+          "xml_number": "39",
+          "words": [
+            "  environ du mouv",
+            "t",
+            " précédent"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 42,
+          "xml_number": "42",
+          "words": [],
+          "rehearsal": [
+            "7"
+          ]
+        },
+        {
+          "sequence": 43,
+          "xml_number": "43",
+          "words": [
+            "......"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 44,
+          "xml_number": "44",
+          "words": [
+            "......"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 46,
+          "xml_number": "46",
+          "words": [
+            " .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  ."
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 46,
+          "xml_number": "46",
+          "words": [
+            "Animez     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -     -"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 47,
+          "xml_number": "47",
+          "words": [],
+          "rehearsal": [
+            "8"
+          ]
+        }
+      ],
+      "anomalies": [],
+      "declared_source": "https://musescore.com/user/2675376/scores/7099547",
+      "software": [
+        "MuseScore 4.0.2"
+      ],
+      "pitched_event_count": 1822,
+      "eligible_pitched_event_count": 1781,
+      "pdf": {
+        "path": "resource/mother goose/new/mamerurowa-i-qian-zou-qu.pdf",
+        "sha256": "5265856d63289f43965f1ac64ab59c47efbf6661427c6db38c2143328c4d9380",
+        "bytes": 272177,
+        "page_count": 11
+      },
+      "midi": {
+        "path": "resource/mother goose/new/mamerurowa-i-qian-zou-qu.mid",
+        "sha256": "6640270cc03807425a92b97e01af63a08046989ef4563652b0f4bb936f39083b",
+        "bytes": 69905,
+        "tracks": 32,
+        "ticks_per_beat": 480,
+        "note_on_counts_by_channel": {
+          "0": 987,
+          "1": 213,
+          "2": 119,
+          "3": 1164,
+          "4": 326,
+          "5": 39,
+          "7": 250,
+          "8": 433,
+          "9": 1,
+          "10": 1125,
+          "11": 33,
+          "12": 30,
+          "13": 1171,
+          "6": 1989
+        }
+      },
+      "status": "unverified_transcription; edition_scope_checked; no_activation"
+    },
+    {
+      "source": {
+        "path": "resource/mother goose/new/mamerurowa-iv-mei-nuto-ye-shouno-dui-hua.mxl",
+        "sha256": "515e8056d64a3da1d750e71065c5e92db5446309963a5fffe8a709a12dc8a0d5",
+        "bytes": 67433
+      },
+      "title": "MA MERE L'OYE",
+      "parts": [
+        {
+          "id": "P1",
+          "name": "PETITE FLUTE"
+        },
+        {
+          "id": "P2",
+          "name": "2 GRANDES FLUTES"
+        },
+        {
+          "id": "P3",
+          "name": "1 HAUTBOIS"
+        },
+        {
+          "id": "P4",
+          "name": "1 COR ANGLAIS"
+        },
+        {
+          "id": "P5",
+          "name": " 2 CLARINETTES en SI♭"
+        },
+        {
+          "id": "P6",
+          "name": "2 Bassons"
+        },
+        {
+          "id": "P7",
+          "name": "1 Contrebasson"
+        },
+        {
+          "id": "P8",
+          "name": "2 Cors en Fa"
+        },
+        {
+          "id": "P9",
+          "name": "2 Timbales"
+        },
+        {
+          "id": "P10",
+          "name": "Triangle"
+        },
+        {
+          "id": "P11",
+          "name": "Cymbales"
+        },
+        {
+          "id": "P12",
+          "name": "Grosse-Caisse"
+        },
+        {
+          "id": "P13",
+          "name": "Tam-Tam"
+        },
+        {
+          "id": "P14",
+          "name": "Xylophone"
+        },
+        {
+          "id": "P15",
+          "name": "Jeu de Timbres"
+        },
+        {
+          "id": "P16",
+          "name": "Celesta"
+        },
+        {
+          "id": "P17",
+          "name": "HARPE"
+        },
+        {
+          "id": "P18",
+          "name": "VIOLON"
+        },
+        {
+          "id": "P19",
+          "name": "VIOLONS"
+        },
+        {
+          "id": "P20",
+          "name": "VIOLONS"
+        },
+        {
+          "id": "P21",
+          "name": "VIOLONS"
+        },
+        {
+          "id": "P22",
+          "name": "VIOLONS"
+        },
+        {
+          "id": "P23",
+          "name": "ALTO"
+        },
+        {
+          "id": "P24",
+          "name": "ALTOS"
+        },
+        {
+          "id": "P25",
+          "name": "ALTOS"
+        },
+        {
+          "id": "P26",
+          "name": "VIOLONCELLES"
+        },
+        {
+          "id": "P27",
+          "name": "VIOLONCELLES"
+        },
+        {
+          "id": "P28",
+          "name": "CONTREBASSES"
+        },
+        {
+          "id": "P29",
+          "name": "CONTREBASSES"
+        }
+      ],
+      "part_measure_counts": {
+        "P1": 191,
+        "P2": 191,
+        "P3": 191,
+        "P4": 191,
+        "P5": 191,
+        "P6": 191,
+        "P7": 191,
+        "P8": 191,
+        "P9": 191,
+        "P10": 191,
+        "P11": 191,
+        "P12": 191,
+        "P13": 191,
+        "P14": 191,
+        "P15": 191,
+        "P16": 191,
+        "P17": 191,
+        "P18": 191,
+        "P19": 191,
+        "P20": 191,
+        "P21": 191,
+        "P22": 191,
+        "P23": 191,
+        "P24": 191,
+        "P25": 191,
+        "P26": 191,
+        "P27": 191,
+        "P28": 191,
+        "P29": 191
+      },
+      "meters": [
+        {
+          "part_id": "P1",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P1",
+          "measure_sequence": 173,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P1",
+          "measure_sequence": 175,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P1",
+          "measure_sequence": 181,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P1",
+          "measure_sequence": 184,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P1",
+          "measure_sequence": 187,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P2",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P2",
+          "measure_sequence": 173,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P2",
+          "measure_sequence": 175,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P2",
+          "measure_sequence": 181,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P2",
+          "measure_sequence": 184,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P2",
+          "measure_sequence": 187,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P3",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P3",
+          "measure_sequence": 173,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P3",
+          "measure_sequence": 175,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P3",
+          "measure_sequence": 181,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P3",
+          "measure_sequence": 184,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P3",
+          "measure_sequence": 187,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P4",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P4",
+          "measure_sequence": 173,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P4",
+          "measure_sequence": 175,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P4",
+          "measure_sequence": 181,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P4",
+          "measure_sequence": 184,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P4",
+          "measure_sequence": 187,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P5",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P5",
+          "measure_sequence": 173,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P5",
+          "measure_sequence": 175,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P5",
+          "measure_sequence": 181,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P5",
+          "measure_sequence": 184,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P5",
+          "measure_sequence": 187,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P6",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P6",
+          "measure_sequence": 173,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P6",
+          "measure_sequence": 175,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P6",
+          "measure_sequence": 181,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P6",
+          "measure_sequence": 184,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P6",
+          "measure_sequence": 187,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P7",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P7",
+          "measure_sequence": 173,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P7",
+          "measure_sequence": 175,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P7",
+          "measure_sequence": 181,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P7",
+          "measure_sequence": 184,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P7",
+          "measure_sequence": 187,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P8",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P8",
+          "measure_sequence": 173,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P8",
+          "measure_sequence": 175,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P8",
+          "measure_sequence": 181,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P8",
+          "measure_sequence": 184,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P8",
+          "measure_sequence": 187,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P9",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P9",
+          "measure_sequence": 173,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P9",
+          "measure_sequence": 175,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P9",
+          "measure_sequence": 181,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P9",
+          "measure_sequence": 184,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P9",
+          "measure_sequence": 187,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P10",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P10",
+          "measure_sequence": 173,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P10",
+          "measure_sequence": 175,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P10",
+          "measure_sequence": 181,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P10",
+          "measure_sequence": 184,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P10",
+          "measure_sequence": 187,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P11",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P11",
+          "measure_sequence": 173,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P11",
+          "measure_sequence": 175,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P11",
+          "measure_sequence": 181,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P11",
+          "measure_sequence": 184,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P11",
+          "measure_sequence": 187,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P12",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P12",
+          "measure_sequence": 173,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P12",
+          "measure_sequence": 175,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P12",
+          "measure_sequence": 181,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P12",
+          "measure_sequence": 184,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P12",
+          "measure_sequence": 187,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P13",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P13",
+          "measure_sequence": 173,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P13",
+          "measure_sequence": 175,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P13",
+          "measure_sequence": 181,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P13",
+          "measure_sequence": 184,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P13",
+          "measure_sequence": 187,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P14",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P14",
+          "measure_sequence": 173,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P14",
+          "measure_sequence": 175,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P14",
+          "measure_sequence": 181,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P14",
+          "measure_sequence": 184,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P14",
+          "measure_sequence": 187,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P15",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P15",
+          "measure_sequence": 173,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P15",
+          "measure_sequence": 175,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P15",
+          "measure_sequence": 181,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P15",
+          "measure_sequence": 184,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P15",
+          "measure_sequence": 187,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P16",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P16",
+          "measure_sequence": 173,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P16",
+          "measure_sequence": 175,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P16",
+          "measure_sequence": 181,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P16",
+          "measure_sequence": 184,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P16",
+          "measure_sequence": 187,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P17",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P17",
+          "measure_sequence": 173,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P17",
+          "measure_sequence": 175,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P17",
+          "measure_sequence": 181,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P17",
+          "measure_sequence": 184,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P17",
+          "measure_sequence": 187,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P18",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P18",
+          "measure_sequence": 173,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P18",
+          "measure_sequence": 175,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P18",
+          "measure_sequence": 181,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P18",
+          "measure_sequence": 184,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P18",
+          "measure_sequence": 187,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P19",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P19",
+          "measure_sequence": 173,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P19",
+          "measure_sequence": 175,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P19",
+          "measure_sequence": 181,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P19",
+          "measure_sequence": 184,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P19",
+          "measure_sequence": 187,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P20",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P20",
+          "measure_sequence": 173,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P20",
+          "measure_sequence": 175,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P20",
+          "measure_sequence": 181,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P20",
+          "measure_sequence": 184,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P20",
+          "measure_sequence": 187,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P21",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P21",
+          "measure_sequence": 173,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P21",
+          "measure_sequence": 175,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P21",
+          "measure_sequence": 181,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P21",
+          "measure_sequence": 184,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P21",
+          "measure_sequence": 187,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P22",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P22",
+          "measure_sequence": 173,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P22",
+          "measure_sequence": 175,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P22",
+          "measure_sequence": 181,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P22",
+          "measure_sequence": 184,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P22",
+          "measure_sequence": 187,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P23",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P23",
+          "measure_sequence": 173,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P23",
+          "measure_sequence": 175,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P23",
+          "measure_sequence": 181,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P23",
+          "measure_sequence": 184,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P23",
+          "measure_sequence": 187,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P24",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P24",
+          "measure_sequence": 173,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P24",
+          "measure_sequence": 175,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P24",
+          "measure_sequence": 181,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P24",
+          "measure_sequence": 184,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P24",
+          "measure_sequence": 187,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P25",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P25",
+          "measure_sequence": 173,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P25",
+          "measure_sequence": 175,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P25",
+          "measure_sequence": 181,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P25",
+          "measure_sequence": 184,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P25",
+          "measure_sequence": 187,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P26",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P26",
+          "measure_sequence": 173,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P26",
+          "measure_sequence": 175,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P26",
+          "measure_sequence": 181,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P26",
+          "measure_sequence": 184,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P26",
+          "measure_sequence": 187,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P27",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P27",
+          "measure_sequence": 173,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P27",
+          "measure_sequence": 175,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P27",
+          "measure_sequence": 181,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P27",
+          "measure_sequence": 184,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P27",
+          "measure_sequence": 187,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P28",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P28",
+          "measure_sequence": 173,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P28",
+          "measure_sequence": 175,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P28",
+          "measure_sequence": 181,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P28",
+          "measure_sequence": 184,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P28",
+          "measure_sequence": 187,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P29",
+          "measure_sequence": 1,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P29",
+          "measure_sequence": 173,
+          "time": {
+            "beats": "3",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P29",
+          "measure_sequence": 175,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P29",
+          "measure_sequence": 181,
+          "time": {
+            "beats": "4",
+            "beat-type": "4"
+          }
+        },
+        {
+          "part_id": "P29",
+          "measure_sequence": 184,
+          "time": {
+            "beats": "2",
+            "beat-type": "2"
+          }
+        },
+        {
+          "part_id": "P29",
+          "measure_sequence": 187,
+          "time": {
+            "beats": "2",
+            "beat-type": "4"
+          }
+        }
+      ],
+      "directions": [
+        {
+          "sequence": 1,
+          "xml_number": "1",
+          "words": [
+            "3\n",
+            "e\n",
+            " TABLEAU\n",
+            "\n",
+            "Les entretiens de la Belle et de la Bête\n"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 1,
+          "xml_number": "1",
+          "words": [
+            "--\"Quand je pense à votre bon coeur, vous ne me paraisse pas si laid.\"\n",
+            "--\"Oh! dame, oui! J'ai le coeur bon, mais je suis un monstre.\"\n",
+            "--\"Il y a bien des hommes qui sont plus monstres que vous.\"\n",
+            "--\"Si, j'avais de l'esprit, je vous ferais un grand compliment pour vous remercier, mais je ne suis qu'une bête.\"\n",
+            "\n",
+            "....................\n",
+            "\n",
+            "\n",
+            "--\"La Belle, voulez-vous être ma femme?\"\n",
+            "--\"Non, la Bête!....\n",
+            "\n",
+            "....................\n",
+            "\n",
+            "\n",
+            "--\"Je meurs content puisque j'ai le plaisir de vous revoir encore une fois.\"\n",
+            "--\"Non, ma chère Bête, vous ne mourrez pas: vous vivrez pour devenir mon époux!\"...\n",
+            "\n",
+            "La Bête avait disparu et elle ne vit plus à ses pieds qu'un prince plus beau que l'Amour qui la remerciait d'avoir\n",
+            "fini son enchantement. (M\n",
+            "me\n",
+            " Leprince de Beaumont)\n",
+            "\n",
+            "\n",
+            "\n"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 1,
+          "xml_number": "1",
+          "words": [
+            "Mouv",
+            "t",
+            " de Valse modéré   ",
+            " ",
+            " = 50 "
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 17,
+          "xml_number": "17",
+          "words": [],
+          "rehearsal": [
+            "1"
+          ]
+        },
+        {
+          "sequence": 21,
+          "xml_number": "21",
+          "words": [
+            "Elle prend le miroir et va vers le 2",
+            "d",
+            " négrillon.   Elle se poudre, pose une mouche au coin de sa lèvre."
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 49,
+          "xml_number": "49",
+          "words": [],
+          "rehearsal": [
+            "2"
+          ]
+        },
+        {
+          "sequence": 70,
+          "xml_number": "70",
+          "words": [],
+          "rehearsal": [
+            "3"
+          ]
+        },
+        {
+          "sequence": 98,
+          "xml_number": "98",
+          "words": [
+            "Assez vif"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 103,
+          "xml_number": "103",
+          "words": [
+            "Rall.                                     _                                      _                                     _"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 107,
+          "xml_number": "107",
+          "words": [],
+          "rehearsal": [
+            "4"
+          ]
+        },
+        {
+          "sequence": 107,
+          "xml_number": "107",
+          "words": [
+            "1",
+            "er",
+            " Mouv",
+            "t"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 129,
+          "xml_number": "129",
+          "words": [],
+          "rehearsal": [
+            "5"
+          ]
+        },
+        {
+          "sequence": 147,
+          "xml_number": "147",
+          "words": [
+            "Touchée par ce grand \n",
+            "amour, la Belle la releve\n",
+            "et lui accorde sa main"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 148,
+          "xml_number": "148",
+          "words": [],
+          "rehearsal": [
+            "6"
+          ]
+        },
+        {
+          "sequence": 148,
+          "xml_number": "148",
+          "words": [
+            "1",
+            "er",
+            " Mouv",
+            "t",
+            " (Un peu plus lent)"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 148,
+          "xml_number": "148",
+          "words": [
+            "Elle ne voit plus a ses pieds qu'un prince plus beau que l'Amour, qui la remercie d'avoir terminé son enchantement"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 160,
+          "xml_number": "160",
+          "words": [
+            "Plus lent"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 169,
+          "xml_number": "169",
+          "words": [
+            "Ral.      _      _      _      _      _      _      _      _      _      _      _      _     "
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 173,
+          "xml_number": "173",
+          "words": [
+            "Lent"
+          ],
+          "rehearsal": []
+        },
+        {
+          "sequence": 187,
+          "xml_number": "187",
+          "words": [
+            " du Mouv",
+            "t",
+            " précédent"
+          ],
+          "rehearsal": []
+        }
+      ],
+      "anomalies": [],
+      "declared_source": "https://musescore.com/user/2675376/scores/7099543",
+      "software": [
+        "MuseScore 4.0.2"
+      ],
+      "pitched_event_count": 2724,
+      "eligible_pitched_event_count": 2719,
+      "pdf": {
+        "path": "resource/mother goose/new/mamerurowa-iv-mei-nuto-ye-shouno-dui-hua.pdf",
+        "sha256": "f4589747c1eefdb1e10777f6bb6ec04d2c646f43319e29017826405d58135974",
+        "bytes": 357543,
+        "page_count": 16
+      },
+      "midi": {
+        "path": "resource/mother goose/new/mamerurowa-iv-mei-nuto-ye-shouno-dui-hua.mid",
+        "sha256": "4310fa2c08d738bc40728afcd960ea22db206d81b3e98a6461e445a21dacc44a",
+        "bytes": 106226,
+        "tracks": 32,
+        "ticks_per_beat": 480,
+        "note_on_counts_by_channel": {
+          "0": 582,
+          "1": 143,
+          "2": 141,
+          "4": 255,
+          "5": 120,
+          "6": 352,
+          "7": 106,
+          "8": 80,
+          "9": 11,
+          "13": 887,
+          "3": 577,
+          "10": 85
+        }
+      },
+      "status": "unverified_transcription; edition_scope_checked; no_activation"
+    }
+  ],
+  "family_comparisons": [
+    {
+      "label": "帕凡舞前20小节／长笛组",
+      "old_span_global": [
+        1,
+        20
+      ],
+      "new_span_local": [
+        1,
+        20
+      ],
+      "old_part_ids": [
+        "P2",
+        "P3"
+      ],
+      "new_part_ids": [
+        "P2"
+      ],
+      "compared_measure_count": 20,
+      "equal_measure_signatures": 20,
+      "differences": [],
+      "scope": "unique (onset,duration,concert pitch) events within stated instrument family; not notehead correctness",
+      "same_signature_is_not_independent_verification": true
+    },
+    {
+      "label": "帕凡舞前20小节／圆号组",
+      "old_span_global": [
+        1,
+        20
+      ],
+      "new_span_local": [
+        1,
+        20
+      ],
+      "old_part_ids": [
+        "P14",
+        "P15"
+      ],
+      "new_part_ids": [
+        "P8"
+      ],
+      "compared_measure_count": 20,
+      "equal_measure_signatures": 20,
+      "differences": [],
+      "scope": "unique (onset,duration,concert pitch) events within stated instrument family; not notehead correctness",
+      "same_signature_is_not_independent_verification": true
+    },
+    {
+      "label": "美女与野兽前172小节／单簧管组",
+      "old_span_global": [
+        304,
+        475
+      ],
+      "new_span_local": [
+        1,
+        172
+      ],
+      "old_part_ids": [
+        "P7",
+        "P8",
+        "P9",
+        "P10"
+      ],
+      "new_part_ids": [
+        "P5"
+      ],
+      "compared_measure_count": 172,
+      "equal_measure_signatures": 161,
+      "differences": [
+        {
+          "old_local": 16,
+          "new_local": 16,
+          "old_only": [
+            [
+              "0",
+              "2",
+              "76"
+            ],
+            [
+              "2",
+              "1",
+              "69"
+            ]
+          ],
+          "new_only": [
+            [
+              "0",
+              "1",
+              "76"
+            ],
+            [
+              "1",
+              "1",
+              "69"
+            ]
+          ]
+        },
+        {
+          "old_local": 32,
+          "new_local": 32,
+          "old_only": [
+            [
+              "1",
+              "1",
+              "69"
+            ],
+            [
+              "2",
+              "1",
+              "71"
+            ]
+          ],
+          "new_only": [
+            [
+              "1",
+              "1",
+              "67"
+            ],
+            [
+              "2",
+              "1",
+              "69"
+            ]
+          ]
+        },
+        {
+          "old_local": 34,
+          "new_local": 34,
+          "old_only": [
+            [
+              "1",
+              "1",
+              "69"
+            ],
+            [
+              "2",
+              "1",
+              "71"
+            ]
+          ],
+          "new_only": [
+            [
+              "1",
+              "1",
+              "67"
+            ],
+            [
+              "2",
+              "1",
+              "69"
+            ]
+          ]
+        },
+        {
+          "old_local": 53,
+          "new_local": 53,
+          "old_only": [
+            [
+              "2",
+              "1",
+              "59"
+            ]
+          ],
+          "new_only": [
+            [
+              "2",
+              "1",
+              "58"
+            ]
+          ]
+        },
+        {
+          "old_local": 54,
+          "new_local": 54,
+          "old_only": [
+            [
+              "2",
+              "1",
+              "59"
+            ]
+          ],
+          "new_only": [
+            [
+              "2",
+              "1",
+              "58"
+            ]
+          ]
+        },
+        {
+          "old_local": 55,
+          "new_local": 55,
+          "old_only": [
+            [
+              "2",
+              "1",
+              "59"
+            ]
+          ],
+          "new_only": [
+            [
+              "2",
+              "1",
+              "58"
+            ]
+          ]
+        },
+        {
+          "old_local": 56,
+          "new_local": 56,
+          "old_only": [
+            [
+              "2",
+              "1",
+              "59"
+            ]
+          ],
+          "new_only": [
+            [
+              "2",
+              "1",
+              "58"
+            ]
+          ]
+        },
+        {
+          "old_local": 64,
+          "new_local": 64,
+          "old_only": [
+            [
+              "1",
+              "1",
+              "63"
+            ]
+          ],
+          "new_only": [
+            [
+              "1",
+              "1",
+              "64"
+            ]
+          ]
+        },
+        {
+          "old_local": 65,
+          "new_local": 65,
+          "old_only": [
+            [
+              "1",
+              "1",
+              "63"
+            ]
+          ],
+          "new_only": [
+            [
+              "1",
+              "1",
+              "64"
+            ]
+          ]
+        },
+        {
+          "old_local": 66,
+          "new_local": 66,
+          "old_only": [
+            [
+              "1",
+              "1",
+              "63"
+            ]
+          ],
+          "new_only": [
+            [
+              "1",
+              "1",
+              "64"
+            ]
+          ]
+        },
+        {
+          "old_local": 67,
+          "new_local": 67,
+          "old_only": [
+            [
+              "1",
+              "1",
+              "63"
+            ]
+          ],
+          "new_only": [
+            [
+              "1",
+              "1",
+              "64"
+            ]
+          ]
+        }
+      ],
+      "scope": "unique (onset,duration,concert pitch) events within stated instrument family; not notehead correctness",
+      "same_signature_is_not_independent_verification": true
+    },
+    {
+      "label": "美女与野兽前172小节／低音巴松",
+      "old_span_global": [
+        304,
+        475
+      ],
+      "new_span_local": [
+        1,
+        172
+      ],
+      "old_part_ids": [
+        "P13"
+      ],
+      "new_part_ids": [
+        "P7"
+      ],
+      "compared_measure_count": 172,
+      "equal_measure_signatures": 168,
+      "differences": [
+        {
+          "old_local": 122,
+          "new_local": 122,
+          "old_only": [],
+          "new_only": [
+            [
+              "0",
+              "2",
+              "31"
+            ],
+            [
+              "2",
+              "1/3",
+              "32"
+            ],
+            [
+              "7/3",
+              "1/3",
+              "33"
+            ],
+            [
+              "8/3",
+              "1/3",
+              "34"
+            ]
+          ]
+        },
+        {
+          "old_local": 123,
+          "new_local": 123,
+          "old_only": [],
+          "new_only": [
+            [
+              "0",
+              "2",
+              "35"
+            ]
+          ]
+        },
+        {
+          "old_local": 124,
+          "new_local": 124,
+          "old_only": [],
+          "new_only": [
+            [
+              "0",
+              "2",
+              "37"
+            ],
+            [
+              "2",
+              "1/3",
+              "38"
+            ],
+            [
+              "7/3",
+              "1/3",
+              "39"
+            ],
+            [
+              "8/3",
+              "1/3",
+              "40"
+            ]
+          ]
+        },
+        {
+          "old_local": 125,
+          "new_local": 125,
+          "old_only": [],
+          "new_only": [
+            [
+              "0",
+              "2",
+              "41"
+            ]
+          ]
+        }
+      ],
+      "scope": "unique (onset,duration,concert pitch) events within stated instrument family; not notehead correctness",
+      "same_signature_is_not_independent_verification": true
+    },
+    {
+      "label": "仙境花园56小节／竖琴",
+      "old_span_global": [
+        476,
+        531
+      ],
+      "new_span_local": [
+        1,
+        56
+      ],
+      "old_part_ids": [
+        "P24"
+      ],
+      "new_part_ids": [
+        "P14"
+      ],
+      "compared_measure_count": 56,
+      "equal_measure_signatures": 53,
+      "differences": [
+        {
+          "old_local": 34,
+          "new_local": 34,
+          "old_only": [
+            [
+              "1",
+              "1",
+              "76"
+            ],
+            [
+              "1",
+              "1",
+              "79"
+            ],
+            [
+              "1",
+              "1",
+              "83"
+            ],
+            [
+              "1",
+              "1",
+              "88"
+            ]
+          ],
+          "new_only": [
+            [
+              "1",
+              "1",
+              "77"
+            ],
+            [
+              "1",
+              "1",
+              "81"
+            ],
+            [
+              "1",
+              "1",
+              "84"
+            ],
+            [
+              "1",
+              "1",
+              "89"
+            ]
+          ]
+        },
+        {
+          "old_local": 50,
+          "new_local": 50,
+          "old_only": [
+            [
+              "0",
+              "1/2",
+              "79"
+            ]
+          ],
+          "new_only": []
+        },
+        {
+          "old_local": 55,
+          "new_local": 55,
+          "old_only": [
+            [
+              "1",
+              "2",
+              "36"
+            ],
+            [
+              "1/2",
+              "1/2",
+              "103"
+            ]
+          ],
+          "new_only": [
+            [
+              "1/2",
+              "1",
+              "103"
+            ],
+            [
+              "3/2",
+              "3/2",
+              "36"
+            ]
+          ]
+        }
+      ],
+      "scope": "unique (onset,duration,concert pitch) events within stated instrument family; not notehead correctness",
+      "same_signature_is_not_independent_verification": true
+    },
+    {
+      "label": "仙境花园56小节／钢片琴",
+      "old_span_global": [
+        476,
+        531
+      ],
+      "new_span_local": [
+        1,
+        56
+      ],
+      "old_part_ids": [
+        "P23"
+      ],
+      "new_part_ids": [
+        "P13"
+      ],
+      "compared_measure_count": 56,
+      "equal_measure_signatures": 54,
+      "differences": [
+        {
+          "old_local": 50,
+          "new_local": 50,
+          "old_only": [
+            [
+              "0",
+              "1",
+              "84"
+            ],
+            [
+              "0",
+              "1",
+              "88"
+            ],
+            [
+              "0",
+              "1",
+              "91"
+            ],
+            [
+              "1",
+              "1/2",
+              "67"
+            ],
+            [
+              "1/2",
+              "1/2",
+              "103"
+            ],
+            [
+              "2",
+              "1/2",
+              "91"
+            ],
+            [
+              "3/2",
+              "1/2",
+              "67"
+            ],
+            [
+              "5/2",
+              "1/2",
+              "79"
+            ]
+          ],
+          "new_only": [
+            [
+              "-3/160",
+              "1",
+              "84"
+            ],
+            [
+              "-3/160",
+              "1",
+              "88"
+            ],
+            [
+              "-3/160",
+              "1",
+              "91"
+            ],
+            [
+              "1/2",
+              "11/480",
+              "103"
+            ],
+            [
+              "113/160",
+              "11/480",
+              "88"
+            ],
+            [
+              "13/15",
+              "11/480",
+              "76"
+            ],
+            [
+              "131/240",
+              "11/480",
+              "100"
+            ],
+            [
+              "157/160",
+              "1/2",
+              "67"
+            ],
+            [
+              "197/240",
+              "11/480",
+              "79"
+            ],
+            [
+              "23/24",
+              "11/480",
+              "69"
+            ],
+            [
+              "237/160",
+              "1/2",
+              "67"
+            ],
+            [
+              "251/480",
+              "11/480",
+              "101"
+            ],
+            [
+              "27/32",
+              "11/480",
+              "77"
+            ],
+            [
+              "31/40",
+              "11/480",
+              "83"
+            ],
+            [
+              "317/160",
+              "1/2",
+              "91"
+            ],
+            [
+              "317/480",
+              "11/480",
+              "91"
+            ],
+            [
+              "35/48",
+              "11/480",
+              "86"
+            ],
+            [
+              "361/480",
+              "11/480",
+              "84"
+            ],
+            [
+              "383/480",
+              "11/480",
+              "81"
+            ],
+            [
+              "397/160",
+              "1/2",
+              "79"
+            ],
+            [
+              "41/60",
+              "11/480",
+              "89"
+            ],
+            [
+              "427/480",
+              "11/480",
+              "74"
+            ],
+            [
+              "449/480",
+              "11/480",
+              "71"
+            ],
+            [
+              "51/80",
+              "11/480",
+              "93"
+            ],
+            [
+              "59/96",
+              "11/480",
+              "95"
+            ],
+            [
+              "71/120",
+              "11/480",
+              "96"
+            ],
+            [
+              "73/80",
+              "11/480",
+              "72"
+            ],
+            [
+              "91/160",
+              "11/480",
+              "98"
+            ]
+          ]
+        },
+        {
+          "old_local": 55,
+          "new_local": 55,
+          "old_only": [],
+          "new_only": [
+            [
+              "2",
+              "1",
+              "76"
+            ],
+            [
+              "2",
+              "1",
+              "81"
+            ],
+            [
+              "3/4",
+              "1/4",
+              "76"
+            ],
+            [
+              "3/4",
+              "1/4",
+              "81"
+            ]
+          ]
+        }
+      ],
+      "scope": "unique (onset,duration,concert pitch) events within stated instrument family; not notehead correctness",
+      "same_signature_is_not_independent_verification": true
+    }
+  ],
+  "structural_candidates": [
+    {
+      "new_source": "resource/mother goose/new/ma-mere-loye-iii-pavane-de-la-belle-au-bois-dormant.mxl",
+      "old_span_global": [
+        1,
+        20
+      ],
+      "method": "sequence comparison of per-measure pitch-class unions; only structural candidates",
+      "candidate_blocks": [
+        {
+          "old_global_start": 1,
+          "new_local_start": 1,
+          "length": 10
+        },
+        {
+          "old_global_start": 12,
+          "new_local_start": 12,
+          "length": 8
+        }
+      ],
+      "caution": "Pitch-class union discards timing, voice, spelling and octave. It cannot certify a bar map."
+    },
+    {
+      "new_source": "resource/mother goose/new/mamerurowa-iv-mei-nuto-ye-shouno-dui-hua.mxl",
+      "old_span_global": [
+        304,
+        475
+      ],
+      "method": "sequence comparison of per-measure pitch-class unions; only structural candidates",
+      "candidate_blocks": [
+        {
+          "old_global_start": 304,
+          "new_local_start": 1,
+          "length": 22
+        },
+        {
+          "old_global_start": 327,
+          "new_local_start": 24,
+          "length": 8
+        },
+        {
+          "old_global_start": 336,
+          "new_local_start": 33,
+          "length": 1
+        },
+        {
+          "old_global_start": 338,
+          "new_local_start": 35,
+          "length": 1
+        },
+        {
+          "old_global_start": 340,
+          "new_local_start": 37,
+          "length": 2
+        },
+        {
+          "old_global_start": 343,
+          "new_local_start": 40,
+          "length": 13
+        },
+        {
+          "old_global_start": 360,
+          "new_local_start": 57,
+          "length": 7
+        },
+        {
+          "old_global_start": 373,
+          "new_local_start": 70,
+          "length": 43
+        },
+        {
+          "old_global_start": 417,
+          "new_local_start": 114,
+          "length": 8
+        },
+        {
+          "old_global_start": 426,
+          "new_local_start": 123,
+          "length": 1
+        },
+        {
+          "old_global_start": 428,
+          "new_local_start": 125,
+          "length": 4
+        },
+        {
+          "old_global_start": 436,
+          "new_local_start": 133,
+          "length": 1
+        },
+        {
+          "old_global_start": 439,
+          "new_local_start": 136,
+          "length": 9
+        },
+        {
+          "old_global_start": 449,
+          "new_local_start": 146,
+          "length": 2
+        },
+        {
+          "old_global_start": 453,
+          "new_local_start": 150,
+          "length": 1
+        },
+        {
+          "old_global_start": 457,
+          "new_local_start": 154,
+          "length": 19
+        }
+      ],
+      "caution": "Pitch-class union discards timing, voice, spelling and octave. It cannot certify a bar map."
+    },
+    {
+      "new_source": "resource/mother goose/new/mamerurowa-di7qu-yao-jingno-yuan.mxl",
+      "old_span_global": [
+        476,
+        531
+      ],
+      "method": "sequence comparison of per-measure pitch-class unions; only structural candidates",
+      "candidate_blocks": [
+        {
+          "old_global_start": 476,
+          "new_local_start": 1,
+          "length": 13
+        },
+        {
+          "old_global_start": 491,
+          "new_local_start": 16,
+          "length": 18
+        },
+        {
+          "old_global_start": 510,
+          "new_local_start": 35,
+          "length": 10
+        },
+        {
+          "old_global_start": 521,
+          "new_local_start": 46,
+          "length": 10
+        }
+      ],
+      "caution": "Pitch-class union discards timing, voice, spelling and octave. It cannot certify a bar map."
+    }
+  ],
+  "decision": "retain_original_suite_basis; use_new_as_ballet_comparison",
+  "limitations": [
+    "Only three overlapping movements; no new Petit Poucet or Laideronnette.",
+    "Extra bars are not automatically transcription errors or verified ballet interludes.",
+    "PDF and MusicXML can share one transcription lineage.",
+    "MIDI is inventoried as symbolic media; notes and timing are not established as correct.",
+    "Harmonics, ties, grace notes and glissandi need notation-aware checks; event differences are diagnostics."
+  ],
+  "human_signoff": null,
+  "expert_review": null
+}

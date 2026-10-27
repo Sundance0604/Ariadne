@@ -4,6 +4,17 @@ import {prepareScoreRegions,scoreRegionAt,scoreRegionAtPoint} from '../review/sc
 import {playheadPosition} from '../review/playhead.mjs';
 
 const alignment={time_map:[{midi_seconds:0,audio_seconds:20},{midi_seconds:10,audio_seconds:32},{midi_seconds:20,audio_seconds:50}]};
+
+test('independent movement maps preserve the last bar before a source-free interlude',()=>{
+  const a={time_map:[{midi_seconds:0,audio_seconds:20},{midi_seconds:10,audio_seconds:40},{midi_seconds:10,audio_seconds:100},{midi_seconds:20,audio_seconds:120}],
+    time_maps:[{id:'first',time_map:[{midi_seconds:0,audio_seconds:20},{midi_seconds:10,audio_seconds:40}]}]};
+  const geometry={score_regions:[{region_id:'last',midi_start_seconds:8,midi_end_seconds:10,alignment_segment:'first',page_number:1,page_width_pt:600,page_height_pt:800,rect_pt:[50,50,200,300]},
+    {region_id:'cadenza',audio_start_seconds:40,audio_end_seconds:100,no_symbolic_projection:true,page_number:2,page_width_pt:600,page_height_pt:800,rect_pt:[50,50,400,300]}]};
+  const regions=prepareScoreRegions(geometry,a);
+  assert.equal(regions[0].audioEnd,40);assert.equal(scoreRegionAt(regions,39).region_id,'last');
+  const cadenza=scoreRegionAt(regions,80);assert.equal(cadenza.region_id,'cadenza');
+  assert.equal(playheadPosition(a.time_map,80,cadenza,cadenza),null);
+});
 const document={score_regions:[
   {region_id:'bar-a',midi_start_seconds:0,midi_end_seconds:8,page_number:5,
     page_width_pt:600,page_height_pt:800,rect_pt:[100,50,100,300],resolution:'bar'},

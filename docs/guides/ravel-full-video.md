@@ -4,7 +4,7 @@
 
 输出在 `output/video-export/ravel-full-001/`。最终MP4在本次 `edits-XXX/导聆视频.mp4`，根目录的 `local/video-export/latest-video.txt` 记录最近成功生成的位置。`export-manifest.json` 记录本次成片的相对路径。
 
-完成后双击项目根目录 **编辑完整版字幕.bat**，可修改整曲文字、出现时间和字号，并另存新视频。该入口与原来95秒样片的编辑入口分开，避免编辑错对象。编辑窗口使用 `captions-editable.json`；修改后须点击“保存并生成新视频”。
+完成后双击项目根目录 **编辑视频字幕.bat**，选择 **拉威尔左手钢协完整版**，可修改整曲文字、出现时间、位置、字体与滚动速度，并另存新视频。完整版与95秒样片在项目选择窗口分开，文稿仍使用 `captions-editable.json`；修改后须点击“保存并生成新视频”。
 
 目录还保存 `performance.mp4`、`analysis.ass`、`annotations.json`、`alignment.json`、`export-config-kaiti.json`、`score/`、`review-report.json`。原网页完整文字另保存在 `web-captions.json`，排除的占位文字、无信息提示及不能阅读的片段有原因记录。用户修改之后的新一轮ASS、正文快照和渲染结果保存在新建的 `edits-XXX/` 内。
 

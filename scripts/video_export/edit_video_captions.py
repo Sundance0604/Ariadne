@@ -1,4 +1,4 @@
-"""Local, dependency-free window for editing the existing Ravel video captions."""
+"""Unified local caption editor: choose a project, edit text/styles and export."""
 import argparse
 import copy
 import json
@@ -12,9 +12,66 @@ import uuid
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 from backend.video_export.content import read, write
-from backend.video_export.editor import (DOCUMENT, PACKAGE, SLOTS, export, load_document, prepare,
+from backend.video_export.editor import (DOCUMENT, PACKAGE, SLOTS, STYLE_FIELDS, package_config, validate_style, export, load_document, prepare,
     column_key, document_names, normalized_sizes, stored_column, stored_sizes)
-from backend.video_export.paths import configured_path,full_paths
+from backend.video_export.paths import configured_path,full_paths,editor_projects,settings
+
+
+def resolve_target(args):
+    """CLI overrides never pair a custom package with another project's draft."""
+    if args.project:
+        project=next((p for p in editor_projects() if p['id']==args.project),None)
+        if project is None:raise ValueError('未知字幕项目：'+args.project)
+        package,document=project['package'],project['document']
+    elif args.full:
+        package,document=full_paths()
+    else:
+        package,document=PACKAGE,DOCUMENT
+    if args.package:
+        package=args.package.resolve()
+        document=package/'captions-editable.json'
+    if args.document:document=args.document.resolve()
+    return package,document
+
+
+def choose_project(root):
+    """Selecting or cancelling only reads paths; it never creates a document."""
+    import tkinter as tk
+    from tkinter import ttk,messagebox
+    projects=editor_projects()
+    dialog=tk.Toplevel(root)
+    dialog.title('选择字幕项目')
+    dialog.geometry('780x340')
+    dialog.minsize(640,300)
+    outer=ttk.Frame(dialog,padding=20);outer.pack(fill='both',expand=True)
+    ttk.Label(outer,text='选择要编辑的视频',font=('Microsoft YaHei UI',14)).pack(anchor='w',pady=(0,12))
+    default=settings().get('editor_default_project')
+    selected=tk.StringVar(value=next((p['id'] for p in projects if p['id']==default),projects[0]['id']))
+    for project in projects:
+        ttk.Radiobutton(outer,text=project['title'],variable=selected,value=project['id']).pack(anchor='w',pady=5)
+    detail=tk.StringVar()
+    def describe(*_):
+        project=next(p for p in projects if p['id']==selected.get())
+        detail.set('文稿：'+project['document'].relative_to(ROOT).as_posix()+'\n资源包：'+project['package'].relative_to(ROOT).as_posix())
+    selected.trace_add('write',describe);describe()
+    ttk.Label(outer,textvariable=detail,wraplength=720).pack(anchor='w',pady=14)
+    result=[]
+    def open_selected():
+        project=next(p for p in projects if p['id']==selected.get())
+        package=project['package']
+        if not project['document'].is_file() or not any((package/name).is_file() for name in ('export-config.json','export-config-kaiti.json')):
+            messagebox.showerror('本地资料未齐备','这个项目需要已有字幕文稿和本地视频资源包。请先准备对应资料，再打开编辑。',parent=dialog)
+            return
+        result.append((project['package'],project['document']))
+        dialog.destroy()
+    buttons=ttk.Frame(outer);buttons.pack(fill='x',side='bottom')
+    ttk.Button(buttons,text='打开编辑器',command=open_selected).pack(side='right')
+    ttk.Button(buttons,text='取消',command=dialog.destroy).pack(side='right',padx=8)
+    dialog.bind('<Return>',lambda _:open_selected())
+    dialog.bind('<Escape>',lambda _:dialog.destroy())
+    dialog.protocol('WM_DELETE_WINDOW',dialog.destroy)
+    root.wait_window(dialog)
+    return result[0] if result else None
 
 
 def import_document(path, current, config):
@@ -79,14 +136,14 @@ class Editor:
         self.data = load_document(document, package)
         self.names = {name:document_names(self.data).get(name,name) for name in SLOTS}
         self.internal_names = {label:name for name,label in self.names.items()}
-        config = read(package / 'export-config-kaiti.json')
+        config = package_config(package)
         self.config = config
         segment = config['segments'][0]
         duration = segment['video_end'] - segment['video_start']
         self.selected, self.busy, self.result = None, False, None
         self.dirty = False
         self.messages = queue.Queue()
-        root.title('导聆视频 · 字幕编辑')
+        root.title('导聆视频 · 字幕编辑 · '+str(document.relative_to(ROOT) if document.is_relative_to(ROOT) else document))
         root.geometry('1160x850')
         root.minsize(900, 680)
         root.option_add('*Font', ('Microsoft YaHei UI', 11))
@@ -102,7 +159,7 @@ class Editor:
         book.pack(fill='both', expand=True, pady=10)
         page, font_page = ttk.Frame(book, padding=10), ttk.Frame(book, padding=16)
         book.add(page, text='文字与出现时间')
-        book.add(font_page, text='各栏目字号')
+        book.add(font_page, text='位置、字体与滚动')
         tools = ttk.Frame(page)
         tools.pack(fill='x')
         ttk.Label(tools, text='筛选栏目：').pack(side='left')
@@ -142,6 +199,13 @@ class Editor:
         heading.pack(fill='x', pady=(10, 4))
         ttk.Label(heading, text='自定义标题（留空使用栏目名）').pack(side='left')
         ttk.Entry(heading, textvariable=self.title).pack(side='left', fill='x', expand=True, padx=8)
+        overrides=ttk.LabelFrame(page,text='此条字幕的单独样式（留空沿用栏目设置）',padding=5)
+        overrides.pack(fill='x',pady=4)
+        self.row_style={}
+        for i,key in enumerate(STYLE_FIELDS):
+            ttk.Label(overrides,text=key).grid(row=0,column=i,padx=4,sticky='w')
+            var=tk.StringVar();var.trace_add('write',lambda *_:self.changed());self.row_style[key]=var
+            ttk.Entry(overrides,textvariable=var,width=17 if key=='字体' else 9).grid(row=1,column=i,padx=4,sticky='w')
         ttk.Label(page, text='正文（可直接粘贴多行文字）').pack(anchor='w')
         body = ttk.Frame(page)
         body.pack(fill='both', expand=True, pady=(4, 8))
@@ -153,17 +217,28 @@ class Editor:
         for variable in (self.slot, self.start, self.end, self.visible, self.title):
             variable.trace_add('write', lambda *_: self.changed())
         self.text.bind('<<Modified>>', self.text_changed)
-        ttk.Label(page, text='片头须在24.48秒前结束；常规字幕从27.5秒开始。诠释时间变化时，乐谱会自动同步隐藏和恢复。', wraplength=1000).pack(anchor='w')
+        ttk.Label(page, text=f'片头须在{config.get("intro_clear_video",config["music_start_video"]-3):g}秒前结束；常规字幕从{config["music_start_video"]:g}秒开始。诠释显示时乐谱自动隐藏，结束后恢复。', wraplength=1000).pack(anchor='w')
         self.fonts = {}
         self.font_labels = {}
+        self.styles={}
+        headers=['栏目','字号','横坐标','纵坐标','宽度','高度','字体','滚动倍速']
+        for col,title in enumerate(headers):ttk.Label(font_page,text=title).grid(row=0,column=col,padx=7,sticky='w')
         for i, label in enumerate(SLOTS):
             self.font_labels[label] = ttk.Label(font_page,text=self.names[label])
-            self.font_labels[label].grid(row=i, column=0, sticky='w', pady=10)
+            self.font_labels[label].grid(row=i+1, column=0, sticky='w', pady=10)
             var = tk.StringVar(value=str(normalized_sizes(self.data['字号'])[label]))
             var.trace_add('write', lambda *_: self.changed())
             self.fonts[label] = var
-            ttk.Spinbox(font_page, from_=12, to=120, textvariable=var, width=8).grid(row=i, column=1, padx=24)
-        ttk.Label(font_page, text='数值越大字越大；所有文字保持黄色楷体，栏目位置和乐谱尺寸不变。').grid(row=8, column=0, columnspan=3, pady=24, sticky='w')
+            ttk.Spinbox(font_page, from_=12, to=120, textvariable=var, width=6).grid(row=i+1, column=1, padx=7)
+            self.styles[label]={}
+            base=config['layout'][SLOTS[label]]
+            saved=self.data.get('字幕样式',{}).get(stored_column(label,self.names),{})
+            for col,key in enumerate(headers[2:],2):
+                default=base.get(STYLE_FIELDS[key],config.get('font','KaiTi') if key=='字体' else config.get('scroll_speed',1) if key=='滚动倍速' else '')
+                field=tk.StringVar(value=str(saved.get(key,default)));field.trace_add('write',lambda *_:self.changed())
+                self.styles[label][key]=field
+                ttk.Entry(font_page,textvariable=field,width=19 if key=='字体' else 7).grid(row=i+1,column=col,padx=5)
+        ttk.Label(font_page,text='坐标以画面左上角为原点，单位为像素。滚动倍速1为原速，1.5快一半，2为两倍；只加快滚动，不改变字幕起止时间。\n单条例外可在“文字与出现时间”页签填写。字体可填系统已安装字体名，例如KaiTi、Microsoft YaHei。\n保存只更新JSON；生成新视频后设置才会出现在MP4中。',wraplength=1000).grid(row=8,column=0,columnspan=8,pady=24,sticky='w')
         actions = ttk.Frame(outer)
         actions.pack(fill='x')
         self.save_button = ttk.Button(actions, text='保存修改', command=self.save)
@@ -223,6 +298,10 @@ class Editor:
         for label,var in self.fonts.items():
             var.set(str(normalized_sizes(self.data['字号'])[label]))
             self.font_labels[label].configure(text=self.names[label])
+            for key,field in self.styles[label].items():
+                base=self.config['layout'][SLOTS[label]]
+                default=base.get(STYLE_FIELDS[key],self.config.get('font','KaiTi') if key=='字体' else self.config.get('scroll_speed',1) if key=='滚动倍速' else '')
+                field.set(str(self.data.get('字幕样式',{}).get(stored_column(label,self.names),{}).get(key,default)))
         self.tree.column('slot',width=155 if self.data['栏目名称'] else 70)
         self.refresh()
         self.loading = False
@@ -246,6 +325,7 @@ class Editor:
             return
         self.data['字幕'][self.selected].update({'栏目': stored_column(self.internal_names.get(self.slot.get(),self.slot.get()),self.names), '开始秒': self.start.get(),
             '结束秒': self.end.get(), '标题': self.title.get(), '文字': self.text.get('1.0', 'end-1c'), '显示': self.visible.get()})
+        self.data['字幕'][self.selected]['样式']={key:var.get().strip() for key,var in self.row_style.items() if var.get().strip()}
 
     def refresh(self, focus=None):
         self.commit_row()
@@ -280,6 +360,7 @@ class Editor:
         self.end.set(str(row['结束秒']))
         self.title.set(row.get('标题', ''))
         self.visible.set(row.get('显示', True))
+        for key,var in self.row_style.items():var.set(str(row.get('样式',{}).get(key,'')))
         self.text.delete('1.0', 'end')
         self.text.insert('1.0', row['文字'])
         self.text.edit_modified(False)
@@ -304,9 +385,24 @@ class Editor:
             return False
         self.data['字号'] = stored_sizes(sizes,self.names)
         try:
+            settings={}
+            for label,fields in self.styles.items():
+                values={key:var.get().strip() for key,var in fields.items()}
+                validate_style(values,{**self.config['layout'][SLOTS[label]],'font_size':sizes[label]},self.config)
+                settings[stored_column(label,self.names)]=values
+            self.data['字幕样式']=settings
+            for row in self.data['字幕']:
+                label=column_key(row['栏目'])
+                base={**self.config['layout'][SLOTS[label]],'font_size':sizes[label]}
+                base.update(validate_style(settings[stored_column(label,self.names)],base,self.config))
+                validate_style(row.get('样式',{}),base,self.config)
+        except ValueError as error:
+            self.messagebox.showerror('样式未保存',str(error));return False
+        try:
             write(self.path, self.data)
-            # Keep the previous font-only command in sync with this window.
-            write(configured_path('font_settings'), self.data['字号'])
+            # Preserve local font preferences for the existing Ravel projects.
+            if self.package.resolve()==PACKAGE.resolve() or self.package.resolve()==full_paths()[0].resolve():
+                write(configured_path('font_settings'), self.data['字号'])
         except OSError as error:
             self.messagebox.showerror('保存失败', str(error))
             return False
@@ -398,14 +494,18 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--package', type=Path)
     parser.add_argument('--document', type=Path)
-    parser.add_argument('--full',action='store_true',help='使用配置中的当前完整版')
+    target=parser.add_mutually_exclusive_group()
+    target.add_argument('--full',action='store_true',help='使用配置中的拉威尔左手钢协完整版（兼容参数）')
+    target.add_argument('--project',help='选择配置中的项目ID，例如mother-goose、ravel-full、ravel-sample')
     parser.add_argument('--fonts', action='store_true')
     parser.add_argument('--render', action='store_true', help='直接按保存的文稿生成视频，不打开窗口')
     parser.add_argument('--ass-only', action='store_true')
     args = parser.parse_args()
-    package,document=full_paths() if args.full else (PACKAGE,DOCUMENT)
-    args.package=args.package or package
-    args.document=args.document or document
+    explicit_target=bool(args.project or args.full or args.package or args.document)
+    try:
+        args.package,args.document=resolve_target(args)
+    except ValueError as error:
+        parser.error(str(error))
     if args.render or args.ass_only:
         try:
             export(load_document(args.document, args.package), args.package, ass_only=args.ass_only)
@@ -416,7 +516,15 @@ def main():
         import tkinter as tk
         from tkinter import messagebox
         root = tk.Tk()
+        root.withdraw()
         try:
+            if not explicit_target:
+                chosen=choose_project(root)
+                if chosen is None:
+                    root.destroy()
+                    return
+                args.package,args.document=chosen
+            root.deiconify()
             Editor(root, args.package, args.document, args.fonts)
         except Exception as error:
             messagebox.showerror('字幕编辑器无法启动', str(error))

@@ -21,8 +21,9 @@ export function prepareScoreRegions(document,alignment,corrections=null,numbered
     !region.parent_region_id||!overrides.has(region.parent_region_id)||overrides.has(region.region_id)).map((original,index)=>{
     const start=original.midi_start_seconds??original.reference_start_seconds;
     const end=original.midi_end_seconds??original.reference_end_seconds;
-    const audioStart=Number.isFinite(start)?recordingTimeAt(alignment.time_map,start):original.audio_start_seconds;
-    const audioEnd=Number.isFinite(end)?recordingTimeAt(alignment.time_map,end):original.audio_end_seconds;
+    const timeMap=original.alignment_segment?(alignment.time_maps||[]).find(s=>s.id===original.alignment_segment)?.time_map:alignment.time_map;
+    const audioStart=Number.isFinite(start)?recordingTimeAt(timeMap,start):original.audio_start_seconds;
+    const audioEnd=Number.isFinite(end)?recordingTimeAt(timeMap,end):original.audio_end_seconds;
     const manual=overrides.get(original.region_id);
     return {...original,region_id:original.region_id||`score-region-${index}`,start,end,
       audioStart:manual?.start_seconds??audioStart,audioEnd:manual?.end_seconds??audioEnd,

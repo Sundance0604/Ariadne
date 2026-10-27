@@ -50,6 +50,13 @@ body{padding-bottom:calc(var(--transport-height,125px) + 24px)}
 #panel-research>.analysis-note{margin:4px 0;flex-shrink:0}
 .analysis-content:has(#panel-research:not([hidden]))>.review-tools,.analysis-content:has(#panel-research:not([hidden]))>small{display:none}
 #essay-body>h3{font-size:15px;margin:4px 0}#essay-body>.analysis-note{font-size:10px;margin:4px 0}
+/* Long reading keeps its own height; the video remains reachable by scrolling
+   the sidebar instead of shrinking the article underneath its controls. */
+@media(min-width:681px){
+ .has-video .side:has(#panel-research:not([hidden])),.has-video .side:has(#panel-evidence:not([hidden])){overflow-y:auto}
+ .has-video .analysis-content:has(#panel-research:not([hidden])),.has-video .analysis-content:has(#panel-evidence:not([hidden])){flex:0 0 auto;height:calc(100dvh - var(--toolbar-height,70px) - var(--header-height,100px) - var(--transport-height,90px) - 60px);min-height:360px;max-height:none}
+ #panel-research .essay-body{min-height:140px}
+}
 .analysis-rich img{max-width:100%;height:auto}.hud-candidate-mode{display:block;font-size:11px;margin-top:6px;color:#61796b}
 .musicxml-reader{border:1px solid #cad9ce;border-radius:8px;margin:8px 0;padding:8px 10px;font-size:12px;max-height:44vh;overflow:auto;background:#f8faf7}.musicxml-reader summary{cursor:pointer;color:#235b46}.musicxml-reader select{max-width:55%;margin:6px}.musicxml-reader table{border-collapse:collapse;min-width:100%;font-size:11px}.musicxml-reader td,.musicxml-reader th{border:1px solid #dbe5dc;padding:4px;text-align:left;vertical-align:top}.musicxml-reader details{margin:8px 0}.musicxml-reader p{line-height:1.7}
 @media(max-width:680px){body[data-mobile-tab=analysis] .analysis-content:has(#panel-research:not([hidden])){display:flex!important}}

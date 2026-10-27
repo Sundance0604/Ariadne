@@ -1,0 +1,66 @@
+{
+  "read_scope": "相关段落选读，不称全文逐字或专家校勘；各条为中文转述与有归属的听觉解释",
+  "sources": [
+    {
+      "id": "K",
+      "author": "Emily Kilpatrick",
+      "title": "Therein Lies a Tale: Musical and Literary Structure in Ravel’s Ma mère l’Oye",
+      "path": "resource/mother goose/34_Kilpatrick-246zr6w.pdf",
+      "pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "scope": "创作背景、故事来源、反复与变形、迷途、微型乐队、前奏材料和终曲叙事；相关段落文字选读",
+      "claim_boundary": "五曲结构模型保留其原组曲顺序；新增芭蕾素材只采用文中明确讨论的前奏观点"
+    },
+    {
+      "id": "A",
+      "author": "Peter Lawrence Alexander",
+      "title": "How Ravel Orchestrated: Mother Goose Suite",
+      "path_prefix": "resource/mother goose/How Ravel Orchestrated",
+      "newly_read_pdf_ranges": [
+        [
+          25,
+          27
+        ],
+        [
+          70,
+          76
+        ]
+      ],
+      "scope": "书内佩罗《睡美人》与德奥尔努瓦《绿蛇》故事相关段落；配器仍据此前已阅读章节"
+    },
+    {
+      "id": "D",
+      "author": "Frank A. D’Accone",
+      "title": "An Analysis and Comparison of the Original Piano Duet and the Orchestral Version of Ma Mère L’Oye",
+      "path": "resource/mother goose/DAccone_Frank_1953_web.pdf",
+      "pdf_pages": [
+        7,
+        8
+      ],
+      "scope": "三段题辞及故事来源；未采纳其首演日期"
+    },
+    {
+      "id": "V/M05/B/X",
+      "scope": "复用现有sources.json、ballet-guide.json、谱面研究和实时证据；未新增音乐内容核查"
+    }
+  ],
+  "disclosure": "梅西安的内心花园、基尔帕特里克的讲述者与时钟、Vlitakis的音色形式关系，均作为作者读法；新增中文叙事连接为编辑性导聆。"
+}

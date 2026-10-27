@@ -1,0 +1,131 @@
+{
+  "format_version": "1.0",
+  "title": "拉威尔 · 鹅妈妈｜完整芭蕾导聆",
+  "width": 1920,
+  "height": 1080,
+  "music_start_video": 28.6,
+  "music_start_confirmation": {
+    "status": "agent_checked",
+    "reviewer": "Codex",
+    "basis": "same-video pitch/onset open-end localization plus conductor frames; candidate boundary, no human listening signature",
+    "human_signature": null
+  },
+  "segments": [
+    {
+      "video_start": 0,
+      "video_end": 1678.66
+    }
+  ],
+  "chapters": [
+    {
+      "start": 28.6,
+      "title": "I · 前奏曲"
+    },
+    {
+      "start": 231.2,
+      "title": "II · 纺车舞与场景"
+    },
+    {
+      "start": 441.0,
+      "title": "III · 睡美人的帕凡舞与间奏"
+    },
+    {
+      "start": 580.2,
+      "title": "IV · 美女与野兽的对话与间奏"
+    },
+    {
+      "start": 870.6,
+      "title": "V · 小拇指"
+    },
+    {
+      "start": 1147.0,
+      "title": "VI · 丑姑娘，宝塔女皇"
+    },
+    {
+      "start": 1448.8,
+      "title": "VII · 仙境花园"
+    }
+  ],
+  "font": "KaiTi",
+  "font_size": 36,
+  "spacing": 0,
+  "yellow": "#FFDF42",
+  "minimum_caption_seconds": 3,
+  "characters_per_second": 7,
+  "score_zoom": 1,
+  "score_dpi": 144,
+  "crf": 20,
+  "preset": "veryfast",
+  "bold": true,
+  "web_video_layout": true,
+  "caption_lifecycle": "single_pass",
+  "intro_clear_video": 24.48,
+  "slot_labels": {
+    "harmony": "和声背景",
+    "orchestration": "本段配器",
+    "counterpoint": "声部关系与复调",
+    "form": "曲式与主题发展"
+  },
+  "layout": {
+    "harmony": {
+      "x": 50,
+      "y": 30,
+      "w": 1000,
+      "h": 270,
+      "font_size": 36
+    },
+    "orchestration": {
+      "x": 1090,
+      "y": 24,
+      "w": 780,
+      "h": 190,
+      "font_size": 36,
+      "align": "right"
+    },
+    "counterpoint": {
+      "x": 50,
+      "y": 330,
+      "w": 1130,
+      "h": 180,
+      "font_size": 36
+    },
+    "form": {
+      "x": 50,
+      "y": 540,
+      "w": 1130,
+      "h": 160,
+      "font_size": 36
+    },
+    "guide": {
+      "x": 50,
+      "y": 730,
+      "w": 1130,
+      "h": 140,
+      "font_size": 36
+    },
+    "score": {
+      "x": 1260,
+      "y": 230,
+      "w": 600,
+      "h": 800
+    },
+    "interpretation": {
+      "x": 260,
+      "y": 900,
+      "w": 1400,
+      "h": 160,
+      "font_size": 44,
+      "align": "center",
+      "scroll": true
+    },
+    "intro": {
+      "x": 220,
+      "y": 190,
+      "w": 1480,
+      "h": 700,
+      "font_size": 58,
+      "align": "center",
+      "scroll": true
+    }
+  }
+}

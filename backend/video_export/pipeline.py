@@ -17,7 +17,10 @@ from .media import ffmpeg,run,inspect_frames,audio_hash
 
 def validate_config(config):
     if config.get('format_version')!='1.0':raise ValueError('Unknown export configuration')
-    if config.get('music_start_confirmation',{}).get('status')!='user_confirmed':raise ValueError('Confirm music entry before release export')
+    confirmation=config.get('music_start_confirmation',{})
+    if confirmation.get('status') not in {'user_confirmed','agent_checked'}:raise ValueError('Confirm music entry before release export')
+    if confirmation.get('status')=='agent_checked' and (not confirmation.get('reviewer') or not confirmation.get('basis') or confirmation.get('human_signature') is not None):
+        raise ValueError('Agent music-entry review requires its evidence and cannot imply a human signature')
     if not math.isfinite(config['music_start_video']) or config['music_start_video']<3:raise ValueError('Invalid music entry')
     if config.get('intro_clear_video',config['music_start_video']-3)>config['music_start_video']-3:raise ValueError('Intro clear frame is after the three-second deadline')
     if not config['segments']:raise ValueError('No export segments')
@@ -27,6 +30,11 @@ def validate_config(config):
     if not re.fullmatch(r'#[0-9a-fA-F]{6}',config['yellow']):raise ValueError('Invalid subtitle colour')
     for s in config['segments']:
         if not all(isinstance(s[k],(int,float)) and math.isfinite(s[k]) for k in ['video_start','video_end']) or not 0<=s['video_start']<s['video_end']:raise ValueError('Invalid segment')
+    chapters=config.get('chapters',[])
+    if chapters:
+        duration=config['segments'][0]['video_end']-config['segments'][0]['video_start']
+        if any(not isinstance(c.get('title'),str) or not c['title'].strip() or not isinstance(c.get('start'),(int,float)) or not math.isfinite(c['start']) or not 0<=c['start']<duration for c in chapters):raise ValueError('Invalid video chapter')
+        if any(b['start']<=a['start'] for a,b in zip(chapters,chapters[1:])):raise ValueError('Video chapters must increase')
     for name,box in config['layout'].items():
         if not all(isinstance(box[k],(int,float)) and math.isfinite(box[k]) for k in ['x','y','w','h']):raise ValueError('Invalid layout')
         if min(box['x'],box['y'])<0 or min(box['w'],box['h'])<=0 or box['x']+box['w']>config['width'] or box['y']+box['h']>config['height']:raise ValueError('Layout outside canvas')
@@ -308,7 +316,15 @@ def compose(root,package):
             '-c:a','copy','-map_metadata','-1','-movflags','+faststart',name]
         print(f'Compositing segment {i+1}',flush=True);run(command,package/f'compose-{i:03}.log',package)
         offset+=duration
-    if len(parts)==1:shutil.copy2(package/parts[0],package/'guided-performance.mp4')
+    if len(parts)==1 and config.get('chapters'):
+        def escaped(value):return str(value).replace('\\','\\\\').replace('\n',' ').replace('=','\\=').replace(';','\\;').replace('#','\\#')
+        rows=[';FFMETADATA1','title='+escaped(config.get('title','Ariadne guided performance'))]
+        for i,c in enumerate(config['chapters']):
+            end=config['chapters'][i+1]['start'] if i+1<len(config['chapters']) else offset
+            rows+=['[CHAPTER]','TIMEBASE=1/1000',f"START={round(c['start']*1000)}",f'END={round(end*1000)}','title='+escaped(c['title'])]
+        (package/'chapters.ffmetadata').write_text('\n'.join(rows)+'\n',encoding='utf-8')
+        run([binary,'-v','error','-y','-i',parts[0],'-i','chapters.ffmetadata','-map','0','-map_metadata','1','-map_chapters','1','-c','copy','-movflags','+faststart','guided-performance.mp4'],package/'chapters.log',package)
+    elif len(parts)==1:shutil.copy2(package/parts[0],package/'guided-performance.mp4')
     else:
         rows=['ffconcat version 1.0']
         for name,s in zip(parts,config['segments']):rows += [f"file '{name}'",f"duration {s['video_end']-s['video_start']:.9f}"]
@@ -355,7 +371,9 @@ def verify_video(root,package):
     from PIL import Image
     with Image.open(package/'score/blank.png') as blank:alpha_clear=blank.mode=='RGBA' and blank.getextrema()[3]==(0,0)
     log='\n'.join(p.read_text(encoding='utf-8') for p in package.glob('compose-*.log'))
-    missing_glyph=bool(__import__('re').search(r'failed to find|Glyph .*not found|fontselect:.*failed',log,__import__('re').I))
+    from .media import subtitle_font_report
+    report['subtitle_fonts']=subtitle_font_report(log)
+    missing_glyph=bool(report['subtitle_fonts']['unresolved_glyphs'])
     run([binary,'-v','error','-nostdin','-i',output,'-map','0:v:0','-map','0:a:0','-f','null','-'],package/'decode-check.log')
     report['checks'].update({'all_output_frames_decode':True,'source_video_pts_preserved':preserved,
         'max_pts_error_seconds':max(errors,default=None),'audio_packets_unchanged':all(a['unchanged'] for a in audio),
@@ -363,6 +381,13 @@ def verify_video(root,package):
         'intro_three_seconds_clear':intro_clear,'transparent_hidden_score_layer':alpha_clear,
         'no_missing_subtitle_glyphs':not missing_glyph})
     report['audio_checks']=audio
+    if config.get('chapters'):
+        exported=run([binary,'-v','error','-i',str(output),'-f','ffmetadata','-']).stdout
+        (package/'verified-chapters.ffmetadata').write_text(exported,encoding='utf-8')
+        count=exported.count('[CHAPTER]')
+        report['checks']['chapter_count_matches']=count==len(config['chapters'])
+        report['chapter_count']=count
+        if count!=len(config['chapters']):raise ValueError('Output chapter metadata differs from export profile')
     report['intro_clearance']={'music_start_video':config['music_start_video'],
         'deadline_video':config['music_start_video']-3,'clear_source_frame':config.get('intro_clear_video'),
         'checked_against_actual_output_frames':True}

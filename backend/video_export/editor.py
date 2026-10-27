@@ -21,6 +21,33 @@ DEFAULT_SIZES = {'和弦': 44, '配器': 40, '对位': 43, '曲式': 41,
                  '导聆': 43, '诠释': 51, '片头': 63}
 COLUMN_NAMES = {'对位':'声部关系与复调', '曲式':'曲式与主题发展'}
 CREATE_NO_WINDOW = getattr(subprocess, 'CREATE_NO_WINDOW', 0)
+STYLE_FIELDS={'横坐标':'x','纵坐标':'y','宽度':'w','高度':'h','字体':'font','字号':'font_size','滚动倍速':'scroll_speed'}
+
+
+def package_config(package):
+    legacy=package/'export-config-kaiti.json'
+    return read(legacy if legacy.exists() else package/'export-config.json')
+
+
+def validate_style(style,base,config):
+    result={}
+    for key,value in style.items():
+        if key not in STYLE_FIELDS or value in ('',None):continue
+        field=STYLE_FIELDS[key]
+        if field=='font':
+            if not isinstance(value,str) or not value.strip() or any(c in value for c in ',{}\\\r\n'):raise ValueError('字体名称无效。')
+            result[field]=value.strip();continue
+        if isinstance(value,bool):raise ValueError(f'{key}须为数字。')
+        try:number=float(value)
+        except (ValueError,TypeError):raise ValueError(f'{key}须为数字。') from None
+        if not math.isfinite(number):raise ValueError(f'{key}须为有限数字。')
+        if field=='font_size' and (not number.is_integer() or not 12<=number<=120):raise ValueError('字号须为12至120的整数。')
+        if field=='scroll_speed' and not .25<=number<=4:raise ValueError('滚动倍速须为0.25至4；数值越大越快。')
+        result[field]=int(number) if number.is_integer() else number
+    merged={**base,**result}
+    if min(merged['x'],merged['y'])<0 or min(merged['w'],merged['h'])<=0 or merged['x']+merged['w']>config['width'] or merged['y']+merged['h']>config['height']:raise ValueError('字幕坐标或尺寸超出画面。')
+    if merged['h']<=merged.get('font_size',config['font_size'])*1.12+8:raise ValueError('字幕区域太矮，标题下须留出正文空间。')
+    return result
 
 
 def column_key(label):
@@ -83,7 +110,7 @@ def load_document(path=DOCUMENT, package=PACKAGE):
 
 
 def prepare(document, package=PACKAGE):
-    config = read(package / 'export-config-kaiti.json')
+    config = package_config(package)
     segment = config['segments'][0]
     duration = segment['video_end'] - segment['video_start']
     events, excluded, identifiers = [], [], set()
@@ -93,6 +120,8 @@ def prepare(document, package=PACKAGE):
         if isinstance(size, bool) or not isinstance(size, int) or not 12 <= size <= 120:
             raise ValueError(f'{label}字号须为12至120的整数。')
         config['layout'][slot]['font_size'] = size
+        settings=document.get('字幕样式',{}).get(stored_column(label,document_names(document)),{})
+        config['layout'][slot].update(validate_style(settings,config['layout'][slot],config))
     config['font_size'] = sizes['和弦']
     for n, row in enumerate(document['字幕'], 1):
         name = str(row.get('编号', ''))
@@ -130,6 +159,8 @@ def prepare(document, package=PACKAGE):
                  'phase': 'intro' if intro else 'performance', 'text': text.strip(),
                  'video_start': start + segment['video_start'], 'video_end': end + segment['video_start'],
                  'output_start': start, 'output_end': end, 'source': 'local editable caption document'}
+        if row.get('样式'):
+            event['render_style']=validate_style(row['样式'],config['layout'][SLOTS[label]],config)
         if title.strip():
             event['display_title'] = title.strip()
         if row.get('研究条目'):
@@ -283,6 +314,18 @@ def export(document, package=PACKAGE, progress=None, ass_only=False):
         code = process.wait()
     if code or not output.exists() or output.stat().st_size == 0:
         raise RuntimeError(f'视频生成失败，错误记录：{folder / "export.log"}')
+    if config.get('chapters'):
+        # Preserve the complete film's chapter navigation in every edited copy.
+        from .media import run
+        rows=[';FFMETADATA1']
+        for i,c in enumerate(config['chapters']):
+            end=config['chapters'][i+1]['start'] if i+1<len(config['chapters']) else duration
+            title=str(c['title']).replace('\\','\\\\').replace('\n',' ').replace('=','\\=').replace(';','\\;').replace('#','\\#')
+            rows+=['[CHAPTER]','TIMEBASE=1/1000',f"START={round(c['start']*1000)}",f'END={round(end*1000)}','title='+title]
+        (folder/'chapters.ffmetadata').write_text('\n'.join(rows)+'\n',encoding='utf-8')
+        chaptered=folder/'导聆视频-含章节.mp4'
+        run([ffmpeg(ROOT),'-v','error','-n','-i',str(output),'-i',str(folder/'chapters.ffmetadata'),'-map','0','-map_metadata','1','-map_chapters','1','-c','copy','-movflags','+faststart',str(chaptered)],folder/'chapters.log')
+        output=chaptered
     report = read(folder / 'review-report.json')
     report.update(output={'video': output.name, 'bytes': output.stat().st_size,
                           'duration_seconds': duration, 'rendered_frames': rendered_frames,

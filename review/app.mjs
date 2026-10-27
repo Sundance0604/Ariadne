@@ -192,7 +192,7 @@ function configureChapters(scoreDocument){
   const nav=$('movement-chapters');nav.replaceChildren();nav.hidden=chapters.length<2;
   for(const item of chapters){
     const node=document.createElement('button');node.type='button';
-    node.textContent=`${['I','II','III','IV'][item.movement-1]||item.movement} · 第${item.movement}乐章 ${format(item.start_seconds).split('.')[0]}`;
+    node.textContent=`${['I','II','III','IV','V','VI','VII'][item.movement-1]||item.movement} · ${item.title||`第${item.movement}乐章`} ${format(item.start_seconds).split('.')[0]}`;
     node.title=`${item.title} · 跳至乐章起点（同步时间待复核）`;
     node.onclick=()=>{
       audio.loop=null;$('loop').checked=false;

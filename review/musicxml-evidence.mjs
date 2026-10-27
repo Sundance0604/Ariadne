@@ -27,7 +27,7 @@ export function createMusicXMLReader({onNavigate}={}){
     try{
       const response=await fetch(`/api/musicxml-evidence?track=${encodeURIComponent(track)}&measure_id=${encodeURIComponent(select.value)}`,{cache:'no-store'}),d=await response.json();
       if(current!==version)return;if(!response.ok)throw Error(d.error||'读取失败');
-      body.replaceChildren();state.textContent=`第${d.measure.number}小节 · PDF第${d.measure.page}页 · XML谱面时值；人工签核待完成。此选择不改变播放位置。`;
+      body.replaceChildren();state.textContent=`第${d.measure.number}小节 · PDF第${d.measure.page}页 · XML谱面时值；人工签核待完成。此选择不改变播放位置。${d.scope_note||''}`;
       if(onNavigate){const page=node('button','查看对应谱页（不跳转录音）');page.onclick=()=>onNavigate({page:d.measure.page,canSeek:false,time:null});body.append(page);}
       const names=new Map(d.part_registry.map(p=>[p.id,p.name]));
       const instruments=new Map(d.part_registry.flatMap(p=>(p.score_instruments||[]).map(i=>[i.id,i.name])));
@@ -88,5 +88,5 @@ export function createMusicXMLReader({onNavigate}={}){
   return {showMeasure,reset(){version++;track=null;root.hidden=true;root.open=false;select.replaceChildren();body.replaceChildren();state.textContent='';},
     load(data,trackId){version++;track=trackId;root.hidden=!data.musicxml;if(!data.musicxml)return;
       select.replaceChildren();for(const m of data.musicxml.measures){const option=node('option',`m.${m.number} · PDF ${m.page}页`);option.value=m.measure_id;select.append(option);}select.value=data.musicxml.measures[0]?.measure_id;
-      state.textContent=`${data.musicxml.summary.measures}小节已解析。可独立查阅，不要求录音或MIDI逐音匹配。`;}};
+      state.textContent=`${data.musicxml.summary.measures}小节已解析。可独立查阅，不要求录音或MIDI逐音匹配。${data.musicxml.scope_note||''}`;}};
 }

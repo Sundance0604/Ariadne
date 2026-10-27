@@ -252,16 +252,11 @@ def build(package=None):
           'score': {'pages': 'score/', 'plan': f'{folder.name}/score-plan.json', 'graphics': f'{folder.name}/score.ass'},
           'audio': '原演奏AAC音轨复制', 'time_axes': {'outputTime': '成片秒数', 'videoTime': '原演奏录像秒数', 'musicTime': 'videoTime - 27.5'},
           'reuse': ['既有alignment', 'playhead.mjs', 'score-follow.mjs', 'score-display.mjs', 'web HUD formatter']})
-    launcher = ROOT / '编辑完整版字幕.bat'
     # ASCII batch arguments: the editable document has an ASCII alias for cmd.
     shutil.copy2(docpath, package / 'captions-editable.json')
     remember_full(package,package/'captions-editable.json')
-    lines = ['@echo off', 'setlocal EnableExtensions DisableDelayedExpansion', 'cd /d "%~dp0"',
-             'set "PYTHONUTF8=1"', '".venv\\Scripts\\python.exe" "scripts\\video_export\\edit_video_captions.py" --full',
-             'if errorlevel 1 pause']
-    launcher.write_bytes(('\r\n'.join(lines) + '\r\n').encode('ascii'))
     print(f'完整版完成：{output}', flush=True)
-    print(f'以后编辑：{launcher}', flush=True)
+    print(f'以后编辑：{ROOT / "编辑视频字幕.bat"}，选择拉威尔左手钢协完整版。', flush=True)
     return output
 
 

@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "work_id": "ravel-mother-goose-ballet",
+  "review_scope": "agent source/geometry/structural review; automatic timing with explicit unreferenced interludes",
+  "human_signoff": null,
+  "expert_review": null,
+  "inputs": [
+    {
+      "path": "works/ravel-mother-goose-video/alignment.json",
+      "sha256": "5f781f0b13e425bf3ac99b04e3a2995a2edc8d003b15b9ab95248f49af93f20d",
+      "bytes": 2453098
+    },
+    {
+      "path": "works/ravel-mother-goose-video/measure-map.json",
+      "sha256": "7b464d4d4ac46defc988a77bc1ed1e6b276559c149e1b9e440e4d5e3d7e7d445",
+      "bytes": 1539796
+    },
+    {
+      "path": "works/ravel-mother-goose-video/media-sync.json",
+      "sha256": "0d573046a3910de2a50a259d1bc86031266478ab7428f371f3f8f7df4a102ed0",
+      "bytes": 5344
+    },
+    {
+      "path": "works/ravel-mother-goose-video/reference/written.json",
+      "sha256": "3b3e9358a02513babb89f1525ad537e2bbe556ad0d438c666eac77fed2ef8d0e",
+      "bytes": 30074170
+    },
+    {
+      "path": "resource/mother goose/ballet/ravel-ma-mere-loye-full-ballet-imslp62635.pdf",
+      "sha256": "dcd459e83b05e89bf273725009bf8651ef41d8052603653a85b966e5c1812052",
+      "bytes": 15292250
+    },
+    {
+      "path": "works/ravel-mother-goose-video/analysis/ballet-guide.json",
+      "sha256": "1455a22e8606aa7c1d94fac13845ca84a05fe9d434ad4dca5b409a670ed2e590",
+      "bytes": 54594
+    },
+    {
+      "path": "works/ravel-mother-goose/analysis/full-analysis.md",
+      "sha256": "9424789bdf63249509a2d81669218d5e2640d57c17709b975929cca62b04d36c",
+      "bytes": 46337
+    },
+    {
+      "path": "works/ravel-mother-goose/analysis/guide.json",
+      "sha256": "1f7e36623c55229066cc10e45a6d1cca1e18df362257c24fbde9a945ecea7c0e",
+      "bytes": 35104
+    },
+    {
+      "path": "works/ravel-mother-goose/analysis/sources.json",
+      "sha256": "c7b5ad2d83134a9781f051cea2bacc4e32ce66ae0aa1716b2c1d952972abbfa4",
+      "bytes": 7556
+    },
+    {
+      "path": "scripts/build_mother_goose_playback.py",
+      "sha256": "20055e82c8718c45f0951b036b01c5fb110cfde7a37f778d38d0a8e49070ae6f",
+      "bytes": 32023
+    },
+    {
+      "path": "scripts/mother_goose_video.py",
+      "sha256": "5a796e84cfa7ab00301c7323af45e669544165bd50133da7c8a94c7ac9bc0589",
+      "bytes": 33155
+    },
+    {
+      "path": "resource/mother goose/new/mamerurowa-i-qian-zou-qu.mxl",
+      "sha256": "a5bc8c9d47d8dbf6a6f5afe91952c7a9f04870c98277d90a16bd27eb3cfb5664",
+      "bytes": 34567
+    },
+    {
+      "path": "resource/mother goose/new/ma-mere-loye-ii-danse-du-rouet-et-scene.mxl",
+      "sha256": "3f90bbd6d6da72dec211f5894991995626e9cb454263f122cc9a32fe307ff9e5",
+      "bytes": 71174
+    },
+    {
+      "path": "resource/mother goose/new/ma-mere-loye-iii-pavane-de-la-belle-au-bois-dormant.mxl",
+      "sha256": "a3bd296ad0c39f9760b611db39ef34f23625d5bff1a3f179bc7417956edfb3b7",
+      "bytes": 19732
+    },
+    {
+      "path": "resource/mother goose/new/mamerurowa-iv-mei-nuto-ye-shouno-dui-hua.mxl",
+      "sha256": "515e8056d64a3da1d750e71065c5e92db5446309963a5fffe8a709a12dc8a0d5",
+      "bytes": 67433
+    },
+    {
+      "path": "resource/mother goose/ma-mere-loye-maurice-ravel.mxl",
+      "sha256": "01ecfe7b3703db80cbc6bdb469fc611b9889c7dbed89662f674afa5e2b142ff3",
+      "bytes": 486948
+    },
+    {
+      "path": "resource/mother goose/new/mamerurowa-di7qu-yao-jingno-yuan.mxl",
+      "sha256": "02815c458a65952f16a0a50a0a9b3f1a94140f55dcc727cb2556e9894be2b810",
+      "bytes": 24952
+    }
+  ],
+  "files": {
+    "analysis.json": {
+      "sha256": "a551659b9f0acb5b81145b01adfff727d8ab2a7fd16b255b5370c5b0f2141325",
+      "bytes": 158305
+    },
+    "evidence.json": {
+      "sha256": "3366886966eacef6a6e397003d439ae89199ff33e8b28d715ca95b7455688ca2",
+      "bytes": 70908783
+    },
+    "live.json": {
+      "sha256": "4047454be6409faa2bc7af3002a00174073dc533c229928c699a546be1b0bc70",
+      "bytes": 22944815
+    },
+    "research.json": {
+      "sha256": "897f24ef62606e9de0c2890cd67a86c067844a271fdc411becf4adcb5de9b902",
+      "bytes": 990253
+    }
+  }
+}

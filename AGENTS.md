@@ -372,7 +372,7 @@ git diff --cached --stat
 
 - 先看根目录`项目导航.md`与`docs/README.md`。视频制作和分析撰写的当前流程分别在`docs/workflows/video-production.md`、`docs/workflows/analysis-writing.md`；历史任务书在`docs/design/`或`docs/archive/`，不据其文字假定功能已完成。
 - 视频脚本集中在`scripts/video_export/`。`scripts/export_video.py`保留兼容入口，其余引用使用新路径。代码仍是本地Python与原生JS，不增加框架。
-- `config/video-export.json`统一配置本机导出位置，根目录`编辑完整版字幕.bat`通过`--full`读取它；后续脚本不要再解析批处理文本来猜路径。
+- `config/video-export.json`统一配置本机导出位置及`editor_projects`中的项目／文稿对。根目录只保留`编辑视频字幕.bat`，启动时选择鹅妈妈、拉威尔完整版或样片；Python统一入口为`scripts/video_export/edit_video_captions.py`，支持`--project`并兼容`--full`。不再生成旧的完整版、鹅妈妈或字号专用入口，也不要解析批处理文本猜路径。
 - 样片草稿、字号偏好和最近视频指针移到`local/video-export/`，不上传GitHub。当前完整版仍使用`output/video-export/ravel-full-001/captions-editable.json`，未搬动用户正在编辑的JSON或导出包。
 - 拉威尔后两个模块名为“声部关系与复调”“曲式与主题发展”。JSON直接存新名称，读取兼容旧键；不要保存后退回旧名。和声、配器、四宫格及其他作品保持独立。
 - 文件整理不能重新安排字幕时间或重算分析。原始媒体、激活与冻结快照、人工校正、历史OMR及未提交工作不因目录整理删除。根目录拉威尔同步数据仍保留原位置。

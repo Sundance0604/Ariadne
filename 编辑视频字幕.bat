@@ -3,7 +3,7 @@ setlocal EnableExtensions DisableDelayedExpansion
 cd /d "%~dp0"
 set "PYTHONUTF8=1"
 if not exist ".venv\Scripts\python.exe" goto missing_python
-".venv\Scripts\python.exe" "scripts\video_export\edit_video_captions.py"
+".venv\Scripts\python.exe" "scripts\video_export\edit_video_captions.py" %*
 if errorlevel 1 goto failed
 exit /b 0
 :missing_python

@@ -1,9 +1,9 @@
 # 自行修改视频字幕
 
-双击根目录 **编辑视频字幕.bat** 打开编辑窗口。原来的 **调整视频字幕字号.bat** 也打开同一个窗口，直接进入字号页。
+双击根目录唯一入口 **编辑视频字幕.bat**，选择 **鹅妈妈完整芭蕾七章**、**拉威尔左手钢协完整版** 或 **95秒样片** 后打开编辑窗口。文字、时间、位置、字体、字号、滚动速度及单条样式全部在这一个编辑器中调整，旧的重复入口与字号专用脚本已移除。
 
 1. 在“文字与出现时间”页选择一条字幕，修改正文、标题、开始秒与结束秒。可以按栏目筛选，也可以新增字幕；取消“显示此条”即可隐藏整条。
-2. 在“各栏目字号”页填写字号，数值越大字越大。
+2. 在“位置、字体与滚动”页修改各栏目字号、位置、区域宽高、字体及滚动倍速；单条字幕可在文字页填写“单独样式”，留空继承栏目设置。
 3. 点击 **保存并生成新视频**，等待进度到100%。完成后点击 **打开最新视频** 或 **打开输出文件夹**。
 
 **“保存修改”仅保存文稿，不生成MP4。** 文字已经烧录进旧MP4，每次修改后都需要重新合成一个新视频。
@@ -14,11 +14,13 @@
 
 拉威尔完整版JSON的栏目及字号项现直接使用 **声部关系与复调**、**曲式与主题发展**。编辑器仍兼容旧JSON中的“对位”“曲式”，载入新版后保存不会再退回旧名称。文案润色前的文件保存在完整版目录的 `caption-backups/`，对应修改记录为 `caption-wording-update-report.json`。
 
-当前编辑对象是之前的同一段 **0—95秒** 拉威尔片段。填写的时间是成片时间：例如开始5、结束12，表示该条在第5秒出现、第12秒消失。导聆在下一条出现前消失，可以直接修改这一条的结束秒。片头最迟24.48秒结束，正式演奏字幕从27.5秒开始。同一栏目内不要安排重叠时间。
+当前编辑对象以启动时所选项目为准，窗口标题显示实际文稿路径。填写的时间是成片时间：例如开始5、结束12，表示该条在第5秒出现、第12秒消失。导聆在下一条出现前消失，可以直接修改这一条的结束秒。音乐入口和片头清空时间由各自项目配置读取；拉威尔左手钢协片头最迟24.48秒结束，正式演奏字幕从27.5秒开始。同一栏目内不要安排重叠时间。
 
-改变演奏中诠释的时间后，乐谱会按新时间隐藏和恢复；内部位置仍由原有JavaScript同步算法计算。固定位置、黄色楷体、完整乐谱尺寸和原演奏音频保留。
+改变演奏中诠释的时间后，乐谱会按新时间隐藏和恢复；内部位置仍由原有JavaScript同步算法计算。默认使用黄色楷体，用户可调整字幕字体及位置，完整乐谱尺寸和原演奏音频保留。滚动1.5表示比原速快一半，2表示两倍；移动更早结束并停留，不修改字幕起止时间。
 
-编辑文稿保存在**local/video-export/ravel-sample.json**。窗口启动后优先读取这份文稿，重复打开不会从网页覆盖自己的修改；也可以直接用文本编辑器修改JSON。字号同时保存到 **local/video-export/font-sizes.json**，原字号命令行脚本也会读取这份编辑后的正文。
+《鹅妈妈》在同一入口选择对应项目，打开独立的 `works/ravel-mother-goose-video/video-export/captions-optimized.json`，默认滚动1.5倍，另存一部包含七个章节的新视频。要切换项目，保存并关闭编辑窗口后重新打开入口选择。
+
+各项目的文稿位置由 **config/video-export.json** 中的 **editor_projects** 配置。95秒样片保存在 **local/video-export/ravel-sample.json**，拉威尔完整版保存在 **output/video-export/ravel-full-001/captions-editable.json**，鹅妈妈使用上面的独立JSON。重复打开读取已有文稿，不从网页覆盖自己的修改。拉威尔项目还保留 **local/video-export/font-sizes.json** 字号偏好。
 
 每次生成都会新建一个目录，例如：
 
@@ -40,11 +42,11 @@ output/video-export/ravel-demo/edits-001/
 命令行也可使用：
 
 ```powershell
-# 根据已保存的编辑文稿直接生成新视频
-.\.venv\Scripts\python.exe scripts/video_export/edit_video_captions.py --render
+# 按鹅妈妈已保存的文稿直接生成新视频
+.\.venv\Scripts\python.exe scripts/video_export/edit_video_captions.py --project mother-goose --render
 
 # 仅导出ASS，不合成视频
-.\.venv\Scripts\python.exe scripts/video_export/edit_video_captions.py --ass-only
+.\.venv\Scripts\python.exe scripts/video_export/edit_video_captions.py --project mother-goose --ass-only
 ```
 
 窗口使用Python自带组件，不增加网页框架。视频合成继续使用现有FFmpeg，乐谱时间计算调用现有Node.js模块。

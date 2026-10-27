@@ -1,0 +1,251 @@
+{
+  "video_sha256": "0dfac83e05efe9eb7b213f5d12ba6c84f7f25c01e9845d04327e0d8295740095",
+  "pdf_sha256": "dcd459e83b05e89bf273725009bf8651ef41d8052603653a85b966e5c1812052",
+  "landmarks": [
+    {
+      "region_id": "ballet-p060-s0-interlude",
+      "page_number": 60,
+      "system_index": 0,
+      "movement": 5,
+      "page_width_pt": 569.280029296875,
+      "page_height_pt": 813.47998046875,
+      "rect_pt": [
+        61.5,
+        76.0,
+        461.5,
+        643.0
+      ],
+      "audio_start_seconds": 1045.2,
+      "audio_end_seconds": 1082.5,
+      "resolution": "unmetered_cadenza_system_candidate",
+      "review_status": "agent_video_landmark_candidate",
+      "stable_candidate": false,
+      "printed_measure_number": null,
+      "evidence": {
+        "method": "separate agent video-instrument and score landmark estimate",
+        "basis": "Lent and the beginning of the harp cadenza",
+        "not_duration_or_page_count_allocation": true,
+        "human_signoff": null
+      },
+      "no_symbolic_projection": true
+    },
+    {
+      "region_id": "ballet-p061-s0-interlude",
+      "page_number": 61,
+      "system_index": 0,
+      "movement": 5,
+      "page_width_pt": 569.280029296875,
+      "page_height_pt": 813.47998046875,
+      "rect_pt": [
+        71.5,
+        76.0,
+        463.0,
+        290.5
+      ],
+      "audio_start_seconds": 1082.5,
+      "audio_end_seconds": 1106.0,
+      "resolution": "unmetered_cadenza_system_candidate",
+      "review_status": "agent_video_landmark_candidate",
+      "stable_candidate": false,
+      "printed_measure_number": null,
+      "evidence": {
+        "method": "separate agent video-instrument and score landmark estimate",
+        "basis": "harp cadenza continuation",
+        "not_duration_or_page_count_allocation": true,
+        "human_signoff": null
+      },
+      "no_symbolic_projection": true
+    },
+    {
+      "region_id": "ballet-p061-s1-interlude",
+      "page_number": 61,
+      "system_index": 1,
+      "movement": 5,
+      "page_width_pt": 569.280029296875,
+      "page_height_pt": 813.47998046875,
+      "rect_pt": [
+        73.0,
+        397.5,
+        462.0,
+        319.0
+      ],
+      "audio_start_seconds": 1106.0,
+      "audio_end_seconds": 1117.8,
+      "resolution": "unmetered_cadenza_system_candidate",
+      "review_status": "agent_video_landmark_candidate",
+      "stable_candidate": false,
+      "printed_measure_number": null,
+      "evidence": {
+        "method": "separate agent video-instrument and score landmark estimate",
+        "basis": "celesta cadenza; keyboard closeups at 1108–1112",
+        "not_duration_or_page_count_allocation": true,
+        "human_signoff": null
+      },
+      "no_symbolic_projection": true
+    },
+    {
+      "region_id": "ballet-p062-s0-interlude",
+      "page_number": 62,
+      "system_index": 0,
+      "movement": 5,
+      "page_width_pt": 569.280029296875,
+      "page_height_pt": 813.47998046875,
+      "rect_pt": [
+        58.5,
+        79.0,
+        458.0,
+        637.5
+      ],
+      "audio_start_seconds": 1117.8,
+      "audio_end_seconds": 1129.1,
+      "resolution": "unmetered_cadenza_system_candidate",
+      "review_status": "agent_video_landmark_candidate",
+      "stable_candidate": false,
+      "printed_measure_number": null,
+      "evidence": {
+        "method": "separate agent video-instrument and score landmark estimate",
+        "basis": "xylophone roll and orchestral glissandi; mallet closeups 1120–1124",
+        "not_duration_or_page_count_allocation": true,
+        "human_signoff": null
+      },
+      "no_symbolic_projection": true
+    },
+    {
+      "region_id": "ballet-p063-s0-interlude",
+      "page_number": 63,
+      "system_index": 0,
+      "movement": 5,
+      "page_width_pt": 569.280029296875,
+      "page_height_pt": 813.47998046875,
+      "rect_pt": [
+        76.0,
+        84.0,
+        462.0,
+        620.5
+      ],
+      "audio_start_seconds": 1129.1,
+      "audio_end_seconds": 1147.0,
+      "resolution": "unmetered_cadenza_system_candidate",
+      "review_status": "agent_video_landmark_candidate",
+      "stable_candidate": false,
+      "printed_measure_number": null,
+      "evidence": {
+        "method": "separate agent video-instrument and score landmark estimate",
+        "basis": "flute cadenza; flute closeups 1132–1136, conductor transition by 1144",
+        "not_duration_or_page_count_allocation": true,
+        "human_signoff": null
+      },
+      "no_symbolic_projection": true
+    },
+    {
+      "region_id": "ballet-p087-s0-interlude",
+      "page_number": 87,
+      "system_index": 0,
+      "movement": 6,
+      "page_width_pt": 569.280029296875,
+      "page_height_pt": 813.47998046875,
+      "rect_pt": [
+        69.5,
+        79.0,
+        471.0,
+        646.5
+      ],
+      "audio_start_seconds": 1361.6,
+      "audio_end_seconds": 1379.0,
+      "resolution": "interlude_system_candidate",
+      "review_status": "agent_video_landmark_candidate",
+      "stable_candidate": false,
+      "printed_measure_number": null,
+      "evidence": {
+        "method": "separate agent video-instrument and score landmark estimate",
+        "basis": "horn call; horn closeups 1368–1372",
+        "not_duration_or_page_count_allocation": true,
+        "human_signoff": null
+      },
+      "no_symbolic_projection": true
+    },
+    {
+      "region_id": "ballet-p088-s0-interlude",
+      "page_number": 88,
+      "system_index": 0,
+      "movement": 6,
+      "page_width_pt": 569.280029296875,
+      "page_height_pt": 813.47998046875,
+      "rect_pt": [
+        56.0,
+        75.5,
+        467.0,
+        649.0
+      ],
+      "audio_start_seconds": 1379.0,
+      "audio_end_seconds": 1391.0,
+      "resolution": "interlude_system_candidate",
+      "review_status": "agent_video_landmark_candidate",
+      "stable_candidate": false,
+      "printed_measure_number": null,
+      "evidence": {
+        "method": "separate agent video-instrument and score landmark estimate",
+        "basis": "bird calls; piccolo closeups 1384–1388",
+        "not_duration_or_page_count_allocation": true,
+        "human_signoff": null
+      },
+      "no_symbolic_projection": true
+    },
+    {
+      "region_id": "ballet-p089-s0-interlude",
+      "page_number": 89,
+      "system_index": 0,
+      "movement": 6,
+      "page_width_pt": 569.280029296875,
+      "page_height_pt": 813.47998046875,
+      "rect_pt": [
+        72.5,
+        61.0,
+        467.5,
+        712.5
+      ],
+      "audio_start_seconds": 1391.0,
+      "audio_end_seconds": 1424.0,
+      "resolution": "interlude_system_candidate",
+      "review_status": "agent_video_landmark_candidate",
+      "stable_candidate": false,
+      "printed_measure_number": null,
+      "evidence": {
+        "method": "separate agent video-instrument and score landmark estimate",
+        "basis": "horn dialogue then solo violin; closeups 1392–1404 and 1412–1424",
+        "not_duration_or_page_count_allocation": true,
+        "human_signoff": null
+      },
+      "no_symbolic_projection": true
+    },
+    {
+      "region_id": "ballet-p090-s0-interlude",
+      "page_number": 90,
+      "system_index": 0,
+      "movement": 6,
+      "page_width_pt": 569.280029296875,
+      "page_height_pt": 813.47998046875,
+      "rect_pt": [
+        60.0,
+        76.5,
+        447.5,
+        627.5
+      ],
+      "audio_start_seconds": 1424.0,
+      "audio_end_seconds": 1448.8,
+      "resolution": "interlude_system_candidate",
+      "review_status": "agent_video_landmark_candidate",
+      "stable_candidate": false,
+      "printed_measure_number": null,
+      "evidence": {
+        "method": "separate agent video-instrument and score landmark estimate",
+        "basis": "solo violin continuation and prelude recollection",
+        "not_duration_or_page_count_allocation": true,
+        "human_signoff": null
+      },
+      "no_symbolic_projection": true
+    }
+  ],
+  "review_scope": "agent instrument closeups, score instructions and spectral boundary estimate; no human listening signature",
+  "uncertainty": "page/system estimates; harp page transition particularly coarse"
+}

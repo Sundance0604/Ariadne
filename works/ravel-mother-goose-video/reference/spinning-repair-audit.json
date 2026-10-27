@@ -1,0 +1,159 @@
+{
+  "source_sha256": "3f90bbd6d6da72dec211f5894991995626e9cb454263f122cc9a32fe307ff9e5",
+  "repair_sha256": "b77b08b0bc67fb78e36ae9708a9ca32c9f98a904dc23c243764901d81a060b49",
+  "evidence": [
+    {
+      "type": "eighth",
+      "duration": "48",
+      "dots": 0,
+      "count": 2502,
+      "implied_divisions": "96"
+    },
+    {
+      "type": "half",
+      "duration": "192",
+      "dots": 0,
+      "count": 74,
+      "implied_divisions": "96"
+    },
+    {
+      "type": "quarter",
+      "duration": "96",
+      "dots": 0,
+      "count": 1024,
+      "implied_divisions": "96"
+    },
+    {
+      "type": "16th",
+      "duration": "24",
+      "dots": 0,
+      "count": 640,
+      "implied_divisions": "96"
+    },
+    {
+      "type": "quarter",
+      "duration": "144",
+      "dots": 1,
+      "count": 242,
+      "implied_divisions": "96"
+    },
+    {
+      "type": "half",
+      "duration": "288",
+      "dots": 1,
+      "count": 120,
+      "implied_divisions": "96"
+    },
+    {
+      "type": "16th",
+      "duration": "16",
+      "dots": 0,
+      "count": 143,
+      "implied_divisions": "96"
+    },
+    {
+      "type": "quarter",
+      "duration": "72",
+      "dots": 1,
+      "count": 336,
+      "implied_divisions": "96"
+    },
+    {
+      "type": "quarter",
+      "duration": "64",
+      "dots": 0,
+      "count": 1,
+      "implied_divisions": "96"
+    },
+    {
+      "type": "eighth",
+      "duration": "32",
+      "dots": 0,
+      "count": 7,
+      "implied_divisions": "96"
+    },
+    {
+      "type": "quarter",
+      "duration": "48",
+      "dots": 0,
+      "count": 26,
+      "implied_divisions": "96"
+    },
+    {
+      "type": "half",
+      "duration": "144",
+      "dots": 1,
+      "count": 74,
+      "implied_divisions": "96"
+    },
+    {
+      "type": "half",
+      "duration": "96",
+      "dots": 0,
+      "count": 72,
+      "implied_divisions": "96"
+    },
+    {
+      "type": "eighth",
+      "duration": "32",
+      "dots": 0,
+      "count": 5,
+      "implied_divisions": "96"
+    },
+    {
+      "type": "16th",
+      "duration": "16",
+      "dots": 0,
+      "count": 2,
+      "implied_divisions": "96"
+    },
+    {
+      "type": "whole",
+      "duration": "384",
+      "dots": 0,
+      "count": 4,
+      "implied_divisions": "96"
+    },
+    {
+      "type": "quarter",
+      "duration": "144",
+      "dots": 0,
+      "count": 11,
+      "implied_divisions": "144"
+    },
+    {
+      "type": "eighth",
+      "duration": "72",
+      "dots": 0,
+      "count": 1,
+      "implied_divisions": "144"
+    },
+    {
+      "type": "eighth",
+      "duration": "24",
+      "dots": 0,
+      "count": 20,
+      "implied_divisions": "96"
+    },
+    {
+      "type": "16th",
+      "duration": "36",
+      "dots": 0,
+      "count": 59,
+      "implied_divisions": "96"
+    },
+    {
+      "type": "eighth",
+      "duration": "72",
+      "dots": 1,
+      "count": 4,
+      "implied_divisions": "96"
+    }
+  ],
+  "division_ratio_counts": {
+    "96": 5355,
+    "144": 12
+  },
+  "human_signoff": null,
+  "remaining_issue": "harp P18 measures 48–53 cursor underflow excluded from pitched analysis; 12 duration/type disagreements retained with encoded durations"
+}

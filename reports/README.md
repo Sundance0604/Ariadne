@@ -5,6 +5,9 @@
 | 主题 | 主要报告 |
 |---|---|
 | 当前项目整理 | [目录整理与发布](project-organization-20261026.md) |
+| 普罗第二钢琴协奏曲 | [XML核查与七项研究资料](prokofiev2-sources-and-research-20261027.md) |
+| 拉威尔鹅妈妈 | [无音频分析、书内谱例及另源审查](mother-goose-research-20261026.md) |
+| 鹅妈妈完整芭蕾视频 | [七章同步、独立字幕JSON与可调样式](mother-goose-video-20261026.md) |
 | 拉威尔两个模块与字幕 | [声部关系、主题发展与文案修正](ravel-two-modules-20261026.md) |
 | 拉威尔视频制作 | [导出实现](ravel-video-export-20261026.md)、[独立视频同步](ravel-video-20261026.md) |
 | 拉威尔谱面研究 | [MusicXML接入](ravel-musicxml-analysis-20261026.md)、[直接读谱研究](ravel-musical-studies-20261026.md)、[研究修订](ravel-score-research-update.md) |

@@ -4,10 +4,12 @@
 
 ## 1. 先确认要修改的文件
 
-日常入口是根目录的 `编辑完整版字幕.bat`。当前包、字幕文稿及本地偏好由 `config/video-export.json`统一指向：
+唯一日常入口是根目录的 `编辑视频字幕.bat`，启动后选择鹅妈妈完整芭蕾、拉威尔左手钢协完整版或95秒样片。项目的资源包与字幕文稿成对保存在 `config/video-export.json` 的 `editor_projects` 中，默认选中 `editor_default_project`，不会把另一部作品的文稿写入当前项目：
 
 | 内容 | 当前位置 |
 |---|---|
+| 鹅妈妈资源包 | `output/video-export/mother-goose-full-001/` |
+| 鹅妈妈编辑文稿 | `works/ravel-mother-goose-video/video-export/captions-optimized.json` |
 | 完整版资源包 | `output/video-export/ravel-full-001/` |
 | 完整版编辑文稿 | `output/video-export/ravel-full-001/captions-editable.json` |
 | 95秒样片编辑文稿 | `local/video-export/ravel-sample.json` |
@@ -18,27 +20,40 @@
 
 ## 2. 只修改现有视频字幕
 
-1. 双击 `编辑完整版字幕.bat`，核对窗口中的成片时长和文稿路径。
+1. 双击 `编辑视频字幕.bat`，选择项目，核对窗口中的成片时长和文稿路径。
 2. 选择字幕，修改正文、标题、起止秒数或可见性；字号在单独页签修改。
 3. 外部文稿可点右上角“打开外部JSON…”，在文件窗口选择。支持含“字幕”数组的编辑稿，也支持含 `events`数组的 `annotations.json`。
 4. 阅读、核实实际将显示的每条文字，然后点“保存并生成新视频”。等待进度到100%，使用“打开最新视频”观看。
 
 “保存修改”只写文稿；“仅导出ASS”不编码视频。导入外部文件后，保存写入当前项目文稿，外部源文件不覆盖。重新载入磁盘上已更新的文稿前，不要用旧窗口覆盖它。
 
+选择《鹅妈妈》完整芭蕾版会打开 `works/ravel-mother-goose-video/video-export/captions-optimized.json`。它与左手钢协完整版的文稿、输出包及偏好分别保存。旧完整版、鹅妈妈与字号专用批处理入口已移除，相关功能全部保留在同一编辑器中。
+
+编辑器的“位置、字体与滚动”页签可按栏目修改横纵坐标、区域宽高、字体名称、字号和滚动倍速；“文字与出现时间”页签还可为每条字幕填写单独样式，留空沿用栏目设置。坐标以成片左上角为原点，单位为像素。滚动1为原速、1.5快一半、2为两倍，不改变字幕出现、结束时间或重复滚动。调快后滚动更早结束，末段停留供阅读。《鹅妈妈》当前默认1.5倍。字体须为本机可用字体；生成后的MP4不要求观看者安装字体。
+
+这些设置写进可编辑JSON的“字幕样式”及各条“样式”，保存后须点“保存并生成新视频”。每次另存新成片，完整视频保留七个章节。
+
+《鹅妈妈》当前把和声解读、配器说明与实时内容合在各自同一显示区：解读在前，当前音响／活跃乐器在后。原分段稿另存JSON的“分段和声配器底稿”，不作为第二组字幕输出。新增童话与论文转述的出处见同目录 `story-sources.json`；视频仍由用户自行生成和核查。
+
 命令行等效入口：
 
 ```powershell
-# 打开当前完整版编辑器
-.\.venv\Scripts\python.exe scripts/video_export/edit_video_captions.py --full
+# 打开项目选择窗口
+.\.venv\Scripts\python.exe scripts/video_export/edit_video_captions.py
+
+# 直接打开鹅妈妈；拉威尔完整版使用 --project ravel-full
+.\.venv\Scripts\python.exe scripts/video_export/edit_video_captions.py --project mother-goose
 
 # 直接使用当前完整版JSON生成新MP4
-.\.venv\Scripts\python.exe scripts/video_export/edit_video_captions.py --full --render
+.\.venv\Scripts\python.exe scripts/video_export/edit_video_captions.py --project ravel-full --render
 
 # 仅生成ASS
-.\.venv\Scripts\python.exe scripts/video_export/edit_video_captions.py --full --ass-only
+.\.venv\Scripts\python.exe scripts/video_export/edit_video_captions.py --project ravel-full --ass-only
 ```
 
 这条日常路径复用演奏视频、PDF缓存、原JS同步和已经保存的时间戳，不运行DTW、识谱、音乐分析、性能基准或完整测试套件。
+
+`--full`保留为拉威尔完整版的兼容参数。命令行无项目参数的 `--render`／`--ass-only` 仍沿用旧样片行为；自动生成时应显式指定 `--project`。使用自定义 `--package` 时，默认文稿为该包的 `captions-editable.json`，也可用 `--document` 指定，避免误用其他项目文稿。
 
 ## 3. 字幕JSON约定
 
@@ -74,7 +89,7 @@
 ## 4. 必须保持的画面规范
 
 - 演奏MP4始终为全屏底层，保留原演奏音轨。
-- 所有分析文字使用黄色楷体，无实体背景、边框、卡片或装饰。
+- 分析文字默认黄色楷体，无实体背景、边框、卡片或装饰；用户可在编辑器选择字体及位置。
 - 和声在左上，配器在右上；左下三个槽位依次为声部关系与复调、曲式与主题发展、导聆。各槽位不随其他内容移动。
 - 完整乐谱固定在右侧，配器不遮挡乐谱。高亮、播放线和翻页调用原播放器JS，不重新开发定位算法。
 - 片头可以大幅居中、由下向上滚动。拉威尔音乐入口为原视频27.5秒；按实际帧，片头最迟24.48秒清空，随后至少三秒只保留演出画面。

@@ -1,0 +1,1543 @@
+{
+  "status": "editable_json_revised_user_will_render_and_review",
+  "caption_count": 267,
+  "chapter_count": 7,
+  "separate_from_web": true,
+  "rewrites": [
+    {
+      "id": "ballet-extra-1-1-harmony",
+      "web_text": "开头长笛与巴松的音程和具体低音逐时点列在音符证据中；三连音圆号材料属于另一个进入层。",
+      "video_text": "管乐在相隔的音区展开，圆号以新的节奏层加入。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-1-1-orchestration",
+      "web_text": "两支长笛同奏与第一巴松相隔音区，第三小节加入加弱音器的圆号，随后弱音弦乐接入。",
+      "video_text": "两支长笛同奏与第一巴松相隔音区，第三小节加入加弱音器的圆号，随后弱音弦乐接入。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-1-1-counterpoint",
+      "web_text": "管乐的附点长短节奏、圆号的细碎三连音与弦乐长时值形成不同层级。",
+      "video_text": "管乐的附点长短节奏、圆号的细碎三连音与弦乐长时值形成不同层级。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-1-1-form",
+      "web_text": "起始材料以后还会被回忆；先辨认音程轮廓与节奏，再判断相似程度。",
+      "video_text": "起始材料以后还会被回忆；先辨认音程轮廓与节奏，再判断相似程度。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-1-1-guide",
+      "web_text": "听柔和的管乐开场，留意圆号进入后背景怎样开始流动。",
+      "video_text": "听柔和的管乐开场，留意圆号进入后背景怎样开始流动。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-1-8-harmony",
+      "web_text": "片段的半音与变化音扩大音集，音高集合不自动成为功能和弦。",
+      "video_text": "短句中的半音与变化音，让音响逐渐离开开头的静止。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-1-8-orchestration",
+      "web_text": "短笛和长笛交错出现短小装饰音型；回到原速时，音区与材料重新分层。",
+      "video_text": "短笛和长笛交错出现短小装饰音型；回到原速时，音区与材料重新分层。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-1-8-counterpoint",
+      "web_text": "短句的接续与持续背景并存；鸟鸣式模仿是音响比喻，不是严格卡农。",
+      "video_text": "短句的接续与持续背景并存；鸟鸣式模仿是音响比喻，不是严格卡农。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-1-8-form",
+      "web_text": "排练号1的短句与排练号2的返回，形成可回访的材料关系。",
+      "video_text": "排练号1的短句与排练号2的返回，形成可回访的材料关系。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-1-8-guide",
+      "web_text": "把短促、高处的呼应与较长的背景线分开听。",
+      "video_text": "把短促、高处的呼应与较长的背景线分开听。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-1-20-harmony",
+      "web_text": "此处分析按独立记谱窗口取音，长时段集合不合并成一个同时和弦。",
+      "video_text": "短促的发音与延留的背景交替，让和声变化获得空间。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-1-20-orchestration",
+      "web_text": "木管逐渐退后，钢片琴形成清楚的钟状攻击；谱面有渐快与渐慢的文字。",
+      "video_text": "木管逐渐退后，钢片琴形成清楚的钟状攻击；谱面有渐快与渐慢的文字。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-1-20-counterpoint",
+      "web_text": "短攻击和乐器之间的空隙也是组织线条的手段。",
+      "video_text": "短攻击和乐器之间的空隙也是组织线条的手段。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-1-20-form",
+      "web_text": "动作密度与速度文字共同塑造过渡，不能只把乐器更换当作新主题。",
+      "video_text": "动作密度与速度文字共同塑造过渡，不能只把乐器更换当作新主题。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-1-20-guide",
+      "web_text": "留意钢片琴每次发音之间的空间，感受速度的伸缩。",
+      "video_text": "留意钢片琴每次发音之间的空间，感受速度的伸缩。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-1-32-harmony",
+      "web_text": "各层的持续音与快速经过音并列保存；高潮音集不追溯覆盖前面的静止音响。",
+      "video_text": "持续层托住快速音型，音响逐步加密。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-1-32-orchestration",
+      "web_text": "木管短句逐步密集，竖琴滑奏、弦乐震音和打击乐共同扩展声音。",
+      "video_text": "木管短句逐步密集，竖琴滑奏、弦乐震音和打击乐共同扩展声音。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-1-32-counterpoint",
+      "web_text": "长时值的低层与快速音型可同时存在，密度增加不等于所有声部同节奏。",
+      "video_text": "长时值的低层与快速音型可同时存在，密度增加不等于所有声部同节奏。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-1-32-form",
+      "web_text": "前奏以增密过程指向纺车舞；完整芭蕾总谱在下一页进入6/8。",
+      "video_text": "前奏以增密过程指向纺车舞；完整芭蕾总谱在下一页进入6/8。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-1-32-guide",
+      "web_text": "听熟悉的短句如何被越来越多的音色包围。",
+      "video_text": "听熟悉的短句如何被越来越多的音色包围。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-2-1-harmony",
+      "web_text": "半音运动和低层支点分别记录，不将经过音逐个强加功能名称。",
+      "video_text": "低层支点与快速的半音运动，形成不同的变化速度。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-2-1-orchestration",
+      "web_text": "开头合奏之后，单簧管和第一小提琴的快速音型突出；随后木管的短音与拨弦相呼应。",
+      "video_text": "开头合奏之后，单簧管和第一小提琴的快速音型突出；随后木管的短音与拨弦相呼应。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-2-1-counterpoint",
+      "web_text": "连续快速线条与间断的舞步攻击构成两层。",
+      "video_text": "连续快速线条与间断的舞步攻击构成两层。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-2-1-form",
+      "web_text": "6/8的运动从开场强奏中抽离，转向轻巧的局部交接。",
+      "video_text": "6/8的运动从开场强奏中抽离，转向轻巧的局部交接。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-2-1-guide",
+      "web_text": "先抓住快速旋转的音型，再听短促的木管与拨弦。",
+      "video_text": "先抓住快速旋转的音型，再听短促的木管与拨弦。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-2-17-harmony",
+      "web_text": "旋律与支撑音的时点分开取样；和声事实可在上方实时窗口查阅。",
+      "video_text": "独奏线条与支撑音分层，和声随着入口改变色彩。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-2-17-orchestration",
+      "web_text": "木管独奏与弦乐背景交替，音色和音区的接力使线条保持清晰。",
+      "video_text": "木管独奏与弦乐背景交替，音色和音区的接力使线条保持清晰。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-2-17-counterpoint",
+      "web_text": "乐器交接有时继续同一条线，有时形成回应，须同时看攻击和节奏。",
+      "video_text": "乐器交接有时继续同一条线，有时形成回应，须同时看攻击和节奏。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-2-17-form",
+      "web_text": "排练号12至14提供回访地标；这些地标不自动等于严格曲式边界。",
+      "video_text": "排练号12至14提供回访地标；这些地标不自动等于严格曲式边界。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-2-17-guide",
+      "web_text": "把注意力从背景的运动移向正在独奏的木管。",
+      "video_text": "把注意力从背景的运动移向正在独奏的木管。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-2-38-harmony",
+      "web_text": "反复音、变化音与背景支点并存，局部和声应按窗口查看。",
+      "video_text": "反复音、变化音与持续支点共同组织舞蹈的背景。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-2-38-orchestration",
+      "web_text": "短音的管乐组合与弦乐的运动互相照应，重音的轮廓比长音更显眼。",
+      "video_text": "短音的管乐组合与弦乐的运动互相照应，重音的轮廓比长音更显眼。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-2-38-counterpoint",
+      "web_text": "成组的加倍可合为一个层；不同攻击时间才支持新的活动层。",
+      "video_text": "成组的加倍可合为一个层；不同攻击时间才支持新的活动层。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-2-38-form",
+      "web_text": "既有步态反复出现，同时以音色和力度改变方向。",
+      "video_text": "既有步态反复出现，同时以音色和力度改变方向。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-2-38-guide",
+      "web_text": "听重音如何从一组乐器移到另一组。",
+      "video_text": "听重音如何从一组乐器移到另一组。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-2-65-harmony",
+      "web_text": "移动的内声与持续层分别观察，调性归属需要前后句法支持。",
+      "video_text": "移动的内声穿过较稳定的背景，使音色转换保有联系。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-2-65-orchestration",
+      "web_text": "双簧管等木管的线条先后出现，弦乐由拨奏、弓奏及不同音区参与。",
+      "video_text": "双簧管等木管的线条先后出现，弦乐由拨奏、弓奏及不同音区参与。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-2-65-counterpoint",
+      "web_text": "上下两层可以延续不同长度的句子，不机械以小节线截断。",
+      "video_text": "上下两层可以延续不同长度的句子，不机械以小节线截断。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-2-65-form",
+      "web_text": "材料的接续使舞蹈保持连续；排练号19至23便于对照。",
+      "video_text": "材料的接续使舞蹈保持连续；排练号19至23便于对照。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-2-65-guide",
+      "web_text": "循着木管的长线，听背景的步伐怎样继续。",
+      "video_text": "循着木管的长线，听背景的步伐怎样继续。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-2-98-harmony",
+      "web_text": "色彩性和声转向较静止的背景；低音与上方移动音仍需分别观察。",
+      "video_text": "色彩性和声逐渐转向静止的背景，低音成为支点。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-2-98-orchestration",
+      "web_text": "从稍慢转入很慢；弱奏弦乐、低音、竖琴和木管短句取代先前的密集运动。",
+      "video_text": "从稍慢转入很慢；弱奏弦乐、低音、竖琴和木管短句取代先前的密集运动。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-2-98-counterpoint",
+      "web_text": "攻击密度降低，持续音与零星入口之间形成更宽的间隔。",
+      "video_text": "攻击密度降低，持续音与零星入口之间形成更宽的间隔。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-2-98-form",
+      "web_text": "总谱的舞台文字写出公主受伤及入睡，随后衔接帕凡舞。叙事解释以这些文字为依据。",
+      "video_text": "总谱的舞台文字写出公主受伤及入睡，随后衔接帕凡舞。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-2-98-guide",
+      "web_text": "在速度放缓后，留意细小的木管入口和低声部的支点。",
+      "video_text": "在速度放缓后，留意细小的木管入口和低声部的支点。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-I-a-harmony",
+      "web_text": "长笛首小节的A–C–E–E–D–G形成无半音五声音列的局部材料；下方F等音使全织体超出这个集合。旋律的五声组织与全曲A调式背景可以并存。",
+      "video_text": "长笛短句呈五声色彩；下方的音让整体织体更加丰富。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-I-a-orchestration",
+      "web_text": "第二长笛在中低音区独奏；弱奏、加弱音器的圆号与中提琴拨弦支撑下线。长音与短促拨弦的发音方式形成细小的明暗差。",
+      "video_text": "第二长笛在中低音区独奏；弱奏、加弱音器的圆号与中提琴拨弦支撑下线。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-I-a-counterpoint",
+      "web_text": "圆号与中提琴局部同度加倍，合为一条支撑线；与长笛不同的攻击节奏才构成这里的两层关系。XML中的三份中提琴副本不等于三条额外对位。",
+      "video_text": "圆号与中提琴局部同度加倍，合为一条支撑线；与长笛不同的攻击节奏才构成这里的两层关系。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-I-a-form",
+      "web_text": "四小节内先重复一小节单元，再以下行收束；它是开头八小节的前半句。Vlitakis的周期性读法与梅西安的前句命名在这里相容。",
+      "video_text": "四小节内先重复一小节单元，再以下行收束；它是开头八小节的前半句。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-I-a-guide",
+      "web_text": "先记住长笛的短句，再听下方拨弦怎样给较柔和的圆号线条加上轮廓。",
+      "video_text": "先记住长笛的短句，再听下方拨弦怎样给较柔和的圆号线条加上轮廓。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-I-b-harmony",
+      "web_text": "E低音与D持续层维持背景，F–F♯–G–F♯的半音内声改变垂直音响。宜分开写持续层和移动音，不把整小节所有音当作一个同时和弦。",
+      "video_text": "E低音与D持续层之上，F—F♯—G—F♯的内声移动。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-I-b-orchestration",
+      "web_text": "主句转入第一长笛较高音区，第二长笛承担内声；双簧管、单簧管、竖琴及低弦构成持续背景，弦乐泛音的实响另需按奏法核对。",
+      "video_text": "主句转入第一长笛较高音区，第二长笛承担内声；双簧管、单簧管、竖琴及低弦构成持续背景，弦乐泛音的实响另需按奏法核对。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-I-b-counterpoint",
+      "web_text": "快速主旋律、四分音符内声与长音背景有不同时间尺度；它们之间存在独立分工，但持续音的乐器加倍仍只算同一层。",
+      "video_text": "快速主旋律、四分音符内声与长音背景有不同时间尺度；它们之间存在独立分工，但持续音的乐器加倍仍只算同一层。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-I-b-form",
+      "web_text": "后半句与前四小节节奏相近而轮廓改变。半音内声以后在17–19小节转到第二小提琴，形成可直接核对的局部返回。",
+      "video_text": "后半句与前四小节节奏相近而轮廓改变。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-I-b-guide",
+      "web_text": "高处的旋律继续歌唱，较低处却有一条缓慢上行又折回的半音线。",
+      "video_text": "高处的旋律继续歌唱，较低处却有一条缓慢上行又折回的半音线。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-I-c-harmony",
+      "web_text": "相较前段的固定背景，这里低声部与内声移动更频繁。文献中的C大调或相对大调区域读法用于较大语境，不能替代每个时点的低音与经过音检查。",
+      "video_text": "低声部与内声更频繁地移动，改变前段的固定背景。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-I-c-orchestration",
+      "web_text": "单簧管接过上层旋律，英国管承担另一条线；拨弦声部在小提琴、中提琴和大提琴之间转换，使同一织体内部不断换色。",
+      "video_text": "单簧管接过上层旋律，英国管承担另一条线；拨弦声部在小提琴、中提琴和大提琴之间转换，使同一织体内部不断换色。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-I-c-counterpoint",
+      "web_text": "旋律、英国管线及低音接力需要分别追踪；拨弦有时支撑已有线条，有时接续下一段，不宜把每次乐器加入都叫新主题。",
+      "video_text": "旋律、英国管线及低音接力需要分别追踪；拨弦有时支撑已有线条，有时接续下一段，不宜把每次乐器加入都叫新主题。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-I-c-form",
+      "web_text": "梅西安称其为评论段，Vlitakis将9–12视为中部B；两者均指出它与1–8及13–20的框架关系。",
+      "video_text": "梅西安称其为评论段，Vlitakis将9–12视为中部B；两者均指出它与1–8及13–20的框架关系。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-I-c-guide",
+      "web_text": "听单簧管保持句子连续，同时把注意力分给下方依次接话的拨弦。",
+      "video_text": "听单簧管保持句子连续，同时把注意力分给下方依次接话的拨弦。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-I-d-harmony",
+      "web_text": "D、F持续层改变了开头旋律的和声支点；梅西安将其联系到带降低三音的D九和弦背景。这是带归属的归约，具体音响仍按各拍取音。",
+      "video_text": "D、F的持续层，为熟悉的旋律换了和声支点。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-I-d-orchestration",
+      "web_text": "第一长笛重述开头，英国管与拨弦线相配，单簧管和圆号填入长音。中提琴的多音攻击与开头的单线拨弦区别明显。",
+      "video_text": "第一长笛重述开头，英国管与拨弦线相配，单簧管和圆号填入长音。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-I-d-counterpoint",
+      "web_text": "上方旋律可与1–2小节逐音比较；下方持续层与活动线已改写，因此旋律重复并不表示整体织体重复。",
+      "video_text": "上方旋律可与1–2小节逐音比较；下方持续层与活动线已改写，因此旋律重复并不表示整体织体重复。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-I-d-form",
+      "web_text": "A′开始；1–2与13–14的音高、攻击位置和时值对应已存入局部比较。返回既恢复记忆，也积累音色变化。",
+      "video_text": "A′开始；1–2与13–14的音高、攻击位置和时值对应已存入局部比较。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-I-d-guide",
+      "web_text": "认出开头的句子，然后留意它现在靠着不同的低音和内声展开。",
+      "video_text": "认出开头的句子，然后留意它现在靠着不同的低音和内声展开。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-I-e-harmony",
+      "web_text": "E背景再次承托后半句，第二小提琴复现此前的半音内声。结尾在调式语境中收束，不能仅据末音A就把整段化约成单一功能终止。",
+      "video_text": "E背景再次承托旋律，弦乐内声带回半音的记忆。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-I-e-orchestration",
+      "web_text": "主旋律转给加弱音器的小提琴，竖琴和分奏低弦补足长音、泛音与拨弦。木管的余留延音与弦乐主体应按时点区分。",
+      "video_text": "主旋律转给加弱音器的小提琴，竖琴和分奏低弦补足长音、泛音与拨弦。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-I-e-counterpoint",
+      "web_text": "第二小提琴的半音线与第一小提琴旋律并行存在；加倍与泛音补色不自动增加独立声部数量。",
+      "video_text": "第二小提琴的半音线与第一小提琴旋律并行存在；加倍与泛音补色不自动增加独立声部数量。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-I-e-form",
+      "web_text": "完成五个四小节单位。Kilpatrick把结尾G–A与第二曲开头相联系，这属于跨曲动机读法，不等于二者使用相同和声。",
+      "video_text": "完成五个四小节单位。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-I-e-guide",
+      "web_text": "同一句后半段由弦乐说出后，留意最后的短小音程怎样留下未尽的余味。",
+      "video_text": "同一句后半段由弦乐说出后，留意最后的短小音程怎样留下未尽的余味。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-3-21-harmony",
+      "web_text": "持续层与半音移动分开看；过渡材料的音集不直接移用帕凡舞的功能标签。",
+      "video_text": "持续音与半音移动交替，间奏逐步准备新的圆舞曲。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-3-21-orchestration",
+      "web_text": "短笛的强奏上行、钢片琴和打击乐的突入，与后段竖琴和独奏小提琴形成对照。",
+      "video_text": "短笛的强奏上行、钢片琴和打击乐的突入，与后段竖琴和独奏小提琴形成对照。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-3-21-counterpoint",
+      "web_text": "密集的共同攻击先打断前景，随后让独奏线条浮在长音之上。",
+      "video_text": "密集的共同攻击先打断前景，随后让独奏线条浮在长音之上。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-3-21-form",
+      "web_text": "总谱先后写出Allegro、Plus lent、Allegro及圆舞曲速度；间奏最终准备下一场。",
+      "video_text": "总谱先后写出Allegro、Plus lent、Allegro及圆舞曲速度；间奏最终准备下一场。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-3-21-guide",
+      "web_text": "听突出的短笛和闪光音色退下之后，圆舞曲的空间如何出现。",
+      "video_text": "听突出的短笛和闪光音色退下之后，圆舞曲的空间如何出现。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-a-harmony",
+      "web_text": "F大调及升四级的局部色彩构成背景。17–20的低音和半音和声使常规终止预期转向；Kaminsky称其为越界动机，其心理阐释属于作者模型。",
+      "video_text": "F大调背景中，升四级与半音低音不断偏离平稳的舞步。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-a-orchestration",
+      "web_text": "单簧管演唱前景，竖琴及弱奏弦木管分担三拍舞步。实际旋律在第二小节进入，第一小节已建立伴奏。",
+      "video_text": "单簧管演唱前景，竖琴及弱奏弦木管分担三拍舞步。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-a-counterpoint",
+      "web_text": "旋律与圆舞曲支撑分层；内部低音和线条偏离可以预示后续关系，不表示野兽已以完整主题出现。",
+      "video_text": "旋律与圆舞曲支撑分层；内部低音和线条偏离可以预示后续关系，不表示野兽已以完整主题出现。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-a-form",
+      "web_text": "多次陈述与评论组成美女的大段。梅西安按主题和评论分段，Kaminsky将它纳入第一轮转，二者观察尺度不同。",
+      "video_text": "多次陈述与评论组成美女的大段。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-a-guide",
+      "web_text": "先听平稳的舞步与单簧管，再留意中途那些让句子无法按预期落定的半音转向。",
+      "video_text": "先听平稳的舞步与单簧管，再留意中途那些让句子无法按预期落定的半音转向。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-b-harmony",
+      "web_text": "全音、八音等对称音集与持续低音形成较粗砺的色彩；Alexander的变化属和弦读法是另一种分层归约，不强求与调式标签互相排除。",
+      "video_text": "全音、八音等对称音集，与持续低音形成粗砺的色彩。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-b-orchestration",
+      "web_text": "低音巴松的极低音旋律与低弦震音、拨弦及竖琴形成显著反差。",
+      "video_text": "低音巴松的极低音旋律与低弦震音、拨弦及竖琴形成显著反差。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-b-counterpoint",
+      "web_text": "低声部49–52与60–63有完整的局部移调对应，上移大二度且攻击节奏一致；此结果不认证周围所有和声读法。",
+      "video_text": "低声部49–52与60–63有完整的局部移调对应，上移大二度且攻击节奏一致；此结果不认证周围所有和声读法。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-b-form",
+      "web_text": "角色对比由音区、音程、奏法与句法共同建立。两次陈述之间有延长，不简单按八小节模板切齐。",
+      "video_text": "角色对比由音区、音程、奏法与句法共同建立。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-b-guide",
+      "web_text": "听低音巴松的下行线条，再留意第二次出现时整个形状怎样抬高一步。",
+      "video_text": "听低音巴松的下行线条，再留意第二次出现时整个形状怎样抬高一步。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-c-harmony",
+      "web_text": "F♯持续支点与上方改变的旋律构成复合关系，宜把低音、和声层和旋律变音分别说明。",
+      "video_text": "F♯的持续支点，与上方改变的旋律构成复合关系。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-c-orchestration",
+      "web_text": "高音旋律与低音巴松继续保持鲜明音色差，同时乐队开始把两者置于共同织体。",
+      "video_text": "高音旋律与低音巴松继续保持鲜明音色差，同时乐队开始把两者置于共同织体。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-c-counterpoint",
+      "web_text": "Kaminsky与梅西安均讨论69以后主题材料的结合。因此不能把106写成全曲第一次任何形式的主题同现；它是更完整的返回节点。",
+      "video_text": "Kaminsky与梅西安均讨论69以后主题材料的结合。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-c-form",
+      "web_text": "角色独立展示转向交互发展。局部的叹息、重复及三连音上行，使陈述变成逐步紧迫的对话。",
+      "video_text": "角色独立展示转向交互发展。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-c-guide",
+      "web_text": "现在试着同时追踪上方较柔和的句子和下方越来越坚持的上行动作。",
+      "video_text": "现在试着同时追踪上方较柔和的句子和下方越来越坚持的上行动作。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-d-harmony",
+      "web_text": "半音低音与紧张音程关系推动终止延迟；Kaminsky以G–C♯等关系解释前后呼应，属于有取音范围的读法。",
+      "video_text": "半音低音与紧张音程，让终止不断推迟。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-d-orchestration",
+      "web_text": "音区、力度和合奏参与共同增长，前景不再是单一独奏的封闭陈述。",
+      "video_text": "音区、力度和合奏参与共同增长，前景不再是单一独奏的封闭陈述。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-d-counterpoint",
+      "web_text": "旋律碎片与低声部上行形成不同方向和节奏的推进，局部加倍需要合并到相应层次。",
+      "video_text": "旋律碎片与低声部上行形成不同方向和节奏的推进，局部加倍需要合并到相应层次。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-d-form",
+      "web_text": "较长单位逐渐缩成短单位，配合速度与力度增长形成高潮。这里与128以后构成两轮有差异的推进。",
+      "video_text": "较长单位逐渐缩成短单位，配合速度与力度增长形成高潮。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-d-guide",
+      "web_text": "听每次重说的句子怎样越来越短，仿佛来不及把话完整说完。",
+      "video_text": "听每次重说的句子怎样越来越短，仿佛来不及把话完整说完。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-e-harmony",
+      "web_text": "美女材料返回时，低层仍保留野兽材料及其半音张力；上层轮廓的恢复不表示和声回到开头原状。",
+      "video_text": "上方旋律返回，低层仍保留先前的材料与半音张力。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-e-orchestration",
+      "web_text": "单簧管与低音角色在共享织体中并存，音色差维持人物身份。",
+      "video_text": "单簧管与低音角色在共享织体中并存，音色差维持人物身份。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-e-counterpoint",
+      "web_text": "两种主题材料的结合是此段重点；相互制约的音程与句法需按各条线理解，不能只看和弦标签。",
+      "video_text": "两种主题材料的结合是此段重点；相互制约的音程与句法需按各条线理解，不能只看和弦标签。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-e-form",
+      "web_text": "梅西安的再现与Kaminsky第二轮转都可从此区域观察；该区包含106的衔接，XML明确的第一速度文字落在107，保留两种定位尺度。",
+      "video_text": "梅西安的再现与Kaminsky第二轮转都可从此区域观察；该区包含106的衔接，谱面明确的第一速度文字落在107，保留两种定位尺度。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-e-guide",
+      "web_text": "认出单簧管熟悉的旋律，同时听它现在必须与哪一条低声线共处。",
+      "video_text": "认出单簧管熟悉的旋律，同时听它现在必须与哪一条低声线共处。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-f-harmony",
+      "web_text": "紧张和声、上行低层与旋律音程次序的改变共同推动高潮；功能、调式与动机读法分别保存，不强行压成一条罗马数字链。",
+      "video_text": "上行低层与改变的旋律音程共同积累张力，随后留下空白。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-f-orchestration",
+      "web_text": "合奏推至强音后骤停，竖琴滑奏等音色转换标记新的空间。具体滑奏节点须按管弦乐谱和XML核对，文献146为参考而非预设录音时刻。",
+      "video_text": "合奏推至强音后骤停，竖琴滑奏等音色转换标记新的空间。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-f-counterpoint",
+      "web_text": "材料继续缩减，局部声部移交与方向变化增加紧迫感；休止成为关系中的真实断点，不延长为虚构持续音。",
+      "video_text": "材料继续缩减，局部声部移交与方向变化增加紧迫感；休止成为关系中的真实断点，不延长为虚构持续音。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-f-form",
+      "web_text": "与85–105相应的第二轮增长达到转折。童话变身与音乐转折可以对应，但心理层含义是作者解释。",
+      "video_text": "与85–105相应的第二轮增长达到转折。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-f-guide",
+      "web_text": "关注高潮后真正的停顿，再听新音色怎样从这段空白中浮出。",
+      "video_text": "关注高潮后真正的停顿，再听新音色怎样从这段空白中浮出。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-g-harmony",
+      "web_text": "F的终局支点并未消除所有变音。Kaminsky据末段残留的对称音集讨论结局的复杂性，梅西安更强调爱带来的转化；两种解释各有归属。",
+      "video_text": "F成为终局支点，变音与柔和的音色仍保留着过去的痕迹。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-g-orchestration",
+      "web_text": "独奏小提琴的高音泛音改变野兽材料的音色身份，随后高低层逐步合流。泛音记谱与实际发声音高须单独核对。",
+      "video_text": "独奏小提琴的高音泛音改变野兽材料的音色身份，随后高低层逐步合流。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-g-counterpoint",
+      "web_text": "148–151与低音巴松60–63的音高顺序相隔五个八度，但内部时值已经改写；主题转化有局部证据，不能称为逐音原样复制。",
+      "video_text": "148–151与低音巴松60–63的音高顺序相隔五个八度，但内部时值已经改写；主题转化有局部证据，不能称为逐音原样复制。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-g-form",
+      "web_text": "尾声以材料重组完成戏剧转化；变成王子并非更换一条毫无关联的新旋律。",
+      "video_text": "尾声以材料重组完成戏剧转化；变成王子并非更换一条毫无关联的新旋律。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-IV-g-guide",
+      "web_text": "把高处的小提琴与此前低音巴松的轮廓相认，再听两种人物材料怎样共同结束。",
+      "video_text": "把高处的小提琴与此前低音巴松的轮廓相认，再听两种人物材料怎样共同结束。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-4-173-harmony",
+      "web_text": "木管的级进线与弦乐背景分开观察，色彩变化承接前景的收束。",
+      "video_text": "木管的级进短句与弱奏弦乐，延续对话后的柔和色彩。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-4-173-orchestration",
+      "web_text": "长笛、双簧管等木管短句相继出现，弱奏弦乐维持过渡。",
+      "video_text": "长笛、双簧管等木管短句相继出现，弱奏弦乐维持过渡。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-4-173-counterpoint",
+      "web_text": "短句接力与持续层共同形成连续性。",
+      "video_text": "短句接力与持续层共同形成连续性。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-4-173-form",
+      "web_text": "此段属于芭蕾版衔接，接向小拇指的不规则步伐。",
+      "video_text": "此段属于芭蕾版衔接，接向小拇指的不规则步伐。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-extra-4-173-guide",
+      "web_text": "听清接话的木管，再感受下一场弦乐脚步的变化。",
+      "video_text": "听清接话的木管，再感受下一场弦乐脚步的变化。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-a-harmony",
+      "web_text": "流动三度与变化的调式音构成道路般的背景；C小调是整体参照，逐次经过的音集不宜逐个强行命名功能和弦。",
+      "video_text": "流动的三度与变化的调式音，先铺出不断延伸的道路。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-a-orchestration",
+      "web_text": "加弱音器的小提琴持续八分音符运动；双簧管旋律在第4小节末的弱起进入，故段界不应截断它的入口。",
+      "video_text": "加弱音器的小提琴持续八分音符运动；双簧管旋律在第4小节末的弱起进入，故段界不应截断它的入口。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-a-counterpoint",
+      "web_text": "平行三度可作为两条记谱线观察，也可在听觉组织中合为一层移动伴奏；两种分析层级需说明。",
+      "video_text": "平行三度可作为两条记谱线观察，也可在听觉组织中合为一层移动伴奏；两种分析层级需说明。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-a-form",
+      "web_text": "2/4、3/4、4/4、5/4等换拍使路途延长和缩短。四小节引子与主题弱起重叠，不按机械整小节切开句法。",
+      "video_text": "2/4、3/4、4/4、5/4等换拍使路途延长和缩短。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-a-guide",
+      "web_text": "先跟住连续的八分音符，感受每小节长度改变时脚步怎样失去整齐的落点。",
+      "video_text": "先跟住连续的八分音符，感受每小节长度改变时脚步怎样失去整齐的落点。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-b-harmony",
+      "web_text": "围绕C的旋律与伴奏呈调式色彩，临时变化音逐步打开降E区域。下行五度与向上的级进共同构成旋律，不宜仅以音阶标签解释句子。",
+      "video_text": "围绕C展开的旋律，逐步打开降E的色彩区域。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-b-orchestration",
+      "web_text": "双簧管独奏浮在弱奏弦乐之上，音色集中而背景不断流动。",
+      "video_text": "双簧管独奏浮在弱奏弦乐之上，音色集中而背景不断流动。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-b-counterpoint",
+      "web_text": "长一些的独奏旋律跨越伴奏的拍格；主旋律与三度背景是主要的两层听觉分工。",
+      "video_text": "长一些的独奏旋律跨越伴奏的拍格；主旋律与三度背景是主要的两层听觉分工。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-b-form",
+      "web_text": "短动机重述后延长成连接，导向12小节。Alexander的“忧惧”是其自拟名称，可作导聆提示，不能标成拉威尔原注。",
+      "video_text": "短动机重述后延长成连接，导向12小节。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-b-guide",
+      "web_text": "听双簧管试探着说出短句，而脚下的线条始终没有停下来。",
+      "video_text": "听双簧管试探着说出短句，而脚下的线条始终没有停下来。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-c-harmony",
+      "web_text": "梅西安将这轮陈述联系到降E大调，旋律扩大到三度和更宽的音程。调性较明亮并不意味着下方道路音型已停止。",
+      "video_text": "较宽的音程让回答舒展；梅西安将这里联系到降E大调。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-c-orchestration",
+      "web_text": "英国管接替双簧管，中提琴与大提琴保持流动，个别低音由木管和拨弦共同着色。",
+      "video_text": "英国管接替双簧管，中提琴与大提琴保持流动，个别低音由木管和拨弦共同着色。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-c-counterpoint",
+      "web_text": "主句的较长呼吸与伴奏的连续八分音符相互覆盖；交接前后仍可追踪同一材料的身份。",
+      "video_text": "主句的较长呼吸与伴奏的连续八分音符相互覆盖；交接前后仍可追踪同一材料的身份。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-c-form",
+      "web_text": "作为第二轮较宽陈述，与开头短句形成回答；Kilpatrick同时指出其与前材料共享下行五度等骨架。",
+      "video_text": "作为第二轮较宽陈述，与开头短句形成回答；Kilpatrick同时指出其与前材料共享下行五度等骨架。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-c-guide",
+      "web_text": "英国管把句子拉长，仿佛暂时找到了方向；下面的脚步却没有得到终点。",
+      "video_text": "英国管把句子拉长，仿佛暂时找到了方向；下面的脚步却没有得到终点。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-d-harmony",
+      "web_text": "G持续低音支持第一类材料的回归；持续支点与上方半音化背景共同制造局部不稳定。",
+      "video_text": "G持续低音托住旧材料，上方的半音变化使归来并不安稳。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-d-orchestration",
+      "web_text": "旋律由单簧管转交长笛，短促交替使前景颜色迅速变化。",
+      "video_text": "旋律由单簧管转交长笛，短促交替使前景颜色迅速变化。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-d-counterpoint",
+      "web_text": "固定低音、移动伴奏与旋律片段分别承担稳定、流动及陈述功能。",
+      "video_text": "固定低音、移动伴奏与旋律片段分别承担稳定、流动及陈述功能。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-d-form",
+      "web_text": "既是开头材料的返回，也是下一轮增长的过渡；不能因为主题重现就提前宣告完整再现部。",
+      "video_text": "既是开头材料的返回，也是下一轮增长的过渡；不能因为主题重现就提前宣告完整再现部。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-d-guide",
+      "web_text": "认出熟悉的短句，看它怎样在不同木管之间接力并准备上行。",
+      "video_text": "认出熟悉的短句，看它怎样在不同木管之间接力并准备上行。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-e-harmony",
+      "web_text": "低音支点之上的半音化与模进逐步增加张力；33小节的C小调回归可按梅西安读作假再现，尚未恢复终局稳定。",
+      "video_text": "半音变化与上行模进逐步增添张力，熟悉材料暂时返回。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-e-orchestration",
+      "web_text": "弦乐推动增长，木管随后加入或加倍，力度与音区扩张共同形成高潮。",
+      "video_text": "弦乐推动增长，木管随后加入或加倍，力度与音区扩张共同形成高潮。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-e-counterpoint",
+      "web_text": "旋律线、切分内声与低声部保持不同节奏，局部的六度或八度加倍要与这些独立层分开。",
+      "video_text": "旋律线、切分内声与低声部保持不同节奏，局部的六度或八度加倍要与这些独立层分开。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-e-form",
+      "web_text": "上行小细胞的重复、扩大与高潮后回落构成一轮推进。33–38还混合了前两类材料的特征，不必把每种表面变化命名为新主题。",
+      "video_text": "上行小细胞的重复、扩大与高潮后回落构成一轮推进。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-e-guide",
+      "web_text": "听短小的上行动作怎样越推越高，再在高潮后重新回落到熟悉的道路。",
+      "video_text": "听短小的上行动作怎样越推越高，再在高潮后重新回落到熟悉的道路。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-f-harmony",
+      "web_text": "梅西安将第二类材料的这次返回置于降A区域。辨认相同旋律轮廓与改变的和声支撑，比仅按调名划界更能说明返回中的变化。",
+      "video_text": "较宽的句子返回；梅西安将这次回归置于降A区域。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-f-orchestration",
+      "web_text": "英国管重新居前，中低弦提供移动背景，高潮后的透明度恢复。",
+      "video_text": "英国管重新居前，中低弦提供移动背景，高潮后的透明度恢复。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-f-counterpoint",
+      "web_text": "前景的长句和背景的连续运动继续并存；回到同类织体不表示每一条内声都照搬前段。",
+      "video_text": "前景的长句和背景的连续运动继续并存；回到同类织体不表示每一条内声都照搬前段。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-f-form",
+      "web_text": "较宽材料的第二轮呈现与12–22相互照应，为后面的鸟鸣场景留出反差。",
+      "video_text": "较宽材料的第二轮呈现与12–22相互照应，为后面的鸟鸣场景留出反差。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-f-guide",
+      "web_text": "英国管的声音再次带来暂时安定，同时听出它已落在新的和声光线中。",
+      "video_text": "英国管的声音再次带来暂时安定，同时听出它已落在新的和声光线中。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-g-harmony",
+      "web_text": "持续音与较短的鸟鸣事件需要分开描述；滑音中间的离散XML音符不能直接当作每个瞬间都清楚发声的和弦成员。",
+      "video_text": "持续音与短小鸟鸣交错，音响不再只沿原来的步伐流动。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-g-orchestration",
+      "web_text": "独奏小提琴的泛音、滑音、颤音与短笛、长笛形成细碎音色；中低音旋律仍在延续。",
+      "video_text": "独奏小提琴的泛音、滑音、颤音与短笛、长笛形成细碎音色；中低音旋律仍在延续。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-g-counterpoint",
+      "web_text": "装饰性鸟鸣与主要旋律背景处于不同层级，不因事件密集就认定严格模仿。",
+      "video_text": "装饰性鸟鸣与主要旋律背景处于不同层级，不因事件密集就认定严格模仿。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-g-form",
+      "web_text": "这里改变了空间感和前景组织，随后继续增长再转入60小节。XML全局71、73即本曲51、53的独奏小提琴时值各短1/240四分音符，保持原样并在计算中采用共同小节时轴。",
+      "video_text": "这里改变了空间感和前景组织，随后继续增长再转入60小节。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-g-guide",
+      "web_text": "让耳朵暂时离开主旋律，听高处零散的鸟叫怎样遮蔽或打断道路的方向感。",
+      "video_text": "让耳朵暂时离开主旋律，听高处零散的鸟叫怎样遮蔽或打断道路的方向感。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-h-harmony",
+      "web_text": "C小调材料回归，透明而分离的音区使原旋律更容易辨认；音区改变本身不构成转调。",
+      "video_text": "C小调材料返回；相隔的音区，让同一旋律显得格外透明。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-h-orchestration",
+      "web_text": "短笛与独奏大提琴相隔两个八度，内声流动处于其间。",
+      "video_text": "短笛与独奏大提琴相隔两个八度，内声流动处于其间。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-h-counterpoint",
+      "web_text": "已核对60–63的音高、时值和入口：这是同时八度加倍的一条旋律，不是两次先后主题进入。64以后仍需逐段核查，不能把局部结果外推整段。",
+      "video_text": "已核对60–63的音高、时值和入口：这是同时八度加倍的一条旋律，不是两次先后主题进入。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-h-form",
+      "web_text": "梅西安将60视为主要回归点。与33的较早返回并列比较，可以说明假再现与后续恢复的不同作用。",
+      "video_text": "梅西安将60视为主要回归点。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-h-guide",
+      "web_text": "试着把最高的短笛和较低的大提琴听成同一条相距很远的旋律。",
+      "video_text": "试着把最高的短笛和较低的大提琴听成同一条相距很远的旋律。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-i-harmony",
+      "web_text": "F上带色彩的和声与半音内声支撑较宽音程；梅西安强调五度、二度与四度的组合，不宜把这些旋律音程混同为单一和弦类别。",
+      "video_text": "较宽的音程立在带色彩的F背景上，半音内声继续移动。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-i-orchestration",
+      "web_text": "长笛旋律、圆号长音和弦乐活动层逐渐疏开，低音拨弦保持轻微步伐。",
+      "video_text": "长笛旋律、圆号长音和弦乐活动层逐渐疏开，低音拨弦保持轻微步伐。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-i-counterpoint",
+      "web_text": "前景越来越简约，内声仍有运动，形成旋律减缩与背景延续的不同步。",
+      "video_text": "前景越来越简约，内声仍有运动，形成旋律减缩与背景延续的不同步。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-i-form",
+      "web_text": "Kilpatrick把这里理解为材料逐步剥离；Alexander则自拟“走出森林”的戏剧标签。后者不是乐谱给出的唯一情节。",
+      "video_text": "Kilpatrick把这里理解为材料逐步剥离；Alexander则自拟“走出森林”的戏剧标签。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-i-guide",
+      "web_text": "听旋律怎样从完整句子退成几次相互衔接的较大跳进。",
+      "video_text": "听旋律怎样从完整句子退成几次相互衔接的较大跳进。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-j-harmony",
+      "web_text": "末尾的大三度改变收束的色彩，但开头的道路运动仍被回忆。结尾明暗与叙事情节不能简单一一对应。",
+      "video_text": "末尾的大三度改变收束色彩，开头的运动仍留在记忆中。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-j-orchestration",
+      "web_text": "加弱音器的弦乐回到前景，双簧管以短片段回应，终止音响由低弦等共同维持。",
+      "video_text": "加弱音器的弦乐回到前景，双簧管以短片段回应，终止音响由低弦等共同维持。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-j-counterpoint",
+      "web_text": "织体从人物旋律重新缩回背景；尾声的和声补色不构成新对位主题。",
+      "video_text": "织体从人物旋律重新缩回背景；尾声的和声补色不构成新对位主题。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-j-form",
+      "web_text": "与开头构成框架。梅西安强调最后的明亮一瞥，Kilpatrick强调绕行返回，可并列说明而不强制归一。",
+      "video_text": "与开头构成框架。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-II-j-guide",
+      "web_text": "熟悉的脚步又出现了，结尾的一点明亮并没有抹去整段徘徊的记忆。",
+      "video_text": "熟悉的脚步又出现了，结尾的一点明亮并没有抹去整段徘徊的记忆。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-a-harmony",
+      "web_text": "F♯五声语汇先由缺省的局部音集与相邻二度显出；完整五声音阶是材料范围，不等于每一拍都出现五个音。",
+      "video_text": "F♯五声语汇先从局部音集与相邻二度中浮现。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-a-orchestration",
+      "web_text": "短小线条拆到木管、拨弦与键盘色彩之间；短发音与持续或震音背景相互衬托。",
+      "video_text": "短小线条拆到木管、拨弦与键盘色彩之间；短发音与持续或震音背景相互衬托。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-a-counterpoint",
+      "web_text": "线条被分配给多种乐器，仍可能只构成接力的一层；先区分分配与独立旋律。",
+      "video_text": "线条被分配给多种乐器，仍可能只构成接力的一层；先区分分配与独立旋律。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-a-form",
+      "web_text": "八小节引入建立音色与音型，9小节才出现较完整的快旋律。这里采用管弦乐本地编号。",
+      "video_text": "八小节引入建立音色与音型，9小节才出现较完整的快旋律。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-a-guide",
+      "web_text": "先听零碎的音色互相闪现，再等待高处的连续旋律成形。",
+      "video_text": "先听零碎的音色互相闪现，再等待高处的连续旋律成形。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-b-harmony",
+      "web_text": "短笛开头实际包含F♯、D♯、C♯、A♯等音；以F♯为支点的五声框架解释连贯性，局部非集合音另看其位置。",
+      "video_text": "F♯、D♯、C♯、A♯等音，在短笛中织成轻巧花纹。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-b-orchestration",
+      "web_text": "短笛主奏，后段由长笛接续，轻盈伴奏保持透明。",
+      "video_text": "短笛主奏，后段由长笛接续，轻盈伴奏保持透明。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-b-counterpoint",
+      "web_text": "快速装饰、背景音型与和声支点分层；不能把每个高音型都认作另一主题。",
+      "video_text": "快速装饰、背景音型与和声支点分层；不能把每个高音型都认作另一主题。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-b-form",
+      "web_text": "两轮相关陈述把同一材料向不同方向打开。Kilpatrick据钢琴版提出F♯–C♯–D♯骨架，此处保留为取音归约模型，不冒充全部攻击顺序。",
+      "video_text": "两轮相关陈述把同一材料向不同方向打开。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-b-guide",
+      "web_text": "在快速花纹中抓住几个反复回来的支点，而不必追逐每颗装饰音。",
+      "video_text": "在快速花纹中抓住几个反复回来的支点，而不必追逐每颗装饰音。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-c-harmony",
+      "web_text": "相邻二度和较厚的垂直音响强调撞击感；应以实际同时窗分辨音集，不把前后音型相加成一个和弦。",
+      "video_text": "相邻二度与较厚的垂直音响，突出短促的撞击感。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-c-orchestration",
+      "web_text": "高音木管、键盘打击色彩与中低音加倍短时汇聚，再迅速退弱，形成大小悬殊的听觉反差。",
+      "video_text": "高音木管、键盘打击色彩与中低音加倍短时汇聚，再迅速退弱，形成大小悬殊的听觉反差。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-c-counterpoint",
+      "web_text": "大部分新增乐器加强既有线或和声层，厚度增长不等于复调密度同比增加。",
+      "video_text": "大部分新增乐器加强既有线或和声层，厚度增长不等于复调密度同比增加。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-c-form",
+      "web_text": "短小合奏插段分隔两组材料。Alexander的角色命名可作教学比喻，不能当作拉威尔指定的场景动作。",
+      "video_text": "短小合奏插段分隔两组材料。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-c-guide",
+      "web_text": "注意微小世界怎样忽然变得响亮，又立刻收回原先的尺寸。",
+      "video_text": "注意微小世界怎样忽然变得响亮，又立刻收回原先的尺寸。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-d-harmony",
+      "web_text": "文献区分C♯多利亚、B大调、全音与半音内声等局部语汇；它们说明材料转换的几种层次，不应强行统一成一种调式。",
+      "video_text": "五声、调式与半音内声先后转换，材料保持多种色彩。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-d-orchestration",
+      "web_text": "旋律从双簧管经长笛到英国管，交换愈发紧密；乐器换色与旋律连续性同时成立。",
+      "video_text": "旋律从双簧管经长笛到英国管，交换愈发紧密；乐器换色与旋律连续性同时成立。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-d-counterpoint",
+      "web_text": "46附近的半音内声与上层旋律分开追踪。跨曲相似的摇摆音型可作为比较线索，主题身份需要额外证据。",
+      "video_text": "46附近的半音内声与上层旋律分开追踪。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-d-form",
+      "web_text": "多次短陈述与评论构成局部链条，为56之后的增长积累动能；这一大段含多个次级边界。",
+      "video_text": "多次短陈述与评论构成局部链条，为56之后的增长积累动能；这一大段含多个次级边界。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-d-guide",
+      "web_text": "沿同一条旋律追踪换乐器的瞬间，再留意里面缓慢摆动的半音。",
+      "video_text": "沿同一条旋律追踪换乐器的瞬间，再留意里面缓慢摆动的半音。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-e-harmony",
+      "web_text": "五声材料与带E自然音的局部色彩可以先后或分层出现，不能把全段平均成纯F♯大调。",
+      "video_text": "五声材料与E自然音的局部色彩，随乐器入口逐步聚合。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-e-orchestration",
+      "web_text": "木琴、钢片琴与高音木管汇聚，中音区拨弦提供轮廓；加倍和渐强共同扩大音响。",
+      "video_text": "木琴、钢片琴与高音木管汇聚，中音区拨弦提供轮廓；加倍和渐强共同扩大音响。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-e-counterpoint",
+      "web_text": "若干乐器按八度或同节奏合为共同前景，背景保持不同发音；这是音色组合问题，未据此认证严格卡农。",
+      "video_text": "若干乐器按八度或同节奏合为共同前景，背景保持不同发音；这是音色组合问题，未据此认证严格卡农。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-e-form",
+      "web_text": "这里是向慢性格区域的增长与转折。钢琴文献的65小节不能直接替代本管弦乐版的69等地标。",
+      "video_text": "这里是向慢性格区域的增长与转折。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-e-guide",
+      "web_text": "听高处的线条怎样逐渐由一种颜色变成多种颜色叠合的整体。",
+      "video_text": "听高处的线条怎样逐渐由一种颜色变成多种颜色叠合的整体。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-f-harmony",
+      "web_text": "F♯、C♯、D♯等支点以更长时值呈现，音集相近而时间组织完全改变；不能因材料相同就忽略和声经过与低音配置。",
+      "video_text": "F♯、C♯、D♯等支点拉成长音，快速花纹化为轮廓。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-f-orchestration",
+      "web_text": "木管与圆号的持续音形成宽阔前景，竖琴、钢片琴等接续或补充其色彩。",
+      "video_text": "木管与圆号的持续音形成宽阔前景，竖琴、钢片琴等接续或补充其色彩。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-f-counterpoint",
+      "web_text": "已核查70–76长笛与钢片琴低谱表的局部同度对应；同时加倍应与后文错开进入分开。",
+      "video_text": "已核查70–76长笛与钢片琴低谱表的局部同度对应；同时加倍应与后文错开进入分开。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-f-form",
+      "web_text": "Alexander称这里为号角性插段，Kilpatrick的剥离模型可解释快花纹与慢轮廓的关系；二者采用不同分段目的。",
+      "video_text": "Alexander称这里为号角性插段，Kilpatrick的剥离模型可解释快花纹与慢轮廓的关系；二者采用不同分段目的。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-f-guide",
+      "web_text": "把现在的长音当成前面快速花纹被放大后的轮廓来听。",
+      "video_text": "把现在的长音当成前面快速花纹被放大后的轮廓来听。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-g-harmony",
+      "web_text": "低音区仍保留五声支点，持续音改变段落的重心。不要以单簧管的移调记谱音直接判断实音调性。",
+      "video_text": "低音区保留五声支点，持续音把段落重心带向低处。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-g-orchestration",
+      "web_text": "A调单簧管在低音区突出，钢片琴后来于更高音区参与，低沉与清亮之间有明显距离。",
+      "video_text": "A调单簧管在低音区突出，钢片琴后来于更高音区参与，低沉与清亮之间有明显距离。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-g-counterpoint",
+      "web_text": "93小节钢片琴F♯–C♯–D♯的进入与此前低声部材料可作模仿候选。当前只确认入口与音高次序，完整卡农的延迟、全句节奏及例外仍待逐段核对。",
+      "video_text": "93小节钢片琴F♯–C♯–D♯的进入与此前低声部材料可作模仿候选。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-g-form",
+      "web_text": "慢性格区域继续展开，后续进入形成内部层次；不能用文献钢琴编号自动生成这一版的精确对应。",
+      "video_text": "慢性格区域继续展开，后续进入形成内部层次；不能用文献钢琴编号自动生成这一版的精确对应。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-g-guide",
+      "web_text": "记住低处的三个支点，再听清亮的钢片琴怎样从另一层空间回应。",
+      "video_text": "记住低处的三个支点，再听清亮的钢片琴怎样从另一层空间回应。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-h-harmony",
+      "web_text": "持续支点与平行和声层支持新的抒情轮廓；文献的D♯属持续音及平行和弦读法保留在钢琴版语境，需按管弦乐实际窗核对后才可逐点使用。",
+      "video_text": "持续支点与平行的和声层，托出较舒展的抒情线。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-h-orchestration",
+      "web_text": "较柔和的独奏音色替代先前的合奏轮廓，键盘与竖琴把背景分开为细小层次。",
+      "video_text": "较柔和的独奏音色替代先前的合奏轮廓，键盘与竖琴把背景分开为细小层次。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-h-counterpoint",
+      "web_text": "旋律的长线、内层平行运动及低音持续各有职责；分解和声不等于持续存在的同一垂直和弦。",
+      "video_text": "旋律的长线、内层平行运动及低音持续各有职责；分解和声不等于持续存在的同一垂直和弦。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-h-form",
+      "web_text": "可作为慢区的评论性段落。与第一曲材料的联系是文献提出的动机比较，不预设为已经证实的完整主题引用。",
+      "video_text": "可作为慢区的评论性段落。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-h-guide",
+      "web_text": "听旋律从明亮的装饰转成更长的呼吸，背景仍在轻轻变化。",
+      "video_text": "听旋律从明亮的装饰转成更长的呼吸，背景仍在轻轻变化。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-i-harmony",
+      "web_text": "五声支点继续维持统一性，局部半音和声与装饰依照各自入口分析；共享音集不使所有材料承担相同结构功能。",
+      "video_text": "五声支点维持联系，半音与装饰让熟悉材料重新组合。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-i-orchestration",
+      "web_text": "低声部回忆与上方快材料并置，独奏和短合奏交替恢复前部的活跃度。",
+      "video_text": "低声部回忆与上方快材料并置，独奏和短合奏交替恢复前部的活跃度。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-i-counterpoint",
+      "web_text": "可讨论快慢材料在不同层次的并置，完整同现范围仍以事件表和实际谱面为依据，不宣称整段严格双主题对位。",
+      "video_text": "可讨论快慢材料在不同层次的并置，完整同现范围仍以事件表和实际谱面为依据，不宣称整段严格双主题对位。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-i-form",
+      "web_text": "梅西安的两主题组合再现与Alexander的角色段落表可并列使用，但钢琴版133与本版段界不自动同号。",
+      "video_text": "梅西安的两主题组合再现与Alexander的角色段落表可并列使用，但钢琴版133与本版段界不自动同号。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-i-guide",
+      "web_text": "留意快的花纹回来时，低处是否仍保留刚才较慢的记忆。",
+      "video_text": "留意快的花纹回来时，低处是否仍保留刚才较慢的记忆。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-j-harmony",
+      "web_text": "最终的五声性终止可按含六音、九音的主和弦读法理解；具体同时音集与经过装饰分开记录，不把整段集合说成持续和弦。",
+      "video_text": "五声性的终止逐步收拢，色彩音仍给结尾留下光泽。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-j-orchestration",
+      "web_text": "短笛、长笛、英国管和键盘打击色彩接续，最后以紧凑的合奏收拢。",
+      "video_text": "短笛、长笛、英国管和键盘打击色彩接续，最后以紧凑的合奏收拢。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-j-counterpoint",
+      "web_text": "反复的旋律角色与音色加倍交织；快速入口多不等于每次都产生独立主题。",
+      "video_text": "反复的旋律角色与音色加倍交织；快速入口多不等于每次都产生独立主题。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-j-form",
+      "web_text": "189–201恢复较早的合奏材料，202–204形成短尾声。整曲204小节与钢琴版文献的差异单列，留待专门版次对照。",
+      "video_text": "189–201恢复较早的合奏材料，202–204形成短尾声。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-III-j-guide",
+      "web_text": "沿已经熟悉的换色顺序辨认返回，再听最后几个和声怎样把微型世界收起来。",
+      "video_text": "沿已经熟悉的换色顺序辨认返回，再听最后几个和声怎样把微型世界收起来。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-a-harmony",
+      "web_text": "C是整体中心，但长线与二度、七度、九度等垂直关系使音响并非连续纯三和弦。第一小节先有C、E等支撑，旋律D在第二拍进入，不能把整小节集合当作起始和弦。",
+      "video_text": "C是整体中心，二度、七度与九度关系不断丰富长线。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-a-orchestration",
+      "web_text": "弱奏弦乐以较集中的中音区铺开，低音提琴开头并非一直参与。",
+      "video_text": "弱奏弦乐以较集中的中音区铺开，低音提琴开头并非一直参与。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-a-counterpoint",
+      "web_text": "上层旋律、内声延留和低音各自移动；四声部式听觉组织与XML导出的多份分奏分部不是同一计数。",
+      "video_text": "上层旋律、内声延留和低音各自移动；四声部式听觉组织与谱面导出的多份分奏分部不是同一计数。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-a-form",
+      "web_text": "缓慢开端与第一曲的停驻感构成外部框架，二度、四度的联系由文献作为跨曲模型提出。",
+      "video_text": "缓慢开端与第一曲的停驻感构成外部框架，二度、四度的联系由文献作为跨曲模型提出。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-a-guide",
+      "web_text": "先听弦乐长线怎样缓慢展开，再注意旋律与低音并不总朝同一方向。",
+      "video_text": "先听弦乐长线怎样缓慢展开，再注意旋律与低音并不总朝同一方向。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-b-harmony",
+      "web_text": "上行过程改变局部调式与低音支点，梅西安将它联系到E区域。逐拍的和声变换与跨句的方向感需要分层描述。",
+      "video_text": "上行过程改变低音支点；梅西安将它联系到E区域。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-b-orchestration",
+      "web_text": "旋律在中提琴、大提琴与木管等之间移动，再由更厚的弦木管组合支撑。",
+      "video_text": "旋律在中提琴、大提琴与木管等之间移动，再由更厚的弦木管组合支撑。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-b-counterpoint",
+      "web_text": "材料先后进入与同时八度加倍都存在；模仿关系需按入口延迟与旋律证据认定，不用乐器数代替。",
+      "video_text": "材料先后进入与同时八度加倍都存在；模仿关系需按入口延迟与旋律证据认定，不用乐器数代替。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-b-form",
+      "web_text": "第一轮上升既扩展开头，也将音区推向中央段；它不是最终高潮的提前复制。",
+      "video_text": "第一轮上升既扩展开头，也将音区推向中央段；它不是最终高潮的提前复制。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-b-guide",
+      "web_text": "跟着上行的短形状换乐器，听它怎样从内部逐步撑开整个乐队。",
+      "video_text": "跟着上行的短形状换乐器，听它怎样从内部逐步撑开整个乐队。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-c-harmony",
+      "web_text": "E区域及其调式变化、分解和弦与较长旋律并存。梅西安分别提出多利亚、混合利底亚等局部读法，不能把整段混成一种固定音阶。",
+      "video_text": "E区域的调式色彩中，分解音响与较长旋律分层存在。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-c-orchestration",
+      "web_text": "独奏小提琴与钢片琴在高处相配，部分位置有独奏中提琴的八度支撑；竖琴和高音木管组织透明背景。",
+      "video_text": "独奏小提琴与钢片琴在高处相配，部分位置有独奏中提琴的八度支撑；竖琴和高音木管组织透明背景。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-c-counterpoint",
+      "web_text": "主线与背景的入口、时值不同。分解和声的音不能在尚未发声时提前算入垂直和弦。",
+      "video_text": "主线与背景的入口、时值不同。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-c-form",
+      "web_text": "中央段通过音区与奏法形成新视角，长线仍与此前材料有联系。不同配器段界不必等于新的主题边界。",
+      "video_text": "中央段通过音区与奏法形成新视角，长线仍与此前材料有联系。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-c-guide",
+      "web_text": "听高处旋律怎样悬在竖琴和木管之上，让前景与背景保持不同的呼吸。",
+      "video_text": "听高处旋律怎样悬在竖琴和木管之上，让前景与背景保持不同的呼吸。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-d-harmony",
+      "web_text": "音阶性上升伴随分解音响向两端展开，动态却减弱；音高上升不自动表示张力或力度增加。",
+      "video_text": "音阶上升、音区展开，力度却减弱，声音仿佛逐步远去。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-d-orchestration",
+      "web_text": "旋律在木管和弦乐间转移，透明度增加，为返回留出空间。",
+      "video_text": "旋律在木管和弦乐间转移，透明度增加，为返回留出空间。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-d-counterpoint",
+      "web_text": "线条扩展与渐弱共同作用，声部之间可有交接，不能以最高音瞬间更换自动推断主旋律身份。",
+      "video_text": "线条扩展与渐弱共同作用，声部之间可有交接，不能以最高音瞬间更换自动推断主旋律身份。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-d-form",
+      "web_text": "它是中央区向40小节附近回归的连接，不必独立命名为完整发展部。",
+      "video_text": "它是中央区向40小节附近回归的连接，不必独立命名为完整发展部。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-d-guide",
+      "web_text": "留意越往高处，声音却越像退到远处，形成与一般渐强上行不同的效果。",
+      "video_text": "留意越往高处，声音却越像退到远处，形成与一般渐强上行不同的效果。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-e-harmony",
+      "web_text": "C区域恢复后，F–C等持续支撑参与后续上升；梅西安将此称为调性的返回，未必是开头主题原样再现。",
+      "video_text": "C区域恢复，F—C等持续支撑参与后续的上升。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-e-orchestration",
+      "web_text": "弦乐多音区与木管加倍逐渐扩大，圆号的钟声式节奏从内部显出。没有小号或长号，仍能形成有力的庆典轮廓。",
+      "video_text": "弦乐多音区与木管加倍逐渐扩大，圆号的钟声式节奏从内部显出。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-e-counterpoint",
+      "web_text": "先后上升、八度加倍和持续低层分别描述。局部模仿与和声化线条可同时存在，不互相排斥。",
+      "video_text": "先后上升、八度加倍和持续低层分别描述。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-e-form",
+      "web_text": "第二轮上升朝50小节终局推进；跨曲二度、四度联系在这里被集中唤回。",
+      "video_text": "第二轮上升朝50小节终局推进；跨曲二度、四度联系在这里被集中唤回。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-e-guide",
+      "web_text": "听旋律一层层升高，圆号的钟声式音型怎样从背景变成庆典的一部分。",
+      "video_text": "听旋律一层层升高，圆号的钟声式音型怎样从背景变成庆典的一部分。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-f-harmony",
+      "web_text": "C的终局支点以开放音区和色彩音型铺开；持续主音、上层和声与装饰分开记，竖琴、钢片琴滑奏不能按离散XML音符穷尽实响。",
+      "video_text": "C的终局支点在开放音区铺开，上方色彩不断闪动。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-f-orchestration",
+      "web_text": "木管、钟琴、钢片琴、竖琴及弦乐震音汇成复合效果，力度与配器共同完成扩张。编制里没有小号、长号和大号。",
+      "video_text": "木管、钟琴、钢片琴、竖琴及弦乐震音汇成复合效果，力度与配器共同完成扩张。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-f-counterpoint",
+      "web_text": "多件乐器在同一辉光层中融合；有独立记谱分部，不代表每一部都作为可辨的复调旋律出现。",
+      "video_text": "多件乐器在同一辉光层中融合；有独立记谱分部，不代表每一部都作为可辨的复调旋律出现。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-f-form",
+      "web_text": "Alexander的庆典性结尾、梅西安的内心花园与Kilpatrick的叙事结束读法可以并列。音符证据支持音响如何汇聚，不能独自裁定唯一隐喻。",
+      "video_text": "Alexander的庆典性结尾、梅西安的内心花园与Kilpatrick的叙事结束读法可以并列。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    },
+    {
+      "id": "ballet-V-f-guide",
+      "web_text": "在最后的辉光中辨认钟声、滑奏与长线，听它们怎样汇到共同的终点。",
+      "video_text": "在最后的辉光中辨认钟声、滑奏与长线，听它们怎样汇到共同的终点。",
+      "timing_basis": "existing independent movement DTW / source bar interval; no page-duration averaging"
+    }
+  ],
+  "omitted": [],
+  "human_signoff": null,
+  "expert_review": null,
+  "input_fingerprints": [
+    {
+      "path": "works/ravel-mother-goose-video/analysis/ballet-guide.json",
+      "sha256": "1455a22e8606aa7c1d94fac13845ca84a05fe9d434ad4dca5b409a670ed2e590"
+    },
+    {
+      "path": "works/ravel-mother-goose-video/reference/written.json",
+      "sha256": "3b3e9358a02513babb89f1525ad537e2bbe556ad0d438c666eac77fed2ef8d0e"
+    },
+    {
+      "path": "works/ravel-mother-goose-video/project.json",
+      "sha256": "aff87f2859a558df4f127d7a6d7ff8e61296178c220f4184e325d99170f66842"
+    },
+    {
+      "path": "works/ravel-mother-goose/analysis/full-analysis.md",
+      "sha256": "9424789bdf63249509a2d81669218d5e2640d57c17709b975929cca62b04d36c"
+    }
+  ],
+  "editable_sha256": "78ae8ee1253f6591c87603ad749524b4fa51ad027550bd2e00bdcc28219c9b94",
+  "reviewed_sha256": "74e8229fc990bbdc896c1c992da8216c6aeb77970d24051c669f7c532950b83e",
+  "style_update": {
+    "default_scroll_multiplier": 1.5,
+    "timing_changed": false,
+    "individual_overrides_supported": true
+  },
+  "realtime_layer": {
+    "来源": "XML实际记谱区间经独立DTW投影，非音频分离",
+    "实时条数": 6397,
+    "原分段稿条数": 267,
+    "连续显示规则": "按实际区间更新，不套用长段落的最短3秒阅读规则；同字相邻区间合并，不延长到下一音响",
+    "无参考连接": "1045.2–1147.0及1361.6–1448.8仅保留已有音色导聆，不外推实时和声或乐器",
+    "活跃名称规则": "中文乐器类名合并同名分部；全部原分部与源音符保存在实时证据，不把合并名称数当演奏人数",
+    "source_sha256": "4047454be6409faa2bc7af3002a00174073dc533c229928c699a546be1b0bc70",
+    "alignment_sha256": "5f781f0b13e425bf3ac99b04e3a2995a2edc8d003b15b9ab95248f49af93f20d",
+    "证据文件": "works/ravel-mother-goose-video/video-export/realtime-evidence.json",
+    "human_signoff": null
+  },
+  "form_title_update": {
+    "title": "曲式分析与主题发展",
+    "rows_changed": 49,
+    "scope": "titles only; caption text and times preserved",
+    "video_regenerated": false
+  },
+  "story_revision": {
+    "version": "story-v1",
+    "scope": "视频可编辑稿；用户自行生成视频与核查",
+    "guide_count": 56,
+    "literature": "基于本地论文相关段落、Alexander书内童话及已保存谱面研究的中文转述；没有新增逐音校勘",
+    "version_boundary": "五曲组曲的整体叙事模型不机械套用七章芭蕾；童话情节不按秒逐项配对",
+    "display_order": "和声解读／配器说明在前，实时音响／活跃乐器在后；各自只有一个显示区",
+    "layout": "左侧文字区900像素宽；诠释上移30像素至y=870；仍可通过BAT调整",
+    "sources": "works/ravel-mother-goose-video/video-export/story-sources.json",
+    "previous_sha256": "e6b3606543cb87647b85ba8a5a47ead558b47ba8984a695d7ef522d640f36fc1",
+    "human_signoff": null,
+    "video_rendered": false
+  },
+  "story_wording": {
+    "guide_characters_before": 1500,
+    "guide_characters_after": 3336,
+    "original_live_caption_count": 6397,
+    "new_live_caption_count": 6419
+  }
+}

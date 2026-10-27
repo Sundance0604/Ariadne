@@ -2,7 +2,7 @@
 
 **从这里开始：** [项目导航](项目导航.md) · [文档目录](docs/README.md) · [视频制作流程](docs/workflows/video-production.md) · [分析撰写流程](docs/workflows/analysis-writing.md)。
 
-日常继续使用根目录的“启动播放器.bat”和“编辑完整版字幕.bat”。视频脚本集中在 `scripts/video_export/`，本机草稿与字号偏好在 `local/video-export/`，当前完整版JSON仍在 `output/video-export/ravel-full-001/captions-editable.json`。位置配置统一见 `config/video-export.json`。演出视频和本机资源包不上传GitHub。
+日常使用根目录的“启动播放器.bat”和唯一字幕入口“编辑视频字幕.bat”。字幕编辑器启动后选择鹅妈妈、拉威尔完整版或95秒样片，可修改文字、时间、位置、字体及滚动速度。视频脚本集中在 `scripts/video_export/`，本机草稿与字号偏好在 `local/video-export/`，当前拉威尔完整版JSON仍在 `output/video-export/ravel-full-001/captions-editable.json`。项目与位置配置统一见 `config/video-export.json`。演出视频和本机资源包不上传GitHub。
 
 拉威尔当前四个模块为**和声、配器与织体、声部关系与复调、曲式与主题发展**；动机关系为共享数据，不新增第五个面板。其他作品的已有模块和数据保持独立，以下历史记录保留当时的称谓与验证范围。
 

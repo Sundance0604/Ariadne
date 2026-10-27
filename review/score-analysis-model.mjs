@@ -7,6 +7,7 @@ const qualities={'major triad':'大三和弦','minor triad':'小三和弦','dimi
   'half-diminished seventh chord':'半减七和弦','diminished seventh chord':'减七和弦'};
 export function surfaceLabel(w){
   if(!w)return '无定音音符';
+  if(w.display_label)return w.display_label;
   if(w.chord)return `${w.chord.root}${qualities[w.chord.quality]||w.chord.quality} · ${['原位','第一转位','第二转位','第三转位'][w.chord.inversion]||'转位待核'} · 全体最低音${w.bass?.name}`;
   const pcs=w.pitch_classes||[],names=[...new Set((w.pitches||[]).map(p=>p.replace(/-?\d+$/,'')))];
   if(pcs.length===2&&[5,7].includes(Math.abs(pcs[1]-pcs[0]))){

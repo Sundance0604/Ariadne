@@ -1,0 +1,11 @@
+{
+  "source_sha256": "a5bc8c9d47d8dbf6a6f5afe91952c7a9f04870c98277d90a16bd27eb3cfb5664",
+  "retained_source_measures": [
+    1,
+    50
+  ],
+  "omitted_source_measure": 51,
+  "evidence": "complete ballet PDF 12 final bars and PDF 13 first 6/8 tutti; source MIDI independent locator overlaps the next movement",
+  "status": "agent_edition_boundary_check",
+  "human_signoff": null
+}

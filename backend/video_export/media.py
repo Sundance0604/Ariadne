@@ -27,6 +27,21 @@ def run(command,log=None,cwd=None):
     return result
 
 
+def subtitle_font_report(log):
+    """A successful libass fallback is not a missing final glyph."""
+    pending={};resolved=[];failures=[]
+    for line in log.splitlines():
+        match=re.search(r'\[([^]]+)\]',line);context=match[1] if match else ''
+        if 'Glyph ' in line and 'not found, selecting one more font' in line:
+            if context in pending:failures.append(pending[context])
+            pending[context]=line
+        elif re.search(r'failed to find|fontselect:.*failed',line,re.I):
+            failures.append(line)
+        elif 'fontselect:' in line and ' -> ' in line and context in pending:
+            resolved.append({'request':pending.pop(context),'selected':line})
+    return {'resolved_fallbacks':resolved,'unresolved_glyphs':failures+list(pending.values())}
+
+
 def inspect_frames(binary,path,start,duration,log=None):
     probe=os.environ.get('FFPROBE_BINARY') or shutil.which('ffprobe')
     if probe:

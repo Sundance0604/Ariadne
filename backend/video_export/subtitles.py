@@ -22,7 +22,7 @@ def header(config,graphics=False):
         if name=='score':continue
         size=box.get('font_size',config['font_size'])
         bold=-1 if config.get('bold') else 0
-        rows.append(f'Style: {name},{font},{size},{yellow},{yellow},&HFF000000,&HFF000000,{bold},0,0,0,100,100,{config.get("spacing",0)},0,1,0,0,7,0,0,0,1')
+        rows.append(f'Style: {name},{box.get("font",font)},{size},{yellow},{yellow},&HFF000000,&HFF000000,{bold},0,0,0,100,100,{config.get("spacing",0)},0,1,0,0,7,0,0,0,1')
     if graphics:rows.append(f'Style: vector,{font},10,{yellow},{yellow},&HFF000000,&HFF000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1')
     rows+=['','[Events]','Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text']
     return rows
@@ -75,7 +75,9 @@ def web_analysis_ass(events,config):
     labels.update(config.get('slot_labels',{}))
     interpretations=[(e['output_start'],e['output_end']) for e in events if e['slot']=='interpretation' and e.get('phase')!='intro']
     for e in events:
-        name='intro' if e.get('phase')=='intro' else e['slot'];box=config['layout'][name];size=box.get('font_size',config['font_size'])
+        name='intro' if e.get('phase')=='intro' else e['slot'];box={**config['layout'][name],**e.get('render_style',{})};size=box.get('font_size',config['font_size'])
+        face=box.get('font',config['font'])
+        style=f'\\fn{face}\\fs{size}'
         text=e['text']
         if FORBIDDEN.search(normalized(text)):raise ValueError('Research placeholder in video text')
         intervals=[(e['output_start'],e['output_end'])]
@@ -93,7 +95,7 @@ def web_analysis_ass(events,config):
         for start,end in intervals:
             if end<=start:continue
             fade=r'\fad(350,350)' if name=='intro' else ''
-            rows.append(dialogue(start,end,name,f'{{\\an{anchor}\\pos({x},{box["y"]}){fade}}}【{escape(title)}】'))
+            rows.append(dialogue(start,end,name,f'{{\\an{anchor}{style}\\pos({x},{box["y"]}){fade}}}【{escape(title)}】'))
             height=len(lines)*line_height
             scroll=box.get('scroll') or height>body_h
             clip=f'\\clip({box["x"]},{body_y:.2f},{box["x"]+box["w"]},{box["y"]+box["h"]})'
@@ -102,10 +104,12 @@ def web_analysis_ass(events,config):
                 # allowing old lines to leave at the top, then pause to read.
                 initial=body_y+min(body_h*.32,line_height*2)
                 final=body_y-max(line_height*.5,height-body_h+line_height*.5)
-                travel=max(100,int((end-start-2)*1000))
+                speed=box.get('scroll_speed',config.get('scroll_speed',1))
+                if isinstance(speed,bool) or not isinstance(speed,(int,float)) or not math.isfinite(speed) or not .25<=speed<=4:raise ValueError('Scroll speed must be between 0.25 and 4')
+                travel=650+max(100,int(max(.1,end-start-2-.65)*1000/speed))
                 move=f'\\move({x},{initial:.2f},{x},{final:.2f},650,{travel})'
-                tags=f'{{\\an{anchor}{clip}{move}{fade}}}'
-            else:tags=f'{{\\an{anchor}{clip}\\pos({x},{body_y:.2f}){fade}}}'
+                tags=f'{{\\an{anchor}{style}{clip}{move}{fade}}}'
+            else:tags=f'{{\\an{anchor}{style}{clip}\\pos({x},{body_y:.2f}){fade}}}'
             rows.append(dialogue(start,end,name,tags+escape(wrapped)))
     return '\n'.join(rows)+'\n'
 

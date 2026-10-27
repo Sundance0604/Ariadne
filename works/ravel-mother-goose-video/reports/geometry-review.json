@@ -1,0 +1,98 @@
+{
+  "pdf_sha256": "dcd459e83b05e89bf273725009bf8651ef41d8052603653a85b966e5c1812052",
+  "corrections": [
+    {
+      "page": 14,
+      "system": 0,
+      "before_scale2": [
+        110,
+        303,
+        464,
+        595,
+        732,
+        872,
+        902,
+        1073
+      ],
+      "after_scale2": [
+        110,
+        303,
+        464,
+        595,
+        732,
+        872,
+        1073
+      ],
+      "basis": "agent image review of actual printed staff/bar lines; false aligned stem, missing bar or cautionary signature respectively",
+      "human_signoff": null
+    },
+    {
+      "page": 14,
+      "system": 1,
+      "before_scale2": [
+        117,
+        320,
+        594,
+        753,
+        890,
+        1074
+      ],
+      "after_scale2": [
+        117,
+        320,
+        465,
+        594,
+        753,
+        890,
+        1074
+      ],
+      "basis": "agent image review of actual printed staff/bar lines; false aligned stem, missing bar or cautionary signature respectively",
+      "human_signoff": null
+    },
+    {
+      "page": 26,
+      "system": 1,
+      "before_scale2": [
+        121,
+        532,
+        761,
+        1015,
+        1071
+      ],
+      "after_scale2": [
+        121,
+        532,
+        761,
+        1015
+      ],
+      "basis": "agent image review of actual printed staff/bar lines; false aligned stem, missing bar or cautionary signature respectively",
+      "human_signoff": null
+    },
+    {
+      "page": 58,
+      "system": 0,
+      "before_scale2": [
+        114,
+        342,
+        483,
+        622,
+        761,
+        900,
+        1044,
+        1066
+      ],
+      "after_scale2": [
+        114,
+        342,
+        483,
+        622,
+        761,
+        900,
+        1044
+      ],
+      "basis": "agent image review of actual printed staff/bar lines; false aligned stem, missing bar or cautionary signature respectively",
+      "human_signoff": null
+    }
+  ],
+  "note": "Numerical sequence correspondence remains a candidate; visual geometry is not notehead recognition."
+}

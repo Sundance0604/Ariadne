@@ -103,7 +103,7 @@ export function createStructuralHUD({onEssay,onEvidence,onOpen=()=>{},onMeasure=
     }else if(dimension==='orchestration'){
       detail.append(node('h4','谱面事实 · 当前活跃分部'),node('p',`${v.orchestration.activeParts.length}个XML分部；不是乐器种类、演奏员或独立旋律条数。`));
       for(const family of ['木管','铜管','打击乐','键盘／拨弦','弦乐','其他分部']){
-        const parts=v.orchestration.activeParts.filter(p=>partFamily(p.part_id)===family);if(!parts.length)continue;
+        const parts=v.orchestration.activeParts.filter(p=>(p.family||partFamily(p.part_id))===family);if(!parts.length)continue;
         detail.append(node('h4',family));
         for(const part of parts)detail.append(node('p',`${part.label}（${part.part_id}）· ${part.pitches.join('、')||'非定音'} · 规则职责候选：${part.roles.join('／')}。实际instrument_ref、奏法和起止见音符底稿。`));
       }

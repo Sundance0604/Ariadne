@@ -1,0 +1,164 @@
+{
+  "work_id": "ravel-mother-goose-ballet",
+  "title": "鹅妈妈：完整芭蕾版",
+  "inputs": [
+    {
+      "path": "resource/mother goose/ballet/ravel-ma-mere-loye-full-ballet-imslp62635.pdf",
+      "sha256": "dcd459e83b05e89bf273725009bf8651ef41d8052603653a85b966e5c1812052",
+      "bytes": 15292250,
+      "page_count": 98
+    },
+    {
+      "path": "resource/mother goose/Ravel ： Ma Mère l'Oye (Philharmonique de Radio France) [PemXe-kHvSc] (1920x1080).mp4",
+      "sha256": "0dfac83e05efe9eb7b213f5d12ba6c84f7f25c01e9845d04327e0d8295740095",
+      "bytes": 631053949,
+      "method": "ffmpeg_diagnostic_fallback",
+      "duration_seconds": 1678.66,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "description": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 2873 kb/s, 25 fps, 25 tbr, 90k tbn (default)"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "description": "Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)"
+        }
+      ],
+      "diagnostic": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'D:\\mycodelife\\workshop\\AI\\classicMusic\\resource\\mother goose\\Ravel ： Ma Mère l'Oye (Philharmonique de Radio France) [PemXe-kHvSc] (1920x1080).mp4':\r\n  Metadata:\r\n    major_brand     : isom\r\n    minor_version   : 512\r\n    compatible_brands: isomiso2avc1mp41\r\n    title           : Ravel : Ma Mère l'Oye (Philharmonique de Radio France)\r\n    artist          : France Musique concerts\r\n    date            : 20211214\r\n    encoder         : Lavf63.17.100\r\n    comment         : https://www.youtube.com/watch?v=PemXe-kHvSc\r\n    genre           : Music\r\n    description     : L'Orchestre philharmonique de Radio France joue, sous la direction de George Benjamin, Ma Mère l'Oye de Ravel. Extrait du concert donné le 10 décembre 2021 à l'auditorium de la Maison de la Radio et de la Musique.\r\n                    : \r\n                    : #Ravel #GeorgeBenjamin #OrchestrePhilharmoniquedeRadioFrance #MaMerelOye\r\n                    : \r\n                    : Structure : \r\n                    : Prélude (Très lent)\r\n                    : Tableau I : Danse du rouet et Scène (Allegro)\r\n                    : Tableau II : Pavane de la Belle au bois dormant\r\n                    : (Lent - Allegro - Mouvement de Valse modéré)\r\n                    : Interlude\r\n                    : Tableau III : Les Entretiens de la Belle et de la Bête\r\n                    : (Mouvement de Valse modéré)\r\n                    : Interlude\r\n                    : Tableau IV : Petit Poucet (Très modéré)\r\n                    : Interlude\r\n                    : Tableau V : Laideronnette, Impératrice des Pagodes\r\n                    : (Mouvement de marche - Allegro - Très modéré)\r\n                    : Interlude\r\n                    : Apothéose : Le Jardin féerique (Lent et grave)\r\n    synopsis        : L'Orchestre philharmonique de Radio France joue, sous la direction de George Benjamin, Ma Mère l'Oye de Ravel. Extrait du concert donné le 10 décembre 2021 à l'auditorium de la Maison de la Radio et de la Musique.\r\n                    : \r\n                    : #Ravel #GeorgeBenjamin #OrchestrePhilharmoniquedeRadioFrance #MaMerelOye\r\n                    : \r\n                    : Structure : \r\n                    : Prélude (Très lent)\r\n                    : Tableau I : Danse du rouet et Scène (Allegro)\r\n                    : Tableau II : Pavane de la Belle au bois dormant\r\n                    : (Lent - Allegro - Mouvement de Valse modéré)\r\n                    : Interlude\r\n                    : Tableau III : Les Entretiens de la Belle et de la Bête\r\n                    : (Mouvement de Valse modéré)\r\n                    : Interlude\r\n                    : Tableau IV : Petit Poucet (Très modéré)\r\n                    : Interlude\r\n                    : Tableau V : Laideronnette, Impératrice des Pagodes\r\n                    : (Mouvement de marche - Allegro - Très modéré)\r\n                    : Interlude\r\n                    : Apothéose : Le Jardin féerique (Lent et grave)\r\n  Duration: 00:27:58.66, start: 0.000000, bitrate: 3007 kb/s\r\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 2873 kb/s, 25 fps, 25 tbr, 90k tbn (default)\r\n      Metadata:\r\n        handler_name    : VideoHandler\r\n        vendor_id       : [0][0][0][0]\r\n  Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)\r\n      Metadata:\r\n        handler_name    : ISO Media file produced by Google Inc.\r\n        vendor_id       : [0][0][0][0]\r\nAt least one output file must be specified\r\n",
+      "warning": "ffprobe 未安装；当前轨道信息来自 FFmpeg，精细的轨道时间轴待 ffprobe 复核。"
+    },
+    {
+      "movement": 1,
+      "path": "resource/mother goose/new/mamerurowa-i-qian-zou-qu.mxl",
+      "sha256": "a5bc8c9d47d8dbf6a6f5afe91952c7a9f04870c98277d90a16bd27eb3cfb5664"
+    },
+    {
+      "movement": 2,
+      "path": "resource/mother goose/new/ma-mere-loye-ii-danse-du-rouet-et-scene.mxl",
+      "sha256": "3f90bbd6d6da72dec211f5894991995626e9cb454263f122cc9a32fe307ff9e5"
+    },
+    {
+      "movement": 3,
+      "path": "resource/mother goose/new/ma-mere-loye-iii-pavane-de-la-belle-au-bois-dormant.mxl",
+      "sha256": "a3bd296ad0c39f9760b611db39ef34f23625d5bff1a3f179bc7417956edfb3b7"
+    },
+    {
+      "movement": 4,
+      "path": "resource/mother goose/new/mamerurowa-iv-mei-nuto-ye-shouno-dui-hua.mxl",
+      "sha256": "515e8056d64a3da1d750e71065c5e92db5446309963a5fffe8a709a12dc8a0d5"
+    },
+    {
+      "movement": 5,
+      "path": "resource/mother goose/ma-mere-loye-maurice-ravel.mxl",
+      "sha256": "01ecfe7b3703db80cbc6bdb469fc611b9889c7dbed89662f674afa5e2b142ff3"
+    },
+    {
+      "movement": 6,
+      "path": "resource/mother goose/ma-mere-loye-maurice-ravel.mxl",
+      "sha256": "01ecfe7b3703db80cbc6bdb469fc611b9889c7dbed89662f674afa5e2b142ff3"
+    },
+    {
+      "movement": 7,
+      "path": "resource/mother goose/new/mamerurowa-di7qu-yao-jingno-yuan.mxl",
+      "sha256": "02815c458a65952f16a0a50a0a9b3f1a94140f55dcc727cb2556e9894be2b810"
+    },
+    {
+      "movement": 3,
+      "path": "resource/mother goose/ma-mere-loye-maurice-ravel.mxl",
+      "sha256": "01ecfe7b3703db80cbc6bdb469fc611b9889c7dbed89662f674afa5e2b142ff3",
+      "role": "previously researched core 1–20; new source retained for ballet extension"
+    },
+    {
+      "movement": 4,
+      "path": "resource/mother goose/ma-mere-loye-maurice-ravel.mxl",
+      "sha256": "01ecfe7b3703db80cbc6bdb469fc611b9889c7dbed89662f674afa5e2b142ff3",
+      "role": "previously researched core 304–475; new source retained for ballet extension"
+    },
+    {
+      "movement": 7,
+      "path": "resource/mother goose/ma-mere-loye-maurice-ravel.mxl",
+      "sha256": "01ecfe7b3703db80cbc6bdb469fc611b9889c7dbed89662f674afa5e2b142ff3",
+      "role": "previously researched core 476–531; new source retained for ballet extension"
+    }
+  ],
+  "movements": [
+    {
+      "movement": 1,
+      "title": "前奏曲",
+      "first_sequence_index": 1,
+      "last_sequence_index": 50,
+      "start_q": "0",
+      "end_q": "180",
+      "first_pdf_page": 3,
+      "last_pdf_page": 12
+    },
+    {
+      "movement": 2,
+      "title": "纺车舞与场景",
+      "first_sequence_index": 51,
+      "last_sequence_index": 171,
+      "start_q": "180",
+      "end_q": "541",
+      "first_pdf_page": 13,
+      "last_pdf_page": 30
+    },
+    {
+      "movement": 3,
+      "title": "睡美人的帕凡舞与间奏",
+      "first_sequence_index": 172,
+      "last_sequence_index": 216,
+      "start_q": "541",
+      "end_q": "706",
+      "first_pdf_page": 31,
+      "last_pdf_page": 37
+    },
+    {
+      "movement": 4,
+      "title": "美女与野兽的对话与间奏",
+      "first_sequence_index": 217,
+      "last_sequence_index": 407,
+      "start_q": "706",
+      "end_q": "1274",
+      "first_pdf_page": 38,
+      "last_pdf_page": 53
+    },
+    {
+      "movement": 5,
+      "title": "小拇指",
+      "first_sequence_index": 408,
+      "last_sequence_index": 486,
+      "start_q": "1274",
+      "end_q": "1454",
+      "first_pdf_page": 54,
+      "last_pdf_page": 59
+    },
+    {
+      "movement": 6,
+      "title": "丑姑娘，宝塔女皇",
+      "first_sequence_index": 487,
+      "last_sequence_index": 690,
+      "start_q": "1454",
+      "end_q": "1862",
+      "first_pdf_page": 64,
+      "last_pdf_page": 86
+    },
+    {
+      "movement": 7,
+      "title": "仙境花园",
+      "first_sequence_index": 691,
+      "last_sequence_index": 746,
+      "start_q": "1862",
+      "end_q": "2030",
+      "first_pdf_page": 91,
+      "last_pdf_page": 98
+    }
+  ],
+  "processing_status": {
+    "alignment": "seven independent movement DTWs",
+    "score_geometry": "746 observed bar candidates and nine separate interlude systems",
+    "interpretation": "shared five-scene research plus added ballet observations"
+  },
+  "human_signoff": null
+}
