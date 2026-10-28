@@ -73,6 +73,8 @@ python tools/prokofiev2-waterfall/render_movement.py \
 
 Windows 运行导出前，把 `CHROME_BINARY` 环境变量设为本机 Chrome 或 Chromium 的完整可执行文件路径；macOS 默认查找 `/Applications/Google Chrome.app`。`--node` 与 `--ffmpeg` 可传任意机器上的实际可执行文件路径，不能照搬他人的本机位置。
 
+仅调整尾段日蚀或 `tail_particle_bloom` 时，先复制 `render-plan.json` 并修改新副本，再用 `rerender_full_suffix.py` 指定原 v21 视频和新计划。`--first-changed-segment 21` 表示保留成片前 630 秒；改日蚀渐入时应选更早的分段。脚本核对原视频指纹、计划变更范围和拼接边界；若变更影响前段，它会拒绝局部拼接。原 v21 视频没有依赖已经删除的草稿视频，指纹由 `data/final-video.json` 提供。
+
 ## 边界与发布
 
 本目录是**本次录音的可复现作品包**，不是对任意录音或任意 MusicXML 自动精确对齐的保证。更换演出需要重新建立管弦参考时钟与声部选择、分离和转录钢琴，并复核指纹。最终 4K MP4 大约 1.24 GB，留在用户本机；Git 只保存代码、参数、小型对齐结果和指纹，不推送录音、视频、模型、SeeMusic 图或实拍火焰文件。Ariadne 既有的播放器与普二研究视频不受此目录影响。

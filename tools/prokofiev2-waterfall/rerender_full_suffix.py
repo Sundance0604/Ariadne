@@ -99,17 +99,32 @@ def main():
     if not args.base_video.is_file():
         raise FileNotFoundError(args.base_video)
     old_manifest = args.base_video.with_suffix(".render.json")
-    if not old_manifest.is_file():
-        raise FileNotFoundError(old_manifest)
-    ancestor = json.loads(old_manifest.read_text())
-    if movement.digest(args.base_video) != ancestor["output_sha256"]:
-        raise ValueError("Base video checksum differs from its manifest")
-    while "inputs" not in ancestor:
-        ancestor_video = Path(ancestor["base_video"])
-        if movement.digest(ancestor_video) != ancestor["base_video_sha256"]:
-            raise ValueError("Base video ancestry checksum differs")
-        ancestor = json.loads(ancestor_video.with_suffix(".render.json").read_text())
-    base_inputs = ancestor["inputs"]
+    if old_manifest.is_file():
+        ancestor = json.loads(old_manifest.read_text())
+        if movement.digest(args.base_video) != ancestor["output_sha256"]:
+            raise ValueError("Base video checksum differs from its manifest")
+        while "inputs" not in ancestor:
+            ancestor_video = Path(ancestor["base_video"])
+            if movement.digest(ancestor_video) != ancestor["base_video_sha256"]:
+                raise ValueError("Base video ancestry checksum differs")
+            ancestor = json.loads(ancestor_video.with_suffix(".render.json").read_text())
+        base_inputs = ancestor["inputs"]
+    else:
+        # The approved v21 video remains local while its small portable
+        # provenance record is committed. Earlier draft videos were removed.
+        approved = json.loads((movement.HERE / "data/final-video.json").read_text())
+        if movement.digest(args.base_video) != approved["video_sha256"]:
+            raise ValueError("Base video differs from the approved v21 artifact")
+        base_inputs = {
+            "width": approved["video_width"],
+            "height": approved["video_height"],
+            "fps": approved["fps"],
+            "segment_seconds": 30,
+            "source_timeline_sha256": approved["packaged_timeline_sha256"],
+            "audio_sha256": approved["source_audio_sha256"],
+            "intro_seconds": 5,
+            "duration_seconds": approved["video_duration_seconds"],
+        }
     width, height, fps = (base_inputs[key] for key in ("width", "height", "fps"))
     if base_inputs["segment_seconds"] != args.segment_seconds:
         raise ValueError("Base video segment length differs")
