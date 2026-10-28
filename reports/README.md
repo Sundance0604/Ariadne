@@ -4,10 +4,12 @@
 
 | 主题 | 主要报告 |
 |---|---|
+| 美国四重奏同步与字幕 | [四章／反复、四件弦乐面板、253条字幕及本机资源](dvorak-american-sync-and-captions-20261028.md) |
 | 当前项目整理 | [目录整理与发布](project-organization-20261026.md) |
 | 今日清理与成果发布 | [定向缓存清理、最终字幕快照与新视频制作指南](cleanup-and-publish-20261027.md) |
 | 普罗第二钢琴协奏曲 | [XML核查与七项研究资料](prokofiev2-sources-and-research-20261027.md) |
 | 普罗第二钢协分析 | [四乐章38段正文与局部谱面证据](prokofiev2-analysis-20261027.md) |
+| 德沃夏克美国四重奏分析 | [四乐章41段正文、材料交接与局部谱面证据](dvorak-american-analysis-20261028.md) |
 | 普罗第二钢协网页同步 | [王羽佳／雅尔维视频、原扫描谱与高亮核查](prokofiev2-sync-20261027.md) |
 | 普罗第二钢协实时显示与样片 | [实时音集和配器、45秒音流视频及字幕整行停留修复](prokofiev2-live-flow-and-caption-rest-20261027.md) |
 | 普罗第二钢协完整版准备 | [200条字幕、原PDF与双图层，用户自行生成](prokofiev2-full-package-20261027.md) |

@@ -1,0 +1,13 @@
+{
+  "video_sha256": "eb4c9576eb0f20c6581ffd77e65cad8b5fca4aed283ae06adf9ba14b7f60e03f",
+  "status": "agent_spectral_boundary_estimates_not_human_listening",
+  "basis": "Full-video feature locators, independent prefix/suffix diagnostics, actual RMS/pitch concentration and inter-movement silence; failed locators preserved in .tools/dvorak-american-sync.",
+  "movements": [
+    {"movement": 1, "start": 1.3, "end": 579.9, "basis": "Soft F/A opening before the viola theme, final F/A/C decay before audience noise from582s; first-pass locator omitted soft opening."},
+    {"movement": 2, "start": 614.5, "end": 1058.8, "basis": "D-minor accompaniment begins after long silence; late weak D-minor decay and stage noise precede silence1065–1102; independent suffix locator unreliable."},
+    {"movement": 3, "start": 1102.4, "end": 1342.0, "basis": "Open-end prefix agrees with onset; final F/A/C decay1341–1342 precedes silence; Da Capo fully expanded."},
+    {"movement": 4, "start": 1374.6, "end": 1688.5, "basis": "First inner-part pulse after silence; final F/A/C sustain through1687 followed by applause from1689."}
+  ],
+  "human_signoff": null,
+  "expert_review": null
+}

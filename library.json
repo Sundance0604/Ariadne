@@ -34,6 +34,13 @@
       "title": "普罗科菲耶夫 · 第二钢琴协奏曲（王羽佳／雅尔维）",
       "data_root": "works/prokofiev-piano-concerto-2",
       "analysis_adapter": "prokofiev2-score-review-v1"
+    },
+    {
+      "id": "dvorak-american",
+      "title": "德沃夏克 · 美国弦乐四重奏（Stradivari Quartet）",
+      "data_root": "works/dvorak-american",
+      "analysis_adapter": "score-snapshot-v1",
+      "visual_panels": true
     }
   ]
 }

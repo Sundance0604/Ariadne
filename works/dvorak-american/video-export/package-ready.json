@@ -1,0 +1,11 @@
+{
+  "package": "output/video-export/dvorak-american-full-001",
+  "document": "works/dvorak-american/video-export/captions-editable.json",
+  "frame_count": 50775,
+  "pdf_pages": 34,
+  "video_generated": false,
+  "prepared_revision": "output/video-export/dvorak-american-full-001/edits-001",
+  "human_signoff": null,
+  "caption_count": 253,
+  "excluded": []
+}

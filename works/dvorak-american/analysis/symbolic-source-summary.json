@@ -1,0 +1,94 @@
+{
+  "source": {
+    "path": "resource/American/string-quartet-no12-op96-american-antonin-dvorak.mxl",
+    "sha256": "bcb01cfd6652b955d5042bf0769fcd2688cad39ce26d8664dca15b6af9c55e2d",
+    "bytes": 246512
+  },
+  "title": "String Quartet No.12, Op.96 (“American”)",
+  "declared_source": "http://musescore.com/user/37221589/scores/8885439",
+  "software": [
+    "MuseScore 3.6.2"
+  ],
+  "parts": [
+    {
+      "id": "P1",
+      "name": "Violin 1"
+    },
+    {
+      "id": "P2",
+      "name": "Violin 2"
+    },
+    {
+      "id": "P3",
+      "name": "Viola"
+    },
+    {
+      "id": "P4",
+      "name": "Violoncello"
+    }
+  ],
+  "part_measure_counts": {
+    "P1": 853,
+    "P2": 853,
+    "P3": 853,
+    "P4": 853
+  },
+  "pitched_events": 13611,
+  "eligible_events": 13586,
+  "parser_anomalies": [],
+  "extent_disagreements": [],
+  "movements": [
+    {
+      "movement": 1,
+      "first_sequence": 1,
+      "last_sequence": 178,
+      "count": 178,
+      "xml_layout_page_range": [
+        1,
+        11
+      ]
+    },
+    {
+      "movement": 2,
+      "first_sequence": 179,
+      "last_sequence": 275,
+      "count": 97,
+      "xml_layout_page_range": [
+        12,
+        17
+      ]
+    },
+    {
+      "movement": 3,
+      "first_sequence": 276,
+      "last_sequence": 471,
+      "count": 196,
+      "xml_layout_page_range": [
+        18,
+        23
+      ]
+    },
+    {
+      "movement": 4,
+      "first_sequence": 472,
+      "last_sequence": 853,
+      "count": 382,
+      "xml_layout_page_range": [
+        24,
+        34
+      ]
+    }
+  ],
+  "midi": {
+    "path": "resource/American/string-quartet-no12-op96-american-antonin-dvorak.mid",
+    "sha256": "c01aa7b1bc92c9149a4b28f53fdc2da2eb464f87b432cd855c788f95ddfb092f",
+    "bytes": 466943
+  },
+  "pdf": {
+    "path": "resource/American/string-quartet-no12-op96-american-antonin-dvorak.pdf",
+    "sha256": "65794ba36c6c4af4f380bfa7f5f9bab94aa41334f9ba917d2c7ea30c946f6714",
+    "bytes": 978238
+  },
+  "playback_activation": false,
+  "recording_projection": null
+}

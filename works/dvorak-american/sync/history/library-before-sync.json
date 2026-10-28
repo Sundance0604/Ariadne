@@ -1,0 +1,39 @@
+{
+  "format_version": "1.0.0",
+  "default_track": "ravel-left-hand",
+  "tracks": [
+    {
+      "id": "ravel-left-hand",
+      "title": "拉威尔 · 左手钢琴协奏曲",
+      "data_root": "."
+    },
+    {
+      "id": "ravel-left-hand-video",
+      "title": "拉威尔 · 左手钢琴协奏曲（艾马尔视频）",
+      "data_root": "works/ravel-left-hand-video",
+      "score_source": "ravel-left-hand"
+    },
+    {
+      "id": "lark-ascending",
+      "title": "沃恩·威廉斯 · 云雀高飞",
+      "data_root": "works/lark-ascending"
+    },
+    {
+      "id": "mahler-4",
+      "title": "马勒 · 第四交响曲（视频）",
+      "data_root": "works/mahler-4"
+    },
+    {
+      "id": "ravel-mother-goose-video",
+      "title": "拉威尔 · 鹅妈妈（完整芭蕾视频）",
+      "data_root": "works/ravel-mother-goose-video",
+      "analysis_adapter": "mother-goose-ballet-v1"
+    },
+    {
+      "id": "prokofiev-piano-concerto-2",
+      "title": "普罗科菲耶夫 · 第二钢琴协奏曲（王羽佳／雅尔维）",
+      "data_root": "works/prokofiev-piano-concerto-2",
+      "analysis_adapter": "prokofiev2-score-review-v1"
+    }
+  ]
+}

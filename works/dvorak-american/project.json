@@ -1,0 +1,81 @@
+{
+  "id": "dvorak-american",
+  "title": "德沃夏克 第十二弦乐四重奏 美国",
+  "stage": "sync_panels_captions_prepared_agent_checked",
+  "source_directory": "resource/American",
+  "movements": [
+    {
+      "movement": 1,
+      "first_sequence": 1,
+      "last_sequence": 178,
+      "count": 178,
+      "xml_layout_page_range": [
+        1,
+        11
+      ]
+    },
+    {
+      "movement": 2,
+      "first_sequence": 179,
+      "last_sequence": 275,
+      "count": 97,
+      "xml_layout_page_range": [
+        12,
+        17
+      ]
+    },
+    {
+      "movement": 3,
+      "first_sequence": 276,
+      "last_sequence": 471,
+      "count": 196,
+      "xml_layout_page_range": [
+        18,
+        23
+      ]
+    },
+    {
+      "movement": 4,
+      "first_sequence": 472,
+      "last_sequence": 853,
+      "count": 382,
+      "xml_layout_page_range": [
+        24,
+        34
+      ]
+    }
+  ],
+  "analysis_document": "works/dvorak-american/analysis/full-analysis.md",
+  "sources": "works/dvorak-american/analysis/sources.json",
+  "video_identity": "filename says Stradivari Quartet; exact date and personnel unverified",
+  "alignment": "works/dvorak-american/alignment.json",
+  "recording_projection": "works/dvorak-american/playback/current.json",
+  "player_registration": true,
+  "human_signoff": null,
+  "expert_review": null,
+  "measure_map": "works/dvorak-american/measure-map.json",
+  "video": {
+    "path": "resource/American/DVOŘÁK String Quartet No. 12 ＂American＂ ｜ Stradivari Quartet [2ZRe_ZavA1Q] (1920x1080).mp4",
+    "sha256": "eb4c9576eb0f20c6581ffd77e65cad8b5fca4aed283ae06adf9ba14b7f60e03f",
+    "bytes": 673152154,
+    "method": "ffmpeg_diagnostic_fallback",
+    "duration_seconds": 1706.88,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "description": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 3019 kb/s, 30 fps, 30 tbr, 15360 tbn (default)"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "description": "Stream #0:1[0x2](hin): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)"
+      }
+    ],
+    "diagnostic": "[mov,mp4,m4a,3gp,3g2,mj2 @ 000001e108045680] Referenced QT chapter track not found\r\nInput #0, mov,mp4,m4a,3gp,3g2,mj2, from 'D:\\mycodelife\\workshop\\AI\\classicMusic\\resource\\American\\DVOŘÁK String Quartet No. 12 ＂American＂ ｜ Stradivari Quartet [2ZRe_ZavA1Q] (1920x1080).mp4':\r\n  Metadata:\r\n    major_brand     : isom\r\n    minor_version   : 512\r\n    compatible_brands: isomiso2avc1mp41\r\n    title           : DVOŘÁK String Quartet No. 12 \"American\" | Stradivari Quartet\r\n    artist          : Singapore Symphony\r\n    date            : 20260415\r\n    encoder         : Lavf63.17.100\r\n    comment         : https://www.youtube.com/watch?v=2ZRe_ZavA1Q\r\n    genre           : Music\r\n    description     : The bright, cheery nature of Dvořák’s 12th string quartet has gained it pole position among all of Dvořák’s chamber music, and indeed it is one of the most popular string quartets ever composed. Rooted firmly in pentatonic harmonies and influenced\r\n                    : \r\n                    : DVOŘÁK String Quartet in F major, Op. 96 “American Quartet”\r\n                    : I. Allegro ma non troppo 0:00\r\n                    : II. Lento 10:12\r\n                    : III. Molto vivace — Trio 18:19\r\n                    : IV. Finale. Vivace ma non troppo 22:52\r\n                    : \r\n                    : Stradivari Quartet, comprising:\r\n                    : Xiaoming Wang, violin\r\n                    : Maya Kadosh, violin\r\n                    : Lech Antonio Uszynski, viola\r\n                    : Maja Weber, cello\r\n                    : https://www.instagram.com/stradivariquartet/\r\n                    : https://www.instagram.com/xiaoming.wang_violin/\r\n                    : \r\n                    : Dvořák’s melodies here are of a generous nature, and, despite some scholars attempting to link his themes to African spirituals or Native folk music, the pentatonicism is not purely American: Dvořák’s Slavonic roots also had folk music that was pe\r\n                    : \r\n                    : Indeed, after the proto-jazz syncopations of the opening, the second theme is perhaps the most Czech moment in the whole piece, and it is often argued that Dvořák’s inspirations came not directly from America, but rather from the distance he was from \r\n                    : \r\n                    : Recorded live at the Victoria Concert Hall, Singapore, on 16 Apr 2022.\r\n                    : Cover: Grand View Trail, 1904 by Thomas Moran / Photo: Yong Junyi\r\n    synopsis        : The bright, cheery nature of Dvořák’s 12th string quartet has gained it pole position among all of Dvořák’s chamber music, and indeed it is one of the most popular string quartets ever composed. Rooted firmly in pentatonic harmonies and influenced\r\n                    : \r\n                    : DVOŘÁK String Quartet in F major, Op. 96 “American Quartet”\r\n                    : I. Allegro ma non troppo 0:00\r\n                    : II. Lento 10:12\r\n                    : III. Molto vivace — Trio 18:19\r\n                    : IV. Finale. Vivace ma non troppo 22:52\r\n                    : \r\n                    : Stradivari Quartet, comprising:\r\n                    : Xiaoming Wang, violin\r\n                    : Maya Kadosh, violin\r\n                    : Lech Antonio Uszynski, viola\r\n                    : Maja Weber, cello\r\n                    : https://www.instagram.com/stradivariquartet/\r\n                    : https://www.instagram.com/xiaoming.wang_violin/\r\n                    : \r\n                    : Dvořák’s melodies here are of a generous nature, and, despite some scholars attempting to link his themes to African spirituals or Native folk music, the pentatonicism is not purely American: Dvořák’s Slavonic roots also had folk music that was pe\r\n                    : \r\n                    : Indeed, after the proto-jazz syncopations of the opening, the second theme is perhaps the most Czech moment in the whole piece, and it is often argued that Dvořák’s inspirations came not directly from America, but rather from the distance he was from \r\n                    : \r\n                    : Recorded live at the Victoria Concert Hall, Singapore, on 16 Apr 2022.\r\n                    : Cover: Grand View Trail, 1904 by Thomas Moran / Photo: Yong Junyi\r\n  Duration: 00:28:26.88, start: 0.000000, bitrate: 3155 kb/s\r\n  Chapters:\r\n    Chapter #0:0: start 0.000000, end 612.000000\r\n      Metadata:\r\n        title           : I. Allegro ma non troppo\r\n    Chapter #0:1: start 612.000000, end 1099.000000\r\n      Metadata:\r\n        title           : II. Lento\r\n    Chapter #0:2: start 1099.000000, end 1372.000000\r\n      Metadata:\r\n        title           : III. Molto vivace — Trio\r\n    Chapter #0:3: start 1372.000000, end 1706.875646\r\n      Metadata:\r\n        title           : IV. Finale. Vivace ma non troppo\r\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 3019 kb/s, 30 fps, 30 tbr, 15360 tbn (default)\r\n      Metadata:\r\n        handler_name    : ISO Media file produced by Google Inc.\r\n        vendor_id       : [0][0][0][0]\r\n  Stream #0:1[0x2](hin): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)\r\n      Metadata:\r\n        handler_name    : ISO Media file produced by Google Inc.\r\n        vendor_id       : [0][0][0][0]\r\nAt least one output file must be specified\r\n",
+    "warning": "ffprobe 未安装；当前轨道信息来自 FFmpeg，精细的轨道时间轴待 ffprobe 复核。"
+  },
+  "caption_document": "works/dvorak-american/video-export/captions-editable.json",
+  "local_export_package": "output/video-export/dvorak-american-full-001",
+  "delivery_report": "reports/dvorak-american-sync-and-captions-20261028.md"
+}

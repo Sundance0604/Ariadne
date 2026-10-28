@@ -39,6 +39,19 @@ test('recomputing alignment updates time boundaries while preserving PDF coordin
   const regions=prepareScoreRegions(document,{time_map:alignment.time_map.map(p=>({...p,audio_seconds:p.audio_seconds+3}))});
   assert.equal(regions[0].audioStart,23);assert.deepEqual(regions[0].rect_pt,[100,50,100,300]);
 });
+test('clicking a repeated physical bar keeps the active occurrence',()=>{
+  const first={...document.score_regions[0],audioStart:20,audioEnd:30};
+  const repeat={...first,region_id:'second-visit',audioStart:100,audioEnd:110};
+  assert.equal(scoreRegionAtPoint([first,repeat],5,150/600,100/800,105).region_id,'second-visit');
+  assert.equal(scoreRegionAtPoint([first,repeat],5,150/600,100/800,25).region_id,'bar-a');
+});
+test('microsecond media seek rounding lands in the intended next bar',()=>{
+  const regions=[{audioStart:2,audioEnd:6.013333333333333,rect_pt:[0,0,100,100],region_id:'before'},
+    {audioStart:6.013333333333333,audioEnd:8,rect_pt:[0,0,100,100],region_id:'after'}];
+  assert.equal(scoreRegionAt(regions,6.013333).region_id,'after');
+  assert.equal(scoreRegionAt(regions,6.013).region_id,'before');
+  assert.equal(scoreRegionAt(regions,8),null);
+});
 test('finer candidates fall back to their system and manual timing takes priority',()=>{
   const doc={score_regions:[document.score_regions[1]],bar_regions:[{...document.score_regions[1],
     region_id:'child',parent_region_id:'bar-b',midi_start_seconds:12,midi_end_seconds:14,

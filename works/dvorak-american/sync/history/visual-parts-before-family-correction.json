@@ -1,0 +1,104 @@
+{
+  "parts": [
+    {
+      "id": "P1",
+      "label": "第一小提琴",
+      "family": "其他",
+      "role": "ensemble",
+      "color": "#FBBD42",
+      "flow_group": "P1"
+    },
+    {
+      "id": "P2",
+      "label": "第二小提琴",
+      "family": "其他",
+      "role": "ensemble",
+      "color": "#77CBB1",
+      "flow_group": "P2"
+    },
+    {
+      "id": "P3",
+      "label": "中提琴",
+      "family": "其他",
+      "role": "ensemble",
+      "color": "#F27943",
+      "flow_group": "P3"
+    },
+    {
+      "id": "P4",
+      "label": "大提琴",
+      "family": "其他",
+      "role": "ensemble",
+      "color": "#D2D867",
+      "flow_group": "P4"
+    }
+  ],
+  "harmony_groups": [
+    {
+      "id": "P1",
+      "label": "第一小提琴",
+      "color": "#FBBD42",
+      "part_ids": [
+        "P1"
+      ]
+    },
+    {
+      "id": "P2",
+      "label": "第二小提琴",
+      "color": "#77CBB1",
+      "part_ids": [
+        "P2"
+      ]
+    },
+    {
+      "id": "P3",
+      "label": "中提琴",
+      "color": "#F27943",
+      "part_ids": [
+        "P3"
+      ]
+    },
+    {
+      "id": "P4",
+      "label": "大提琴",
+      "color": "#D2D867",
+      "part_ids": [
+        "P4"
+      ]
+    }
+  ],
+  "flow_groups": [
+    {
+      "id": "P1",
+      "label": "第一小提琴",
+      "color": "#FBBD42",
+      "part_ids": [
+        "P1"
+      ]
+    },
+    {
+      "id": "P2",
+      "label": "第二小提琴",
+      "color": "#77CBB1",
+      "part_ids": [
+        "P2"
+      ]
+    },
+    {
+      "id": "P3",
+      "label": "中提琴",
+      "color": "#F27943",
+      "part_ids": [
+        "P3"
+      ]
+    },
+    {
+      "id": "P4",
+      "label": "大提琴",
+      "color": "#D2D867",
+      "part_ids": [
+        "P4"
+      ]
+    }
+  ]
+}

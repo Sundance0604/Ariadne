@@ -1,0 +1,56 @@
+{
+  "id": "dvorak-american",
+  "title": "德沃夏克 第十二弦乐四重奏 美国",
+  "stage": "full_score_editorial_analysis_draft",
+  "source_directory": "resource/American",
+  "movements": [
+    {
+      "movement": 1,
+      "first_sequence": 1,
+      "last_sequence": 178,
+      "count": 178,
+      "xml_layout_page_range": [
+        1,
+        11
+      ]
+    },
+    {
+      "movement": 2,
+      "first_sequence": 179,
+      "last_sequence": 275,
+      "count": 97,
+      "xml_layout_page_range": [
+        12,
+        17
+      ]
+    },
+    {
+      "movement": 3,
+      "first_sequence": 276,
+      "last_sequence": 471,
+      "count": 196,
+      "xml_layout_page_range": [
+        18,
+        23
+      ]
+    },
+    {
+      "movement": 4,
+      "first_sequence": 472,
+      "last_sequence": 853,
+      "count": 382,
+      "xml_layout_page_range": [
+        24,
+        34
+      ]
+    }
+  ],
+  "analysis_document": "works/dvorak-american/analysis/full-analysis.md",
+  "sources": "works/dvorak-american/analysis/sources.json",
+  "video_identity": "filename says Stradivari Quartet; exact date and personnel unverified",
+  "alignment": null,
+  "recording_projection": null,
+  "player_registration": false,
+  "human_signoff": null,
+  "expert_review": null
+}

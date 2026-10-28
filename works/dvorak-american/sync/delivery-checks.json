@@ -1,0 +1,28 @@
+{
+  "python_targeted_tests": 34,
+  "node_targeted_tests": 50,
+  "http_modules": 22,
+  "http_integration": "simulated DOM and media",
+  "real_browser": {
+    "video_decoded": true,
+    "first_and_second_movement_playback_advanced": true,
+    "first_repeat_return_checked": true,
+    "pause_600_cleared": true,
+    "cross_track_cleared": true
+  },
+  "export_checks": {
+    "subtitle_review_before_generation": true,
+    "fixed_score_viewport": true,
+    "original_js_modules_used": [
+      "playhead.mjs",
+      "score-follow.mjs",
+      "score-display.mjs"
+    ],
+    "interpretation_hides_score": true,
+    "no_unexpected_page_regression": true
+  },
+  "captions": 253,
+  "full_video_encoded": false,
+  "human_signoff": null,
+  "expert_signoff": null
+}

@@ -36,12 +36,15 @@ export function prepareScoreRegions(document,alignment,corrections=null,numbered
 
 export function scoreRegionAt(regions,time,stableOnly=false){
   if(!Number.isFinite(time)||!regions.length)return null;
+  // Media seeks round to microseconds; do not leave an exact bar jump in
+  // the preceding rectangle because its decoded clock is a fraction lower.
+  const locatedTime=time+1e-6;
   let low=0,high=regions.length;
-  while(low<high){const mid=(low+high)>>1;if(regions[mid].audioStart<=time)low=mid+1;else high=mid;}
+  while(low<high){const mid=(low+high)>>1;if(regions[mid].audioStart<=locatedTime)low=mid+1;else high=mid;}
   let selected=null;
   for(let i=low-1;i>=0;i--){
     const region=regions[i];
-    if(time>=region.audioEnd||(stableOnly&&!region.stable_candidate))continue;
+    if(locatedTime>=region.audioEnd||(stableOnly&&!region.stable_candidate))continue;
     if(!selected||region.manual_timing&&!selected.manual_timing
       ||Boolean(region.manual_timing)===Boolean(selected.manual_timing)
         &&region.rect_pt[2]*region.rect_pt[3]<selected.rect_pt[2]*selected.rect_pt[3])selected=region;
@@ -49,11 +52,17 @@ export function scoreRegionAt(regions,time,stableOnly=false){
   return selected;
 }
 
-export function scoreRegionAtPoint(regions,page,xFraction,yFraction){
+export function scoreRegionAtPoint(regions,page,xFraction,yFraction,preferredTime=null){
   return regions.filter(region=>{
     if(region.page_number!==page)return false;
     const [x,y,w,h]=region.rect_pt;
     return xFraction>=x/region.page_width_pt&&xFraction<=(x+w)/region.page_width_pt
       &&yFraction>=y/region.page_height_pt&&yFraction<=(y+h)/region.page_height_pt;
-  }).sort((a,b)=>a.rect_pt[2]*a.rect_pt[3]-b.rect_pt[2]*b.rect_pt[3])[0]||null;
+  }).sort((a,b)=>{
+    const area=a.rect_pt[2]*a.rect_pt[3]-b.rect_pt[2]*b.rect_pt[3];
+    if(Math.abs(area)>1e-6||!Number.isFinite(preferredTime))return area;
+    const distance=r=>preferredTime>=r.audioStart&&preferredTime<r.audioEnd?0:
+      Math.min(Math.abs(preferredTime-r.audioStart),Math.abs(preferredTime-r.audioEnd));
+    return distance(a)-distance(b);
+  })[0]||null;
 }

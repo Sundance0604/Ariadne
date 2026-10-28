@@ -84,7 +84,8 @@ class ProkofievSynchronization(unittest.TestCase):
 
     def test_prior_editions_and_local_only_video_are_preserved(self):
         history=read(DATA/'sync/history/library-before-sync.json');current=read(ROOT/'library.json')
-        current['tracks']=[t for t in current['tracks'] if t['id']!='prokofiev-piano-concerto-2']
+        previous_ids={t['id'] for t in history['tracks']}
+        current['tracks']=[t for t in current['tracks'] if t['id'] in previous_ids]
         self.assertEqual(history,current)
         for c in read(DATA/'sync/source-preservation.json')['checks']:
             if c['path']!='library.json':self.assertEqual(digest(ROOT/c['path']),c['sha256'])

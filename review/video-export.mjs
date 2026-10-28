@@ -14,6 +14,7 @@ export function outputSegments(config){
 // this function. Calling times in reverse order produces the same answer.
 export function createExportRenderer(input){
   const {project,config}=input,alignment=project.alignment;
+  const measuresById=new Map(alignment.measures.map(m=>[m.measure_id,m]));
   const mapping=new Map((project.symbolic_pdf_regions||project.mapping.measures).map(m=>[m.measure_id,m]));
   const regions=prepareScoreRegions(project.mapping,alignment,project.score_region_anchors,project.score_measures);
   const playback=buildPlaybackRegions(alignment.measures,mapping),segments=outputSegments(config);
@@ -21,8 +22,9 @@ export function createExportRenderer(input){
   const times=[...new Set([0,...alignment.measures.map(m=>m.start_seconds-.001),...regions.map(r=>r.audioStart)])].sort((a,b)=>a-b);
   const viewport=config.layout.score,zoom=config.score_zoom||1;
   function locate(time){
-    const m=alignment.measures[measureIndexAt(alignment.measures,time)];
-    const box=regions.length?scoreRegionAt(regions,time):mapping.get(m.measure_id);
+    const candidate=alignment.measures[measureIndexAt(alignment.measures,time)];
+    const box=regions.length?scoreRegionAt(regions,time):mapping.get(candidate.measure_id);
+    const m=measuresById.get(box?.measure_id)||candidate;
     return {box,region:regions.length?box:playback.get(m.measure_id),m};
   }
   function dimensions(box){

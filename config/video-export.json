@@ -35,6 +35,12 @@
       "title": "拉威尔左手钢协 · 95秒样片",
       "package": "output/video-export/ravel-demo",
       "document": "local/video-export/ravel-sample.json"
+    },
+    {
+      "id": "dvorak-american-full",
+      "title": "德沃夏克美国四重奏 · Stradivari Quartet",
+      "package": "output/video-export/dvorak-american-full-001",
+      "document": "works/dvorak-american/video-export/captions-editable.json"
     }
   ]
 }

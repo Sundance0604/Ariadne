@@ -1,0 +1,10 @@
+{
+  "old_snapshot": "works/dvorak-american/playback/stradivari-20261028-v1",
+  "new_snapshot": "works/dvorak-american/playback/stradivari-20261028-v2",
+  "changes": [
+    "explicit four string families",
+    "repeat occurrence label"
+  ],
+  "time_maps_geometry_and_captions_changed": false,
+  "human_signoff": null
+}

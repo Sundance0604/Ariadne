@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "work_id": "dvorak-american",
+  "inputs": [
+    {
+      "path": "resource/American/string-quartet-no12-op96-american-antonin-dvorak.mxl",
+      "sha256": "bcb01cfd6652b955d5042bf0769fcd2688cad39ce26d8664dca15b6af9c55e2d",
+      "bytes": 246512
+    },
+    {
+      "path": "resource/American/string-quartet-no12-op96-american-antonin-dvorak.pdf",
+      "sha256": "65794ba36c6c4af4f380bfa7f5f9bab94aa41334f9ba917d2c7ea30c946f6714",
+      "bytes": 978238
+    },
+    {
+      "path": "resource/American/DVOŘÁK String Quartet No. 12 ＂American＂ ｜ Stradivari Quartet [2ZRe_ZavA1Q] (1920x1080).mp4",
+      "sha256": "eb4c9576eb0f20c6581ffd77e65cad8b5fca4aed283ae06adf9ba14b7f60e03f",
+      "bytes": 673152154
+    },
+    {
+      "path": "works/dvorak-american/alignment.json",
+      "sha256": "bc2e13cdf01322987ac34526c669b35aef4495cb05e277c0ff0ed42ef187489b",
+      "bytes": 3546479
+    },
+    {
+      "path": "works/dvorak-american/measure-map.json",
+      "sha256": "0c1b56d4894db55e811e31ec08b4b8572fd5694ba726deeb72e6c7cd8e34011b",
+      "bytes": 1712607
+    },
+    {
+      "path": "works/dvorak-american/media-sync.json",
+      "sha256": "20d9bd7aca52a70d25d19a99e962913ef7775105dbf115db0e15d3b5076e1ec9",
+      "bytes": 7187
+    },
+    {
+      "path": "works/dvorak-american/sync/reference/written.json",
+      "sha256": "9ab058f780c6c4ad3f4243ca34562e0cc4cb4bd31a96bf1dd7c8f573499974d5",
+      "bytes": 24796685
+    },
+    {
+      "path": "works/dvorak-american/analysis/full-analysis.md",
+      "sha256": "1e5be113c519c7da50230e08e6379a9a942fb0525c006aa5bf23d3209b533782",
+      "bytes": 59357
+    },
+    {
+      "path": "works/dvorak-american/analysis/sections.json",
+      "sha256": "308c91129d979531dab295b55427b567903c54712de9b7c2d3117d8541afec50",
+      "bytes": 92101
+    },
+    {
+      "path": "works/dvorak-american/analysis/sources.json",
+      "sha256": "894e79b1f515fb5706a83c8197fac196587015e7f0fae2f0de06effd9ec1a737",
+      "bytes": 6724
+    }
+  ],
+  "files": {
+    "activity.json": {
+      "sha256": "eada2ad337fda8014c705ef725e9bb67d48b176f1175c34ee9eb86c19bac59e6",
+      "bytes": 4799444
+    },
+    "analysis.json": {
+      "sha256": "a25336c09daf2005bc871a3b88e7e3c80c0c1c16da27593b5175c50950b9a6d8",
+      "bytes": 214315
+    },
+    "evidence.json": {
+      "sha256": "a2fc78dda8cd0fc8fdc655500801b97a6668bfa49a51d768a81158214caf6ab6",
+      "bytes": 24688046
+    },
+    "flow.json": {
+      "sha256": "d5c09e5533874f90fa8aa15d95f4362566c990cce77c7b0db5d580bc5ce328e6",
+      "bytes": 4595414
+    },
+    "live.json": {
+      "sha256": "4622f907ece9e540763946f9d8f44694e4907853861e425063fb3204ffff2eb3",
+      "bytes": 9855166
+    },
+    "research.json": {
+      "sha256": "f98af640018761dac22c2831dfe11401b2f2fbdd0c15ae287e8475c43bbee6fc",
+      "bytes": 830921
+    },
+    "visual-panels.json": {
+      "sha256": "28d45132b3df654a203dff0a4b264d4cea75ecd1b11e691cc631d526689a87a1",
+      "bytes": 9395194
+    }
+  },
+  "human_signoff": null,
+  "expert_review": null
+}

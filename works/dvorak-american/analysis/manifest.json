@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-28",
+  "status": "agent_full_score_analysis_draft",
+  "sections": 41,
+  "sections_by_movement": {
+    "1": 12,
+    "2": 9,
+    "3": 8,
+    "4": 12
+  },
+  "characters": 22215,
+  "xml_measures": 853,
+  "local_studies": 218,
+  "exact_two_bar_material_checks": 3,
+  "verification": {
+    "ordered_exactly_once_editorial_coverage": true,
+    "five_fields_per_section": true,
+    "all_window_note_ids_resolve": true,
+    "half_open_local_windows_checked": true,
+    "part_label_sequences_equal": true,
+    "meter_extent_diagnostics": []
+  },
+  "recording_listening": "not_performed",
+  "browser_playback": "not_performed",
+  "player_activation": false,
+  "recording_projection": null,
+  "human_signoff": null,
+  "expert_review": null,
+  "code": [
+    {
+      "path": "scripts/package_dvorak_american_analysis.py",
+      "sha256": "272d4772bd7bff6ac046fc52f65667a73a6e063b564cdb3d774bcc0156cea82c",
+      "bytes": 16503
+    },
+    {
+      "path": "scripts/build_dvorak_american_research.py",
+      "sha256": "91679b62fbe9a555ed68f4ea8b3180eaa6251b348efdf4ad5383ce6b6dadb12e",
+      "bytes": 12787
+    }
+  ],
+  "files": [
+    {
+      "path": "works/dvorak-american/analysis/full-analysis.md",
+      "sha256": "1e5be113c519c7da50230e08e6379a9a942fb0525c006aa5bf23d3209b533782",
+      "bytes": 59357
+    },
+    {
+      "path": "works/dvorak-american/analysis/material-relations.json",
+      "sha256": "4d8e5cf02baf747ebb73af38f033328cbad87ab0848a88c2f1fd989eec7225e1",
+      "bytes": 4423
+    },
+    {
+      "path": "works/dvorak-american/analysis/measure-index.json",
+      "sha256": "29be40c83cbc977541c5c95d3508758eb71c1ee1991abc896fb32689a56bba86",
+      "bytes": 1925415
+    },
+    {
+      "path": "works/dvorak-american/analysis/musicxml/events.json",
+      "sha256": "98153d3ca159d54a2e24233b385e110931760d7786371440fc06465e5b25f098",
+      "bytes": 10714829
+    },
+    {
+      "path": "works/dvorak-american/analysis/pdf-inventory.json",
+      "sha256": "e29bee67c58c882b56b732e4cbbbc7971614bbf3d34421c5254292df89c4f3e7",
+      "bytes": 154050
+    },
+    {
+      "path": "works/dvorak-american/analysis/research-sources.md",
+      "sha256": "b4398ff5b378393f0c39227e975184370c747d06b468f2411484251eadad6707",
+      "bytes": 11382
+    },
+    {
+      "path": "works/dvorak-american/analysis/score-review.json",
+      "sha256": "4967f2e858ecec580578f4bf6fbafb460709dc85b511ca05b6ada4bcb7d26777",
+      "bytes": 1249
+    },
+    {
+      "path": "works/dvorak-american/analysis/score-studies.json",
+      "sha256": "3d78cd1edd594aa73c31550f6ee19154c3179420ee1619e1d0d464d0bb47edfb",
+      "bytes": 1017778
+    },
+    {
+      "path": "works/dvorak-american/analysis/sections.json",
+      "sha256": "308c91129d979531dab295b55427b567903c54712de9b7c2d3117d8541afec50",
+      "bytes": 92101
+    },
+    {
+      "path": "works/dvorak-american/analysis/sources.json",
+      "sha256": "894e79b1f515fb5706a83c8197fac196587015e7f0fae2f0de06effd9ec1a737",
+      "bytes": 6724
+    },
+    {
+      "path": "works/dvorak-american/analysis/symbolic-source-summary.json",
+      "sha256": "243d48f99efa7dda446a7256771ec31d78d1bf71b320d28eaf08601c2566703e",
+      "bytes": 2113
+    }
+  ]
+}

@@ -101,7 +101,7 @@ class Handler(BaseHTTPRequestHandler):
         if route=='/score-display.mjs': return self.send_file(ROOT/'review/score-display.mjs','text/javascript; charset=utf-8')
         if route=='/movements.mjs': return self.send_file(ROOT/'review/movements.mjs','text/javascript; charset=utf-8')
         if route=='/measure-numbers.mjs': return self.send_file(ROOT/'review/measure-numbers.mjs','text/javascript; charset=utf-8')
-        if route in {'/research.mjs','/research-model.mjs','/research-ui.mjs','/structural-hud.mjs','/hermeneutics.mjs','/engine-evidence.mjs','/musicxml-evidence.mjs','/musicxml-live.mjs','/score-analysis-model.mjs','/hud-text.mjs'}:
+        if route in {'/research.mjs','/research-model.mjs','/research-ui.mjs','/structural-hud.mjs','/hermeneutics.mjs','/engine-evidence.mjs','/musicxml-evidence.mjs','/musicxml-live.mjs','/score-analysis-model.mjs','/hud-text.mjs','/live-panels.mjs','/harmonic-flow.mjs','/orchestration-activity.mjs','/interval-index.mjs'}:
             return self.send_file(ROOT/'review'/route[1:],'text/javascript; charset=utf-8')
         if route=='/api/library':
             catalog=library(ROOT)
@@ -118,6 +118,12 @@ class Handler(BaseHTTPRequestHandler):
             return self.send_json({'error':str(error)},404)
         except (OSError,KeyError,TypeError) as error:
             return self.send_json({'error':str(error)},422)
+        if track.get('analysis_adapter')=='score-snapshot-v1' and route in {'/api/analysis','/api/research','/api/musicxml','/api/musicxml-evidence','/api/musicxml-artifact','/api/musicxml-live','/api/visual-panels'}:
+            try:
+                from backend.score_snapshot import endpoint
+                return self.send_json(endpoint(ROOT,directory,route,query))
+            except (OSError,ValueError,KeyError,TypeError) as error:
+                return self.send_json({'error':str(error)},422)
         if track.get('analysis_adapter')=='prokofiev2-score-review-v1' and route in {'/api/analysis','/api/research','/api/musicxml','/api/musicxml-evidence','/api/musicxml-artifact','/api/musicxml-live'}:
             try:
                 from backend.prokofiev2 import endpoint
@@ -228,7 +234,7 @@ class Handler(BaseHTTPRequestHandler):
                                 'measure_id':reference['measure_id'],'resolution':'bar' if region['precision']=='measure_region_not_notehead' else 'shared_xml_system',
                                 'coordinate_origin':'top_left','review_status':'agent_layout_checked_human_pending'})
                 except (OSError,ValueError,KeyError,TypeError) as error:xml_navigation_error=str(error)
-                return self.send_json({'track':{'id':track['id'],'title':track['title']},
+                return self.send_json({'track':{'id':track['id'],'title':track['title'],'visual_panels':bool(track.get('visual_panels'))},
                     'page_count':page_count(mapping),'alignment':alignment,'mapping':mapping,'anchors':saved,'media':media,
                     'score_region_anchors':score_anchors,'score_measures':load_score_measures(directory,mapping),
                     'symbolic_pdf_regions':xml_regions,'xml_navigation_error':xml_navigation_error})

@@ -13,7 +13,7 @@ export function createResearchPanel({onNavigate,onSelectTab,getRegions}){
   }});
   const hud=createStructuralHUD({onEssay:id=>{essays.show(id);onSelectTab('research');},onOpen:()=>onSelectTab('evidence'),
     onMeasure:(id,selection)=>xmlReader.showMeasure(id,selection),
-    onNote:(id,measureId)=>xmlReader.showMeasure(id.match(/xml-m\d+/)?.[0]||measureId,{noteId:id}),
+    onNote:(id,measureId)=>xmlReader.showMeasure(measureId||id.match(/xml-m\d+/)?.[0],{noteId:id}),
     onEvidence:async id=>{
     const expected=version,track=activeTrack;
     const response=await fetch(`/api/structure-evidence?track=${encodeURIComponent(track)}&event_id=${encodeURIComponent(id)}`,{cache:'no-store'});

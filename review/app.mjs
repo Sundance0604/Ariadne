@@ -6,9 +6,11 @@ import {highlightPercent,revealRegionScroll,measureIndexAt} from '/score-display
 import {movementChapters,chapterAtTime} from '/movements.mjs';
 import {createMeasureNumberPanel,measureNumberLabel} from '/measure-numbers.mjs';
 import {createResearchPanel} from '/research.mjs';
+import {createLivePanels} from '/live-panels.mjs';
 
 const $=id=>document.getElementById(id);
 const audio=new PlaybackController($('audio'),$('video'),message=>$('media-state').textContent=message);
+const livePanels=createLivePanels();
 let project=null,mapping=new Map(),playbackRegions=new Map(),current=0,page=1,pageCount=0;
 let draft=[],undoStack=[],activeButton=null,animationFrame=null,track=null,loadVersion=0;
 let scoreRegions=[],activeScoreRegion=null,lastFollowedRegion=null;
@@ -79,6 +81,7 @@ function locateNumberedMeasure(measure){
 }
 function scoreLocation(region){
   if(Number.isFinite(region.score_measure_number))return `PDF 第 ${region.page_number} 页 · 小节 ${measureNumberLabel(region)}`;
+  if(region.source_local_number&&region.visit)return `PDF 第 ${region.page_number} 页 · XML小节 ${region.source_local_number} · 第${region.visit}次经过`;
   return `PDF 第 ${region.page_number} 页 · ${region.printed_measure_number!=null?'原谱小节 '+region.printed_measure_number:'系统／乐句区域'}`;
 }
 function highlight(){
@@ -154,6 +157,7 @@ function choose(index,seek=false){
 }
 function updatePlayhead(){
   if(!project)return;
+  livePanels.update(audio.currentTime);
   const m=project.measures[current],box=scoreRegions.length?activeScoreRegion:mapping.get(m.measure_id),
     region=scoreRegions.length?activeScoreRegion:playbackRegions.get(m.measure_id);
   const covered=scoreTimeCovered(project.score_time_coverage,audio.currentTime);
@@ -213,7 +217,7 @@ async function loadTrack(id){
   scoreMapDocument=null;scoreCorrections=null;$('score-region-review').hidden=true;
   scoreMeasures=null;measureNumberPanel.load(null,track);
   if($('stable-regions-label'))$('stable-regions-label').hidden=true;
-  audio.reset();controls(false);analysisPanel.reset(null);researchPanel.reset();$('play').disabled=true;
+  audio.reset();controls(false);analysisPanel.reset(null);researchPanel.reset();livePanels.reset();$('play').disabled=true;
   chapters=[];chapterButtons=[];$('movement-chapters').replaceChildren();$('movement-chapters').hidden=true;
   $('video-panel').hidden=true;$('media-state').textContent='';$('loop').checked=false;
   loopStart=0;loopEnd=0;$('loop-label').textContent='';updateTransport();
@@ -259,6 +263,7 @@ async function loadTrack(id){
     else if(!data.mapping.measures.length){$('notice').textContent='扫描谱小节坐标尚未核验，请手动翻页。';$('media-state').textContent='小节时间为自动候选；扫描谱尚无小节坐标，请手动翻页。';}
     document.body.classList.toggle('has-video',Boolean(data.media?.video));
     analysisPanel.load(track);researchPanel.load(track,data.mapping.pdf_sha256);
+    if(data.track.visual_panels)livePanels.load(track);
     showPage(data.mapping.first_score_page||1);choose(0);controls(true);
     $('toast').textContent=retained?`已恢复本页暂存的 ${draft.length} 个锚点`:`已载入 ${draft.length} 个人工锚点`;
     const url=new URL(location.href);url.searchParams.set('track',track);history.replaceState(null,'',url);
@@ -298,7 +303,7 @@ $('fullscreen').onclick=async()=>{try{if(document.fullscreenElement)await docume
 $('pip').onclick=async()=>{try{if(document.pictureInPictureElement)await document.exitPictureInPicture();else await $('video').requestPictureInPicture();}catch{$('media-state').textContent='当前浏览器不支持视频浮窗，或视频尚未就绪';}};
 $('sheet').onclick=event=>{
   if(!project)return;const bounds=$('sheet').getBoundingClientRect(),x=(event.clientX-bounds.left)/bounds.width,y=(event.clientY-bounds.top)/bounds.height;
-  if(scoreRegions.length){const region=scoreRegionAtPoint(scoreRegions,page,x,y);if(region){analysisPanel.follow();audio.currentTime=region.audioStart;syncPlaybackPosition();updateTransport();}return;}
+  if(scoreRegions.length){const region=scoreRegionAtPoint(scoreRegions,page,x,y,audio.currentTime);if(region){analysisPanel.follow();audio.currentTime=region.audioStart;syncPlaybackPosition();updateTransport();}return;}
   const candidates=[...mapping.values()].filter(box=>{const [l,t,w,h]=box.rect_pt;return box.page_number===page&&x>=l/box.page_width_pt&&x<=(l+w)/box.page_width_pt&&y>=t/box.page_height_pt&&y<=(t+h)/box.page_height_pt;});
   const index=project.measures.findIndex(m=>m.measure_id===candidates[0]?.measure_id);if(index>=0)choose(index,true);
 };

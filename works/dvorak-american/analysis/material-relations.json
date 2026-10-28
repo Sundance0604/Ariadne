@@ -1,0 +1,150 @@
+{
+  "relations": [
+    {
+      "id": "I-viola-to-violin",
+      "description": "第一乐章3–4小节中提琴向7–8小节第一小提琴提高两个八度交接。",
+      "source_event_ids": [
+        "P3-xml-m0003-n0001",
+        "P3-xml-m0003-n0002",
+        "P3-xml-m0003-n0003",
+        "P3-xml-m0003-n0004",
+        "P3-xml-m0003-n0005",
+        "P3-xml-m0003-n0006",
+        "P3-xml-m0004-n0001",
+        "P3-xml-m0004-n0002",
+        "P3-xml-m0004-n0003",
+        "P3-xml-m0004-n0004",
+        "P3-xml-m0004-n0005",
+        "P3-xml-m0004-n0006"
+      ],
+      "target_event_ids": [
+        "P1-xml-m0007-n0001",
+        "P1-xml-m0007-n0002",
+        "P1-xml-m0007-n0003",
+        "P1-xml-m0007-n0004",
+        "P1-xml-m0007-n0005",
+        "P1-xml-m0007-n0006",
+        "P1-xml-m0008-n0001",
+        "P1-xml-m0008-n0002",
+        "P1-xml-m0008-n0003",
+        "P1-xml-m0008-n0004",
+        "P1-xml-m0008-n0005",
+        "P1-xml-m0008-n0006"
+      ],
+      "source_sequences": [
+        3,
+        4
+      ],
+      "target_sequences": [
+        7,
+        8
+      ],
+      "source_part": "P3",
+      "target_part": "P1",
+      "semitone_shift": 24,
+      "exact_local_rhythm_and_shifted_pitch_match": true,
+      "matched_encoded_events_per_side": 12,
+      "scope": "specified_two_measure_melody_only_not_full_texture_identity",
+      "human_signoff": null,
+      "expert_review": null
+    },
+    {
+      "id": "II-violin-to-cello",
+      "description": "第二乐章3–4小节第一小提琴向11–12小节大提琴低八度交接。",
+      "source_event_ids": [
+        "P1-xml-m0181-n0002",
+        "P1-xml-m0181-n0003",
+        "P1-xml-m0181-n0004",
+        "P1-xml-m0181-n0005",
+        "P1-xml-m0181-n0006",
+        "P1-xml-m0182-n0001",
+        "P1-xml-m0182-n0002",
+        "P1-xml-m0182-n0003",
+        "P1-xml-m0182-n0004",
+        "P1-xml-m0182-n0005",
+        "P1-xml-m0182-n0006",
+        "P1-xml-m0182-n0007"
+      ],
+      "target_event_ids": [
+        "P4-xml-m0189-n0001",
+        "P4-xml-m0189-n0002",
+        "P4-xml-m0189-n0003",
+        "P4-xml-m0189-n0004",
+        "P4-xml-m0189-n0005",
+        "P4-xml-m0190-n0001",
+        "P4-xml-m0190-n0002",
+        "P4-xml-m0190-n0003",
+        "P4-xml-m0190-n0004",
+        "P4-xml-m0190-n0005",
+        "P4-xml-m0190-n0006",
+        "P4-xml-m0190-n0007"
+      ],
+      "source_sequences": [
+        181,
+        182
+      ],
+      "target_sequences": [
+        189,
+        190
+      ],
+      "source_part": "P1",
+      "target_part": "P4",
+      "semitone_shift": -12,
+      "exact_local_rhythm_and_shifted_pitch_match": true,
+      "matched_encoded_events_per_side": 12,
+      "scope": "specified_two_measure_melody_only_not_full_texture_identity",
+      "human_signoff": null,
+      "expert_review": null
+    },
+    {
+      "id": "I-viola-return",
+      "description": "第一乐章112–113小节中提琴重现3–4小节旋律；不认定伴奏逐音相同。",
+      "source_event_ids": [
+        "P3-xml-m0003-n0001",
+        "P3-xml-m0003-n0002",
+        "P3-xml-m0003-n0003",
+        "P3-xml-m0003-n0004",
+        "P3-xml-m0003-n0005",
+        "P3-xml-m0003-n0006",
+        "P3-xml-m0004-n0001",
+        "P3-xml-m0004-n0002",
+        "P3-xml-m0004-n0003",
+        "P3-xml-m0004-n0004",
+        "P3-xml-m0004-n0005",
+        "P3-xml-m0004-n0006"
+      ],
+      "target_event_ids": [
+        "P3-xml-m0112-n0001",
+        "P3-xml-m0112-n0002",
+        "P3-xml-m0112-n0003",
+        "P3-xml-m0112-n0004",
+        "P3-xml-m0112-n0005",
+        "P3-xml-m0112-n0006",
+        "P3-xml-m0113-n0001",
+        "P3-xml-m0113-n0002",
+        "P3-xml-m0113-n0003",
+        "P3-xml-m0113-n0004",
+        "P3-xml-m0113-n0005",
+        "P3-xml-m0113-n0006"
+      ],
+      "source_sequences": [
+        3,
+        4
+      ],
+      "target_sequences": [
+        112,
+        113
+      ],
+      "source_part": "P3",
+      "target_part": "P3",
+      "semitone_shift": 0,
+      "exact_local_rhythm_and_shifted_pitch_match": true,
+      "matched_encoded_events_per_side": 12,
+      "scope": "specified_two_measure_melody_only_not_full_texture_identity",
+      "human_signoff": null,
+      "expert_review": null
+    }
+  ],
+  "cross_movement_literal_identity": "not_established",
+  "human_signoff": null
+}

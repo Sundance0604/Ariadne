@@ -1,0 +1,208 @@
+{
+  "format_version": "1.0",
+  "title": "德沃夏克 · 美国弦乐四重奏｜Stradivari Quartet",
+  "width": 1920,
+  "height": 1080,
+  "music_start_video": 1.3,
+  "intro_clear_video": 0,
+  "music_start_confirmation": {
+    "status": "agent_checked",
+    "reviewer": "Codex",
+    "basis": "Source-bound feature DTW plus recorded spectral boundary review; human listening remains separate",
+    "human_signature": null
+  },
+  "segments": [
+    {
+      "video_start": 0,
+      "video_end": 1692.5
+    }
+  ],
+  "chapters": [
+    {
+      "start": 1.3,
+      "title": "第一乐章 · Allegro ma non troppo"
+    },
+    {
+      "start": 614.5,
+      "title": "第二乐章 · Lento"
+    },
+    {
+      "start": 1102.4,
+      "title": "第三乐章 · Molto vivace"
+    },
+    {
+      "start": 1374.6,
+      "title": "第四乐章 · Finale"
+    }
+  ],
+  "font": "KaiTi",
+  "font_size": 32,
+  "yellow": "#FFDF42",
+  "spacing": 0,
+  "bold": true,
+  "web_video_layout": true,
+  "minimum_caption_seconds": 3,
+  "characters_per_second": 7,
+  "scroll_speed": 1.5,
+  "score_zoom": 1,
+  "score_dpi": 144,
+  "crf": 20,
+  "preset": "veryfast",
+  "slot_labels": {
+    "harmony": "和声分析",
+    "orchestration": "配器与织体",
+    "counterpoint": "声部关系与复调",
+    "form": "曲式与主题发展"
+  },
+  "visualization": {
+    "registry": "visuals/registry.json",
+    "flow": "visuals/flow.json",
+    "activity": "visuals/activity.json",
+    "renderer": "visuals/renderer/stream.mjs",
+    "coverage": "four source-audio DTWs; explicit repeat and Da Capo visits"
+  },
+  "presentation_rules": {
+    "分析": {
+      "读完自动隐去": true,
+      "每秒阅读字数": 5,
+      "最短显示秒": 10,
+      "读后停留秒": 3,
+      "滚动像素每秒": 26,
+      "淡入毫秒": 450,
+      "淡出毫秒": 1600
+    },
+    "诠释": {
+      "模式": "宽幅缓升",
+      "上移像素": 75,
+      "淡入毫秒": 1400,
+      "淡出毫秒": 4000
+    },
+    "诠释时隐藏栏目": [
+      "和弦",
+      "配器",
+      "声部关系与复调",
+      "曲式与主题发展",
+      "导聆"
+    ],
+    "诠释时隐藏乐谱": true
+  },
+  "interpretation_suppresses_slots": [
+    "harmony",
+    "orchestration",
+    "counterpoint",
+    "form",
+    "guide"
+  ],
+  "interpretation_hides_score": true,
+  "balanced_caption_wrap": true,
+  "caption_presentation": {
+    "analysis": {
+      "enabled": true,
+      "characters_per_second": 5,
+      "minimum_seconds": 10,
+      "hold_seconds": 3,
+      "scroll_pixels_per_second": 26,
+      "fade_in_ms": 450,
+      "fade_out_ms": 1600
+    },
+    "interpretation": {
+      "mode": "cinematic",
+      "travel_px": 75,
+      "fade_in_ms": 1400,
+      "fade_out_ms": 4000
+    }
+  },
+  "layout": {
+    "harmony": {
+      "x": 40,
+      "y": 280,
+      "w": 600,
+      "h": 168,
+      "font_size": 32
+    },
+    "orchestration": {
+      "x": 664,
+      "y": 280,
+      "w": 600,
+      "h": 168,
+      "font_size": 32
+    },
+    "counterpoint": {
+      "x": 40,
+      "y": 456,
+      "w": 600,
+      "h": 168,
+      "font_size": 32
+    },
+    "form": {
+      "x": 664,
+      "y": 456,
+      "w": 600,
+      "h": 168,
+      "font_size": 32
+    },
+    "guide": {
+      "x": 40,
+      "y": 632,
+      "w": 1224,
+      "h": 168,
+      "font_size": 30
+    },
+    "interpretation": {
+      "x": 220,
+      "y": 296,
+      "w": 1480,
+      "h": 760,
+      "font_size": 44
+    },
+    "score": {
+      "x": 1320,
+      "y": 280,
+      "w": 600,
+      "h": 776,
+      "align": "right"
+    },
+    "intro": {
+      "x": 220,
+      "y": 190,
+      "w": 1480,
+      "h": 700,
+      "font_size": 58,
+      "align": "center"
+    }
+  },
+  "visual_layout": {
+    "panels": {
+      "flow": {
+        "x": 24,
+        "y": 24,
+        "width": 400,
+        "height": 240
+      },
+      "orchestration": {
+        "x": 1376,
+        "y": 24,
+        "width": 520,
+        "height": 108
+      }
+    },
+    "overlay_x": 24,
+    "overlay_y": 24,
+    "width": 1872,
+    "height": 240
+  },
+  "visual_settings": {
+    "flow": {
+      "enabled": true,
+      "scale": 1.0
+    },
+    "orchestration": {
+      "enabled": true,
+      "scale": 1.0
+    },
+    "color_mode": "part",
+    "part_colors": {},
+    "group_colors": {},
+    "sample_start": 615.0
+  }
+}

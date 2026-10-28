@@ -73,9 +73,12 @@ export function createAnalysisPanel(onSeek){
     panel.append(el('h3',`${data.work.composer.name} · ${data.work.title}`),el('p',data.work.original_title,'original-title'));
     const facts=el('dl');fact(facts,'作曲家',`${data.work.composer.name} / ${data.work.composer.original_name}`);
     fact(facts,'演奏编制',data.work.instrumentation);
-    for(const soloist of data.recording.soloists)fact(facts,soloist.role,`${soloist.name}\n${soloist.original_name}`);
-    fact(facts,'指挥',`${data.recording.conductor.name}\n${data.recording.conductor.original_name}`);
-    fact(facts,'乐团',`${data.recording.ensemble.name}（${data.recording.ensemble.abbreviation}）\n${data.recording.ensemble.original_name}`);
+    for(const soloist of data.recording.soloists||[])fact(facts,soloist.role,`${soloist.name}\n${soloist.original_name}`);
+    if(data.recording.conductor)fact(facts,'指挥',`${data.recording.conductor.name}\n${data.recording.conductor.original_name}`);
+    if(data.recording.ensemble){
+      const ensemble=data.recording.ensemble;
+      fact(facts,'乐团',`${ensemble.name}${ensemble.abbreviation?`（${ensemble.abbreviation}）`:''}\n${ensemble.original_name||''}`);
+    }
     const seconds=data.recording.duration_seconds;fact(facts,'录音时长',`${Math.floor(seconds/60)} 分 ${Math.round(seconds%60)} 秒`);
     if(data.recording.album)fact(facts,'专辑',data.recording.album);
     panel.append(facts,el('p',data.recording.artist_information_note||'演奏阵容由你确认，专辑信息来自当前 MP3 标签。','analysis-note'));

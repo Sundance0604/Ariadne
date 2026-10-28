@@ -76,7 +76,7 @@ def export_visual_revision(package,folder,config,emit):
     if not font.exists():raise ValueError('缺少面板中文字体 Microsoft YaHei')
     renderer=package/spec['renderer'];flow=package/spec['flow']
     hidden=getattr(subprocess,'CREATE_NO_WINDOW',0)
-    emit(0,'正在合成谱面、字幕、和声五类与逐件配器……')
+    emit(0,'正在合成谱面、字幕、和声与逐件配器……')
     with (folder/'export.log').open('wb') as err,(folder/'visual-render.log').open('wb') as node_err:
         node=subprocess.Popen(['node',str(renderer),str(flow),str(folder/'visual-activity.json'),str(folder/'visual-config.json')],
             stdout=subprocess.PIPE,stderr=node_err,text=True,encoding='utf8',creationflags=hidden)

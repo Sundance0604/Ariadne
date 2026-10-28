@@ -21,8 +21,9 @@ def validate_config(config):
     if confirmation.get('status') not in {'user_confirmed','agent_checked'}:raise ValueError('Confirm music entry before release export')
     if confirmation.get('status')=='agent_checked' and (not confirmation.get('reviewer') or not confirmation.get('basis') or confirmation.get('human_signature') is not None):
         raise ValueError('Agent music-entry review requires its evidence and cannot imply a human signature')
-    if not math.isfinite(config['music_start_video']) or config['music_start_video']<3:raise ValueError('Invalid music entry')
-    if config.get('intro_clear_video',config['music_start_video']-3)>config['music_start_video']-3:raise ValueError('Intro clear frame is after the three-second deadline')
+    if not math.isfinite(config['music_start_video']) or config['music_start_video']<0:raise ValueError('Invalid music entry')
+    deadline=max(0,config['music_start_video']-3)
+    if not 0<=config.get('intro_clear_video',deadline)<=deadline:raise ValueError('Intro clear frame is after the three-second deadline')
     if not config['segments']:raise ValueError('No export segments')
     if len(config['segments'])!=1:raise ValueError('This release exports one continuous source interval; montage cuts need separate audio editing')
     if config.get('characters_per_second',7)<=0 or config.get('minimum_caption_seconds',3)<=0 or config['font_size']<=0:raise ValueError('Invalid caption reading/font settings')
@@ -212,6 +213,19 @@ def import_ass_text(package,source,reviewer,scope):
     return list(changed)
 
 
+def expected_repeat_return(project,previous_id,current_id,previous_page,current_page):
+    """A backward page needs explicit source-bar/visit evidence on the route."""
+    route=project.get('alignment',{}).get('measures',[])
+    indices={m['measure_id']:i for i,m in enumerate(route)}
+    a,b=indices.get(previous_id),indices.get(current_id)
+    if a is None or b is None or a>=b:return False
+    rows=route[a:b+1]
+    if rows[0].get('pdf_page')!=previous_page or rows[-1].get('pdf_page')!=current_page:return False
+    if len({m.get('movement') for m in rows})!=1:return False
+    return any(isinstance(x.get('source_sequence'),int) and isinstance(y.get('source_sequence'),int)
+        and y['source_sequence']<x['source_sequence'] and y.get('visit',1)>1 for x,y in zip(rows,rows[1:]))
+
+
 def prepare_score(root,package):
     from PIL import Image
     package=Path(package).resolve();config=read(package/'export-config.json');project=read(package/'project.json')
@@ -229,15 +243,17 @@ def prepare_score(root,package):
     plan=read(package/'score/plan.json');v=config['layout']['score'];size=(v['w'],v['h'])
     blank=Image.new('RGBA',size,(0,0,0,0));blank.save(package/'score/blank.png')
     from scripts.pdf_render import render_page
-    pages={};page_events=[];issues=[];previous_page=None
+    pages={};page_events=[];issues=[];previous_page=None;previous_measure=None
     for event in plan['events']:
         if event.get('issue'):issues.append({'time':event['videoTime'],'measure_id':event['measureId'],'reason':event['issue'],'action':'highlight_and_line_hidden'})
         key='blank';geometry=event.get('pageGeometry')
         if event['visible'] and geometry:
             page=event['page'];key=json.dumps([page,geometry],sort_keys=True)
             if previous_page is not None and page<previous_page:
-                issues.append({'time':event['videoTime'],'reason':'page_regression','from':previous_page,'to':page})
-            previous_page=page
+                expected=expected_repeat_return(project,previous_measure,event['measureId'],previous_page,page)
+                issues.append({'time':event['videoTime'],'reason':'expected_repeat_return' if expected else 'page_regression',
+                    'from':previous_page,'to':page,'from_measure':previous_measure,'to_measure':event['measureId']})
+            previous_page=page;previous_measure=event['measureId']
             if key not in pages:
                 raster=package/f'score/page-{page:03}.png'
                 if not raster.exists():render_page(package/'score/source.pdf',page,raster,dpi=config.get('score_dpi',144))
