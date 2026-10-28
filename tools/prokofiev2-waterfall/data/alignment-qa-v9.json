@@ -1,0 +1,19 @@
+{
+  "model": "work/prokofiev2/analysis-v9/movement1-transkun.mid",
+  "audio_offset": 0.0,
+  "replacement_interval": [
+    0.0,
+    672.078367
+  ],
+  "old_piano_notes": 6177,
+  "audio_transcribed_piano_notes": 5698,
+  "supplemental_audio_detections": 3,
+  "score_time_fallback_notes": 0,
+  "score_pitch_matches_within_800ms": 5245,
+  "median_match_shift_seconds": 0.0133,
+  "physical_release_cuts": {
+    "same_key": 7
+  },
+  "physical_violations": {},
+  "result": "outputs/prokofiev2-yundi-movement1-audio-v9.timeline.json"
+}

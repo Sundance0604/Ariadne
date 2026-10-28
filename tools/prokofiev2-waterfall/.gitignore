@@ -1,0 +1,7 @@
+# Locally obtained app/footage assets. Never publish these with the source.
+gpu-vfx-flow/assets/seemusic/*.png
+gpu-vfx-flow/assets/real-fire/*.png
+score-reference/score-voice-map.json
+
+# Regenerated media and analysis caches stay under the repository's local/.
+*.partial.mp4

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "geometry": {
+    "piano_white_width": 0.70,
+    "piano_black_width": 0.81,
+    "piano_corner_radius": 14,
+    "orchestra_support_width": 0.50,
+    "orchestra_lead_width": 0.54,
+    "orchestra_fire_lead_width": 0.81
+  },
+  "surface": {
+    "piano_face_opacity": 0.98,
+    "piano_face_white_mix": 0.12,
+    "piano_inset_white_mix": 0.80,
+    "piano_inset_strength": 0.28,
+    "piano_material_short": 0.30,
+    "piano_material_long": 0.36,
+    "piano_material_speed": 0.82,
+    "piano_material_amount": 0.91,
+    "piano_bevel_light": 0.44,
+    "piano_bevel_shadow": 0.36
+  },
+  "light": {
+    "piano_rim_base": 0.43,
+    "piano_rim_pulse": 0.09,
+    "piano_glow": 0.55,
+    "piano_halo_base": 0.66,
+    "piano_halo_pulse": 0.05,
+    "horizon_strength": 1.00,
+    "note_bloom_threshold": 0.30,
+    "note_bloom_scale": 0.85,
+    "note_bloom_brightness": 1.38,
+    "note_bloom_blur": 3.3
+  }
+}

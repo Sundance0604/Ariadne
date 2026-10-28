@@ -1,0 +1,72 @@
+{
+  "schema_version": 2,
+  "motion": {
+    "flight_speed_scale": 0.38,
+    "launch_speed_scale": 0.47,
+    "launch_speed_pulse": 0.38,
+    "launch_speed_pulse_rate": 5.2,
+    "airborne_speed_pulse_scale": 1.0,
+    "launch_angle_sweep_radians": 0.17,
+    "launch_angle_sweep_rate": 3.3,
+    "launch_angle_jitter_radians": 0.05,
+    "horizontal_wind_scale": 0.8,
+    "vertical_wind_scale": 0.78,
+    "plume_spread_pixels": 108,
+    "plume_breath_rate": 1.35,
+    "plume_early_spread_fraction": 0.2,
+    "plume_gather_spread_fraction": 0.025
+  },
+  "density": {
+    "ember_attack_count": 52,
+    "streak_attack_count": 1,
+    "filament_attack_count": 0,
+    "ember_per_second": 184,
+    "streak_per_second": 1.8,
+    "smoke_per_second": 6.5,
+    "flame_per_second": 0,
+    "light_per_second": 4.4,
+    "glint_per_second": 0.4,
+    "filament_per_second": 0.18
+  },
+  "colors": {
+    "piano_low": "#ac6d28",
+    "piano_high": "#ffda82",
+    "strings": "#aaa9ac",
+    "woodwind": "#a80921",
+    "brass": "#aaa9ac",
+    "strike": "#ffd27a"
+  },
+  "brightness": {
+    "ember": 1.48,
+    "filament": 0.8,
+    "note_glow": 1.02,
+    "note_material": 1.18,
+    "strike_flash": 1.18
+  },
+  "size": {
+    "ember": 1.2,
+    "filament": 0.82
+  },
+  "appearance": {
+    "material": "fire",
+    "material_amount": 1.68,
+    "material_speed": 1.15,
+    "keyboard_tint": "#d4a96e",
+    "horizon_tint": "#b6532e",
+    "color_variation": 0.13,
+    "orchestra_base_alpha": 0.47,
+    "orchestra_lead_alpha": 0.94,
+    "orchestra_lead_start": 590.3,
+    "orchestra_lead_end": 622.0,
+    "orchestra_emitter_scale": 0.24,
+    "impact_scale": 1.3,
+    "particle_white_mix": 0.05,
+    "orchestra_neutral_color": "#a6a4a7",
+    "orchestra_lead_color": "#dc1735",
+    "particle_style": "fire",
+    "particle_life_scale": 0.72,
+    "edge_strength": 1.12,
+    "glow_strength": 0.76,
+    "fire_render_mode": "footage"
+  }
+}

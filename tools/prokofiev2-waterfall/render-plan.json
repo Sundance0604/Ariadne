@@ -1,0 +1,560 @@
+{
+  "schema_version": 1,
+  "source_timeline": "tools/prokofiev2-waterfall/data/aligned-timeline-v9.json",
+  "source_audio": "local/prokofiev2-waterfall/performance.wav",
+  "output_width": 3840,
+  "output_height": 2160,
+  "fps": 60,
+  "lookahead_seconds": 5,
+  "particle_trail_density_scale": 1.65,
+  "fire_entry_seconds": 583.8,
+  "clips": {
+    "opening-title": {
+      "start_seconds": 0,
+      "duration_seconds": 30,
+      "intro": {
+        "lead_in_seconds": 5.0,
+        "title_fade_in_seconds": 0.85,
+        "title_fade_out_start_seconds": 3.2,
+        "title_fade_out_end_seconds": 5.15,
+        "keyboard_fade_start_seconds": 5.05,
+        "keyboard_fade_end_seconds": 7.3,
+        "title": "PIANO CONCERTO",
+        "subtitle": "NO. 2 IN G MINOR  ·  OP. 16",
+        "composer": "PROKOFIEV",
+        "credit": "YUNDI LI  ·  SEIJI OZAWA  ·  BERLINER PHILHARMONIKER"
+      }
+    },
+    "review-scherzo-melody": {
+      "start_seconds": 219.0,
+      "duration_seconds": 30.0
+    },
+    "review-eclipse-v14": {
+      "start_seconds": 638.0,
+      "duration_seconds": 8.0
+    },
+    "review-outro-v14": {
+      "start_seconds": 665.0,
+      "duration_seconds": 7.0783673469
+    }
+  },
+  "sections": [
+    {
+      "at": 0,
+      "blend": 0,
+      "look": "glass",
+      "label": "opening ivory",
+      "piano_low": "#e4d3ba",
+      "piano_high": "#f4e8d3",
+      "keyboard": "#afaaa4",
+      "horizon": "#b6a999",
+      "density": 0.22,
+      "speed": 0.55,
+      "appearance_overrides": {
+        "background_motif_opacity": 0.0
+      }
+    },
+    {
+      "at": 37.1,
+      "blend": 10,
+      "look": "glass",
+      "label": "first theme amber",
+      "piano_low": "#b99157",
+      "piano_high": "#eacd95",
+      "keyboard": "#beb29b",
+      "horizon": "#d1b88e",
+      "density": 0.32,
+      "speed": 0.65,
+      "appearance_overrides": {
+        "background_motif_opacity": 0.0
+      }
+    },
+    {
+      "at": 96.2,
+      "blend": 16,
+      "look": "glass",
+      "label": "dolce silver",
+      "piano_low": "#7caab7",
+      "piano_high": "#d3e6e8",
+      "keyboard": "#c5d5d6",
+      "horizon": "#a7d2d9",
+      "density": 0.28,
+      "speed": 0.5,
+      "appearance_overrides": {
+        "background_motif_opacity": 0.0
+      }
+    },
+    {
+      "at": 136.1,
+      "blend": 8,
+      "look": "metal",
+      "label": "orchestral tension",
+      "piano_low": "#668a9f",
+      "piano_high": "#bbd6df",
+      "keyboard": "#9daeba",
+      "horizon": "#8baabf",
+      "density": 0.4,
+      "speed": 0.72,
+      "appearance_overrides": {
+        "background_motif_opacity": 0.0
+      }
+    },
+    {
+      "at": 190.1,
+      "blend": 12,
+      "look": "crystal",
+      "label": "scherzo entrance",
+      "review_seconds": 195.0,
+      "piano_low": "#5b8ea6",
+      "piano_high": "#b9e5ee",
+      "keyboard": "#a1bbc5",
+      "horizon": "#8fcbd8",
+      "density": 0.45,
+      "speed": 1.12,
+      "lead_color": "#8dc9e1",
+      "lead_alpha": 0.92,
+      "appearance_overrides": {
+        "background_motif_opacity": 0.0
+      },
+      "filament_scale": 1.45
+    },
+    {
+      "at": 211.0,
+      "blend": 14,
+      "look": "crystal",
+      "label": "scherzo cyan",
+      "review_seconds": 234.0,
+      "piano_low": "#408e9a",
+      "piano_high": "#a6e0dd",
+      "keyboard": "#87afc1",
+      "horizon": "#65abb7",
+      "density": 0.55,
+      "speed": 1.2,
+      "appearance_overrides": {
+        "background_motif_opacity": 0.0
+      },
+      "filament_scale": 1.45
+    },
+    {
+      "at": 285.9,
+      "blend": 14,
+      "look": "metal",
+      "label": "less motion",
+      "review_seconds": 295.4,
+      "piano_low": "#6e789e",
+      "piano_high": "#c7cce0",
+      "keyboard": "#a7b4c5",
+      "horizon": "#8d9ab8",
+      "density": 0.28,
+      "speed": 0.58,
+      "appearance_overrides": {
+        "background_motif_opacity": 0.0
+      },
+      "filament_scale": 1.45
+    },
+    {
+      "at": 333.0,
+      "blend": 18,
+      "look": "glass",
+      "label": "solo deep violet",
+      "piano_low": "#75699e",
+      "piano_high": "#c8b9d7",
+      "keyboard": "#aaa3bf",
+      "horizon": "#8276a9",
+      "density": 0.38,
+      "speed": 0.62,
+      "appearance_overrides": {
+        "background_motif_opacity": 0.0
+      }
+    },
+    {
+      "at": 406.9,
+      "blend": 10,
+      "look": "metal",
+      "label": "bronze rising",
+      "piano_low": "#957a93",
+      "piano_high": "#d1a6ad",
+      "keyboard": "#b5a18a",
+      "horizon": "#9f8190",
+      "density": 0.45,
+      "speed": 0.65,
+      "appearance_overrides": {
+        "background_motif_opacity": 0.0
+      }
+    },
+    {
+      "at": 457.7,
+      "blend": 10,
+      "look": "metal",
+      "label": "precipitato",
+      "piano_low": "#ac8880",
+      "piano_high": "#ddb879",
+      "keyboard": "#b99d88",
+      "horizon": "#aa856e",
+      "density": 0.75,
+      "speed": 0.89,
+      "appearance_overrides": {
+        "background_motif_opacity": 0.0
+      }
+    },
+    {
+      "at": 483.3,
+      "blend": 8,
+      "look": "gilded",
+      "label": "con affetto",
+      "piano_low": "#b18760",
+      "piano_high": "#e9c58e",
+      "keyboard": "#c3a98c",
+      "horizon": "#c29970",
+      "density": 0.79,
+      "speed": 0.77,
+      "appearance_overrides": {
+        "background_motif_opacity": 0.0
+      }
+    },
+    {
+      "at": 497.5,
+      "blend": 8,
+      "look": "gilded",
+      "label": "colossale",
+      "piano_low": "#ba782b",
+      "piano_high": "#ffe8a4",
+      "keyboard": "#d8b985",
+      "horizon": "#e8b361",
+      "density": 0.95,
+      "speed": 0.85,
+      "appearance_overrides": {
+        "background_motif_opacity": 0.0
+      }
+    },
+    {
+      "at": 526.7,
+      "blend": 16,
+      "look": "gilded",
+      "label": "cadenza dark gold",
+      "piano_low": "#a66a36",
+      "piano_high": "#f4ce8c",
+      "keyboard": "#c4a275",
+      "horizon": "#bd8758",
+      "density": 0.7,
+      "speed": 0.7,
+      "appearance_overrides": {
+        "background_motif_opacity": 0.0
+      }
+    },
+    {
+      "at": 574.7,
+      "blend": 4.2,
+      "look": "gilded",
+      "label": "tumultuoso",
+      "piano_low": "#a56432",
+      "piano_high": "#ffd186",
+      "keyboard": "#a87769",
+      "horizon": "#9c4d3a",
+      "density": 0.9,
+      "speed": 1.05,
+      "appearance_overrides": {
+        "background_motif_opacity": 0.0
+      }
+    },
+    {
+      "at": 579.0,
+      "blend": 8.0,
+      "look": "crimson_real_fire_slow",
+      "label": "fire ignition",
+      "piano_low": "#aa6b2f",
+      "piano_high": "#ffda88",
+      "keyboard": "#b58b70",
+      "horizon": "#af583c",
+      "density": 0.94,
+      "speed": 0.78,
+      "fire_mix": 0.35,
+      "lead_color": "#b5142e",
+      "appearance_overrides": {
+        "background_motif_opacity": 0.0
+      }
+    },
+    {
+      "at": 587.7,
+      "blend": 7.5,
+      "look": "crimson_real_fire_slow",
+      "label": "theme reprise",
+      "piano_low": "#b5782c",
+      "piano_high": "#ffe39a",
+      "keyboard": "#d1a66f",
+      "horizon": "#c04d30",
+      "density": 1.0,
+      "speed": 0.75,
+      "fire_mix": 1,
+      "lead_color": "#b5142e",
+      "lead_alpha": 0.94,
+      "appearance_overrides": {
+        "background_motif_opacity": 0.0
+      }
+    },
+    {
+      "at": 604.2,
+      "blend": 9.0,
+      "look": "crimson_real_fire_slow",
+      "label": "brass crescendo",
+      "piano_low": "#b5782c",
+      "piano_high": "#ffdf91",
+      "keyboard": "#d1a66f",
+      "horizon": "#b13f32",
+      "density": 1.0,
+      "speed": 0.75,
+      "fire_mix": 1,
+      "lead_color": "#9f0d26",
+      "lead_alpha": 0.95,
+      "appearance_overrides": {
+        "background_motif_opacity": 0.0,
+        "eclipse_image": "photo",
+        "corona_opacity": 0.0,
+        "corona_tint": "#b35a5d",
+        "eclipse_gold_mix": 0.72
+      }
+    },
+    {
+      "at": 611.0,
+      "blend": 1.5,
+      "look": "crimson_real_fire_slow",
+      "label": "material study: gold relief",
+      "piano_low": "#b5782c",
+      "piano_high": "#ffdf91",
+      "keyboard": "#d1a66f",
+      "horizon": "#b13f32",
+      "density": 1.0,
+      "speed": 0.75,
+      "fire_mix": 1,
+      "lead_color": "#9f0d26",
+      "lead_alpha": 0.95,
+      "appearance_overrides": {
+        "piano_material": "gilded",
+        "piano_material_amount": 1.65,
+        "piano_material_opacity": 1.26,
+        "piano_material_speed": 1.0,
+        "background_motif_opacity": 0.0,
+        "corona_tint": "#b35a5d",
+        "corona_opacity": 0.0,
+        "eclipse_image": "photo",
+        "eclipse_gold_mix": 0.72
+      }
+    },
+    {
+      "at": 620.4,
+      "blend": 9.0,
+      "look": "crimson_real_fire_slow",
+      "label": "reprise release",
+      "piano_low": "#ac7548",
+      "piano_high": "#e8c99b",
+      "keyboard": "#bfa58c",
+      "horizon": "#9a6d5a",
+      "density": 0.45,
+      "speed": 0.6,
+      "fire_mix": 0.16,
+      "appearance_overrides": {
+        "background_motif_opacity": 0.22,
+        "corona_tint": "#b35a5d",
+        "corona_opacity": 0.413,
+        "eclipse_image": "photo",
+        "eclipse_gold_mix": 0.72
+      }
+    },
+    {
+      "at": 626.0,
+      "blend": 1.5,
+      "look": "crimson_real_fire_slow",
+      "label": "material study: cool liquid glass",
+      "piano_low": "#ac7548",
+      "piano_high": "#e8c99b",
+      "keyboard": "#bfa58c",
+      "horizon": "#9a6d5a",
+      "density": 0.45,
+      "speed": 0.6,
+      "fire_mix": 0.16,
+      "appearance_overrides": {
+        "piano_material": "glass",
+        "piano_material_amount": 1.65,
+        "piano_material_opacity": 1.18,
+        "piano_material_speed": 0.78,
+        "background_motif_opacity": 0.22,
+        "corona_tint": "#b35a5d",
+        "corona_opacity": 0.473,
+        "eclipse_image": "photo",
+        "eclipse_gold_mix": 0.72
+      }
+    },
+    {
+      "at": 628.4,
+      "blend": 12,
+      "look": "glass",
+      "label": "narrante cooling",
+      "piano_low": "#92a4ad",
+      "piano_high": "#d3dee0",
+      "keyboard": "#b8bec0",
+      "horizon": "#92a8ae",
+      "density": 0.25,
+      "speed": 0.5,
+      "appearance_overrides": {
+        "background_motif_opacity": 0.22,
+        "corona_tint": "#b35a5d",
+        "corona_opacity": 0.519,
+        "eclipse_image": "photo",
+        "eclipse_gold_mix": 0.72
+      }
+    },
+    {
+      "at": 641.0,
+      "blend": 1.5,
+      "look": "glass",
+      "label": "material study: cut crystal",
+      "piano_low": "#92a4ad",
+      "piano_high": "#d3dee0",
+      "keyboard": "#b8bec0",
+      "horizon": "#92a8ae",
+      "density": 0.25,
+      "speed": 0.5,
+      "appearance_overrides": {
+        "piano_material": "crystal",
+        "piano_material_amount": 2.15,
+        "piano_material_opacity": 1.35,
+        "piano_material_speed": 0.53,
+        "background_motif_opacity": 0.22,
+        "corona_tint": "#b35a5d",
+        "corona_opacity": 0.544,
+        "eclipse_image": "photo",
+        "eclipse_gold_mix": 0.72
+      }
+    },
+    {
+      "at": 655.0,
+      "blend": 1.5,
+      "look": "glass",
+      "label": "material study: brushed silver",
+      "piano_low": "#92a4ad",
+      "piano_high": "#d3dee0",
+      "keyboard": "#b8bec0",
+      "horizon": "#92a8ae",
+      "density": 0.25,
+      "speed": 0.5,
+      "appearance_overrides": {
+        "piano_material": "metal",
+        "piano_material_amount": 2.05,
+        "piano_material_opacity": 1.3,
+        "piano_material_speed": 0.66,
+        "background_motif_opacity": 0.22,
+        "corona_tint": "#b35a5d",
+        "corona_opacity": 0.519,
+        "eclipse_image": "photo",
+        "eclipse_gold_mix": 0.72
+      }
+    },
+    {
+      "at": 666.3,
+      "blend": 3.0,
+      "look": "glass",
+      "label": "material study: final glass fade",
+      "piano_low": "#92a4ad",
+      "piano_high": "#d3dee0",
+      "keyboard": "#b8bec0",
+      "horizon": "#92a8ae",
+      "density": 0.25,
+      "speed": 0.5,
+      "appearance_overrides": {
+        "piano_material": "glass",
+        "piano_material_amount": 1.25,
+        "piano_material_opacity": 1.1,
+        "piano_material_speed": 0.75,
+        "background_motif_opacity": 0.07,
+        "corona_tint": "#b35a5d",
+        "corona_opacity": 0.213,
+        "eclipse_image": "photo",
+        "eclipse_gold_mix": 0.72
+      }
+    },
+    {
+      "at": 667.084,
+      "blend": 4.0,
+      "look": "glass",
+      "label": "audio tail",
+      "piano_low": "#819298",
+      "piano_high": "#b7c4c7",
+      "keyboard": "#7c8588",
+      "horizon": "#667477",
+      "density": 0.04,
+      "speed": 0.4,
+      "appearance_overrides": {
+        "background_motif_opacity": 0.07,
+        "corona_tint": "#b35a5d",
+        "corona_opacity": 0.0,
+        "eclipse_image": "photo",
+        "eclipse_gold_mix": 0.72
+      }
+    }
+  ],
+  "filament_visibility_scale": 2.3575,
+  "filament_min_per_second": 0.4025,
+  "local_review_revision": "v21",
+  "note_palette_cuts": [
+    {
+      "at_seconds": 621.6,
+      "before_start_seconds": 616.0,
+      "until_seconds": 641.0,
+      "before": {
+        "piano_low": "#b5782c",
+        "piano_high": "#ffdf91"
+      },
+      "after": {
+        "piano_low": "#92a4ad",
+        "piano_high": "#d3dee0"
+      }
+    }
+  ],
+  "filament_silence_intervals": [
+    [
+      0,
+      12
+    ],
+    [
+      333,
+      345
+    ]
+  ],
+  "outro": {
+    "fade_start_seconds": 667.5,
+    "fade_end_seconds": 672.05
+  },
+  "eclipse_fade": {
+    "fade_in_start_seconds": 620.4,
+    "fade_in_end_seconds": 635.0,
+    "fade_out_start_seconds": 663.0,
+    "fade_out_end_seconds": 671.0,
+    "peak_alpha": 0.72,
+    "occlusion_alpha": 0.92
+  },
+  "tail_particle_bloom": {
+    "start_seconds": 640.0,
+    "full_seconds": 659.0,
+    "palette": {
+      "ice": "#70d7ff",
+      "cyan": "#5fffea",
+      "violet": "#9aa8ff",
+      "red": "#d46676",
+      "gold": "#e3ba78"
+    },
+    "density_multiplier": 3.0,
+    "horizontal_spread_multiplier": 2.5,
+    "loft_multiplier": 1.0,
+    "ribbon_life_seconds": 2.6,
+    "base_filament_life_multiplier": 0.72,
+    "palette_weights": [
+      0.44,
+      0.38,
+      0.12,
+      0.04,
+      0.02
+    ]
+  },
+  "eclipse_lane_cleanup_start_seconds": 619.2,
+  "source_audio_sha256": "36371069be44ec5cb9f744b3f0ff9ca6613c4e8f2bc3105b8f686f0a99f96b67"
+}

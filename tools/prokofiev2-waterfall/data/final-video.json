@@ -1,0 +1,24 @@
+{
+  "work": "Prokofiev Piano Concerto No. 2, movement I",
+  "performance": "Yundi Li; Seiji Ozawa; Berliner Philharmoniker",
+  "approved_video_filename": "prokofiev2-movement1-v21-full-3840x2160-60fps.mp4",
+  "video_sha256": "af576384b242e1aab6e33022b471da883f131f0ceb32a6d0e13eab3bf5392d5a",
+  "video_bytes": 1243576349,
+  "video_width": 3840,
+  "video_height": 2160,
+  "fps": 60,
+  "video_duration_seconds": 677.0833333333334,
+  "video_kept_locally": true,
+  "source_audio_sha256": "36371069be44ec5cb9f744b3f0ff9ca6613c4e8f2bc3105b8f686f0a99f96b67",
+  "source_score_mxl_sha256": "6a9893ed48c7d57bf336adb02751e86ccfdf595200ab008daef493e6468ebc8f",
+  "original_render_plan_sha256": "ccb680e6a439a611c68e1688c2cd5aae544f04100a863cadbabce91424929707",
+  "original_renderer_bundle_sha256": "30a4e28c11c983c9dff88174ad5e9f90bbc22be1bdbfbedb508207c72c96b9b5",
+  "packaged_timeline_sha256": "739f3b06dccd37d5786202732b8612688d1e699940a08697b6ff2a12f95f6a56",
+  "notes_total": 10331,
+  "piano_notes": 5698,
+  "model_provenance": {
+    "separator": "mlx-audio-separator 0.1.20 / BS-Roformer-SW",
+    "transcriber": "Transkun 2.0.1"
+  },
+  "note": "Portable package paths and source-audio metadata were normalized; the original plan and bundle fingerprints above refer to the actual encoded video."
+}
