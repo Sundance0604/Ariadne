@@ -16,6 +16,7 @@
 | 可视化面板 | [和声音流、配器激活及批处理大小设置](guides/visual-panels.md) |
 | 普二完整版 | [字幕JSON、PDF、双图层与用户自行生成](guides/prokofiev2-full-video.md) |
 | 普二瀑布流 | [李云迪／小泽征尔版逐音对齐与4K渲染](../tools/prokofiev2-waterfall/README.zh-CN.md) |
+| 普三瀑布流 | [第一、第三乐章复现资料](../tools/prokofiev3-waterfall/README.md)、[协奏曲对齐与渲染工作流](workflows/concerto-waterfall.md) |
 | 美国四重奏 | [四章同步、和声／四部弦乐面板与253条字幕](guides/dvorak-american-full-video.md) |
 | 工作流程 | [新视频／重制总指南](workflows/video-remastering-playbook.md)、[视频制作](workflows/video-production.md)、[分析撰写](workflows/analysis-writing.md)、[最初拉威尔实验流程](workflows/ravel-left-hand-original.md) |
 | 设计与约定 | [研究范式](design/research-paradigm.md)、[研究任务规范](design/research-task-spec.md)、[结构引擎](design/music-structure-engine.md)、[视频扩展](design/video-extension.md)、[HUD整合任务](design/musicxml-hud-integration.md) |

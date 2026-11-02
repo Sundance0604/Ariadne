@@ -1,0 +1,469 @@
+{
+  "orchestra_spectral_anchors": [
+    {
+      "beat": 438.0,
+      "shift_seconds": -0.345,
+      "parts": [
+        "P4",
+        "P2"
+      ]
+    },
+    {
+      "beat": 440.0,
+      "shift_seconds": -0.175,
+      "parts": [
+        "P4",
+        "P3"
+      ]
+    },
+    {
+      "beat": 443.0,
+      "shift_seconds": -0.35,
+      "parts": [
+        "P4"
+      ]
+    },
+    {
+      "beat": 449.0,
+      "shift_seconds": -0.37,
+      "parts": [
+        "P3"
+      ]
+    },
+    {
+      "beat": 450.0,
+      "shift_seconds": -0.655,
+      "parts": [
+        "P4",
+        "P2"
+      ]
+    },
+    {
+      "beat": 455.0,
+      "shift_seconds": -0.23,
+      "parts": [
+        "P3",
+        "P4"
+      ]
+    },
+    {
+      "beat": 463.0,
+      "shift_seconds": -0.56,
+      "parts": [
+        "P3"
+      ]
+    },
+    {
+      "beat": 468.0,
+      "shift_seconds": -0.12,
+      "parts": [
+        "P2"
+      ]
+    },
+    {
+      "beat": 470.0,
+      "shift_seconds": -0.5,
+      "parts": [
+        "P3",
+        "P4"
+      ]
+    },
+    {
+      "beat": 471.0,
+      "shift_seconds": -0.28,
+      "parts": [
+        "P15"
+      ]
+    },
+    {
+      "beat": 474.0,
+      "shift_seconds": -0.58,
+      "parts": [
+        "P2",
+        "P4"
+      ]
+    },
+    {
+      "beat": 480.0,
+      "shift_seconds": -0.19,
+      "parts": [
+        "P2"
+      ]
+    },
+    {
+      "beat": 486.0,
+      "shift_seconds": -0.275,
+      "parts": [
+        "P2",
+        "P15"
+      ]
+    },
+    {
+      "beat": 490.0,
+      "shift_seconds": -0.54,
+      "parts": [
+        "P15"
+      ]
+    },
+    {
+      "beat": 501.0,
+      "shift_seconds": -0.33,
+      "parts": [
+        "P4"
+      ]
+    }
+  ],
+  "orchestra_notes_moved": 69,
+  "orchestra_groups_moved": 55,
+  "orchestra_changes": [
+    {
+      "beat": 471.0,
+      "part": "P15",
+      "old_video": 187.68,
+      "new_video": 187.4
+    },
+    {
+      "beat": 474.0,
+      "part": "P15",
+      "old_video": 190.34,
+      "new_video": 189.93
+    },
+    {
+      "beat": 476.0,
+      "part": "P15",
+      "old_video": 191.61,
+      "new_video": 191.15
+    },
+    {
+      "beat": 477.0,
+      "part": "P15",
+      "old_video": 192.56,
+      "new_video": 191.95
+    },
+    {
+      "beat": 480.0,
+      "part": "P15",
+      "old_video": 194.62,
+      "new_video": 194.06
+    },
+    {
+      "beat": 483.0,
+      "part": "P15",
+      "old_video": 197.09,
+      "new_video": 196.54
+    },
+    {
+      "beat": 485.0,
+      "part": "P15",
+      "old_video": 199.3,
+      "new_video": 198.69
+    },
+    {
+      "beat": 486.0,
+      "part": "P15",
+      "old_video": 200.15,
+      "new_video": 199.74
+    },
+    {
+      "beat": 490.0,
+      "part": "P15",
+      "old_video": 203.52,
+      "new_video": 202.98
+    },
+    {
+      "beat": 491.0,
+      "part": "P15",
+      "old_video": 204.285,
+      "new_video": 203.595
+    },
+    {
+      "beat": 492.0,
+      "part": "P15",
+      "old_video": 206.2,
+      "new_video": 205.8
+    },
+    {
+      "beat": 494.0,
+      "part": "P15",
+      "old_video": 207.314,
+      "new_video": 206.664
+    },
+    {
+      "beat": 504.0,
+      "part": "P15",
+      "old_video": 216.868,
+      "new_video": 216.188
+    },
+    {
+      "beat": 438.0,
+      "part": "P2",
+      "old_video": 163.236,
+      "new_video": 162.705
+    },
+    {
+      "beat": 447.0,
+      "part": "P2",
+      "old_video": 170.21,
+      "new_video": 169.5
+    },
+    {
+      "beat": 450.0,
+      "part": "P2",
+      "old_video": 172.059,
+      "new_video": 171.399
+    },
+    {
+      "beat": 453.0,
+      "part": "P2",
+      "old_video": 173.51,
+      "new_video": 172.8
+    },
+    {
+      "beat": 456.0,
+      "part": "P2",
+      "old_video": 175.85,
+      "new_video": 175.14
+    },
+    {
+      "beat": 462.0,
+      "part": "P2",
+      "old_video": 180.64,
+      "new_video": 179.95
+    },
+    {
+      "beat": 468.0,
+      "part": "P2",
+      "old_video": 184.78,
+      "new_video": 184.47
+    },
+    {
+      "beat": 471.0,
+      "part": "P2",
+      "old_video": 187.69,
+      "new_video": 186.99
+    },
+    {
+      "beat": 474.0,
+      "part": "P2",
+      "old_video": 190.33,
+      "new_video": 189.75
+    },
+    {
+      "beat": 480.0,
+      "part": "P2",
+      "old_video": 194.7,
+      "new_video": 194.51
+    },
+    {
+      "beat": 486.0,
+      "part": "P2",
+      "old_video": 199.96,
+      "new_video": 199.82
+    },
+    {
+      "beat": 504.0,
+      "part": "P2",
+      "old_video": 216.868,
+      "new_video": 216.188
+    },
+    {
+      "beat": 440.0,
+      "part": "P3",
+      "old_video": 164.179,
+      "new_video": 163.979
+    },
+    {
+      "beat": 441.0,
+      "part": "P3",
+      "old_video": 165.16,
+      "new_video": 164.7
+    },
+    {
+      "beat": 442.0,
+      "part": "P3",
+      "old_video": 165.42,
+      "new_video": 165.02
+    },
+    {
+      "beat": 443.0,
+      "part": "P3",
+      "old_video": 166.45,
+      "new_video": 165.86
+    },
+    {
+      "beat": 444.0,
+      "part": "P3",
+      "old_video": 167.078,
+      "new_video": 166.578
+    },
+    {
+      "beat": 447.0,
+      "part": "P3",
+      "old_video": 170.16,
+      "new_video": 169.49
+    },
+    {
+      "beat": 449.0,
+      "part": "P3",
+      "old_video": 171.04,
+      "new_video": 170.32
+    },
+    {
+      "beat": 450.0,
+      "part": "P3",
+      "old_video": 172.079,
+      "new_video": 171.559
+    },
+    {
+      "beat": 455.0,
+      "part": "P3",
+      "old_video": 174.99,
+      "new_video": 174.6
+    },
+    {
+      "beat": 456.0,
+      "part": "P3",
+      "old_video": 175.85,
+      "new_video": 175.7
+    },
+    {
+      "beat": 459.0,
+      "part": "P3",
+      "old_video": 177.88,
+      "new_video": 177.48
+    },
+    {
+      "beat": 463.0,
+      "part": "P3",
+      "old_video": 181.24,
+      "new_video": 180.95
+    },
+    {
+      "beat": 470.0,
+      "part": "P3",
+      "old_video": 186.619,
+      "new_video": 186.099
+    },
+    {
+      "beat": 498.0,
+      "part": "P3",
+      "old_video": 210.61,
+      "new_video": 209.92
+    },
+    {
+      "beat": 438.0,
+      "part": "P4",
+      "old_video": 162.886,
+      "new_video": 162.655
+    },
+    {
+      "beat": 440.0,
+      "part": "P4",
+      "old_video": 164.079,
+      "new_video": 163.929
+    },
+    {
+      "beat": 443.0,
+      "part": "P4",
+      "old_video": 166.46,
+      "new_video": 165.86
+    },
+    {
+      "beat": 447.0,
+      "part": "P4",
+      "old_video": 170.16,
+      "new_video": 169.5
+    },
+    {
+      "beat": 449.0,
+      "part": "P4",
+      "old_video": 171.13,
+      "new_video": 170.63
+    },
+    {
+      "beat": 450.0,
+      "part": "P4",
+      "old_video": 171.979,
+      "new_video": 171.309
+    },
+    {
+      "beat": 452.0,
+      "part": "P4",
+      "old_video": 173.05,
+      "new_video": 172.79
+    },
+    {
+      "beat": 455.0,
+      "part": "P4",
+      "old_video": 175.0,
+      "new_video": 174.37
+    },
+    {
+      "beat": 456.0,
+      "part": "P4",
+      "old_video": 175.83,
+      "new_video": 175.17
+    },
+    {
+      "beat": 463.0,
+      "part": "P4",
+      "old_video": 181.24,
+      "new_video": 180.94
+    },
+    {
+      "beat": 470.0,
+      "part": "P4",
+      "old_video": 186.619,
+      "new_video": 186.139
+    },
+    {
+      "beat": 474.0,
+      "part": "P4",
+      "old_video": 190.34,
+      "new_video": 189.7
+    },
+    {
+      "beat": 480.0,
+      "part": "P4",
+      "old_video": 194.68,
+      "new_video": 194.47
+    },
+    {
+      "beat": 486.0,
+      "part": "P4",
+      "old_video": 199.95,
+      "new_video": 199.83
+    },
+    {
+      "beat": 501.0,
+      "part": "P4",
+      "old_video": 213.61,
+      "new_video": 213.28
+    },
+    {
+      "beat": 504.0,
+      "part": "P4",
+      "old_video": 216.868,
+      "new_video": 216.278
+    }
+  ],
+  "piano_score_notes_replaced": 736,
+  "piano_score_validated_detections": 663,
+  "piano_octave_acoustic_rises": [
+    [
+      "p3iii-m145-P14-5993",
+      153.1135,
+      153.07354166666653
+    ],
+    [
+      "p3iii-m145-P14-5994",
+      153.1333,
+      153.0833333333332
+    ]
+  ],
+  "release_bounds": {
+    "same_key": 10,
+    "hand_capacity": 2,
+    "global_capacity": 0
+  }
+}

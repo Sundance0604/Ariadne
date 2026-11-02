@@ -1,0 +1,220 @@
+{
+  "source_hashes_verified": true,
+  "score_measures": 276,
+  "aligned_notes": 15960,
+  "piano_notes": 5370,
+  "piano_max_simultaneous_held_keys": 10,
+  "piano_same_key_overlaps": 0,
+  "approved_opening_onsets_retained": 3389,
+  "piano_recording_attack_coverage_after_180": 0.9638,
+  "piano_onset_sources_after_180": {
+    "separated_piano_transkun_score_match": 3727,
+    "score_clock_unmatched": 147,
+    "separated_piano_spectral_attack_review": 85,
+    "mixed_pitch_attack_needs_review": 102
+  },
+  "orchestra_lead_notes": 2401,
+  "orchestra_lead_measures": 163,
+  "piano_uncertainty_by_20s": [
+    {
+      "seconds": [
+        180,
+        200
+      ],
+      "piano_notes": 194,
+      "unmatched": 6,
+      "unmatched_fraction": 0.031
+    },
+    {
+      "seconds": [
+        200,
+        220
+      ],
+      "piano_notes": 183,
+      "unmatched": 1,
+      "unmatched_fraction": 0.005
+    },
+    {
+      "seconds": [
+        220,
+        240
+      ],
+      "piano_notes": 236,
+      "unmatched": 5,
+      "unmatched_fraction": 0.021
+    },
+    {
+      "seconds": [
+        240,
+        260
+      ],
+      "piano_notes": 184,
+      "unmatched": 7,
+      "unmatched_fraction": 0.038
+    },
+    {
+      "seconds": [
+        280,
+        300
+      ],
+      "piano_notes": 56,
+      "unmatched": 7,
+      "unmatched_fraction": 0.125
+    },
+    {
+      "seconds": [
+        300,
+        320
+      ],
+      "piano_notes": 112,
+      "unmatched": 8,
+      "unmatched_fraction": 0.071
+    },
+    {
+      "seconds": [
+        320,
+        340
+      ],
+      "piano_notes": 113,
+      "unmatched": 12,
+      "unmatched_fraction": 0.106
+    },
+    {
+      "seconds": [
+        340,
+        360
+      ],
+      "piano_notes": 210,
+      "unmatched": 29,
+      "unmatched_fraction": 0.138
+    },
+    {
+      "seconds": [
+        360,
+        380
+      ],
+      "piano_notes": 159,
+      "unmatched": 6,
+      "unmatched_fraction": 0.038
+    },
+    {
+      "seconds": [
+        380,
+        400
+      ],
+      "piano_notes": 247,
+      "unmatched": 4,
+      "unmatched_fraction": 0.016
+    },
+    {
+      "seconds": [
+        400,
+        420
+      ],
+      "piano_notes": 354,
+      "unmatched": 0,
+      "unmatched_fraction": 0.0
+    },
+    {
+      "seconds": [
+        420,
+        440
+      ],
+      "piano_notes": 263,
+      "unmatched": 2,
+      "unmatched_fraction": 0.008
+    },
+    {
+      "seconds": [
+        440,
+        460
+      ],
+      "piano_notes": 192,
+      "unmatched": 7,
+      "unmatched_fraction": 0.036
+    },
+    {
+      "seconds": [
+        460,
+        480
+      ],
+      "piano_notes": 210,
+      "unmatched": 3,
+      "unmatched_fraction": 0.014
+    },
+    {
+      "seconds": [
+        480,
+        500
+      ],
+      "piano_notes": 279,
+      "unmatched": 7,
+      "unmatched_fraction": 0.025
+    },
+    {
+      "seconds": [
+        500,
+        520
+      ],
+      "piano_notes": 269,
+      "unmatched": 6,
+      "unmatched_fraction": 0.022
+    },
+    {
+      "seconds": [
+        520,
+        540
+      ],
+      "piano_notes": 318,
+      "unmatched": 22,
+      "unmatched_fraction": 0.069
+    },
+    {
+      "seconds": [
+        540,
+        560
+      ],
+      "piano_notes": 148,
+      "unmatched": 5,
+      "unmatched_fraction": 0.034
+    },
+    {
+      "seconds": [
+        560,
+        580
+      ],
+      "piano_notes": 334,
+      "unmatched": 10,
+      "unmatched_fraction": 0.03
+    }
+  ],
+  "low_coverage_windows": [
+    {
+      "seconds": [
+        280,
+        300
+      ],
+      "piano_notes": 56,
+      "unmatched": 7,
+      "unmatched_fraction": 0.125
+    },
+    {
+      "seconds": [
+        320,
+        340
+      ],
+      "piano_notes": 113,
+      "unmatched": 12,
+      "unmatched_fraction": 0.106
+    },
+    {
+      "seconds": [
+        340,
+        360
+      ],
+      "piano_notes": 210,
+      "unmatched": 29,
+      "unmatched_fraction": 0.138
+    }
+  ]
+}

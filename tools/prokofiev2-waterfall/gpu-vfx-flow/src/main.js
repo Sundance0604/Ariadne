@@ -10,6 +10,7 @@ import { bloomStrength, buildTailParticles, sampleTailParticle,
          tailParticleAlpha } from './tailBloom.js';
 import { createFireExperiments } from './fireExperiments.js';
 import { colorNumber } from './visualPreset.js';
+import { createDynamicBackdrop } from './dynamicBackdrop.js';
 import { sampleVisualPreset } from './visualTimeline.js';
 import flameURL from '../assets/kenney/flame_06.png';
 import starURL from '../assets/kenney/star_07.png';
@@ -20,6 +21,13 @@ import realFireAURL from '../assets/real-fire/flame-smooth-a.png';
 import realFireBURL from '../assets/real-fire/flame-smooth-b.png';
 import realFireCURL from '../assets/real-fire/flame-smooth-c.png';
 import eclipsePhotoURL from '../assets/eclipse/nps-diamond-ring-2017.jpg';
+import opticalGlassURL from '../assets/prokofiev3/optical-glass.png';
+import oxbloodBrassURL from '../assets/prokofiev3/oxblood-brass.png';
+import goldApertureURL from '../assets/prokofiev3/gold-aperture.png';
+import rhythmicCurrentURL from '../assets/prokofiev3/rhythmic-current.png';
+import warmReflectionURL from '../assets/prokofiev3/warm-reflection.png';
+import thirdPlateAURL from '../assets/prokofiev3-movement3/selected-A.png';
+import thirdPlateBURL from '../assets/prokofiev3-movement3/selected-B.png';
 
 const query = new URLSearchParams(location.search);
 const width = Number(window.__WATERFALL_WIDTH__ || query.get('width') || 1280);
@@ -37,16 +45,44 @@ const theme = {
 const timeline = window.__WATERFALL_TIMELINE__;
 if (!timeline) throw new Error('Timeline was not supplied to the local renderer');
 const visualSections = timeline.visual_sections || [];
+const backdropSections = timeline.backdrop_sections || [];
+const backdropCues = timeline.backdrop_cues || [];
+const backdropPulses = timeline.backdrop_pulses || [];
+const backdropEmitters = timeline.backdrop_emitters || [];
+const plateKeys = ['plate_a', 'plate_b', 'plate_c', 'plate_d', 'plate_e'];
+const usesAnimatedBackdrop = [preset, ...visualSections.map(section => section.preset)].some(
+  look => plateKeys.some(key => (look.appearance?.[key] || 0) > 0)) ||
+  backdropSections.some(section => plateKeys.some(key => section[key] > 0));
 const usePhotoEclipse = visualSections.some(section =>
   section.preset?.appearance?.eclipse_image === 'photo');
 const notePaletteCuts = timeline.note_palette_cuts || [];
 const intro = timeline.intro || null;
 const outro = timeline.outro || null;
 const eclipseFade = timeline.eclipse_fade || null;
-const eclipseLaneCleanupStart = timeline.eclipse_lane_cleanup_start_seconds ?? null;
 const tailBloom = timeline.tail_particle_bloom || null;
 function visualAt(time) {
   return sampleVisualPreset(Math.max(0, time), visualSections, preset);
+}
+function backdropAt(time) {
+  if (!backdropSections.length) return null;
+  if (time <= backdropSections[0].time) return backdropSections[0];
+  for (let i = 1; i < backdropSections.length; i++) {
+    const after = backdropSections[i];
+    if (time > after.time) continue;
+    const before = backdropSections[i - 1];
+    const phase = Math.max(0, Math.min(1, (time - before.time) / (after.time - before.time)));
+    const eased = phase * phase * (3 - 2 * phase);
+    const mixed = {};
+    for (const key of plateKeys)
+      mixed[key] = (before[key] || 0) * (1 - eased) + (after[key] || 0) * eased;
+    for (const key of ['backdrop_light_tint', 'backdrop_second_tint']) {
+      const a = colorNumber(before[key] || '#8fd7e9');
+      const b = colorNumber(after[key] || '#8fd7e9');
+      mixed[key] = lerpColor(a, b, eased);
+    }
+    return mixed;
+  }
+  return backdropSections.at(-1);
 }
 function appearanceOf(look) {
   return look.appearance || {
@@ -142,6 +178,9 @@ function colorFor(note, time = note.audio_start, look = visualAt(time)) {
   if (note.family !== 'piano' && note.accent_color &&
       orchestraFeatured(note, time, look)) {
     base = colorNumber(note.accent_color);
+  } else if (note.musical_role === 'orchestra_chord' &&
+             appearance.orchestra_chord_color && orchestraFeatured(note, time, look)) {
+    base = colorNumber(appearance.orchestra_chord_color);
   } else if (note.family !== 'piano' && appearance.orchestra_neutral_color) {
     base = colorNumber(orchestraFeatured(note, time, look) ?
       appearance.orchestra_lead_color : appearance.orchestra_neutral_color);
@@ -648,10 +687,6 @@ function eclipseGoldTexture(image) {
 
 const [backgroundCanvas, backgroundCtx] = makeCanvas(width, height);
 backgroundCtx.fillStyle = '#000000'; backgroundCtx.fillRect(0, 0, width, strikeY);
-for (const key of keys.values()) if (key.black) {
-  backgroundCtx.fillStyle = 'rgba(255,255,255,.006)';
-  backgroundCtx.fillRect(key.x0, 0, key.x1 - key.x0, strikeY);
-}
 app.stage.addChild(new Sprite(Texture.from(backgroundCanvas)));
 // A dim, low-frequency atmosphere remains behind the notes. Its broad fields
 // and restrained upper-right halo suggest depth without drawing a literal moon.
@@ -675,6 +710,182 @@ atmosphereCtx.fillRect(920, 58, 230, 230);
 const atmosphere = new Sprite(Texture.from(atmosphereCanvas));
 atmosphere.width = width; atmosphere.height = strikeY;
 app.stage.addChild(atmosphere);
+const updateDynamicBackdrop = createDynamicBackdrop(app, width, strikeY,
+  timeline.dynamic_backdrop);
+// Three quiet photographic/illustrated plates are optional. Slow parallax and
+// two independent, softly focused light fields keep them alive without moving
+// the music geometry or forcing a full-screen shader pass on every frame.
+const backdropURLs = timeline.backdrop_asset_set === 'prokofiev3_movement3'
+  ? [thirdPlateAURL, thirdPlateBURL]
+  : [opticalGlassURL, oxbloodBrassURL, goldApertureURL,
+     rhythmicCurrentURL, warmReflectionURL];
+const backdropTextures = usesAnimatedBackdrop
+  ? await Promise.all(backdropURLs.map(url => Assets.load(url))) : [];
+const backdropPlates = backdropTextures.map(texture => {
+  const sprite = new Sprite(texture);
+  sprite.anchor.set(.5);
+  sprite.x = width * .5;
+  sprite.y = strikeY * .5;
+  sprite.width = width * 1.06;
+  sprite.height = strikeY * 1.06;
+  sprite.alpha = 0;
+  app.stage.addChild(sprite);
+  return sprite;
+});
+// The short 3:50 accent unveils the plate from the screen edges toward the
+// center. The mask is driven by absolute musical time, so segmented exports
+// remain identical to an uninterrupted render.
+const edgeReveal = timeline.edge_reveal || null;
+const edgeRevealMask = edgeReveal ? new Graphics() : null;
+if (edgeRevealMask && backdropPlates[edgeReveal.plate_index]) {
+  app.stage.addChild(edgeRevealMask);
+  backdropPlates[edgeReveal.plate_index].mask = edgeRevealMask;
+}
+// Four curved corner fronts replace the old straight, vertical isophote. The
+// still-visible base plate sits beneath this brief additive wave.
+function drawCornerWaveMask(mask, progress, time) {
+  mask.clear();
+  const reach = .025 + 1.18 * progress;
+  for (let corner = 0; corner < 4; corner++) {
+    const x0 = corner & 1 ? width : 0;
+    const y0 = corner & 2 ? strikeY : 0;
+    const dx = corner & 1 ? -1 : 1;
+    const dy = corner & 2 ? -1 : 1;
+    const rx = width * reach;
+    const ry = strikeY * reach;
+    const bend = .065 * Math.sin(progress * 7.4 + time * .82 + corner * 1.73);
+    mask.moveTo(x0, y0)
+      .lineTo(x0 + dx * rx, y0)
+      .bezierCurveTo(x0 + dx * rx * (.90 + bend), y0 + dy * ry * (.20 - bend),
+                     x0 + dx * rx * (.34 - bend), y0 + dy * ry * (.80 + bend),
+                     x0, y0 + dy * ry)
+      .closePath().fill(0xffffff);
+  }
+}
+// The one-time entrance uses an uneven, three-bend caustic front. Its boundary
+// is deliberately not a straight edge or a flat sheet moving across the image.
+function drawRefractedRevealMask(mask, progress, time) {
+  mask.clear();
+  const reach = .02 + 1.20 * progress;
+  for (let corner = 0; corner < 4; corner++) {
+    const x0 = corner & 1 ? width : 0;
+    const y0 = corner & 2 ? strikeY : 0;
+    const dx = corner & 1 ? -1 : 1;
+    const dy = corner & 2 ? -1 : 1;
+    const rx = width * reach * [1.04, .94, .91, 1.08][corner];
+    const ry = strikeY * reach * [.92, 1.07, 1.05, .95][corner];
+    const bend = .055 * Math.sin(time * 3.1 + corner * 1.7);
+    mask.moveTo(x0, y0).lineTo(x0 + dx * rx, y0)
+      .bezierCurveTo(x0 + dx * rx * (.95 + bend), y0 + dy * ry * .14,
+                     x0 + dx * rx * (.89 - bend), y0 + dy * ry * .28,
+                     x0 + dx * rx * (.67 + bend), y0 + dy * ry * .39)
+      .bezierCurveTo(x0 + dx * rx * (.46 - bend), y0 + dy * ry * .49,
+                     x0 + dx * rx * (.66 + bend), y0 + dy * ry * .63,
+                     x0 + dx * rx * (.30 - bend), y0 + dy * ry * .76)
+      .bezierCurveTo(x0 + dx * rx * .18, y0 + dy * ry * .86,
+                     x0 + dx * rx * .07, y0 + dy * ry * .94,
+                     x0, y0 + dy * ry)
+      .closePath().fill(0xffffff);
+  }
+}
+const pulsePlates = backdropTextures.map(texture => {
+  const sprite = new Sprite(texture);
+  sprite.anchor.set(.5);
+  sprite.width = width * 1.06;
+  sprite.height = strikeY * 1.06;
+  sprite.alpha = 0;
+  sprite.blendMode = 'add';
+  const mask = new Graphics();
+  app.stage.addChild(sprite, mask);
+  sprite.mask = mask;
+  return { sprite, mask };
+});
+const autumnFlecks = new Graphics();
+app.stage.addChild(autumnFlecks);
+const upwardMoteEvents = (timeline.upward_motes || []).flatMap(window =>
+  timeline.notes.filter(note => note.family === window.family &&
+    note.audio_start >= window.start && note.audio_start < window.end &&
+    keys.has(note.midi_pitch)).map(note => ({
+      time: note.audio_start, pitch: note.midi_pitch,
+      color: colorNumber(window.color), count: window.count || 6,
+    })));
+const [backdropLightCanvas, backdropLightCtx] = makeCanvas(512, 512);
+const backdropLightGradient = backdropLightCtx.createRadialGradient(256, 256, 8, 256, 256, 256);
+backdropLightGradient.addColorStop(0, 'rgba(255,255,255,.92)');
+backdropLightGradient.addColorStop(.10, 'rgba(255,255,255,.46)');
+backdropLightGradient.addColorStop(.36, 'rgba(255,255,255,.13)');
+backdropLightGradient.addColorStop(1, 'rgba(255,255,255,0)');
+backdropLightCtx.fillStyle = backdropLightGradient;
+backdropLightCtx.fillRect(0, 0, 512, 512);
+const backdropLightTexture = Texture.from(backdropLightCanvas);
+const pulseEchoLights = Array.from({ length: 6 }, () => {
+  const sprite = new Sprite(backdropLightTexture);
+  sprite.anchor.set(.5);
+  sprite.blendMode = 'add';
+  sprite.alpha = 0;
+  app.stage.addChild(sprite);
+  return sprite;
+});
+const pulseEchoTrails = new Graphics();
+app.stage.addChild(pulseEchoTrails);
+const pulseEchoParticles = new Graphics();
+app.stage.addChild(pulseEchoParticles);
+const livingLights = Array.from({ length: 2 }, () => {
+  const sprite = new Sprite(backdropLightTexture);
+  sprite.anchor.set(.5);
+  sprite.blendMode = 'add';
+  sprite.width = width * .55;
+  sprite.height = strikeY * .72;
+  sprite.alpha = 0;
+  app.stage.addChild(sprite);
+  return sprite;
+});
+const cueLights = backdropCues.map(() => {
+  const sprite = new Sprite(backdropLightTexture);
+  sprite.anchor.set(.5);
+  sprite.blendMode = 'add';
+  sprite.alpha = 0;
+  app.stage.addChild(sprite);
+  return sprite;
+});
+// Opt-in refracted silk behind the score. The texture is drawn once at modest
+// resolution; slow motion and a restrained additive pass give depth without
+// softening the sharp note bodies or changing the approved keyboard geometry.
+const [veilCanvas, veilCtx] = makeCanvas(1280, 720);
+for (let band = 0; band < 4; band++) {
+  const y = 110 + band * 130;
+  const wash = veilCtx.createLinearGradient(110, y - 85, 1150, y + 120);
+  wash.addColorStop(0, 'rgba(255,255,255,0)');
+  wash.addColorStop(.32, 'rgba(255,255,255,.11)');
+  wash.addColorStop(.61, 'rgba(255,255,255,.22)');
+  wash.addColorStop(1, 'rgba(255,255,255,0)');
+  veilCtx.beginPath();
+  veilCtx.moveTo(-100, y + 100);
+  veilCtx.bezierCurveTo(270, y - 65, 610, y + 80, 930, y - 55);
+  veilCtx.bezierCurveTo(1100, y - 115, 1250, y - 10, 1380, y - 115);
+  veilCtx.lineTo(1380, y + 80);
+  veilCtx.bezierCurveTo(1050, y + 135, 720, y + 30, 350, y + 145);
+  veilCtx.lineTo(-100, y + 155);
+  veilCtx.closePath();
+  veilCtx.fillStyle = wash;
+  veilCtx.fill();
+  veilCtx.beginPath();
+  veilCtx.moveTo(-100, y + 100);
+  veilCtx.bezierCurveTo(270, y - 65, 610, y + 80, 930, y - 55);
+  veilCtx.bezierCurveTo(1100, y - 115, 1250, y - 10, 1380, y - 115);
+  veilCtx.strokeStyle = 'rgba(255,255,255,.20)';
+  veilCtx.lineWidth = 1.25;
+  veilCtx.shadowBlur = 17;
+  veilCtx.shadowColor = 'rgba(255,255,255,.7)';
+  veilCtx.stroke();
+  veilCtx.shadowBlur = 0;
+}
+const refractedVeil = new Sprite(Texture.from(veilCanvas));
+refractedVeil.blendMode = 'add';
+refractedVeil.width = width * 1.07;
+refractedVeil.height = strikeY * 1.02;
+refractedVeil.alpha = 0;
+app.stage.addChild(refractedVeil);
 const darkSun = new Sprite(darkSunTexture());
 darkSun.anchor.set(.5);
 darkSun.width = width * .36;
@@ -699,24 +910,8 @@ if (eclipseGold) {
   eclipseGold.tint = 0xffd17b;
   eclipseGold.alpha = 0;
 }
-const lanes = new Graphics();
-const eclipseUpperLanes = new Graphics();
-const eclipseLaneBottom = strikeY * .68;
-for (const [pitch, key] of keys) {
-  if (key.black || pitch % 12 !== 0) continue;
-  if (eclipseLaneCleanupStart !== null && key.x0 >= width * .64) {
-    eclipseUpperLanes.moveTo(key.x0, 0).lineTo(key.x0, eclipseLaneBottom)
-      .stroke({ color: 0x9ca5ae, alpha: .08, width: 1 });
-    lanes.moveTo(key.x0, eclipseLaneBottom).lineTo(key.x0, strikeY)
-      .stroke({ color: 0x9ca5ae, alpha: .08, width: 1 });
-  } else {
-    lanes.moveTo(key.x0, 0).lineTo(key.x0, strikeY)
-      .stroke({ color: 0x9ca5ae, alpha: .08, width: 1 });
-  }
-}
-app.stage.addChild(lanes, eclipseUpperLanes);
-// The black centre covers the faint lane guides before the corona is drawn.
-// It only appears with the eclipse cue and has a soft edge.
+// The falling notes remain legible against the plates without vertical pitch
+// guides. Keep the background clear, including around the optional eclipse.
 const eclipseOcclusion = new Sprite(eclipseOcclusionTexture());
 eclipseOcclusion.anchor.set(.5);
 eclipseOcclusion.width = darkSun.width * 1.06;
@@ -1038,6 +1233,18 @@ const textures = await Promise.all([
   Promise.resolve(emberTexture()), Assets.load(traceURL), Promise.resolve(smokePuffTexture()),
   Assets.load(flameURL), Assets.load(lightURL), Assets.load(starURL),
 ]);
+const backgroundDust = [];
+for (let i = 0; i < 32; i++) {
+  const sprite = new Sprite(textures[i % 5 === 0 ? 5 : 0]);
+  sprite.anchor.set(.5);
+  sprite.blendMode = 'add';
+  sprite.alpha = 0;
+  ambientLayer.addChild(sprite);
+  backgroundDust.push({ sprite, phase: i * 2.399963,
+    x: ((i * .61803398875) % 1) * width,
+    y: ((i * .7548776662) % 1) * strikeY * .84,
+    size: (i % 5 === 0 ? 4.2 : 1.8) * visualScale });
+}
 const needsFireFootage = [preset, ...visualSections.map(section => section.preset)].some(
   look => look.appearance?.fire_render_mode === 'footage' &&
           (look.appearance?.fire_mix ?? 1) > 0) ||
@@ -1355,6 +1562,7 @@ function whiteKeyPath(graphics, pitch, y, bottom) {
 }
 
 function renderAt(time, materialTime = time, presentationTime = time) {
+  updateDynamicBackdrop(time);
   if (intro) {
     const sceneAlpha = easeBetween(presentationTime,
       intro.keyboard_fade_start_seconds, intro.keyboard_fade_end_seconds);
@@ -1393,6 +1601,287 @@ function renderAt(time, materialTime = time, presentationTime = time) {
   atmosphere.tint = colorNumber(appearance.background_tint || '#677789');
   atmosphere.alpha = (appearance.background_atmosphere ?? .2) *
     (.92 + .08 * Math.sin(time * .11));
+  const backdropLook = backdropAt(time) || appearance;
+  const plateWeights = plateKeys.map(key => backdropLook[key] || 0);
+  for (let i = 0; i < backdropPlates.length; i++) {
+    const sprite = backdropPlates[i];
+    const phase = i * 2.07;
+    sprite.alpha = plateWeights[i] * (.93 + .07 * Math.sin(time * .22 + phase));
+    sprite.x = width * (.5 + .012 * Math.sin(time * .037 + phase));
+    sprite.y = strikeY * (.5 + .009 * Math.sin(time * .041 + phase));
+    sprite.rotation = .006 * Math.sin(time * .029 + phase);
+    const wave = pulsePlates[i];
+    if (wave) {
+      wave.sprite.x = sprite.x;
+      wave.sprite.y = sprite.y;
+      wave.sprite.rotation = sprite.rotation;
+      let peak = 0, progress = 0;
+      for (const pulse of backdropPulses) {
+        if (pulse.plate_index !== i) continue;
+        const age = time - pulse.time;
+        const duration = pulse.duration || .58;
+        if (age < 0 || age > duration) continue;
+        const attack = Math.min(1, age / (pulse.attack || .12));
+        const decay = Math.pow(Math.max(0, 1 - age / duration), 1.8);
+        const energy = (pulse.strength || .25) * attack * decay;
+        if (energy > peak) {
+          peak = energy;
+          const travel = Math.min(1, age / (pulse.travel || .33));
+          progress = travel * travel * (3 - 2 * travel);
+        }
+      }
+      wave.sprite.alpha = peak;
+      wave.sprite.visible = peak > .001;
+      if (peak > .001) drawCornerWaveMask(wave.mask, progress, time);
+    }
+  }
+  // After the wave, light sheds from annotated tips of the actual backdrop
+  // artwork. UV anchors follow the plate's parallax and rotation; no generic
+  // center-screen burst is used.
+  const pulseRandom = (seed, channel) => {
+    const value = Math.sin(seed * .000173 + channel * 78.233) * 43758.5453;
+    return value - Math.floor(value);
+  };
+  const pulseSeed = pulse => Math.round(pulse.time * 10000) +
+    pulse.plate_index * 7919;
+  const echoSpan = pulse => (pulse.echo_duration || .43) *
+    (.72 + .75 * pulseRandom(pulseSeed(pulse), 3));
+  let echoPulse = null, echoAge = 0;
+  for (const pulse of backdropPulses) {
+    const age = time - pulse.time - (pulse.travel || .08);
+    if (age >= 0 && age < echoSpan(pulse) &&
+        (!echoPulse || pulse.time > echoPulse.time)) {
+      echoPulse = pulse;
+      echoAge = age;
+    }
+  }
+  pulseEchoTrails.clear();
+  pulseEchoParticles.clear();
+  for (const light of pulseEchoLights) light.alpha = 0;
+  if (echoPulse) {
+    const sprite = backdropPlates[echoPulse.plate_index];
+    const anchors = backdropEmitters.filter(anchor =>
+      anchor.plate_index === echoPulse.plate_index);
+    const seed = pulseSeed(echoPulse);
+    // The same beat always draws the same variation, even when rendered in a
+    // separate chunk. Each beat activates a different subset of image tips.
+    const chosen = anchors.map((anchor, index) => ({
+      anchor, index, rank: pulseRandom(seed, index * 19 + 7),
+    })).sort((a, b) => a.rank - b.rank);
+    const activeCount = Math.min(chosen.length,
+      2 + Math.floor(pulseRandom(seed, 23) * 3));
+    const pulseLife = echoSpan(echoPulse);
+    const rotation = sprite.rotation;
+    const c = Math.cos(rotation), s = Math.sin(rotation);
+    for (let slot = 0; slot < activeCount; slot++) {
+      const { anchor, index: a } = chosen[slot];
+      const localAge = echoAge - .012 * (slot % 3);
+      const life = pulseLife * (.70 + .28 * pulseRandom(seed, a * 17 + 5));
+      if (localAge < 0 || localAge >= life) continue;
+      const phase = Math.min(1, localAge / life);
+      const envelope = Math.sin(Math.min(1, localAge / .065) * Math.PI * .5) *
+        Math.pow(1 - phase, 1.4);
+      const px = (anchor.u - .5) * sprite.width;
+      const py = (anchor.v - .5) * sprite.height;
+      const ox = sprite.x + c * px - s * py;
+      const oy = sprite.y + s * px + c * py;
+      const vx = anchor.dx * width, vy = anchor.dy * strikeY;
+      const magnitude = Math.hypot(vx, vy);
+      const turn = (pulseRandom(seed, a * 17 + 9) - .5) * .66 +
+        .11 * Math.sin(localAge * 8 + pulseRandom(seed, a * 17 + 10) * 6.28);
+      const dc = Math.cos(turn), ds = Math.sin(turn);
+      const dx = vx / magnitude * dc - vy / magnitude * ds;
+      const dy = vx / magnitude * ds + vy / magnitude * dc;
+      const nx = -dy, ny = dx;
+      const tint = colorNumber(anchor.color);
+      const density = .55 + 1.15 * pulseRandom(seed, a * 17 + 11);
+      const light = pulseEchoLights[slot];
+      if (light) {
+        light.x = ox + dx * width * .009 * phase;
+        light.y = oy + dy * width * .009 * phase;
+        light.width = width * (.085 + .055 * phase) *
+          (.7 + .6 * pulseRandom(seed, a * 17 + 12)) * (anchor.weight || 1);
+        light.height = strikeY * (.13 + .06 * phase) * (anchor.weight || 1);
+        light.tint = tint;
+        light.alpha = envelope * (echoPulse.echo_strength || .46) *
+          (anchor.weight || 1) * (.43 + .28 * density);
+      }
+      // A short refracted continuation grows from the actual line ending.
+      const extension = width * (.018 + .043 * Math.min(1, localAge / .20)) *
+        (.62 + .85 * pulseRandom(seed, a * 17 + 13));
+      const ex = ox + dx * extension;
+      const ey = oy + dy * extension;
+      const sway = Math.sin(seed * .19 + a * 2.4 + localAge *
+        (5 + 7 * pulseRandom(seed, a * 17 + 14))) *
+        extension * (.06 + .16 * pulseRandom(seed, a * 17 + 15));
+      const cx1 = ox + dx * extension * .28 + nx * sway;
+      const cy1 = oy + dy * extension * .28 + ny * sway;
+      const cx2 = ox + dx * extension * .72 - nx * sway * .55;
+      const cy2 = oy + dy * extension * .72 - ny * sway * .55;
+      pulseEchoTrails.moveTo(ox, oy)
+        .bezierCurveTo(cx1, cy1, cx2, cy2, ex, ey)
+        .stroke({ color: tint, width: visualScale * (3.7 + 2.2 * density),
+                  alpha: envelope * .13 * density * (anchor.weight || 1) });
+      pulseEchoTrails.moveTo(ox, oy)
+        .bezierCurveTo(cx1, cy1, cx2, cy2, ex, ey)
+        .stroke({ color: 0xf7fbff, width: Math.max(1, visualScale * .75),
+                  alpha: envelope * .42 * density * (anchor.weight || 1) });
+      const count = Math.max(2, Math.round((anchor.count || 6) * density *
+        (echoPulse.spark_count || 26) / 26));
+      for (let i = 0; i < count; i++) {
+        const h1 = Math.sin((seed + 1) * 12.9898 + a * 47.71 + i * 78.233) * 43758.5453;
+        const h2 = Math.sin((seed + 3) * 41.317 + a * 17.13 + i * 27.611) * 19731.7341;
+        const h3 = Math.sin((seed + 7) * 19.173 + a * 23.59 + i * 57.407) * 31141.2937;
+        const r1 = h1 - Math.floor(h1), r2 = h2 - Math.floor(h2);
+        const r3 = h3 - Math.floor(h3);
+        const age = localAge - .105 * r2;
+        const particleLife = (.17 + .34 * r3) *
+          (.68 + .75 * pulseRandom(seed, a * 17 + 16));
+        if (age < 0 || age > particleLife) continue;
+        const q = age / particleLife;
+        const spread = (r1 - .5) * (.65 + .65 * density);
+        const ux = dx * Math.cos(spread) + nx * Math.sin(spread);
+        const uy = dy * Math.cos(spread) + ny * Math.sin(spread);
+        const speed = width * (.055 + .105 * r3) *
+          (.65 + .75 * pulseRandom(seed, a * 17 + 17));
+        const x = ox + nx * width * (r2 - .5) * .006 +
+          ux * speed * age + nx * width * .004 * q * Math.sin(age * 9 + i);
+        const y = oy + ny * strikeY * (r3 - .5) * .009 +
+          uy * speed * age;
+        const alpha = Math.min(1, age / .035) *
+          Math.pow(1 - q, 1.25) * Math.pow(1 - phase, .4) *
+          (.32 + .52 * r3) * (anchor.weight || 1);
+        const size = visualScale * (.55 + 1.15 * r2);
+        pulseEchoParticles.circle(x, y, size * 2.6)
+          .fill({ color: tint, alpha: alpha * .10 });
+        if (i % 3 === 0) pulseEchoParticles.moveTo(x - ux * size, y - uy * size)
+          .lineTo(x + ux * size * 1.8, y + uy * size * 1.8)
+          .stroke({ color: tint, width: Math.max(1, size * .6), alpha });
+        else pulseEchoParticles.circle(x, y, size)
+          .fill({ color: tint, alpha });
+      }
+    }
+  }
+  if (edgeRevealMask) {
+    const phase = (time - edgeReveal.time) / edgeReveal.duration;
+    if (phase <= 0) edgeRevealMask.clear();
+    else if (phase >= 1) edgeRevealMask.clear()
+      .rect(0, 0, width, strikeY).fill(0xffffff);
+    else {
+      const progress = phase * phase * (3 - 2 * phase);
+      drawRefractedRevealMask(edgeRevealMask, progress, time);
+    }
+  }
+  autumnFlecks.clear();
+  for (const fall of timeline.autumn_falls || []) {
+    const fadeIn = Math.max(0, Math.min(1, (time - fall.start) / 1.2));
+    const fadeOut = Math.max(0, Math.min(1, (fall.end - time) / 2.4));
+    const envelope = fadeIn * fadeOut;
+    if (envelope <= 0) continue;
+    for (let i = 0; i < (fall.count || 24); i++) {
+      const seed = i * 73.137;
+      const cycle = 7.5 + (i % 9) * 1.35;
+      const age = ((time - fall.start) / cycle + (seed * .073 % 1) + 1000) % 1;
+      const edge = i % 2 ? 1 : -1;
+      const x = width * (.5 + edge * (.08 + ((seed * .319) % 1) * .36)) +
+        width * (.023 * Math.sin(time * .43 + seed) +
+                 .012 * Math.sin(time * .17 + seed * 2.7));
+      const y = strikeY * (-.10 + age * .79 + .012 * Math.sin(time * .58 + seed));
+      const size = visualScale * (2.7 + (i % 6) * .95);
+      const turn = .38 * Math.sin(time * .8 + seed) +
+        .3 * Math.sin(time * .31 + seed * 1.9);
+      const c = Math.cos(turn), s = Math.sin(turn);
+      const alpha = envelope * (fall.opacity || .18) *
+        Math.sin(Math.PI * age) * (.45 + .55 * Math.sin(seed * 2.1) ** 2);
+      if (alpha < .005) continue;
+      const tipX = size * .42 * c - size * 1.7 * s;
+      const tipY = size * .42 * s + size * 1.7 * c;
+      const wingX = size * .27 * c + size * .8 * s;
+      const wingY = size * .27 * s - size * .8 * c;
+      const tint = i % 7 === 0 ? 0xa9d6dd : i % 3 === 0 ? 0xe8c59a : 0xd49e62;
+      // Thin tumbling prisms and a separate soft trace imply falling autumn
+      // debris without a drawn leaf silhouette or a repeating sprite.
+      autumnFlecks.moveTo(x - tipX * .7, y - tipY * .7)
+        .lineTo(x + tipX * .7, y + tipY * .7)
+        .stroke({ color: tint, width: size * 2.2, alpha: alpha * .12 });
+      autumnFlecks.moveTo(x + tipX, y + tipY)
+        .lineTo(x + wingX, y + wingY)
+        .lineTo(x - tipX, y - tipY)
+        .lineTo(x - wingX, y - wingY)
+        .closePath().fill({ color: tint, alpha: alpha * .72 });
+      autumnFlecks.moveTo(x - tipX * .45, y - tipY * .45)
+        .lineTo(x + tipX * .6, y + tipY * .6)
+        .stroke({ color: 0xffe9c5, width: Math.max(1, size * .16),
+                  alpha: alpha * .48 });
+    }
+  }
+  // Small faceted motes rise from the key contact, keeping the same
+  // understated, nonliteral autumn language as the falling flecks.
+  for (const event of upwardMoteEvents) {
+    const age = time - event.time;
+    if (age < 0 || age > 1.8) continue;
+    const key = keys.get(event.pitch);
+    const center = (key.x0 + key.x1) * .5;
+    for (let i = 0; i < event.count; i++) {
+      const seed = event.pitch * 17.23 + event.time * 3.61 + i * 11.71;
+      const speed = .11 + .055 * Math.sin(seed * .8) ** 2;
+      const x = center + width * (.0038 * Math.sin(seed * 1.3) +
+        .010 * age * Math.sin(seed * .73 + age * 2.1));
+      const y = strikeY * (1 - age * speed - .014 * Math.sin(age * 2 + seed));
+      const size = visualScale * (1.8 + (i % 4) * .64);
+      const alpha = .62 * Math.sin(Math.PI * Math.min(1, age / 1.8)) *
+        (.52 + .48 * Math.sin(seed) ** 2);
+      const tilt = .35 * Math.sin(age * 3.1 + seed);
+      autumnFlecks.moveTo(x - size * tilt, y + size * 1.4)
+        .lineTo(x + size * .8, y)
+        .lineTo(x + size * tilt, y - size * 1.4)
+        .lineTo(x - size * .8, y)
+        .closePath().fill({ color: event.color, alpha: alpha * .64 });
+      autumnFlecks.moveTo(x, y + size * .8)
+        .lineTo(x, y - size * .9)
+        .stroke({ color: 0xffefdc, width: Math.max(1, size * .19), alpha: alpha * .8 });
+    }
+  }
+  const plateEnergy = Math.min(1, plateWeights.reduce((sum, value) => sum + value, 0) * 2.4);
+  const livingTints = [backdropLook.backdrop_light_tint || '#8fd7e9',
+    backdropLook.backdrop_second_tint || '#d9b98a'];
+  for (let i = 0; i < livingLights.length; i++) {
+    const light = livingLights[i];
+    light.x = width * (.25 + i * .49 + .13 * Math.sin(time * (.071 + i * .013) + i * 2.1));
+    light.y = strikeY * (.35 + .18 * Math.sin(time * (.053 + i * .019) + i * 3.4));
+    light.tint = typeof livingTints[i] === 'number' ? livingTints[i] :
+      colorNumber(livingTints[i]);
+    light.alpha = plateEnergy * (i ? .075 : .11) *
+      (.76 + .24 * Math.sin(time * (.37 + i * .11) + i * 1.7));
+  }
+  for (let i = 0; i < backdropCues.length; i++) {
+    const cue = backdropCues[i], light = cueLights[i];
+    const age = time - cue.time;
+    const attack = cue.attack ?? .08, decay = cue.decay ?? .9;
+    const envelope = age < 0 ? 0 : age < attack ? age / attack :
+      Math.exp(-(age - attack) * 4.3 / decay);
+    light.alpha = (cue.strength ?? .3) * envelope;
+    light.x = width * cue.x;
+    light.y = strikeY * cue.y;
+    light.width = width * (cue.radius ?? .36) * 2;
+    light.height = strikeY * (cue.radius ?? .36) * 2;
+    light.tint = colorNumber(cue.color);
+  }
+  refractedVeil.tint = colorNumber(appearance.veil_tint ||
+    appearance.background_tint || '#677789');
+  refractedVeil.alpha = (appearance.refracted_veil ?? 0) *
+    (.88 + .12 * Math.sin(time * .19));
+  refractedVeil.x = width * (-.035 + .018 * Math.sin(time * .053));
+  refractedVeil.y = strikeY * (-.012 + .015 * Math.sin(time * .041));
+  for (const mote of backgroundDust) {
+    mote.sprite.x = mote.x + 11 * visualScale * Math.sin(time * .31 + mote.phase);
+    mote.sprite.y = mote.y - 5 * visualScale * Math.sin(time * .24 + mote.phase);
+    mote.sprite.width = mote.size;
+    mote.sprite.height = mote.size * (1.1 + .25 * Math.sin(time * .77 + mote.phase));
+    mote.sprite.tint = colorNumber(appearance.veil_tint || '#8cbcbf');
+    mote.sprite.alpha = (appearance.background_dust ?? 0) *
+      (.28 + .44 * (.5 + .5 * Math.sin(time * .37 + mote.phase)));
+  }
   const coronaOpacity = appearance.corona_opacity ??
                          appearance.background_motif_opacity ?? 0;
   const photoEclipse = appearance.eclipse_image === 'photo';
@@ -1407,9 +1896,6 @@ function renderAt(time, materialTime = time, presentationTime = time) {
   const photoAlpha = eclipseFade ?
     eclipseFade.peak_alpha * eclipseEnvelope :
     Math.min(1, coronaOpacity * 1.32);
-  if (eclipseLaneCleanupStart !== null)
-    eclipseUpperLanes.alpha = 1 - easeBetween(time,
-      eclipseLaneCleanupStart, eclipseLaneCleanupStart + 1.8);
   darkSun.tint = colorNumber(appearance.corona_tint ?? appearance.horizon_tint);
   darkSun.alpha = photoEclipse ? 0 : coronaOpacity *
     (.92 + .08 * Math.sin(time * .055));
@@ -1861,7 +2347,12 @@ function renderAt(time, materialTime = time, presentationTime = time) {
     (particleStyle === 'fire' ? fireMode : 'procedural'),
     time, fireSourcesAt, appearance.fire_playback_speed ?? 1,
     localAccentFire ? Math.max(.82, fireMix) : fireMix);
-  for (const [pitch, note] of active) {
+  // A foreground orchestral line strikes the same visual keyboard as the
+  // piano. Piano wins if both parts sound the same pitch at this instant.
+  // Opt in per timeline so previously approved movement renders stay exact.
+  const activeKeyboard = timeline.orchestra_pressed_keys ?
+    new Map([...activeLead, ...active]) : active;
+  for (const [pitch, note] of activeKeyboard) {
     const key = keys.get(pitch), color = colorFor(note, time, look);
     const attack = Math.exp(-(time - note.audio_start) * 11);
     contactPoint.roundRect(key.x0 - 1, strikeY - 2 * visualScale,

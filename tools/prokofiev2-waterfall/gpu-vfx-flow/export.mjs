@@ -40,15 +40,16 @@ const fps = Number(fpsArg || 30);
 const visualLead = Number(process.env.WATERFALL_VISUAL_LEAD_SECONDS ?? (0.5 / fps));
 const start = Number(process.env.WATERFALL_START || timeline.render_interval.start_seconds);
 const duration = Number(process.env.WATERFALL_DURATION || timeline.render_interval.duration_seconds);
+const videoOnly = process.env.WATERFALL_VIDEO_ONLY === '1';
 const introLead = Number(timeline.intro?.lead_in_seconds ?? 0);
-if (!Number.isFinite(introLead) || introLead < 0 || introLead >= duration ||
-    (introLead > 0 && start !== 0)) throw new Error('Invalid title lead-in');
+if (!Number.isFinite(introLead) || introLead < 0 ||
+    (!videoOnly && introLead >= duration) ||
+    (introLead > 0 && start !== 0 && !videoOnly)) throw new Error('Invalid title lead-in');
 const frames = Math.round(duration * fps);
 if (!Number.isInteger(frames) || frames <= 0 || fps <= 0) throw new Error('Invalid duration or fps');
 const encodePreset = process.env.WATERFALL_ENCODING_PRESET || 'fast';
 const crf = Number(process.env.WATERFALL_CRF ?? 12);
 const encodeThreads = Number(process.env.WATERFALL_ENCODER_THREADS ?? 4);
-const videoOnly = process.env.WATERFALL_VIDEO_ONLY === '1';
 if (!['ultrafast', 'superfast', 'veryfast', 'faster', 'fast', 'medium', 'slow'].includes(encodePreset) ||
     !Number.isInteger(crf) || crf < 0 || crf > 30 ||
     !Number.isInteger(encodeThreads) || encodeThreads < 1 || encodeThreads > 16)

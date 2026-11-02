@@ -81,7 +81,7 @@ export function validateVisualPreset(preset) {
       'keyboard_tint', 'horizon_tint', 'color_variation', 'orchestra_base_alpha',
       'orchestra_lead_alpha', 'orchestra_lead_start', 'orchestra_lead_end',
       'orchestra_emitter_scale', 'impact_scale', 'particle_white_mix'], 'appearance',
-      ['orchestra_neutral_color', 'orchestra_lead_color', 'particle_style',
+      ['orchestra_neutral_color', 'orchestra_lead_color', 'orchestra_chord_color', 'particle_style',
        'particle_life_scale', 'edge_strength', 'glow_strength',
        'horizon_strength', 'fire_render_mode', 'fire_playback_speed', 'fire_mix',
        'background_tint', 'background_atmosphere',
@@ -89,14 +89,20 @@ export function validateVisualPreset(preset) {
        'keyboard_ember_amount', 'piano_material', 'piano_material_amount',
        'piano_material_opacity', 'piano_material_speed',
        'background_motif_opacity', 'corona_opacity', 'corona_tint',
-       'eclipse_image', 'eclipse_gold_mix']);
+       'eclipse_image', 'eclipse_gold_mix', 'refracted_veil',
+       'veil_tint', 'background_dust', 'plate_a', 'plate_b', 'plate_c',
+       'backdrop_light_tint', 'backdrop_second_tint']);
+    // A sustained orchestral chord can carry its own colour while the
+    // melody and piano retain their independently interpolated palettes.
     if (!['glass', 'crystal', 'metal', 'gilded', 'fracture', 'fire'].includes(appearance.material))
       throw new Error('Unknown material');
     if (appearance.piano_material !== undefined &&
         !['glass', 'crystal', 'metal', 'gilded', 'fracture', 'fire'].includes(appearance.piano_material))
       throw new Error('Unknown piano material');
-    for (const key of ['keyboard_tint', 'horizon_tint', 'background_tint',
-                       'orchestra_neutral_color', 'orchestra_lead_color'])
+    for (const key of ['keyboard_tint', 'horizon_tint', 'background_tint', 'veil_tint',
+                       'backdrop_light_tint', 'backdrop_second_tint',
+                       'orchestra_neutral_color', 'orchestra_lead_color',
+                       'orchestra_chord_color'])
       if (appearance[key] !== undefined && !/^#[0-9a-f]{6}$/i.test(appearance[key]))
         throw new Error(`appearance.${key} must be #RRGGBB`);
     if (appearance.corona_tint !== undefined &&
@@ -122,6 +128,8 @@ export function validateVisualPreset(preset) {
       particle_life_scale: [.1, 2], edge_strength: [0, 2], glow_strength: [0, 2],
       horizon_strength: [0, 2],
       background_atmosphere: [0, 1],
+      refracted_veil: [0, .5], background_dust: [0, .35],
+      plate_a: [0, .5], plate_b: [0, .5], plate_c: [0, .5],
       background_motif_opacity: [0, .4],
       corona_opacity: [0, .8],
       eclipse_gold_mix: [0, 1],
@@ -133,6 +141,8 @@ export function validateVisualPreset(preset) {
       if (value === undefined && ['particle_life_scale', 'edge_strength', 'glow_strength',
           'horizon_strength',
           'fire_playback_speed', 'fire_mix', 'background_atmosphere',
+          'refracted_veil', 'background_dust',
+          'plate_a', 'plate_b', 'plate_c',
           'background_motif_opacity', 'corona_opacity', 'eclipse_gold_mix',
           'keyboard_crystal_amount', 'keyboard_metal_amount',
           'keyboard_ember_amount', 'piano_material_amount',

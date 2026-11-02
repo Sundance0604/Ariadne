@@ -1,0 +1,49 @@
+{
+  "video_time_offset_seconds": 5,
+  "evidence": "MusicXML measure 74 clarinet voice 1 is F4–G4–F4–A5. The two F4 events were removed by cross-part same-pitch simplification against repeated viola F4 accompaniment. At recording 271–281 seconds, pitch-specific onset peaks in the cached first-violin and mid-channel orchestra features precede several later peaks selected by the narrow global matcher.",
+  "remove_score_ids": [
+    "p3-m71-P15-4008",
+    "p3-m74-P17-4114",
+    "p3-m74-P17-4122",
+    "p3-m74-P17-4129",
+    "p3-m74-P17-4136"
+  ],
+  "promote_score_ids": ["p3-m74-P4-4126"],
+  "restore_notes": [
+    {
+      "score_id": "p3-m74-P4-4117",
+      "event_id": "p3-P4-4117",
+      "template_score_id": "p3-m74-P4-4126",
+      "midi_pitch": 65,
+      "score_start_beat": 292.0,
+      "audio_start": 152.181,
+      "audio_end": 152.852
+    },
+    {
+      "score_id": "p3-m74-P4-4131",
+      "event_id": "p3-P4-4131",
+      "template_score_id": "p3-m74-P4-4126",
+      "midi_pitch": 65,
+      "score_start_beat": 294.0,
+      "audio_start": 153.066,
+      "audio_end": 153.766
+    }
+  ],
+  "retime_audio_start": {
+    "p3-m74-P4-4126": 152.835,
+    "p3-full-m143-P15-7509": 271.571,
+    "p3-full-m143-P15-7510": 271.571,
+    "p3-full-m144-P15-7511": 272.020,
+    "p3-full-m144-P15-7512": 272.020,
+    "p3-full-m144-P4-7528": 274.175,
+    "p3-full-m144-P15-7529": 274.993,
+    "p3-full-m144-P4-7533": 275.023,
+    "p3-full-m145-P15-7534": 275.931,
+    "p3-full-m145-P4-7540": 275.951,
+    "p3-full-m145-P4-7543": 276.899,
+    "p3-full-m145-P15-7544": 277.727,
+    "p3-full-m145-P4-7547": 277.927,
+    "p3-full-m145-P4-7548": 278.605,
+    "p3-full-m145-P15-7549": 278.824
+  }
+}

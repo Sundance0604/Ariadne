@@ -1,0 +1,1485 @@
+{
+  "score_notes": 17232,
+  "output_notes": 15960,
+  "piano_score_notes": 5517,
+  "piano_transcribed_attacks": 5586,
+  "piano_matched_after_180": 3727,
+  "piano_stem_spectral_after_180": 85,
+  "piano_mixed_attack_after_180": 102,
+  "piano_unmatched_after_180": 147,
+  "score_piano_events_excluded": 63,
+  "orchestra_pitch_attacks_after_180": 1449,
+  "orchestra_role_measures": 163,
+  "orchestra_acoustic_promotions": [
+    {
+      "measure": 91,
+      "part": "P15",
+      "ratio": 0.839
+    },
+    {
+      "measure": 92,
+      "part": "P3",
+      "ratio": 1.323
+    },
+    {
+      "measure": 98,
+      "part": "P4",
+      "ratio": 1.046
+    },
+    {
+      "measure": 107,
+      "part": "P15",
+      "ratio": 1.414
+    },
+    {
+      "measure": 109,
+      "part": "P15",
+      "ratio": 1.052
+    },
+    {
+      "measure": 114,
+      "part": "P15",
+      "ratio": 1.205
+    },
+    {
+      "measure": 115,
+      "part": "P15",
+      "ratio": 0.968
+    },
+    {
+      "measure": 117,
+      "part": "P15",
+      "ratio": 1.239
+    },
+    {
+      "measure": 121,
+      "part": "P15",
+      "ratio": 0.733
+    },
+    {
+      "measure": 128,
+      "part": "P15",
+      "ratio": 0.877
+    },
+    {
+      "measure": 131,
+      "part": "P17",
+      "ratio": 0.781
+    },
+    {
+      "measure": 133,
+      "part": "P15",
+      "ratio": 0.873
+    },
+    {
+      "measure": 135,
+      "part": "P15",
+      "ratio": 0.633
+    },
+    {
+      "measure": 137,
+      "part": "P15",
+      "ratio": 0.993
+    },
+    {
+      "measure": 162,
+      "part": "P6",
+      "ratio": 1.281
+    },
+    {
+      "measure": 187,
+      "part": "P16",
+      "ratio": 0.824
+    },
+    {
+      "measure": 188,
+      "part": "P15",
+      "ratio": 0.587
+    },
+    {
+      "measure": 189,
+      "part": "P15",
+      "ratio": 0.832
+    },
+    {
+      "measure": 198,
+      "part": "P2",
+      "ratio": 1.321
+    },
+    {
+      "measure": 201,
+      "part": "P2",
+      "ratio": 0.735
+    },
+    {
+      "measure": 204,
+      "part": "P3",
+      "ratio": 1.493
+    },
+    {
+      "measure": 205,
+      "part": "P3",
+      "ratio": 0.911
+    },
+    {
+      "measure": 217,
+      "part": "P2",
+      "ratio": 1.186
+    },
+    {
+      "measure": 218,
+      "part": "P3",
+      "ratio": 0.955
+    },
+    {
+      "measure": 219,
+      "part": "P15",
+      "ratio": 0.737
+    },
+    {
+      "measure": 220,
+      "part": "P15",
+      "ratio": 1.064
+    },
+    {
+      "measure": 224,
+      "part": "P2",
+      "ratio": 1.211
+    },
+    {
+      "measure": 225,
+      "part": "P2",
+      "ratio": 1.209
+    },
+    {
+      "measure": 226,
+      "part": "P2",
+      "ratio": 1.103
+    },
+    {
+      "measure": 229,
+      "part": "P15",
+      "ratio": 0.932
+    },
+    {
+      "measure": 230,
+      "part": "P16",
+      "ratio": 1.141
+    },
+    {
+      "measure": 245,
+      "part": "P15",
+      "ratio": 0.923
+    },
+    {
+      "measure": 246,
+      "part": "P15",
+      "ratio": 1.479
+    },
+    {
+      "measure": 249,
+      "part": "P15",
+      "ratio": 0.776
+    },
+    {
+      "measure": 251,
+      "part": "P15",
+      "ratio": 0.856
+    },
+    {
+      "measure": 267,
+      "part": "P16",
+      "ratio": 1.202
+    },
+    {
+      "measure": 268,
+      "part": "P16",
+      "ratio": 0.916
+    },
+    {
+      "measure": 269,
+      "part": "P15",
+      "ratio": 0.96
+    },
+    {
+      "measure": 270,
+      "part": "P15",
+      "ratio": 1.25
+    },
+    {
+      "measure": 271,
+      "part": "P15",
+      "ratio": 1.218
+    },
+    {
+      "measure": 272,
+      "part": "P15",
+      "ratio": 1.165
+    }
+  ],
+  "orchestra_phrase_bridges": [
+    {
+      "measure": 200,
+      "part": "P2"
+    },
+    {
+      "measure": 214,
+      "part": "P2"
+    },
+    {
+      "measure": 215,
+      "part": "P2"
+    },
+    {
+      "measure": 108,
+      "part": "P15"
+    },
+    {
+      "measure": 116,
+      "part": "P15"
+    },
+    {
+      "measure": 136,
+      "part": "P15"
+    },
+    {
+      "measure": 138,
+      "part": "P15"
+    },
+    {
+      "measure": 139,
+      "part": "P15"
+    },
+    {
+      "measure": 230,
+      "part": "P15"
+    },
+    {
+      "measure": 247,
+      "part": "P15"
+    },
+    {
+      "measure": 248,
+      "part": "P15"
+    },
+    {
+      "measure": 250,
+      "part": "P15"
+    },
+    {
+      "measure": 257,
+      "part": "P16"
+    }
+  ],
+  "release_trims": {
+    "same_key_trimmed": 107,
+    "hand_capacity_trimmed": 69,
+    "global_capacity_trimmed": 1
+  },
+  "separated_piano_sustain_bounds": {
+    "energy_bounded": 56,
+    "median_removed_ms": 198.3
+  },
+  "clock_correction_max_ms": 91.8,
+  "review_piano_notes": [
+    {
+      "measure": 90,
+      "pitch": 84,
+      "predicted_seconds": 183.224,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 90,
+      "pitch": 74,
+      "predicted_seconds": 183.901,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 92,
+      "pitch": 80,
+      "predicted_seconds": 186.383,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 92,
+      "pitch": 80,
+      "predicted_seconds": 186.486,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 92,
+      "pitch": 84,
+      "predicted_seconds": 187.629,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 94,
+      "pitch": 53,
+      "predicted_seconds": 191.641,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 109,
+      "pitch": 86,
+      "predicted_seconds": 214.067,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 117,
+      "pitch": 64,
+      "predicted_seconds": 224.1,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 123,
+      "pitch": 83,
+      "predicted_seconds": 232.453,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 125,
+      "pitch": 62,
+      "predicted_seconds": 235.338,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 127,
+      "pitch": 45,
+      "predicted_seconds": 237.52,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 129,
+      "pitch": 94,
+      "predicted_seconds": 239.884,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 132,
+      "pitch": 50,
+      "predicted_seconds": 243.668,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 136,
+      "pitch": 55,
+      "predicted_seconds": 249.012,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 138,
+      "pitch": 45,
+      "predicted_seconds": 251.906,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 138,
+      "pitch": 45,
+      "predicted_seconds": 252.472,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 139,
+      "pitch": 44,
+      "predicted_seconds": 252.781,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 139,
+      "pitch": 52,
+      "predicted_seconds": 253.421,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 139,
+      "pitch": 36,
+      "predicted_seconds": 253.967,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 148,
+      "pitch": 60,
+      "predicted_seconds": 291.484,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 148,
+      "pitch": 71,
+      "predicted_seconds": 291.484,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 148,
+      "pitch": 67,
+      "predicted_seconds": 292.395,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 149,
+      "pitch": 59,
+      "predicted_seconds": 296.592,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 150,
+      "pitch": 64,
+      "predicted_seconds": 298.395,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 150,
+      "pitch": 48,
+      "predicted_seconds": 298.98,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 150,
+      "pitch": 52,
+      "predicted_seconds": 299.197,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 151,
+      "pitch": 45,
+      "predicted_seconds": 302.926,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 153,
+      "pitch": 64,
+      "predicted_seconds": 311.452,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 153,
+      "pitch": 71,
+      "predicted_seconds": 311.452,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 154,
+      "pitch": 48,
+      "predicted_seconds": 315.71,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 154,
+      "pitch": 71,
+      "predicted_seconds": 315.819,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 154,
+      "pitch": 53,
+      "predicted_seconds": 315.927,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 154,
+      "pitch": 57,
+      "predicted_seconds": 316.144,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 154,
+      "pitch": 69,
+      "predicted_seconds": 316.144,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 157,
+      "pitch": 68,
+      "predicted_seconds": 329.685,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 157,
+      "pitch": 82,
+      "predicted_seconds": 329.685,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 157,
+      "pitch": 75,
+      "predicted_seconds": 330.035,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 157,
+      "pitch": 74,
+      "predicted_seconds": 330.979,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 158,
+      "pitch": 68,
+      "predicted_seconds": 332.273,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 158,
+      "pitch": 71,
+      "predicted_seconds": 333.407,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 158,
+      "pitch": 74,
+      "predicted_seconds": 334.586,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 158,
+      "pitch": 76,
+      "predicted_seconds": 335.957,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 159,
+      "pitch": 73,
+      "predicted_seconds": 338.124,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 159,
+      "pitch": 70,
+      "predicted_seconds": 339.597,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 159,
+      "pitch": 77,
+      "predicted_seconds": 339.597,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 159,
+      "pitch": 69,
+      "predicted_seconds": 339.931,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 160,
+      "pitch": 85,
+      "predicted_seconds": 342.157,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 160,
+      "pitch": 77,
+      "predicted_seconds": 344.136,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 160,
+      "pitch": 85,
+      "predicted_seconds": 344.247,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 160,
+      "pitch": 89,
+      "predicted_seconds": 344.349,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 160,
+      "pitch": 69,
+      "predicted_seconds": 344.463,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 160,
+      "pitch": 76,
+      "predicted_seconds": 345.692,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 161,
+      "pitch": 73,
+      "predicted_seconds": 346.826,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 161,
+      "pitch": 85,
+      "predicted_seconds": 346.826,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 161,
+      "pitch": 82,
+      "predicted_seconds": 347.71,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 161,
+      "pitch": 61,
+      "predicted_seconds": 348.139,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 161,
+      "pitch": 73,
+      "predicted_seconds": 348.356,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 161,
+      "pitch": 46,
+      "predicted_seconds": 348.568,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 161,
+      "pitch": 70,
+      "predicted_seconds": 348.568,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 161,
+      "pitch": 72,
+      "predicted_seconds": 350.389,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 161,
+      "pitch": 74,
+      "predicted_seconds": 350.482,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 161,
+      "pitch": 74,
+      "predicted_seconds": 350.699,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 161,
+      "pitch": 82,
+      "predicted_seconds": 350.699,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 161,
+      "pitch": 91,
+      "predicted_seconds": 350.808,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 161,
+      "pitch": 77,
+      "predicted_seconds": 350.909,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 161,
+      "pitch": 82,
+      "predicted_seconds": 350.909,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 161,
+      "pitch": 75,
+      "predicted_seconds": 351.071,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 161,
+      "pitch": 79,
+      "predicted_seconds": 351.071,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 162,
+      "pitch": 85,
+      "predicted_seconds": 351.294,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 162,
+      "pitch": 65,
+      "predicted_seconds": 353.365,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 162,
+      "pitch": 87,
+      "predicted_seconds": 353.365,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 162,
+      "pitch": 82,
+      "predicted_seconds": 353.645,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 162,
+      "pitch": 75,
+      "predicted_seconds": 355.375,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 163,
+      "pitch": 89,
+      "predicted_seconds": 356.097,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 163,
+      "pitch": 94,
+      "predicted_seconds": 356.202,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 165,
+      "pitch": 76,
+      "predicted_seconds": 363.186,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 167,
+      "pitch": 56,
+      "predicted_seconds": 369.815,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 167,
+      "pitch": 34,
+      "predicted_seconds": 372.009,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 168,
+      "pitch": 41,
+      "predicted_seconds": 374.8,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 168,
+      "pitch": 41,
+      "predicted_seconds": 375.218,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 169,
+      "pitch": 48,
+      "predicted_seconds": 377.902,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 177,
+      "pitch": 53,
+      "predicted_seconds": 390.773,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 177,
+      "pitch": 41,
+      "predicted_seconds": 391.062,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 177,
+      "pitch": 53,
+      "predicted_seconds": 391.062,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 178,
+      "pitch": 52,
+      "predicted_seconds": 392.804,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 204,
+      "pitch": 71,
+      "predicted_seconds": 432.63,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 207,
+      "pitch": 83,
+      "predicted_seconds": 438.557,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 209,
+      "pitch": 94,
+      "predicted_seconds": 443.287,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 209,
+      "pitch": 90,
+      "predicted_seconds": 443.913,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 214,
+      "pitch": 85,
+      "predicted_seconds": 454.244,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 214,
+      "pitch": 87,
+      "predicted_seconds": 455.481,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 214,
+      "pitch": 82,
+      "predicted_seconds": 456.119,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 215,
+      "pitch": 85,
+      "predicted_seconds": 456.705,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 216,
+      "pitch": 85,
+      "predicted_seconds": 458.814,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 220,
+      "pitch": 72,
+      "predicted_seconds": 469.237,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 220,
+      "pitch": 77,
+      "predicted_seconds": 469.845,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 223,
+      "pitch": 85,
+      "predicted_seconds": 476.429,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 225,
+      "pitch": 74,
+      "predicted_seconds": 481.906,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 225,
+      "pitch": 74,
+      "predicted_seconds": 483.127,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 226,
+      "pitch": 62,
+      "predicted_seconds": 485.004,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 226,
+      "pitch": 74,
+      "predicted_seconds": 485.004,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 226,
+      "pitch": 92,
+      "predicted_seconds": 486.299,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 229,
+      "pitch": 65,
+      "predicted_seconds": 493.794,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 230,
+      "pitch": 72,
+      "predicted_seconds": 494.814,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 234,
+      "pitch": 84,
+      "predicted_seconds": 506.76,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 234,
+      "pitch": 84,
+      "predicted_seconds": 507.396,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 234,
+      "pitch": 88,
+      "predicted_seconds": 507.396,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 234,
+      "pitch": 91,
+      "predicted_seconds": 507.396,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 235,
+      "pitch": 104,
+      "predicted_seconds": 507.501,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 235,
+      "pitch": 82,
+      "predicted_seconds": 508.281,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 241,
+      "pitch": 81,
+      "predicted_seconds": 520.526,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 242,
+      "pitch": 79,
+      "predicted_seconds": 522.199,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 243,
+      "pitch": 36,
+      "predicted_seconds": 523.455,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 245,
+      "pitch": 64,
+      "predicted_seconds": 527.599,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 245,
+      "pitch": 76,
+      "predicted_seconds": 528.016,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 246,
+      "pitch": 72,
+      "predicted_seconds": 528.681,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 246,
+      "pitch": 76,
+      "predicted_seconds": 529.202,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 246,
+      "pitch": 61,
+      "predicted_seconds": 529.725,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 246,
+      "pitch": 68,
+      "predicted_seconds": 529.725,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 247,
+      "pitch": 75,
+      "predicted_seconds": 530.976,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 248,
+      "pitch": 61,
+      "predicted_seconds": 531.845,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 248,
+      "pitch": 74,
+      "predicted_seconds": 532.155,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 249,
+      "pitch": 61,
+      "predicted_seconds": 533.536,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 249,
+      "pitch": 77,
+      "predicted_seconds": 533.536,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 249,
+      "pitch": 51,
+      "predicted_seconds": 534.396,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 249,
+      "pitch": 48,
+      "predicted_seconds": 534.778,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 249,
+      "pitch": 54,
+      "predicted_seconds": 534.778,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 249,
+      "pitch": 70,
+      "predicted_seconds": 534.778,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 249,
+      "pitch": 60,
+      "predicted_seconds": 534.882,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 250,
+      "pitch": 62,
+      "predicted_seconds": 536.169,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 250,
+      "pitch": 61,
+      "predicted_seconds": 536.586,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 251,
+      "pitch": 46,
+      "predicted_seconds": 537.106,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 253,
+      "pitch": 36,
+      "predicted_seconds": 540.631,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 253,
+      "pitch": 36,
+      "predicted_seconds": 541.052,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 253,
+      "pitch": 36,
+      "predicted_seconds": 541.476,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 257,
+      "pitch": 36,
+      "predicted_seconds": 547.476,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 260,
+      "pitch": 35,
+      "predicted_seconds": 554.332,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 265,
+      "pitch": 41,
+      "predicted_seconds": 561.816,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 266,
+      "pitch": 50,
+      "predicted_seconds": 563.281,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 273,
+      "pitch": 74,
+      "predicted_seconds": 573.351,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 273,
+      "pitch": 91,
+      "predicted_seconds": 573.942,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 274,
+      "pitch": 91,
+      "predicted_seconds": 574.669,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 274,
+      "pitch": 74,
+      "predicted_seconds": 574.765,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 274,
+      "pitch": 74,
+      "predicted_seconds": 575.416,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 274,
+      "pitch": 86,
+      "predicted_seconds": 575.416,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 276,
+      "pitch": 36,
+      "predicted_seconds": 578.31,
+      "reason": "piano score note without matching separated attack"
+    },
+    {
+      "measure": 276,
+      "pitch": 48,
+      "predicted_seconds": 578.31,
+      "reason": "piano score note without matching separated attack"
+    }
+  ],
+  "excluded_score_events": [
+    {
+      "measure": 95,
+      "pitch": 80,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 154,
+      "pitch": 65,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 206,
+      "pitch": 98,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 235,
+      "pitch": 91,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 235,
+      "pitch": 93,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 235,
+      "pitch": 95,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 235,
+      "pitch": 96,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 235,
+      "pitch": 103,
+      "reason": "physically impossible XML chord; no separated piano attack"
+    },
+    {
+      "measure": 235,
+      "pitch": 91,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 235,
+      "pitch": 93,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 235,
+      "pitch": 95,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 235,
+      "pitch": 96,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 235,
+      "pitch": 103,
+      "reason": "physically impossible XML chord; no separated piano attack"
+    },
+    {
+      "measure": 236,
+      "pitch": 86,
+      "reason": "physically impossible XML chord; no separated piano attack"
+    },
+    {
+      "measure": 236,
+      "pitch": 88,
+      "reason": "physically impossible XML chord; no separated piano attack"
+    },
+    {
+      "measure": 236,
+      "pitch": 89,
+      "reason": "physically impossible XML chord; no separated piano attack"
+    },
+    {
+      "measure": 236,
+      "pitch": 91,
+      "reason": "physically impossible XML chord; no separated piano attack"
+    },
+    {
+      "measure": 236,
+      "pitch": 91,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 236,
+      "pitch": 93,
+      "reason": "physically impossible XML chord; no separated piano attack"
+    },
+    {
+      "measure": 236,
+      "pitch": 93,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 236,
+      "pitch": 95,
+      "reason": "physically impossible XML chord; no separated piano attack"
+    },
+    {
+      "measure": 236,
+      "pitch": 95,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 236,
+      "pitch": 96,
+      "reason": "physically impossible XML chord; no separated piano attack"
+    },
+    {
+      "measure": 236,
+      "pitch": 96,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 236,
+      "pitch": 98,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 236,
+      "pitch": 98,
+      "reason": "physically impossible XML chord; no separated piano attack"
+    },
+    {
+      "measure": 236,
+      "pitch": 100,
+      "reason": "physically impossible XML chord; no separated piano attack"
+    },
+    {
+      "measure": 236,
+      "pitch": 101,
+      "reason": "physically impossible XML chord; no separated piano attack"
+    },
+    {
+      "measure": 236,
+      "pitch": 103,
+      "reason": "physically impossible XML chord; no separated piano attack"
+    },
+    {
+      "measure": 240,
+      "pitch": 82,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 240,
+      "pitch": 88,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 240,
+      "pitch": 92,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 240,
+      "pitch": 80,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 240,
+      "pitch": 86,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 240,
+      "pitch": 90,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 241,
+      "pitch": 79,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 241,
+      "pitch": 85,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 241,
+      "pitch": 89,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 241,
+      "pitch": 75,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 241,
+      "pitch": 81,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 241,
+      "pitch": 85,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 241,
+      "pitch": 72,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 241,
+      "pitch": 78,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 241,
+      "pitch": 82,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 242,
+      "pitch": 73,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 242,
+      "pitch": 77,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 242,
+      "pitch": 84,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 242,
+      "pitch": 76,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 242,
+      "pitch": 80,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 242,
+      "pitch": 87,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 242,
+      "pitch": 75,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 242,
+      "pitch": 79,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 242,
+      "pitch": 86,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 243,
+      "pitch": 77,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 243,
+      "pitch": 77,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 243,
+      "pitch": 89,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 243,
+      "pitch": 89,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 243,
+      "pitch": 80,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 243,
+      "pitch": 92,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 256,
+      "pitch": 36,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 259,
+      "pitch": 50,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 260,
+      "pitch": 44,
+      "reason": "duplicate written key at same attack"
+    },
+    {
+      "measure": 260,
+      "pitch": 36,
+      "reason": "duplicate written key at same attack"
+    }
+  ]
+}

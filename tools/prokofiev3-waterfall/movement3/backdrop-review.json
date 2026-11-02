@@ -1,0 +1,47 @@
+{
+  "time_base": "finished_video_seconds",
+  "title_lead_seconds": 5,
+  "asset_selection_pending": false,
+  "selected_assets": {
+    "A": "candidate-backgrounds/A-selected-original.png",
+    "B": "candidate-backgrounds/B12-oil-harbor-sailboat-dusk.png"
+  },
+  "maximum_blend": {"A": 0.288, "B": 0.256},
+  "cues": [
+    {
+      "plate": "A",
+      "keyframes": [
+        {"time": 103, "opacity": 0},
+        {"time": 115, "opacity": 1},
+        {"time": 148, "opacity": 1},
+        {"time": 160, "opacity": 0}
+      ]
+    },
+    {
+      "plate": "B",
+      "keyframes": [
+        {"time": 164, "opacity": 0},
+        {"time": 176, "opacity": 1},
+        {"time": 205, "opacity": 1},
+        {"time": 219, "opacity": 0}
+      ]
+    },
+    {
+      "plate": "B",
+      "keyframes": [
+        {"time": 454, "opacity": 0},
+        {"time": 466, "opacity": 1},
+        {"time": 492, "opacity": 1},
+        {"time": 502, "opacity": 0}
+      ]
+    },
+    {
+      "plate": "A",
+      "keyframes": [
+        {"time": 504, "opacity": 0},
+        {"time": 515, "opacity": 1},
+        {"time": 623, "opacity": 1}
+      ]
+    }
+  ]
+}

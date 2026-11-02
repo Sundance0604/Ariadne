@@ -1,0 +1,20 @@
+# The reviewed score/audio data and scripts are committed; inputs and generated evidence stay local.
+movement1/inputs/
+movement3/inputs/
+**/.venv*/
+**/model/
+**/models/
+**/piano-evidence/
+**/orchestra-evidence/
+**/orchestra-full-features/
+**/piano-sustain-features/
+**/render-parts/
+**/full-render-parts/
+**/scratch/
+**/*.mid
+**/*.midi
+**/*.npz
+**/*.wav
+**/*.mp3
+**/*.mxl
+**/*.pdf
